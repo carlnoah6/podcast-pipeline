@@ -1,0 +1,28 @@
+name: Sync to HuggingFace
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install huggingface-hub
+        run: pip install huggingface-hub
+
+      - name: Sync to HuggingFace Dataset
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_REPO: ${{ vars.HF_DATASET_REPO }}
+        run: python scripts/sync_hf.py --repo "$HF_REPO"
