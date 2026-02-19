@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Modal
+.modal/
+
+# Data (large files)
+data/audio/
+data/raw/
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+
+# Jupyter
+.ipynb_checkpoints/

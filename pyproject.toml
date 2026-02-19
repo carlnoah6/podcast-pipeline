@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "podcast-pipeline"
+version = "0.1.0"
+description = "Podcast transcription pipeline: Modal Whisper + CI/CD + HuggingFace Dataset sync"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "modal>=0.73",
+    "openai-whisper>=20240930",
+    "huggingface-hub>=0.27",
+    "feedparser>=6.0",
+    "pydub>=0.25",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.8",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
