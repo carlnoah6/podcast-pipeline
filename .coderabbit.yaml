@@ -1,0 +1,58 @@
+# CodeRabbit configuration for podcast-pipeline
+# Docs: https://docs.coderabbit.ai/guides/configure-coderabbit
+
+language: en-US
+
+reviews:
+  # Auto-review every PR
+  auto_review:
+    enabled: true
+    drafts: false
+
+  # Focus areas matching our project structure
+  path_instructions:
+    - path: "src/transcribe/**"
+      instructions: |
+        Focus on Modal configuration correctness (GPU type, timeout, retries),
+        Whisper model usage, and audio processing edge cases (empty files,
+        corrupt audio, very long episodes). Check resource cleanup.
+    - path: "src/ingest/**"
+      instructions: |
+        Check RSS parsing robustness, URL validation, and error handling for
+        network failures. Verify feed filtering logic.
+    - path: "src/postprocess/**"
+      instructions: |
+        Review transcript formatting, segment boundary handling, and metadata
+        consistency. Check for encoding issues with CJK text.
+    - path: "src/publish/**"
+      instructions: |
+        Verify HuggingFace Hub API usage, dataset schema consistency, and
+        proper authentication handling. Check for data loss scenarios.
+    - path: "scripts/**"
+      instructions: |
+        Check CLI argument handling, error reporting, and exit codes.
+        Verify scripts work both standalone and from CI.
+    - path: ".github/workflows/**"
+      instructions: |
+        Verify workflow triggers, secret usage, job dependencies, and
+        caching strategy. Check for security issues with third-party actions.
+    - path: "tests/**"
+      instructions: |
+        Check test coverage, fixture quality, and assertion specificity.
+        Ensure mocks match real API contracts.
+
+  # Review profile
+  profile: chill
+  high_level_summary: true
+  poem: false
+  review_status: true
+
+  # Tools
+  tools:
+    ruff:
+      enabled: true
+    shellcheck:
+      enabled: true
+
+chat:
+  auto_reply: true
