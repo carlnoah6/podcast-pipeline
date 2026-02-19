@@ -6,7 +6,6 @@ to the data/transcripts/ directory, ready for HuggingFace Dataset sync.
 
 from __future__ import annotations
 
-import json
 import logging
 from pathlib import Path
 

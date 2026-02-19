@@ -11,14 +11,13 @@ from pathlib import Path
 
 import pytest
 
-from src.models import Episode, TranscriptionResult
 from src.ingest.filter import (
     filter_episodes,
     is_dialogue,
     is_paid_or_preview,
 )
+from src.models import Episode, TranscriptionResult
 from src.postprocess.formatter import dict_to_result, save_transcript
-
 
 # ---------------------------------------------------------------------------
 # Fixtures
