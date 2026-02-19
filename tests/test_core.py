@@ -23,6 +23,7 @@ from src.postprocess.formatter import dict_to_result, save_transcript
 # Fixtures
 # ---------------------------------------------------------------------------
 
+
 def _make_episode(**overrides) -> Episode:
     defaults = dict(
         episode_id="ep001",
@@ -39,6 +40,7 @@ def _make_episode(**overrides) -> Episode:
 # ---------------------------------------------------------------------------
 # Filter tests
 # ---------------------------------------------------------------------------
+
 
 class TestPaidFilter:
     def test_small_file_is_paid(self):
@@ -65,9 +67,21 @@ class TestPaidFilter:
 
 
 class TestDialogueFilter:
-    @pytest.mark.parametrize("keyword", [
-        "对话", "对谈", "访谈", "聊聊", "圆桌", "连麦", "串台", "嘉宾", "特邀", "专访",
-    ])
+    @pytest.mark.parametrize(
+        "keyword",
+        [
+            "对话",
+            "对谈",
+            "访谈",
+            "聊聊",
+            "圆桌",
+            "连麦",
+            "串台",
+            "嘉宾",
+            "特邀",
+            "专访",
+        ],
+    )
     def test_dialogue_keywords(self, keyword):
         ep = _make_episode(title=f"和张三{keyword}创业那些事")
         assert is_dialogue(ep) is True
@@ -103,6 +117,7 @@ class TestFilterEpisodes:
 # ---------------------------------------------------------------------------
 # Model tests
 # ---------------------------------------------------------------------------
+
 
 class TestTranscriptionResult:
     def test_auto_word_count(self):
@@ -144,6 +159,7 @@ class TestTranscriptionResult:
 # ---------------------------------------------------------------------------
 # Formatter tests
 # ---------------------------------------------------------------------------
+
 
 class TestFormatter:
     def test_save_transcript_creates_files(self):

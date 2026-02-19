@@ -20,9 +20,7 @@ MIN_DURATION_SECONDS = 60  # 1 minute
 
 # Chinese keywords indicating conversation/interview format.
 # Matches: 对话, 对谈, 访谈, 聊聊, 圆桌, 连麦, 串台, 嘉宾, 特邀, 专访
-DIALOGUE_KEYWORDS = re.compile(
-    r"对话|对谈|访谈|聊聊|圆桌|连麦|串台|嘉宾|特邀|专访"
-)
+DIALOGUE_KEYWORDS = re.compile(r"对话|对谈|访谈|聊聊|圆桌|连麦|串台|嘉宾|特邀|专访")
 
 
 def is_paid_or_preview(episode: Episode) -> bool:
