@@ -18,11 +18,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install huggingface-hub
-        run: pip install huggingface-hub
+      - name: Install dependencies
+        run: pip install huggingface-hub datasets pyarrow
 
       - name: Sync to HuggingFace Dataset
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          HF_REPO: ${{ vars.HF_DATASET_REPO }}
-        run: python scripts/sync_hf.py --repo "$HF_REPO"
+        run: python scripts/sync_hf.py --repo carlnoah6/podcast-pipeline-transcripts
