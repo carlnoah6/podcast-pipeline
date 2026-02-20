@@ -19,8 +19,11 @@ MIN_AUDIO_BYTES = 1_000_000  # 1 MB
 MIN_DURATION_SECONDS = 60  # 1 minute
 
 # Chinese keywords indicating conversation/interview format.
-# Matches: 对话, 对谈, 访谈, 聊聊, 圆桌, 连麦, 串台, 嘉宾, 特邀, 专访
-DIALOGUE_KEYWORDS = re.compile(r"对话|对谈|访谈|聊聊|圆桌|连麦|串台|嘉宾|特邀|专访")
+# Matches: 对话, 对谈, 访谈, 聊聊, 圆桌, 连麦, 串台, 嘉宾, 特邀, 专访, 做客
+DIALOGUE_KEYWORDS = re.compile(r"对话|对谈|访谈|聊聊|圆桌|连麦|串台|嘉宾|特邀|专访|做客")
+
+# Titles indicating non-standard episodes (intro, trailer, bonus, etc.)
+SPECIAL_KEYWORDS = re.compile(r"^0-|播客介绍|预告|trailer|bonus", re.IGNORECASE)
 
 
 def is_paid_or_preview(episode: Episode) -> bool:
@@ -46,11 +49,20 @@ def is_dialogue(episode: Episode) -> bool:
     return False
 
 
+def is_special(episode: Episode) -> bool:
+    """Return True if the episode is a special/intro/trailer episode."""
+    if SPECIAL_KEYWORDS.search(episode.title):
+        logger.debug("Filtered (special episode): %s", episode.title)
+        return True
+    return False
+
+
 def filter_episodes(
     episodes: list[Episode],
     *,
     skip_paid: bool = True,
     skip_dialogue: bool = True,
+    skip_special: bool = True,
 ) -> list[Episode]:
     """Apply all filters and return episodes suitable for transcription.
 
@@ -58,6 +70,7 @@ def filter_episodes(
         episodes: Raw episode list from the RSS parser.
         skip_paid: Drop episodes that look like paid previews.
         skip_dialogue: Drop episodes with dialogue keywords in the title.
+        skip_special: Drop intro/trailer/bonus episodes.
 
     Returns:
         Filtered list of episodes.
@@ -65,6 +78,7 @@ def filter_episodes(
     result: list[Episode] = []
     paid_count = 0
     dialogue_count = 0
+    special_count = 0
 
     for ep in episodes:
         if skip_paid and is_paid_or_preview(ep):
@@ -73,13 +87,17 @@ def filter_episodes(
         if skip_dialogue and is_dialogue(ep):
             dialogue_count += 1
             continue
+        if skip_special and is_special(ep):
+            special_count += 1
+            continue
         result.append(ep)
 
     logger.info(
-        "Filter: %d input → %d kept (paid/preview=%d, dialogue=%d)",
+        "Filter: %d input → %d kept (paid/preview=%d, dialogue=%d, special=%d)",
         len(episodes),
         len(result),
         paid_count,
         dialogue_count,
+        special_count,
     )
     return result
