@@ -1,7 +1,9 @@
-"""RSS feed parser for Xiaoyuzhou (小宇宙) podcasts.
+"""RSS feed parser for podcast feeds.
 
-Xiaoyuzhou exposes standard RSS feeds at:
-    https://api.xiaoyuzhoufm.com/v1/podcast/rss/{podcast_id}
+Supports:
+  - Xiaoyuzhou (小宇宙) RSS: https://api.xiaoyuzhoufm.com/v1/podcast/rss/{id}
+  - Apple Podcast RSS (via xyzfm.space or any standard podcast RSS)
+  - Any standard podcast RSS feed URL
 
 The parser extracts episode metadata and audio URLs from the feed.
 """

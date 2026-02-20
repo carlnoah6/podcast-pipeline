@@ -15,6 +15,7 @@ from src.ingest.filter import (
     filter_episodes,
     is_dialogue,
     is_paid_or_preview,
+    is_special,
 )
 from src.models import Episode, TranscriptionResult
 from src.postprocess.formatter import dict_to_result, save_transcript
@@ -91,6 +92,20 @@ class TestDialogueFilter:
         assert is_dialogue(ep) is False
 
 
+class TestSpecialFilter:
+    def test_intro_episode(self):
+        ep = _make_episode(title="0-播客介绍")
+        assert is_special(ep) is True
+
+    def test_trailer(self):
+        ep = _make_episode(title="Trailer: 新节目预告")
+        assert is_special(ep) is True
+
+    def test_normal_passes(self):
+        ep = _make_episode(title="293-现代哲学如何在重复中寻找意义")
+        assert is_special(ep) is False
+
+
 class TestFilterEpisodes:
     def test_combined_filter(self):
         episodes = [
@@ -98,6 +113,7 @@ class TestFilterEpisodes:
             _make_episode(episode_id="paid", audio_size=100_000),
             _make_episode(episode_id="short", duration=10.0),
             _make_episode(episode_id="talk", title="和朋友聊聊AI"),
+            _make_episode(episode_id="intro", title="0-播客介绍"),
             _make_episode(episode_id="ok2"),
         ]
         result = filter_episodes(episodes)
@@ -108,10 +124,13 @@ class TestFilterEpisodes:
         episodes = [
             _make_episode(episode_id="paid", audio_size=100_000),
             _make_episode(episode_id="talk", title="专访某大佬"),
+            _make_episode(episode_id="intro", title="0-播客介绍"),
         ]
-        # Disable both filters
-        result = filter_episodes(episodes, skip_paid=False, skip_dialogue=False)
-        assert len(result) == 2
+        # Disable all filters
+        result = filter_episodes(
+            episodes, skip_paid=False, skip_dialogue=False, skip_special=False
+        )
+        assert len(result) == 3
 
 
 # ---------------------------------------------------------------------------
