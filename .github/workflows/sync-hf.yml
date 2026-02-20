@@ -1,28 +1,20 @@
-name: Sync to HuggingFace
+name: Sync Missing Data to HF
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "data/**"
+  workflow_dispatch:
+
+env:
+  MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+  MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+  HF_TOKEN: ${{ secrets.HF_TOKEN }}
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: Install huggingface-hub
-        run: pip install huggingface-hub
-
-      - name: Sync to HuggingFace Dataset
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-          HF_REPO: ${{ vars.HF_DATASET_REPO }}
-        run: python scripts/sync_hf.py --repo "$HF_REPO"
+      - run: pip install -e . modal huggingface_hub
+      - run: python scripts/sync_hf.py
