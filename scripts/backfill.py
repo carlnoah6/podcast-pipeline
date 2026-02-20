@@ -86,7 +86,7 @@ def run(
         logger.info("Remaining after this batch: %d", len(episodes) - len(batch))
         return 0
 
-    # 6. Transcribe
+    # 6. Transcribe (parallel via Modal)
     try:
         from src.transcribe.modal_whisper import transcribe_episode
     except ImportError:
@@ -95,21 +95,34 @@ def run(
 
     output_dir.mkdir(parents=True, exist_ok=True)
     success = 0
-    for i, ep in enumerate(batch):
-        logger.info("[%d/%d] Transcribing: %s — %s", i + 1, len(batch), ep.episode_id, ep.title)
+
+    logger.info("Launching %d transcriptions in parallel...", len(batch))
+
+    # Use Modal's .starmap() for parallel execution
+    call_args = [
+        (ep.audio_url, ep.episode_id, ep.title, ep.date, ep.duration)
+        for ep in batch
+    ]
+
+    for i, (result, ep) in enumerate(
+        zip(
+            transcribe_episode.starmap(call_args),
+            batch,
+        )
+    ):
         try:
-            result = transcribe_episode.remote(
-                audio_url=ep.audio_url,
-                episode_id=ep.episode_id,
-                title=ep.title,
-                date=ep.date,
-                duration=ep.duration,
-            )
             save_transcript(result, output_dir=output_dir)
             success += 1
-            logger.info("  Done: %s (%d words)", ep.episode_id, result.get("word_count", 0))
+            logger.info(
+                "[%d/%d] Done: %s — %s (%d words)",
+                i + 1,
+                len(batch),
+                ep.episode_id,
+                ep.title,
+                result.get("word_count", 0),
+            )
         except Exception:
-            logger.exception("  Failed: %s", ep.episode_id)
+            logger.exception("[%d/%d] Failed to save: %s", i + 1, len(batch), ep.episode_id)
 
     remaining = len(episodes) - len(batch)
     logger.info(
