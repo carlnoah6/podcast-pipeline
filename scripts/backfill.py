@@ -135,6 +135,8 @@ def run(
                 logger.exception("[%d/%d] Failed to save: %s", i + 1, len(batch), ep.episode_id)
 
     # Upload audio to HuggingFace (separate Modal app, CPU only)
+    # Wrapped in try/except so audio failures don't block transcript saving
+    audio_success = 0
     if hf_token:
         logger.info("Uploading %d audio files to HuggingFace...", len(batch))
         # Ensure HF dataset repo exists
@@ -146,28 +148,29 @@ def run(
         except Exception:
             logger.warning("Could not create/verify HF repo (will try upload anyway)")
 
-        audio_success = 0
-        with audio_app.run():
-            for i, (result, ep) in enumerate(
-                zip(
-                    download_and_upload_audio.starmap(audio_args),
-                    batch,
-                )
-            ):
-                try:
-                    audio_success += 1
-                    logger.info(
-                        "[%d/%d] Audio uploaded: %s (%.1f MB)",
-                        i + 1,
-                        len(batch),
-                        result["filename"],
-                        result["size_mb"],
+        try:
+            with audio_app.run():
+                for i, (result, ep) in enumerate(
+                    zip(
+                        download_and_upload_audio.starmap(audio_args),
+                        batch,
                     )
-                except Exception:
-                    logger.exception("[%d/%d] Audio upload failed: %s", i + 1, len(batch), ep.episode_id)
+                ):
+                    try:
+                        audio_success += 1
+                        logger.info(
+                            "[%d/%d] Audio uploaded: %s (%.1f MB)",
+                            i + 1,
+                            len(batch),
+                            result["filename"],
+                            result["size_mb"],
+                        )
+                    except Exception:
+                        logger.exception("[%d/%d] Audio upload failed: %s", i + 1, len(batch), ep.episode_id)
+        except Exception:
+            logger.exception("Audio upload batch failed (transcripts are still saved)")
     else:
         logger.warning("HF_TOKEN not set — skipping audio upload to HuggingFace")
-        audio_success = 0
 
     remaining = len(episodes) - len(batch)
     logger.info(
