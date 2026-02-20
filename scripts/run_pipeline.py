@@ -70,27 +70,28 @@ def run(
 
     # 5. Transcribe via Modal
     try:
-        from src.transcribe.modal_whisper import transcribe_episode
+        from src.transcribe.modal_whisper import app as modal_app, transcribe_episode
     except ImportError:
         logger.error("Modal not available. Install with: pip install modal")
         return 1
 
     success = 0
-    for ep in episodes:
-        logger.info("Transcribing: %s — %s", ep.episode_id, ep.title)
-        try:
-            result = transcribe_episode.remote(
-                audio_url=ep.audio_url,
-                episode_id=ep.episode_id,
-                title=ep.title,
-                date=ep.date,
-                duration=ep.duration,
-            )
-            save_transcript(result, output_dir=output_dir)
-            success += 1
-            logger.info("Done: %s (%d words)", ep.episode_id, result.get("word_count", 0))
-        except Exception:
-            logger.exception("Failed to transcribe: %s", ep.episode_id)
+    with modal_app.run():
+        for ep in episodes:
+            logger.info("Transcribing: %s — %s", ep.episode_id, ep.title)
+            try:
+                result = transcribe_episode.remote(
+                    audio_url=ep.audio_url,
+                    episode_id=ep.episode_id,
+                    title=ep.title,
+                    date=ep.date,
+                    duration=ep.duration,
+                )
+                save_transcript(result, output_dir=output_dir)
+                success += 1
+                logger.info("Done: %s (%d words)", ep.episode_id, result.get("word_count", 0))
+            except Exception:
+                logger.exception("Failed to transcribe: %s", ep.episode_id)
 
     logger.info("Pipeline complete: %d/%d transcribed", success, len(episodes))
     return 0
