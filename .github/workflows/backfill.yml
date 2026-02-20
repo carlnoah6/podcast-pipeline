@@ -12,6 +12,11 @@ on:
         required: false
         default: "false"
         type: boolean
+      audio_only:
+        description: "Only upload audio for existing transcripts"
+        required: false
+        default: "false"
+        type: boolean
 
 env:
   MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
@@ -37,7 +42,13 @@ jobs:
       - name: Install dependencies
         run: pip install -e . modal huggingface_hub
 
+      - name: Upload audio only (for existing transcripts)
+        if: inputs.audio_only == 'true'
+        run: |
+          python scripts/upload_audio_batch.py --batch-size ${{ inputs.batch_size || '10' }}
+
       - name: Run backfill
+        if: inputs.audio_only != 'true'
         id: backfill
         run: |
           ARGS="--batch-size ${{ inputs.batch_size || '10' }}"
