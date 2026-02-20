@@ -172,6 +172,33 @@ def run(
     else:
         logger.warning("HF_TOKEN not set — skipping audio upload to HuggingFace")
 
+    # Upload transcripts to HuggingFace (direct, no Modal needed)
+    if hf_token and success > 0:
+        logger.info("Uploading %d transcripts to HuggingFace...", success)
+        try:
+            from huggingface_hub import HfApi
+
+            api = HfApi(token=hf_token)
+            api.create_repo("Adam429/podcast-transcripts", repo_type="dataset", exist_ok=True)
+
+            transcript_uploaded = 0
+            for f in output_dir.iterdir():
+                if f.suffix in (".json", ".md"):
+                    ep_id = f.stem
+                    # Only upload files from this batch
+                    if any(ep.episode_id == ep_id for ep in batch):
+                        api.upload_file(
+                            path_or_fileobj=str(f),
+                            path_in_repo=f"transcripts/{f.name}",
+                            repo_id="Adam429/podcast-transcripts",
+                            repo_type="dataset",
+                            commit_message=f"Add transcript: {f.name}",
+                        )
+                        transcript_uploaded += 1
+            logger.info("Uploaded %d transcript files to HuggingFace", transcript_uploaded)
+        except Exception:
+            logger.exception("Transcript upload to HF failed (files are still in git)")
+
     remaining = len(episodes) - len(batch)
     logger.info(
         "Batch complete: %d/%d transcribed, %d/%d audio uploaded. Remaining: %d episodes.",
