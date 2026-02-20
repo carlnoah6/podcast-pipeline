@@ -32,7 +32,7 @@ app = modal.App("podcast-pipeline")
 
 whisper_image = (
     modal.Image.debian_slim(python_version="3.11")
-    .apt_install("ffmpeg")
+    .apt_install("ffmpeg", "curl")
     .pip_install("openai-whisper>=20240930", "torch>=2.1")
 )
 
