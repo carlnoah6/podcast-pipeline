@@ -1,0 +1,29 @@
+name: Create HF Repo
+
+on:
+  workflow_dispatch:
+
+env:
+  HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+jobs:
+  create:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install huggingface_hub
+        run: pip install huggingface_hub
+
+      - name: Create HF dataset repo
+        run: |
+          python -c "
+          import os
+          from huggingface_hub import HfApi
+          token = os.environ['HF_TOKEN']
+          api = HfApi(token=token)
+          api.create_repo('carlnoah6/podcast-audio', repo_type='dataset', exist_ok=True)
+          print('✅ Created carlnoah6/podcast-audio')
+          "
