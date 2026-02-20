@@ -24,6 +24,11 @@ jobs:
           from huggingface_hub import HfApi
           token = os.environ['HF_TOKEN']
           api = HfApi(token=token)
+          info = api.whoami()
+          print(f'Logged in as: {info[\"name\"]}')
+          print(f'Type: {info.get(\"type\", \"unknown\")}')
+          orgs = [o['name'] for o in info.get('orgs', [])]
+          print(f'Orgs: {orgs}')
           api.create_repo('carlnoah6/podcast-audio', repo_type='dataset', exist_ok=True)
           print('✅ Created carlnoah6/podcast-audio')
           "
