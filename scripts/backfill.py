@@ -86,9 +86,10 @@ def run(
         logger.info("Remaining after this batch: %d", len(episodes) - len(batch))
         return 0
 
-    # 6. Transcribe (parallel via Modal)
+    # 6. Transcribe (parallel via Modal) + save audio to HuggingFace
     try:
         from src.transcribe.modal_whisper import app as modal_app, transcribe_episode
+        from src.transcribe.modal_audio import app as audio_app, download_and_upload_audio
     except ImportError:
         logger.error("Modal not available. Install with: pip install modal")
         return 1
@@ -96,18 +97,26 @@ def run(
     output_dir.mkdir(parents=True, exist_ok=True)
     success = 0
 
-    logger.info("Launching %d transcriptions in parallel...", len(batch))
+    logger.info("Launching %d transcriptions + audio uploads in parallel...", len(batch))
 
-    # Use Modal's .starmap() for parallel execution
-    call_args = [
+    # Transcription args
+    transcribe_args = [
         (ep.audio_url, ep.episode_id, ep.title, ep.date, ep.duration)
         for ep in batch
     ]
 
+    # Audio upload args (include HF token from env)
+    hf_token = os.environ.get("HF_TOKEN", "")
+    audio_args = [
+        (ep.audio_url, ep.episode_id, ep.title, "carlnoah6/podcast-audio", hf_token)
+        for ep in batch
+    ]
+
     with modal_app.run():
+        # Launch transcriptions
         for i, (result, ep) in enumerate(
             zip(
-                transcribe_episode.starmap(call_args),
+                transcribe_episode.starmap(transcribe_args),
                 batch,
             )
         ):
@@ -125,10 +134,47 @@ def run(
             except Exception:
                 logger.exception("[%d/%d] Failed to save: %s", i + 1, len(batch), ep.episode_id)
 
+    # Upload audio to HuggingFace (separate Modal app, CPU only)
+    if hf_token:
+        logger.info("Uploading %d audio files to HuggingFace...", len(batch))
+        # Ensure HF dataset repo exists
+        try:
+            from huggingface_hub import HfApi
+            HfApi(token=hf_token).create_repo(
+                "carlnoah6/podcast-audio", repo_type="dataset", exist_ok=True
+            )
+        except Exception:
+            logger.warning("Could not create/verify HF repo (will try upload anyway)")
+
+        audio_success = 0
+        with audio_app.run():
+            for i, (result, ep) in enumerate(
+                zip(
+                    download_and_upload_audio.starmap(audio_args),
+                    batch,
+                )
+            ):
+                try:
+                    audio_success += 1
+                    logger.info(
+                        "[%d/%d] Audio uploaded: %s (%.1f MB)",
+                        i + 1,
+                        len(batch),
+                        result["filename"],
+                        result["size_mb"],
+                    )
+                except Exception:
+                    logger.exception("[%d/%d] Audio upload failed: %s", i + 1, len(batch), ep.episode_id)
+    else:
+        logger.warning("HF_TOKEN not set — skipping audio upload to HuggingFace")
+        audio_success = 0
+
     remaining = len(episodes) - len(batch)
     logger.info(
-        "Batch complete: %d/%d transcribed. Remaining: %d episodes.",
+        "Batch complete: %d/%d transcribed, %d/%d audio uploaded. Remaining: %d episodes.",
         success,
+        len(batch),
+        audio_success,
         len(batch),
         remaining,
     )

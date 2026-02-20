@@ -16,6 +16,7 @@ on:
 env:
   MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
   MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+  HF_TOKEN: ${{ secrets.HF_TOKEN }}
 
 jobs:
   backfill:
@@ -34,7 +35,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -e . modal
+        run: pip install -e . modal huggingface_hub
 
       - name: Run backfill
         id: backfill
