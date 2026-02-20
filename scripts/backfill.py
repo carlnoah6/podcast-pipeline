@@ -108,7 +108,7 @@ def run(
     # Audio upload args (include HF token from env)
     hf_token = os.environ.get("HF_TOKEN", "")
     audio_args = [
-        (ep.audio_url, ep.episode_id, ep.title, "carlnoah6/podcast-audio", hf_token)
+        (ep.audio_url, ep.episode_id, ep.title, "Adam429/podcast-audio", hf_token)
         for ep in batch
     ]
 
@@ -143,7 +143,7 @@ def run(
         try:
             from huggingface_hub import HfApi
             HfApi(token=hf_token).create_repo(
-                "carlnoah6/podcast-audio", repo_type="dataset", exist_ok=True
+                "Adam429/podcast-audio", repo_type="dataset", exist_ok=True
             )
         except Exception:
             logger.warning("Could not create/verify HF repo (will try upload anyway)")

@@ -62,14 +62,14 @@ def main() -> None:
     try:
         from huggingface_hub import HfApi
         HfApi(token=hf_token).create_repo(
-            "carlnoah6/podcast-audio", repo_type="dataset", exist_ok=True
+            "Adam429/podcast-audio", repo_type="dataset", exist_ok=True
         )
         logger.info("HF repo ready")
     except Exception:
         logger.warning("Could not verify HF repo")
 
     audio_args = [
-        (ep.audio_url, ep.episode_id, ep.title, "carlnoah6/podcast-audio", hf_token)
+        (ep.audio_url, ep.episode_id, ep.title, "Adam429/podcast-audio", hf_token)
         for ep in batch
     ]
 

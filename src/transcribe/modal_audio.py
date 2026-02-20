@@ -38,7 +38,7 @@ def download_and_upload_audio(
     audio_url: str,
     episode_id: str,
     title: str = "",
-    hf_repo: str = "carlnoah6/podcast-audio",
+    hf_repo: str = "Adam429/podcast-audio",
     hf_token: str = "",
 ) -> dict:
     """Download audio and upload to HuggingFace dataset repo.
