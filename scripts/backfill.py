@@ -88,7 +88,7 @@ def run(
 
     # 6. Transcribe (parallel via Modal)
     try:
-        from src.transcribe.modal_whisper import transcribe_episode
+        from src.transcribe.modal_whisper import app as modal_app, transcribe_episode
     except ImportError:
         logger.error("Modal not available. Install with: pip install modal")
         return 1
@@ -104,25 +104,26 @@ def run(
         for ep in batch
     ]
 
-    for i, (result, ep) in enumerate(
-        zip(
-            transcribe_episode.starmap(call_args),
-            batch,
-        )
-    ):
-        try:
-            save_transcript(result, output_dir=output_dir)
-            success += 1
-            logger.info(
-                "[%d/%d] Done: %s — %s (%d words)",
-                i + 1,
-                len(batch),
-                ep.episode_id,
-                ep.title,
-                result.get("word_count", 0),
+    with modal_app.run():
+        for i, (result, ep) in enumerate(
+            zip(
+                transcribe_episode.starmap(call_args),
+                batch,
             )
-        except Exception:
-            logger.exception("[%d/%d] Failed to save: %s", i + 1, len(batch), ep.episode_id)
+        ):
+            try:
+                save_transcript(result, output_dir=output_dir)
+                success += 1
+                logger.info(
+                    "[%d/%d] Done: %s — %s (%d words)",
+                    i + 1,
+                    len(batch),
+                    ep.episode_id,
+                    ep.title,
+                    result.get("word_count", 0),
+                )
+            except Exception:
+                logger.exception("[%d/%d] Failed to save: %s", i + 1, len(batch), ep.episode_id)
 
     remaining = len(episodes) - len(batch)
     logger.info(
