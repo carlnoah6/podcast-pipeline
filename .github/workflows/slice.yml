@@ -1,0 +1,59 @@
+name: Audio Slicing
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Episodes per batch"
+        required: false
+        default: "10"
+      auto_continue:
+        description: "Auto-trigger next batch"
+        required: false
+        default: "true"
+        type: boolean
+
+env:
+  MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+  MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+  HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+jobs:
+  slice:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -e . modal huggingface_hub webrtcvad pydub numpy scipy
+
+      - name: Run slicing
+        id: slice
+        run: |
+          python scripts/slice_batch.py \
+            --batch-size ${{ inputs.batch_size || '10' }} 2>&1 | tee /tmp/slice.log
+
+          REMAINING=$(grep "Remaining:" /tmp/slice.log | tail -1 | grep -oP '\d+(?= episodes)' || echo "0")
+          echo "remaining=$REMAINING" >> "$GITHUB_OUTPUT"
+
+          if grep -q "All episodes already sliced" /tmp/slice.log; then
+            echo "remaining=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger next batch
+        if: >-
+          inputs.auto_continue != 'false'
+          && steps.slice.outputs.remaining != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔄 ${{ steps.slice.outputs.remaining }} remaining, triggering next batch..."
+          gh workflow run slice.yml \
+            --field batch_size=${{ inputs.batch_size || '10' }} \
+            --field auto_continue=true
