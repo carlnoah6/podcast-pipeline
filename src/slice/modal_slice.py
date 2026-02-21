@@ -160,16 +160,16 @@ def slice_episode(
             segment_audio.export(str(seg_path), format="wav",
                                  parameters=["-ar", "24000", "-ac", "1"])
 
-        # Upload segments to HF (single commit per episode)
+        # Upload to HF (always, even if 0 segments — so dedup marks it done)
+        upload_dir = Path(tmpdir) / "upload" / episode_id
+        upload_dir.mkdir(parents=True, exist_ok=True)
+
+        # Always save analysis JSON (empty list if no segments)
+        with open(upload_dir / "analysis.json", "w") as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+
+        # Copy top 10 segments by quality
         if results:
-            upload_dir = Path(tmpdir) / "upload" / episode_id
-            upload_dir.mkdir(parents=True, exist_ok=True)
-
-            # Save analysis JSON
-            with open(upload_dir / "analysis.json", "w") as f:
-                json.dump(results, f, ensure_ascii=False, indent=2)
-
-            # Copy top 10 segments by quality
             top_segments = sorted(results, key=lambda x: x["quality_score"], reverse=True)[:10]
             for seg in top_segments:
                 idx = seg["segment_idx"]
@@ -178,14 +178,14 @@ def slice_episode(
                     import shutil
                     shutil.copy2(str(seg_file), str(upload_dir / f"{episode_id}_{idx:04d}.wav"))
 
-            # Single upload_folder call (one HF commit)
-            api.upload_folder(
-                folder_path=str(upload_dir),
-                path_in_repo=f"slices/{episode_id}",
-                repo_id=output_repo,
-                repo_type="dataset",
-                commit_message=f"Slices: {episode_id} ({len(results)} segments, top {len(top_segments)} uploaded)",
-            )
+        # Single upload_folder call (one HF commit)
+        api.upload_folder(
+            folder_path=str(upload_dir),
+            path_in_repo=f"slices/{episode_id}",
+            repo_id=output_repo,
+            repo_type="dataset",
+            commit_message=f"Slices: {episode_id} ({len(results)} segments)",
+        )
 
     return {
         "episode_id": episode_id,
