@@ -84,6 +84,7 @@ jobs:
           git config user.email "bot@podcast-pipeline.local"
           git add data/
           git commit -m "backfill: ${{ steps.check.outputs.total }} transcripts [auto]"
+          git pull --rebase origin main || true
           git push origin main
 
       - name: Trigger next batch

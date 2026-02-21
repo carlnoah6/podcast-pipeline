@@ -62,6 +62,8 @@ jobs:
             git add data/proofread/
             COUNT=$(git diff --cached --name-only | wc -l)
             git commit -m "proofread: $COUNT files [auto]"
+            # Pull rebase to handle concurrent pushes from slice workflow
+            git pull --rebase origin main || true
             git push origin main
           fi
 

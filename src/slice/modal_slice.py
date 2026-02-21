@@ -160,34 +160,32 @@ def slice_episode(
             segment_audio.export(str(seg_path), format="wav",
                                  parameters=["-ar", "24000", "-ac", "1"])
 
-        # Upload segments to HF
+        # Upload segments to HF (single commit per episode)
         if results:
-            # Upload analysis JSON
-            analysis_path = Path(tmpdir) / f"{episode_id}_analysis.json"
-            with open(analysis_path, "w") as f:
+            upload_dir = Path(tmpdir) / "upload" / episode_id
+            upload_dir.mkdir(parents=True, exist_ok=True)
+
+            # Save analysis JSON
+            with open(upload_dir / "analysis.json", "w") as f:
                 json.dump(results, f, ensure_ascii=False, indent=2)
 
-            api.upload_file(
-                path_or_fileobj=str(analysis_path),
-                path_in_repo=f"slices/{episode_id}/analysis.json",
-                repo_id=output_repo,
-                repo_type="dataset",
-                commit_message=f"Slice analysis: {episode_id}",
-            )
-
-            # Upload top segments (by quality score)
+            # Copy top 10 segments by quality
             top_segments = sorted(results, key=lambda x: x["quality_score"], reverse=True)[:10]
             for seg in top_segments:
                 idx = seg["segment_idx"]
                 seg_file = Path(tmpdir) / f"{episode_id}_{idx:04d}.wav"
                 if seg_file.exists():
-                    api.upload_file(
-                        path_or_fileobj=str(seg_file),
-                        path_in_repo=f"slices/{episode_id}/{episode_id}_{idx:04d}.wav",
-                        repo_id=output_repo,
-                        repo_type="dataset",
-                        commit_message=f"Slice: {episode_id} seg {idx}",
-                    )
+                    import shutil
+                    shutil.copy2(str(seg_file), str(upload_dir / f"{episode_id}_{idx:04d}.wav"))
+
+            # Single upload_folder call (one HF commit)
+            api.upload_folder(
+                folder_path=str(upload_dir),
+                path_in_repo=f"slices/{episode_id}",
+                repo_id=output_repo,
+                repo_type="dataset",
+                commit_message=f"Slices: {episode_id} ({len(results)} segments, top {len(top_segments)} uploaded)",
+            )
 
     return {
         "episode_id": episode_id,
