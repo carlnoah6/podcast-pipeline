@@ -178,14 +178,24 @@ def slice_episode(
                     import shutil
                     shutil.copy2(str(seg_file), str(upload_dir / f"{episode_id}_{idx:04d}.wav"))
 
-        # Single upload_folder call (one HF commit)
-        api.upload_folder(
-            folder_path=str(upload_dir),
-            path_in_repo=f"slices/{episode_id}",
-            repo_id=output_repo,
-            repo_type="dataset",
-            commit_message=f"Slices: {episode_id} ({len(results)} segments)",
-        )
+        # Single upload_folder call (one HF commit) — retry on 412 conflict
+        import time as _time
+        for _attempt in range(4):
+            try:
+                api.upload_folder(
+                    folder_path=str(upload_dir),
+                    path_in_repo=f"slices/{episode_id}",
+                    repo_id=output_repo,
+                    repo_type="dataset",
+                    commit_message=f"Slices: {episode_id} ({len(results)} segments)",
+                )
+                break
+            except Exception as _upload_err:
+                if "412" in str(_upload_err) or "Precondition" in str(_upload_err):
+                    if _attempt < 3:
+                        _time.sleep(5 * (_attempt + 1))
+                        continue
+                raise
 
     return {
         "episode_id": episode_id,
