@@ -66,7 +66,8 @@ def proofread_text(
     api_base: str = DEFAULT_API_BASE,
     api_key: str = DEFAULT_API_KEY,
     model: str = DEFAULT_MODEL,
-    timeout: float = 120.0,
+    timeout: float = 300.0,
+    retries: int = 2,
 ) -> dict:
     """Proofread a transcript text using LLM.
 
@@ -80,24 +81,34 @@ def proofread_text(
     """
     user_msg = f"标题：{title}\n\n以下是需要校对的转录文本：\n\n{text}"
 
-    with httpx.Client(timeout=timeout) as client:
-        resp = client.post(
-            f"{api_base}/chat/completions",
-            headers={"Authorization": f"Bearer {api_key}"},
-            json={
-                "model": model,
-                "messages": [
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": user_msg},
-                ],
-                "temperature": 0.1,
-                "max_tokens": 16384,
-            },
-        )
-        resp.raise_for_status()
-        content = resp.json()["choices"][0]["message"]["content"]
-
-    return _parse_response(content, model)
+    last_err = None
+    for attempt in range(1 + retries):
+        try:
+            with httpx.Client(timeout=timeout) as client:
+                resp = client.post(
+                    f"{api_base}/chat/completions",
+                    headers={"Authorization": f"Bearer {api_key}"},
+                    json={
+                        "model": model,
+                        "messages": [
+                            {"role": "system", "content": SYSTEM_PROMPT},
+                            {"role": "user", "content": user_msg},
+                        ],
+                        "temperature": 0.1,
+                        "max_tokens": 16384,
+                    },
+                )
+                resp.raise_for_status()
+                content = resp.json()["choices"][0]["message"]["content"]
+            return _parse_response(content, model)
+        except (httpx.ReadTimeout, httpx.ConnectTimeout, httpx.RemoteProtocolError) as e:
+            last_err = e
+            if attempt < retries:
+                import time
+                wait = 10 * (attempt + 1)
+                logger.warning("Attempt %d/%d timed out, retrying in %ds...", attempt + 1, 1 + retries, wait)
+                time.sleep(wait)
+    raise last_err  # type: ignore[misc]
 
 
 def _parse_response(content: str, model: str) -> dict:
