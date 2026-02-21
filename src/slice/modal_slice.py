@@ -45,15 +45,20 @@ def slice_episode(
 
     api = HfApi(token=hf_token)
 
-    # Download audio from HF
-    try:
-        audio_path = hf_hub_download(
-            repo_id=audio_repo,
-            filename=f"audio/{episode_id}.m4a",
-            repo_type="dataset",
-            token=hf_token,
-        )
-    except Exception:
+    # Download audio from HF (try m4a first, then mp3)
+    audio_path = None
+    for ext in ("m4a", "mp3"):
+        try:
+            audio_path = hf_hub_download(
+                repo_id=audio_repo,
+                filename=f"audio/{episode_id}.{ext}",
+                repo_type="dataset",
+                token=hf_token,
+            )
+            break
+        except Exception:
+            continue
+    if audio_path is None:
         return {"episode_id": episode_id, "error": "audio not found on HF", "segments": 0}
 
     # Convert to 16kHz mono WAV for VAD
