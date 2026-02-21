@@ -69,29 +69,42 @@ jobs:
 
       - name: Upload proofread to HF
         if: steps.check.outputs.has_changes == 'true'
+        continue-on-error: true
         run: |
           python -c "
-          import os
+          import os, time
           from pathlib import Path
           from huggingface_hub import HfApi
           api = HfApi(token=os.environ['HF_TOKEN'])
-          api.create_repo('Adam429/podcast-transcripts', repo_type='dataset', exist_ok=True)
-          for f in sorted(Path('data/proofread').glob('*.*')):
-              api.upload_file(
-                  path_or_fileobj=str(f),
-                  path_in_repo=f'proofread/{f.name}',
-                  repo_id='Adam429/podcast-transcripts',
-                  repo_type='dataset',
-                  commit_message=f'Proofread: {f.name}',
-              )
-              print(f'  Uploaded: {f.name}')
+          # Only upload files modified in last 60 minutes (this batch)
+          import json
+          new_files = [f for f in sorted(Path('data/proofread').glob('*.*'))
+                       if (time.time() - f.stat().st_mtime) < 3600]
+          print(f'Uploading {len(new_files)} new files to HF...')
+          for f in new_files:
+              for attempt in range(3):
+                  try:
+                      api.upload_file(
+                          path_or_fileobj=str(f),
+                          path_in_repo=f'proofread/{f.name}',
+                          repo_id='Adam429/podcast-transcripts',
+                          repo_type='dataset',
+                          commit_message=f'Proofread: {f.name}',
+                      )
+                      print(f'  Uploaded: {f.name}')
+                      break
+                  except Exception as e:
+                      if attempt < 2:
+                          print(f'  Retry {attempt+1}: {f.name} ({e})')
+                          time.sleep(5 * (attempt + 1))
+                      else:
+                          print(f'  Failed: {f.name} ({e})')
           "
 
       - name: Trigger next batch
         if: >-
           inputs.auto_continue != 'false'
           && steps.proofread.outputs.remaining != '0'
-          && steps.check.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
