@@ -27,9 +27,9 @@ def get_done_episodes() -> set[str]:
     try:
         from huggingface_hub import HfApi
         api = HfApi(token=HF_TOKEN)
-        files = list(api.list_repo_tree(OUTPUT_REPO, repo_type="dataset", path_in_repo="slices"))
-        # Each sliced episode has a folder slices/<episode_id>/
-        return {f.rfilename.split("/")[1] for f in files if "/" in f.rfilename and f.rfilename.endswith("analysis.json")}
+        items = list(api.list_repo_tree(OUTPUT_REPO, repo_type="dataset", path_in_repo="slices"))
+        # Each sliced episode is a folder: slices/<episode_id>/
+        return {item.path.split("/")[-1] for item in items if hasattr(item, "type") and item.type == "directory"}
     except Exception:
         return set()
 
