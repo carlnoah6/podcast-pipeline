@@ -66,7 +66,7 @@ def proofread_text(
     api_base: str = DEFAULT_API_BASE,
     api_key: str = DEFAULT_API_KEY,
     model: str = DEFAULT_MODEL,
-    timeout: float = 300.0,
+    timeout: float = 600.0,
     retries: int = 2,
 ) -> dict:
     """Proofread a transcript text using LLM.
