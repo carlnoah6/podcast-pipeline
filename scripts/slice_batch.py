@@ -27,10 +27,19 @@ def get_done_episodes() -> set[str]:
     try:
         from huggingface_hub import HfApi
         api = HfApi(token=HF_TOKEN)
-        items = list(api.list_repo_tree(OUTPUT_REPO, repo_type="dataset", path_in_repo="slices"))
-        # Each sliced episode is a folder: slices/<episode_id>/
-        return {item.path.split("/")[-1] for item in items if hasattr(item, "type") and item.type == "directory"}
-    except Exception:
+        # Use list_repo_files (flat string list) — more reliable than list_repo_tree
+        files = api.list_repo_files(OUTPUT_REPO, repo_type="dataset")
+        done = set()
+        for f in files:
+            # Each sliced episode has slices/<episode_id>/analysis.json
+            if f.startswith("slices/") and f.endswith("/analysis.json"):
+                parts = f.split("/")
+                if len(parts) >= 3:
+                    done.add(parts[1])
+        logger.info("HF dedup check: found %d sliced episodes", len(done))
+        return done
+    except Exception as e:
+        logger.warning("HF dedup check failed (%s: %s), assuming none done", type(e).__name__, e)
         return set()
 
 
