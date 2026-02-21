@@ -1,0 +1,99 @@
+name: Proofread Transcripts
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Episodes per batch"
+        required: false
+        default: "10"
+      auto_continue:
+        description: "Auto-trigger next batch"
+        required: false
+        default: "true"
+        type: boolean
+
+env:
+  API_BASE: ${{ secrets.API_BASE }}
+  API_KEY: ${{ secrets.API_KEY }}
+  PROOFREAD_MODEL: "kimi-k2.5"
+  HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+jobs:
+  proofread:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -e . httpx huggingface_hub
+
+      - name: Run proofread
+        id: proofread
+        run: |
+          python scripts/proofread_batch.py \
+            --batch-size ${{ inputs.batch_size || '10' }} \
+            --output-dir data/proofread 2>&1 | tee /tmp/proofread.log
+
+          REMAINING=$(grep "Remaining:" /tmp/proofread.log | tail -1 | grep -oP '\d+(?=$)' || echo "0")
+          echo "remaining=$REMAINING" >> "$GITHUB_OUTPUT"
+
+          if grep -q "All transcripts already proofread" /tmp/proofread.log; then
+            echo "remaining=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit proofread results
+        id: check
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard data/proofread/)" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            git config user.name "podcast-pipeline[bot]"
+            git config user.email "bot@podcast-pipeline.local"
+            git add data/proofread/
+            COUNT=$(git diff --cached --name-only | wc -l)
+            git commit -m "proofread: $COUNT files [auto]"
+            git push origin main
+          fi
+
+      - name: Upload proofread to HF
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          python -c "
+          import os
+          from pathlib import Path
+          from huggingface_hub import HfApi
+          api = HfApi(token=os.environ['HF_TOKEN'])
+          api.create_repo('Adam429/podcast-transcripts', repo_type='dataset', exist_ok=True)
+          for f in sorted(Path('data/proofread').glob('*.*')):
+              api.upload_file(
+                  path_or_fileobj=str(f),
+                  path_in_repo=f'proofread/{f.name}',
+                  repo_id='Adam429/podcast-transcripts',
+                  repo_type='dataset',
+                  commit_message=f'Proofread: {f.name}',
+              )
+              print(f'  Uploaded: {f.name}')
+          "
+
+      - name: Trigger next batch
+        if: >-
+          inputs.auto_continue != 'false'
+          && steps.proofread.outputs.remaining != '0'
+          && steps.check.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔄 ${{ steps.proofread.outputs.remaining }} remaining, triggering next batch..."
+          gh workflow run proofread.yml \
+            --field batch_size=${{ inputs.batch_size || '10' }} \
+            --field auto_continue=true
