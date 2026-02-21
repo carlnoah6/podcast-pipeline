@@ -27,6 +27,9 @@ def main() -> None:
 
     api = HfApi(token=hf_token)
 
+    # --- Sync proofread ---
+    sync_proofread(api, hf_token)
+
     # --- Sync transcripts ---
     transcript_dir = Path("data/transcripts")
     local_files = sorted(transcript_dir.glob("*.*")) if transcript_dir.exists() else []
@@ -96,6 +99,37 @@ def main() -> None:
                     logger.exception("[%d/%d] Audio failed: %s", i + 1, len(missing_eps), ep.episode_id)
 
     logger.info("Sync complete!")
+
+
+def sync_proofread(api, hf_token: str) -> None:
+    """Sync proofread files to HF."""
+    proofread_dir = Path("data/proofread")
+    if not proofread_dir.exists():
+        return
+
+    local_files = sorted(proofread_dir.glob("*.*"))
+    try:
+        hf_files = {f for f in api.list_repo_files(
+            "Adam429/podcast-transcripts", repo_type="dataset"
+        ) if f.startswith("proofread/")}
+    except Exception:
+        hf_files = set()
+
+    missing = [f for f in local_files if f"proofread/{f.name}" not in hf_files]
+    logger.info("Proofread: %d local, %d on HF, %d missing", len(local_files), len(hf_files), len(missing))
+
+    for f in missing:
+        try:
+            api.upload_file(
+                path_or_fileobj=str(f),
+                path_in_repo=f"proofread/{f.name}",
+                repo_id="Adam429/podcast-transcripts",
+                repo_type="dataset",
+                commit_message=f"Sync proofread: {f.name}",
+            )
+            logger.info("  Uploaded: %s", f.name)
+        except Exception:
+            logger.exception("  Failed: %s", f.name)
 
 
 if __name__ == "__main__":
