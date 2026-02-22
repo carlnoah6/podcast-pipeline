@@ -24,7 +24,7 @@ embed_image = (
 )
 
 
-@app.function(image=embed_image, gpu="T4", timeout=1800)
+@app.function(image=embed_image, gpu="A10G", timeout=1800)
 def embed_and_build_index(chunks: list[dict]) -> dict:
     """Generate embeddings and build FAISS index on Modal GPU."""
     import faiss
@@ -37,10 +37,10 @@ def embed_and_build_index(chunks: list[dict]) -> dict:
     texts = [c["text"] for c in chunks]
     logger.info("Encoding %d chunks...", len(texts))
 
-    # Batch encode
+    # Batch encode (small batch to avoid OOM)
     embeddings = model.encode(
         texts,
-        batch_size=64,
+        batch_size=16,
         show_progress_bar=True,
         normalize_embeddings=True,
     )
