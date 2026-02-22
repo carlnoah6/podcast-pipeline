@@ -1,0 +1,543 @@
+{
+  "style": {
+    "opening_pattern": "直接说明+自我调侃式铺垫，先列举更专业的选题制造期待落差，再解释选择基础话题的原因",
+    "structure": "时间轴线性结构：中世纪→文艺复兴→巴洛克→古典时期→浪漫时期→当代，每个时期按'历史背景→音乐特征→代表作曲家→作品赏析'展开",
+    "tone": "轻松幽默、知识密集但口语化，带有强烈的个人色彩和自嘲精神",
+    "catchphrases": [
+      "咱们这个播客",
+      "脑雾哥",
+      "大白话的方式",
+      "时光旅行/乘坐时光机",
+      "老熟人",
+      "抛砖引玉",
+      "胆大包天/越来越猖狂",
+      "自己人",
+      "我是我音乐世界的暴君",
+      "拜拜拜拜拜拜"
+    ],
+    "closing_pattern": "以标志性作品《春之祭》作为历史句号的象征性收束，快速告别",
+    "narrative_techniques": [
+      "类比（将查拉图斯特拉比作自己）",
+      "对比（古今音乐会礼仪对比）",
+      "举例（大量音乐片段穿插）",
+      "设问（与听众互动提问）",
+      "故事化叙述（Lully之死等轶事）",
+      "自我降格（谦虚开场、自嘲咽炎咳嗽）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Charles Rosen",
+      "type": "person",
+      "context": "主播最信任的音乐作者，被推荐为启蒙老师，著有《古典风格》",
+      "importance": "high"
+    },
+    {
+      "name": "Felix Mendelssohn（门德尔松）",
+      "type": "person",
+      "context": "19世纪中叶让巴赫全面翻红的作曲家，黑格尔的朋友",
+      "importance": "high"
+    },
+    {
+      "name": "Johann Sebastian Bach（约翰·塞巴斯蒂安·巴赫）",
+      "type": "person",
+      "context": "主播和许多人认为有史以来最伟大的作曲家，《独树不成林》老熟人",
+      "importance": "high"
+    },
+    {
+      "name": "Pope Gregory I（教皇格里高利一世）",
+      "type": "person",
+      "context": "6世纪与查理曼统一圣歌，催生第一种音乐记谱法",
+      "importance": "high"
+    },
+    {
+      "name": "Saint Yared",
+      "type": "person",
+      "context": "埃塞俄比亚正教会圣人，比欧洲早几百年发明音乐记谱法",
+      "importance": "medium"
+    },
+    {
+      "name": "Guido d'Arezzo（圭多·达莱佐）",
+      "type": "person",
+      "context": "11世纪意大利音乐理论家，发明视觉阅读音乐的记谱法",
+      "importance": "medium"
+    },
+    {
+      "name": "Hildegard von Bingen（希尔德加德·冯·宾根）",
+      "type": "person",
+      "context": "德国修女、作家、作曲家、神秘学哲学家，主播曾为其策展",
+      "importance": "medium"
+    },
+    {
+      "name": "John Dunstaple",
+      "type": "person",
+      "context": "英国作曲家，开始使用三度音程创造三音和弦",
+      "importance": "medium"
+    },
+    {
+      "name": "Carl Philipp Emanuel Bach（C.P.E.巴赫）",
+      "type": "person",
+      "context": "J.S.巴赫之子，18世纪比父亲更受欢迎，莫扎特评价'巴赫是父亲'实际指他",
+      "importance": "medium"
+    },
+    {
+      "name": "Jean-Baptiste Lully（吕利）",
+      "type": "person",
+      "context": "巴洛克时期法国作曲家，用棍子敲击地面指挥，因砸伤脚拒绝截肢感染去世",
+      "importance": "medium"
+    },
+    {
+      "name": "Glenn Gould（格伦·古尔德）",
+      "type": "person",
+      "context": "钢琴家，其1955年和1981年版《哥德堡变奏曲》是几乎所有钢琴家的入门聆听版本",
+      "importance": "medium"
+    },
+    {
+      "name": "海顿",
+      "type": "person",
+      "context": "古典时期开端代表，1732年出生，音乐清晰明了、明亮欢快",
+      "importance": "medium"
+    },
+    {
+      "name": "Wolfgang Amadeus Mozart（莫扎特）",
+      "type": "person",
+      "context": "海顿学生，主播老熟人，旋律天赋惊人，创作《唐璜》等",
+      "importance": "high"
+    },
+    {
+      "name": "贝多芬",
+      "type": "person",
+      "context": "古典主义与浪漫主义的连接点，形式上是古典主义者，情感表达上是浪漫主义者",
+      "importance": "high"
+    },
+    {
+      "name": "勃拉姆斯",
+      "type": "person",
+      "context": "浪漫主义时期主播最喜欢的作曲家，感到对贝多芬负有传承责任",
+      "importance": "medium"
+    },
+    {
+      "name": "柴可夫斯基",
+      "type": "person",
+      "context": "最早具有世界性影响力的俄罗斯作曲家，融合俄罗斯民间音乐",
+      "importance": "medium"
+    },
+    {
+      "name": "斯特拉文斯基",
+      "type": "person",
+      "context": "称其《大赋格》是现代音乐作品，其《春之祭》被主播视为古典音乐的句号",
+      "importance": "high"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "《查拉图斯特拉如是说》的作者，主播自比书中主角",
+      "importance": "low"
+    },
+    {
+      "name": "王羽佳",
+      "type": "person",
+      "context": "钢琴家，脑雾哥带谱看音乐会研究其演奏的对象",
+      "importance": "low"
+    },
+    {
+      "name": "蔡依林",
+      "type": "person",
+      "context": "被用来类比莫扎特、贝多芬音乐会的流行程度",
+      "importance": "low"
+    },
+    {
+      "name": "周杰伦",
+      "type": "person",
+      "context": "被用来类比莫扎特、贝多芬音乐会的流行程度",
+      "importance": "low"
+    },
+    {
+      "name": "希特勒",
+      "type": "person",
+      "context": "奥地利人成功劝服全世界他是德国人这一笑话中的角色",
+      "importance": "low"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "主播提及未来想专门讨论贝多芬交响乐与其关系",
+      "importance": "low"
+    },
+    {
+      "name": "斯大林",
+      "type": "person",
+      "context": "影响普罗科菲耶夫和肖斯塔科维奇创作的统治者",
+      "importance": "low"
+    },
+    {
+      "name": "列宁",
+      "type": "person",
+      "context": "影响普罗科菲耶夫和肖斯塔科维奇创作的统治者",
+      "importance": "low"
+    },
+    {
+      "name": "蒙特威尔第",
+      "type": "person",
+      "context": "巴洛克时期作曲家，大家可能听过的名字",
+      "importance": "low"
+    },
+    {
+      "name": "亨德尔",
+      "type": "person",
+      "context": "巴洛克时期作曲家，创作清唱剧《弥赛亚》",
+      "importance": "medium"
+    },
+    {
+      "name": "帕赫贝尔",
+      "type": "person",
+      "context": "巴洛克时期作曲家，大家可能听过的名字",
+      "importance": "low"
+    },
+    {
+      "name": "维瓦尔第",
+      "type": "person",
+      "context": "巴洛克时期作曲家，创作《四季》",
+      "importance": "medium"
+    },
+    {
+      "name": "舒伯特",
+      "type": "person",
+      "context": "古典时期杰出作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "瓦格纳",
+      "type": "person",
+      "context": "浪漫主义时期重要作曲家，主播表示不是最关注故未深入讨论",
+      "importance": "low"
+    },
+    {
+      "name": "马勒",
+      "type": "person",
+      "context": "浪漫主义时期重要作曲家，主播表示不是最关注故未深入讨论",
+      "importance": "low"
+    },
+    {
+      "name": "普契尼",
+      "type": "person",
+      "context": "浪漫主义时期著名作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "舒曼",
+      "type": "person",
+      "context": "浪漫主义时期著名作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "威尔第",
+      "type": "person",
+      "context": "浪漫主义时期著名作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "肖邦",
+      "type": "person",
+      "context": "浪漫主义时期著名作曲家，脑雾哥直播演奏其第二钢琴奏鸣曲",
+      "importance": "low"
+    },
+    {
+      "name": "德彪西",
+      "type": "person",
+      "context": "被称为印象主义，自己不喜欢的作曲家，主播未深入讨论",
+      "importance": "low"
+    },
+    {
+      "name": "拉威尔",
+      "type": "person",
+      "context": "被称为印象主义，自己不喜欢的作曲家，脑雾哥两周前弹奏其小奏鸣曲",
+      "importance": "low"
+    },
+    {
+      "name": "勋伯格",
+      "type": "person",
+      "context": "主播表示不是最关注故未深入讨论的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "Copland（科普兰）",
+      "type": "person",
+      "context": "受爵士乐影响的美国作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "Gershwin（格什温）",
+      "type": "person",
+      "context": "受爵士乐影响的美国作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "William Grant Still",
+      "type": "person",
+      "context": "美国黑人作曲家，将爵士乐和蓝调融入音乐传统",
+      "importance": "low"
+    },
+    {
+      "name": "Florence Price",
+      "type": "person",
+      "context": "美国黑人作曲家，将爵士乐和蓝调融入音乐传统",
+      "importance": "low"
+    },
+    {
+      "name": "Prokofiev（普罗科菲耶夫）",
+      "type": "person",
+      "context": "受俄罗斯十月革命影响的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "Shostakovich（肖斯塔科维奇）",
+      "type": "person",
+      "context": "受俄罗斯十月革命影响的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "Bartók（巴托克）",
+      "type": "person",
+      "context": "收集民谣的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "Kodály（柯达伊）",
+      "type": "person",
+      "context": "收集民谣的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "Gesualdo（杰苏阿尔多）",
+      "type": "person",
+      "context": "意大利作曲家，尝试令人震惊的不和谐音程",
+      "importance": "low"
+    },
+    {
+      "name": "Luca Marenzio",
+      "type": "person",
+      "context": "意大利作曲家，尝试令人震惊的不和谐音程",
+      "importance": "low"
+    },
+    {
+      "name": "Oswald von Wolkenstein",
+      "type": "person",
+      "context": "与Dunstaple同时代使用三度音程的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "查理曼",
+      "type": "person",
+      "context": "法兰克国王，与教皇格里高利一世统一圣歌",
+      "importance": "low"
+    },
+    {
+      "name": "《查拉图斯特拉如是说》",
+      "type": "work",
+      "context": "尼采著作，主播自比书中主角查拉图斯特拉下山时的慷慨状态",
+      "importance": "low"
+    },
+    {
+      "name": "《古典风格》",
+      "type": "work",
+      "context": "Charles Rosen的著作，主播的启蒙书",
+      "importance": "medium"
+    },
+    {
+      "name": "Ordo Virtutum《美德的秩序》/《德行的秩序》",
+      "type": "work",
+      "context": "Hildegard von Bingen创作的道德剧，唯一保留至今确定由其创作音乐和文本的中世纪作品",
+      "importance": "medium"
+    },
+    {
+      "name": "Quam Pulchra Es",
+      "type": "work",
+      "context": "John Dunstaple创作的作品",
+      "importance": "low"
+    },
+    {
+      "name": "《哥德堡变奏曲》",
+      "type": "work",
+      "context": "巴赫作品，包含其所有擅长形式，钢琴家生涯巅峰标志，主播推荐入门",
+      "importance": "high"
+    },
+    {
+      "name": "《弥赛亚》",
+      "type": "work",
+      "context": "亨德尔清唱剧，广为人知",
+      "importance": "medium"
+    },
+    {
+      "name": "《四季》",
+      "type": "work",
+      "context": "维瓦尔第作品，广为人知",
+      "importance": "medium"
+    },
+    {
+      "name": "Don Giovanni《唐璜》",
+      "type": "work",
+      "context": "莫扎特歌剧，通往贝多芬的桥梁",
+      "importance": "medium"
+    },
+    {
+      "name": "第一弦乐四重奏",
+      "type": "work",
+      "context": "贝多芬早期作品，易与海顿混淆，古典主义风格鲜明",
+      "importance": "low"
+    },
+    {
+      "name": "第九交响乐《欢乐颂》",
+      "type": "work",
+      "context": "贝多芬晚年作品，超越古典主义",
+      "importance": "medium"
+    },
+    {
+      "name": "Große Fuge《大赋格》",
+      "type": "work",
+      "context": "贝多芬作品，斯特拉文斯基称其为现代音乐作品",
+      "importance": "medium"
+    },
+    {
+      "name": "柴可夫斯基第四交响乐第四乐章",
+      "type": "work",
+      "context": "融合很多俄罗斯民间音乐",
+      "importance": "low"
+    },
+    {
+      "name": "拉威尔小奏鸣曲",
+      "type": "work",
+      "context": "脑雾哥两周前弹奏，主播临时决定播放",
+      "importance": "low"
+    },
+    {
+      "name": "《春之祭》（Rite of Spring）",
+      "type": "work",
+      "context": "斯特拉文斯基1913年芭蕾舞剧，主播心中古典音乐的句号和现代音乐的开始",
+      "importance": "high"
+    },
+    {
+      "name": "Sacred Music（圣乐）",
+      "type": "concept",
+      "context": "中世纪音乐中占很大比例的宗教音乐类型",
+      "importance": "medium"
+    },
+    {
+      "name": "Rhythmic Notation（节奏记谱法）",
+      "type": "concept",
+      "context": "由教皇格里高利一世的决定催生的第一种音乐记谱法发展而来",
+      "importance": "medium"
+    },
+    {
+      "name": "Plain Chant Melody（素歌旋律）",
+      "type": "concept",
+      "context": "单条旋律线伴随持续音，由口述传统传承后被罗马天主教会记录",
+      "importance": "medium"
+    },
+    {
+      "name": "Polyphony（复调音乐）",
+      "type": "concept",
+      "context": "1150-1300年兴起，将多条旋律线融入音乐，提高复杂性",
+      "importance": "high"
+    },
+    {
+      "name": "Monophonic Music（单声部音乐）",
+      "type": "concept",
+      "context": "一条旋律线的音乐形式，与复调音乐相对",
+      "importance": "medium"
+    },
+    {
+      "name": "Triad（三音和弦）",
+      "type": "concept",
+      "context": "今天熟知的大小调和弦，由Dunstaple等人用三度音程创造",
+      "importance": "medium"
+    },
+    {
+      "name": "Tonality（调性）",
+      "type": "concept",
+      "context": "巴洛克时期发展，西方古典音乐和现代流行音乐的基础",
+      "importance": "high"
+    },
+    {
+      "name": "Chord Progression（和弦进行）",
+      "type": "concept",
+      "context": "一连串和弦转换产生情绪效果，依赖调性而存在",
+      "importance": "medium"
+    },
+    {
+      "name": "Tension and Resolution（张力与张力的释放）",
+      "type": "concept",
+      "context": "音乐创作基础，延续至今",
+      "importance": "medium"
+    },
+    {
+      "name": "对位法",
+      "type": "concept",
+      "context": "巴赫擅长的复杂技法，古典时期仍存在但远没巴赫那么棘手",
+      "importance": "medium"
+    },
+    {
+      "name": "赋格",
+      "type": "concept",
+      "context": "巴赫擅长的形式之一，《哥德堡变奏曲》包含此形式",
+      "importance": "medium"
+    },
+    {
+      "name": "变奏曲",
+      "type": "concept",
+      "context": "巴赫擅长的形式之一，《哥德堡变奏曲》名称来源",
+      "importance": "medium"
+    },
+    {
+      "name": "印象主义音乐",
+      "type": "concept",
+      "context": "德彪西和拉威尔被他人称为但自己不喜欢的标签",
+      "importance": "low"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "主播想讨论其与贝多芬的关系但未在本集深入",
+      "importance": "low"
+    },
+    {
+      "name": "俄罗斯十月革命",
+      "type": "event",
+      "context": "影响普罗科菲耶夫和肖斯塔科维奇创作的历史事件",
+      "importance": "low"
+    },
+    {
+      "name": "1913年《春之祭》首演骚乱",
+      "type": "event",
+      "context": "强烈不和谐音、挑衅舞蹈让观众震惊愤怒或疯狂赞同",
+      "importance": "high"
+    },
+    {
+      "name": "埃塞俄比亚",
+      "type": "place",
+      "context": "公元500年左右出现全世界最早音乐记谱法的基督教国家",
+      "importance": "medium"
+    },
+    {
+      "name": "莱比锡",
+      "type": "place",
+      "context": "巴赫工作32年的大教堂所在地",
+      "importance": "low"
+    },
+    {
+      "name": "罗马天主教会",
+      "type": "organization",
+      "context": "推动音乐记谱法标准化以推广弥撒的重要力量",
+      "importance": "medium"
+    },
+    {
+      "name": "埃塞俄比亚正教会",
+      "type": "organization",
+      "context": "Saint Yared所属教会，早于欧洲有音乐记谱法",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "677d7e0dcda04ef4c1221d49",
+  "title": "162-如何欣赏古典音乐？"
+}

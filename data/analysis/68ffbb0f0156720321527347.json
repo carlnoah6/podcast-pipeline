@@ -1,0 +1,140 @@
+{
+  "style": {
+    "opening_pattern": "直接界定讨论范围，排除专业运动员群体，明确目标听众为普通运动爱好者",
+    "structure": "概念澄清→核心论点（学会失败）→具体例证（力竭体验）→广告插入→第二论点（代偿机制）→第三论点（认识身体）→总结升华",
+    "tone": "亲切理性、循循善诱，带有个人经验分享的真诚感，偶尔使用网络流行语和自嘲",
+    "catchphrases": [
+      "贼懒",
+      "小聪明",
+      "燃烧",
+      "颤抖",
+      "代偿",
+      "劳模",
+      "力竭",
+      "安全的失败",
+      "认识你的身体",
+      "没有捷径"
+    ],
+    "closing_pattern": "引用德尔菲神庙箴言进行哲学升华，将身体认知与自我认知类比，以比较的危害作结",
+    "narrative_techniques": [
+      "类比（将身体比作乐队、将不运动者比作社交恐惧者）",
+      "举例（带00后表妹运动、平板支撑、俯卧撑、瑜伽后弯）",
+      "对比（有运动习惯者vs无运动习惯者、久坐者vs训练者）",
+      "反问",
+      "个人叙事"
+    ]
+  },
+  "entities": [
+    {
+      "name": "图拉斯",
+      "type": "organization",
+      "context": "播客赞助商，推出小王子联名礼盒O3Lite支点壳和小冰块pro产品",
+      "importance": "medium"
+    },
+    {
+      "name": "小王子",
+      "type": "work",
+      "context": "被引用的文学作品，'真正重要的东西用眼睛是看不见的'，也是图拉斯联名礼盒的主题",
+      "importance": "medium"
+    },
+    {
+      "name": "柳树精",
+      "type": "concept",
+      "context": "主播童年时奶奶讲述的民间传说形象，成为想象力飞行的起点意象",
+      "importance": "low"
+    },
+    {
+      "name": "Kino McGregor",
+      "type": "person",
+      "context": "美国著名阿斯汤加瑜伽老师，Instagram百万粉丝，主播曾跟练其视频，在大师课上强调腰背代偿问题",
+      "importance": "medium"
+    },
+    {
+      "name": "漫溢瑜伽游廊岛",
+      "type": "organization",
+      "context": "上海瑜伽馆，主播在此学习后弯课程，老师指导其用大腿发力而非腰部",
+      "importance": "low"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "主播身高一米五的朋友，因重心低容易完成倒立，被用作说明身体偏向的例子",
+      "importance": "low"
+    },
+    {
+      "name": "姚明",
+      "type": "person",
+      "context": "被举为例外情况说明天生身体偏向对特定运动的影响",
+      "importance": "low"
+    },
+    {
+      "name": "德尔菲神庙",
+      "type": "place",
+      "context": "主播引用'认识你自己'的箴言，将其与'认识你的身体'进行类比",
+      "importance": "low"
+    },
+    {
+      "name": "代偿",
+      "type": "concept",
+      "context": "核心概念，指身体用非目标肌肉代替发力的偷懒机制，是运动损伤的主要原因",
+      "importance": "high"
+    },
+    {
+      "name": "力竭",
+      "type": "concept",
+      "context": "核心概念，指肌肉颤抖燃烧的安全极限状态，是'安全的失败'的具体表现",
+      "importance": "high"
+    },
+    {
+      "name": "核心肌群",
+      "type": "concept",
+      "context": "被反复强调的关键肌群，包括腹横肌等，用于保护腰椎、减少代偿",
+      "importance": "high"
+    },
+    {
+      "name": "股四头肌",
+      "type": "concept",
+      "context": "人体最大最强壮的肌群，应在后弯等动作中主动发力以保护腰部",
+      "importance": "high"
+    },
+    {
+      "name": "臀大肌",
+      "type": "concept",
+      "context": "关键稳定肌群，现代人因久坐长期未被激活，导致腰部代偿",
+      "importance": "high"
+    },
+    {
+      "name": "斜方肌",
+      "type": "concept",
+      "context": "常被代偿的上肢稳定肌，过度使用导致头前倾和肩颈酸痛",
+      "importance": "medium"
+    },
+    {
+      "name": "腰椎间盘突出",
+      "type": "concept",
+      "context": "常见的慢性运动损伤/久坐损伤，主播身边学者朋友的普遍问题",
+      "importance": "medium"
+    },
+    {
+      "name": "阿斯汤加瑜伽",
+      "type": "concept",
+      "context": "主播练习的瑜伽流派，强调力量与呼吸的配合",
+      "importance": "medium"
+    },
+    {
+      "name": "马拉松",
+      "type": "event",
+      "context": "被用来说明心率控制重要性的有氧运动例子",
+      "importance": "low"
+    },
+    {
+      "name": "小宇宙",
+      "type": "organization",
+      "context": "播客平台，主播提及将在该平台做柔韧性专题播客，也在简介中放了瑜伽照片",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68ffbb0f0156720321527347",
+  "title": "269-如何预防运动损伤？"
+}

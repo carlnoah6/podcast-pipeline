@@ -1,0 +1,259 @@
+{
+  "style": {
+    "opening_pattern": "以经典文本引入，直接点明讨论对象——普鲁塔克《道德论丛》中的具体篇章，并给出古希腊语和拉丁语标题，营造学术氛围",
+    "structure": "文本解读→哲学引用（尼采、卢梭）→逐段分析普鲁塔克原文→个人经历对照→总结升华，形成'古典理论—现代应用'的双层结构",
+    "tone": "理性克制中带有个人情感张力，前半部分保持学术分析的客观距离，后半部分转向真诚的个人叙事，整体呈现'冷思考—热经历—再沉淀'的情感曲线",
+    "catchphrases": [
+      "我不信",
+      "有点懵",
+      "有点不耐烦了",
+      "让我在这里先插一句嘴",
+      "我觉得真的有点变态",
+      "OK",
+      "对吧",
+      "说句实话"
+    ],
+    "closing_pattern": "以个人感悟收束，将古典智慧转化为当代生活信念，并以标准播客结束语收尾",
+    "narrative_techniques": [
+      "类比（野兽与敌人、火与敌意）",
+      "反问（'难道这对我有利益吗？'）",
+      "举例（第欧根尼与亚历山大、庞培雕像等）",
+      "对比（愚者与智者、朋友与敌人）",
+      "自我暴露（离婚诉讼经历）",
+      "引用权威（尼采、卢梭、色诺芬）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "古罗马希腊语作家，《道德论丛》的作者，本文核心讨论对象",
+      "importance": "high"
+    },
+    {
+      "name": "《道德论丛》",
+      "type": "work",
+      "context": "普鲁塔克的散文集，包含《如何从敌人身上获益》等伦理文章",
+      "importance": "high"
+    },
+    {
+      "name": "《如何从敌人身上获益》/《如何面对敌意？如何从敌人身上获益》",
+      "type": "work",
+      "context": "普鲁塔克《道德论丛》第六章，本文逐段分析的核心文本",
+      "importance": "high"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "被引用来评价普鲁塔克，出自《不合时宜的沉思》",
+      "importance": "medium"
+    },
+    {
+      "name": "《不合时宜的沉思》",
+      "type": "work",
+      "context": "尼采著作，其中包含对普鲁塔克的高度评价",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "被引用来评价普鲁塔克，称其为自己'重要的伴侣和参照点'",
+      "importance": "medium"
+    },
+    {
+      "name": "《孤独散步者的遐想》",
+      "type": "work",
+      "context": "卢梭晚年最后一部著作，其中表达对普鲁塔克的推崇",
+      "importance": "medium"
+    },
+    {
+      "name": "蒙田",
+      "type": "person",
+      "context": "与卢梭、尼采并列，被提及为喜欢阅读普鲁塔克的哲学家",
+      "importance": "low"
+    },
+    {
+      "name": "Cornelius Pulcher",
+      "type": "person",
+      "context": "罗马政治家，普鲁塔克这篇文章的献词对象",
+      "importance": "medium"
+    },
+    {
+      "name": "Chilon",
+      "type": "person",
+      "context": "斯巴达政客，普鲁塔克引用其关于敌人与朋友关系的对话",
+      "importance": "medium"
+    },
+    {
+      "name": "色诺芬",
+      "type": "person",
+      "context": "苏格拉底的学生，其名言'一个明智的人可以从敌人那里获益'是全文核心命题",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "色诺芬和柏拉图的老师，其箴言'认识你自己'被普鲁塔克引用",
+      "importance": "medium"
+    },
+    {
+      "name": "普罗米修斯",
+      "type": "person",
+      "context": "古希腊神话人物，在萨提尔与火的寓言中警告山羊神",
+      "importance": "low"
+    },
+    {
+      "name": "萨提尔",
+      "type": "person",
+      "context": "古希腊神话中的山羊神，普鲁塔克用其与火的故事作类比",
+      "importance": "low"
+    },
+    {
+      "name": "第欧根尼",
+      "type": "person",
+      "context": "古希腊哲学家，犬儒学派代表，以与亚历山大大帝的对话闻名，主张通过正直面对敌人",
+      "importance": "high"
+    },
+    {
+      "name": "亚历山大大帝",
+      "type": "person",
+      "context": "马其顿国王，与第欧根尼的著名对话被详细讲述",
+      "importance": "medium"
+    },
+    {
+      "name": "芝诺",
+      "type": "person",
+      "context": "古希腊哲学家，斯多葛学派创始人，因货船沉没而走向哲学",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "苏格拉底的学生，普鲁塔克引用其自我反思的习惯",
+      "importance": "medium"
+    },
+    {
+      "name": "庞培",
+      "type": "person",
+      "context": "罗马政治家，凯撒的死敌，其雕像被恢复的例子说明宽容",
+      "importance": "medium"
+    },
+    {
+      "name": "凯撒大帝",
+      "type": "person",
+      "context": "罗马独裁者，恢复庞培雕像以示宽容",
+      "importance": "medium"
+    },
+    {
+      "name": "西塞罗",
+      "type": "person",
+      "context": "罗马演说家，评论凯撒恢复庞培雕像的行为",
+      "importance": "low"
+    },
+    {
+      "name": "Pausanias",
+      "type": "person",
+      "context": "斯巴达人，因与Themistocles通信而被诬告叛国",
+      "importance": "low"
+    },
+    {
+      "name": "Themistocles",
+      "type": "person",
+      "context": "古希腊领袖，与Pausanias的友谊导致后者被指控",
+      "importance": "low"
+    },
+    {
+      "name": "修昔底德",
+      "type": "person",
+      "context": "古希腊历史学家，其著作中记载了Pausanias和Themistocles的故事",
+      "importance": "low"
+    },
+    {
+      "name": "小花",
+      "type": "person",
+      "context": "主播的朋友，发现主播前夫与林漾出轨的关键人物",
+      "importance": "medium"
+    },
+    {
+      "name": "卡尔",
+      "type": "person",
+      "context": "主播的前夫，与林漾婚内出轨后起诉主播诽谤",
+      "importance": "high"
+    },
+    {
+      "name": "林漾",
+      "type": "person",
+      "context": "主播12年的朋友，与主播前夫婚内出轨，后联合起诉主播",
+      "importance": "high"
+    },
+    {
+      "name": "Alex Jones",
+      "type": "person",
+      "context": "美国极右翼阴谋论者，卡尔和林漾聘请的律师曾为其辩护",
+      "importance": "low"
+    },
+    {
+      "name": "鲁豫",
+      "type": "person",
+      "context": "中国主持人，主播提及自己曾接受其采访",
+      "importance": "low"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "播客所属或关联的栏目，结尾致谢时提及",
+      "importance": "low"
+    },
+    {
+      "name": "GoFundMe",
+      "type": "organization",
+      "context": "美国众筹平台，主播用以筹集律师费用",
+      "importance": "low"
+    },
+    {
+      "name": "嫉妒、竞争和冲突",
+      "type": "concept",
+      "context": "普鲁塔克认为人类社会不可避免产生敌意的三种情感",
+      "importance": "high"
+    },
+    {
+      "name": "非现代教育",
+      "type": "concept",
+      "context": "尼采提出的概念，指通过阅读普鲁塔克英雄传记获得的人格成熟教育",
+      "importance": "medium"
+    },
+    {
+      "name": "自律/自我控制",
+      "type": "concept",
+      "context": "普鲁塔克主张通过敌人的存在来培养的核心美德",
+      "importance": "high"
+    },
+    {
+      "name": "诬告",
+      "type": "concept",
+      "context": "普鲁塔克讨论的不实指控，主播自身经历的法律困境",
+      "importance": "high"
+    },
+    {
+      "name": "叙利亚",
+      "type": "place",
+      "context": "普鲁塔克此文在六七世纪被翻译成古叙利亚语并作为义务教育内容",
+      "importance": "low"
+    },
+    {
+      "name": "古希腊",
+      "type": "place",
+      "context": "普鲁塔克、色诺芬、第欧根尼等人的文化背景",
+      "importance": "medium"
+    },
+    {
+      "name": "罗马",
+      "type": "place",
+      "context": "Cornelius Pulcher的政治活动地，普鲁塔克的文化归属",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6779ce0b15a5fd520e0eef05",
+  "title": "159-如何从敌人身上获益"
+}

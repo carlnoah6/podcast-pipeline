@@ -1,0 +1,203 @@
+{
+  "style": {
+    "opening_pattern": "以播客媒介特性引入，说明选题的个人动机——现实中无人可讨论的好奇话题",
+    "structure": "个人动机→词典现状观察→美国韦氏词典历史→词典本质的历史演变（规范性vs描述性）→印刷时代与数字时代的对比→政治与语言的关系→市场与政府的张力→结尾的释然与总结",
+    "tone": "理性客观中带个人化反思，知识密集但语气轻松，有自嘲和反讽",
+    "catchphrases": [
+      "唧唧嘎嘎的东西",
+      "临终诊断",
+      "验尸报告",
+      "独树不成林is literally a永动机",
+      "凑合着用着",
+      "没想到吧",
+      "OK"
+    ],
+    "closing_pattern": "以阅读词典史带来的释然作结，承认无解但接受局限，开放式收尾",
+    "narrative_techniques": [
+      "类比（词典如文明档案、美国人的新华词典）",
+      "举例（封建、爹味、woke、literally）",
+      "对比（规范vs描述、印刷vs数字、政府vs市场）",
+      "反问",
+      "自我调侃"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Noah Webster（韦伯斯特）",
+      "type": "person",
+      "context": "18世纪美国词典编撰者，韦氏字典创始人，试图通过词典建立美国国家语言认同",
+      "importance": "high"
+    },
+    {
+      "name": "Samuel Johnson（约翰逊博士）",
+      "type": "person",
+      "context": "18世纪英国词典编撰者，其词典标志着词典作为启蒙教育工具的原型",
+      "importance": "high"
+    },
+    {
+      "name": "Merriam兄弟",
+      "type": "person",
+      "context": "收购韦氏字典并创立Merriam-Webster公司的企业家，将词典商业化",
+      "importance": "high"
+    },
+    {
+      "name": "Stanley B. K. Fadis",
+      "type": "person",
+      "context": "《Word by Word》作者，曾在Merriam-Webster公司接受词典编撰训练",
+      "importance": "medium"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "17世纪政治哲学家，《利维坦》作者在书中自行定义词语，当时尚无词典",
+      "importance": "medium"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "被提及的欧洲思想家，不会将周以后的中国称为封建制",
+      "importance": "low"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "其历史哲学导致中文中封建一词的错用和污名化",
+      "importance": "medium"
+    },
+    {
+      "name": "《Word by Word》",
+      "type": "work",
+      "context": "主播阅读的美国词典史书籍，讲述Merriam-Webster公司和词典行业变迁",
+      "importance": "high"
+    },
+    {
+      "name": "《利维坦》",
+      "type": "work",
+      "context": "霍布斯的政治学经典，因当时无词典而需自行定义术语",
+      "importance": "medium"
+    },
+    {
+      "name": "An American Dictionary of the English Language",
+      "type": "work",
+      "context": "韦伯斯特1828年出版的词典，原名想叫Dictionary of the American Language",
+      "importance": "high"
+    },
+    {
+      "name": "Merriam-Webster Dictionary",
+      "type": "work",
+      "context": "美国最权威的字典，由韦氏字典发展而来，现为盈利性公司产品",
+      "importance": "high"
+    },
+    {
+      "name": "Collegiate Dictionary",
+      "type": "work",
+      "context": "美国口袋版小字典，每十年修订一次，2023年出版22年来首次新版",
+      "importance": "medium"
+    },
+    {
+      "name": "新华字典",
+      "type": "work",
+      "context": "中国人家中必备的纸质字典，主播用以类比韦氏字典的地位",
+      "importance": "high"
+    },
+    {
+      "name": "黑皮书（韦氏字典培训手册）",
+      "type": "work",
+      "context": "韦氏第三版主编编写的六卷本培训手册，现已不再使用",
+      "importance": "low"
+    },
+    {
+      "name": "规范性工具（prescriptive）",
+      "type": "concept",
+      "context": "18世纪中叶至20世纪中叶词典的主要功能，规定语言应当如何正确使用",
+      "importance": "high"
+    },
+    {
+      "name": "描述性工具（descriptive）",
+      "type": "concept",
+      "context": "20世纪中叶后词典功能的转变，记录人们实际如何使用语言而非规定用法",
+      "importance": "high"
+    },
+    {
+      "name": "封建",
+      "type": "concept",
+      "context": "在当代中文中被错用和污名化的政治制度术语，与马克思主义历史观相关",
+      "importance": "high"
+    },
+    {
+      "name": "爹味",
+      "type": "concept",
+      "context": "女性主义运动成功污名化的词语，短时间内从非贬义变为贬义",
+      "importance": "medium"
+    },
+    {
+      "name": "woke（觉醒派）",
+      "type": "concept",
+      "context": "右派成功污名化的词，原为黑人俚语中的褒义词",
+      "importance": "medium"
+    },
+    {
+      "name": "death tax（死亡税）",
+      "type": "concept",
+      "context": "美国政治顾问创造的污名化词汇，用于形容财产分配税收",
+      "importance": "low"
+    },
+    {
+      "name": "literally",
+      "type": "concept",
+      "context": "被滥用到极致的英文词，常被用于与其字面意思相反的夸张表述",
+      "importance": "medium"
+    },
+    {
+      "name": "启蒙运动",
+      "type": "event",
+      "context": "词典作为现代现象出现的时代背景，词典开始被视为教育工具",
+      "importance": "high"
+    },
+    {
+      "name": "美国独立/建国",
+      "type": "event",
+      "context": "韦伯斯特编撰词典的政治背景，美国需要与英国在文化上区分",
+      "importance": "medium"
+    },
+    {
+      "name": "Merriam-Webster公司",
+      "type": "organization",
+      "context": "美国私营词典公司，需要靠盈利存活，面临市场化压力",
+      "importance": "high"
+    },
+    {
+      "name": "财新文化",
+      "type": "organization",
+      "context": "主播的专栏所属媒体，暗示该话题不适合传统媒体发表",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "词典商业化管理模式的案例，词典作为盈利性私立产品",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "词典政府管理模式的案例，词典需符合官方意识形态",
+      "importance": "high"
+    },
+    {
+      "name": "英国/英格兰",
+      "type": "place",
+      "context": "美国独立后需要在文化上与之区分的母国",
+      "importance": "low"
+    },
+    {
+      "name": "雅典",
+      "type": "place",
+      "context": "公元前五世纪就有文人抱怨世风日下的例子",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "699775f7de29766da9f64ccd",
+  "title": "306-词典有什么用？"
+}

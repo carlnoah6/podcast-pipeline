@@ -1,0 +1,243 @@
+{
+  "style": {
+    "opening_pattern": "以对比冲突引入——先描述中国高校学生对自由派的鄙视态度，再指出中美语境下'自由主义'含义的根本差异",
+    "structure": "问题提出→核心论点（四种自由派分类）→逐类详细解释→总结升华。采用'总-分-总'结构，中间四类按'数量由多到少'排列",
+    "tone": "理性客观、略带讽刺幽默，对中美双方的误解都保持批判距离，结尾转向温情与理想主义",
+    "catchphrases": [
+      "嗤之以鼻",
+      "瞠目结舌",
+      "打个岔",
+      "含量",
+      "针锋相对",
+      "分崩离析",
+      "旋转门",
+      "守夜人国家",
+      "用脚投票",
+      "手有余香"
+    ],
+    "closing_pattern": "引用古典定义升华主题——从亚里士多德的'慷慨'美德重新诠释liberal，以诗意表达收束",
+    "narrative_techniques": [
+      "举例（人大博士生访学故事）",
+      "类比（旋转门比喻）",
+      "对比（中美语境对比、四种自由派互相对比）",
+      "设问（What's your politics?）",
+      "自嘲（'口臭'玩笑）",
+      "学术概念通俗化（polysemy）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "毛泽东",
+      "type": "person",
+      "context": "其1937年文章《反对自由主义》被提及为中国高校学生对自由派刻板印象的来源",
+      "importance": "medium"
+    },
+    {
+      "name": "《反对自由主义》",
+      "type": "work",
+      "context": "毛泽东1937年的文章，被认为塑造了中国对自由派的历史理解",
+      "importance": "medium"
+    },
+    {
+      "name": "Greta Thunberg（格蕾塔·通贝里）",
+      "type": "person",
+      "context": "瑞典环保少女，被美国保守派作为白左支持环保主义的典型代表提及",
+      "importance": "low"
+    },
+    {
+      "name": "Libs of TikTok",
+      "type": "organization",
+      "context": "推特上拥有数百万粉丝的保守派账号，专门转发嘲讽美国左派的短视频",
+      "importance": "medium"
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez（AOC）",
+      "type": "person",
+      "context": "美国民主社会主义者众议员，被Libs of TikTok运营者在国会质问",
+      "importance": "low"
+    },
+    {
+      "name": "Vivek Ramaswamy",
+      "type": "person",
+      "context": "2024年共和党总统初选黑马候选人，以批评新自由主义'旋转门'腐败著称",
+      "importance": "medium"
+    },
+    {
+      "name": "Nikki Haley",
+      "type": "person",
+      "context": "共和党总统候选人，曾被Ramaswamy在民调中超越",
+      "importance": "low"
+    },
+    {
+      "name": "Milton Friedman（米尔顿·弗里德曼）",
+      "type": "person",
+      "context": "新自由主义经济学代表人物，其理论被提及为Neoliberal的思想基础",
+      "importance": "low"
+    },
+    {
+      "name": "Friedrich Hayek（弗里德里希·哈耶克）",
+      "type": "person",
+      "context": "奥地利经济学家，古典自由主义/自由意志主义的核心思想家",
+      "importance": "high"
+    },
+    {
+      "name": "Ludwig von Mises（路德维希·冯·米塞斯）",
+      "type": "person",
+      "context": "奥地利学派经济学家，与哈耶克并列为古典自由主义思想来源",
+      "importance": "medium"
+    },
+    {
+      "name": "Adam Smith（亚当·斯密）",
+      "type": "person",
+      "context": "18世纪英国经济学家，《国富论》作者，被古典自由主义者奉为鼻祖",
+      "importance": "medium"
+    },
+    {
+      "name": "David Ricardo（大卫·李嘉图）",
+      "type": "person",
+      "context": "18世纪英国经济学家，古典自由主义经济学的思想来源之一",
+      "importance": "low"
+    },
+    {
+      "name": "《国富论》",
+      "type": "work",
+      "context": "亚当·斯密的著作，其中关于'交换的欲望'的论述被引述",
+      "importance": "low"
+    },
+    {
+      "name": "Robert Nozick（罗伯特·诺奇克）",
+      "type": "person",
+      "context": "左翼哲学家，1974年著作推广'守夜人国家'概念",
+      "importance": "medium"
+    },
+    {
+      "name": "《无政府、国家与乌托邦》",
+      "type": "work",
+      "context": "诺奇克1974年的经典政治哲学著作，阐述最小国家理论",
+      "importance": "medium"
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "2016年当选美国总统，其胜利标志着共和党从古典自由主义向民粹主义转向",
+      "importance": "medium"
+    },
+    {
+      "name": "五四运动",
+      "type": "event",
+      "context": "被类比为当代中国知识分子引入西方启蒙思想的时期，与当代美国学术自由派形成对照",
+      "importance": "medium"
+    },
+    {
+      "name": "critical race theory（批判种族理论）",
+      "type": "concept",
+      "context": "美国左派提出的替代自由主义的后现代理论体系",
+      "importance": "low"
+    },
+    {
+      "name": "post liberalism（后自由主义）",
+      "type": "concept",
+      "context": "美国左右两派共同倡导的、试图取代传统自由主义的思潮",
+      "importance": "high"
+    },
+    {
+      "name": "neoliberalism（新自由主义）",
+      "type": "concept",
+      "context": "冷战后兴起的经济意识形态，主张自由市场、全球化、减少政府干预，现遭左右两派共同批评",
+      "importance": "high"
+    },
+    {
+      "name": "libertarianism（自由意志主义/古典自由主义）",
+      "type": "concept",
+      "context": "强调个人绝对优先于国家、主张最小政府的政治哲学，在美国与欧洲命名不同",
+      "importance": "high"
+    },
+    {
+      "name": "Night Watchman State（守夜人国家）",
+      "type": "concept",
+      "context": "古典自由主义理想中的最小政府形态，仅保留军队、警察、法院等基本职能",
+      "importance": "medium"
+    },
+    {
+      "name": "polysemy（一词多义）",
+      "type": "concept",
+      "context": "播客主持人引入的语言学术语，用以描述'liberal'在美国语境中的概念多重性",
+      "importance": "medium"
+    },
+    {
+      "name": "conceptual polysemy（概念多义性）",
+      "type": "concept",
+      "context": "用于描述'自由派'一词在当代美国语境中包含完全相反立场的现象",
+      "importance": "high"
+    },
+    {
+      "name": "progressive（进步派）",
+      "type": "concept",
+      "context": "与liberal混用但近年趋向更激进的左派立场，目标从'自由'转向'权力'",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "古希腊哲学家，其关于'慷慨'作为君子美德的论述被用于重新定义liberal",
+      "importance": "medium"
+    },
+    {
+      "name": "民主党",
+      "type": "organization",
+      "context": "美国两大政党之一，通常与'自由派'的第一种含义（进步派）相关联",
+      "importance": "medium"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "美国两大政党之一，历史上曾是古典自由主义的大本营，2016年后转向民粹主义",
+      "importance": "medium"
+    },
+    {
+      "name": "CDC（美国疾病控制与预防中心）",
+      "type": "organization",
+      "context": "被作为'旋转门'腐败的例子——官员离职后进入药企担任高管",
+      "importance": "low"
+    },
+    {
+      "name": "达沃斯",
+      "type": "place",
+      "context": "世界经济论坛举办地，被提及为企业游说政府、官商勾结的场所",
+      "importance": "low"
+    },
+    {
+      "name": "德州",
+      "type": "place",
+      "context": "美国南部州，非法移民问题最严重的地区，也是人大博士生访学的地点",
+      "importance": "low"
+    },
+    {
+      "name": "墨西哥边境",
+      "type": "place",
+      "context": "美国与墨西哥边界，大量南美非法移民及'走线'中国人进入美国的通道",
+      "importance": "low"
+    },
+    {
+      "name": "常青藤联盟",
+      "type": "organization",
+      "context": "美国精英大学联盟，其校园内的亲巴勒斯坦帐篷抗议被作为自由派行为的例子",
+      "importance": "low"
+    },
+    {
+      "name": "阿根廷",
+      "type": "place",
+      "context": "被提及最近选出信奉古典自由主义/哈耶克主义总统的国家",
+      "importance": "low"
+    },
+    {
+      "name": "北朝鲜",
+      "type": "place",
+      "context": "被人大博士生作为反讽例子提出——认为批评自由派就应支持北朝鲜，导致美国人震惊",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6622db6f200abebe6e03bb4b",
+  "title": "52-当代美国语境下的自由派究竟代表了什么"
+}
