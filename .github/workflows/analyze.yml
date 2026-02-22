@@ -1,0 +1,78 @@
+name: Analyze Episodes
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Episodes per batch"
+        required: false
+        default: "10"
+      auto_continue:
+        description: "Auto-trigger next batch"
+        required: false
+        default: "true"
+        type: boolean
+
+env:
+  API_BASE: ${{ secrets.API_BASE }}
+  API_KEY: ${{ secrets.API_KEY }}
+  ANALYZE_MODEL: "kimi-k2.5"
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -e . httpx
+
+      - name: Run analysis
+        id: analyze
+        run: |
+          python scripts/analyze_batch.py \
+            --batch-size ${{ inputs.batch_size || '10' }} \
+            --output-dir data/analysis 2>&1 | tee /tmp/analyze.log
+
+          REMAINING=$(grep "Remaining:" /tmp/analyze.log | tail -1 | grep -oP '\d+(?=$)' || echo "0")
+          echo "remaining=$REMAINING" >> "$GITHUB_OUTPUT"
+
+          if grep -q "All transcripts already analyzed" /tmp/analyze.log; then
+            echo "remaining=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit results
+        id: check
+        run: |
+          if git diff --quiet && [ -z "$(git ls-files --others --exclude-standard data/analysis/)" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            git config user.name "podcast-pipeline[bot]"
+            git config user.email "bot@podcast-pipeline.local"
+            git add data/analysis/
+            COUNT=$(git diff --cached --name-only | wc -l)
+            git commit -m "analyze: $COUNT files [auto]"
+            git pull --rebase origin main || true
+            git push origin main
+          fi
+
+      - name: Trigger next batch
+        if: >-
+          inputs.auto_continue != 'false'
+          && steps.analyze.outputs.remaining != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔄 ${{ steps.analyze.outputs.remaining }} remaining, triggering next batch..."
+          gh workflow run analyze.yml \
+            --field batch_size=${{ inputs.batch_size || '10' }} \
+            --field auto_continue=true
