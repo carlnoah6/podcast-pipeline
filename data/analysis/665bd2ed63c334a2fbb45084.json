@@ -1,0 +1,453 @@
+{
+  "style": {
+    "opening_pattern": "直接切入学术讨论，从福柯和利奥塔等法国新左翼思想家如何重新引入尼采开始，建立对比框架",
+    "structure": "理论铺垫（西方后现代左翼对尼采的解读）→ 核心对比（中国五四左翼对尼采的解读）→ 个案分析（鲁迅、郁达夫、冰心）→ 深层反思（误解的意义与局限性）→ 个人延伸（播客制作理念与课程构思）",
+    "tone": "理性客观中带有个人化反思，学术性与口语化并存，时而出现自我调侃和情感流露",
+    "catchphrases": [
+      "拿来主义",
+      "上方宝剑",
+      "鸡零狗碎",
+      "腰果老师",
+      "纯玩/休闲",
+      "投枪匕首",
+      "阴阳怪气",
+      "祛魅",
+      "密涅瓦的猫头鹰在黄昏时起飞",
+      "拜拜呀拜拜"
+    ],
+    "closing_pattern": "开放式展望，提出未完成的课程构思，以随意的告别语结束",
+    "narrative_techniques": [
+      "对比（中西左翼对尼采的不同运用）",
+      "举例（大量引用鲁迅原文）",
+      "类比（将鲁迅与尼采文风对比）",
+      "反问（质疑中国年轻人对理论的误用）",
+      "插叙（中途插入播客制作理念和腰果老师的故事）",
+      "引用（大段引用《热风集》《查拉图斯特拉如是说》）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "福柯（Michel Foucault）",
+      "type": "person",
+      "context": "法国新左翼思想家，通过《疯癫与文明》《规训与惩罚》等著作借用尼采思想批判启蒙、进步和普世价值，将尼采介绍给西方新左翼",
+      "importance": "high"
+    },
+    {
+      "name": "让-弗朗索瓦·利奥塔（Jean-François Lyotard）",
+      "type": "person",
+      "context": "与福柯一起将尼采重新介绍给西方新左翼的后现代思想家",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采（Friedrich Nietzsche）",
+      "type": "person",
+      "context": "德国哲学家，本集核心讨论对象，被不同政治立场的知识分子（从进步左翼到极端右翼）视为精神偶像，其思想中的权力意志、超人哲学、反讽口吻等被选择性解读",
+      "importance": "high"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "中国现代文学奠基人，五四时期进步左翼代表，将尼采视为精神偶像但进行工具化运用，强调启蒙救国和进步史观，著有《狂人日记》《热风集》等",
+      "importance": "high"
+    },
+    {
+      "name": "郁达夫",
+      "type": "person",
+      "context": "中国现代作家，1921年小说集《沉沦》作者，受尼采影响塑造孤独孤傲的主人公形象，气质感伤颓废，与鲁迅形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "冰心",
+      "type": "person",
+      "context": "中国现代女作家，小说《超人》作者，描绘受尼采影响的青年最终回归温情，代表对尼采的另一种理解",
+      "importance": "medium"
+    },
+    {
+      "name": "边沁（Jeremy Bentham）",
+      "type": "person",
+      "context": "英国功利主义哲学家，被福柯借尼采思想批评，其全景监狱概念被福柯发展为现代规训社会的分析",
+      "importance": "low"
+    },
+    {
+      "name": "洛克（John Locke）",
+      "type": "person",
+      "context": "英国古典自由主义哲学家，被福柯批评将政府权力理解为确保公民遵纪守法的工具",
+      "importance": "low"
+    },
+    {
+      "name": "德勒兹（Gilles Deleuze）",
+      "type": "person",
+      "context": "法国后现代主义哲学家，与福柯一起将尼采思想传播到美国",
+      "importance": "low"
+    },
+    {
+      "name": "许子东",
+      "type": "person",
+      "context": "学者，其现代文学课被主播引用介绍鲁迅特点",
+      "importance": "low"
+    },
+    {
+      "name": "周作人",
+      "type": "person",
+      "context": "鲁迅弟弟，提供了关于鲁迅购买和阅读德文版《查拉图斯特拉如是说》的史料",
+      "importance": "low"
+    },
+    {
+      "name": "李伯元",
+      "type": "person",
+      "context": "晚清小说家，《官场现形记》作者，代表五四之前谴责小说的官场批判传统",
+      "importance": "low"
+    },
+    {
+      "name": "达尔文（Charles Darwin）",
+      "type": "person",
+      "context": "进化论创立者，被鲁迅列为值得崇拜的偶像破坏者之一",
+      "importance": "low"
+    },
+    {
+      "name": "易卜生（Henrik Ibsen）",
+      "type": "person",
+      "context": "挪威剧作家，被鲁迅列为偶像破坏的大人物",
+      "importance": "low"
+    },
+    {
+      "name": "托尔斯泰（Leo Tolstoy）",
+      "type": "person",
+      "context": "俄国作家，被鲁迅列为偶像破坏的大人物",
+      "importance": "low"
+    },
+    {
+      "name": "苏格拉底（Socrates）",
+      "type": "person",
+      "context": "古希腊哲学家，尼采对其有复杂态度既批评又继承，鲁迅通过《天演论》间接了解",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "古希腊哲学家，鲁迅在《天演论》中读到",
+      "importance": "low"
+    },
+    {
+      "name": "赫胥黎（Thomas Huxley）",
+      "type": "person",
+      "context": "英国生物学家，《进化论与伦理学》（Evolution and Ethics）作者，严复翻译为《天演论》，其对进步的怀疑被严复在翻译中修改",
+      "importance": "medium"
+    },
+    {
+      "name": "严复",
+      "type": "person",
+      "context": "清末思想家，翻译《天演论》时在译文中加入对进步的肯定，省略了《圣经》相关内容",
+      "importance": "medium"
+    },
+    {
+      "name": "徐懋庸",
+      "type": "person",
+      "context": "鲁迅1933年通信对象，信中鲁迅提及自己阅读的书籍类型",
+      "importance": "low"
+    },
+    {
+      "name": "腰果老师",
+      "type": "person",
+      "context": "主播的博学朋友，政治哲学助教出身，精通多语言和古籍，为本集提供学术支持",
+      "importance": "medium"
+    },
+    {
+      "name": "孔丘/孔子",
+      "type": "person",
+      "context": "儒家创始人，被鲁迅视为需要打破的传统偶像",
+      "importance": "low"
+    },
+    {
+      "name": "关羽",
+      "type": "person",
+      "context": "历史人物，被鲁迅作为传统崇拜对象的例子",
+      "importance": "low"
+    },
+    {
+      "name": "查拉图斯特拉（Zarathustra）",
+      "type": "person",
+      "context": "尼采虚构的哲人形象，《查拉图斯特拉如是说》主人公，象征孤独对抗庸众的精神独立者",
+      "importance": "high"
+    },
+    {
+      "name": "禄儿",
+      "type": "person",
+      "context": "冰心小说《超人》中的邻居小孩，其生病打动了冷漠的主人公",
+      "importance": "low"
+    },
+    {
+      "name": "《疯癫与文明》",
+      "type": "work",
+      "context": "福柯第一部最有影响力的著作，借用尼采批判传统道德，质疑精神病概念的客观性",
+      "importance": "medium"
+    },
+    {
+      "name": "《规训与惩罚》",
+      "type": "work",
+      "context": "福柯第二本重要著作，从现代监狱分析规训社会，借用尼采批评功利主义",
+      "importance": "medium"
+    },
+    {
+      "name": "《查拉图斯特拉如是说》（Also sprach Zarathustra）",
+      "type": "work",
+      "context": "尼采最抽象、最有诗意、最难懂的著作，鲁迅留日期间购买德文版并大量引用，郁达夫《沉沦》也受其影响",
+      "importance": "high"
+    },
+    {
+      "name": "《狂人日记》",
+      "type": "work",
+      "context": "1918年鲁迅发表的中国历史上第一篇白话文小说，描绘有病的人对有病的社会的反思，受尼采影响",
+      "importance": "high"
+    },
+    {
+      "name": "《热风集》",
+      "type": "work",
+      "context": "鲁迅散文集，包含大量对《查拉图斯特拉如是说》的引用，体现鲁迅对尼采超人哲学的理解",
+      "importance": "high"
+    },
+    {
+      "name": "《随感录》41/46",
+      "type": "work",
+      "context": "《热风集》中的篇目，包含鲁迅对尼采超人和偶像破坏者的讨论及著名段落\"有一分热，发一分光\"",
+      "importance": "medium"
+    },
+    {
+      "name": "《拿来主义》",
+      "type": "work",
+      "context": "鲁迅散文，体现其对西方文化的态度，也是其对尼采哲学的态度——选择性取用",
+      "importance": "medium"
+    },
+    {
+      "name": "《朝花夕拾·琐记》",
+      "type": "work",
+      "context": "鲁迅晚年散文，提及购买和阅读《天演论》的经历",
+      "importance": "low"
+    },
+    {
+      "name": "《天演论》",
+      "type": "work",
+      "context": "严复翻译赫胥黎《进化论与伦理学》的译作，鲁迅通过此书接触苏格拉底和柏拉图，但译本对原著有删改",
+      "importance": "medium"
+    },
+    {
+      "name": "《Evolution and Ethics》（进化论与伦理学）",
+      "type": "work",
+      "context": "赫胥黎英文原著，腰果老师对比过原文与严复译本的区别",
+      "importance": "low"
+    },
+    {
+      "name": "《沉沦》",
+      "type": "work",
+      "context": "1921年郁达夫小说集，一般认为是中国第一本出版的小说集，主人公以查拉图斯特拉自比，表现孤独与性苦闷",
+      "importance": "medium"
+    },
+    {
+      "name": "《超人》",
+      "type": "work",
+      "context": "冰心小说，描绘受尼采影响的青年最终被温情治愈",
+      "importance": "medium"
+    },
+    {
+      "name": "《官场现形记》",
+      "type": "work",
+      "context": "李伯元晚清谴责小说，代表五四之前聚焦官场黑暗的文学传统",
+      "importance": "low"
+    },
+    {
+      "name": "《善恶的彼岸》",
+      "type": "work",
+      "context": "尼采著作，主播建议先读此书再读《查拉图斯特拉如是说》",
+      "importance": "low"
+    },
+    {
+      "name": "《道德的谱系》",
+      "type": "work",
+      "context": "尼采著作，其中对基督教牧师的描绘显示尼采对西方传统的复杂态度，被中国左翼忽视",
+      "importance": "medium"
+    },
+    {
+      "name": "《圣经》",
+      "type": "work",
+      "context": "基督教经典，尼采24岁成为古典语文学教授后深入研究，鲁迅是否完整读过存疑",
+      "importance": "medium"
+    },
+    {
+      "name": "《约伯记》",
+      "type": "work",
+      "context": "《圣经》篇章，赫胥黎原著中引用的故事被严复在《天演论》中省略",
+      "importance": "low"
+    },
+    {
+      "name": "《日文的世界史教程》",
+      "type": "work",
+      "context": "鲁迅1933年信中提到的正在阅读的书籍",
+      "importance": "low"
+    },
+    {
+      "name": "权力意志（Wille zur Macht）",
+      "type": "concept",
+      "context": "尼采核心概念，被福柯等法国新左翼用来反对马克思的科学共产主义，成为后现代主义的思想武器",
+      "importance": "high"
+    },
+    {
+      "name": "超人（Übermensch）",
+      "type": "concept",
+      "context": "尼采哲学中的理想人类形象，鲁迅理解为未来更圆满的人类，但忽视了少数人统治多数人的精英主义内涵",
+      "importance": "high"
+    },
+    {
+      "name": "偶像破坏",
+      "type": "concept",
+      "context": "鲁迅从尼采处汲取的核心精神，主张打破传统崇拜（尤其是儒教），但鲁迅将其服务于启蒙救国的政治目的",
+      "importance": "high"
+    },
+    {
+      "name": "拿来主义",
+      "type": "concept",
+      "context": "鲁迅提出的文化态度，主张对西方文化选择性取用，也是其对尼采哲学的实际运用方式",
+      "importance": "high"
+    },
+    {
+      "name": "后现代主义/后结构主义",
+      "type": "concept",
+      "context": "福柯、德勒兹等人发展的思想流派，将尼采的权力概念扩展到一切领域，拒绝所有普世价值和进步叙事",
+      "importance": "high"
+    },
+    {
+      "name": "祛魅（Disenchantment）",
+      "type": "concept",
+      "context": "韦伯概念，指现代社会中超验世界的瓦解，主播在第42期讨论过，认为五四文学家未能理解尼采\"上帝死了\"背后的这一层含义",
+      "importance": "high"
+    },
+    {
+      "name": "科学共产主义",
+      "type": "concept",
+      "context": "马克思主义理论，被法国新左翼借尼采思想反对",
+      "importance": "medium"
+    },
+    {
+      "name": "功利主义",
+      "type": "concept",
+      "context": "边沁代表的哲学流派，被尼采和福柯批评，与尼采所批判的\"末人社会\"相关",
+      "importance": "medium"
+    },
+    {
+      "name": "启蒙",
+      "type": "concept",
+      "context": "五四中国左翼相信而西方后现代左翼拒绝的价值，是两者对尼采不同运用的关键分歧点",
+      "importance": "high"
+    },
+    {
+      "name": "进步史观",
+      "type": "concept",
+      "context": "鲁迅持有的乐观信念，与尼采的模棱两可及西方后现代左翼的彻底拒绝形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "国民性批判",
+      "type": "concept",
+      "context": "鲁迅从关注官场转向关注人性的核心议题，使其能够接受尼采对现代社会的批评",
+      "importance": "medium"
+    },
+    {
+      "name": "性解放",
+      "type": "concept",
+      "context": "福柯身边的法国同性恋者追求的目标，但被福柯本人拒绝，认为解放不可能",
+      "importance": "low"
+    },
+    {
+      "name": "身份标签",
+      "type": "concept",
+      "context": "福柯理论中的权力运作方式，被美国左派和中国留学生广泛传播，成为当代政治正确话语的基础",
+      "importance": "medium"
+    },
+    {
+      "name": "末人（Last Man）",
+      "type": "concept",
+      "context": "尼采批判的现代人类型，沉溺于享乐主义和功利主义，鲁迅借此理解中国社会的病态",
+      "importance": "medium"
+    },
+    {
+      "name": "五四运动",
+      "type": "event",
+      "context": "20世纪初中国思想文化运动，主播用以对比西方后现代左翼的另一脉络——相信启蒙和进步的中国进步左翼",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "鲁迅所处中国未经历的历史事件，导致鲁迅对尼采的理解存在语境差异",
+      "importance": "low"
+    },
+    {
+      "name": "明治维新",
+      "type": "event",
+      "context": "日本近代化改革，与欧洲人文主义一起影响鲁迅一代作家对人的关注",
+      "importance": "low"
+    },
+    {
+      "name": "宗教改革",
+      "type": "event",
+      "context": "鲁迅列举的偶像破坏带来的历史进步案例",
+      "importance": "low"
+    },
+    {
+      "name": "比利时义战",
+      "type": "event",
+      "context": "鲁迅提及的偶像破坏带来人道光明的例子，具体所指不详",
+      "importance": "low"
+    },
+    {
+      "name": "瑞士巴塞尔大学",
+      "type": "organization",
+      "context": "尼采24岁成为古典语文学教授的机构，体现其深厚的古典学术背景",
+      "importance": "low"
+    },
+    {
+      "name": "学衡派",
+      "type": "organization",
+      "context": "鲁迅批评的保守学派，鲁迅对其持不屑一顾的高高在上的攻击态度",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "福柯、利奥塔、德勒兹等后现代主义思想家的发源地，五六十年代兴起后七八十年代传到美国",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "法国后现代主义思想在七八十年代传播的目的地，成为美国左派主流情绪",
+      "importance": "medium"
+    },
+    {
+      "name": "中国/中文语境",
+      "type": "place",
+      "context": "留学生将美国学到的福柯理论带回的地方，主播观察到中国年轻人对这套理论的矛盾运用",
+      "importance": "high"
+    },
+    {
+      "name": "浙江",
+      "type": "place",
+      "context": "鲁迅和郁达夫的故乡，主播提及的地域关联",
+      "importance": "low"
+    },
+    {
+      "name": "科隆大教堂",
+      "type": "other",
+      "context": "主播用以象征信仰时代伟大创造的建筑，暗示现代社会已失去建造此类建筑的精神能力",
+      "importance": "low"
+    },
+    {
+      "name": "巴赫（Johann Sebastian Bach）",
+      "type": "person",
+      "context": "主播提及的作曲家，与科隆大教堂一起象征信仰时代的创造力",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "665bd2ed63c334a2fbb45084",
+  "title": "68-为何进步左翼（如鲁迅）喜欢把尼采视为精神偶像？"
+}

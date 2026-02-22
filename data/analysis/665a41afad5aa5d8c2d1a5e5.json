@@ -1,0 +1,448 @@
+{
+  "style": {
+    "opening_pattern": "直接提出问题",
+    "structure": "问题→概念澄清（左右派定义）→极端右翼特征分析→尼采哲学解读→极端右翼对尼采的误读→总结",
+    "tone": "理性客观",
+    "catchphrases": [
+      "叽里呱啦",
+      "A 这种理性是不符合理性的",
+      "让我们说一会儿",
+      "我不知道大家是否可以理解",
+      "话说回来",
+      "话说回刚才"
+    ],
+    "closing_pattern": "预告下期内容",
+    "narrative_techniques": [
+      "类比",
+      "反问",
+      "举例",
+      "对比",
+      "引用"
+    ]
+  },
+  "entities": [
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "德国哲学家，其思想被极端右翼视为精神偶像，本集核心分析对象",
+      "importance": "high"
+    },
+    {
+      "name": "希特勒",
+      "type": "person",
+      "context": "作为纳粹主义代表，与斯大林对比说明极右与极左的区别",
+      "importance": "high"
+    },
+    {
+      "name": "斯大林",
+      "type": "person",
+      "context": "作为极权主义代表，与希特勒对比说明极左与极右的异同",
+      "importance": "medium"
+    },
+    {
+      "name": "Costin Alamariu（Bronze Age Pervert/BAP）",
+      "type": "person",
+      "context": "当代美国著名极端右翼分子，2023年出版《配种和哲学的诞生》",
+      "importance": "high"
+    },
+    {
+      "name": "埃德蒙·伯克（Edmund Burke）",
+      "type": "person",
+      "context": "英国保守派思想家，代表英国传统保守主义",
+      "importance": "medium"
+    },
+    {
+      "name": "王国维",
+      "type": "person",
+      "context": "中国近代学者，代表中国传统保守主义",
+      "importance": "low"
+    },
+    {
+      "name": "福柯",
+      "type": "person",
+      "context": "法国哲学家，其语言哲学影响了21世纪女权主义",
+      "importance": "medium"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "古希腊哲学家，其对希腊哲学的影响被尼采批评为导致现代生命力缺失的原因之一",
+      "importance": "medium"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "德国哲学家，尼采认为他与叔本华在反对英国机械论上志同道合",
+      "importance": "low"
+    },
+    {
+      "name": "叔本华",
+      "type": "person",
+      "context": "德国哲学家，尼采认为他与黑格尔在反对英国机械论上志同道合",
+      "importance": "low"
+    },
+    {
+      "name": "培根",
+      "type": "person",
+      "context": "英国哲学家，被尼采批评为对哲学精神的攻击",
+      "importance": "low"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "英国哲学家，被尼采批评贬低了哲学概念的价值",
+      "importance": "low"
+    },
+    {
+      "name": "休谟",
+      "type": "person",
+      "context": "英国哲学家，被尼采批评贬低了哲学概念的价值，康德反对他",
+      "importance": "low"
+    },
+    {
+      "name": "洛克",
+      "type": "person",
+      "context": "英国哲学家，被谢林和尼采鄙视，代表英国经验主义",
+      "importance": "low"
+    },
+    {
+      "name": "谢林",
+      "type": "person",
+      "context": "德国哲学家，对洛克说'我鄙视洛克'",
+      "importance": "low"
+    },
+    {
+      "name": "密尔（John Stuart Mill）",
+      "type": "person",
+      "context": "英国哲学家，其功利主义被尼采批评为将道德奴役于目的论",
+      "importance": "medium"
+    },
+    {
+      "name": "成吉思汗",
+      "type": "person",
+      "context": "历史人物，被尼采和极端右翼崇拜的强者/暴君典型",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "历史人物，被尼采歌颂的伟人，但其父只是普通农民",
+      "importance": "medium"
+    },
+    {
+      "name": "秦始皇",
+      "type": "person",
+      "context": "中国历史人物，被极端右翼崇拜的暴君典型",
+      "importance": "low"
+    },
+    {
+      "name": "亚历山大大帝",
+      "type": "person",
+      "context": "历史人物，被尼采歌颂的伟人",
+      "importance": "low"
+    },
+    {
+      "name": "凯撒大帝",
+      "type": "person",
+      "context": "古罗马统治者，其名言'Veni Vidi Vici'被某中国留学生纹在手腕上",
+      "importance": "low"
+    },
+    {
+      "name": "马可·奥勒留（Marcus Aurelius）",
+      "type": "person",
+      "context": "罗马皇帝，斯多葛哲学代表人物，被某自诩强者的中国学生信奉",
+      "importance": "low"
+    },
+    {
+      "name": "奥德修斯",
+      "type": "person",
+      "context": "古希腊英雄，与其子忒勒玛科斯对比说明天性并非完全由血统决定",
+      "importance": "low"
+    },
+    {
+      "name": "忒勒玛科斯（Telemachus）",
+      "type": "person",
+      "context": "奥德修斯之子，被描述为懦弱胆小，与父亲形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "伊丽莎白·福斯特-尼采（尼采的妹妹）",
+      "type": "person",
+      "context": "被用来与尼采对比，说明血统不能保证智慧——她是迂腐的纳粹主义者",
+      "importance": "medium"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "中国进步左派思想家，将在下期播客讨论",
+      "importance": "low"
+    },
+    {
+      "name": "郁达夫",
+      "type": "person",
+      "context": "中国进步左派思想家，将在下期播客讨论",
+      "importance": "low"
+    },
+    {
+      "name": "冰心",
+      "type": "person",
+      "context": "中国进步左派思想家，将在下期播客讨论",
+      "importance": "low"
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "在第64期播客中讨论过其选民基础，本期作为理解视角转换的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "主播的朋友，其追求者作为极端右翼分子的现实案例",
+      "importance": "low"
+    },
+    {
+      "name": "查拉图斯特拉",
+      "type": "person",
+      "context": "尼采笔下人物，《查拉图斯特拉如是说》主角，下山后遇到现代人",
+      "importance": "medium"
+    },
+    {
+      "name": "保姆哥",
+      "type": "person",
+      "context": "将主播播客转发到政治哲学讨论群的人",
+      "importance": "low"
+    },
+    {
+      "name": "《善恶的彼岸》",
+      "type": "work",
+      "context": "尼采重要著作，提出主人道德与奴隶道德的概念",
+      "importance": "high"
+    },
+    {
+      "name": "《论道德的谱系》",
+      "type": "work",
+      "context": "尼采著作，进一步阐述主人道德与奴隶道德",
+      "importance": "high"
+    },
+    {
+      "name": "《查拉图斯特拉如是说》",
+      "type": "work",
+      "context": "尼采代表作，查拉图斯特拉下山遇到现代人的故事出处",
+      "importance": "medium"
+    },
+    {
+      "name": "Breeding and the Birth of Philosophy（《配种和哲学的诞生》）",
+      "type": "work",
+      "context": "Costin Alamariu 2023年出版的极端右翼著作，标题体现极端右翼把人畜生化的倾向",
+      "importance": "high"
+    },
+    {
+      "name": "《罗密欧与朱丽叶》",
+      "type": "work",
+      "context": "莎士比亚戏剧，近期伦敦演出因选用黑人女演员饰演朱丽叶引发争议，作为文明包容性的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "《富春山居图》",
+      "type": "work",
+      "context": "中国古典名画，代表文明瑰宝，与裹小脚的传统并置说明传统的复杂性",
+      "importance": "low"
+    },
+    {
+      "name": "主人道德与奴隶道德",
+      "type": "concept",
+      "context": "尼采核心概念，主人道德关注高贵与低贱，奴隶道德关注善与恶，极端右翼只吸收前者",
+      "importance": "high"
+    },
+    {
+      "name": "Übermensch（超人）",
+      "type": "concept",
+      "context": "尼采哲学中的理想人格，被极端右翼理解为维护高贵文明的残忍暴君",
+      "importance": "high"
+    },
+    {
+      "name": "末人（Last Man）",
+      "type": "concept",
+      "context": "尼采对现代人的诊断，指失去生命力、只追求享乐的平庸之人，极端右翼以此自我认同",
+      "importance": "high"
+    },
+    {
+      "name": "权力意志（Will to Power）",
+      "type": "concept",
+      "context": "尼采核心概念，生命力的体现，极端右翼试图以此完成自我超越",
+      "importance": "high"
+    },
+    {
+      "name": "Revolutionary Rationalism（革命理性主义）",
+      "type": "concept",
+      "context": "主播概括的左派态度，渴望用理性改造世界，具有普世意义",
+      "importance": "high"
+    },
+    {
+      "name": "Counter-Revolutionary Romanticism（反革命浪漫主义）",
+      "type": "concept",
+      "context": "主播概括的右派态度，反对普世，崇尚传统",
+      "importance": "high"
+    },
+    {
+      "name": "功利主义（Utilitarianism）",
+      "type": "concept",
+      "context": "英国哲学传统，被尼采和极端右翼批评为将人扁平化为计算利益的动物",
+      "importance": "high"
+    },
+    {
+      "name": "homo economicus（经济人）",
+      "type": "concept",
+      "context": "现代经济学概念，指只会计算利益的理性生物，被批评为对人性的压缩",
+      "importance": "medium"
+    },
+    {
+      "name": "绩效主义",
+      "type": "concept",
+      "context": "现代社会理念之一，被极端右翼反感",
+      "importance": "medium"
+    },
+    {
+      "name": "自由主义",
+      "type": "concept",
+      "context": "现代社会核心理念，被尼采和极端右翼批评",
+      "importance": "high"
+    },
+    {
+      "name": "民主",
+      "type": "concept",
+      "context": "现代政治制度，被尼采和极端右翼批评为弱化强者",
+      "importance": "high"
+    },
+    {
+      "name": "身份平等/人人平等",
+      "type": "concept",
+      "context": "现代文明基础特质，极端右翼最核心的反感对象",
+      "importance": "high"
+    },
+    {
+      "name": "特殊主义（Particularism）",
+      "type": "concept",
+      "context": "反普世主义的立场，右翼和极端右翼的特征",
+      "importance": "high"
+    },
+    {
+      "name": "普世主义（Universalism）",
+      "type": "concept",
+      "context": "左派的特征，相信理性具有跨文化的普遍适用性",
+      "importance": "high"
+    },
+    {
+      "name": "暴政（Tyranny）",
+      "type": "concept",
+      "context": "极端右翼从强者崇拜滑坡至认同的政治形式，尼采本人并不支持",
+      "importance": "high"
+    },
+    {
+      "name": "强权政治（Machtpolitik）",
+      "type": "concept",
+      "context": "极端右翼推崇的政治体系，导致个体性瓦解",
+      "importance": "medium"
+    },
+    {
+      "name": "自然道德 vs 世俗道德",
+      "type": "concept",
+      "context": "尼采哲学中的张力，极端右翼过于字面化地理解",
+      "importance": "medium"
+    },
+    {
+      "name": "健康与生命力（Health and Vitality）",
+      "type": "concept",
+      "context": "尼采对现代文明的诊断，被极端右翼过度简化理解",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "1789年事件，左右派政治光谱的起源，左派坐在议会左边反对旧政权",
+      "importance": "high"
+    },
+    {
+      "name": "纳粹主义",
+      "type": "concept",
+      "context": "20世纪德国极端右翼意识形态，建立在种族主义而非文化保守主义之上",
+      "importance": "high"
+    },
+    {
+      "name": "共产主义革命",
+      "type": "concept",
+      "context": "20世纪左翼运动，以理性为基础主张消灭私有制",
+      "importance": "medium"
+    },
+    {
+      "name": "伦敦《罗密欧与朱丽叶》选角争议",
+      "type": "event",
+      "context": "近期事件，白人男演员配黑人女演员引发争议，作为文明包容性讨论的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "尼采的故乡，纳粹主义的发源地，极端右翼的典型历史场景",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "2024年极端右翼活跃的国家，主播主要分析对象之一",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "保守主义传统代表，也是功利主义哲学的发源地，被尼采批评",
+      "importance": "medium"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "左右派起源地，天主教传统的保守派与革命理性主义左派的对立",
+      "importance": "medium"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "王国维代表的保守主义传统，也将在下期作为进步左派案例出现",
+      "importance": "medium"
+    },
+    {
+      "name": "维也纳",
+      "type": "place",
+      "context": "20世纪初古典音乐大厅多由犹太人出资建立，说明文化边界开放性",
+      "importance": "low"
+    },
+    {
+      "name": "伦敦",
+      "type": "place",
+      "context": "《罗密欧与朱丽叶》争议演出的地点",
+      "importance": "low"
+    },
+    {
+      "name": "苏联",
+      "type": "place",
+      "context": "斯大林极权主义的所在地，从普世理性主义滑向俄罗斯民族主义",
+      "importance": "medium"
+    },
+    {
+      "name": "纳粹党",
+      "type": "organization",
+      "context": "德国国家社会主义工人党，极端右翼的历史代表",
+      "importance": "medium"
+    },
+    {
+      "name": "天主教",
+      "type": "organization",
+      "context": "法国保守派想要保守的宗教传统，左派反对的'神的极权'",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "665a41afad5aa5d8c2d1a5e5",
+  "title": "67-为何极端右翼喜欢把尼采视为精神偶像？"
+}

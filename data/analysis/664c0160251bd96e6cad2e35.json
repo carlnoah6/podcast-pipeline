@@ -1,0 +1,423 @@
+{
+  "style": {
+    "opening_pattern": "以问题引入，直接点明主题——澄清对美国左派的误解，并预告将揭示美国左派的独特性",
+    "structure": "问题提出→历史溯源（法国大革命左右起源）→三位关键总统（杰弗逊→杰克逊→威尔逊）→文化力量演变→20世纪至今的快速总结→回应听众疑问→结尾总结",
+    "tone": "理性客观中带有个性化表达，既有学术分析的严谨，又有口语化的轻松感，偶尔带有反讽和幽默",
+    "catchphrases": [
+      "我的天哪",
+      "OK",
+      "咱们",
+      "从头开始讲",
+      "很奇怪",
+      "非常奇怪",
+      "瞠目结舌",
+      "铁板一块",
+      "变色龙",
+      "夸拉一下倒在大家脑袋上"
+    ],
+    "closing_pattern": "总结核心观点，强调美国左派的独特性和历史演变之大，回应开头问题，自然收尾",
+    "narrative_techniques": [
+      "对比（美国左派vs欧洲/中国左派）",
+      "反问",
+      "举例（具体历史人物和事件）",
+      "类比（杰克逊与特朗普）",
+      "引用（书籍、学者观点）",
+      "个人经历穿插（教托克维尔、博导父母的故事）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "托马斯·杰弗逊（Thomas Jefferson）",
+      "type": "person",
+      "context": "被美国政治学界公认为'美国左派之父'，支持法国大革命，主张小政府、州权分散、重农主义，反对中央集权和特权",
+      "importance": "high"
+    },
+    {
+      "name": "托马斯·潘恩（Thomas Paine）",
+      "type": "person",
+      "context": "杰弗逊的精神导师，英国激进民主主义者，著有《常识》，认为社会弊病根源是中央政府集权",
+      "importance": "high"
+    },
+    {
+      "name": "安德鲁·杰克逊（Andrew Jackson）",
+      "type": "person",
+      "context": "1828年当选的第七任美国总统，美国历史上第一位民粹主义总统，被称为'人民总统'，实现杰弗逊共和价值观并扩大白人男性选举权",
+      "importance": "high"
+    },
+    {
+      "name": "伍德罗·威尔逊（Woodrow Wilson）",
+      "type": "person",
+      "context": "普林斯顿大学校长出身的总统，美国进步主义源头，首位批评美国宪法和独立宣言的总统，提出'灯塔国'概念，将全球主义和精英主义引入美国左派",
+      "importance": "high"
+    },
+    {
+      "name": "亚历山大·汉密尔顿",
+      "type": "person",
+      "context": "联邦党代表，与杰弗逊针锋相对，主张强大中央政府、工业化和国家银行",
+      "importance": "medium"
+    },
+    {
+      "name": "尤瓦尔·莱文（Yuval Levin）",
+      "type": "person",
+      "context": "美国政治学者，2014年出版《伟大的辩论》详细论述美国左右派起源，博士毕业于芝加哥大学社会思想委员会",
+      "importance": "medium"
+    },
+    {
+      "name": "亚历西斯·德·托克维尔",
+      "type": "person",
+      "context": "法国政治思想家，1835年出版《论美国的民主》，其访美时期恰逢杰克逊当选，播客主讲人用以向学生推销课程",
+      "importance": "medium"
+    },
+    {
+      "name": "卡尔·马克思",
+      "type": "person",
+      "context": "19世纪末出现的思想家，其理论从未在美国左派主流中扎根，美国农民反资本家时自称'杰克逊民主党人'而非马克思主义者",
+      "importance": "medium"
+    },
+    {
+      "name": "欧文·克里斯托尔（Irving Kristol）",
+      "type": "person",
+      "context": "美国新保守主义教父，原为激进托派，40年代从左派转向保守主义",
+      "importance": "medium"
+    },
+    {
+      "name": "诺曼·波德霍雷茨（Norman Podhoretz）",
+      "type": "person",
+      "context": "美国新保守主义杂志《Commentary》创始人，原为激进托派",
+      "importance": "medium"
+    },
+    {
+      "name": "安吉拉·戴维斯（Angela Davis）",
+      "type": "person",
+      "context": "黑人民运中的马克思主义者，师从法兰克福学派，但其影响力被后来的新左派重新建构",
+      "importance": "medium"
+    },
+    {
+      "name": "赫伯特·马尔库塞（Herbert Marcuse）",
+      "type": "person",
+      "context": "法兰克福学派代表人物，安吉拉·戴维斯的老师，新马克思主义理论家",
+      "importance": "medium"
+    },
+    {
+      "name": "西奥多·阿多诺（Theodor Adorno）",
+      "type": "person",
+      "context": "法兰克福学派代表人物，安吉拉·戴维斯的老师",
+      "importance": "low"
+    },
+    {
+      "name": "保罗·弗莱雷（Paulo Freire）",
+      "type": "person",
+      "context": "巴西教育家，其理论将教育叙事转换为压迫者与被压迫者的抗争，对美国教育改革影响深远",
+      "importance": "medium"
+    },
+    {
+      "name": "德里克·贝尔（Derek Bell）",
+      "type": "person",
+      "context": "哈佛法学院教授，批判种族理论奠基人，开启DEI多元主义教育",
+      "importance": "medium"
+    },
+    {
+      "name": "朱迪斯·巴特勒（Judith Butler）",
+      "type": "person",
+      "context": "当代著名性别理论家，带来女权叙事新发展",
+      "importance": "medium"
+    },
+    {
+      "name": "弗朗茨·法农（Frantz Fanon）",
+      "type": "person",
+      "context": "后殖民理论家，带来后殖民叙事，影响当今美国左派",
+      "importance": "medium"
+    },
+    {
+      "name": "埃德蒙·伯克（Edmund Burke）",
+      "type": "person",
+      "context": "英国保守主义思想家，与潘恩的辩论被视为左右派诞生的标志",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "德国哲学家，其历史主义传统通过约翰霍普金斯大学的历史学家影响威尔逊总统",
+      "importance": "medium"
+    },
+    {
+      "name": "罗纳德·里根（Ronald Reagan）",
+      "type": "person",
+      "context": "1980年代共和党总统，其保守派观念'政府是问题所在'恰是200年前美国左派的观点",
+      "importance": "low"
+    },
+    {
+      "name": "唐纳德·特朗普（Donald Trump）",
+      "type": "person",
+      "context": "被类比为杰克逊，同样以'把精英赶出白宫'为口号",
+      "importance": "low"
+    },
+    {
+      "name": "约瑟夫·斯大林",
+      "type": "person",
+      "context": "苏联领导人，1939年与希特勒结盟，美国左派曾游行庆祝此事",
+      "importance": "low"
+    },
+    {
+      "name": "阿道夫·希特勒",
+      "type": "person",
+      "context": "纳粹德国领导人，1939年与斯大林结盟",
+      "importance": "low"
+    },
+    {
+      "name": "J.罗伯特·奥本海默",
+      "type": "person",
+      "context": "电影《奥本海默》主角，在麦卡锡主义时期受到迫害的科学家",
+      "importance": "low"
+    },
+    {
+      "name": "《常识》（Common Sense）",
+      "type": "work",
+      "context": "托马斯·潘恩著，深刻影响美国左派的小册子",
+      "importance": "medium"
+    },
+    {
+      "name": "《伟大的辩论：埃德蒙·伯克、托马斯·潘恩与美国左右派的诞生》（The Great Debate: Edmund Burke, Thomas Paine, and the Birth of Right and Left）",
+      "type": "work",
+      "context": "尤瓦尔·莱文2014年出版的博士论文，详细论述美国左右派起源",
+      "importance": "medium"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "托克维尔1835年的著作，播客主讲人用以向中美学生分别推销的课程材料",
+      "importance": "medium"
+    },
+    {
+      "name": "电影《奥本海默》",
+      "type": "work",
+      "context": "提及麦卡锡主义时期科学家受迫害的历史",
+      "importance": "low"
+    },
+    {
+      "name": "《Commentary》杂志",
+      "type": "work",
+      "context": "美国新保守主义最重要的杂志，由诺曼·波德霍雷茨创建",
+      "importance": "low"
+    },
+    {
+      "name": "政治光谱的左右之分",
+      "type": "concept",
+      "context": "起源于1789年法国大革命后的议会座位安排，左派反对王权和神权，右派支持旧政权",
+      "importance": "high"
+    },
+    {
+      "name": "杰克逊式民主（Jacksonian Democracy）",
+      "type": "concept",
+      "context": "1828年后美国左派的新诉求，主张政权下放，扩大白人男性选举权",
+      "importance": "high"
+    },
+    {
+      "name": "进步主义（Progressivism）",
+      "type": "concept",
+      "context": "威尔逊总统带入美国左派的理念，主张科学治国、全球主义、批判宪法",
+      "importance": "high"
+    },
+    {
+      "name": "民粹主义（Populism）",
+      "type": "concept",
+      "context": "杰克逊开创的政治风格，反精英，主张'人民对抗精英'",
+      "importance": "high"
+    },
+    {
+      "name": "新保守主义（Neoconservatism）",
+      "type": "concept",
+      "context": "由美国托派转变而来的保守主义流派，创始人包括克里斯托尔和波德霍雷茨",
+      "importance": "high"
+    },
+    {
+      "name": "托洛茨基主义（托派）",
+      "type": "concept",
+      "context": "马克思主义的一支，三四十年代在美国文化精英中活跃，后多转向新保守主义",
+      "importance": "high"
+    },
+    {
+      "name": "斯大林主义（斯大林派）",
+      "type": "concept",
+      "context": "与托派对立，在苏联掌握共产主义话语权",
+      "importance": "medium"
+    },
+    {
+      "name": "麦卡锡主义/红色恐慌",
+      "type": "concept",
+      "context": "四五十年代美国政府对同情共产主义者的迫害，但播客强调这并非美国左派历史的全部",
+      "importance": "medium"
+    },
+    {
+      "name": "民权运动（Civil Rights Movement）",
+      "type": "concept",
+      "context": "1960年代黑人平权运动，美国左派重要的文化力量，领导者多为虔诚基督徒而非马克思主义者",
+      "importance": "high"
+    },
+    {
+      "name": "新马克思主义/法兰克福学派",
+      "type": "concept",
+      "context": "20世纪后半段影响美国左派的欧洲理论，代表人物包括马尔库塞、阿多诺",
+      "importance": "medium"
+    },
+    {
+      "name": "批判种族理论/DEI（多元、平等、包容）",
+      "type": "concept",
+      "context": "当今美国左派的重要议题，由德里克·贝尔等开启",
+      "importance": "medium"
+    },
+    {
+      "name": "后殖民理论",
+      "type": "concept",
+      "context": "弗朗茨·法农带来的叙事，影响当今美国左派",
+      "importance": "low"
+    },
+    {
+      "name": "历史主义",
+      "type": "concept",
+      "context": "德国黑格尔传统，通过约翰霍普金斯大学影响威尔逊总统",
+      "importance": "medium"
+    },
+    {
+      "name": "福音派基督教",
+      "type": "concept",
+      "context": "美国左派绝大多数历史上的宗教信仰，与欧洲左派反宗教传统截然不同",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "1789年爆发，产生政治光谱左右之分的起源事件",
+      "importance": "high"
+    },
+    {
+      "name": "美国国家银行大战",
+      "type": "event",
+      "context": "19世纪重要政治事件，杰克逊总统摧毁国家银行，实现杰弗逊目标",
+      "importance": "medium"
+    },
+    {
+      "name": "1933年华盛顿和平大游行",
+      "type": "event",
+      "context": "几万名美国进步左派庆祝斯大林-希特勒结盟的游行，播客主讲人博导父母在此相遇",
+      "importance": "medium"
+    },
+    {
+      "name": "1890年美国农民反抗资本家运动",
+      "type": "event",
+      "context": "美国左派从反对中央政府转向支持大政府的转折点",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "播客核心分析对象，其左派传统被认为与全世界其他左派截然不同",
+      "importance": "high"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "政治光谱左右之分的起源地，其左派传统（反王权、反神权）与美国左派形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "俄罗斯/中国",
+      "type": "place",
+      "context": "被提及为有典型左派传统的国家，与美国左派不同",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "历史主义和黑格尔哲学的来源地，通过约翰霍普金斯大学影响美国进步主义",
+      "importance": "medium"
+    },
+    {
+      "name": "弗吉尼亚",
+      "type": "place",
+      "context": "美国建国初期总统的主要来源地（绅士阶层），与杰克逊代表的南卡罗来纳形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "波士顿/新英格兰",
+      "type": "place",
+      "context": "美国建国初期精英阶层的来源地（亚当斯家族）",
+      "importance": "low"
+    },
+    {
+      "name": "南卡罗来纳州",
+      "type": "place",
+      "context": "杰克逊的出身地，象征打破东海岸王朝精英统治",
+      "importance": "low"
+    },
+    {
+      "name": "纽约",
+      "type": "place",
+      "context": "20世纪上半叶美国马克思主义最活跃的城市，犹太人聚集地，CCNY所在地",
+      "importance": "medium"
+    },
+    {
+      "name": "华盛顿特区",
+      "type": "place",
+      "context": "1933年和平大游行举办地",
+      "importance": "low"
+    },
+    {
+      "name": "芝加哥大学社会思想委员会",
+      "type": "organization",
+      "context": "尤瓦尔·莱文获得博士学位的地方，播客主讲人前夫就读的机构",
+      "importance": "low"
+    },
+    {
+      "name": "普林斯顿大学",
+      "type": "organization",
+      "context": "威尔逊曾任校长的大学",
+      "importance": "low"
+    },
+    {
+      "name": "约翰霍普金斯大学",
+      "type": "organization",
+      "context": "1880年代威尔逊吸收历史主义的地方",
+      "importance": "low"
+    },
+    {
+      "name": "纽约城市学院（CCNY/City College of New York）",
+      "type": "organization",
+      "context": "20世纪三四十年代美国托派和斯大林派最激进的活跃地，学生多为犹太人",
+      "importance": "medium"
+    },
+    {
+      "name": "联邦党",
+      "type": "organization",
+      "context": "汉密尔顿为代表的政党，主张强大中央政府和工业化",
+      "importance": "medium"
+    },
+    {
+      "name": "杰克逊派民主党人（Jacksonian Democrats）",
+      "type": "organization",
+      "context": "支持杰克逊的政党力量，主张政权下放和扩大选举权",
+      "importance": "high"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "被提及为里根所属的保守派政党",
+      "importance": "low"
+    },
+    {
+      "name": "天主教",
+      "type": "organization",
+      "context": "法国国教，有教皇，是美国左派无需反对的神权类型",
+      "importance": "low"
+    },
+    {
+      "name": "新教",
+      "type": "organization",
+      "context": "美国建国之初13个州的信仰，无教皇，导致美国左派缺乏反神权的动力",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "664c0160251bd96e6cad2e35",
+  "title": "63-美国左派是不是铁板一块？"
+}

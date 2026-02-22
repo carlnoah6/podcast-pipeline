@@ -1,0 +1,121 @@
+{
+  "style": {
+    "opening_pattern": "以轻松自嘲的方式引入，先说明做这期播客的动机（'奖励自己'），然后抛出惊人数据（42.5%美国人肥胖）和个人故事（前夫哥哥体重超300斤）形成反差",
+    "structure": "个人动机铺垫→多线叙事（母亲杨医生的中国视角+小花母女的美国医学视角+新书《Magic Pill》的学术视角）→问题分析（美国肥胖原因）→药物机制与争议→哲学反思（食欲与美德）",
+    "tone": "轻松幽默中带理性分析，大量使用第一人称口述和私人故事，兼具学术严谨性和闺蜜聊天感",
+    "catchphrases": [
+      "我每做完一期让我感觉很累的学术播客之后，就会想做一期好玩的奖励一下我自己",
+      "小花妈妈",
+      "杨医生",
+      "我觉得",
+      "我认为",
+      "你知道吗",
+      "OK",
+      "简而言之",
+      "我感谢她一辈子"
+    ],
+    "closing_pattern": "文本截断未完成，但从已有内容看倾向于开放式讨论，预告将对比西方饮食文化并提出'食欲与美德'的哲学命题",
+    "narrative_techniques": [
+      "大量具体数字增强可信度（42.5%、300斤、900万张处方、60亿美金）",
+      "个人关系网络作为信息来源背书（母亲、闺蜜、闺蜜母亲）",
+      "中外对比（中国vs美国医疗实践）",
+      "书籍引用作为权威支撑",
+      "自我暴露建立信任（婚姻失败经历）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Ozempic（司美格鲁肽）",
+      "type": "work",
+      "context": "原为治疗二型糖尿病的药物，因副作用能减肥而在美国爆火，2022年最后三个月开出超900万张处方",
+      "importance": "high"
+    },
+    {
+      "name": "杨医生",
+      "type": "person",
+      "context": "主播的母亲，基层儿科医生，疫情期间组织免费儿童减肥营失败，观察到Ozempic在中国中产阶级中的流行",
+      "importance": "high"
+    },
+    {
+      "name": "小花",
+      "type": "person",
+      "context": "主播高中室友、最好的朋友，芝加哥医学院学生，其母为波士顿儿童医院肥胖症专家，曾目睹主播前夫出轨并告知主播",
+      "importance": "high"
+    },
+    {
+      "name": "小花妈妈",
+      "type": "person",
+      "context": "波士顿儿童医院儿童肥胖症研究专家、教授，向主播分享Ozempic的专业数据和态度，介绍上层社会使用该药的情况",
+      "importance": "high"
+    },
+    {
+      "name": "Johann Hari",
+      "type": "person",
+      "context": "《Magic Pill》一书作者，亲自使用Ozempic减肥，书中涵盖该药最权威的医学数据",
+      "importance": "medium"
+    },
+    {
+      "name": "Magic Pill: The Extraordinary Benefits and Disturbing Risks of the New Weight Loss Drugs（《神奇药丸》）",
+      "type": "work",
+      "context": "2024年5月7日在美国出版的新书，主播连夜读完并作为本期播客的主要信息来源",
+      "importance": "high"
+    },
+    {
+      "name": "美国疾病控制中心（CDC）",
+      "type": "organization",
+      "context": "提供美国肥胖率数据（42.5%医学性肥胖）的权威机构",
+      "importance": "medium"
+    },
+    {
+      "name": "波士顿儿童医院",
+      "type": "organization",
+      "context": "美国顶尖医院，小花妈妈工作的机构，儿童肥胖症研究中心",
+      "importance": "medium"
+    },
+    {
+      "name": "芝加哥大学",
+      "type": "place",
+      "context": "小花就读医学院的地点，也是主播前夫出轨事件发生的地理位置背景",
+      "importance": "low"
+    },
+    {
+      "name": "BMI（身体质量指数）",
+      "type": "concept",
+      "context": "医学上定义肥胖的标准，超过30即为obese（医学性肥胖）",
+      "importance": "medium"
+    },
+    {
+      "name": "二型糖尿病",
+      "type": "concept",
+      "context": "Ozempic原本的治疗适应症，后被发现具有减肥效果",
+      "importance": "medium"
+    },
+    {
+      "name": "《中华儿科杂志》",
+      "type": "work",
+      "context": "杨医生提供给主播的学术期刊，其中文章指出肥胖导致的慢性病致死占中国居民总死亡近90%",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "主播在第29期播客中引用，用于讨论'如何像哲学家一样减肥'，代表'美德伦理学'视角",
+      "importance": "low"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "与亚里士多德并列，主播用其义务论伦理学对比讨论减肥中的意志与欲望问题",
+      "importance": "low"
+    },
+    {
+      "name": "卡尔（主播前夫）",
+      "type": "person",
+      "context": "被提及因其三个哥哥体重均超300斤，作为美国人极端肥胖的具象化例子；同时被小花目击出轨",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6644231982b428eafdaa85ef",
+  "title": "61-美国人为什么这么胖？糖尿病减肥药Ozempic真是神药吗？"
+}

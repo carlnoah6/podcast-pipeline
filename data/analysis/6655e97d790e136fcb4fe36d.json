@@ -1,0 +1,489 @@
+{
+  "style": {
+    "opening_pattern": "以澄清误解引入（回应朋友关于华裔支持特朗普的观点），随后快速转入主题说明",
+    "structure": "分党派论述（共和党→民主党）→ 具体案例分析 → 现象总结 → 哲学反思，采用'背景介绍—现状描绘—深层机制—价值判断'的递进结构",
+    "tone": "理性客观中带个人观察色彩，自嘲式幽默（'这期播客有点无聊'），学术化口语表达",
+    "catchphrases": [
+      "我在这里想要...",
+      "咱们...",
+      "这个老哥",
+      "OK",
+      "我不知道大家是否记得",
+      "说白了",
+      "导致了一个荒诞的现象",
+      "小巫见大巫",
+      "没有什么鸟用",
+      "捏着鼻子"
+    ],
+    "closing_pattern": "开放式提问+价值呼吁（和解与共存），以'成熟的民主政治'收束",
+    "narrative_techniques": [
+      "类比（托克维尔观察美国、1830年镜像）",
+      "对比（2016年与2024年、共和党与民主党、Bill Kristol与John Podhoretz）",
+      "举例（具体人物案例：Liz Cheney、Bari Weiss、Nellie Bowles等）",
+      "反讽（'房间里的大象'、辩论观赏大会喝酒）",
+      "自我指涉（提及自己前作播客作为互文）",
+      "场景还原（博士生公寓看辩论、与医生大爷对话）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "核心分析对象，被描述为重塑美国两党布局的关键人物，其崛起驱逐了新保守主义、改变了政治运作方式",
+      "importance": "high"
+    },
+    {
+      "name": "托克维尔（Alexis de Tocqueville）",
+      "type": "person",
+      "context": "法国政治学家，主播以其自比，强调对美国政治的旁观者观察视角，引用其《论美国民主》序言",
+      "importance": "high"
+    },
+    {
+      "name": "Jeb Bush（杰布·布什/小小布什）",
+      "type": "person",
+      "context": "2016年共和党初选的建制派领跑者之一，代表传统共和党精英，被特朗普以'耍流氓'式辩论击败",
+      "importance": "medium"
+    },
+    {
+      "name": "Marco Rubio（马可·卢比奥）",
+      "type": "person",
+      "context": "2016年共和党初选参议员领跑者，代表传统建制派共和党人",
+      "importance": "low"
+    },
+    {
+      "name": "罗姆尼（Mitt Romney）",
+      "type": "person",
+      "context": "曾加入Never Trump Movement的共和党精英，代表反对特朗普的建制派",
+      "importance": "medium"
+    },
+    {
+      "name": "施瓦辛格（Arnold Schwarzenegger）",
+      "type": "person",
+      "context": "曾加入Never Trump Movement的共和党员",
+      "importance": "low"
+    },
+    {
+      "name": "Lindsey Graham",
+      "type": "person",
+      "context": "曾反对特朗普后转向支持的共和党参议员，体现'夹着尾巴回归'的典型",
+      "importance": "medium"
+    },
+    {
+      "name": "Colin Powell（科林·鲍威尔）",
+      "type": "person",
+      "context": "曾加入Never Trump Movement的共和党精英",
+      "importance": "low"
+    },
+    {
+      "name": "John McCain（约翰·麦凯恩）",
+      "type": "person",
+      "context": "已故共和党参议员，曾反对特朗普，代表传统共和党价值观",
+      "importance": "medium"
+    },
+    {
+      "name": "Irving Kristol（欧文·克里斯托尔）",
+      "type": "person",
+      "context": "新保守主义运动创始人，原为托派，其家族成为观察新保守主义分裂的样本",
+      "importance": "high"
+    },
+    {
+      "name": "Norman Podhoretz（诺曼·波德霍雷茨）",
+      "type": "person",
+      "context": "新保守主义运动另一创始人，原为托派，其子代表另一种反对特朗普的路径",
+      "importance": "high"
+    },
+    {
+      "name": "Bill Kristol（比尔·克里斯托尔）",
+      "type": "person",
+      "context": "Irving Kristol之子，从政治哲学播客主持人转为最坚定的反特朗普人士，创立The Lincoln Project支持拜登",
+      "importance": "high"
+    },
+    {
+      "name": "John Podhoretz（约翰·波德霍雷茨）",
+      "type": "person",
+      "context": "Norman Podhoretz之子，《Commentary》杂志主编，代表'留在党内但不投票给特朗普'的新保守主义者",
+      "importance": "high"
+    },
+    {
+      "name": "Liz Cheney（利兹·切尼）",
+      "type": "person",
+      "context": "前副总统Dick Cheney之女，因1月6日后强烈谴责特朗普而被共和党驱逐，成为党内反对派的象征",
+      "importance": "high"
+    },
+    {
+      "name": "Mitch McConnell（米奇·麦康奈尔）",
+      "type": "person",
+      "context": "参议院共和党领袖，在1月6日后保持沉默的代表性人物",
+      "importance": "medium"
+    },
+    {
+      "name": "Chris Christie（克里斯·克里斯蒂）",
+      "type": "person",
+      "context": "新泽西州前州长，2024年共和党辩论中唯一敢公开批评特朗普的候选人",
+      "importance": "medium"
+    },
+    {
+      "name": "JD Vance（J.D.万斯）",
+      "type": "person",
+      "context": "《乡下人的悲歌》作者，从批评者转为旗帜鲜明的川粉，代表共和党高层的转变",
+      "importance": "high"
+    },
+    {
+      "name": "Tucker Carlson（塔克·卡尔森）",
+      "type": "person",
+      "context": "右翼媒体人，特朗普在2024年辩论期间选择与其对谈而非参加辩论，体现对建制程序的蔑视",
+      "importance": "medium"
+    },
+    {
+      "name": "Nikki Haley（妮基·黑利）",
+      "type": "person",
+      "context": "2024年共和党初选候选人，获Bill Kristol支持但最终退出并转而支持特朗普",
+      "importance": "medium"
+    },
+    {
+      "name": "希拉里·克林顿（Hillary Clinton）",
+      "type": "person",
+      "context": "2016年民主党候选人，特朗普竞选时呼吁'lock her up'的对象，其败选引发通俄调查",
+      "importance": "medium"
+    },
+    {
+      "name": "Robert Mueller（罗伯特·穆勒）",
+      "type": "person",
+      "context": "特别检察官，负责调查2016年大选俄罗斯干预问题，代表民主党试图让特朗普下台的法律途径",
+      "importance": "medium"
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez（AOC）",
+      "type": "person",
+      "context": "'四人帮'之一，2018年当选的极左民主党议员，代表特朗普激发的反建制左翼力量",
+      "importance": "high"
+    },
+    {
+      "name": "Ilhan Omar（伊尔汗·奥马尔）",
+      "type": "person",
+      "context": "'四人帮'成员之一，明尼苏达州众议员",
+      "importance": "medium"
+    },
+    {
+      "name": "Ayanna Pressley（阿亚娜·普莱斯利）",
+      "type": "person",
+      "context": "'四人帮'成员之一，马萨诸塞州众议员",
+      "importance": "medium"
+    },
+    {
+      "name": "Rashida Tlaib（拉希达·特莱布）",
+      "type": "person",
+      "context": "'四人帮'成员之一，密歇根州众议员",
+      "importance": "medium"
+    },
+    {
+      "name": "Donald McNeil（唐纳德·麦克尼尔）",
+      "type": "person",
+      "context": "纽约时报疫情记者，因讨论种族歧视词汇时被高中生举报而被迫辞职，代表取消文化案例",
+      "importance": "medium"
+    },
+    {
+      "name": "David Shor（大卫·肖尔）",
+      "type": "person",
+      "context": "数据记者，因分享关于抗议与选举的研究而被解雇，代表立场纯洁性的惩罚",
+      "importance": "medium"
+    },
+    {
+      "name": "Emmanuel Cafferty（伊曼纽尔·卡弗蒂）",
+      "type": "person",
+      "context": "圣迭戈电工，因手势被误认为白人权力象征而被解雇，代表普通工人受政治正确影响的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "Ryan Grim（瑞安·格里姆）",
+      "type": "person",
+      "context": "Intercept记者，其文章《How Meltdowns Brought Progressive Groups to a Standstill》被引用来佐证左翼组织内斗",
+      "importance": "medium"
+    },
+    {
+      "name": "Ibram X. Kendi（伊布拉姆·X·肯迪）",
+      "type": "person",
+      "context": "波士顿大学教授，《How to Be an Antiracist》作者，其'不反对即支持'的立场被引为代表性观点",
+      "importance": "high"
+    },
+    {
+      "name": "Bari Weiss（巴里·韦斯）",
+      "type": "person",
+      "context": "纽约时报前记者，因批评左翼不容忍而被迫出走，创立独立Substack媒体，代表被挤出主流的温和左派",
+      "importance": "high"
+    },
+    {
+      "name": "Tom Cotton（汤姆·科顿/棉花哥）",
+      "type": "person",
+      "context": "保守派参议员，其在纽约时报发表文章引发千名记者抗议，成为Bari Weiss出走的导火索",
+      "importance": "medium"
+    },
+    {
+      "name": "Nellie Bowles（内莉·鲍尔斯）",
+      "type": "person",
+      "context": "Bari Weiss之妻，纽约时报前记者，《The Morning After the Revolution》作者，从左派内部批评民主党主流叙事",
+      "importance": "high"
+    },
+    {
+      "name": "保姆哥",
+      "type": "person",
+      "context": "主播的朋友，其上期评论引发主播对华裔选民立场的澄清",
+      "importance": "low"
+    },
+    {
+      "name": "卡尔（主播前夫）",
+      "type": "person",
+      "context": "曾与主播一起收听Bill Kristol播客，对其外貌和声音有生动评价",
+      "importance": "low"
+    },
+    {
+      "name": "医生大爷",
+      "type": "person",
+      "context": "70多岁瑜伽伙伴，终身民主党支持者，因敬佩Liz Cheney骨气而捐款5000美元",
+      "importance": "low"
+    },
+    {
+      "name": "《论美国民主》（Democracy in America）",
+      "type": "work",
+      "context": "托克维尔著作，主播引用其序言表明自身观察立场",
+      "importance": "high"
+    },
+    {
+      "name": "《乡下人的悲歌》（Hillbilly Elegy）",
+      "type": "work",
+      "context": "JD Vance著作，主播用以说明其从批评者转为川粉的转变",
+      "importance": "medium"
+    },
+    {
+      "name": "Conversations with Bill Kristol",
+      "type": "work",
+      "context": "Bill Kristol主持的政治哲学播客，主播曾与前夫定期收听",
+      "importance": "medium"
+    },
+    {
+      "name": "《Commentary》杂志",
+      "type": "work",
+      "context": "Norman Podhoretz创办的新保守主义旗舰刊物，现由其子主编",
+      "importance": "medium"
+    },
+    {
+      "name": "《How to Be an Antiracist》（如何成为反种族主义者）",
+      "type": "work",
+      "context": "Ibram X. Kendi 2018年畅销书，主播引用其中'不反对即支持'的观点",
+      "importance": "high"
+    },
+    {
+      "name": "How Meltdowns Brought Progressive Groups to a Standstill",
+      "type": "work",
+      "context": "Ryan Grim在Intercept发表的文章，记录进步组织因内部纯洁性要求而瘫痪",
+      "importance": "high"
+    },
+    {
+      "name": "We are all fascists now（我们都是法西斯分子）",
+      "type": "work",
+      "context": "Bari Weiss 2018年在纽约时报发表的专栏文章，标志其与被排斥的开始",
+      "importance": "medium"
+    },
+    {
+      "name": "《The Morning After the Revolution》（革命后的早晨）",
+      "type": "work",
+      "context": "Nellie Bowles新书，从左派内部视角记录被民主党主流叙事压制的经历",
+      "importance": "high"
+    },
+    {
+      "name": "Never Trump Movement / Dump Trump Movement（永不投特朗普运动）",
+      "type": "concept",
+      "context": "2015-2016年共和党内部反对特朗普的主流运动，后被特朗普系统性围剿",
+      "importance": "high"
+    },
+    {
+      "name": "新保守主义（Neoconservatism / Neocon）",
+      "type": "concept",
+      "context": "从托派转化而来的共和党外交鹰派思想，被特朗普崛起永久性驱逐出党",
+      "importance": "high"
+    },
+    {
+      "name": "反建制（anti-establishment）",
+      "type": "concept",
+      "context": "特朗普带来的核心政治立场，同时影响了共和党和民主党的运作方式",
+      "importance": "high"
+    },
+    {
+      "name": "民粹主义（populism）",
+      "type": "concept",
+      "context": "特朗普的政治标签，代表劳动阶级而非传统精英的利益",
+      "importance": "high"
+    },
+    {
+      "name": "party elite（党派精英）",
+      "type": "concept",
+      "context": "共和党内部最初反对特朗普的核心群体，后被边缘化",
+      "importance": "medium"
+    },
+    {
+      "name": "政治建制（Political Establishment）",
+      "type": "concept",
+      "context": "特朗普蔑视的对象，民主党人认为这种蔑视等于对美国民主的蔑视",
+      "importance": "high"
+    },
+    {
+      "name": "Trump Threat（特朗普威胁）",
+      "type": "concept",
+      "context": "特朗普当选后在民主党人中引发的大规模恐惧和抗议动员",
+      "importance": "high"
+    },
+    {
+      "name": "Women's March（妇女游行）",
+      "type": "event",
+      "context": "2017年1月21日华盛顿50万人反特朗普游行，主播认为规模远超当下巴勒斯坦抗议",
+      "importance": "high"
+    },
+    {
+      "name": "1月6日国会山事件（January 6 Capitol attack）",
+      "type": "event",
+      "context": "2021年特朗普支持者冲击国会大厦，成为检验共和党人底线的关键事件",
+      "importance": "high"
+    },
+    {
+      "name": "Russia Collusion（通俄门）",
+      "type": "concept",
+      "context": "民主党试图证明特朗普与俄罗斯勾结以使其下台的努力，开启弹劾总统的新传统",
+      "importance": "medium"
+    },
+    {
+      "name": "safe zone（安全区）",
+      "type": "concept",
+      "context": "特朗普任期内美国大学增设的保护学生免受微暴力的空间",
+      "importance": "medium"
+    },
+    {
+      "name": "microaggression（微暴力/微侵犯）",
+      "type": "concept",
+      "context": "特朗普时期校园政治正确话语体系的核心概念",
+      "importance": "medium"
+    },
+    {
+      "name": "取消文化（cancel culture）",
+      "type": "concept",
+      "context": "虽未直接使用该词，但主播描述的因言论失当而被解雇的现象即此",
+      "importance": "high"
+    },
+    {
+      "name": "Black Lives Matter（黑命攸关/BLM）",
+      "type": "organization",
+      "context": "主播提及Nellie Bowles想调查其资金去向但被编辑阻止的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "Antifa",
+      "type": "organization",
+      "context": "与BLM联合占领西雅图的反政府分子，Nellie Bowles调查其资金来源受阻",
+      "importance": "medium"
+    },
+    {
+      "name": "ACLU（美国公民自由联盟）",
+      "type": "organization",
+      "context": "特朗普当选后收到大量捐款的左翼NGO代表",
+      "importance": "low"
+    },
+    {
+      "name": "NAACP（全国有色人种协进会）",
+      "type": "organization",
+      "context": "特朗普当选后收到大量捐款的左翼NGO代表",
+      "importance": "low"
+    },
+    {
+      "name": "The Lincoln Project（林肯计划）",
+      "type": "organization",
+      "context": "Bill Kristol创立的温和保守派反特朗普政党，2020年为拜登筹款3500万美元",
+      "importance": "medium"
+    },
+    {
+      "name": "Abraham Accord（亚伯拉罕协议）",
+      "type": "event",
+      "context": "特朗普促成的以色列与阿拉伯国家关系正常化协议，新保守主义者认可的外交成果",
+      "importance": "medium"
+    },
+    {
+      "name": "红色高棉",
+      "type": "event",
+      "context": "解释越南裔美国人偏红的历史原因，因其反共经历而天然反对同情越共的民主党",
+      "importance": "low"
+    },
+    {
+      "name": "1968年尼克松选举",
+      "type": "event",
+      "context": "David Shor分享的研究内容，学生抗议可能导致共和党胜选，成为其被解雇的导火索",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿特区",
+      "type": "place",
+      "context": "妇女游行和1月6日暴乱的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "西雅图",
+      "type": "place",
+      "context": "Antifa与BLM联合占领的城市，Nellie Bowles调查受阻的案例地点",
+      "importance": "low"
+    },
+    {
+      "name": "旧金山",
+      "type": "place",
+      "context": "Nellie Bowles出生地，标志其经典左派身份",
+      "importance": "low"
+    },
+    {
+      "name": "圣迭戈",
+      "type": "place",
+      "context": "电工Emmanuel Cafferty被解雇的地点",
+      "importance": "low"
+    },
+    {
+      "name": "Substack",
+      "type": "organization",
+      "context": "Bari Weiss和Nellie Bowles出走后创立独立媒体的平台，代表逃离主流机构的温和左派",
+      "importance": "medium"
+    },
+    {
+      "name": "普林斯顿大学",
+      "type": "organization",
+      "context": "David Shor分享的黑人政治学教授研究所在的机构",
+      "importance": "low"
+    },
+    {
+      "name": "波士顿大学",
+      "type": "organization",
+      "context": "Ibram X. Kendi任职的机构",
+      "importance": "low"
+    },
+    {
+      "name": "Twitter/X",
+      "type": "organization",
+      "context": "特朗普因1月6日言论被永久封禁的平台，当时尚未被马斯克收购",
+      "importance": "medium"
+    },
+    {
+      "name": "纽约时报（The New York Times）",
+      "type": "organization",
+      "context": "主播详细分析的民主党主流机构代表，Bari Weiss和Nellie Bowles的出走地",
+      "importance": "high"
+    },
+    {
+      "name": "Intercept",
+      "type": "organization",
+      "context": "Ryan Grim发表关于进步组织内斗文章的左翼媒体",
+      "importance": "medium"
+    },
+    {
+      "name": "两极化（polarization）",
+      "type": "concept",
+      "context": "主播最终反思的核心议题，认为其本质是双方追求纯洁性而排斥异见",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6655e97d790e136fcb4fe36d",
+  "title": "66-特朗普如何重塑美国政党布局？"
+}

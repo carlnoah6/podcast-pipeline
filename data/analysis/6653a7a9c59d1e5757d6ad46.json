@@ -1,0 +1,144 @@
+{
+  "style": {
+    "opening_pattern": "以社交媒体评论引入，建立与听众的亲近感",
+    "structure": "问题→两种对立观点分析→提出第三种古典观点→详细展开古典美德概念→身体与大脑锻炼的类比→个人经历例证→天赋讨论→友谊主题回归",
+    "tone": "理性思辨、亲切自然、略带自嘲",
+    "catchphrases": [
+      "嘚啵嘚啵",
+      "走火入魔",
+      "点炮",
+      "OK",
+      "What's next",
+      "噗啷噗啷",
+      "羸弱"
+    ],
+    "closing_pattern": "开放式收尾，提及未剪辑的随性状态",
+    "narrative_techniques": [
+      "对比",
+      "举例",
+      "类比",
+      "反问",
+      "个人经历叙事",
+      "引用经典"
+    ]
+  },
+  "entities": [
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "作为古典美德理论的代表，其'中庸'和'Arete'概念被用来对比基督教道德观",
+      "importance": "high"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "被描述为'世俗版的基督教道德观'，其减肥论在第29期播客中讨论过",
+      "importance": "high"
+    },
+    {
+      "name": "格列高利一世",
+      "type": "person",
+      "context": "七世纪教皇，将暴食和懒惰列为七宗罪中的两种",
+      "importance": "medium"
+    },
+    {
+      "name": "Serena Williams",
+      "type": "person",
+      "context": "作为例子说明不同人的'中庸'标准因身体条件而异",
+      "importance": "low"
+    },
+    {
+      "name": "姚明",
+      "type": "person",
+      "context": "作为例子说明不同人的'中庸'标准因身体条件而异",
+      "importance": "low"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "主播的朋友，身材矮小但核心力量强，是第一个学会头倒立的人",
+      "importance": "medium"
+    },
+    {
+      "name": "巴勒斯坦女壮士",
+      "type": "person",
+      "context": "主播的运动伙伴，力量速度爆发力强但柔韧性不足，与主播形成互补",
+      "importance": "medium"
+    },
+    {
+      "name": "《尼各马可伦理学》",
+      "type": "work",
+      "context": "亚里士多德的著作，主播引用其中关于追求真善美的友谊的论述",
+      "importance": "medium"
+    },
+    {
+      "name": "康德的第三批判",
+      "type": "work",
+      "context": "主播大学期间痛苦阅读的经历，成为决定读博的重要原因",
+      "importance": "medium"
+    },
+    {
+      "name": "Arete",
+      "type": "concept",
+      "context": "古希腊语中的'美德'，意为卓越、优秀，充分发挥个人潜力的行为",
+      "importance": "high"
+    },
+    {
+      "name": "基督教禁欲主义(Christian Asceticism)",
+      "type": "concept",
+      "context": "将欲望视为原罪、用意志力压制欲望的道德观，主播批判的对象",
+      "importance": "high"
+    },
+    {
+      "name": "自由主义包容性思维",
+      "type": "concept",
+      "context": "'All bodies are beautiful'的极端版本，拒绝一切健康标准，主播批判的对象",
+      "importance": "high"
+    },
+    {
+      "name": "中庸",
+      "type": "concept",
+      "context": "中国古典概念，与亚里士多德的'orthos logos'（正确的中间之道）相对应",
+      "importance": "high"
+    },
+    {
+      "name": "功能性(functionality)",
+      "type": "concept",
+      "context": "主播追求的身体训练目标，指身体能在任何突发环境中最佳状态应对挑战",
+      "importance": "high"
+    },
+    {
+      "name": "饮食障碍(eating disorder)",
+      "type": "concept",
+      "context": "英国留学生对主播的诊断，认为区分健康饮食与不健康是饮食障碍的体现",
+      "importance": "medium"
+    },
+    {
+      "name": "BMI",
+      "type": "concept",
+      "context": "身体质量指数，主播强调自己讨论的是BMI超过30的医学定义肥胖症",
+      "importance": "low"
+    },
+    {
+      "name": "公鸡式",
+      "type": "concept",
+      "context": "瑜伽体式，盘莲花腿的手平衡动作，主播与朋友共同开发练习",
+      "importance": "low"
+    },
+    {
+      "name": "小红书",
+      "type": "place",
+      "context": "主播发布健身视频和与听众互动的社交媒体平台",
+      "importance": "medium"
+    },
+    {
+      "name": "四川",
+      "type": "place",
+      "context": "转发骂主播帖子的关注者的所在地",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6653a7a9c59d1e5757d6ad46",
+  "title": "65-身体健康和灵魂健康有何相似之处？"
+}
