@@ -1,0 +1,411 @@
+{
+  "style": {
+    "opening_pattern": "以填坑预告引入，先回应上期播客评论，再进入主题",
+    "structure": "评论回应→哲学铺垫（康德美学）→历史背景（中国美学）→核心论点（简奥斯丁与张爱玲的比较）→理论支撑（卢梭小说观）→性别视角分析→开放式结尾",
+    "tone": "学术思辨型，带有课堂讨论式的口语化表达",
+    "catchphrases": [
+      "千丝万缕的联系",
+      "脑洞大开",
+      "某种意义上来说",
+      "那怎么说呢",
+      "OK",
+      "那我们把视线放到",
+      "我刚才说的",
+      "我觉得",
+      "从某种意义上来说"
+    ],
+    "closing_pattern": "重复式收尾，强调希望给予听众新视角，多次道别",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "举例",
+      "反问",
+      "引用权威",
+      "课堂场景还原",
+      "概念层层递进"
+    ]
+  },
+  "entities": [
+    {
+      "name": "简·奥斯丁(Jane Austen)",
+      "type": "person",
+      "context": "19世纪英国女作家，以其描绘中产阶级日常生活和男女关系的小说著称，被用来与张爱玲比较",
+      "importance": "high"
+    },
+    {
+      "name": "张爱玲",
+      "type": "person",
+      "context": "20世纪中国女作家，代表作《第一炉香》《金锁记》《红玫瑰与白玫瑰》，与简·奥斯丁进行比较的核心对象",
+      "importance": "high"
+    },
+    {
+      "name": "康德(Immanuel Kant)",
+      "type": "person",
+      "context": "德国哲学家，其《判断力批判》中关于审美无利害性和两种审美判断力的观点被详细阐述",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭(Jean-Jacques Rousseau)",
+      "type": "person",
+      "context": "日内瓦哲学家，提出小说适合现代小市民、戏剧不适合道德教育的观点，被认为是理解简·奥斯丁和张爱玲的关键",
+      "importance": "high"
+    },
+    {
+      "name": "毛泽东",
+      "type": "person",
+      "context": "1942年《在延安文艺座谈会上的讲话》提出文艺服务于政治的观点，作为康德美学在中国的对立面被提及",
+      "importance": "medium"
+    },
+    {
+      "name": "徐渭",
+      "type": "person",
+      "context": "明代画家，以画花卉著称，在评论区例子中被用来反驳山水画高于花卉画的等级观念",
+      "importance": "low"
+    },
+    {
+      "name": "伯克(Edmund Burke)",
+      "type": "person",
+      "context": "著有《法国大革命反思录》，作为简·奥斯丁同期关注宏观政治的欧洲作家例子",
+      "importance": "low"
+    },
+    {
+      "name": "查尔斯·狄更斯(Charles Dickens)",
+      "type": "person",
+      "context": "著有《双城记》，作为关注宏大社会政治议题的同期作家与简·奥斯丁对比",
+      "importance": "low"
+    },
+    {
+      "name": "托尔斯泰(Leo Tolstoy)",
+      "type": "person",
+      "context": "著有《战争与和平》，作为描写国家战争的作家与简·奥斯丁对比",
+      "importance": "low"
+    },
+    {
+      "name": "沃尔特·司各特(Walter Scott)",
+      "type": "person",
+      "context": "苏格兰小说家，作为简·奥斯丁同期写家国话题的作家被提及",
+      "importance": "low"
+    },
+    {
+      "name": "修昔底德(Thucydides)",
+      "type": "person",
+      "context": "古希腊历史学家，其'战争是永恒的，和平只是插曲'的观点被引用并转化到男女关系上",
+      "importance": "medium"
+    },
+    {
+      "name": "达朗贝尔(d'Alembert)",
+      "type": "person",
+      "context": "法国百科全书编辑，卢梭《致达朗贝尔的信》的收信人，该信论述戏剧与小说的道德影响",
+      "importance": "medium"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "五四作家，其《伤逝》作为主流启蒙爱情小说模式（男教女）的例子",
+      "importance": "low"
+    },
+    {
+      "name": "郁达夫",
+      "type": "person",
+      "context": "五四作家，《春风沉醉的晚上》《沉沦》作为启蒙爱情小说的例子",
+      "importance": "low"
+    },
+    {
+      "name": "叶圣陶",
+      "type": "person",
+      "context": "五四作家，《倪焕之》作为启蒙爱情小说的例子",
+      "importance": "low"
+    },
+    {
+      "name": "塞缪尔·理查逊(Samuel Richardson)",
+      "type": "person",
+      "context": "英国小说家，与卢梭一起被提及为西方启蒙爱情小说的代表",
+      "importance": "low"
+    },
+    {
+      "name": "许子东",
+      "type": "person",
+      "context": "学者，其《细读张爱玲》中的观点被引用：'张爱玲的女性是现代小说当中女性思想觉悟的一个小退步，但却是现代女性文学的一个大进步'",
+      "importance": "medium"
+    },
+    {
+      "name": "葛薇龙",
+      "type": "person",
+      "context": "《第一炉香》女主角，自愿堕落的上海女学生，体现张爱玲笔下非被动、非无辜的女性形象",
+      "importance": "medium"
+    },
+    {
+      "name": "曹七巧",
+      "type": "person",
+      "context": "《金锁记》女主角，从被迫害者变为迫害者，体现张爱玲对复杂人性的刻画",
+      "importance": "medium"
+    },
+    {
+      "name": "佟振保",
+      "type": "person",
+      "context": "《红玫瑰与白玫瑰》男主角，体现张爱玲对男性心理的复杂刻画",
+      "importance": "medium"
+    },
+    {
+      "name": "王娇蕊",
+      "type": "person",
+      "context": "《红玫瑰与白玫瑰》女主角，红玫瑰的代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "伊丽莎白·班内特(Elizabeth Bennet)",
+      "type": "person",
+      "context": "《傲慢与偏见》女主角，与达西互相教育、消除偏见的典型",
+      "importance": "medium"
+    },
+    {
+      "name": "达西先生(Mr. Darcy)",
+      "type": "person",
+      "context": "《傲慢与偏见》男主角，与伊丽莎白的关系体现互相启蒙而非单向教育",
+      "importance": "low"
+    },
+    {
+      "name": "爱玛·伍德豪斯(Emma Woodhouse)",
+      "type": "person",
+      "context": "《爱玛》女主角，十几岁少女，其与奈特利先生的关系是否为传统男教女模式是课堂辩论焦点",
+      "importance": "medium"
+    },
+    {
+      "name": "奈特利先生(Mr. Knightley)",
+      "type": "person",
+      "context": "《爱玛》男主角，比爱玛大十几岁，稳重有智慧，其与爱玛的教育关系存在争议",
+      "importance": "medium"
+    },
+    {
+      "name": "《判断力批判》",
+      "type": "work",
+      "context": "康德第三批判，论述审美判断力，提出审美无利害性和两种审美能力（自然美/艺术美）的区分",
+      "importance": "high"
+    },
+    {
+      "name": "《在延安文艺座谈会上的讲话》",
+      "type": "work",
+      "context": "毛泽东1942年的讲话，提出文艺服从政治、政治标准第一艺术标准第二，作为革命目的论美学的代表",
+      "importance": "medium"
+    },
+    {
+      "name": "《法国大革命反思录》",
+      "type": "work",
+      "context": "伯克的著作，作为简·奥斯丁同期作家关注宏观政治的例子",
+      "importance": "low"
+    },
+    {
+      "name": "《双城记》",
+      "type": "work",
+      "context": "狄更斯的小说，作为关注宏大社会政治议题的作品与简·奥斯丁对比",
+      "importance": "low"
+    },
+    {
+      "name": "《战争与和平》",
+      "type": "work",
+      "context": "托尔斯泰的小说，作为描写国家战争的史诗与简·奥斯丁的日常题材对比",
+      "importance": "low"
+    },
+    {
+      "name": "《社会契约论》",
+      "type": "work",
+      "context": "卢梭的政治哲学著作，与其小说《新爱洛伊丝》并列提及",
+      "importance": "low"
+    },
+    {
+      "name": "《新爱洛伊丝》(Julie, ou la nouvelle Héloïse)",
+      "type": "work",
+      "context": "卢梭的小说，当时欧洲最畅销的小说之一，标志小说作为现代媒介的兴起",
+      "importance": "medium"
+    },
+    {
+      "name": "《致达朗贝尔的信》",
+      "type": "work",
+      "context": "卢梭的长信，论述日内瓦不应建剧院、应鼓励读小说以促进市民道德",
+      "importance": "medium"
+    },
+    {
+      "name": "《诗经》",
+      "type": "work",
+      "context": "作为需要后天教育才能欣赏的艺术美的例子（不懂中文者无法感知）",
+      "importance": "low"
+    },
+    {
+      "name": "《荷马史诗》",
+      "type": "work",
+      "context": "作为需要深厚文化背景才能充分欣赏的艺术美的例子",
+      "importance": "low"
+    },
+    {
+      "name": "《第一炉香》",
+      "type": "work",
+      "context": "张爱玲1943年发表的第一部小说，讲述女学生葛薇龙自愿堕落的故事，体现张爱玲的异类写作",
+      "importance": "high"
+    },
+    {
+      "name": "《紫罗兰》",
+      "type": "work",
+      "context": "鸳鸯蝴蝶派杂志，《第一炉香》首发刊物",
+      "importance": "low"
+    },
+    {
+      "name": "《金锁记》",
+      "type": "work",
+      "context": "张爱玲代表作，讲述曹七巧从被迫害者到迫害者的转变，被夏志清称为'中国从古以来最伟大的中篇'",
+      "importance": "high"
+    },
+    {
+      "name": "《红玫瑰与白玫瑰》",
+      "type": "work",
+      "context": "张爱玲代表作，讲述佟振保在爱情与婚姻中的心理挣扎",
+      "importance": "high"
+    },
+    {
+      "name": "《倾城之恋》",
+      "type": "work",
+      "context": "张爱玲小说，表面写女性追求长期饭票，实则颠覆男强女弱结构",
+      "importance": "medium"
+    },
+    {
+      "name": "《伤逝》",
+      "type": "work",
+      "context": "鲁迅小说，五四启蒙爱情小说典型：男教女、知识分子唤醒大众的模式",
+      "importance": "low"
+    },
+    {
+      "name": "《春风沉醉的晚上》",
+      "type": "work",
+      "context": "郁达夫小说，作为五四启蒙爱情小说的例子",
+      "importance": "low"
+    },
+    {
+      "name": "《沉沦》",
+      "type": "work",
+      "context": "郁达夫小说，作为五四启蒙爱情小说的例子",
+      "importance": "low"
+    },
+    {
+      "name": "《倪焕之》",
+      "type": "work",
+      "context": "叶圣陶小说，作为五四启蒙爱情小说的例子",
+      "importance": "low"
+    },
+    {
+      "name": "《傲慢与偏见》",
+      "type": "work",
+      "context": "简·奥斯丁最著名的小说，伊丽莎白与达西互相消除偏见、彼此教育的典型",
+      "importance": "high"
+    },
+    {
+      "name": "《爱玛》",
+      "type": "work",
+      "context": "简·奥斯丁最成熟的小说，爱玛与奈特利先生的关系是否为传统男教女模式是核心争议点",
+      "importance": "high"
+    },
+    {
+      "name": "《细读张爱玲》",
+      "type": "work",
+      "context": "许子东的著作，其中关于张爱玲女性角色的观点被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "审美无利害性",
+      "type": "concept",
+      "context": "康德美学的核心概念，指对美的欣赏没有目的性、功利性，这一观念在20世纪中国文艺学中有重要影响",
+      "importance": "high"
+    },
+    {
+      "name": "两种审美判断力",
+      "type": "concept",
+      "context": "康德提出的分类：第一类是纯粹愉悦的自然美（无高低之分），第二类是需要后天教育的艺术美（有高低之分）",
+      "importance": "high"
+    },
+    {
+      "name": "鸳鸯蝴蝶派",
+      "type": "concept",
+      "context": "民国时期的言情小说流派，题材为才子佳人，张爱玲最初发表作品的语境但与之有别",
+      "importance": "medium"
+    },
+    {
+      "name": "左翼文学",
+      "type": "concept",
+      "context": "20世纪中国主流文学，描写女性作为被动受害者、社会造成悲剧，张爱玲的写作与之形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "五四爱情小说模式",
+      "type": "concept",
+      "context": "男教女、男人是启蒙者女人是被启蒙者、知识分子唤醒大众的结构，张爱玲和简·奥斯丁都颠覆了此模式",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙爱情小说",
+      "type": "concept",
+      "context": "东西方都存在的小说类型，爱情的目的不仅是爱情更是教育和启蒙，但两位女作家拒绝此模式",
+      "importance": "high"
+    },
+    {
+      "name": "小说作为现代媒介",
+      "type": "concept",
+      "context": "17-18世纪兴起的大众娱乐形式，卢梭认为适合现代小市民的情感范围，区别于戏剧的英雄主义",
+      "importance": "high"
+    },
+    {
+      "name": "男人与女人的战争",
+      "type": "concept",
+      "context": "将简·奥斯丁和张爱玲笔下的男女关系理解为一种永恒的人性战争，与国家战争平行",
+      "importance": "high"
+    },
+    {
+      "name": "延安文艺座谈会",
+      "type": "event",
+      "context": "1942年5月2日毛泽东发表讲话，确立文艺服务于政治的方向，直接影响20世纪中国文学艺术史",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "伯克撰写反思录的事件，作为简·奥斯丁同期欧洲作家关注的宏观政治议题",
+      "importance": "low"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "19世纪简·奥斯丁写作的社会环境，被认为政治温和、避免激烈阶级斗争，与中国现代化模式可比",
+      "importance": "high"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "与19世纪英国对比，被认为有更多阶级纠纷和政治动荡",
+      "importance": "low"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "与19世纪英国对比，被认为有更多阶级纠纷和政治动荡",
+      "importance": "low"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "20世纪张爱玲写作的社会环境，其开放程度被认为与19世纪英国有可比性",
+      "importance": "high"
+    },
+    {
+      "name": "日内瓦",
+      "type": "place",
+      "context": "卢梭的故乡，曾为独立国家，达朗贝尔提议在此建剧院引发卢梭写信反对",
+      "importance": "low"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "卢梭提到的城市，其郊区家庭主妇的道德教育是讨论案例",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "653bf7cd0dffd06a39436f00",
+  "title": "9-简奥斯丁和张爱玲有什么异曲同工之处？"
+}

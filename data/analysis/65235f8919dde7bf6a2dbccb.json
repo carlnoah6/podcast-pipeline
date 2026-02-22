@@ -1,0 +1,122 @@
+{
+  "style": {
+    "opening_pattern": "以日常收听习惯引入，从个人经验出发自然过渡到主题",
+    "structure": "个人经验→核心标准（桥梁比喻）→反面案例（德国访学经历）→自我反思→结论",
+    "tone": "理性客观中带有个人的真诚自省，学术性与亲和力兼具",
+    "catchphrases": [
+      "鸟妈妈反哺",
+      "反刍吐出来喂给嗷嗷待哺的我们",
+      "一座桥",
+      "踩着我的肩膀",
+      "有色眼镜",
+      "老白男",
+      "狗嘴里也吐不出象牙",
+      "油腔滑调的修理工",
+      "Thought is action",
+      "关乎生死的事情"
+    ],
+    "closing_pattern": "开放式邀请听众反馈，同时重申自我定位",
+    "narrative_techniques": [
+      "类比（鸟妈妈反哺、桥梁、工具箱/修理工、三棱镜折射）",
+      "对比（理想播客vs市面常见播客、大学课堂vs个人播客）",
+      "举例（黑格尔教学案例、德国访学经历）",
+      "反问",
+      "自我设问自答"
+    ]
+  },
+  "entities": [
+    {
+      "name": "剑桥大学",
+      "type": "organization",
+      "context": "主播常听的哲学播客来源之一",
+      "importance": "low"
+    },
+    {
+      "name": "London Review of Books",
+      "type": "organization",
+      "context": "主播常听的哲学播客来源之一",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "作为核心例子讨论如何教授其政治哲学，以及被误读为左派或右派的问题",
+      "importance": "high"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "作为可能误读黑格尔的参照——将黑格尔视为马克思主义前行者",
+      "importance": "medium"
+    },
+    {
+      "name": "柏林自由大学",
+      "type": "organization",
+      "context": "主播访学期间旁听黑格尔课程的大学",
+      "importance": "medium"
+    },
+    {
+      "name": "法哲学",
+      "type": "work",
+      "context": "黑格尔的著作《Elements of the Philosophy of Right》，主播非常熟悉并多次研读",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "主播在大学教过的哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "主播在大学教过的哲学家之一，后文也提到超人哲学作为工具的例子",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "主播在大学教过的哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "主播引用其宁愿赴死也不放弃哲学的态度，说明哲学关乎生死",
+      "importance": "medium"
+    },
+    {
+      "name": "硬核哲学播客",
+      "type": "concept",
+      "context": "主播提出的理想播客标准：如大学通识课般清晰、准确、不带偏见",
+      "importance": "high"
+    },
+    {
+      "name": "反智主义",
+      "type": "concept",
+      "context": "主播批判的一种现象：未深入理解先下定论，认为古老思想家不值得读",
+      "importance": "medium"
+    },
+    {
+      "name": "女权主义",
+      "type": "concept",
+      "context": "主播访学课程中教授用来批判黑格尔的视角，主播认为应在理解之后再引入",
+      "importance": "medium"
+    },
+    {
+      "name": "普鲁士帝国",
+      "type": "place/organization",
+      "context": "另一种误读黑格尔的方式——将其视为保守的普鲁士维护者",
+      "importance": "low"
+    },
+    {
+      "name": "维基百科",
+      "type": "work/organization",
+      "context": "主播批评懒惰主播可能直接抄袭的来源",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65235f8919dde7bf6a2dbccb",
+  "title": "7-一个优秀的哲学播客应该是什么样的？"
+}

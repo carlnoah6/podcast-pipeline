@@ -1,0 +1,153 @@
+{
+  "style": {
+    "opening_pattern": "以流行文化现象引入，从网络热词'发疯'的具体表现切入",
+    "structure": "现象描述→理论铺垫（后现代主义）→明确排除理论套用→核心论点展开（弱者地位→虚假集体性→社群缺失→系统理智缺失）→历史现象回顾（躺平/润/最后一代）→总结升华",
+    "tone": "理性思辨、层层递进、带有批判性反思的学术散文风格",
+    "catchphrases": [
+      "该死的世界",
+      "与其责怪自己不如责怪别人",
+      "弱者的反抗",
+      "真正的集体",
+      "个体性的消融",
+      "共同体",
+      "于无深处有惊雷",
+      "小明",
+      "暂时不选择"
+    ],
+    "closing_pattern": "总结核心观点+预告下期内容",
+    "narrative_techniques": [
+      "类比",
+      "反问",
+      "举例",
+      "对比",
+      "具象化",
+      "重复强调",
+      "设问自答"
+    ]
+  },
+  "entities": [
+    {
+      "name": "卡夫卡",
+      "type": "person",
+      "context": "作为早期'发疯文学'的代表，其小说《变形记》被引用说明人变成蟑螂面对现实的荒诞主题",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思·韦伯",
+      "type": "person",
+      "context": "被引用其对国家的定义——垄断正当暴力使用的实体，用以说明现代社会中个人无法使用暴力解决问题",
+      "importance": "high"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "作为19世纪政治哲学家之一，被提及观察现代社会发展导致传统社群被摧毁的现象",
+      "importance": "low"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "作为19世纪政治哲学家之一，被提及观察现代社会结构变化对公民幸福感的影响",
+      "importance": "low"
+    },
+    {
+      "name": "《变形记》",
+      "type": "work",
+      "context": "卡夫卡著名小说，讲述人一觉醒来变成大蟑螂的故事，被主播称为'早期的发疯文学'",
+      "importance": "medium"
+    },
+    {
+      "name": "后现代主义",
+      "type": "concept",
+      "context": "主播明确拒绝用这一百年前在西方成型的理论直接套用到中国年轻人发疯现象上",
+      "importance": "high"
+    },
+    {
+      "name": "logos",
+      "type": "concept",
+      "context": "古希腊语词汇，意为语言/理智，被阐述为西方政治学根基——社会问题应通过语言和理智解决",
+      "importance": "high"
+    },
+    {
+      "name": "Bildung",
+      "type": "concept",
+      "context": "德语词汇，指19世纪德国人发明大学教育时理想中的教育形态，作为下期预告内容出现",
+      "importance": "low"
+    },
+    {
+      "name": "躺平文化",
+      "type": "concept",
+      "context": "被概括为2020-2022年三种代表性现象之一，代表年轻人对短期社会发展失去希望",
+      "importance": "high"
+    },
+    {
+      "name": "润文化",
+      "type": "concept",
+      "context": "被概括为三种代表性现象之一，代表年轻人对长期社会发展失去希望，通过留学或工作出国",
+      "importance": "high"
+    },
+    {
+      "name": "我们是最后一代文化",
+      "type": "concept",
+      "context": "被概括为三种代表性现象中最深刻的一种，源于上海疫情期间一位年轻人的话，代表拒绝生育、拒绝国家延续的绝望心态",
+      "importance": "high"
+    },
+    {
+      "name": "发疯文学",
+      "type": "concept",
+      "context": "核心讨论对象，指年轻人通过互联网和现实行为表达的荒诞、癫狂精神状态",
+      "importance": "high"
+    },
+    {
+      "name": "清零政策",
+      "type": "event",
+      "context": "作为时间节点参照，主播追问为何2023年中旬政策结束后半年年轻人选择发疯而非回归正常生活",
+      "importance": "medium"
+    },
+    {
+      "name": "上海疫情",
+      "type": "event",
+      "context": "作为'我们是最后一代'话语产生的具体背景，以及2023年万圣节集体发疯的主要发生地",
+      "importance": "medium"
+    },
+    {
+      "name": "万圣节",
+      "type": "event",
+      "context": "2023年全国各地尤其是上海成千上万年轻人上街男扮女装、集体发疯的标志性事件",
+      "importance": "high"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "2023年万圣节年轻人集体发疯的主要发生地，也是'我们是最后一代'话语的产生地",
+      "importance": "medium"
+    },
+    {
+      "name": "军队",
+      "type": "organization",
+      "context": "作为传统集体的典型例子，需要成员放弃个体性、将集体利益置于个人之上",
+      "importance": "low"
+    },
+    {
+      "name": "家庭",
+      "type": "organization",
+      "context": "作为传统集体的典型例子，与球队、军队并列说明真正集体需要个体性的部分消融",
+      "importance": "low"
+    },
+    {
+      "name": "球队",
+      "type": "organization",
+      "context": "作为传统集体的典型例子，用MVP心态的反例说明个体性与集体性的正确关系",
+      "importance": "low"
+    },
+    {
+      "name": "小明",
+      "type": "person",
+      "context": "主播虚构的普通年轻人形象，用以具象化说明当所有人生选择都不尽如人意时，发疯成为表达自由诉求的方式",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6543f8402e4c3cf8653c6745",
+  "title": "10- 为什么越来越多当代年轻人选择发疯"
+}

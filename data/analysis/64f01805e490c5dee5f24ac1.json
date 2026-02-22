@@ -1,0 +1,183 @@
+{
+  "style": {
+    "opening_pattern": "以亲身经历引入，直接点明主题",
+    "structure": "个人经历→多国对比→核心问题分析（教育目的+就业目的）→行业内部观察→阶级分化结论",
+    "tone": "理性客观中带个人情感，坦诚分享，略带悲观",
+    "catchphrases": [
+      "说句实话",
+      "我觉得",
+      "我想说的是",
+      "那我们就",
+      "让我感到非常震惊",
+      "这是一个非常悲哀的现象"
+    ],
+    "closing_pattern": "总结核心观点后开放式收尾",
+    "narrative_techniques": [
+      "对比（十年前vs现在、美国vs欧洲、不同阶层）",
+      "举例（个人经历、朋友案例）",
+      "数据引用（学费、抽签比例）",
+      "反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "播客主要讨论的留学目的地，作者2012年起在此读高中和大学",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "与美国对比的留学目的地，被描述为'集齐了美国的缺点和欧洲的缺点'",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "免学费留学的代表国家，作者访学后成为'德吹'",
+      "importance": "high"
+    },
+    {
+      "name": "新英格兰地区",
+      "type": "place",
+      "context": "作者就读高中的所在地，美国东北部老钱聚集地",
+      "importance": "medium"
+    },
+    {
+      "name": "哈佛",
+      "type": "organization",
+      "context": "作者朋友就读的法学院，也是家长眼中升学目标",
+      "importance": "medium"
+    },
+    {
+      "name": "耶鲁",
+      "type": "organization",
+      "context": "与哈佛、普林斯顿并列的美国顶尖大学",
+      "importance": "low"
+    },
+    {
+      "name": "普林斯顿",
+      "type": "organization",
+      "context": "与哈佛、耶鲁并列的美国顶尖大学",
+      "importance": "low"
+    },
+    {
+      "name": "牛津",
+      "type": "organization",
+      "context": "作者朋友本科毕业后攻读硕士的大学",
+      "importance": "low"
+    },
+    {
+      "name": "WTO",
+      "type": "organization",
+      "context": "世界贸易组织，其发布的数据被用来证明中国出口下降",
+      "importance": "low"
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "作为美国政治动荡的例子被提及",
+      "importance": "low"
+    },
+    {
+      "name": "Scholz（朔尔茨）",
+      "type": "person",
+      "context": "德国总理，出台新移民法律促进移民",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "作者高中时与拉丁老师一对一阅读其著作",
+      "importance": "low"
+    },
+    {
+      "name": "QS排名",
+      "type": "concept",
+      "context": "中国留学生很在乎但西方留学生不当一回事的大学排名",
+      "importance": "medium"
+    },
+    {
+      "name": "STEM",
+      "type": "concept",
+      "context": "理工科专业，毕业后可获得三年工作签证抽签机会",
+      "importance": "high"
+    },
+    {
+      "name": "H-1B工作签证/工作签",
+      "type": "concept",
+      "context": "美国工作签证，2023年4月抽中比例仅10%，被批评制度不公平",
+      "importance": "high"
+    },
+    {
+      "name": "绿卡",
+      "type": "concept",
+      "context": "美国永久居留卡，中国人申请需排期四到十年",
+      "importance": "high"
+    },
+    {
+      "name": "PSW工签",
+      "type": "concept",
+      "context": "英国毕业后可获得的三年工作签证",
+      "importance": "medium"
+    },
+    {
+      "name": "托福",
+      "type": "concept",
+      "context": "作者备考的标准化英语考试，第一次98分第二次108分",
+      "importance": "medium"
+    },
+    {
+      "name": "AP微积分",
+      "type": "concept",
+      "context": "作者高二考完后不再学数学的转折点",
+      "importance": "low"
+    },
+    {
+      "name": "GPA保分团队/留学团队",
+      "type": "concept",
+      "context": "现在富裕家庭聘请的全程辅导团队，确保绩点不跌下95",
+      "importance": "high"
+    },
+    {
+      "name": "美国艺术写作奖",
+      "type": "event",
+      "context": "面向高中生的奖项，现在被商业化运作，五万十万包得奖",
+      "importance": "medium"
+    },
+    {
+      "name": "1月6日国会山事件",
+      "type": "event",
+      "context": "作为美国政治动荡的例子被提及",
+      "importance": "low"
+    },
+    {
+      "name": "新概念英语",
+      "type": "work",
+      "context": "作者晚自习用录音机背诵以提高英语的教材",
+      "importance": "low"
+    },
+    {
+      "name": "纽约时报",
+      "type": "work",
+      "context": "英语老师推荐作者阅读的英文文本",
+      "importance": "low"
+    },
+    {
+      "name": "国家地理杂志",
+      "type": "work",
+      "context": "英语老师推荐作者阅读的英文文本",
+      "importance": "low"
+    },
+    {
+      "name": "托福红宝书",
+      "type": "work",
+      "context": "作者当年背单词用的词汇表",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "64f01805e490c5dee5f24ac1",
+  "title": "5-现在还适合出国留学吗？"
+}
