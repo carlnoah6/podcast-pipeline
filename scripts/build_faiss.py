@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """K-007 + K-008: Generate embeddings with bge-m3 on Modal and build FAISS index.
 
-Reads chunks.jsonl, generates embeddings via Modal GPU, saves FAISS index.
+Reads chunks.jsonl + enriched_chunks.jsonl, generates embeddings, saves FAISS index.
 Output: data/knowledge/faiss.index + data/knowledge/chunk_ids.json
 """
 from __future__ import annotations
@@ -31,13 +31,11 @@ def embed_and_build_index(chunks: list[dict]) -> dict:
     import numpy as np
     from sentence_transformers import SentenceTransformer
 
-    logger.info("Loading bge-m3 model...")
     model = SentenceTransformer("BAAI/bge-m3")
 
     texts = [c["text"] for c in chunks]
-    logger.info("Encoding %d chunks...", len(texts))
+    print(f"Encoding {len(texts)} chunks...")
 
-    # Batch encode (small batch to avoid OOM)
     embeddings = model.encode(
         texts,
         batch_size=16,
@@ -45,13 +43,11 @@ def embed_and_build_index(chunks: list[dict]) -> dict:
         normalize_embeddings=True,
     )
 
-    # Build FAISS index
     dim = embeddings.shape[1]
-    logger.info("Building FAISS index (dim=%d)...", dim)
-    index = faiss.IndexFlatIP(dim)  # Inner product (cosine sim since normalized)
+    print(f"Building FAISS index (dim={dim})...")
+    index = faiss.IndexFlatIP(dim)
     index.add(embeddings.astype(np.float32))
 
-    # Serialize
     import io
     buf = io.BytesIO()
     faiss.write_index(index, faiss.BufferedIOWriter(faiss.PyCallbackIOWriter(buf.write)))
@@ -65,16 +61,27 @@ def embed_and_build_index(chunks: list[dict]) -> dict:
 
 
 def main() -> None:
-    chunks_path = Path("data/knowledge/chunks.jsonl")
     output_dir = Path("data/knowledge")
 
-    # Load chunks
+    # Load podcast transcript chunks
     chunks = []
-    with open(chunks_path) as f:
-        for line in f:
-            chunks.append(json.loads(line))
+    chunks_path = output_dir / "chunks.jsonl"
+    if chunks_path.exists():
+        with open(chunks_path) as f:
+            for line in f:
+                chunks.append(json.loads(line))
+    logger.info("Podcast chunks: %d", len(chunks))
 
-    logger.info("Loaded %d chunks", len(chunks))
+    # Load enriched knowledge chunks
+    enriched_path = output_dir / "enriched_chunks.jsonl"
+    enriched_count = 0
+    if enriched_path.exists():
+        with open(enriched_path) as f:
+            for line in f:
+                chunks.append(json.loads(line))
+                enriched_count += 1
+    logger.info("Enriched chunks: %d", enriched_count)
+    logger.info("Total chunks to index: %d", len(chunks))
 
     # Run on Modal
     with app.run():
@@ -91,7 +98,7 @@ def main() -> None:
         json.dump(result["chunk_ids"], f)
 
     logger.info(
-        "FAISS index built: %d vectors, dim=%d, saved to %s",
+        "FAISS index: %d vectors, dim=%d, saved to %s",
         result["count"], result["dim"], index_path,
     )
 

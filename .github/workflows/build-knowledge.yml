@@ -2,16 +2,24 @@ name: Build Knowledge Base
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Analyze Episodes"]
+    types: [completed]
+    branches: [main]
 
 env:
   MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
   MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+  API_KEY: ${{ secrets.API_KEY }}
+  ENRICH_MODEL: gemini-2.5-flash
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     permissions:
       contents: write
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
         with:
@@ -21,18 +29,25 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install -e . modal
+      - run: pip install -e . modal httpx
 
-      - name: K-003 Aggregate entities
+      - name: "Step 1: Aggregate entities"
         run: python scripts/aggregate_entities.py
 
-      - name: K-006 Chunk texts
-        run: python scripts/chunk_texts.py
-
-      - name: D-020 Aggregate style
+      - name: "Step 2: Aggregate style profile"
         run: python scripts/aggregate_style.py
 
-      - name: K-007+K-008 Build FAISS index
+      - name: "Step 3: Enrich entities (WikiQuote + SEP + LLM)"
+        run: python scripts/enrich_entities.py --workers 20
+        timeout-minutes: 60
+
+      - name: "Step 4: Chunk podcast transcripts"
+        run: python scripts/chunk_texts.py
+
+      - name: "Step 5: Chunk enriched knowledge"
+        run: python scripts/chunk_enriched.py
+
+      - name: "Step 6: Build FAISS index (Modal A10G)"
         run: python scripts/build_faiss.py
 
       - name: Commit knowledge base
@@ -41,7 +56,14 @@ jobs:
           git config user.email "bot@podcast-pipeline.local"
           git add data/knowledge/
           if ! git diff --cached --quiet; then
-            git commit -m "knowledge: build entity db + FAISS index + style profile [auto]"
-            git pull --rebase origin main || true
-            git push origin main
+            git commit -m "knowledge: full rebuild (entities + enriched + FAISS) [auto]
+
+          Entities: $(cat data/knowledge/entities.json | python3 -c 'import sys,json; print(len(json.load(sys.stdin)))') unique
+          Enriched: $(ls data/knowledge/enriched/*.json 2>/dev/null | wc -l) entities
+          Chunks: $(wc -l < data/knowledge/chunks.jsonl) podcast + $(wc -l < data/knowledge/enriched_chunks.jsonl) enriched
+          FAISS: $(ls -lh data/knowledge/faiss.index | awk '{print $5}')"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin main && break
+              sleep 5
+            done
           fi
