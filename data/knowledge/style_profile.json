@@ -1,5 +1,5 @@
 {
-  "episode_count": 252,
+  "episode_count": 255,
   "opening_patterns": [
     {
       "pattern": "直接提出问题",
@@ -249,11 +249,11 @@
   "catchphrases": [
     {
       "phrase": "对吧",
-      "count": 63
+      "count": 66
     },
     {
       "phrase": "OK",
-      "count": 58
+      "count": 61
     },
     {
       "phrase": "我觉得",
@@ -292,11 +292,11 @@
       "count": 7
     },
     {
-      "phrase": "拜拜拜拜",
-      "count": 6
+      "phrase": "拜拜",
+      "count": 7
     },
     {
-      "phrase": "拜拜",
+      "phrase": "拜拜拜拜",
       "count": 6
     },
     {
@@ -380,11 +380,19 @@
       "count": 4
     },
     {
+      "phrase": "怎么说呢",
+      "count": 3
+    },
+    {
       "phrase": "哇塞",
       "count": 3
     },
     {
       "phrase": "so what",
+      "count": 3
+    },
+    {
+      "phrase": "榜眼哥",
       "count": 3
     },
     {
@@ -437,14 +445,6 @@
     },
     {
       "phrase": "鸡同鸭讲",
-      "count": 3
-    },
-    {
-      "phrase": "对于我来说",
-      "count": 3
-    },
-    {
-      "phrase": "我不知道",
       "count": 3
     }
   ],
@@ -533,23 +533,23 @@
   "narrative_techniques": [
     {
       "technique": "对比",
-      "count": 207
+      "count": 210
     },
     {
       "technique": "类比",
-      "count": 206
+      "count": 209
     },
     {
       "technique": "举例",
-      "count": 140
+      "count": 142
     },
     {
       "technique": "反问",
-      "count": 130
+      "count": 132
     },
     {
       "technique": "引用",
-      "count": 67
+      "count": 68
     },
     {
       "technique": "反讽",
@@ -561,7 +561,7 @@
     },
     {
       "technique": "自我指涉",
-      "count": 17
+      "count": 18
     },
     {
       "technique": "自我暴露",
@@ -593,7 +593,11 @@
     },
     {
       "technique": "设问与反问",
-      "count": 9
+      "count": 10
+    },
+    {
+      "technique": "引用原文",
+      "count": 8
     },
     {
       "technique": "设问自答",
@@ -608,11 +612,11 @@
       "count": 8
     },
     {
-      "technique": "个人叙事",
-      "count": 7
+      "technique": "自我调侃",
+      "count": 8
     },
     {
-      "technique": "引用原文",
+      "technique": "个人叙事",
       "count": 7
     },
     {
@@ -625,10 +629,6 @@
     },
     {
       "technique": "自嘲",
-      "count": 7
-    },
-    {
-      "technique": "自我调侃",
       "count": 7
     },
     {
