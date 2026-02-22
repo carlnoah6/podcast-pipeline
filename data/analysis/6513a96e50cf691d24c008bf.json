@@ -1,0 +1,211 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件和社会热点引入（杭州大厦卡塔尔人购物事件及抖音传言），通过辟谣和质疑网络传言过渡到个人亲身经历",
+    "structure": "个人经历与历史背景交织的递进式结构：热点引入→个人背景与求职动机→卡塔尔及海湾国家历史与文化贫瘠问题→博物馆建设与国际竞争→具体工作内容（中国-波斯艺术品）→社会观察（双重福利体系）→底层劳工生存状况→理论升华（黑格尔、马克思与石油诅咒）→总结反思",
+    "tone": "理性批判与反思性叙述相结合，口语化但保持学术深度，带有知识分享和个人见证的双重特质，在描述奢华表象时保持对结构性不公的批判距离",
+    "catchphrases": [
+      "怎么说呢",
+      "对吧",
+      "我觉得",
+      "就是",
+      "嗯",
+      "所以说",
+      "泼天的富贵",
+      "一箭双雕",
+      "鸟不拉屎"
+    ],
+    "closing_pattern": "理论总结与开放式提问相结合，以石油诅咒理论总结卡塔尔面临的结构性困境，并以关于女性权利和摆脱石油诅咒的反思性提问结束",
+    "narrative_techniques": [
+      "对比（本地卡塔尔人vs外国专业人士vs底层劳工的三层结构对比）",
+      "具体案例（乾隆玉碗、印度房东拔电闸事件）",
+      "理论引用（黑格尔法哲学、马克思、石油诅咒理论）",
+      "数据支撑（人口比例、薪资水平、温度数据）",
+      "个人见证与学术分析相结合"
+    ]
+  },
+  "entities": [
+    {
+      "name": "贝聿铭（I.M. Pei）",
+      "type": "person",
+      "context": "被卡塔尔聘请设计伊斯兰艺术博物馆的90多岁华裔建筑学家，获得两年时间和无限透支信用卡环游伊斯兰世界进行设计准备",
+      "importance": "high"
+    },
+    {
+      "name": "乾隆",
+      "type": "person",
+      "context": "清朝皇帝，其赠送波斯使者的和田玉碗是播客主负责研究的重要藏品，碗上刻有乾隆题写的打油诗",
+      "importance": "high"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "德国哲学家，播客主引用其《法哲学原理》中关于贫困与社会结构关系的理论分析卡塔尔劳工问题",
+      "importance": "high"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "哲学家、经济学家，播客主将其与黑格尔对比，提及马克思对穷人态度是黑格尔观点的极端化",
+      "importance": "medium"
+    },
+    {
+      "name": "让·努维尔（Jean Nouvel）",
+      "type": "person",
+      "context": "法国建筑师，被阿联酋聘请设计阿布扎比卢浮宫，与贝聿铭形成竞争关系",
+      "importance": "medium"
+    },
+    {
+      "name": "弗兰克·盖里（Frank Gehry）",
+      "type": "person",
+      "context": "加拿大裔美国建筑师，被阿联酋聘请设计阿布扎比古根海姆博物馆",
+      "importance": "medium"
+    },
+    {
+      "name": "卡塔尔伊斯兰艺术博物馆",
+      "type": "organization",
+      "context": "播客主工作的地方，由贝聿铭设计，位于多哈人造岛上，是卡塔尔国家资助的最高大上艺术项目，藏品主要来自其他伊斯兰国家而非卡塔尔本土",
+      "importance": "high"
+    },
+    {
+      "name": "阿布扎比卢浮宫",
+      "type": "organization",
+      "context": "阿联酋为与卡塔尔竞争而建造的世界级博物馆，由让·努维尔设计，与卡塔尔伊斯兰艺术博物馆形成对标",
+      "importance": "medium"
+    },
+    {
+      "name": "阿布扎比古根海姆博物馆",
+      "type": "organization",
+      "context": "阿联酋计划建造但未建成的博物馆，原计划由弗兰克·盖里设计，因馆长离职而搁浅",
+      "importance": "low"
+    },
+    {
+      "name": "杭州丝绸博物馆",
+      "type": "organization",
+      "context": "与卡塔尔伊斯兰艺术博物馆有紧密合作关系，拥有全世界最高端的丝绸修复实验室，卡塔尔地毯修复专家每年前往学习",
+      "importance": "medium"
+    },
+    {
+      "name": "OPEC（石油输出国组织）",
+      "type": "organization",
+      "context": "沙特阿拉伯是该组织的老大哥，卡塔尔曾试图通过天然气合作挑战沙特在该组织的垄断地位",
+      "importance": "medium"
+    },
+    {
+      "name": "和田玉碗",
+      "type": "work",
+      "context": "清朝乾隆时期制作并由乾隆赠送给波斯使者的艺术品，上有乾隆题诗，是播客主在博物馆负责研究的重要藏品，体现中国与伊斯兰文明的艺术交流",
+      "importance": "high"
+    },
+    {
+      "name": "中世纪古兰经手稿",
+      "type": "work",
+      "context": "卡塔尔伊斯兰艺术博物馆收藏的脆弱文物，需要严格遵守展一修二或展一修三的修复原则，否则两年内会严重损耗泛白",
+      "importance": "medium"
+    },
+    {
+      "name": "波斯地毯",
+      "type": "work",
+      "context": "伊斯兰艺术的重要组成部分，常使用大量丝绸，修复工艺与中国丝绸相似，是卡塔尔博物馆与杭州丝绸博物馆合作的主要修复对象",
+      "importance": "medium"
+    },
+    {
+      "name": "石油诅咒/资源诅咒（Resource Curse/Oil Curse）",
+      "type": "concept",
+      "context": "政治学概念，描述石油资源丰富国家往往民主程度低、经济稳定性差、内战频繁的现象，播客主用此理论分析卡塔尔面临的结构性困境",
+      "importance": "high"
+    },
+    {
+      "name": "伊斯兰艺术",
+      "type": "concept",
+      "context": "播客主的专业领域之一，涵盖从西班牙到印度广大地域的伊斯兰文化圈艺术，卡塔尔博物馆收藏的主要类别，但卡塔尔本土缺乏此类历史文化遗产",
+      "importance": "high"
+    },
+    {
+      "name": "策展（Curatorial）",
+      "type": "concept",
+      "context": "博物馆核心部门策展部的工作内容，涉及藏品研究、展览策划、学术写作，播客主在卡塔尔的主要工作职责",
+      "importance": "medium"
+    },
+    {
+      "name": "文物修复",
+      "type": "concept",
+      "context": "博物馆核心部门之一，涉及化学、材料科学，负责地毯、手稿等脆弱文物的保养与修复，与杭州丝绸博物馆有技术合作",
+      "importance": "medium"
+    },
+    {
+      "name": "杭州大厦",
+      "type": "place",
+      "context": "杭州著名奢侈品商场，播客主提及卡塔尔代表团在此购物引发网络热议的地点",
+      "importance": "low"
+    },
+    {
+      "name": "多哈（Doha）",
+      "type": "place",
+      "context": "卡塔尔首都，播客主工作生活的城市，卡塔尔伊斯兰艺术博物馆所在地，缺乏公共交通，夏季气温可达45度",
+      "importance": "high"
+    },
+    {
+      "name": "卡塔尔（Qatar）",
+      "type": "place",
+      "context": "播客主工作的海湾国家，1940年代发现石油后暴富，人口仅200多万（本地人占15%），是播客分析的主要对象",
+      "importance": "high"
+    },
+    {
+      "name": "沙特阿拉伯（Saudi Arabia）",
+      "type": "place",
+      "context": "海湾国家老大哥，OPEC主导者，卡塔尔试图挑战其地位，面积较大，相对卡塔尔更保守",
+      "importance": "medium"
+    },
+    {
+      "name": "阿联酋/阿布扎比（UAE/Abu Dhabi）",
+      "type": "place",
+      "context": "卡塔尔的直接竞争对手，建造卢浮宫和古根海姆博物馆与卡塔尔竞争，石油湾国家中第二保守",
+      "importance": "medium"
+    },
+    {
+      "name": "巴林（Bahrain）",
+      "type": "place",
+      "context": "石油湾国家，相对卡塔尔不那么富裕也不那么闭塞，是卡塔尔同性恋者寻欢作乐的去处",
+      "importance": "low"
+    },
+    {
+      "name": "科威特（Kuwait）",
+      "type": "place",
+      "context": "石油湾小国，与卡塔尔类似的历史（珍珠经济崩溃），相对不那么极端保守",
+      "importance": "low"
+    },
+    {
+      "name": "伦敦",
+      "type": "place",
+      "context": "卡塔尔本地人常去的Gap Year目的地，播客主的本地朋友去伦敦做丰臀手术的地方",
+      "importance": "low"
+    },
+    {
+      "name": "杭州",
+      "type": "place",
+      "context": "播客主提及杭州丝绸博物馆所在地，与卡塔尔博物馆有合作关系",
+      "importance": "low"
+    },
+    {
+      "name": "1940年代石油发现",
+      "type": "event",
+      "context": "卡塔尔发现石油的时间点，标志着该国从贫困渔民国家变为暴富国家的转折点",
+      "importance": "medium"
+    },
+    {
+      "name": "1916年人工珍珠发明",
+      "type": "event",
+      "context": "日本人发明人工培育珍珠，导致卡塔尔等海湾国家传统珍珠采集经济崩溃",
+      "importance": "medium"
+    },
+    {
+      "name": "2008年博物馆开馆",
+      "type": "event",
+      "context": "贝聿铭设计的卡塔尔伊斯兰艺术博物馆正式对外开放的年份",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6513a96e50cf691d24c008bf",
+  "title": "6-用钱能砸出怎样的艺术？本人在卡塔尔博物馆打工的经历"
+}

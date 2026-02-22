@@ -1,0 +1,348 @@
+{
+  "style": {
+    "opening_pattern": "以日期问候开场，插入个人推荐（《声东击西》播客的声音胶囊），借柏拉图关于记忆与知识的论述过渡到主题",
+    "structure": "历史铺垫（无聊的词源与哲学化）→核心问题提出（古代人为何不无聊）→文本分析（《红与黑》三场景对比）→具体章节解读（第4-9章）→人物分析（马蒂尔德）→音乐收尾",
+    "tone": "理性犀利、知识密集、带有强烈个人偏好和批判性，时而自嘲式幽默",
+    "catchphrases": [
+      "对吧",
+      "你知道吗",
+      "我觉得",
+      "OK",
+      "换句话说",
+      "也就是说",
+      "借着他之口",
+      "中二少年",
+      "小布尔乔亚",
+      "拉踩完毕"
+    ],
+    "closing_pattern": "以朋友演奏的古典音乐收尾，附带大量音乐知识科普，最后标准结束语",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "反问",
+      "举例",
+      "引用",
+      "自我指涉",
+      "拉踩式批评"
+    ]
+  },
+  "entities": [
+    {
+      "name": "司汤达（Stendhal）",
+      "type": "person",
+      "context": "《红与黑》的作者，被主播评价为精准描绘无聊时代情绪的一流小说家",
+      "importance": "high"
+    },
+    {
+      "name": "于连（Julien Sorel）",
+      "type": "person",
+      "context": "《红与黑》主角，从农村进入巴黎上流社会的青年，体验并观察贵族社会的无聊",
+      "importance": "high"
+    },
+    {
+      "name": "马蒂尔德（Mathilde de la Mole）",
+      "type": "person",
+      "context": "侯爵女儿，于连的贵族镜像，既维护阶级利益又渴望冲破无聊的存在危机者",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "启蒙思想家，于连最信任的作家之一，其《忏悔录》深刻影响于连，被视为巴黎罪恶观的源头",
+      "importance": "high"
+    },
+    {
+      "name": "福楼拜（Gustave Flaubert）",
+      "type": "person",
+      "context": "19世纪法国作家，《包法利夫人》作者，欣赏司汤达并同样精准描绘无聊",
+      "importance": "high"
+    },
+    {
+      "name": "雨果（Victor Hugo）",
+      "type": "person",
+      "context": "《悲惨世界》作者，被主播多次批评为三流小说家，缺乏自我节制",
+      "importance": "medium"
+    },
+    {
+      "name": "海德格尔（Martin Heidegger）",
+      "type": "person",
+      "context": "20世纪哲学家，《存在与时间》作者，将无聊理论化为存在主义议题",
+      "importance": "medium"
+    },
+    {
+      "name": "笛卡尔（René Descartes）",
+      "type": "person",
+      "context": "现代哲学开创者，'我思故我在'标志着主体性的出现，区分古代人与现代人的关键",
+      "importance": "medium"
+    },
+    {
+      "name": "伏尔泰（Voltaire）",
+      "type": "person",
+      "context": "启蒙思想家，其作品《巴比伦公主》出现在侯爵书房，大名回荡在19世纪法国",
+      "importance": "medium"
+    },
+    {
+      "name": "克尔凯郭尔（Søren Kierkegaard）",
+      "type": "person",
+      "context": "存在主义先驱，讨论无聊的疏离效应",
+      "importance": "low"
+    },
+    {
+      "name": "叔本华（Arthur Schopenhauer）",
+      "type": "person",
+      "context": "哲学家，讨论无聊的疏离效应",
+      "importance": "low"
+    },
+    {
+      "name": "本雅明（Walter Benjamin）",
+      "type": "person",
+      "context": "20世纪思想家，《拱廊计划》作者，关注无聊现象",
+      "importance": "low"
+    },
+    {
+      "name": "贝克特（Samuel Beckett）",
+      "type": "person",
+      "context": "荒诞派剧作家，《等待戈多》作者，代表20世纪存在性绝望",
+      "importance": "low"
+    },
+    {
+      "name": "达朗贝尔（Jean le Rond d'Alembert）",
+      "type": "person",
+      "context": "启蒙哲学家，与卢梭关于日内瓦剧院的通信被贵族视为不体面",
+      "importance": "low"
+    },
+    {
+      "name": "拿破仑（Napoleon Bonaparte）",
+      "type": "person",
+      "context": "于连崇拜的对象，其传记是于连唯一信任的三本书之一",
+      "importance": "low"
+    },
+    {
+      "name": "亚当·斯密（Adam Smith）",
+      "type": "person",
+      "context": "经济学家，代表财富推动历史的史观",
+      "importance": "low"
+    },
+    {
+      "name": "洛克（John Locke）",
+      "type": "person",
+      "context": "哲学家，代表权力推动历史的史观",
+      "importance": "low"
+    },
+    {
+      "name": "霍布斯（Thomas Hobbes）",
+      "type": "person",
+      "context": "哲学家，代表权力推动历史的史观",
+      "importance": "low"
+    },
+    {
+      "name": "培根（Francis Bacon）",
+      "type": "person",
+      "context": "哲学家，代表科技发展推动历史的史观",
+      "importance": "low"
+    },
+    {
+      "name": "安·兰德（Ayn Rand）",
+      "type": "person",
+      "context": "《阿特拉斯耸耸肩》作者，被主播批评为缺乏节制的三流小说家",
+      "importance": "low"
+    },
+    {
+      "name": "孔德（Auguste Comte）",
+      "type": "person",
+      "context": "法国社会主义思想家，主播建议直接阅读而非通过雨果小说了解",
+      "importance": "low"
+    },
+    {
+      "name": "陶姐",
+      "type": "person",
+      "context": "《声东击西》播客相关人员，制作声音胶囊时边做边哭",
+      "importance": "low"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "主播朋友，羽管键琴演奏者，提供巴赫a小调托卡塔并在结尾进行音乐知识科普",
+      "importance": "medium"
+    },
+    {
+      "name": "《红与黑》（Le Rouge et le Noir）",
+      "type": "work",
+      "context": "司汤达1830年小说，本期播客核心分析文本，描绘巴黎上流贵族社会的无聊",
+      "importance": "high"
+    },
+    {
+      "name": "《包法利夫人》（Madame Bovary）",
+      "type": "work",
+      "context": "福楼拜1856年小说，写于《红与黑》30年后，展现无聊向中产阶级的蔓延",
+      "importance": "high"
+    },
+    {
+      "name": "《悲惨世界》（Les Misérables）",
+      "type": "work",
+      "context": "雨果小说，被主播批评为三流小说，缺乏自我节制，充满作者政治说教",
+      "importance": "medium"
+    },
+    {
+      "name": "《存在与时间》（Sein und Zeit/Being and Time）",
+      "type": "work",
+      "context": "海德格尔巨著，主播认为无聊话题触及的两大主题（存在与时间）正是此书核心",
+      "importance": "medium"
+    },
+    {
+      "name": "《第一哲学沉思集》（Meditations on First Philosophy）",
+      "type": "work",
+      "context": "笛卡尔著作，'我思故我在'标志主体性出现",
+      "importance": "medium"
+    },
+    {
+      "name": "《忏悔录》（Confessions）",
+      "type": "work",
+      "context": "卢梭自传，于连最信任的三本书之一",
+      "importance": "medium"
+    },
+    {
+      "name": "《奥德赛》（Odyssey）",
+      "type": "work",
+      "context": "荷马史诗，主播用以说明古代人不把自己当主角、不把生命当体验",
+      "importance": "medium"
+    },
+    {
+      "name": "《巴比伦公主》（La Princesse de Babylone）",
+      "type": "work",
+      "context": "伏尔泰作品，马蒂尔德从侯爵书房偷借的书",
+      "importance": "low"
+    },
+    {
+      "name": "《阿特拉斯耸耸肩》（Atlas Shrugged）",
+      "type": "work",
+      "context": "安·兰德小说，被批评为缺乏节制的长篇大论",
+      "importance": "low"
+    },
+    {
+      "name": "《等待戈多》（Waiting for Godot）",
+      "type": "work",
+      "context": "贝克特荒诞派戏剧，代表20世纪存在性绝望",
+      "importance": "low"
+    },
+    {
+      "name": "《拱廊计划》（The Arcades Project）",
+      "type": "work",
+      "context": "本雅明未完成的著作，关注无聊与现代性",
+      "importance": "low"
+    },
+    {
+      "name": "巴赫a小调托卡塔（Toccata in A minor, BWV 914）",
+      "type": "work",
+      "context": "播客结尾演奏曲目，由脑雾哥在羽管键琴上演奏",
+      "importance": "medium"
+    },
+    {
+      "name": "无聊（boredom/ennui/Langeweile）",
+      "type": "concept",
+      "context": "本期核心概念，18世纪末出现的现代人流行病，从贵族特权到民主化的时代情绪",
+      "importance": "high"
+    },
+    {
+      "name": "主体性（subjectivity）",
+      "type": "concept",
+      "context": "现代人区别于古代人的关键特征，笛卡尔'我思故我在'的标志，带来启蒙也带来危机",
+      "importance": "high"
+    },
+    {
+      "name": "进步史观",
+      "type": "concept",
+      "context": "现代人与时间关系的核心，历史向前驱动的线性观念，失望时转化为无聊",
+      "importance": "high"
+    },
+    {
+      "name": "存在危机（Existential crisis）",
+      "type": "concept",
+      "context": "马蒂尔德对抗无聊的方式，渴望用生命赌博的刺激来冲破社会屏障",
+      "importance": "high"
+    },
+    {
+      "name": "小布尔乔亚/中产阶级价值观",
+      "type": "concept",
+      "context": "主播批判的对象，市长的嫉妒与显摆心态，与贵族的彬彬有礼形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "残忍的精神",
+      "type": "concept",
+      "context": "西班牙贵族少年提出的概念，断头台发明后杀人失去的意识维度，贵族无聊的根源之一",
+      "importance": "medium"
+    },
+    {
+      "name": "羽管键琴（harpsichord）",
+      "type": "concept",
+      "context": "巴洛克时期键盘乐器，拨弦发声，与钢琴原理不同，巴赫原创作曲乐器",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命（1789年）",
+      "type": "event",
+      "context": "断头台发明的历史背景，贵族失去残忍精神的历史转折点",
+      "importance": "medium"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "《红与黑》下卷场景，'宇宙中心'，上流贵族社会无聊的集中地",
+      "importance": "high"
+    },
+    {
+      "name": "贝藏松（Besançon）",
+      "type": "place",
+      "context": "《红与黑》上卷第二场景，二线城市，神学院所在地",
+      "importance": "medium"
+    },
+    {
+      "name": "维里埃（Verrières）",
+      "type": "place",
+      "context": "《红与黑》开篇场景，法国郊区县城，城乡结合部",
+      "importance": "medium"
+    },
+    {
+      "name": "拉莫尔府（Hôtel de La Mole）",
+      "type": "place",
+      "context": "巴黎侯爵宅邸，于连担任秘书的场所，贵族无聊氛围的核心空间",
+      "importance": "high"
+    },
+    {
+      "name": "日内瓦",
+      "type": "place",
+      "context": "卢梭与达朗贝尔通信讨论建剧院的城市",
+      "importance": "low"
+    },
+    {
+      "name": "南美",
+      "type": "place",
+      "context": "西班牙贵族少年认为解放南美可反过来解放欧洲",
+      "importance": "low"
+    },
+    {
+      "name": "让-雅克·卢梭路",
+      "type": "place",
+      "context": "巴黎街道名，体现启蒙思想家对19世纪法国的深远影响",
+      "importance": "low"
+    },
+    {
+      "name": "《声东击西》",
+      "type": "organization",
+      "type_2": "media",
+      "context": "主播推荐的播客，每年年底推出声音胶囊记录年度缩影",
+      "importance": "medium"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "type_2": "media",
+      "context": "主播所属栏目，结尾呼吁支持",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6770dccc1e823e72d391b0a7",
+  "title": "155-现代人从何时开始感到无聊？（《红与黑》解析6）"
+}

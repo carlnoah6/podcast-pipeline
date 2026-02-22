@@ -1,0 +1,278 @@
+{
+  "style": {
+    "opening_pattern": "回顾过往内容+提出新问题，通过对比推特和小红书两种极端案例，引出本期要分析的社交平台风气变差的核心问题",
+    "structure": "个人经历引入（与刘擎老师交流）→ 小红书运营机制深度剖析（群组观察）→ 多平台对比（小宇宙vs小红书vs知乎vs微博）→ 知乎案例深入分析（与哲学大V对话）→ 理论升华（托克维尔《旧制度与大革命》框架）→ 总结与预告",
+    "tone": "理性分析中带有强烈个人情感，兼具学术深度（引用政治哲学理论）与生活化表达，批判性强但不失幽默，带有知识分子的自省与焦虑",
+    "catchphrases": [
+      "前仆后继",
+      "欣欣向荣",
+      "虚无缥缈",
+      "选贤举能",
+      "我可好奇",
+      "话语权重",
+      "流量扶持",
+      "做牛做马",
+      "简直也太离谱了吧",
+      "拉磨的驴"
+    ],
+    "closing_pattern": "总结核心观点（现实生活努力比互联网更公平）+ 预告下期内容 + 口语化告别",
+    "narrative_techniques": [
+      "历史类比（托克维尔分析法国大革命类比平台权力集中）",
+      "对比（推特vs小红书、小宇宙vs知乎、贵族vs平民）",
+      "微观例证（abandon话题、美拉德穿搭、学位法讨论）",
+      "田野观察（潜入小红书运营群组的第一手资料）",
+      "引用权威（刘擎、马督工、托克维尔）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "刘擎",
+      "type": "person",
+      "context": "播主通过朋友保姆哥认识的学者，在散步时提出关于中文社交媒体哪个最具自由言论空间的问题，引发本期播客主题",
+      "importance": "high"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "法国思想家，其著作《旧制度与大革命》被播主用来类比分析知乎等平台从精英主导到民主化过程中权力集中与话语质量下降的关系",
+      "importance": "high"
+    },
+    {
+      "name": "马斯克",
+      "type": "person",
+      "context": "作为推特（X）的控制者被提及，代表极端放任自由的管控模式，与小红书的极端管控形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "保姆哥",
+      "type": "person",
+      "context": "播主的好朋友，运营政治哲学研究公众号，介绍播主认识刘擎老师",
+      "importance": "medium"
+    },
+    {
+      "name": "知乎哲学大V哥",
+      "type": "person",
+      "context": "播主的匿名好友，资深知乎哲学领域大V，提供了关于知乎话语权稀释、算法改变、审核收紧等内部视角的关键信息",
+      "importance": "high"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "播主的朋友，因在小红书与人辩论而删除个人照片以避免ad hominem攻击，作为小红书辩论环境的例证",
+      "importance": "medium"
+    },
+    {
+      "name": "马督工",
+      "type": "person",
+      "context": "被知乎哲学大V哥引用的时政评论者，用\"自废武功\"概括知乎这些年的策略转变",
+      "importance": "medium"
+    },
+    {
+      "name": "小红书",
+      "type": "organization",
+      "context": "核心分析对象之一，代表极端和谐管控、流量随机分配、运营群组操控话题的平台模式，被深入剖析其运营机制",
+      "importance": "high"
+    },
+    {
+      "name": "知乎",
+      "type": "organization",
+      "context": "核心分析对象之一，代表从精英专业平台向流量导向、民主化、广告泛滥转变的典型案例，经历了话语权集中到大V再到平台集权的过程",
+      "importance": "high"
+    },
+    {
+      "name": "小宇宙",
+      "type": "organization",
+      "context": "被刘擎、播主和保姆哥认为是中文语境中审核最少、文明讨论空间最大的社交媒体，因其功能单一性、审核宽松、话语权掌握在少数核心用户手中而被推崇",
+      "importance": "high"
+    },
+    {
+      "name": "推特",
+      "type": "organization",
+      "context": "被用作与小红书对比的极端案例，代表马斯克控制下的极端放任自由、缺乏管控导致不文明言论肆虐的平台",
+      "importance": "medium"
+    },
+    {
+      "name": "微博",
+      "type": "organization",
+      "context": "被播主批评为粉丝数据造假严重、缺乏活人、运营骚扰过多的平台，代表虚假繁荣的社交媒体",
+      "importance": "medium"
+    },
+    {
+      "name": "网易云音乐",
+      "type": "organization",
+      "context": "播主活跃的平台之一，但因其审核严格（删除关于布拉格之春的播客）而被批评",
+      "importance": "low"
+    },
+    {
+      "name": "抖音",
+      "type": "organization",
+      "context": "被提及为知乎试图模仿的视频平台之一，代表短视频流量模式",
+      "importance": "medium"
+    },
+    {
+      "name": "B站",
+      "type": "organization",
+      "context": "被提及为知乎试图模仿的视频平台之一（\"盗版B站\"）",
+      "importance": "medium"
+    },
+    {
+      "name": "微信公众号",
+      "type": "organization",
+      "context": "被提及为知乎试图模仿的平台之一（\"盗版微信公众号\"），也是保姆哥运营的平台",
+      "importance": "medium"
+    },
+    {
+      "name": "悟空问答",
+      "type": "organization",
+      "context": "被提及为当年挖走知乎核心用户的竞品平台，导致知乎改变流量分配机制",
+      "importance": "medium"
+    },
+    {
+      "name": "十四届人大常委会",
+      "type": "organization",
+      "context": "被提及作为小红书运营操控话题的例子（第九次会议表决通过学位法）",
+      "importance": "low"
+    },
+    {
+      "name": "《旧制度与大革命》",
+      "type": "work",
+      "context": "托克维尔的著作，被播主用作分析平台权力集中与民主化关系的理论框架",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "被托克维尔分析的历史事件，被播主类比为平台从贵族（大V）主导到王权（平台）绝对集中的过程",
+      "importance": "high"
+    },
+    {
+      "name": "苏联解体",
+      "type": "event",
+      "context": "在网易云音乐被审核删除的播客内容中提及，与东欧颜色革命相关",
+      "importance": "low"
+    },
+    {
+      "name": "布拉格之春",
+      "type": "event",
+      "context": "被网易云音乐审核删除的播客主题",
+      "importance": "low"
+    },
+    {
+      "name": "颜色革命",
+      "type": "concept",
+      "context": "在谈及苏联解体后东欧政治变化时提及，导致网易云音乐删除播客",
+      "importance": "low"
+    },
+    {
+      "name": "美拉德穿搭",
+      "type": "other",
+      "context": "小红书运营操控的话题例子，代表平台制造的热门话题",
+      "importance": "medium"
+    },
+    {
+      "name": "法式穿搭",
+      "type": "other",
+      "context": "小红书运营操控的话题例子，与法式穿搭博主相关",
+      "importance": "medium"
+    },
+    {
+      "name": "每一个学科都有自己的abandon",
+      "type": "other",
+      "context": "小红书社科群运营操控的具体话题标签，作为平台操控内容生产的典型例证",
+      "importance": "medium"
+    },
+    {
+      "name": "这事法律真管",
+      "type": "other",
+      "context": "小红书运营操控的关于学位法的话题标签",
+      "importance": "low"
+    },
+    {
+      "name": "人文社科的无用之用",
+      "type": "other",
+      "context": "小红书运营要求博主添加的话题标签例子",
+      "importance": "low"
+    },
+    {
+      "name": "审核机制",
+      "type": "concept",
+      "context": "播客核心讨论概念之一，分析平台如何通过审核影响言论环境，包括冷处理、人工审核等手段",
+      "importance": "high"
+    },
+    {
+      "name": "流量扶持",
+      "type": "concept",
+      "context": "播客核心讨论概念，指平台通过运营群组给予博主流量奖励的机制，被比作鸦片",
+      "importance": "high"
+    },
+    {
+      "name": "用户下沉",
+      "type": "concept",
+      "context": "播客标题和核心论点之一，指平台为了扩大用户基数引入低质量用户导致社区环境恶化",
+      "importance": "high"
+    },
+    {
+      "name": "话语权",
+      "type": "concept",
+      "context": "核心分析概念，讨论平台如何从早期大V（贵族）手中集中到平台（王权）手中，引用托克维尔理论",
+      "importance": "high"
+    },
+    {
+      "name": "民主化（平台语境）",
+      "type": "concept",
+      "context": "指平台降低门槛、扩大用户基础的过程，播主认为这导致对话质量下降和平台权力集中",
+      "importance": "high"
+    },
+    {
+      "name": "选贤举能（meritocracy）",
+      "type": "concept",
+      "context": "播主多次使用的概念，对比现实中的努力回报机制与互联网平台流量的随机分配",
+      "importance": "medium"
+    },
+    {
+      "name": "ad hominem attack",
+      "type": "concept",
+      "context": "拉丁语修辞学术语，指人身攻击，播主用来分析小红书无法文明辩论的原因",
+      "importance": "medium"
+    },
+    {
+      "name": "回音室（echo chamber）",
+      "type": "concept",
+      "context": "播主用来描述平台通过算法将用户关在信息茧房中的现象",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "提及女权主义在美国的发展状况，作为播主在小红书被判定为低质量内容的例子",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "托克维尔分析的对象，法国大革命的发生地，被类比为平台权力集中的过程",
+      "importance": "medium"
+    },
+    {
+      "name": "中文语境",
+      "type": "place",
+      "context": "刘擎老师提问的背景，播主讨论社交媒体言论空间范围的限定",
+      "importance": "medium"
+    },
+    {
+      "name": "东欧",
+      "type": "place",
+      "context": "在提及苏联解体后爆发颜色革命的语境中出现，导致网易云音乐删除播客内容",
+      "importance": "low"
+    },
+    {
+      "name": "布拉格",
+      "type": "place",
+      "context": "提及布拉格之春，作为被网易云音乐审核删除的播客主题",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "663d9535eb5653e14a461b7c",
+  "title": "59-社交平台风气因何变差？审核、盈利还是用户下沉"
+}

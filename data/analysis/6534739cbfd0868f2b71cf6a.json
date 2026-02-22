@@ -1,0 +1,180 @@
+{
+  "style": {
+    "opening_pattern": "以亲身经历引入（讲述自己如何鬼使神差地向系主任提出开设简·奥斯丁课程的经历）",
+    "structure": "个人经历→核心问题提出（简·奥斯丁是否只是土味言情小说）→反驳常见辩护观点→提出自己的研究视角（政治哲学角度）→类比论证（米开朗基罗、中国书画拍卖会的例子）→历史对比（英国与欧陆国家的差异）→结尾预告下期内容",
+    "tone": "理性思辨中带亲切感，有学术深度但不居高临下，偶尔自嘲",
+    "catchphrases": [
+      "土味言情小说",
+      "鬼使神差",
+      "侃侃而谈",
+      "悠哉悠哉",
+      "水几期播客",
+      "脱帽致敬",
+      "风花雪月",
+      "柴米油盐酱醋茶"
+    ],
+    "closing_pattern": "开放式预告（提及下期将讲简·奥斯丁与张爱玲的关系）+ 匆忙告别",
+    "narrative_techniques": [
+      "类比",
+      "反问",
+      "举例",
+      "对比",
+      "个人经历叙事"
+    ]
+  },
+  "entities": [
+    {
+      "name": "简·奥斯丁（Jane Austen）",
+      "type": "person",
+      "context": "19世纪英国女作家，播客核心讨论对象，主讲人开设政治哲学课程的主题",
+      "importance": "high"
+    },
+    {
+      "name": "张爱玲",
+      "type": "person",
+      "context": "被主讲人认为与简·奥斯丁在文学史上有相似性的中国作家，将在下期播客详谈",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "作为可以替换简·奥斯丁名字的例子，说明用历史价值维护古代思想家的局限性",
+      "importance": "low"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "作为可以替换简·奥斯丁名字的例子，说明用历史价值维护古代思想家的局限性",
+      "importance": "low"
+    },
+    {
+      "name": "米开朗基罗",
+      "type": "person",
+      "context": "其《大卫》雕塑被用作类比，说明艺术素养决定观看作品的深度",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "作为德国人仇恨外族的历史例子，说明民族狂热对普通生活的侵蚀",
+      "importance": "low"
+    },
+    {
+      "name": "伯克（Edmund Burke）",
+      "type": "person",
+      "context": "其《法国大革命反思录》被用来与简·奥斯丁的写作时间做横向对比",
+      "importance": "medium"
+    },
+    {
+      "name": "查尔斯·狄更斯（Charles Dickens）",
+      "type": "person",
+      "context": "其《双城记》被用来与简·奥斯丁的写作时间做横向对比",
+      "importance": "medium"
+    },
+    {
+      "name": "《傲慢与偏见》（Pride and Prejudice）",
+      "type": "work",
+      "context": "简·奥斯丁最著名的小说，与《爱玛》并列为最有名气的两部作品",
+      "importance": "high"
+    },
+    {
+      "name": "《爱玛》（Emma）",
+      "type": "work",
+      "context": "简·奥斯丁最成熟的小说，主讲人在课上教授的作品，自1970年以来被翻拍成五部电影",
+      "importance": "high"
+    },
+    {
+      "name": "《法国大革命反思录》（Reflections on the Revolution in France）",
+      "type": "work",
+      "context": "伯克的作品，写作时间略早于简·奥斯丁，横跨欧洲大陆的政治著作",
+      "importance": "medium"
+    },
+    {
+      "name": "《双城记》（A Tale of Two Cities）",
+      "type": "work",
+      "context": "狄更斯的作品，写作时间略晚于简·奥斯丁，横跨欧洲大陆的故事",
+      "importance": "medium"
+    },
+    {
+      "name": "大卫（雕塑）",
+      "type": "work",
+      "context": "米开朗基罗的雕塑，被用作类比说明不同素养的人看到的内容不同",
+      "importance": "medium"
+    },
+    {
+      "name": "老虎下山（书画）",
+      "type": "work",
+      "context": "主讲人童年时在拍卖会预览会上误认为最高雅的国画，后被藏家嘲笑",
+      "importance": "medium"
+    },
+    {
+      "name": "言情小说",
+      "type": "concept",
+      "context": "网络上对简·奥斯丁小说的常见贬低标签，主讲人试图反驳这一归类",
+      "importance": "high"
+    },
+    {
+      "name": "女性主义/进步女性",
+      "type": "concept",
+      "context": "常见的为简·奥斯丁辩护的角度，认为她在19世纪已是进步象征",
+      "importance": "medium"
+    },
+    {
+      "name": "政治哲学/政治理论",
+      "type": "concept",
+      "context": "主讲人开设课程的角度，试图从政治社会角度审视简·奥斯丁",
+      "importance": "high"
+    },
+    {
+      "name": "品味",
+      "type": "concept",
+      "context": "被主讲人讨论为既非信息又非知识的精神感悟，是复杂的哲学问题",
+      "importance": "medium"
+    },
+    {
+      "name": "商业社会",
+      "type": "concept",
+      "context": "主讲人提出的解释英国避免激烈阶级斗争的可能原因",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "18世纪末震碎欧洲的政治动荡，与英国形成对比，影响了欧陆国家但未同等影响英国",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "简·奥斯丁的祖国，19世纪相对温和稳定、避免了激烈阶级斗争的商业社会",
+      "importance": "high"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "19世纪经历剧烈政治动荡和阶级斗争的欧陆国家，与英国形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "19世纪经历剧烈政治动荡和阶级斗争的欧陆国家，与英国形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "俄国",
+      "type": "place",
+      "context": "被提及为同期小说家所在的国家，其作品与简·奥斯丁形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "英语系",
+      "type": "organization",
+      "context": "通常开设简·奥斯丁文学批评课程的院系，与主讲人的政治哲学背景形成反差",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6534739cbfd0868f2b71cf6a",
+  "title": "8-简奥斯丁难道不是土味言情小说吗？！"
+}

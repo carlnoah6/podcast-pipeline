@@ -1,0 +1,233 @@
+{
+  "style": {
+    "opening_pattern": "以自嘲'水一期视频'开场，同时点明主题，说明自己因长期研究而无需准备即可讲述",
+    "structure": "个人经历与渊源→核心著作《通往奴役之路》介绍→政治立场与智库背景→核心哲学《知识在社会中的运用》→现实意义与评价",
+    "tone": "理性客观但亲切自然，带有个人情感色彩（如'一起玩了四年'），轻松但不失学术严谨",
+    "catchphrases": [
+      "OK",
+      "我觉得",
+      "也就是说",
+      "说白了",
+      "怎么说呢",
+      "说白了",
+      "被迫——这个被迫加引号"
+    ],
+    "closing_pattern": "总结本期要点+预告下期内容+标准播客结束语（求点赞订阅打赏）",
+    "narrative_techniques": [
+      "类比（咖啡店、上海vs西藏）",
+      "设问（你可能会问）",
+      "引用（智库老总的话）",
+      "对比（计划经济vs自由市场）",
+      "个人经历穿插"
+    ]
+  },
+  "entities": [
+    {
+      "name": "哈耶克（Friedrich Hayek）",
+      "type": "person",
+      "context": "本集核心人物，20世纪经济学家和政治思想家，诺贝尔奖得主，作者研究对象",
+      "importance": "high"
+    },
+    {
+      "name": "米塞斯（Ludwig von Mises）",
+      "type": "person",
+      "context": "奥地利经济学派代表人物，与哈耶克一起在智库被研读讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "维特根斯坦",
+      "type": "person",
+      "context": "哲学家，哈耶克的表弟，一战时与哈耶克讨论哲学",
+      "importance": "medium"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "法国政治哲学家，《通往奴役之路》标题灵感来源，《论美国的民主》作者",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "2016年选举被提及，其胜选被视为古典自由主义失去家园的转折点",
+      "importance": "low"
+    },
+    {
+      "name": "《通往奴役之路》（The Road to Serfdom）",
+      "type": "work",
+      "context": "哈耶克1944年出版的畅销书，批评中央计划经济，本集重点介绍著作",
+      "importance": "high"
+    },
+    {
+      "name": "《知识在社会中的运用》（The Use of Knowledge in Society）",
+      "type": "work",
+      "context": "哈耶克1945年论文，提出'知识问题'，被认为是最重要的学术贡献",
+      "importance": "high"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "托克维尔著作，其中'通往奴役之路'概念影响了哈耶克的书名",
+      "importance": "medium"
+    },
+    {
+      "name": "《动物庄园》",
+      "type": "work",
+      "context": "奥威尔小说，被提及与哈耶克关于计划经济和思想控制的讨论相似",
+      "importance": "low"
+    },
+    {
+      "name": "《1984》",
+      "type": "work",
+      "context": "奥威尔小说，被提及与哈耶克关于计划经济和思想控制的讨论相似",
+      "importance": "low"
+    },
+    {
+      "name": "知识问题（knowledge problem）",
+      "type": "concept",
+      "context": "哈耶克核心概念，指经济决策所需知识是分散的、局部的、隐形的，中央计划无法获知",
+      "importance": "high"
+    },
+    {
+      "name": "奥地利经济学派",
+      "type": "concept",
+      "context": "哈耶克所属学派，强调自由市场、反对中央计划，与作者所在智库研究相关",
+      "importance": "high"
+    },
+    {
+      "name": "古典自由主义",
+      "type": "concept",
+      "context": "哈耶克的政治立场，强调个人自由、小政府、自由市场，与Libertarian相关",
+      "importance": "high"
+    },
+    {
+      "name": "自由主义（Libertarian）",
+      "type": "concept",
+      "context": "美国政治流派，主张极端自由市场、小政府、个人主义，与作者智库相关",
+      "importance": "high"
+    },
+    {
+      "name": "集体主义",
+      "type": "concept",
+      "context": "哈耶克批评的对象，与计划经济相关，被认为缺乏效率且导致极权",
+      "importance": "medium"
+    },
+    {
+      "name": "计划经济",
+      "type": "concept",
+      "context": "哈耶克主要批评对象，认为中央无法获知分散知识，必然导致不良后果",
+      "importance": "high"
+    },
+    {
+      "name": "凯恩斯主义",
+      "type": "concept",
+      "context": "与哈耶克对立的经济学派，主张政府干预、通过花钱促进增长",
+      "importance": "medium"
+    },
+    {
+      "name": "完美的均衡（perfect equilibrium）",
+      "type": "concept",
+      "context": "现代经济学家追求的数学模型状态，被哈耶克批评为忽视知识分散性",
+      "importance": "medium"
+    },
+    {
+      "name": "第一次世界大战",
+      "type": "event",
+      "context": "哈耶克与维特根斯坦担任军官并讨论哲学的时期",
+      "importance": "medium"
+    },
+    {
+      "name": "2016年特朗普选举",
+      "type": "event",
+      "context": "被视为古典自由主义失去共和党家园的转折点",
+      "importance": "low"
+    },
+    {
+      "name": "维也纳",
+      "type": "place",
+      "context": "哈耶克出生地，奥匈帝国城市",
+      "importance": "medium"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "《通往奴役之路》的主要目标读者所在国，哈耶克当时居住国",
+      "importance": "high"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "纳粹主义崛起地，与英国被比较的危险案例",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "作者所在智库所在地，Libertarian政治流派所在国",
+      "importance": "high"
+    },
+    {
+      "name": "苏联",
+      "type": "place",
+      "context": "集体社会主义代表，哈耶克批评对象",
+      "importance": "medium"
+    },
+    {
+      "name": "西藏",
+      "type": "place",
+      "context": "被用作与上海对比的咖啡店密度例子",
+      "importance": "low"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "被用作与西藏对比的咖啡店密度例子",
+      "importance": "low"
+    },
+    {
+      "name": "杭州",
+      "type": "place",
+      "context": "被用作经济决策例子（是否发展畜牧业）",
+      "importance": "low"
+    },
+    {
+      "name": "智库",
+      "type": "organization",
+      "context": "作者担任访问学者（fellow）的机构，资助研究哈耶克思想",
+      "importance": "high"
+    },
+    {
+      "name": "诺贝尔经济学奖",
+      "type": "organization",
+      "context": "哈耶克获得的奖项，标志其学术地位",
+      "importance": "medium"
+    },
+    {
+      "name": "共和党/民主党",
+      "type": "organization",
+      "context": "美国两党，被讨论与Libertarian的关系",
+      "importance": "low"
+    },
+    {
+      "name": "鲫鱼",
+      "type": "other",
+      "context": "被用作经济决策的例子（菜市场买鱼）",
+      "importance": "low"
+    },
+    {
+      "name": "大米",
+      "type": "other",
+      "context": "被用作经济学家的数学模型例子",
+      "importance": "low"
+    },
+    {
+      "name": "咖啡/咖啡店",
+      "type": "other",
+      "context": "被用作知识分散性的核心类比（上海vs西藏）",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "657773bb53c6ec91342b5218",
+  "title": "14-哈耶克的政治思想对于我们的意义"
+}

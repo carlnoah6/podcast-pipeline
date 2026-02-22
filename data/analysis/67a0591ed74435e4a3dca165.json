@@ -1,0 +1,234 @@
+{
+  "style": {
+    "opening_pattern": "以学术概念引入，先解释古希腊哲学术语euthymia的词源，建立知识框架",
+    "structure": "概念解析→历史背景对比（普鲁塔克vs斯多葛学派）→文本细读（逐段分析）→核心观点提炼→结尾升华",
+    "tone": "理性客观中带个人化观察，学术严谨与口语化表达并存，偶尔有轻松调侃",
+    "catchphrases": [
+      "好哥们儿",
+      "对吧",
+      "我觉得",
+      "我们可以看到",
+      "就像是",
+      "他说",
+      "这很难",
+      "直视命运"
+    ],
+    "closing_pattern": "总结核心观点后自然收尾，无刻意升华或提问",
+    "narrative_techniques": [
+      "对比（普鲁塔克vs塞内卡/斯多葛学派）",
+      "举例（朋友圈洗冷水澡的男生、亚历山大大帝等）",
+      "类比（掷骰子游戏、蜜蜂采蜜、晕船的水手）",
+      "引用原文逐段解读",
+      "反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "普鲁塔克（Plutarch）",
+      "type": "person",
+      "context": "本文核心讨论对象，《道德论丛》和《希腊罗马名人传》的作者，代表柏拉图学派在罗马帝国的延续",
+      "importance": "high"
+    },
+    {
+      "name": "塞内卡（Seneca）",
+      "type": "person",
+      "context": "斯多葛主义哲学家，比普鲁塔克早50年，写了同名文章《如何获得心灵的宁静》，作为对比参照",
+      "importance": "high"
+    },
+    {
+      "name": "马可·奥勒留（Marcus Aurelius）",
+      "type": "person",
+      "context": "斯多葛主义代表人物，《沉思录》作者，被现代金融和科技从业者推崇",
+      "importance": "medium"
+    },
+    {
+      "name": "苏格拉底（Socrates）",
+      "type": "person",
+      "context": "被引用为典范，临死前仍与朋友讨论哲学，体现面对命运的从容态度",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "其灵魂三分说（理性、激情、欲望）被用来解释euthymia概念；将生活比作掷骰子游戏的比喻被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "亚历山大大帝（Alexander the Great）",
+      "type": "person",
+      "context": "作为反面例子，拥有全世界却因未征服更多而流泪，与克拉特斯形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "第欧根尼（Diogenes）",
+      "type": "person",
+      "context": "犬儒学派哲学家，作为奴隶被拍卖时仍嘲笑拍卖者，体现心灵宁静的典范",
+      "importance": "medium"
+    },
+    {
+      "name": "阿喀琉斯（Achilles）",
+      "type": "person",
+      "context": "《伊利亚特》中的战神，承认自己在言辞上不如奥德修斯，体现自我认知的智慧",
+      "importance": "medium"
+    },
+    {
+      "name": "狄奥尼修斯（Dionysius）",
+      "type": "person",
+      "context": "古希腊暴君，因自恋和过高期待而心生愤怒，将索福克勒斯扔进石矿、把柏拉图卖为奴隶",
+      "importance": "medium"
+    },
+    {
+      "name": "索福克勒斯（Sophocles）",
+      "type": "person",
+      "context": "诗人，因唱歌比狄奥尼修斯好而被暴君迫害",
+      "importance": "low"
+    },
+    {
+      "name": "克拉特斯（Crates）",
+      "type": "person",
+      "context": "犬儒学派哲学家，只有一件破斗篷却终身欢笑，与亚历山大大帝形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "阿伽门农（Agamemnon）",
+      "type": "person",
+      "context": "古希腊统帅，背负沉重负担深陷忧虑，作为反面例子",
+      "importance": "low"
+    },
+    {
+      "name": "米南德（Menander）",
+      "type": "person",
+      "context": "诗人，其名言'我们的苦难都是凡人必须忍受的'被普鲁塔克引用",
+      "importance": "medium"
+    },
+    {
+      "name": "帕切斯（Pacceius）",
+      "type": "person",
+      "context": "普鲁塔克这篇文章的收信人，一位位高权重但内心不安的法庭演说家",
+      "importance": "medium"
+    },
+    {
+      "name": "妖国老师",
+      "type": "person",
+      "context": "主播的朋友，提出'斯多葛主义是古代人的马克思主义'这一评论",
+      "importance": "low"
+    },
+    {
+      "name": "《道德论丛》（Moralia）",
+      "type": "work",
+      "context": "普鲁塔克的散文集，本文分析的文章出自其中，中文译本质量不佳",
+      "importance": "high"
+    },
+    {
+      "name": "《如何获得内心的宁静》（Peri euthymias / De tranquillitate animi）",
+      "type": "work",
+      "context": "本文核心分析文本，普鲁塔克写给朋友帕切斯的道德散文",
+      "importance": "high"
+    },
+    {
+      "name": "《理想国》（Republic）",
+      "type": "work",
+      "context": "柏拉图的对话录，其中灵魂三分说被用来解释euthymia概念",
+      "importance": "medium"
+    },
+    {
+      "name": "《沉思录》（Meditations）",
+      "type": "work",
+      "context": "马可·奥勒留的著作，常年畅销，被现代人广泛阅读",
+      "importance": "medium"
+    },
+    {
+      "name": "《希腊罗马名人传》（Parallel Lives）",
+      "type": "work",
+      "context": "普鲁塔克的另一部重要著作，通过比较历史人物来提炼道德原则",
+      "importance": "medium"
+    },
+    {
+      "name": "《伊利亚特》（Iliad）",
+      "type": "work",
+      "context": "荷马史诗，阿喀琉斯的故事出处",
+      "importance": "low"
+    },
+    {
+      "name": "《奥德赛》（Odyssey）",
+      "type": "work",
+      "context": "荷马史诗，奥德修斯的故事出处",
+      "importance": "low"
+    },
+    {
+      "name": "euthymia（好的激情/心灵宁静）",
+      "type": "concept",
+      "context": "古希腊哲学核心概念，eu（好）+ thymos（激情），指调节良好的激情状态",
+      "importance": "high"
+    },
+    {
+      "name": "thymos（激情）",
+      "type": "concept",
+      "context": "柏拉图灵魂三分说中的第二部分，介于理性与欲望之间",
+      "importance": "medium"
+    },
+    {
+      "name": "apatheia（无激情/消灭欲望）",
+      "type": "concept",
+      "context": "斯多葛学派的核心目标，通过消灭情感来获得美德，与普鲁塔克的温和调和形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "moderation（节制/克制）",
+      "type": "concept",
+      "context": "普鲁塔克主张的美德途径，通过克制欲望而非消灭欲望来获得智慧",
+      "importance": "high"
+    },
+    {
+      "name": "cosmopolitanism（世界主义/宇宙主义）",
+      "type": "concept",
+      "context": "斯多葛学派的强烈倾向，强调所有人都是世界公民，法律和道德超越民族国家界限",
+      "importance": "medium"
+    },
+    {
+      "name": "memento mori（记住你终将一死）",
+      "type": "concept",
+      "context": "斯多葛学派箴言，被主播的高中同学用作朋友圈签名",
+      "importance": "low"
+    },
+    {
+      "name": "amor fati（热爱命运/欣然接受命运给予的一切）",
+      "type": "concept",
+      "context": "斯多葛学派箴言，被主播的高中同学用作朋友圈签名",
+      "importance": "low"
+    },
+    {
+      "name": "认识你自己",
+      "type": "concept",
+      "context": "德尔斐神谕，普鲁塔克引用来说明应根据自然赋予的特质做出人生选择",
+      "importance": "medium"
+    },
+    {
+      "name": "斯多葛主义/斯多葛学派（Stoicism）",
+      "type": "organization",
+      "context": "古罗马时期最受欢迎的哲学流派，系统化、理性化、普世化，与普鲁塔克代表的柏拉图学派形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图学派/学园派",
+      "type": "organization",
+      "context": "普鲁塔克所代表的哲学传统，强调具体案例和榜样模仿，缺乏系统化世界观",
+      "importance": "high"
+    },
+    {
+      "name": "罗马帝国",
+      "type": "place",
+      "context": "普鲁塔克和塞内卡生活的时代背景，希腊文化与罗马文化的交汇地带",
+      "importance": "medium"
+    },
+    {
+      "name": "雅典",
+      "type": "place",
+      "context": "苏格拉底被审判和处死的地方",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67a0591ed74435e4a3dca165",
+  "title": "175-如何获得心灵的宁静？（普鲁塔克《道德论丛》）"
+}

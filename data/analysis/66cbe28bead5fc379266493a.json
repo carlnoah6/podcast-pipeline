@@ -1,0 +1,271 @@
+{
+  "style": {
+    "opening_pattern": "以回顾往期播客内容引入，通过对比美国和法国1968年的政治动荡，提出核心问题",
+    "structure": "历史背景→事件起因（学生运动）→升级过程（工人罢工）→高潮（戴高乐危机与反击）→学术分析（新左翼知识分子的角色）→总结观点",
+    "tone": "理性客观中带有机智讽刺，保持历史叙述的戏剧性同时不失分析深度",
+    "catchphrases": [
+      "隔岸观火",
+      "站着说话不腰疼",
+      "啪啪打脸",
+      "放狗屁",
+      "戏精革命国家法兰西",
+      "太子党",
+      "缩头乌龟",
+      "幺蛾子"
+    ],
+    "closing_pattern": "开放式总结，邀请听众思考，预告下期",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "反问",
+      "举例",
+      "场景还原",
+      "括号补充评论"
+    ]
+  },
+  "entities": [
+    {
+      "name": "戴高乐",
+      "type": "person",
+      "context": "法国第五共和国总统，在1968年危机中通过政治手段化解了革命威胁，最终下台",
+      "importance": "high"
+    },
+    {
+      "name": "蓬皮杜",
+      "type": "person",
+      "context": "戴高乐的总理，后成为第二任总统，在5月29日危机中被戴高乐告知将成为法国的未来",
+      "importance": "high"
+    },
+    {
+      "name": "密特朗(François Mitterrand)",
+      "type": "person",
+      "context": "左翼政治家，1968年宣称第五共和国已失败并准备掌权",
+      "importance": "medium"
+    },
+    {
+      "name": "孟戴斯-弗朗斯(Pierre Mendès-France)",
+      "type": "person",
+      "context": "左翼竞争对手，表示愿与法国共产党合作掌权",
+      "importance": "medium"
+    },
+    {
+      "name": "乔治·塞吉(Georges Séguy)",
+      "type": "person",
+      "context": "法国总工会和共产主义工会领导人，与政府谈判达成加薪协议但被工人拒绝",
+      "importance": "medium"
+    },
+    {
+      "name": "马叙将军",
+      "type": "person",
+      "context": "驻德法军将领，向戴高乐保证军队忠诚，成为危机转折点",
+      "importance": "medium"
+    },
+    {
+      "name": "福柯",
+      "type": "person",
+      "context": "后现代思想家，68年学运期间站在政府一边参与教育改革，后写出《规训与惩罚》",
+      "importance": "high"
+    },
+    {
+      "name": "拉康",
+      "type": "person",
+      "context": "精神分析学家，对学运持怀疑态度，宣称'革命就是我'",
+      "importance": "high"
+    },
+    {
+      "name": "德里达",
+      "type": "person",
+      "context": "解构主义哲学家，与学生运动和法共保持距离",
+      "importance": "high"
+    },
+    {
+      "name": "德勒兹",
+      "type": "person",
+      "context": "支持学运但轻视工人运动的新左翼思想家",
+      "importance": "medium"
+    },
+    {
+      "name": "齐泽克",
+      "type": "person",
+      "context": "当代新左翼理论家，被提及作为抽象迷恋叛乱的代表",
+      "importance": "low"
+    },
+    {
+      "name": "巴迪欧",
+      "type": "person",
+      "context": "当代新左翼理论家，同样被批评为对革命只有抽象迷恋",
+      "importance": "low"
+    },
+    {
+      "name": "路易·菲利普",
+      "type": "person",
+      "context": "法国最后一个国王，1848年革命中逃跑，戴高乐以此自比表明不会逃离",
+      "importance": "medium"
+    },
+    {
+      "name": "毛泽东",
+      "type": "person",
+      "context": "被法国共产主义者崇拜，希望将其文化运动带到法国",
+      "importance": "low"
+    },
+    {
+      "name": "《规训与惩罚》",
+      "type": "work",
+      "context": "福柯在68年后写出的著作，提出对监狱、镇压和国家机器的思考",
+      "importance": "high"
+    },
+    {
+      "name": "Fouchet Reforms（富歇改革）",
+      "type": "concept",
+      "context": "戴高乐政府发动的学术改革，福柯参与，减少大学生选课自由，成为学运导火索之一",
+      "importance": "medium"
+    },
+    {
+      "name": "Gauchisme（极左主义/激进左派）",
+      "type": "concept",
+      "context": "法国共产党内部对学生运动中激进派的贬称，认为其无真正革命战略",
+      "importance": "medium"
+    },
+    {
+      "name": "巴黎公社",
+      "type": "event",
+      "context": "1871年左翼乌托邦革命政府，68年学运中被高呼万岁但实际缺乏明确诉求",
+      "importance": "medium"
+    },
+    {
+      "name": "1968年五月风暴",
+      "type": "event",
+      "context": "欧洲历史上最大规模的学生运动和工人罢工，1000万人参与，几乎推翻戴高乐政府",
+      "importance": "high"
+    },
+    {
+      "name": "1789年法国大革命",
+      "type": "event",
+      "context": "被提及为法国作为'革命老祖宗'的历史依据",
+      "importance": "low"
+    },
+    {
+      "name": "1848年革命",
+      "type": "event",
+      "context": "法国历史上另一次重大革命，路易·菲利普在此中逃跑",
+      "importance": "low"
+    },
+    {
+      "name": "滑铁卢战役",
+      "type": "event",
+      "context": "戴高乐提及法国从未从中恢复的历史创伤",
+      "importance": "low"
+    },
+    {
+      "name": "色当战役",
+      "type": "event",
+      "context": "普法战争中法国战败，戴高乐认为法国人民的心理阴影来源",
+      "importance": "low"
+    },
+    {
+      "name": "索邦大学",
+      "type": "place",
+      "context": "巴黎市中心顶尖大学，学生运动的中心，700年来首次因抗议关闭",
+      "importance": "high"
+    },
+    {
+      "name": "Nanterre（楠泰尔）",
+      "type": "place",
+      "context": "巴黎西北郊区，索邦大学新建校区所在地，条件恶劣引发最初抗议",
+      "importance": "high"
+    },
+    {
+      "name": "拉丁区",
+      "type": "place",
+      "context": "巴黎高等教育区，学生设立路障与警察冲突的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "爱丽舍宫",
+      "type": "place",
+      "context": "法国总统府，5月28日晚抗议者逼近，戴高乐妻子担心全家被处死",
+      "importance": "medium"
+    },
+    {
+      "name": "巴登-巴登",
+      "type": "place",
+      "context": "德国城市，戴高乐秘密飞往此地获取军方支持",
+      "importance": "medium"
+    },
+    {
+      "name": "突尼斯",
+      "type": "place",
+      "context": "福柯在68年学运期间躲避的地方",
+      "importance": "low"
+    },
+    {
+      "name": "凡尔赛",
+      "type": "place",
+      "context": "秘书建议戴高乐逃往此地，戴高乐拒绝",
+      "importance": "low"
+    },
+    {
+      "name": "法国共产党",
+      "type": "organization",
+      "context": "传统马克思主义政党，参与工运但未支持学生运动，最终未能夺取政权",
+      "importance": "high"
+    },
+    {
+      "name": "法国总工会",
+      "type": "organization",
+      "context": "主要工会组织，领导工人罢工并与政府谈判",
+      "importance": "medium"
+    },
+    {
+      "name": "世界报",
+      "type": "organization",
+      "context": "法国主流报纸，3月时评论法国公共生活'很无聊'，两个月后被'打脸'",
+      "importance": "low"
+    },
+    {
+      "name": "第五共和国",
+      "type": "concept",
+      "context": "法国现行政治体制，1968年被认为濒临崩溃但最终存续",
+      "importance": "high"
+    },
+    {
+      "name": "30年光辉岁月(Trente Glorieuses)",
+      "type": "concept",
+      "context": "二战后至1968年法国经济高速增长期，年均增长5%，因68年事件结束",
+      "importance": "medium"
+    },
+    {
+      "name": "新左翼",
+      "type": "concept",
+      "context": "关注种族、性别、性取向等议题的后现代左翼，与传统马克思主义旧左翼对立",
+      "importance": "high"
+    },
+    {
+      "name": "旧左翼/古典马克思主义",
+      "type": "concept",
+      "context": "关注阶级斗争和经济议题的传统左翼，批评新左翼背叛无产阶级",
+      "importance": "high"
+    },
+    {
+      "name": "后现代主义/后结构主义",
+      "type": "concept",
+      "context": "福柯、德里达等人的理论取向，被批评为只迷恋抽象叛乱而无实际行动",
+      "importance": "medium"
+    },
+    {
+      "name": "鹅卵石之下是海滩(Under the cobblestones, the beach)",
+      "type": "other",
+      "context": "68年著名学生口号，表达文艺化的自由愿望",
+      "importance": "medium"
+    },
+    {
+      "name": "你年轻你闭嘴",
+      "type": "other",
+      "context": "68年学生运动口号，配图戴高乐捂住年轻人嘴巴",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66cbe28bead5fc379266493a",
+  "title": "101-法国为什么没有成为一个马克思主义国家？"
+}

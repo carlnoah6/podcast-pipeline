@@ -1,0 +1,177 @@
+{
+  "style": {
+    "opening_pattern": "与上期对比引入，直接点明主题'我骂我自己'，提出核心问题（向往小岛阳光是否真能寻找自我）",
+    "structure": "发散式螺旋结构：开场→题外话（印尼语/文学）→题外话（交通/生活细节）→核心叙事（Yoga Barn迷幻舞经历与顿悟）→理论分析（伯林的自由概念、David Brooks的波波族理论）→社会观察（巴厘岛商业文化）→具体隐喻（金巴兰海鲜市场）→结尾",
+    "tone": "自我反思、真诚自嘲、理性但感性、个人化叙事、批判而不尖刻",
+    "catchphrases": [
+      "题外话",
+      "我骂我自己",
+      "Nasi Goreng",
+      "自由的泡泡",
+      "浪漫化的虚无主义",
+      "精神自恋",
+      "波波族",
+      "迷幻舞",
+      "Yoga Barn",
+      "so what then what"
+    ],
+    "closing_pattern": "以金巴兰海鲜市场作为文化隐喻，说明本土文化缺乏发展空间，陈述离开原因后简单告别",
+    "narrative_techniques": [
+      "个人经历叙事",
+      "理论引用与阐释",
+      "对比分析",
+      "具体案例观察",
+      "自我质疑与反问",
+      "概念类比与创造"
+    ]
+  },
+  "entities": [
+    {
+      "name": "以赛亚·伯林",
+      "type": "person",
+      "context": "政治哲学家，主播引用其关于消极自由与积极自由的理论作为分析框架",
+      "importance": "high"
+    },
+    {
+      "name": "巴厘岛",
+      "type": "place",
+      "context": "主播旅居多年的印度尼西亚岛屿，作为追求'自由生活'的物理空间和精神象征",
+      "importance": "high"
+    },
+    {
+      "name": "消极自由",
+      "type": "concept",
+      "context": "伯林提出的概念，指'免于...的自由'，主播用以分析巴厘岛生活本质上是空虚的消极自由",
+      "importance": "high"
+    },
+    {
+      "name": "积极自由",
+      "type": "concept",
+      "context": "伯林提出的概念，指'去做...的自由'，主播用以对比自己后来选择攻读博士的'实心理由'",
+      "importance": "high"
+    },
+    {
+      "name": "Yoga Barn",
+      "type": "organization",
+      "context": "巴厘岛最著名的瑜伽馆，主播在此参加'迷幻舞'活动并产生关键顿悟",
+      "importance": "high"
+    },
+    {
+      "name": "David Brooks",
+      "type": "person",
+      "context": "文化评论员，主播引用其著作《Bobos in Paradise》解释巴厘岛'波波族'现象",
+      "importance": "high"
+    },
+    {
+      "name": "Bobos in Paradise",
+      "type": "work",
+      "context": "David Brooks的著作，提出'波波族'（Bohemian Bourgeois）概念解释反主流文化与资产阶级的融合",
+      "importance": "high"
+    },
+    {
+      "name": "精神自恋",
+      "type": "concept",
+      "context": "主播提出的概念（Spiritual Narcissism），形容通过灵性追求（瑜伽、冥想）来强化自我优越感的悖论",
+      "importance": "high"
+    },
+    {
+      "name": "浪漫化的虚无主义",
+      "type": "concept",
+      "context": "主播提出的概念（Romanticized Nihilism），形容追求极端消极自由本质上是一种浪漫包装的虚无",
+      "importance": "high"
+    },
+    {
+      "name": "哈耶克",
+      "type": "person",
+      "context": "奥地利学派经济学家，主播提及他对消极自由的定义",
+      "importance": "medium"
+    },
+    {
+      "name": "波士顿",
+      "type": "place",
+      "context": "主播选择回去攻读博士论文的地方，与巴厘岛形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "金巴兰",
+      "type": "place",
+      "context": "巴厘岛著名的海鲜市场所在地，主播用以说明本土饮食文化被游客期待扭曲的隐喻",
+      "importance": "medium"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "主播的朋友，其父亲见到主播的装扮后误以为她们是情侣的趣事",
+      "importance": "medium"
+    },
+    {
+      "name": "罗摩衍那",
+      "type": "work",
+      "context": "印度教史诗，主播发现巴厘岛文化将其视为重要典籍但原文是梵语而非印尼语",
+      "importance": "medium"
+    },
+    {
+      "name": "薄伽梵歌",
+      "type": "work",
+      "context": "印度教经典，同样原文为梵语，主播用以说明印尼语缺乏本土文学传统",
+      "importance": "medium"
+    },
+    {
+      "name": "Ecstatic Dance",
+      "type": "concept",
+      "context": "Yoga Barn举办的'迷幻舞'活动，象征极端消极自由的体验",
+      "importance": "medium"
+    },
+    {
+      "name": "数字游民",
+      "type": "concept",
+      "context": "主播描述的在巴厘岛的生活方式（Digital Nomad），追求自由但陷入精神自恋",
+      "importance": "medium"
+    },
+    {
+      "name": "Nasi Goreng",
+      "type": "other",
+      "context": "印尼炒饭，主播喜爱的街头食物，作为巴厘岛自由生活的具体记忆",
+      "importance": "low"
+    },
+    {
+      "name": "本杰明·贡斯当",
+      "type": "person",
+      "context": "自由主义哲学家，主播提及他关于自由的定义属于消极自由",
+      "importance": "low"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "政治思想家，同样被归类为讨论消极自由的古典自由主义者",
+      "importance": "low"
+    },
+    {
+      "name": "荷马",
+      "type": "person",
+      "context": "古希腊诗人，主播以其为例说明伟大文学作品塑造语言精魂",
+      "importance": "low"
+    },
+    {
+      "name": "莎士比亚",
+      "type": "person",
+      "context": "剧作家，同样作为塑造英语文学传统的例子",
+      "importance": "low"
+    },
+    {
+      "name": "歌德",
+      "type": "person",
+      "context": "作家，塑造德语文学传统的例子",
+      "importance": "low"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "作家，主播认为其塑造现代白话文",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6585fccc6396a4645a08e373",
+  "title": "17-我们为什么向往小岛阳光？一次自我批评（巴厘岛下集）"
+}

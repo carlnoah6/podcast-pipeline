@@ -1,0 +1,336 @@
+{
+  "style": {
+    "opening_pattern": "以学术工作场景引入，先预告下期内容再转入本期主题",
+    "structure": "个人经历→书籍推荐→三位哲学家分述（笛卡尔→蒙田→叔本华）→虐猫心理分析→总结",
+    "tone": "知性亲切，兼具学术深度与生活感",
+    "catchphrases": [
+      "我觉得",
+      "对吧",
+      "好了",
+      "下面",
+      "说实话",
+      "哎搞不懂搞不懂",
+      "这句话听起来有点矛盾，我再说一遍"
+    ],
+    "closing_pattern": "回归核心观点对比，明确表达个人立场",
+    "narrative_techniques": [
+      "类比",
+      "举例",
+      "引用原文",
+      "个人经历穿插",
+      "反问",
+      "对比"
+    ]
+  },
+  "entities": [
+    {
+      "name": "简·奥斯丁",
+      "type": "person",
+      "context": "19世纪英国女作家，与张爱玲进行女性视角比较",
+      "importance": "medium"
+    },
+    {
+      "name": "张爱玲",
+      "type": "person",
+      "context": "20世纪中国女作家，与简·奥斯丁的女性视角比较",
+      "importance": "medium"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "五四时期男作家代表，与简·奥斯丁、张爱玲的批判传统方式对比",
+      "importance": "low"
+    },
+    {
+      "name": "郁达夫",
+      "type": "person",
+      "context": "五四时期男作家代表",
+      "importance": "low"
+    },
+    {
+      "name": "叶圣陶",
+      "type": "person",
+      "context": "五四时期男作家代表",
+      "importance": "low"
+    },
+    {
+      "name": "约翰·格雷",
+      "type": "person",
+      "context": "英国哲学家，《猫哲学》作者，本书核心信息来源",
+      "importance": "high"
+    },
+    {
+      "name": "史蒂文·史密斯",
+      "type": "person",
+      "context": "耶鲁政治哲学教授，推荐《猫哲学》给主播",
+      "importance": "medium"
+    },
+    {
+      "name": "笛卡尔",
+      "type": "person",
+      "context": "16世纪法国哲学家，身心二元论代表，认为动物是机器",
+      "importance": "high"
+    },
+    {
+      "name": "蒙田",
+      "type": "person",
+      "context": "16世纪法国哲学家，随笔文体开创者，认为人与动物平等，主播最喜爱的哲学家",
+      "importance": "high"
+    },
+    {
+      "name": "叔本华",
+      "type": "person",
+      "context": "19世纪德国哲学家，养猫爱猫，提出永恒之猫理论",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "其目的论被笛卡尔二元论取代",
+      "importance": "low"
+    },
+    {
+      "name": "开普勒",
+      "type": "person",
+      "context": "科学家，笛卡尔二元论为其新科学提供支持",
+      "importance": "low"
+    },
+    {
+      "name": "伽利略",
+      "type": "person",
+      "context": "科学家，笛卡尔二元论为其新科学提供支持",
+      "importance": "low"
+    },
+    {
+      "name": "海德格尔",
+      "type": "person",
+      "context": "现代哲学家，仍在研究笛卡尔身心二元论",
+      "importance": "low"
+    },
+    {
+      "name": "哥白尼",
+      "type": "person",
+      "context": "科学家，受益于笛卡尔的科学精神",
+      "importance": "low"
+    },
+    {
+      "name": "牛顿",
+      "type": "person",
+      "context": "科学家，受益于笛卡尔的科学精神",
+      "importance": "low"
+    },
+    {
+      "name": "雷蒙·塞邦",
+      "type": "person",
+      "context": "蒙田的朋友，《雷蒙·塞邦赞》题献对象",
+      "importance": "medium"
+    },
+    {
+      "name": "卢克莱修",
+      "type": "person",
+      "context": "希腊哲学家，被蒙田引用说明动物有情感",
+      "importance": "medium"
+    },
+    {
+      "name": "拉波埃西",
+      "type": "person",
+      "context": "蒙田的好友，蒙田为其写悼文",
+      "importance": "low"
+    },
+    {
+      "name": "巴甫洛夫",
+      "type": "person",
+      "context": "19世纪科学家，其实验笛卡尔16世纪已做过",
+      "importance": "low"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "其永恒形态思想被叔本华继承",
+      "importance": "medium"
+    },
+    {
+      "name": "《猫哲学：猫与生命意义》",
+      "type": "work",
+      "context": "2020年约翰·格雷著作，英文名Feline Philosophy: Cats and the Meaning of Life，本期播客核心文本",
+      "importance": "high"
+    },
+    {
+      "name": "《现代性及其不满》",
+      "type": "work",
+      "context": "史蒂文·史密斯的著作，有中文版",
+      "importance": "low"
+    },
+    {
+      "name": "《耶鲁大学公开课：政治哲学》",
+      "type": "work",
+      "context": "史蒂文·史密斯的著作，有中文版",
+      "importance": "low"
+    },
+    {
+      "name": "《第一哲学沉思集》",
+      "type": "work",
+      "context": "笛卡尔1641年著作，西方现代哲学入门必读",
+      "importance": "high"
+    },
+    {
+      "name": "《蒙田随笔录》/《蒙田散文集》",
+      "type": "work",
+      "context": "蒙田的散文集，700多页，涉及广泛话题，主播强烈推荐",
+      "importance": "high"
+    },
+    {
+      "name": "《雷蒙·塞邦赞》",
+      "type": "work",
+      "context": "蒙田最长最精彩的散文，讨论人与动物关系",
+      "importance": "high"
+    },
+    {
+      "name": "《作为意志和表象的世界》",
+      "type": "work",
+      "context": "叔本华代表作，阐述永恒之猫理论",
+      "importance": "high"
+    },
+    {
+      "name": "《热风·题记》",
+      "type": "work",
+      "context": "鲁迅作品，主播引用其中关于时弊攻击的文字",
+      "importance": "medium"
+    },
+    {
+      "name": "身心二元论",
+      "type": "concept",
+      "context": "笛卡尔核心理论，宇宙分为心（mind）与身/物（matter）两种物质",
+      "importance": "high"
+    },
+    {
+      "name": "我思故我在/Cogito ergo sum/I think therefore I am",
+      "type": "concept",
+      "context": "笛卡尔名言，现代哲学开端",
+      "importance": "high"
+    },
+    {
+      "name": "目的论",
+      "type": "concept",
+      "context": "亚里士多德哲学概念，被笛卡尔二元论取代",
+      "importance": "low"
+    },
+    {
+      "name": "后现代主义",
+      "type": "concept",
+      "context": "认为人性是人类创造的，人没有天性只有历史，主播与约翰·格雷均不赞同",
+      "importance": "medium"
+    },
+    {
+      "name": "人性",
+      "type": "concept",
+      "context": "主播与约翰·格雷认为真实存在，与后现代主义观点对立",
+      "importance": "high"
+    },
+    {
+      "name": "猫性",
+      "type": "concept",
+      "context": "猫咪遵循天性的特质，与人类形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "永恒之猫/Atma",
+      "type": "concept",
+      "context": "叔本华理论，每只猫都是永恒猫意志的短暂投影",
+      "importance": "high"
+    },
+    {
+      "name": "玩耍/play",
+      "type": "concept",
+      "context": "蒙田讨论的人与猫互动中的关键概念，对人类和猫意义不同",
+      "importance": "medium"
+    },
+    {
+      "name": "打发时间",
+      "type": "concept",
+      "context": "人类特有的行为，与猫的活在当下形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "Philosophy is learning how to die",
+      "type": "concept",
+      "context": "蒙田关于哲学本质的名言",
+      "importance": "medium"
+    },
+    {
+      "name": "essay/随笔/散文",
+      "type": "concept",
+      "context": "蒙田开创的文体，法语意为'尝试'，是对心灵的坦率探索",
+      "importance": "medium"
+    },
+    {
+      "name": "想象力/思想中的不稳定性",
+      "type": "concept",
+      "context": "蒙田对想象力的定义，认为是人类痛苦的来源而非优势",
+      "importance": "medium"
+    },
+    {
+      "name": "自然之道",
+      "type": "concept",
+      "context": "蒙田认为克服内心忧虑的方式",
+      "importance": "low"
+    },
+    {
+      "name": "生存意志",
+      "type": "concept",
+      "context": "叔本华哲学核心，猫和人都是其折射",
+      "importance": "medium"
+    },
+    {
+      "name": "虐猫嘉年华",
+      "type": "event",
+      "context": "中世纪法国的凌虐猫咪活动，因猫代表禁忌性欲",
+      "importance": "medium"
+    },
+    {
+      "name": "新冠疫情",
+      "type": "event",
+      "context": "主播与史蒂文·史密斯线上通话的背景，当时刚领养小猫",
+      "importance": "low"
+    },
+    {
+      "name": "贝克",
+      "type": "place",
+      "context": "主播所在地点，提到在此意识到简·奥斯丁与张爱玲的相似",
+      "importance": "low"
+    },
+    {
+      "name": "瑞典",
+      "type": "place",
+      "context": "笛卡尔54岁在此冰天雪地解剖鸡感染肺炎去世",
+      "importance": "low"
+    },
+    {
+      "name": "台湾",
+      "type": "place",
+      "context": "《猫哲学》中文版的出版地",
+      "importance": "low"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "主播所属播客栏目",
+      "importance": "low"
+    },
+    {
+      "name": "美国大学",
+      "type": "organization",
+      "context": "主播教授简·奥斯丁课程的地点",
+      "importance": "low"
+    },
+    {
+      "name": "耶鲁大学",
+      "type": "organization",
+      "context": "史蒂文·史密斯任教的大学",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "64de43523fa4090b748c1068",
+  "title": "4- 哲人与猫：猫咪在哲学思想中的意义"
+}

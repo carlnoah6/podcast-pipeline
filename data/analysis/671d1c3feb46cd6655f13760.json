@@ -1,0 +1,267 @@
+{
+  "style": {
+    "opening_pattern": "以自嘲身份引入（\"兢兢业业的美国高中历史老师\"），直接点明主题",
+    "structure": "问题引入→历史溯源（1787年制宪会议）→制度设计的三重目标（共和性、独立性、美德）→实际运作机制→历史案例检验→当代反思",
+    "tone": "理性客观中带有些许说教意味，强调知识权威，反复使用\"你应该知道\"\"很少有人记得\"等表达",
+    "catchphrases": [
+      "兢兢业业的美国高中历史老师",
+      "轻飘飘地说",
+      "洪水猛兽",
+      "拆了再说",
+      "看热闹",
+      "OK",
+      "对吧",
+      "也就是说",
+      "我想说的是",
+      "审议性的多数"
+    ],
+    "closing_pattern": "总结观点+开放式警示（\"搞破坏谁都会，建立...需要更高的智慧\"）+标志性告别语",
+    "narrative_techniques": [
+      "历史场景还原（1787年费城夏天）",
+      "对比（选举人团胜利vs普选胜利的案例对比）",
+      "反问（\"哪一个才是真正的共和制？\"）",
+      "类比（\"两头洪水猛兽\"）",
+      "引用原始文献（联邦党人文集、制宪会议记录）",
+      "个人经历穿插（教本科生、老年大学的观察）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "选举人团（Electoral College）",
+      "type": "concept",
+      "context": "美国总统选举的间接选举制度，由各州选举人代表该州投票选出总统",
+      "importance": "high"
+    },
+    {
+      "name": "联邦制（Federalism）",
+      "type": "concept",
+      "context": "美国在民主政体之上实行的政治体制，是选举人团制度存在的根本原因",
+      "importance": "high"
+    },
+    {
+      "name": "亚历山大·汉密尔顿",
+      "type": "person",
+      "context": "联邦党人，在《联邦党人文集》中论述了总统否决权的两个原因",
+      "importance": "medium"
+    },
+    {
+      "name": "托马斯·杰弗逊（Thomas Jefferson）",
+      "type": "person",
+      "context": "美国历史上第一个左派总统，支持人民主权，提出'合理的大多数'概念",
+      "importance": "medium"
+    },
+    {
+      "name": "安德鲁·杰克逊",
+      "type": "person",
+      "context": "1824年大选因选举人团落败但赢得普选，由此开启反对选举人团的运动",
+      "importance": "medium"
+    },
+    {
+      "name": "伍德罗·威尔逊",
+      "type": "person",
+      "context": "20世纪初的美国总统，希望解除'牛顿体系的权力分立'，建立更统一的政府",
+      "importance": "medium"
+    },
+    {
+      "name": "本杰明·哈里森（Benjamin Harrison）",
+      "type": "person",
+      "context": "1888年大选未获普选最多票数但被选举人团选为总统的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "格罗弗·克利夫兰（Grover Cleveland）",
+      "type": "person",
+      "context": "1888年大选哈里森的竞选对手，获得更多普选票但主要来自南方区域性支持",
+      "importance": "low"
+    },
+    {
+      "name": "富兰克林·德拉诺·罗斯福",
+      "type": "person",
+      "context": "1936年以532票比8票的压倒性选举人团胜利连任总统",
+      "importance": "low"
+    },
+    {
+      "name": "罗纳德·里根",
+      "type": "person",
+      "context": "1984年以525票比13票的压倒性选举人团胜利连任总统",
+      "importance": "low"
+    },
+    {
+      "name": "唐纳德·特朗普",
+      "type": "person",
+      "context": "2016年大选中普选票少于希拉里但赢得选举人团多数",
+      "importance": "low"
+    },
+    {
+      "name": "希拉里·克林顿",
+      "type": "person",
+      "context": "2016年大选中普选票多于特朗普但未赢得选举人团多数",
+      "importance": "low"
+    },
+    {
+      "name": "乔治·麦戈文委员会（McGovern Committee）",
+      "type": "organization",
+      "context": "1968年后改革初选制度，使初选民主化但反而带来民主进程退步",
+      "importance": "medium"
+    },
+    {
+      "name": "全国普选提案（National Popular Vote, NPV）",
+      "type": "concept",
+      "context": "2007年以来的立法提案，各州协议将选举人票授予全国普选票获胜者",
+      "importance": "medium"
+    },
+    {
+      "name": "集体行动困境（Collective Action Problem）",
+      "type": "concept",
+      "context": "NPV提案面临的核心问题，即单个州放弃主权的激励不足",
+      "importance": "medium"
+    },
+    {
+      "name": "联邦党人文集",
+      "type": "work",
+      "context": "大量辩论总统应具备强大、独立、有美德品质的文献来源",
+      "importance": "high"
+    },
+    {
+      "name": "1787年费城制宪会议",
+      "type": "event",
+      "context": "美国国父们创建总统职位和选举人团制度的历史场景",
+      "importance": "high"
+    },
+    {
+      "name": "1824年大选",
+      "type": "event",
+      "context": "安德鲁·杰克逊因选举人团落败但赢得普选，开启反选举人团运动",
+      "importance": "medium"
+    },
+    {
+      "name": "1888年大选",
+      "type": "event",
+      "context": "第一次所谓'选举人团出错'，哈里森未获普选最多票但当选",
+      "importance": "medium"
+    },
+    {
+      "name": "1968年美国总统竞选",
+      "type": "event",
+      "context": "引发麦戈文委员会改革的选举，相关讨论见第82期播客",
+      "importance": "low"
+    },
+    {
+      "name": "民权运动（20世纪60年代）",
+      "type": "event",
+      "context": "此后美国最高法院将'一人一票'变成潜移默化的预设",
+      "importance": "low"
+    },
+    {
+      "name": "宾夕法尼亚州",
+      "type": "place",
+      "context": "1787年制宪会议上仅有两位来自该州的成员主张总统由人民直接投票选举",
+      "importance": "low"
+    },
+    {
+      "name": "马萨诸塞州",
+      "type": "place",
+      "context": "作为深蓝州被用来说明NPV提案中的集体行动困境",
+      "importance": "low"
+    },
+    {
+      "name": "佛蒙特州",
+      "type": "place",
+      "context": "支持NPV提案的八个州之一",
+      "importance": "low"
+    },
+    {
+      "name": "加利福尼亚州",
+      "type": "place",
+      "context": "支持NPV提案的八个州之一，拥有最多选举人票",
+      "importance": "low"
+    },
+    {
+      "name": "阿拉巴马州",
+      "type": "place",
+      "context": "与小罗斯福和里根的广泛支持案例中被提及的州之一",
+      "importance": "low"
+    },
+    {
+      "name": "奥克拉荷马州",
+      "type": "place",
+      "context": "与小罗斯福和里根的广泛支持案例中被提及的州之一",
+      "importance": "low"
+    },
+    {
+      "name": "旧金山",
+      "type": "place",
+      "context": "2016年人口密集的大城市，高度集中投票给希拉里",
+      "importance": "low"
+    },
+    {
+      "name": "纽约",
+      "type": "place",
+      "context": "2016年人口密集的大城市，高度集中投票给希拉里",
+      "importance": "low"
+    },
+    {
+      "name": "波士顿",
+      "type": "place",
+      "context": "2016年人口密集的大城市，高度集中投票给希拉里",
+      "importance": "low"
+    },
+    {
+      "name": "美国南方",
+      "type": "place",
+      "context": "1888年克利夫兰获得普选票的主要来源地，当时实行种族隔离",
+      "importance": "low"
+    },
+    {
+      "name": "共和党/民主党（两党制）",
+      "type": "organization",
+      "context": "被抱怨为'不民主'的美国政党制度，将在下期播客讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "审议性的多数（deliberative majorities）",
+      "type": "concept",
+      "context": "共和制想要保障的合理多数，区别于情感上的简单多数",
+      "importance": "high"
+    },
+    {
+      "name": "危险的特殊利益派系（dangerous factions）",
+      "type": "concept",
+      "context": "指全国性的大财团大企业，与扎根于州的安全派系相对",
+      "importance": "medium"
+    },
+    {
+      "name": "否决权（Veto power）",
+      "type": "concept",
+      "context": "宪法赋予总统的权力，用于保护宪法免受恶法侵害和保护总统职位",
+      "importance": "medium"
+    },
+    {
+      "name": "多数者暴政",
+      "type": "concept",
+      "context": "美国国父最害怕的东西之一，即简单多数制可能压迫少数派",
+      "importance": "high"
+    },
+    {
+      "name": "中央集权",
+      "type": "concept",
+      "context": "美国国父最害怕的东西之一，尤其是立法机构的集权",
+      "importance": "high"
+    },
+    {
+      "name": "杰克逊主义/杰克逊民主",
+      "type": "concept",
+      "context": "安德鲁·杰克逊带来的民主改革，包含废除选举人团的诉求",
+      "importance": "medium"
+    },
+    {
+      "name": "牛顿体系的权力分立（Newtonian system of our government）",
+      "type": "concept",
+      "context": "威尔逊对美国政府权力分立机制的称呼，希望予以解除",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "671d1c3feb46cd6655f13760",
+  "title": "126-美国大选为什么不是一人一票？"
+}

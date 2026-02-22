@@ -1,0 +1,255 @@
+{
+  "style": {
+    "opening_pattern": "以学术概念引入，先声明方法论立场（拒绝后现代术语、使用大白话），再提出核心问题",
+    "structure": "概念铺垫→具体案例（托克维尔讲座、柏林黑格尔课）→理论溯源（萨义德《东方主义》）→批判性分析→个人立场表达",
+    "tone": "理性思辨、温和质疑、带有自省意识的批判",
+    "catchphrases": [
+      "这是一个极其广泛的问题",
+      "他们会有什么批评呢",
+      "那它自己的这个观点的偏见在哪里",
+      "这是我这个播客后半段想要讨论的问题",
+      "这是我对于这套萨义德提出的东方主义想要提的问题",
+      "如果自我超越只是一个幻想的话",
+      "那我穷尽一生学习知识的目的是什么呢",
+      "我们把它放到任何一个有文化的人群中",
+      "OK",
+      "拜拜拜拜"
+    ],
+    "closing_pattern": "总结个人立场（相信可以超越偏见）+ 对年轻学者的提醒 + 简短告别",
+    "narrative_techniques": [
+      "类比（德州牛仔与云南小山村）",
+      "反问",
+      "举例（具体学术场景、电影例子）",
+      "对比（启蒙主义vs后现代主义两种反应）",
+      "自我指涉（多次强调重复语句以制造节奏）",
+      "归谬法（揭示理论自我矛盾）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "福柯（Michel Foucault）",
+      "type": "person",
+      "context": "法国学者，提出话语权理论，被萨义德套用；播客认为其哲学需要论战式通俗化",
+      "importance": "high"
+    },
+    {
+      "name": "萨义德（Edward Said）",
+      "type": "person",
+      "context": "巴勒斯坦裔美国学者，1978年出版《东方主义》，影响欧美学界对非西方文明的研究",
+      "importance": "high"
+    },
+    {
+      "name": "托克维尔（Alexis de Tocqueville）",
+      "type": "person",
+      "context": "法国哲学家，《论美国的民主》作者，被黑人女教授质疑没有资格讨论印第安土著问题",
+      "importance": "high"
+    },
+    {
+      "name": "葛兰西（Antonio Gramsci）",
+      "type": "person",
+      "context": "意大利学者，文化霸权理论提出者，其理论被萨义德套用",
+      "importance": "medium"
+    },
+    {
+      "name": "黑格尔（Georg Wilhelm Friedrich Hegel）",
+      "type": "person",
+      "context": "德国哲学家，其《法哲学》在柏林自由大学被女权主义者批判性阅读",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思（Karl Marx）",
+      "type": "person",
+      "context": "被提及为将黑格尔哲学通俗化、赋予革命政治意义的人物",
+      "importance": "low"
+    },
+    {
+      "name": "露丝·伊里加雷（Luce Irigaray）",
+      "type": "person",
+      "context": "女权主义学者，其批评黑格尔的文献被用于研讨课",
+      "importance": "low"
+    },
+    {
+      "name": "塞拉·本哈比（Seyla Benhabib）",
+      "type": "person",
+      "context": "女权主义学者，其批评黑格尔的文献被用于研讨课",
+      "importance": "low"
+    },
+    {
+      "name": "朱迪斯·巴特勒（Judith Butler）",
+      "type": "person",
+      "context": "如雷贯耳的女权主义学者，其批评黑格尔的文献被用于研讨课",
+      "importance": "low"
+    },
+    {
+      "name": "伯纳德·路易斯（Bernard Lewis）",
+      "type": "person",
+      "context": "老派东方学者，被萨义德批评延续西方中心角度",
+      "importance": "low"
+    },
+    {
+      "name": "张之洞",
+      "type": "person",
+      "context": "晚清洋务派，其《劝学篇》主张中体西用，认为中西文明有可比性",
+      "importance": "medium"
+    },
+    {
+      "name": "章太炎",
+      "type": "person",
+      "context": "被提及为五四时期将民族主义与西方左翼思潮结合的思想家",
+      "importance": "low"
+    },
+    {
+      "name": "《东方主义》（Orientalism）",
+      "type": "work",
+      "context": "萨义德1978年出版的著作，直接导致美国大学东方学系改名，影响深远",
+      "importance": "high"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "托克维尔的著名著作，其中对奴隶制有严厉批评和精准描绘",
+      "importance": "medium"
+    },
+    {
+      "name": "《法哲学》",
+      "type": "work",
+      "context": "黑格尔的著作，在柏林自由大学的课上被女权主义视角批判",
+      "importance": "medium"
+    },
+    {
+      "name": "《劝学篇》",
+      "type": "work",
+      "context": "张之洞的著作，主张中体西用，认为中西伦理有相通之处",
+      "importance": "medium"
+    },
+    {
+      "name": "《艺伎回忆录》",
+      "type": "work",
+      "context": "被批评充满东方主义色彩，强化日本文化的异质刻板观念",
+      "importance": "low"
+    },
+    {
+      "name": "《摘金奇缘》（Crazy Rich Asians）",
+      "type": "work",
+      "context": "好莱坞电影，被批评反映东方主义，刻画古老落后的东方被西方赋予新生命",
+      "importance": "low"
+    },
+    {
+      "name": "印第安纳琼斯系列",
+      "type": "work",
+      "context": "被萨义德批评的美国大片，展示西方对东方的刻板幻想",
+      "importance": "low"
+    },
+    {
+      "name": "木乃伊系列",
+      "type": "work",
+      "context": "被萨义德批评的电影",
+      "importance": "low"
+    },
+    {
+      "name": "迪士尼《阿拉丁》",
+      "type": "work",
+      "context": "被萨义德批评展示西方对阿拉伯世界的刻板幻想",
+      "importance": "low"
+    },
+    {
+      "name": "东方主义（Orientalism）",
+      "type": "concept",
+      "context": "萨义德提出的核心理论，认为西方对东方的研究是建构而非真实，是权力体现而非知识追求",
+      "importance": "high"
+    },
+    {
+      "name": "话语权",
+      "type": "concept",
+      "context": "福柯提出的概念，认为谁掌握话语权谁就掌握权力，被萨义德套用",
+      "importance": "high"
+    },
+    {
+      "name": "文化霸权",
+      "type": "concept",
+      "context": "葛兰西的理论，被萨义德用来分析西方对东方的研究",
+      "importance": "medium"
+    },
+    {
+      "name": "后现代主义",
+      "type": "concept",
+      "context": "播客批判的核心对象，认为其创造晦涩术语、拒绝理解的可能性、导致虚无主义",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙主义",
+      "type": "concept",
+      "context": "与后现代主义对立的态度，相信教育可以克服偏见、实现自我超越",
+      "importance": "high"
+    },
+    {
+      "name": "隐形歧视（implicit discrimination）",
+      "type": "concept",
+      "context": "少数族裔学者认为过度引用白人学者是对少数族裔的边缘化",
+      "importance": "medium"
+    },
+    {
+      "name": "中体西用",
+      "type": "concept",
+      "context": "张之洞的主张，认为中国本体可与西方技术结合",
+      "importance": "medium"
+    },
+    {
+      "name": "五四运动",
+      "type": "event",
+      "context": "100年前中国学术界已讨论过外国人能否理解中国文化的问题",
+      "importance": "medium"
+    },
+    {
+      "name": "辛亥革命",
+      "type": "event",
+      "context": "被提及为民族主义与西方左翼思潮结合的时期",
+      "importance": "low"
+    },
+    {
+      "name": "柏林自由大学",
+      "type": "place",
+      "context": "播主曾在此做访问学者，旁听了用德语上的黑格尔研讨课",
+      "importance": "medium"
+    },
+    {
+      "name": "北野山高中（Northfield Mount Hermon）",
+      "type": "place",
+      "context": "萨义德就读的精英高中，位于美国新英格兰地区",
+      "importance": "low"
+    },
+    {
+      "name": "哥伦比亚大学",
+      "type": "organization",
+      "context": "萨义德担任文学教授的大学",
+      "importance": "low"
+    },
+    {
+      "name": "哈佛大学",
+      "type": "organization",
+      "context": "播主的古希腊老师在此读近东文化博士，当时要求精通德语",
+      "importance": "low"
+    },
+    {
+      "name": "东方学系（Orientalism Department）",
+      "type": "organization",
+      "context": "萨义德著作出版前美国精英大学普遍存在的系，后被拆解改为远东系和近东系",
+      "importance": "high"
+    },
+    {
+      "name": "远东系（East Asia Studies Department）",
+      "type": "organization",
+      "context": "八九十年代开始建立，取代东方学系的产物",
+      "importance": "medium"
+    },
+    {
+      "name": "近东系（Near Eastern Studies Department）",
+      "type": "organization",
+      "context": "八九十年代开始建立，取代东方学系的产物",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65fc77d22d9eae5d0a445872",
+  "title": "38-西方人有可能真正理解中国问题吗？"
+}

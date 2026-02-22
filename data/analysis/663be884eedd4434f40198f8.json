@@ -1,0 +1,322 @@
+{
+  "style": {
+    "opening_pattern": "以具体新闻事件引入（香飘飘员工在日本包装上的政治表态），然后迅速转向核心议题",
+    "structure": "新闻案例→方法论声明（托克维尔式观察）→历史背景（2020年转折点）→深度分析（黑命贵运动的演变）→具体案例（企业站队翻车事件）→理论升华（公共空间与私人空间的瓦解）→开放式结尾",
+    "tone": "理性客观、学术化但易懂，带有明显的观察者视角和批判性思考",
+    "catchphrases": [
+      "我认为",
+      "我想说的是",
+      "从...的角度来说",
+      "大家可以想象",
+      "这是一个...的转变",
+      "也就是说",
+      "从某种意义上来说",
+      "让我先来描绘一下",
+      "听到这里",
+      "OK"
+    ],
+    "closing_pattern": "引用托克维尔的河流隐喻，表达作为观察者的无力感与责任感，开放式收束",
+    "narrative_techniques": [
+      "类比（托克维尔观察美国作为镜子）",
+      "对比（60年代黑人民权运动vs当代黑命贵运动）",
+      "举例（虚构的超市购物场景、百事可乐广告、Bud Light啤酒事件）",
+      "反问",
+      "数据引用（智库调查数据）",
+      "个人经历穿插（朋友二妹的故事、高中同学约咖啡）",
+      "概念建构（corporate responsibility vs corporate activism）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "香飘飘",
+      "type": "organization",
+      "context": "中国企业因员工在日本包装上印反核污水标语而引发讨论的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "蒋建奇",
+      "type": "person",
+      "context": "香飘飘董事长，深夜为赴日回国员工举牌接机",
+      "importance": "low"
+    },
+    {
+      "name": "杨东云",
+      "type": "person",
+      "context": "香飘飘总裁，走进直播间表示要奖励员工10万元",
+      "importance": "low"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "法国思想家，《论美国的民主》作者，播客主讲人用以类比自己的方法论基础",
+      "importance": "high"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "1835-1840年出版，被主讲人称为有史以来描绘美国社会最好的书",
+      "importance": "high"
+    },
+    {
+      "name": "Herbert Marcuse（赫伯特·马尔库塞）",
+      "type": "person",
+      "context": "法兰克福学派社会批判学家，新左翼之父，Angela Davis的导师",
+      "importance": "medium"
+    },
+    {
+      "name": "Theodor Adorno（西奥多·阿多诺）",
+      "type": "person",
+      "context": "法兰克福学派领袖，Angela Davis曾跟随其学习哲学",
+      "importance": "medium"
+    },
+    {
+      "name": "Angela Davis（安吉拉·戴维斯）",
+      "type": "person",
+      "context": "当代黑命贵运动的理论领袖，60年代激进人士，美国共产党和黑豹党领袖",
+      "importance": "high"
+    },
+    {
+      "name": "黑豹党",
+      "type": "organization",
+      "context": "60年代黑人武装革命组织，与当代黑命贵运动形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "Black Lives Matter（黑命贵/黑人生命珍贵）",
+      "type": "concept",
+      "context": "2020年席卷全美的黑人平权运动，被视为美国企业政治化的关键转折点",
+      "importance": "high"
+    },
+    {
+      "name": "George Floyd（乔治·弗洛伊德）",
+      "type": "person",
+      "context": "2020年5月25日被白人警察跪压致死的黑人男子，引爆黑命贵运动",
+      "importance": "high"
+    },
+    {
+      "name": "Skeptic Research Center",
+      "type": "organization",
+      "context": "2021年做调查询问美国人关于警察暴力执法致死黑人数据的智库",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿邮报",
+      "type": "organization",
+      "context": "其警察枪击致死数据库显示2019年实际有14个手无寸铁黑人被警察杀害",
+      "importance": "low"
+    },
+    {
+      "name": "本杰利冰淇淋（Ben & Jerry's）",
+      "type": "organization",
+      "context": "来自佛蒙特州的社会主义倾向品牌，主动在巴以问题上表态支持巴勒斯坦",
+      "importance": "high"
+    },
+    {
+      "name": "Bud Light",
+      "type": "organization",
+      "context": "美国销量最高的啤酒品牌，因找变性人网红代言而遭保守派抵制",
+      "importance": "high"
+    },
+    {
+      "name": "Dylan Mulvaney（迪伦·马尔瓦尼）",
+      "type": "person",
+      "context": "美国变性人网红，记录变性全过程，为Bud Light拍摄广告引发争议",
+      "importance": "medium"
+    },
+    {
+      "name": "Kid Rock（摇滚小子）",
+      "type": "person",
+      "context": "美国音乐家，用冲锋枪扫射Bud Light啤酒视频回应变性人广告",
+      "importance": "medium"
+    },
+    {
+      "name": "Planet Fitness",
+      "type": "organization",
+      "context": "美国最大健身房连锁品牌，因允许未完全变性者进入女洗手间而被抵制",
+      "importance": "medium"
+    },
+    {
+      "name": "百事可乐（Pepsi）",
+      "type": "organization",
+      "context": "2020年找Kendall Jenner拍摄黑命贵主题广告，因过于肤浅而失败",
+      "importance": "high"
+    },
+    {
+      "name": "Kendall Jenner（肯达尔·詹娜）",
+      "type": "person",
+      "context": "美国真人秀明星，出演百事可乐黑命贵广告引发批评",
+      "importance": "medium"
+    },
+    {
+      "name": "Modelo",
+      "type": "organization",
+      "context": "墨西哥啤酒品牌，2023年6月取代Bud Light成为美国最畅销啤酒",
+      "importance": "low"
+    },
+    {
+      "name": "星巴克（Starbucks）",
+      "type": "organization",
+      "context": "被主讲人的哈佛同学抵制，因其被认为支持以色列",
+      "importance": "medium"
+    },
+    {
+      "name": "哈耶克（Friedrich Hayek）",
+      "type": "person",
+      "context": "20世纪自由主义经济学家，代表极端自由市场立场，与当下趋势相反",
+      "importance": "medium"
+    },
+    {
+      "name": "尼克松（Richard Nixon）",
+      "type": "person",
+      "context": "其崛起代表60年代黑人运动策略的自我毁灭性反噬",
+      "importance": "low"
+    },
+    {
+      "name": "里根（Ronald Reagan）",
+      "type": "person",
+      "context": "其崛起同样代表60年代黑人运动策略的反噬",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "古希腊哲学家，其'人是政治性的动物'被用来对比古今公私空间之分",
+      "importance": "medium"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "被提及作为古希腊人在私人空间也受政治约束的例子",
+      "importance": "low"
+    },
+    {
+      "name": "系统性种族歧视（systemic racism）",
+      "type": "concept",
+      "context": "当代黑命贵运动使用的温和抽象术语，替代60年代的暴力词汇",
+      "importance": "medium"
+    },
+    {
+      "name": "libertarian（自由意志主义/自由主义）",
+      "type": "concept",
+      "context": "哈耶克代表的极端自由市场立场，主张政治问题市场化而非市场政治化",
+      "importance": "medium"
+    },
+    {
+      "name": "woke capitalism（觉醒资本主义）",
+      "type": "concept",
+      "context": "指企业在进步议题上表态以迎合消费者的现象，被批评为虚伪",
+      "importance": "high"
+    },
+    {
+      "name": "corporate responsibility（企业责任）",
+      "type": "concept",
+      "context": "2020年前企业的社会责任，与业务直接相关",
+      "importance": "high"
+    },
+    {
+      "name": "corporate activism（企业行动主义）",
+      "type": "concept",
+      "context": "2020年后转变，企业主动用影响力关注社会问题，与产品无直接关系",
+      "importance": "high"
+    },
+    {
+      "name": "politicization of the free market（自由市场的政治化）",
+      "type": "concept",
+      "context": "主讲人提出的核心概念，指消费行为变成政治行为的现象",
+      "importance": "high"
+    },
+    {
+      "name": "go woke go broke",
+      "type": "concept",
+      "context": "美国右翼保守派的口号，指企业在进步议题上表态会遭抵制而亏损",
+      "importance": "medium"
+    },
+    {
+      "name": "明尼苏达州明尼阿波利斯",
+      "type": "place",
+      "context": "George Floyd被警察跪压致死的地点",
+      "importance": "low"
+    },
+    {
+      "name": "西雅图",
+      "type": "place",
+      "context": "黑命贵运动期间成立无政府自治区的城市",
+      "importance": "low"
+    },
+    {
+      "name": "佛蒙特州（Vermont）",
+      "type": "place",
+      "context": "本杰利冰淇淋创始地，被描述为美国最白最左的州",
+      "importance": "low"
+    },
+    {
+      "name": "巴勒斯坦",
+      "type": "place",
+      "context": "本杰利冰淇淋主动停止销售以示抗议的地区，当代进步消费者关注的议题",
+      "importance": "medium"
+    },
+    {
+      "name": "以色列",
+      "type": "place",
+      "context": "被本杰利冰淇淋创始人称为邪恶殖民主义国家",
+      "importance": "medium"
+    },
+    {
+      "name": "日本",
+      "type": "place",
+      "context": "香飘飘员工在包装上嘲讽其核污水排放的国家",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "托克维尔的祖国，托克维尔通过观察美国来间接警告的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "哈佛大学",
+      "type": "organization",
+      "context": "主讲人高中同学就读的学校，该同学是支持巴勒斯坦营地的组织者",
+      "importance": "low"
+    },
+    {
+      "name": "TikTok（抖音）",
+      "type": "organization",
+      "context": "Dylan Mulvaney记录变性过程的平台",
+      "importance": "low"
+    },
+    {
+      "name": "Instagram",
+      "type": "organization",
+      "context": "2020年企业被要求换黑色头像的社交媒体平台，也是二妹被绝交的平台",
+      "importance": "low"
+    },
+    {
+      "name": "法兰克福学派",
+      "type": "concept",
+      "context": "影响当代黑命贵运动的西方马克思主义流派，使其获得白人精英同情",
+      "importance": "high"
+    },
+    {
+      "name": "liberation（解放）",
+      "type": "concept",
+      "context": "替代'revolution（革命）'的温和术语，体现语言策略的转变",
+      "importance": "medium"
+    },
+    {
+      "name": "black power（黑人权利）",
+      "type": "concept",
+      "context": "60年代运动口号，被更具女性化人类意义的'black lives matter'替代",
+      "importance": "medium"
+    },
+    {
+      "name": "Pride Month（骄傲月）",
+      "type": "event",
+      "context": "LGBTQ群体的年度庆祝活动，企业被要求在此期间表态",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "663be884eedd4434f40198f8",
+  "title": "58-企业应该在政治问题上表态吗？"
+}

@@ -1,0 +1,289 @@
+{
+  "style": {
+    "opening_pattern": "通过否定常见播客类型（非闲聊、非科普、不提供信息）来定义自身定位，进而提出公共讨论的四种模式理论，引出主题",
+    "structure": "理论建构（四种讨论模式）→批判现状（对抗性讨论的危害）→案例对比（两个反女权主义者）→个人经历（与爷爷的冲突）→概念升华（体育精神类比）→哲学总结（苏格拉底式无知）",
+    "tone": "理性思辨、真诚自省、哲学化、带有知识分子的忧患意识，既犀利批判又充满人文关怀",
+    "catchphrases": [
+      "大声思考",
+      "立场",
+      "公共空间",
+      "对抗性",
+      "对话性",
+      "回音室",
+      "预设立场",
+      "男权主义者",
+      "开放性"
+    ],
+    "closing_pattern": "回到标题问题总结核心观点，分享个人选择这种生活方式的情感动机，以鼓励年轻人追求智识生活作结",
+    "narrative_techniques": [
+      "对比（两个反女权主义者的对照）",
+      "类比（泰拳比赛、网球比赛的体育精神）",
+      "个人经历叙事（离婚事件、与爷爷的对话）",
+      "哲学引用（苏格拉底、亚里士多德）",
+      "概念建构（四种讨论模式理论）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "主播",
+      "type": "person",
+      "context": "播客《独树不成林》的主播，讲述自己的经历、观点和与他人的对话",
+      "importance": "high"
+    },
+    {
+      "name": "大哥一号/第一个男权主义者",
+      "type": "person",
+      "context": "古希腊语水平很高的博士生，因认为女性不能搞哲学而拒绝参加女性教授的讲座，代表闭塞的偏见",
+      "importance": "high"
+    },
+    {
+      "name": "大哥二号/第二个男权主义者",
+      "type": "person",
+      "context": "主播的好友，虽然持有反女权观点但愿意进行开放性讨论，代表智识上的勇气和善意",
+      "importance": "high"
+    },
+    {
+      "name": "爷爷",
+      "type": "person",
+      "context": "主播的爷爷，文盲、农民，持有传统观念认为离婚是女人没本事，与主播就离婚事件发生冲突",
+      "importance": "high"
+    },
+    {
+      "name": "老乡哥",
+      "type": "person",
+      "context": "主播的朋友，帮助主播理解爷爷的行为是时代悲剧而非个人懒惰",
+      "importance": "medium"
+    },
+    {
+      "name": "卡尔",
+      "type": "person",
+      "context": "主播的前夫，在婚内出轨主播最好的朋友",
+      "importance": "medium"
+    },
+    {
+      "name": "状元姐",
+      "type": "person",
+      "context": "主播的朋友，沿海省份理科状元，讨论陈嘉映纪录片和智识生活的价值",
+      "importance": "medium"
+    },
+    {
+      "name": "ContraPoints",
+      "type": "person",
+      "context": "YouTube上的变性人哲学博主，因立场不够绝对而被更进步的变性人群体网暴",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "哲学家，因休谟肖像画等疯狂行为被主播调侃为'疯婆娘'引发争议",
+      "importance": "medium"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "哲学家，被引用来阐述'智慧是认识到自己的无知'",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "哲学家，被引用《尼各马可伦理学》中关于友谊的论述",
+      "importance": "medium"
+    },
+    {
+      "name": "笛卡尔",
+      "type": "person",
+      "context": "哲学家，大哥二号认为现代性问题可追溯到笛卡尔开始的现代科学",
+      "importance": "medium"
+    },
+    {
+      "name": "辛纳",
+      "type": "person",
+      "context": "网球运动员，与阿卡拉斯代表体育精神中的相互欣赏",
+      "importance": "low"
+    },
+    {
+      "name": "阿卡拉斯",
+      "type": "person",
+      "context": "网球运动员，与辛纳代表体育精神中的相互欣赏",
+      "importance": "low"
+    },
+    {
+      "name": "大声思考",
+      "type": "concept",
+      "context": "播客核心概念，指不预设立场的文明讨论，第四种公共讨论模式",
+      "importance": "high"
+    },
+    {
+      "name": "回音室",
+      "type": "concept",
+      "context": "echo chamber，指人们只听到自己认可观点的现象，主播认为根源在于预设立场而非仅因大数据",
+      "importance": "high"
+    },
+    {
+      "name": "立场纯洁性",
+      "type": "concept",
+      "context": "ideological purity，指要求立场绝对正确的思维模式，导致内斗和缺乏开放性",
+      "importance": "high"
+    },
+    {
+      "name": "对抗性讨论",
+      "type": "concept",
+      "context": "confrontational，以说服和消灭对方观点为目的的讨论模式",
+      "importance": "high"
+    },
+    {
+      "name": "对话性讨论",
+      "type": "concept",
+      "context": "conversational，以探索真理和相互理解为目的的讨论模式",
+      "importance": "high"
+    },
+    {
+      "name": "公共空间",
+      "type": "concept",
+      "context": "主播反复讨论的概念，指公共讨论发生的场域",
+      "importance": "high"
+    },
+    {
+      "name": "体育精神",
+      "type": "concept",
+      "context": "sportsmanship，主播用来类比思想切磋应有的相互欣赏精神",
+      "importance": "medium"
+    },
+    {
+      "name": "预设立场",
+      "type": "concept",
+      "context": "主播批判的思维方式，指在讨论前已确定正确与错误的立场",
+      "importance": "high"
+    },
+    {
+      "name": "宣传",
+      "type": "concept",
+      "context": "propaganda，被讨论为公共机构使用的说服模式",
+      "importance": "low"
+    },
+    {
+      "name": "男权主义",
+      "type": "concept",
+      "context": "两位大哥持有的观点，主播用来对比开放性与闭塞性",
+      "importance": "high"
+    },
+    {
+      "name": "女权主义",
+      "type": "concept",
+      "context": "主播讨论的重要议题，涉及立场纯洁性要求的例子",
+      "importance": "high"
+    },
+    {
+      "name": "现代性",
+      "type": "concept",
+      "context": "大哥二号诊断现代社会问题的概念",
+      "importance": "medium"
+    },
+    {
+      "name": "智识生活",
+      "type": "concept",
+      "context": "主播倡导的生活方式，强调思考的快乐",
+      "importance": "high"
+    },
+    {
+      "name": "文化大革命",
+      "type": "event",
+      "context": "被提及为立场分明的历史案例，'那十年'没有公共讨论空间",
+      "importance": "medium"
+    },
+    {
+      "name": "主播离婚",
+      "type": "event",
+      "context": "主播分享的个人经历，与爷爷产生冲突的导火索",
+      "importance": "medium"
+    },
+    {
+      "name": "哥白尼日心说",
+      "type": "event",
+      "context": "被用作立场预设导致封闭思维的例子",
+      "importance": "low"
+    },
+    {
+      "name": "浙江",
+      "type": "place",
+      "context": "主播爷爷的家乡，解放前后经济困难",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "多次被提及的讨论场域，涉及学术、政治正确等",
+      "importance": "medium"
+    },
+    {
+      "name": "华尔街",
+      "type": "place",
+      "context": "被第一个男权主义者提及为犹太人控制的地方",
+      "importance": "low"
+    },
+    {
+      "name": "宾夕法尼亚大学",
+      "type": "organization",
+      "context": "ContraPoints的母校",
+      "importance": "low"
+    },
+    {
+      "name": "《独树不成林》",
+      "type": "work",
+      "context": "播客本身",
+      "importance": "high"
+    },
+    {
+      "name": "《女权主义在美国发展成了什么鬼样子》",
+      "type": "work",
+      "context": "主播制作的播客单集，标题立场不明显引发讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "卢梭的著作",
+      "importance": "low"
+    },
+    {
+      "name": "《忏悔录》",
+      "type": "work",
+      "context": "卢梭的著作",
+      "importance": "low"
+    },
+    {
+      "name": "《尼各马可伦理学》",
+      "type": "work",
+      "context": "亚里士多德的著作",
+      "importance": "medium"
+    },
+    {
+      "name": "《解释鸿沟》",
+      "type": "work",
+      "context": "陈嘉映的纪录片",
+      "importance": "medium"
+    },
+    {
+      "name": "古兰经",
+      "type": "work",
+      "context": "被用作立场预设的例子",
+      "importance": "low"
+    },
+    {
+      "name": "圣经",
+      "type": "work",
+      "context": "被用作立场预设的例子",
+      "importance": "low"
+    },
+    {
+      "name": "黑命贵",
+      "type": "other",
+      "context": "Black Lives Matter的翻译，被作为污名化的例子",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "664a60ee251bd96e6c65013d",
+  "title": "62-大声思考的意义是什么"
+}

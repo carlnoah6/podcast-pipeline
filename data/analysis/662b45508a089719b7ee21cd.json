@@ -1,0 +1,200 @@
+{
+  "style": {
+    "opening_pattern": "以标题自嘲式引入，直接点明核心观点（左派女权放弃'女'、右派女权放弃'权'），并预设听众的认知落差",
+    "structure": "核心论点前置→历史回溯（50年代美国女权+博导故事）→左派女权分析（理论溯源+当代演变）→右派女权分析（温和派到极端派光谱）→个人故事收束→哲学升华",
+    "tone": "理性客观中带犀利批判，口语化但逻辑严密，频繁使用'大白话'自我定位以降低学术门槛",
+    "catchphrases": [
+      "什么鬼样子",
+      "大白话",
+      "驴唇不对马嘴",
+      "水乳交融",
+      "狗男人的局限性",
+      "人性的褶皱",
+      "精神的懒惰",
+      "反智的行为",
+      "为所有人出头就是为女性出头",
+      "穿破思想上所有的枷锁"
+    ],
+    "closing_pattern": "个人轶事（酒桌对话）引出哲学结论——立场即偏见，警惕道德审判带来的精神懒惰",
+    "narrative_techniques": [
+      "对比（50年代vs2024年、左派vs右派、中美认知差异）",
+      "举例（博导与Shklar的故事、罗琳事件、Tradwife现象）",
+      "类比（'圈地'TERF、'扔掉女/权字'）",
+      "反问（'你在搞什么呀'）",
+      "引用权威（斯坦福哲学百科、Judith Butler）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Judith Shklar",
+      "type": "person",
+      "context": "播主讲者的博士生导师的导师，70年代哈佛唯二拥有终身教职的女性之一，最初被设为'终身教职讲师'而非教授，因学术成就过高最终获正教授头衔",
+      "importance": "high"
+    },
+    {
+      "name": "波伏娃《第二性》",
+      "type": "work",
+      "context": "讲者博导16岁时阅读的著作，促使其决心不做郊区家庭主妇而成为独立知识女性，当时刚被翻译成英文",
+      "importance": "high"
+    },
+    {
+      "name": "Judith Butler",
+      "type": "person",
+      "context": "著名女权主义者，认为任何定义女性的尝试都会造成压迫，主张女权主义应包括非二元性别和跨性别者，提出'酷儿研究'概念",
+      "importance": "high"
+    },
+    {
+      "name": "J.K.罗琳",
+      "type": "person",
+      "context": "因反对将跨性别者称为'woman'而被左派女权称为TERF（排斥跨性别者的激进女权主义者），被视为温和保守女权代表",
+      "importance": "medium"
+    },
+    {
+      "name": "Louise Perry",
+      "type": "person",
+      "context": "英国记者，播客'Maiden Mother Matriarch'主播，著有《The Case Against the Sexual Revolution》，在中国视角算进步派但在欧美属保守女权",
+      "importance": "medium"
+    },
+    {
+      "name": "Mary Harrington",
+      "type": "person",
+      "context": "自称'Reactionary Feminist（反动派女权主义者）'的学者，关注只属于女性的议题如堕胎、生育、性解放对女性的影响",
+      "importance": "medium"
+    },
+    {
+      "name": "Noel McAfee",
+      "type": "person",
+      "context": "埃默里大学哲学系系主任，亲自撰写斯坦福哲学百科女权主义词条的法兰克福学派女权主义者，因参与巴勒斯坦抗议被捕",
+      "importance": "medium"
+    },
+    {
+      "name": "后现代主义/法兰克福学派",
+      "type": "concept",
+      "context": "当代美国左派女权的理论基础，认为社会结构、文化、语言对女性有系统性压迫，拒绝人权天然存在的观念",
+      "importance": "high"
+    },
+    {
+      "name": "自由主义",
+      "type": "concept",
+      "context": "被当代美国左派女权拒绝的思想体系，其核心'人人平等''人权与生俱来'被视为带有根深蒂固的压迫性",
+      "importance": "high"
+    },
+    {
+      "name": "TERF",
+      "type": "concept",
+      "context": "Trans Exclusionary Radical Feminists的缩写，左派女权发明来攻击罗琳等拒绝将跨性别者纳入女性定义者的贬称",
+      "importance": "medium"
+    },
+    {
+      "name": "酷儿研究（Queer Studies）",
+      "type": "concept",
+      "context": "Butler在90年代提出的概念，左派女权与之'水乳交融'，关注变性人、变装皇后、跨性别者等非传统性别身份",
+      "importance": "high"
+    },
+    {
+      "name": "Tradwife（传统妻子）",
+      "type": "concept",
+      "context": "TikTok和Instagram上流行的标签，指妆容精致、穿花边围裙、住农场、生多个孩子、以50年代好莱坞女性为榜样的保守女权现象",
+      "importance": "high"
+    },
+    {
+      "name": "摩门教",
+      "type": "organization",
+      "context": "许多Tradwife网红的宗教信仰背景",
+      "importance": "low"
+    },
+    {
+      "name": "简·奥斯汀",
+      "type": "person",
+      "context": "播客结尾故事中男教授和本科生讨论的作者，被误认为'太小女生'，后被教授发现是'写给人性'而非仅写给女人",
+      "importance": "medium"
+    },
+    {
+      "name": "《傲慢与偏见》",
+      "type": "work",
+      "context": "男教授博士期间阅读后才改变对简·奥斯汀看法的作品",
+      "importance": "low"
+    },
+    {
+      "name": "《曼斯菲尔德庄园》",
+      "type": "work",
+      "context": "男教授大学期间阅读后认为'太小女生'而放弃简·奥斯汀的作品",
+      "importance": "low"
+    },
+    {
+      "name": "三体",
+      "type": "work",
+      "context": "播主讲者用来反驳'过于男性化而不读'的例子",
+      "importance": "low"
+    },
+    {
+      "name": "金庸",
+      "type": "person",
+      "context": "播主讲者用来反驳'过于男性化而不读'的例子",
+      "importance": "low"
+    },
+    {
+      "name": "马基雅维利《君主论》",
+      "type": "work",
+      "context": "播主讲者用来反驳'过于男性化而不读'的例子",
+      "importance": "low"
+    },
+    {
+      "name": "荷马《伊利亚特》",
+      "type": "work",
+      "context": "播主讲者用来反驳'过于男性化而不读'的例子",
+      "importance": "low"
+    },
+    {
+      "name": "民权运动",
+      "type": "event",
+      "context": "60年代美国社会运动，讲者博导作为'嬉皮式小女孩'成长于这一时期",
+      "importance": "medium"
+    },
+    {
+      "name": "巴以战争/巴勒斯坦抗议",
+      "type": "event",
+      "context": "Noel McAfee被捕的原因，被用来说明左派女权已将诉求从女性权益转向其他被压迫群体",
+      "importance": "medium"
+    },
+    {
+      "name": "哈佛",
+      "type": "organization",
+      "context": "70年代仅有两位女性拥有终身教职的顶尖学府，Shklar和讲者博导的求学地",
+      "importance": "medium"
+    },
+    {
+      "name": "华盛顿医学院",
+      "type": "organization",
+      "context": "讲者博导高中好友想就读但被父亲劝阻转而当护士的医学院，当时400多人中仅4位女性",
+      "importance": "low"
+    },
+    {
+      "name": "埃默里大学",
+      "type": "organization",
+      "context": "Noel McAfee担任哲学系系主任的大学",
+      "importance": "low"
+    },
+    {
+      "name": "TikTok",
+      "type": "organization",
+      "context": "Tradwife文化流行的社交媒体平台",
+      "importance": "low"
+    },
+    {
+      "name": "Instagram",
+      "type": "organization",
+      "context": "Tradwife文化流行的社交媒体平台",
+      "importance": "low"
+    },
+    {
+      "name": "好莱坞",
+      "type": "place",
+      "context": "被美国左派女权影响的三个最左领域之一（学术界、好莱坞、新闻界），也是Tradwife浪漫化的50年代女性形象来源",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "662b45508a089719b7ee21cd",
+  "title": "55-女权主义在美国发展成了什么鬼样子？"
+}

@@ -1,0 +1,208 @@
+{
+  "style": {
+    "opening_pattern": "以听众来信引入，通过具体案例呈现普遍性问题",
+    "structure": "问题呈现→哲学框架（康德）→个人经历（婚姻故事）→回到问题→第二层次分析（挚友案例）→柏拉图洞穴隐喻→艺术/宗教作为超越方式→结尾升华",
+    "tone": "真诚自省、理性深沉、带有个人创伤的坦诚",
+    "catchphrases": [
+      "头顶的星空和我心中的道德法则",
+      "完整的人生",
+      "噗啷噗啷的小鸟",
+      "庸俗的人",
+      "知行合一",
+      "完美的友谊",
+      "错愕和鄙夷",
+      "牡丹狗屎",
+      "精神世界的向往",
+      "超越现实世界"
+    ],
+    "closing_pattern": "以音乐分享作结，将个人体验升华为普遍的人类处境",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "自我反讽",
+      "引用名言",
+      "个人叙事",
+      "反问",
+      "重复强调"
+    ]
+  },
+  "entities": [
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "墓碑名言'头顶的星空和我心中的道德法则'被作为核心哲学框架反复引用",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔",
+      "type": "person",
+      "context": "主播前夫，从共同追求哲学的伴侣到婚内出轨背叛者，成为反面教材",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "其关于'完美的友谊'和'真善美'的理论被用来定义理想关系",
+      "importance": "high"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "年轻时主播与前夫曾追随其思想，对公序良俗持讥讽态度",
+      "importance": "medium"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "关于结婚生子及教育能否传授灵魂渴望的观点被讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "洞穴隐喻被用来描述超越现实世界的体验，爱欲概念Erotic longing被引用",
+      "importance": "high"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "《论美国的民主》中关于平等观念模糊了另一种不平等的观点被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "林垚",
+      "type": "person",
+      "context": "被提及为'几十年的朋友'，背叛了虚拟角色小树墩老师",
+      "importance": "low"
+    },
+    {
+      "name": "小树墩老师",
+      "type": "person",
+      "context": "主播使用的虚拟角色/笔名，用于第三人称叙述自己的遭遇",
+      "importance": "medium"
+    },
+    {
+      "name": "巴赫",
+      "type": "person",
+      "context": "《马太受难曲》的作曲者，其音乐被作为超越现实的艺术典范在结尾分享",
+      "importance": "high"
+    },
+    {
+      "name": "耶稣",
+      "type": "person",
+      "context": "《马太受难曲》讲述的人物，其受难故事承载音乐中的悲悯之情",
+      "importance": "medium"
+    },
+    {
+      "name": "查拉图斯特拉如是说",
+      "type": "work",
+      "context": "被提及为年轻人读尼采后产生肤浅理解的常见文本",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德伦理学",
+      "type": "work",
+      "context": "第八卷关于完美友谊的理论被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "理想国",
+      "type": "work",
+      "context": "洞穴隐喻的来源，关于教育能否传授灵魂渴望的讨论",
+      "importance": "high"
+    },
+    {
+      "name": "论美国的民主",
+      "type": "work",
+      "context": "托克维尔的著作，关于平等观念的副作用",
+      "importance": "medium"
+    },
+    {
+      "name": "马太受难曲",
+      "type": "work",
+      "context": "巴赫的宗教音乐作品，主播在莱比锡圣托马斯大教堂聆听，结尾作为情感升华的载体",
+      "importance": "high"
+    },
+    {
+      "name": "Erbarme dich, mein Gott（怜悯我吧上帝）",
+      "type": "work",
+      "context": "《马太受难曲》中六分钟的片段，主播特别分享的段落",
+      "importance": "medium"
+    },
+    {
+      "name": "圣经",
+      "type": "work",
+      "context": "主播提及自己十几岁时未读过，但不影响被巴赫音乐打动",
+      "importance": "low"
+    },
+    {
+      "name": "头上的星空和我心中的道德法则",
+      "type": "concept",
+      "context": "康德名言，作为主播核心人生哲学的两面：精神追求与道德责任",
+      "importance": "high"
+    },
+    {
+      "name": "完美的友谊",
+      "type": "concept",
+      "context": "亚里士多德的概念，基于双方品德的相互仰慕，主播曾以为婚姻可以实现",
+      "importance": "high"
+    },
+    {
+      "name": "Erotic longing（爱欲的渴望）",
+      "type": "concept",
+      "context": "柏拉图式的概念，描述灵魂对永恒和超越的不安渴望",
+      "importance": "high"
+    },
+    {
+      "name": "洞穴隐喻",
+      "type": "concept",
+      "context": "柏拉图《理想国》中的著名比喻，描述见过真理后回到现实的体验",
+      "importance": "high"
+    },
+    {
+      "name": "Übermensch（超人）",
+      "type": "concept",
+      "context": "尼采概念，被年轻追随者肤浅地用来标榜自己超越道德",
+      "importance": "medium"
+    },
+    {
+      "name": "知行合一",
+      "type": "concept",
+      "context": "主播用以批评前夫的关键标准，指思想与行动的一致性",
+      "importance": "high"
+    },
+    {
+      "name": "公序良俗",
+      "type": "concept",
+      "context": "主播与前夫年轻时讨论并嗤之以鼻的社会规范，后来重新认可",
+      "importance": "medium"
+    },
+    {
+      "name": "莱比锡",
+      "type": "place",
+      "context": "德国小镇，巴赫生前工作32年的地方，主播与前夫在此聆听《马太受难曲》",
+      "importance": "medium"
+    },
+    {
+      "name": "圣托马斯大教堂",
+      "type": "place",
+      "context": "巴赫工作过的教堂，主播聆听《马太受难曲》的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "浙江",
+      "type": "place",
+      "context": "主播故乡，提及第一次离开此地是与挚友旅游",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿智库",
+      "type": "organization",
+      "context": "主播与前夫认识的主席所在机构，该主席是他们结婚的重要宾客",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65cec9bbb6c9256aeee09460",
+  "title": "28-如何面对和身边最亲密的人有些格格不入的失落感？"
+}

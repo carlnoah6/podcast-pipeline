@@ -1,0 +1,145 @@
+{
+  "style": {
+    "opening_pattern": "以儿童教育具体话题切入，扩展到现代政治学宏大命题（从具体案例到抽象理论）",
+    "structure": "问题提出→哲学理论（卢梭等）→案例分析（杨医生临床经验）→个人经历→社会应用→总结升华",
+    "tone": "理性客观、严肃但不晦涩，兼具学术性与生活化，带有温和的教导意味",
+    "catchphrases": [
+      "杨医生说",
+      "物理规律",
+      "随心所欲",
+      "卢梭说",
+      "强权",
+      "遵守规则",
+      "文明社会",
+      "规训",
+      "迫使自由"
+    ],
+    "closing_pattern": "总结观点+呼吁式结尾，强调区分规则与强权的重要性，提出对文明社会的思考",
+    "narrative_techniques": [
+      "类比（儿童教育类比社会治理）",
+      "举例（杨医生临床案例、武汉交通现象）",
+      "引用（卢梭、霍布斯、洛克等哲学家）",
+      "对比（遵守规则vs服从强权、文明社会vs野蛮社会）",
+      "个人经历（童年'随心所欲'实验）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "核心思想家，其《社会契约论》和《爱弥儿》构成播客的理论基础，提出'迫使他自由'和儿童教育应如物理规律的观点",
+      "importance": "high"
+    },
+    {
+      "name": "杨医生",
+      "type": "person",
+      "context": "讲述者的母亲，作为儿科医生的临床经验提供了大量关于儿童教育、家长行为和规则建立的实证案例",
+      "importance": "high"
+    },
+    {
+      "name": "《社会契约论》",
+      "type": "work",
+      "context": "卢梭著作，被引用'人生而自由，却无往不在枷锁之中'，讨论公共意志与个体服从的关系",
+      "importance": "high"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "卢梭关于儿童教育的著作，提出教育应像物理规律一样不可抗拒，反对用利益诱惑或欺骗儿童",
+      "importance": "high"
+    },
+    {
+      "name": "公共意志/公义",
+      "type": "concept",
+      "context": "卢梭政治哲学的核心概念，播客讨论个体是否应被迫服从公共意志以换取自由",
+      "importance": "high"
+    },
+    {
+      "name": "物理规律/自然规律",
+      "type": "concept",
+      "context": "播客核心类比概念，指规则应如重力般不可抗拒、无公平与否之分，以此建立儿童的规则意识",
+      "importance": "high"
+    },
+    {
+      "name": "马基雅维利（Machiavelli）",
+      "type": "person",
+      "context": "与霍布斯、洛克一起被提及，作为16-17世纪讨论如何让自由人遵守规则的政治思想家",
+      "importance": "medium"
+    },
+    {
+      "name": "霍布斯（Hobbes）",
+      "type": "person",
+      "context": "17世纪政治哲学家，与马基雅维利、洛克并列，探讨社会秩序与服从问题",
+      "importance": "medium"
+    },
+    {
+      "name": "洛克（Locke）",
+      "type": "person",
+      "context": "17世纪政治哲学家，与霍布斯等人一起讨论现代国家如何让公民遵纪守法",
+      "importance": "medium"
+    },
+    {
+      "name": "《马小跳》",
+      "type": "work",
+      "context": "杨红樱创作的儿童文学作品，讲述者小学时受其影响产生'随心所欲'的叛逆期",
+      "importance": "medium"
+    },
+    {
+      "name": "杨红樱",
+      "type": "person",
+      "context": "《马小跳》的作者，其作品影响了讲述者童年时期的价值观",
+      "importance": "low"
+    },
+    {
+      "name": "武汉",
+      "type": "place",
+      "context": "被用作交通乱象的案例，描述司机不打转向灯、不礼让行人、停车混乱等现象",
+      "importance": "medium"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "与武汉对比，描述其司机打灯后其他车辆会让行的良性交通共识",
+      "importance": "medium"
+    },
+    {
+      "name": "古典自由主义",
+      "type": "concept",
+      "context": "被提及在武汉交通案例中'失效'，因为其运行需要公民对规则有良性共识",
+      "importance": "medium"
+    },
+    {
+      "name": "文艺复兴",
+      "type": "event",
+      "context": "被提及作为艺术史转折点，之前儿童被描绘为缩小版成人，之后才出现真正的儿童形象",
+      "importance": "low"
+    },
+    {
+      "name": "中世纪",
+      "type": "event",
+      "context": "与文艺复兴对比，描述当时艺术作品中儿童被描绘为'缩小版成人'",
+      "importance": "low"
+    },
+    {
+      "name": "Super Junior",
+      "type": "organization",
+      "context": "讲述者小学时追的韩国偶像团体，作为'随心所欲'时期想做的事情之一",
+      "importance": "low"
+    },
+    {
+      "name": "快乐大本营",
+      "type": "work",
+      "context": "湖南卫视综艺节目，讲述者童年时想熬夜观看的节目",
+      "importance": "low"
+    },
+    {
+      "name": "耽美小说",
+      "type": "work",
+      "context": "讲述者提及小学三年级开始阅读的文学类型",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66675a2d94977a26ef718788",
+  "title": "72-遵守规则和服从强权的区别在哪里？"
+}

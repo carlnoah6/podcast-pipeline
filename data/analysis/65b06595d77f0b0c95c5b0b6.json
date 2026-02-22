@@ -1,0 +1,165 @@
+{
+  "style": {
+    "opening_pattern": "以私人经历引入（讲述生活中遇到的'邪恶之人'），引出核心问题——这样的人应拥有怎样的自由",
+    "structure": "个人经历→提出系列主题→分析言论自由的历史演变（60年代越战/烧国旗案）→对比言论自由与表达自由的本质区别→引入学术自由的概念→与言论自由进行系统对比→总结观点",
+    "tone": "理性思辨、带有批判性，时而口语化亲切（提及博导小老太太），整体严肃深沉",
+    "catchphrases": [
+      "对吧",
+      "嗯嗯嗯嗯嗯",
+      "咱们就是说",
+      "OK",
+      "我觉得",
+      "我不知道大家是否可以理解",
+      "这个也是",
+      "也就是说",
+      "换句话来说",
+      "拜拜，再见，再见，再见，再见，拜拜"
+    ],
+    "closing_pattern": "总结核心论点（美国从逻辑正确走向政治正确）+ 开放式收尾（下期再见）",
+    "narrative_techniques": [
+      "类比（言论自由属于成年人，表达自由属于小孩子和精神病人）",
+      "反问（连续三次重复'为什么我们会感到美国的言论自由正在渐渐的消失呢'）",
+      "举例（Liz Cheney演讲被抗议事件、医学院教授讲水精灵、政治学家谈疫苗）",
+      "对比（言论自由vs表达自由、言论自由vs学术自由、逻辑正确vs政治正确）",
+      "历史追溯（60年代越战时期、中世纪欧洲大学起源）",
+      "引用权威（博导的观点、沃伦大法官的判决）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "沃伦大法官",
+      "type": "person",
+      "context": "在60年代越战期间主导美国最高法院重新定义言论自由，将freedom of speech扩展为freedom of expression",
+      "importance": "high"
+    },
+    {
+      "name": "Liz Cheney",
+      "type": "person",
+      "context": "美国共和党参议员，因反对特朗普而特殊，来校演讲时被学生持海报抗议导致无法继续演讲",
+      "importance": "medium"
+    },
+    {
+      "name": "Dick Cheney",
+      "type": "person",
+      "context": "Liz Cheney的父亲，小布什时期的副总统，被认为应对伊拉克战争负责",
+      "importance": "low"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "作为千年一遇的天才例子，其哲学挑战了学科边界，生前未获学术界认可，死后改变了哲学史",
+      "importance": "medium"
+    },
+    {
+      "name": "哈耶克",
+      "type": "person",
+      "context": "第十四期播客讨论的自由主义代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "言论自由（freedom of speech）",
+      "type": "concept",
+      "context": "核心讨论概念，强调理性、逻辑和接近真相的目的，与logos相关",
+      "importance": "high"
+    },
+    {
+      "name": "表达自由（freedom of expression）",
+      "type": "concept",
+      "context": "60年代后美国对言论自由的新定义，涵盖情感、行为等非理性表达，被认为是通往虚无主义的根源",
+      "importance": "high"
+    },
+    {
+      "name": "学术自由",
+      "type": "concept",
+      "context": "20世纪20年代由美国教授学会建立，建立在学科专业知识和专家认可基础上的有限自由",
+      "importance": "high"
+    },
+    {
+      "name": "logos",
+      "type": "concept",
+      "context": "古希腊文概念，speech对应的词，不仅指演讲还包含理智的意思，是言论自由的理性基础",
+      "importance": "medium"
+    },
+    {
+      "name": "社会的婴儿化（infantilization of society）",
+      "type": "concept",
+      "context": "现代社会普遍问题，成年人承担责任年龄推迟，巨婴增多，与表达自由的泛滥相关",
+      "importance": "medium"
+    },
+    {
+      "name": "消极自由",
+      "type": "concept",
+      "context": "第十七期播客讨论的概念，在巴厘岛体验到的自由形式",
+      "importance": "low"
+    },
+    {
+      "name": "嬉皮士文化",
+      "type": "concept",
+      "context": "60年代美国主流反文化运动，核心诉求是反对越战，make love not war",
+      "importance": "medium"
+    },
+    {
+      "name": "政治正确",
+      "type": "concept",
+      "context": "美国大学当前风气，被认为压制言论自由，与逻辑正确相对立",
+      "importance": "medium"
+    },
+    {
+      "name": "越南战争",
+      "type": "event",
+      "context": "60年代美国重大战争，引发年轻人抗议、焚烧国旗等事件，促成言论自由重新定义的关键历史背景",
+      "importance": "high"
+    },
+    {
+      "name": "伊拉克战争",
+      "type": "event",
+      "context": "Dick Cheney被认为应负责的战争，学生在Liz Cheney演讲中质问其父是否为战争犯",
+      "importance": "low"
+    },
+    {
+      "name": "美国教授学会",
+      "type": "organization",
+      "context": "20世纪20年代建立学术自由概念的组织，为保护受迫害的共产主义/社会主义教授而成立",
+      "importance": "medium"
+    },
+    {
+      "name": "《跳脱义务自由算是自由吗》",
+      "type": "work",
+      "context": "第十五期播客，与自由相关的话题",
+      "importance": "low"
+    },
+    {
+      "name": "《年轻人为什么一边作死一边养生》",
+      "type": "work",
+      "context": "第十六期播客，其中提到社会婴儿化概念",
+      "importance": "low"
+    },
+    {
+      "name": "《1984》",
+      "type": "work",
+      "context": "奥威尔小说，被用作例子说明老大哥式监控社会的观点",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "核心讨论对象，言论自由和学术自由问题的发生地",
+      "importance": "high"
+    },
+    {
+      "name": "巴厘岛",
+      "type": "place",
+      "context": "第十七期播客中体验到消极自由的地点",
+      "importance": "low"
+    },
+    {
+      "name": "中世纪欧洲大学",
+      "type": "place",
+      "context": "学术自由的起源之地，神学家与大主教达成安全讨论基督教教义的共识",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65b06595d77f0b0c95c5b0b6",
+  "title": "21-言论自由是什么？学术自由是什么？美国有吗？"
+}

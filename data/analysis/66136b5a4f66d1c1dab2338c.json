@@ -1,0 +1,320 @@
+{
+  "style": {
+    "opening_pattern": "以播客标题中的尖锐问题直接引入，即卢梭作为遗弃子女的'狗男人'为何能写出最有哲学性的教育小说，并提及'房间里的大象'这一矛盾",
+    "structure": "问题提出→为卢梭性格辩护（疯婆娘）→《爱弥儿》内容分析与《理想国》对比→卢梭对儿童的新理解→康德的故事结尾，整体呈问题→人物分析→著作分析→哲学意义→情感升华的结构",
+    "tone": "理性但带有强烈个人色彩，口语化、轻松但不失深度，使用'疯婆娘'、'狗男人'等通俗词汇，坦诚直接且情感投入",
+    "catchphrases": [
+      "疯婆娘",
+      "狗男人",
+      "房间里的大象",
+      "对吧",
+      "我觉得",
+      "也就是说",
+      "稀里哗啦",
+      "哆哆哆哆",
+      "OK"
+    ],
+    "closing_pattern": "引用康德读《爱弥儿》后的感悟作为结尾，通过康德的评价升华卢梭的重要性，最后简短告别",
+    "narrative_techniques": [
+      "类比（将卢梭比作疯婆娘、卡戴珊家族）",
+      "对比（《爱弥儿》与《理想国》、卢梭与洛克）",
+      "举例（康德散步的故事、卢梭与伏尔泰/休谟的冲突）",
+      "反问",
+      "设问",
+      "引用"
+    ]
+  },
+  "entities": [
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "播客核心讨论对象，写了《爱弥儿》却遗弃五个孩子的哲学家，被称为'疯婆娘'",
+      "importance": "high"
+    },
+    {
+      "name": "泰蕾兹",
+      "type": "person",
+      "context": "卢梭的女仆，与卢梭非婚生下五个被遗弃的孩子，被卢梭描述为'智力很低'",
+      "importance": "medium"
+    },
+    {
+      "name": "爱弥儿",
+      "type": "person",
+      "context": "卢梭教育小说《爱弥儿》中的主人公，被卢梭从婴儿教育到成年的虚构孤儿男孩",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "古希腊哲学家，《理想国》作者，卢梭在《爱弥儿》中与之对话和反转其思想",
+      "importance": "high"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "德国哲学家，读《爱弥儿》后深受震撼，改变了对普通民众的态度，称卢梭改变了自己的傲慢",
+      "importance": "high"
+    },
+    {
+      "name": "洛克",
+      "type": "person",
+      "context": "英国哲学家，著有《教育漫话》，卢梭在《爱弥儿》中反驳其对儿童使用理智说服的观点",
+      "importance": "medium"
+    },
+    {
+      "name": "伏尔泰",
+      "type": "person",
+      "context": "法国启蒙思想家，卢梭的对手，卢梭常与之公开骂战或写信吐槽",
+      "importance": "medium"
+    },
+    {
+      "name": "休谟",
+      "type": "person",
+      "context": "英国哲学家，曾收留被驱逐的卢梭，却被卢梭怀疑要害他，因肖像画事件被卢梭纠缠",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "古希腊哲学家，其关于人是拥有logos（语言/理智）的动物的观点被卢梭讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "赫尔德",
+      "type": "person",
+      "context": "德国诗人，卢梭哲学作品的粉丝，但读了卢梭《卢梭评判让-雅克》后认为卢梭疯了",
+      "importance": "low"
+    },
+    {
+      "name": "亚当斯密",
+      "type": "person",
+      "context": "经济学家，简·奥斯丁读过其《国富论》，主播曾在课堂上探讨简·奥斯丁与亚当斯密的关系",
+      "importance": "low"
+    },
+    {
+      "name": "简·奥斯丁",
+      "type": "person",
+      "context": "英国作家，主播曾在播客中讲过，探讨其政治哲学",
+      "importance": "low"
+    },
+    {
+      "name": "海德格尔",
+      "type": "person",
+      "context": "哲学家，主播提及以讨论道德败坏者的哲学是否可信，曾支持纳粹",
+      "importance": "low"
+    },
+    {
+      "name": "汉娜·阿伦特",
+      "type": "person",
+      "context": "女性哲学家，海德格尔曾婚内出轨的对象",
+      "importance": "low"
+    },
+    {
+      "name": "卡尔",
+      "type": "person",
+      "context": "主播前夫，主播用其例子说明只在乎思想不在乎道德的后果",
+      "importance": "low"
+    },
+    {
+      "name": "林杨",
+      "type": "person",
+      "context": "主播前闺蜜，与主播前夫婚内出轨",
+      "importance": "low"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "主播朋友，与主播讨论卢梭如果是现代网红的情况",
+      "importance": "low"
+    },
+    {
+      "name": "乒乒乓乓的鸡毛胆子",
+      "type": "person",
+      "context": "忠实听众，正在读《爱弥儿》，主播将本期内容献给他",
+      "importance": "low"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "卢梭1762年出版的教育小说，播客核心讨论对象，被认为是最有哲学性的教育小说",
+      "importance": "high"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图的著作，卢梭在《爱弥儿》中对其进行回应和反转，探讨正义与快乐",
+      "importance": "high"
+    },
+    {
+      "name": "《忏悔录》",
+      "type": "work",
+      "context": "卢梭的自传，其中自我暴露了遗弃孩子、偷窃、同性恋行为等黑料",
+      "importance": "high"
+    },
+    {
+      "name": "《卢梭评判让-雅克》",
+      "type": "work",
+      "context": "卢梭生前最后一本书，自我审判的著作，让赫尔德认为卢梭疯了",
+      "importance": "medium"
+    },
+    {
+      "name": "《鲁滨逊漂流记》",
+      "type": "work",
+      "context": "笛福的小说，卢梭唯一允许爱弥儿在12岁前阅读的书，且是经过删减的版本",
+      "importance": "medium"
+    },
+    {
+      "name": "《教育漫话》",
+      "type": "work",
+      "context": "洛克的著作，1693年出版，当时最有影响力的教育著作，卢梭在《爱弥儿》中反驳其观点",
+      "importance": "medium"
+    },
+    {
+      "name": "First Discourse",
+      "type": "work",
+      "context": "卢梭的成名作，论证科学发达反而使人类道德败坏，否定启蒙主义",
+      "importance": "low"
+    },
+    {
+      "name": "《国富论》",
+      "type": "work",
+      "context": "亚当斯密的著作，简·奥斯丁读过，主播曾探讨简·奥斯丁与亚当斯密的关系",
+      "importance": "low"
+    },
+    {
+      "name": "科利奥兰纳斯",
+      "type": "work",
+      "context": "莎士比亚的戏剧，主播在第43期播客中讨论过",
+      "importance": "low"
+    },
+    {
+      "name": "指环王",
+      "type": "work",
+      "context": "托尔金的小说，主播提及B站上有详细解说",
+      "importance": "low"
+    },
+    {
+      "name": "傲慢与偏见",
+      "type": "work",
+      "context": "简·奥斯丁的小说，主播提及朋友二妹看了电影解说",
+      "importance": "low"
+    },
+    {
+      "name": "自然教育",
+      "type": "concept",
+      "context": "卢梭在《爱弥儿》中提出的教育理念，通过物理和规律教育儿童，反对在儿童拥有理智前使用理智说服",
+      "importance": "high"
+    },
+    {
+      "name": "分工",
+      "type": "concept",
+      "context": "卢梭反对的社会现象，认为要教育'完整的人'即没有分工的人，与柏拉图《理想国》中分工明确的正义观相对",
+      "importance": "high"
+    },
+    {
+      "name": "快乐与正义",
+      "type": "concept",
+      "context": "《爱弥儿》与《理想国》共同讨论的核心张力，柏拉图先定义正义再看是否快乐，卢梭先创造快乐的人再看能否成为正义公民",
+      "importance": "high"
+    },
+    {
+      "name": "洞穴比喻",
+      "type": "concept",
+      "context": "柏拉图《理想国》中的著名比喻，卢梭认为教育不是让人走出洞穴看到真理，因为儿童出生在无知而非偏见中",
+      "importance": "medium"
+    },
+    {
+      "name": "Logos",
+      "type": "concept",
+      "context": "古希腊语中既是语言又是理智的概念，亚里士多德认为人是拥有logos的动物，卢梭之前的思想家认为儿童是尚未拥有logos的潜在成人",
+      "importance": "medium"
+    },
+    {
+      "name": "自我认知",
+      "type": "concept",
+      "context": "卢梭认为婴儿没有自我认知，不知道自我与外界的边界，因此会表现得暴虐专横，这是卢梭对儿童理解的重要突破",
+      "importance": "medium"
+    },
+    {
+      "name": "泛性恋",
+      "type": "concept",
+      "context": "有法国学者声称卢梭是泛性恋(pansexual)，主播提及此概念",
+      "importance": "low"
+    },
+    {
+      "name": "遗弃五个孩子",
+      "type": "event",
+      "context": "1746-1752年间，卢梭与女仆泰蕾兹生下五个孩子并全部遗弃在孤儿院门口，这是理解卢梭人格矛盾的核心事件",
+      "importance": "high"
+    },
+    {
+      "name": "《爱弥儿》出版",
+      "type": "event",
+      "context": "1762年，卢梭出版《爱弥儿》，成为现代最有哲学性的教育小说，康德读后深受震撼",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭与欧洲知识分子骂战",
+      "type": "event",
+      "context": "卢梭因《论科学与艺术》成名后，与伏尔泰、休谟等欧洲一流知识分子进行公开骂战，被驱逐出境",
+      "importance": "medium"
+    },
+    {
+      "name": "肖像画事件",
+      "type": "event",
+      "context": "休谟安排画家为卢梭画肖像，卢梭认为画丑了，怀疑休谟居心叵测，体现了卢梭'疯婆娘'的性格",
+      "importance": "low"
+    },
+    {
+      "name": "海德格尔支持纳粹",
+      "type": "event",
+      "context": "主播提及海德格尔在1930年代支持纳粹党，以及婚内出轨汉娜·阿伦特，用以讨论道德败坏者的哲学是否可信",
+      "importance": "low"
+    },
+    {
+      "name": "柯尼斯堡",
+      "type": "place",
+      "context": "康德居住的小镇，居民按康德散步时间对表，康德在此读《爱弥儿》后打破作息规律",
+      "importance": "medium"
+    },
+    {
+      "name": "孤儿院",
+      "type": "place",
+      "context": "卢梭将五个私生子遗弃在巴黎孤儿院门口，这是理解卢梭道德矛盾的关键地点",
+      "importance": "high"
+    },
+    {
+      "name": "欧洲",
+      "type": "place",
+      "context": "18世纪卢梭生活的地区，卢梭与整个欧洲知识分子作战并被驱逐",
+      "importance": "medium"
+    },
+    {
+      "name": "普鲁士",
+      "type": "place",
+      "context": "柯尼斯堡所在的地区，康德生活的地方",
+      "importance": "low"
+    },
+    {
+      "name": "纳粹党",
+      "type": "organization",
+      "context": "海德格尔曾支持的政党，主播用以讨论道德与哲学的关系",
+      "importance": "low"
+    },
+    {
+      "name": "卡戴珊家族",
+      "type": "other",
+      "context": "主播将卢梭在《忏悔录》中的自我暴露比作卡戴珊家族通过真人秀暴露隐私的炸裂程度",
+      "importance": "low"
+    },
+    {
+      "name": "松鼠皮帽子",
+      "type": "other",
+      "context": "卢梭肖像画中戴的帽子，卢梭认为这幅画像把自己画丑了，想要销毁",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66136b5a4f66d1c1dab2338c",
+  "title": "47-遗弃小孩的狗男人怎么能写出现代最有哲学性的教育小说？卢梭《爱弥儿》"
+}

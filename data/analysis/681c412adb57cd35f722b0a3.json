@@ -1,0 +1,113 @@
+{
+  "style": {
+    "opening_pattern": "以季节性生活话题（禁渔期）引入，通过个人对海鲜的渴望过渡到主题",
+    "structure": "个人经历/观察→类比分析→哲学抽象→现实应用，从养鸡经验到做人哲学",
+    "tone": "轻松幽默、口语化、亲切自然，带有自嘲和喋喋不休的碎碎念风格",
+    "catchphrases": [
+      "咯咯哒喔喔喔",
+      "硬骨头的好鸡",
+      "打鸣",
+      "喋喋不休",
+      "垂涎欲滴",
+      "死得其所",
+      "做鸡",
+      "鸡生"
+    ],
+    "closing_pattern": "回到主题总结升华（成为硬骨头的好鸡的标准）+ 赞助商产品深度植入",
+    "narrative_techniques": [
+      "类比（鸡生与人生的互文）",
+      "对比（工业养殖鸡与散养走地鸡）",
+      "个人经历叙述（佛蒙特农场生活）",
+      "概念具象化（将'打鸣'转化为自我展示行为）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "主播（小树墩）",
+      "type": "person",
+      "context": "播客主播，以第一人称叙述自己在佛蒙特州农场的经历和对鸡的观察",
+      "importance": "high"
+    },
+    {
+      "name": "硬骨头的好鸡",
+      "type": "concept",
+      "context": "本期核心隐喻，指有尊严、为自己生命奋斗、骨头坚硬的走地鸡，引申为有骨气的人",
+      "importance": "high"
+    },
+    {
+      "name": "打鸣",
+      "type": "concept",
+      "context": "转化为社会行为隐喻，指自我展示、邀功、自吹自擂以获取认可的行为",
+      "importance": "high"
+    },
+    {
+      "name": "啄序/Pecking order",
+      "type": "concept",
+      "context": "描述鸡群等级制度的术语，被用来类比人类社会的等级和权力结构",
+      "importance": "high"
+    },
+    {
+      "name": "佛蒙特州农场",
+      "type": "place",
+      "context": "主播观察散养走地鸡和农场生活的地点，位于美国东北部",
+      "importance": "high"
+    },
+    {
+      "name": "使立消/Strepsils",
+      "type": "organization",
+      "context": "本期播客的赞助商，英国喉糖品牌，主播详细介绍了其成分和功效",
+      "importance": "high"
+    },
+    {
+      "name": "工业鸡/工厂鸡",
+      "type": "concept",
+      "context": "与走地鸡对比的对象，指工业化养殖的鸡，骨头脆弱，生长环境恶劣",
+      "importance": "high"
+    },
+    {
+      "name": "走地鸡/散养鸡",
+      "type": "concept",
+      "context": "自然环境中生长的鸡，有坚硬的骨头和尊严的鸡生",
+      "importance": "high"
+    },
+    {
+      "name": "大白熊犬/Great Pyrenees",
+      "type": "other",
+      "context": "佛蒙特农场主养的护卫犬，主播描述其高贵、独立、曾独自对抗狼群保护鸡群",
+      "importance": "medium"
+    },
+    {
+      "name": "黄鼠狼、狐狸、土狼/郊狼",
+      "type": "other",
+      "context": "鸡的天敌，在农场夜晚偷鸡，代表自然界的残酷",
+      "importance": "medium"
+    },
+    {
+      "name": "禁渔期",
+      "type": "event",
+      "context": "中国东海每年5-8月的休渔政策，主播用来开场并类比到对鸡的尊重",
+      "importance": "medium"
+    },
+    {
+      "name": "小宇宙",
+      "type": "organization",
+      "context": "播客所在的收听平台，主播自称'小宇宙海王海鲜大王'",
+      "importance": "medium"
+    },
+    {
+      "name": "桑德斯",
+      "type": "person",
+      "context": "佛蒙特州参议员，社会民主党人，主播在介绍佛蒙特州时提及",
+      "importance": "low"
+    },
+    {
+      "name": "清华波士顿校友会",
+      "type": "organization",
+      "context": "邀请主播做嘉宾的组织，主播在此谈及'打鸣'的感悟",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "681c412adb57cd35f722b0a3",
+  "title": "211-如何成为一只硬骨头的好鸡？"
+}

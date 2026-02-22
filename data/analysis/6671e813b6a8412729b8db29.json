@@ -1,0 +1,250 @@
+{
+  "style": {
+    "opening_pattern": "直接提出核心概念并点明主题，以'哲学王应该是哲学创业家'的重新定义引入硅谷科技佬这一群体",
+    "structure": "总起→分述三本书（按时间顺序）→综合总结，每本书采用'内容概述→核心理念→与硅谷关联→批判性评价'的结构",
+    "tone": "理性批判中带有机智调侃，学术分析与通俗表达结合，对安兰德持明显负面评价但对整体现象保持分析距离",
+    "catchphrases": [
+      "OK",
+      "我们来说/话说回来",
+      "在这里我想插一句嘴",
+      "听到这里的朋友应该知道",
+      "这就是为什么我说",
+      "我再说一遍",
+      "放狗屁",
+      "我的天哪",
+      "哇哦",
+      "拜拜"
+    ],
+    "closing_pattern": "总结三本书如何共同构成硅谷世界观，以简洁告别结束",
+    "narrative_techniques": [
+      "类比（将政府比作黑帮/黑手党）",
+      "反问",
+      "举例（婚姻市场案例、张震与前夫卡尔的对比）",
+      "对比（安兰德与尼采的区别、三本书的不同功能）",
+      "代入式设问（想象你是特斯拉创始人）",
+      "场景描绘（青春期少年点烟沉思的画面）",
+      "自我指涉（多次引用自己往期播客）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "安·兰德（Ayn Rand）",
+      "type": "person",
+      "context": "《阿特拉斯耸耸肩》作者，客观主义哲学创立者，被称为硅谷的精神教母，其精英主义道德观深刻影响硅谷创始人",
+      "importance": "high"
+    },
+    {
+      "name": "罗伯特·诺齐克（Robert Nozick）",
+      "type": "person",
+      "context": "《无政府、国家与乌托邦》作者，哈佛政治哲学家，提出最小政府理论为硅谷科技佬提供政府框架",
+      "importance": "high"
+    },
+    {
+      "name": "罗伯特·波西格（Robert Pirsig）",
+      "type": "person",
+      "context": "《禅与摩托车维修艺术》作者，通过公路旅行叙事为硅谷科技从业者提供精神慰藉和心灵哲学",
+      "importance": "high"
+    },
+    {
+      "name": "《阿特拉斯耸耸肩》（Atlas Shrugged）",
+      "type": "work",
+      "context": "1957年出版的1200页说教式小说，核心剧情为科技精英集体罢工导致社会崩溃，宣扬客观主义和自由放任资本主义",
+      "importance": "high"
+    },
+    {
+      "name": "《无政府、国家与乌托邦》（Anarchy, State, and Utopia）",
+      "type": "work",
+      "context": "1974年出版的政治哲学著作，从政府不正当性前提出发推论出最小政府是唯一正当政府形式",
+      "importance": "high"
+    },
+    {
+      "name": "《禅与摩托车维修艺术》（Zen and the Art of Motorcycle Maintenance）",
+      "type": "work",
+      "context": "1974年出版的公路旅行叙事作品，以'品质'为核心概念，为科技时代提供精神慰藉和浪漫主义想象",
+      "importance": "high"
+    },
+    {
+      "name": "约翰·高尔特（John Galt）",
+      "type": "person",
+      "context": "《阿特拉斯耸耸肩》中的神话般领袖角色，工程师/科学家/企业家，说服工业精英罢工并发表80页哲学演讲",
+      "importance": "high"
+    },
+    {
+      "name": "客观主义（Objectivism）",
+      "type": "concept",
+      "context": "安·兰德的哲学体系，相信世界由物质现实组成，人类应通过理性控制自然、建构新物质，科技精英是唯一能看见真理的人",
+      "importance": "high"
+    },
+    {
+      "name": "最小政府（Minimal Government）",
+      "type": "concept",
+      "context": "诺齐克推论出的唯一正当政府形式，仅提供基本权利保护如黑帮保护伞，超越此边界即丧失正当性",
+      "importance": "high"
+    },
+    {
+      "name": "品质（Quality）",
+      "type": "concept",
+      "context": "《禅与摩托车维修艺术》的核心词汇，被提升至形而上学层面，无法定义但等同于佛陀/美德/佛法/真理，成为乔布斯产品哲学的源头",
+      "importance": "high"
+    },
+    {
+      "name": "尼采（Friedrich Nietzsche）",
+      "type": "person",
+      "context": "安·兰德的重要思想来源，其'奴隶道德颠覆主人道德'理论被兰德照搬，但兰德与尼采在道德标准上存在根本区别",
+      "importance": "medium"
+    },
+    {
+      "name": "哈耶克（Friedrich Hayek）",
+      "type": "person",
+      "context": "安·兰德的另一位偶像，《通往奴役之路》作者，代表自由市场立场与凯恩斯辩论，影响兰德的经济理论立场",
+      "importance": "medium"
+    },
+    {
+      "name": "凯恩斯（John Maynard Keynes）",
+      "type": "person",
+      "context": "国家主导市场的经济理论代表，与哈耶克形成著名辩论，在《阿特拉斯耸耸肩》中被作为对立面批判",
+      "importance": "medium"
+    },
+    {
+      "name": "奥本海默（J. Robert Oppenheimer）",
+      "type": "person",
+      "context": "美国原子弹之父，被安·兰德明确视为最大反派原型，因其将原子弹交给政府而非自由企业家",
+      "importance": "medium"
+    },
+    {
+      "name": "洛克（John Locke）",
+      "type": "person",
+      "context": "17世纪英国哲学家，其自然权利理论被诺齐克嫁接用于论证人对身体、思想和劳动产品的所有权",
+      "importance": "medium"
+    },
+    {
+      "name": "亚当·斯密（Adam Smith）",
+      "type": "person",
+      "context": "18世纪经济学家，《国富论》作者，其'看不见的手'理论被诺齐克借用解释国家的市场机制起源",
+      "importance": "medium"
+    },
+    {
+      "name": "罗尔斯（John Rawls）",
+      "type": "person",
+      "context": "《正义论》作者，诺齐克的哈佛同事，被批评预设了国家的正当性作为讨论起点",
+      "importance": "medium"
+    },
+    {
+      "name": "《源泉》（The Fountainhead）",
+      "type": "work",
+      "context": "安·兰德1943年发表的小说，使其声名鹊起，整本小说采用尼采式的道德攻击",
+      "importance": "medium"
+    },
+    {
+      "name": "神秘主义（Mysticism）",
+      "type": "concept",
+      "context": "安·兰德哲学中客观主义的对立面，包括宗教、社会学、民主制度等不相信客观事实、试图用文字解构重建世界的态度",
+      "importance": "medium"
+    },
+    {
+      "name": "奴隶道德与主人道德",
+      "type": "concept",
+      "context": "尼采核心理论，弱者通过羞耻和内疚绑架强者，安·兰德直接照搬此分析但用于维护精英主义道德观",
+      "importance": "medium"
+    },
+    {
+      "name": "看不见的手（Invisible Hand）",
+      "type": "concept",
+      "context": "亚当·斯密的市场理论，被诺齐克用于解释国家通过市场机制而非社会契约的形成过程",
+      "importance": "medium"
+    },
+    {
+      "name": "保护协会（Protection Association）",
+      "type": "concept",
+      "context": "诺齐克理论中国家最初的形式，通过市场自由选择形成的主导保护机构，非垄断性质",
+      "importance": "medium"
+    },
+    {
+      "name": "马斯克（Elon Musk）",
+      "type": "person",
+      "context": "被多次提及作为当代硅谷科技精英代表，十几岁时读过安·兰德，其价值观与小说中的工业领袖形象共鸣",
+      "importance": "low"
+    },
+    {
+      "name": "乔布斯（Steve Jobs）",
+      "type": "person",
+      "context": "苹果创始人，青少年时期阅读安·兰德，将对简单和完美的热爱归咎于禅宗佛教信仰",
+      "importance": "low"
+    },
+    {
+      "name": "扎克伯格（Mark Zuckerberg）",
+      "type": "person",
+      "context": "脸书创始人，被用作安·兰德小说中不应感到内疚的科技精英现实对应",
+      "importance": "low"
+    },
+    {
+      "name": "贝索斯（Jeff Bezos）",
+      "type": "person",
+      "context": "亚马逊创始人，与马斯克、扎克伯格并列作为不应为社会正义感到内疚的顶级富豪例子",
+      "importance": "low"
+    },
+    {
+      "name": "罗斯福新政（New Deal）",
+      "type": "event",
+      "context": "1930年代政策，在安·兰德虚构背景中不断发展导致美国变成社会主义大政府，开启美国大政府时代",
+      "importance": "low"
+    },
+    {
+      "name": "二战",
+      "type": "event",
+      "context": "历史转折点，安·兰德假设未发生的反事实情境：若无二战刺激经济，罗斯福新政将导致更庞大的社会主义政府",
+      "importance": "low"
+    },
+    {
+      "name": "硅谷（Silicon Valley）",
+      "type": "place",
+      "context": "70年代逐渐成型的科技创新中心，其三本传奇书籍塑造了整个生态圈的文化和哲学信仰",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图《高尔吉亚》",
+      "type": "work",
+      "context": "被用来类比安·兰德更像其中的小老哥而非真正的尼采主义者",
+      "importance": "low"
+    },
+    {
+      "name": "《战争与和平》",
+      "type": "work",
+      "context": "托尔斯泰巨著，被用来对比说明《阿特拉斯耸耸肩》1200页的冗长程度",
+      "importance": "low"
+    },
+    {
+      "name": "《上帝之城》",
+      "type": "work",
+      "context": "奥古斯丁著作，播客主提及的自己读过的最厚书籍之一",
+      "importance": "low"
+    },
+    {
+      "name": "《国富论》",
+      "type": "work",
+      "context": "亚当·斯密代表作，诺齐克借用其市场理论解释国家起源",
+      "importance": "low"
+    },
+    {
+      "name": "《正义论》",
+      "type": "work",
+      "context": "罗尔斯著作，被诺齐克批评预设了国家正当性",
+      "importance": "low"
+    },
+    {
+      "name": "《通往奴役之路》",
+      "type": "work",
+      "context": "哈耶克代表作，安·兰德在经济理论上站在此书立场反对凯恩斯",
+      "importance": "low"
+    },
+    {
+      "name": "《超越善恶的彼岸》",
+      "type": "work",
+      "context": "尼采著作，标题含义被用来说明尼采超越所有道德标准，与安·兰德泾渭分明的善恶观形成对比",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6671e813b6a8412729b8db29",
+  "title": "76-硅谷科技佬信奉什么哲学？"
+}

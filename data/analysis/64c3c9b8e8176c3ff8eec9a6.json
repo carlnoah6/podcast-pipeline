@@ -1,0 +1,293 @@
+{
+  "style": {
+    "opening_pattern": "以生活场景引入（健身房芭比主题课程的个人经历），再过渡到核心问题",
+    "structure": "个人故事→现象观察→哲学问题提出→尼采引文→苏格拉底案例分析→柏拉图哲学延伸→核心矛盾总结→开放式结尾",
+    "tone": "轻松幽默、理性思辨、带有自嘲和反讽，兼具学术深度与生活化表达",
+    "catchphrases": [
+      "OKOK",
+      "说实话",
+      "从某种意义上说",
+      "从这个角度来说",
+      "我不知道大家有没有听过",
+      "下面我开始读",
+      "我插一句嘴啊",
+      "大家听一听啊",
+      "这是一个有点残酷的客观事实",
+      "好了今天就来到这里吧"
+    ],
+    "closing_pattern": "开放式提问（自私还是无私的二元悖论），不给出明确答案，邀请听众继续思考",
+    "narrative_techniques": [
+      "类比",
+      "反问",
+      "举例",
+      "对比",
+      "引用",
+      "自我暴露",
+      "场景还原",
+      "假设推演"
+    ]
+  },
+  "entities": [
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "作为西方哲学巅峰代表，其婚姻生活被用作核心案例探讨哲学家能否组建家庭",
+      "importance": "high"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "《论道德的谱系》中提出'哲学家通通都憎恶婚姻'的观点，成为本集论述起点",
+      "importance": "high"
+    },
+    {
+      "name": "蒙田",
+      "type": "person",
+      "context": "17世纪法国哲学家，其《随笔集》中'探索哲学的本质就是学习如何死亡'被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "18世纪法国哲学家，《社会契约论》作者，将五个孩子全部抛弃在孤儿院门口",
+      "importance": "medium"
+    },
+    {
+      "name": "萧红",
+      "type": "person",
+      "context": "20世纪初中国女作家，1932年将刚出生女婴送人，与卢梭形成对照",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "苏格拉底学生，其《会饮篇》《理想国》中关于'至善'的论述被用来分析哲学与家庭的矛盾",
+      "importance": "high"
+    },
+    {
+      "name": "第欧根尼·拉尔修(Diogenes Laertius)",
+      "type": "person",
+      "context": "古罗马作家，其《古希腊哲人言行录》记录了苏格拉底婚姻的权威描述，是尼采的重要参考",
+      "importance": "high"
+    },
+    {
+      "name": "赞西佩(Xanthippe)",
+      "type": "person",
+      "context": "苏格拉底第一任妻子，西方哲学史上著名的'泼妇'形象，当众辱骂、用水淋苏格拉底",
+      "importance": "medium"
+    },
+    {
+      "name": "米尔托(Myrto)",
+      "type": "person",
+      "context": "苏格拉底第二任妻子，有争议是否同时存在，反映苏格拉底响应国家生育号召的婚姻观",
+      "importance": "medium"
+    },
+    {
+      "name": "阿西比德斯(Alcibiades)",
+      "type": "person",
+      "context": "苏格拉底的朋友和迷弟，雅典公认最帅，曾抱怨赞西佩的责骂声难以忍受",
+      "importance": "low"
+    },
+    {
+      "name": "色诺芬",
+      "type": "person",
+      "context": "苏格拉底学生，其《回忆苏格拉底》记录了苏格拉底与儿子关于母亲的对话",
+      "importance": "medium"
+    },
+    {
+      "name": "赫拉克利特",
+      "type": "person",
+      "context": "被尼采列举为未婚的伟大哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "笛卡尔",
+      "type": "person",
+      "context": "被尼采列举为未婚的伟大哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "斯宾诺莎",
+      "type": "person",
+      "context": "被尼采列举为未婚的伟大哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "莱布尼茨",
+      "type": "person",
+      "context": "被尼采列举为未婚的伟大哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "被尼采列举为未婚的伟大哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "叔本华",
+      "type": "person",
+      "context": "被尼采列举为未婚的伟大哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "被提及为有妻儿的哲学家，但生平显示并非好父亲",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "播客主播与其丈夫的研究对象，被用作'有妻儿但非好父亲'的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "兰普洛斯(Lamprocles)",
+      "type": "person",
+      "context": "苏格拉底与赞西佩之子，被父亲用问答法教育要感激母亲",
+      "importance": "low"
+    },
+    {
+      "name": "萨提勒斯(Satyrus)",
+      "type": "person",
+      "context": "古希腊作家，认为苏格拉底两个妻子同时存在",
+      "importance": "low"
+    },
+    {
+      "name": "希罗尼穆斯(Hieronymus of Rhodes)",
+      "type": "person",
+      "context": "罗德岛作家，认为苏格拉底两个妻子同时存在",
+      "importance": "low"
+    },
+    {
+      "name": "《论道德的谱系》",
+      "type": "work",
+      "context": "尼采著作，第三篇第七节提出哲学家憎恶婚姻的核心观点",
+      "importance": "high"
+    },
+    {
+      "name": "《随笔集》",
+      "type": "work",
+      "context": "蒙田著作，其中'学习如何死亡'的观点被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "《社会契约论》",
+      "type": "work",
+      "context": "卢梭著作，与其抛弃亲生子女的行为形成讽刺对比",
+      "importance": "medium"
+    },
+    {
+      "name": "《生死场》",
+      "type": "work",
+      "context": "萧红1934年小说，写作两年前作者刚送走自己的女婴",
+      "importance": "medium"
+    },
+    {
+      "name": "《会饮篇》",
+      "type": "work",
+      "context": "柏拉图对话录，其中关于爱与至善的论述被用来分析哲学追求",
+      "importance": "high"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图最重要作品，'至善'(The Good)概念贯穿始终",
+      "importance": "high"
+    },
+    {
+      "name": "《古希腊哲人言行录》",
+      "type": "work",
+      "context": "第欧根尼·拉尔修公元600年所著，记录苏格拉底婚姻状况的权威来源",
+      "importance": "high"
+    },
+    {
+      "name": "《回忆苏格拉底》",
+      "type": "work",
+      "context": "色诺芬所著，记录苏格拉底与儿子关于母亲的对话",
+      "importance": "medium"
+    },
+    {
+      "name": "《精神现象学》",
+      "type": "work",
+      "context": "黑格尔代表作，主播丈夫表示愿穿越回1823年当黑格尔的学徒",
+      "importance": "low"
+    },
+    {
+      "name": "芭比(Barbie)",
+      "type": "work",
+      "context": "2023年上映电影，从'柔弱模特'到'多元力量'的形象转变，引出'女性可以成为一切包括哲学家'",
+      "importance": "medium"
+    },
+    {
+      "name": "奥本海默(Oppenheimer)",
+      "type": "work",
+      "context": "2023年与《芭比》同期上映的电影，被顺带提及",
+      "importance": "low"
+    },
+    {
+      "name": "哲学与婚姻/家庭的矛盾",
+      "type": "concept",
+      "context": "本集核心议题：对真理的纯粹追求是否与家庭责任相容",
+      "importance": "high"
+    },
+    {
+      "name": "至善(The Good/Kalos/Summum Bonum)",
+      "type": "concept",
+      "context": "柏拉图哲学的核心概念，哲学家追求的普世性善 vs 父母对子女的特定之爱形成张力",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底式反讽(Socratic irony)",
+      "type": "concept",
+      "context": "尼采用'ironisch verheiratet'形容苏格拉底的婚姻态度，指其玩世不恭、阴阳怪气的结婚方式",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底式问答法",
+      "type": "concept",
+      "context": "苏格拉底教育方法，被用来教育儿子兰普洛斯要感激母亲",
+      "importance": "medium"
+    },
+    {
+      "name": "HIIT高强度间歇性训练",
+      "type": "concept",
+      "context": "主播参加的芭比主题健身课形式",
+      "importance": "low"
+    },
+    {
+      "name": "波比跳(Burpee)",
+      "type": "concept",
+      "context": "健身动作，教练口号'向芭比的腹肌看齐'让主播感到愕然",
+      "importance": "low"
+    },
+    {
+      "name": "俯卧撑",
+      "type": "concept",
+      "context": "健身动作，教练口号'push those barbie arms'引发主播对芭比形象的反思",
+      "importance": "low"
+    },
+    {
+      "name": "雅典陪审团审判苏格拉底",
+      "type": "event",
+      "context": "苏格拉底之死，因其'不是好公民'而被判死刑，与'不是好父亲'问题相关联",
+      "importance": "high"
+    },
+    {
+      "name": "雅典人口法令",
+      "type": "event",
+      "context": "允许公民娶一妻并与另一女人生子以增加人口，苏格拉底被描述为响应此号召而娶两妻",
+      "importance": "medium"
+    },
+    {
+      "name": "雅典",
+      "type": "place",
+      "context": "苏格拉底生活的城邦，其政治要求与哲学追求产生冲突的场所",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "64c3c9b8e8176c3ff8eec9a6",
+  "title": "2- 哲学家可以结婚生小孩吗？从芭比聊到尼采和苏格拉底"
+}

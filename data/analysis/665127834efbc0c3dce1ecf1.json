@@ -1,0 +1,320 @@
+{
+  "style": {
+    "opening_pattern": "以个人经历故事引入（秘鲁总统就职典礼的亲历回忆）",
+    "structure": "个人经历→核心问题提出→历史背景分析→数据论证→学者研究引用→具体案例→回归核心问题→总结",
+    "tone": "理性批判、带有知识分子自省色彩、对精英阶层有反思性距离",
+    "catchphrases": [
+      "绕了这么一大圈",
+      "这又是为什么呢",
+      "我觉得",
+      "也就是说",
+      "咱们中国人",
+      "老乡哥",
+      "司机大姐",
+      "摆在我面前",
+      "完毕"
+    ],
+    "closing_pattern": "开放式总结+个人立场表态+预告下期",
+    "narrative_techniques": [
+      "第一人称亲历叙事",
+      "对比（精英vs工人、民主党vs共和党、蓝州vs红州）",
+      "具体人物案例（司机大姐、肉类加工厂黑人工人）",
+      "数据引用",
+      "反问",
+      "类比（用中国读者熟悉的语境解释美国现象）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "2016年当选美国总统，引发播客核心问题的政治人物，其选民构成是整集分析对象",
+      "importance": "high"
+    },
+    {
+      "name": "希拉里",
+      "type": "person",
+      "context": "2016年民主党总统候选人，被主流媒体预测必胜但最终败选，曾称特朗普支持者为'可悲的贱民'(Deplorables)",
+      "importance": "high"
+    },
+    {
+      "name": "Herbert Marcuse/马尔库塞",
+      "type": "person",
+      "context": "法兰克福学派理论家，提出新马克思主义以种族替代阶级的理论，被主播认为是美国左派理论基础",
+      "importance": "high"
+    },
+    {
+      "name": "拜登",
+      "type": "person",
+      "context": "现任美国总统，代表民主党精英阶层，其移民政策被批评忽视工人阶级利益",
+      "importance": "medium"
+    },
+    {
+      "name": "奥巴马",
+      "type": "person",
+      "context": "前总统，被批评在任期间放弃让制造业回流，主张通过大学教育解决工人阶级问题",
+      "importance": "medium"
+    },
+    {
+      "name": "克林顿",
+      "type": "person",
+      "context": "前总统，签署北美自由贸易协定(NAFTA)，被主播认为是系统性放弃工人阶级的关键人物",
+      "importance": "medium"
+    },
+    {
+      "name": "里根",
+      "type": "person",
+      "context": "前总统，1984年当选，主播提到特朗普是自他以来获得工会支持最多的共和党候选人",
+      "importance": "low"
+    },
+    {
+      "name": "威尔逊",
+      "type": "person",
+      "context": "前总统，主播提及美国左派大本营从他之后逐渐从农村转向大学校园",
+      "importance": "low"
+    },
+    {
+      "name": "Salena Zito",
+      "type": "person",
+      "context": "《大西洋月刊》记者，2016年唯一预测特朗普可能获胜的主流媒体记者",
+      "importance": "medium"
+    },
+    {
+      "name": "Batya Ungar-Sargon",
+      "type": "person",
+      "context": "美国学者，著有《二等公民》，主播大量引用其对工人阶级的田野调查",
+      "importance": "high"
+    },
+    {
+      "name": "Elizabeth Warren",
+      "type": "person",
+      "context": "马萨诸塞州参议员，前民主党总统候选人，著有《双收入陷阱》，主播引用其关于住房问题的研究",
+      "importance": "medium"
+    },
+    {
+      "name": "老乡哥",
+      "type": "person",
+      "context": "主播的朋友，正在美国农村公路旅行，提供了底特律机场酒店司机的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "One-Dimensional Man/《单向度的人》",
+      "type": "work",
+      "context": "马尔库塞的著作，提出美国无产阶级过于富裕而无法革命的理论",
+      "importance": "high"
+    },
+    {
+      "name": "White Rural Rage: The Threat to American Democracy/《白人农民的愤怒：对于美国民主的威胁》",
+      "type": "work",
+      "context": "2024年2月出版的政治学著作，代表主流学界将特朗普支持者定性为'愤怒的白人农民'的观点，主播对此持批判态度",
+      "importance": "high"
+    },
+    {
+      "name": "Second Class: How the Elites Betrayed America's Working Men and Women/《二等公民：美国精英如何背叛了美国的劳动人民》",
+      "type": "work",
+      "context": "Batya Ungar-Sargon的著作，主播核心引用的文献，通过田野调查呈现工人阶级真实诉求",
+      "importance": "high"
+    },
+    {
+      "name": "The Two-Income Trap/《双收入陷阱》",
+      "type": "work",
+      "context": "Elizabeth Warren的著作，解释美国梦为何对劳动阶级变得遥不可及，分析蓝州住房昂贵的原因",
+      "importance": "medium"
+    },
+    {
+      "name": "联邦党人文集",
+      "type": "work",
+      "context": "主播在大学研讨会上节选讨论的美国建国文献",
+      "importance": "low"
+    },
+    {
+      "name": "反联邦党人文集",
+      "type": "work",
+      "context": "与《联邦党人文集》对照的美国建国时期文献",
+      "importance": "low"
+    },
+    {
+      "name": "华尔街日报",
+      "type": "work",
+      "context": "主播提及的主流媒体，代表她2016年前尊敬的知识分子话语体系",
+      "importance": "low"
+    },
+    {
+      "name": "纽约时报",
+      "type": "work",
+      "context": "主流媒体代表，被批评完全误判2016年大选",
+      "importance": "low"
+    },
+    {
+      "name": "大西洋月刊",
+      "type": "work",
+      "context": "Salena Zito所在的媒体，唯一预测特朗普可能获胜的主流媒体",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿邮报",
+      "type": "work",
+      "context": "被提及的主流媒体，其民调方法被批评将经济焦虑误读为种族敌意",
+      "importance": "low"
+    },
+    {
+      "name": "新马克思主义",
+      "type": "concept",
+      "context": "法兰克福学派发展的理论，用种族替代阶级作为社会矛盾的核心，主播认为是美国左派的理论基础",
+      "importance": "high"
+    },
+    {
+      "name": "Trump derangement syndrome/特朗普精神错乱综合症",
+      "type": "concept",
+      "context": "形容2016年大选后精英阶层对特朗普的过度反应和长期焦虑状态",
+      "importance": "medium"
+    },
+    {
+      "name": "Angry white man/愤怒的白男",
+      "type": "concept",
+      "context": "主流文化精英对特朗普支持者的标签化解释，主播对此提出质疑",
+      "importance": "medium"
+    },
+    {
+      "name": "white rural rage/白人农民的愤怒",
+      "type": "concept",
+      "context": "与'愤怒的白男'类似的主流学界标签，主播认为这种解释傲慢且二维",
+      "importance": "medium"
+    },
+    {
+      "name": "Lumpenproletariat/流氓无产阶级",
+      "type": "concept",
+      "context": "马尔库塞提出的概念，指在性别和种族上被压迫的群体，取代传统马克思主义的经济无产阶级",
+      "importance": "medium"
+    },
+    {
+      "name": "Deplorables/可悲的贱民",
+      "type": "concept",
+      "context": "希拉里对特朗普支持者的蔑称，成为精英与工人阶级分裂的象征",
+      "importance": "medium"
+    },
+    {
+      "name": "北美自由贸易协定(NAFTA)",
+      "type": "event",
+      "context": "克林顿签署的多国贸易协定，导致500万美国制造业工作外包到墨西哥和中国",
+      "importance": "high"
+    },
+    {
+      "name": "2016年美国总统大选",
+      "type": "event",
+      "context": "特朗普意外胜选的事件，是主播的政治启蒙时刻，也是整集分析的起点",
+      "importance": "high"
+    },
+    {
+      "name": "2018年3月钢铁铝关税立法",
+      "type": "event",
+      "context": "特朗普对外国进口钢铁和铝征收25%关税，被工人阶级视为实际利益保护",
+      "importance": "medium"
+    },
+    {
+      "name": "秘鲁",
+      "type": "place",
+      "context": "主播高中时期参加总统就职典礼的地点，其民粹主义政治经历与美国形成对照",
+      "importance": "medium"
+    },
+    {
+      "name": "新英格兰",
+      "type": "place",
+      "context": "主播2016年居住的地区，美国最偏左、民主党基础最稳固、人均收入最高的区域",
+      "importance": "medium"
+    },
+    {
+      "name": "硅谷",
+      "type": "place",
+      "context": "97%大选支持给民主党的科技中心，代表精英阶层聚集地",
+      "importance": "low"
+    },
+    {
+      "name": "华尔街",
+      "type": "place",
+      "context": "金融圈，主播指出拜登从这里获得比特朗普更多的资金支持",
+      "importance": "low"
+    },
+    {
+      "name": "俄克拉荷马州",
+      "type": "place",
+      "context": "被引用的农村州例子，吸毒、自杀和犯罪率高于大城市",
+      "importance": "low"
+    },
+    {
+      "name": "密歇根州",
+      "type": "place",
+      "context": "主播朋友提到的州，被当地司机称为'特朗普之州'",
+      "importance": "low"
+    },
+    {
+      "name": "密西西比州",
+      "type": "place",
+      "context": "肉类加工厂案例所在地，600非法移民被驱逐后由当地黑人填补岗位",
+      "importance": "low"
+    },
+    {
+      "name": "德克萨斯州",
+      "type": "place",
+      "context": "红州代表，购房难度远低于蓝州马萨诸塞州",
+      "importance": "low"
+    },
+    {
+      "name": "加利福尼亚州",
+      "type": "place",
+      "context": "蓝州代表，需8-10年收入才能负担平均房价",
+      "importance": "low"
+    },
+    {
+      "name": "马萨诸塞州",
+      "type": "place",
+      "context": "Elizabeth Warren所在州，蓝州代表，购房难度极高",
+      "importance": "low"
+    },
+    {
+      "name": "伊顿公学",
+      "type": "organization",
+      "context": "主播室友父亲就读的顶尖精英学校，代表世界主义精英教育",
+      "importance": "low"
+    },
+    {
+      "name": "普林斯顿大学",
+      "type": "organization",
+      "context": "主播室友父亲就读的另一所顶尖精英大学",
+      "importance": "low"
+    },
+    {
+      "name": "世界银行",
+      "type": "organization",
+      "context": "主播室友父亲工作30多年的机构，代表全球经济精英阶层",
+      "importance": "low"
+    },
+    {
+      "name": "MSNBC",
+      "type": "organization",
+      "context": "美国主流媒体，主播批评其在特朗普时代成为民主党啦啦队",
+      "importance": "medium"
+    },
+    {
+      "name": "民主党",
+      "type": "organization",
+      "context": "美国左派政党，主播分析其如何从工人阶级政党转变为精英/大学生政党",
+      "importance": "high"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "美国右派政党，主播分析其如何从资本家政党转变为事实上的'工党'",
+      "importance": "high"
+    },
+    {
+      "name": "法兰克福学派",
+      "type": "organization",
+      "context": "发展出新马克思主义的德国学术流派，马尔库塞是其代表人物",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "665127834efbc0c3dce1ecf1",
+  "title": "64-特朗普选民都是什么人啊？"
+}

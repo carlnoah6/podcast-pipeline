@@ -1,0 +1,447 @@
+{
+  "style": {
+    "opening_pattern": "以朋友的故事引入，通过讲述一位钢琴家朋友的'脑雾'经历建立悬念和情感连接",
+    "structure": "故事→类比→分析→历史背景→哲学反思→总结，采用双线并进的结构：钢琴演奏与柏拉图阅读相互映照",
+    "tone": "理性客观中带有个人温度，学术性与叙事性平衡，既有专业深度又不失亲切感",
+    "catchphrases": [
+      "日安",
+      "脑雾哥",
+      "把谱子放在第一位，把个人情感放在第二位",
+      "穷尽一生",
+      "炼金石",
+      "你真的会弹钢琴",
+      "你为什么在试奏这段音乐",
+      "同道中人",
+      "相视一笑的快乐"
+    ],
+    "closing_pattern": "引用亚里士多德《尼各马可伦理学》关于友谊的论述，升华主题并以温暖的人际连接作结",
+    "narrative_techniques": [
+      "类比",
+      "对比（德奥学派vs俄罗斯学派、本科vs博士阶段）",
+      "举例",
+      "反问",
+      "引用",
+      "个人经历穿插",
+      "对话体"
+    ]
+  },
+  "entities": [
+    {
+      "name": "莫扎特（Wolfgang Amadeus Mozart）",
+      "type": "person",
+      "context": "作为钢琴演奏的核心案例，其奏鸣曲被用来阐释'理解乐谱'与'自由表达'的关系",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "播客核心类比对象，主持人自述从17-18岁起立志'穷尽一生读懂'的哲学家",
+      "importance": "high"
+    },
+    {
+      "name": "勃拉姆斯（Johannes Brahms）",
+      "type": "person",
+      "context": "被描述为'大山'般的作曲家，其即兴曲成为日安被导师点醒的关键曲目",
+      "importance": "high"
+    },
+    {
+      "name": "贝多芬（Ludwig van Beethoven）",
+      "type": "person",
+      "context": "晚期奏鸣曲被详细分析，其语法结构和标点符号成为理解德奥学派的关键案例",
+      "importance": "high"
+    },
+    {
+      "name": "王羽佳",
+      "type": "person",
+      "context": "作为当代顶尖钢琴家的代表，其演奏风格从'炫技先锋'到'追求音色'的转变被分析",
+      "importance": "high"
+    },
+    {
+      "name": "巴赫（Johann Sebastian Bach）",
+      "type": "person",
+      "context": "被提及为赋格的创造者，是理解后续作曲家的基础",
+      "importance": "medium"
+    },
+    {
+      "name": "海顿（Joseph Haydn）",
+      "type": "person",
+      "context": "奏鸣曲形式的发明者，音乐史传承链条中的重要一环",
+      "importance": "medium"
+    },
+    {
+      "name": "车尔尼（Carl Czerny）",
+      "type": "person",
+      "context": "贝多芬的学生，发明了599、740、299等练习曲，教出李斯特",
+      "importance": "medium"
+    },
+    {
+      "name": "李斯特（Franz Liszt）",
+      "type": "person",
+      "context": "第一位concert pianist，开创背谱演奏传统，创作12首炫技练习曲",
+      "importance": "medium"
+    },
+    {
+      "name": "肖邦（Frédéric Chopin）",
+      "type": "person",
+      "context": "第二钢琴奏鸣曲被提及为钢琴家的'炼金石'",
+      "importance": "medium"
+    },
+    {
+      "name": "拉赫玛尼诺夫（Sergei Rachmaninoff）",
+      "type": "person",
+      "context": "其协奏曲是王羽佳的代表曲目，21世纪中国留学生因'听过红歌'而更能理解",
+      "importance": "medium"
+    },
+    {
+      "name": "傅聪",
+      "type": "person",
+      "context": "被提及为欧洲钢琴学派大师，是日安导师的师承来源之一",
+      "importance": "low"
+    },
+    {
+      "name": "威廉·肯普夫（Wilhelm Kempff）",
+      "type": "person",
+      "context": "德国钢琴家，日安导师的师承来源之一",
+      "importance": "low"
+    },
+    {
+      "name": "亨德尔（George Frideric Handel）",
+      "type": "person",
+      "context": "勃拉姆斯编辑了其整套键盘作品",
+      "importance": "low"
+    },
+    {
+      "name": "肖斯塔科维奇（Dmitri Shostakovich）",
+      "type": "person",
+      "context": "第二钢琴协奏曲，王羽佳疫情后卡内基大厅复出音乐会的曲目",
+      "importance": "low"
+    },
+    {
+      "name": "苏格拉底（Socrates）",
+      "type": "person",
+      "context": "柏拉图对话中的主角，其'往下走'到码头的动作被细致分析",
+      "importance": "high"
+    },
+    {
+      "name": "荷马（Homer）",
+      "type": "person",
+      "context": "《奥德赛》的作者，主持人高中四年古希腊语课堂的翻译对象",
+      "importance": "medium"
+    },
+    {
+      "name": "奥德修斯/奥德赛（Odysseus）",
+      "type": "person",
+      "context": "《奥德赛》主人公，主持人反思自己虽翻译无数却从未真正'理解'其情感",
+      "importance": "medium"
+    },
+    {
+      "name": "康德（Immanuel Kant）",
+      "type": "person",
+      "context": "被用来对比柏拉图的阅读难度，也是学生'瞎批判'的典型案例",
+      "importance": "medium"
+    },
+    {
+      "name": "黑格尔（Georg Wilhelm Friedrich Hegel）",
+      "type": "person",
+      "context": "对康德的批评者，主持人在德国自由大学旁听课的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采（Friedrich Nietzsche）",
+      "type": "person",
+      "context": "《查拉图斯特拉如是说》的作者，'上帝死了'的提出者，被用来对比'轻飘飘的引用'与真正的理解",
+      "importance": "high"
+    },
+    {
+      "name": "海德格尔（Martin Heidegger）",
+      "type": "person",
+      "context": "对尼采的批评者，现代哲学批评传统的例子",
+      "importance": "low"
+    },
+    {
+      "name": "林肯（Abraham Lincoln）",
+      "type": "person",
+      "context": "1858年与道格拉斯的辩论者，被美国学生用2024年道德观批判的历史人物",
+      "importance": "medium"
+    },
+    {
+      "name": "道格拉斯（Stephen A. Douglas）",
+      "type": "person",
+      "context": "林肯的辩论对手，主张州自主权而非直接废奴",
+      "importance": "medium"
+    },
+    {
+      "name": "叶文洁的父亲",
+      "type": "person",
+      "context": "《三体》中被学生用政治立场审判的物理学家，用作历史类比",
+      "importance": "low"
+    },
+    {
+      "name": "爱因斯坦（Albert Einstein）",
+      "type": "person",
+      "context": "在《三体》类比中被错误指控'给美国造原子弹'",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德（Aristotle）",
+      "type": "person",
+      "context": "《尼各马可伦理学》的作者，播客结尾引用的关于友谊的论述",
+      "importance": "high"
+    },
+    {
+      "name": "朗朗",
+      "type": "person",
+      "context": "被提及为王羽佳和日安共同师长的著名学生",
+      "importance": "low"
+    },
+    {
+      "name": "斯大林",
+      "type": "person",
+      "context": "其打压导致俄罗斯音乐家逃往美国，使美国成为俄罗斯古典音乐第二故乡",
+      "importance": "low"
+    },
+    {
+      "name": "肖邦",
+      "type": "person",
+      "context": "19世纪浪漫派钢琴家，其学生追溯至古典派时期",
+      "importance": "low"
+    },
+    {
+      "name": "日安（匿名钢琴家朋友）",
+      "type": "person",
+      "context": "播客核心叙述对象，从五岁立志弹好莫扎特，经历脑雾挫折后遇到德奥学派导师",
+      "importance": "high"
+    },
+    {
+      "name": "Glaucon（格劳孔）",
+      "type": "person",
+      "context": "《理想国》中与苏格拉底同行的人物",
+      "importance": "low"
+    },
+    {
+      "name": "《理想国》（Republic）",
+      "type": "work",
+      "context": "柏拉图对话录，开头第一句'Kateben'（往下走）被细致分析",
+      "importance": "high"
+    },
+    {
+      "name": "《奥德赛》（Odyssey）",
+      "type": "work",
+      "context": "荷马史诗，主持人高中四年古希腊语翻译的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "莫扎特奏鸣曲",
+      "type": "work",
+      "context": "日安十岁学过、后被德奥学派导师重新教授的曲目，播客前奏即为此曲",
+      "importance": "high"
+    },
+    {
+      "name": "勃拉姆斯即兴曲",
+      "type": "work",
+      "context": "六首即兴曲，日安激情演奏后被导师评价'不需要用激情使我印象深刻'",
+      "importance": "high"
+    },
+    {
+      "name": "贝多芬晚期奏鸣曲",
+      "type": "work",
+      "context": "五首晚期奏鸣曲的第一首，A大调与E大调主属关系对调的实验性作品",
+      "importance": "high"
+    },
+    {
+      "name": "勃拉姆斯奏鸣曲",
+      "type": "work",
+      "context": "30分钟长度，日安苦学一年后首次获得导师认可'你真的会弹钢琴'",
+      "importance": "medium"
+    },
+    {
+      "name": "肖邦第二钢琴奏鸣曲",
+      "type": "work",
+      "context": "钢琴家的'炼金石'，王羽佳年轻时以不踩踏板的先锋方式演奏",
+      "importance": "medium"
+    },
+    {
+      "name": "拉赫玛尼诺夫协奏曲",
+      "type": "work",
+      "context": "王羽佳的代表曲目，每年演出约10场",
+      "importance": "medium"
+    },
+    {
+      "name": "肖斯塔科维奇第二钢琴协奏曲",
+      "type": "work",
+      "context": "王羽佳疫情后卡内基大厅复出音乐会的曲目，风格明显转变",
+      "importance": "low"
+    },
+    {
+      "name": "土耳其进行曲",
+      "type": "work",
+      "context": "被用来对比技术速度的曲目",
+      "importance": "low"
+    },
+    {
+      "name": "野蜂飞舞",
+      "type": "work",
+      "context": "被用来对比技术速度的曲目",
+      "importance": "low"
+    },
+    {
+      "name": "车尔尼599、740、299",
+      "type": "work",
+      "context": "琴童噩梦般的练习曲，所有钢琴老师都在教",
+      "importance": "medium"
+    },
+    {
+      "name": "李斯特12首炫技练习曲",
+      "type": "work",
+      "context": "钢琴家的'炼金石'",
+      "importance": "medium"
+    },
+    {
+      "name": "《查拉图斯特拉如是说》（Also sprach Zarathustra）",
+      "type": "work",
+      "context": "尼采著作，'上帝死了'的出处",
+      "importance": "high"
+    },
+    {
+      "name": "《尼各马可伦理学》（Nicomachean Ethics）",
+      "type": "work",
+      "context": "亚里士多德著作，第7章关于友谊的论述被引用为结尾",
+      "importance": "high"
+    },
+    {
+      "name": "《三体》",
+      "type": "work",
+      "context": "刘慈欣科幻小说，叶文洁父亲被学生审判的情节被用作历史类比",
+      "importance": "low"
+    },
+    {
+      "name": "德奥学派",
+      "type": "concept",
+      "context": "强调尊重原谱、把谱子放在第一位、高掌关节技术的钢琴演奏传统",
+      "importance": "high"
+    },
+    {
+      "name": "俄罗斯学派",
+      "type": "concept",
+      "context": "强调天赋理解、家族传承，在美国占据半壁江山的钢琴传统",
+      "importance": "high"
+    },
+    {
+      "name": "法国学派",
+      "type": "concept",
+      "context": "手型平、声音细、动作偏多、以音色取胜的钢琴传统",
+      "importance": "medium"
+    },
+    {
+      "name": "维也纳学派",
+      "type": "concept",
+      "context": "德奥学派的分支，日安导师的师承背景",
+      "importance": "medium"
+    },
+    {
+      "name": "脑雾（Brain Fog）",
+      "type": "concept",
+      "context": "新冠后遗症，导致日安记不住谱子、在国际比赛上多次断片",
+      "importance": "high"
+    },
+    {
+      "name": "Sight Reading（视奏/当场翻译）",
+      "type": "concept",
+      "context": "钢琴演奏与古希腊语学习的核心类比概念，指未经充分准备的即时呈现",
+      "importance": "high"
+    },
+    {
+      "name": "Critical Thinking（批判性思维）",
+      "type": "concept",
+      "context": "美国大学教育的核心口号，被批评为'没有理解的批判'",
+      "importance": "high"
+    },
+    {
+      "name": "赋格（Fugue）",
+      "type": "concept",
+      "context": "巴赫创造的音乐形式，音乐学院大一学生的必修内容",
+      "importance": "medium"
+    },
+    {
+      "name": "奏鸣曲（Sonata）",
+      "type": "concept",
+      "context": "海顿发明的音乐形式，古典音乐的核心体裁",
+      "importance": "medium"
+    },
+    {
+      "name": "主属关系（Tonic-Dominant Relationship）",
+      "type": "concept",
+      "context": "贝多芬晚期奏鸣曲中对调使用的乐理概念",
+      "importance": "low"
+    },
+    {
+      "name": "Kateben（κατέβην，往下走）",
+      "type": "concept",
+      "context": "《理想国》第一个词，被分析为苏格拉底离开城邦秩序、走向开放探讨的象征",
+      "importance": "high"
+    },
+    {
+      "name": "Piraeus（比雷埃夫斯港）",
+      "type": "place",
+      "context": "《理想国》开篇苏格拉底前往的码头，象征城邦秩序之外的开放空间",
+      "importance": "medium"
+    },
+    {
+      "name": "中央音乐学院附小",
+      "type": "organization",
+      "context": "日安9岁考入的学校，与王羽佳同校",
+      "importance": "medium"
+    },
+    {
+      "name": "曼哈顿音乐学院",
+      "type": "organization",
+      "context": "日安14岁获全额奖学金就读的学校",
+      "importance": "medium"
+    },
+    {
+      "name": "新英格兰音乐学院",
+      "type": "organization",
+      "context": "播客前奏录制地点，日安与导师上课的地方",
+      "importance": "medium"
+    },
+    {
+      "name": "卡内基大厅（Carnegie Hall）",
+      "type": "place",
+      "context": "日安22岁前已在此独奏，王羽佳疫情后复出音乐会举办地",
+      "importance": "medium"
+    },
+    {
+      "name": "费城交响乐团",
+      "type": "organization",
+      "context": "王羽佳疫情后复出音乐会的合作乐团",
+      "importance": "low"
+    },
+    {
+      "name": "波士顿",
+      "type": "place",
+      "context": "王羽佳来演奏的城市，播客录制地点",
+      "importance": "low"
+    },
+    {
+      "name": "纽约",
+      "type": "place",
+      "context": "卡内基大厅所在地",
+      "importance": "low"
+    },
+    {
+      "name": "德国自由大学",
+      "type": "organization",
+      "context": "主持人旁听黑格尔课程的大学",
+      "importance": "low"
+    },
+    {
+      "name": "伊利诺伊州",
+      "type": "place",
+      "context": "1858年林肯与道格拉斯参议员竞选辩论的发生地",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6625a3bcc3e09d8f378af347",
+  "title": "53-弹好莫扎特和读懂柏拉图有什么相似之处？"
+}
