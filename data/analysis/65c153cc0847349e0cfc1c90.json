@@ -1,0 +1,190 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件引入",
+    "structure": "问题→历史→哲学→现实",
+    "tone": "理性客观",
+    "catchphrases": [
+      "OK",
+      "对吧",
+      "我不知道大家是否觉得",
+      "我想说的是",
+      "所以说",
+      "那其实",
+      "我觉得"
+    ],
+    "closing_pattern": "开放式提问",
+    "narrative_techniques": [
+      "类比",
+      "反问",
+      "举例",
+      "对比"
+    ]
+  },
+  "entities": [
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "现代政治哲学之父，在《利维坦》中提出自然状态下人不会受到惩罚，惩罚的目的是恐吓未来的坏人",
+      "importance": "high"
+    },
+    {
+      "name": "洛克",
+      "type": "person",
+      "context": "古典自由主义思想家，在《政府论二篇》时期英国对小偷的惩罚是砍手，他认为这种惩罚过于严厉",
+      "importance": "high"
+    },
+    {
+      "name": "贝卡利亚",
+      "type": "person",
+      "context": "18世纪提出是否应该废除死刑，认为预防目的下没必要杀死坏人",
+      "importance": "high"
+    },
+    {
+      "name": "边沁",
+      "type": "person",
+      "context": "古典自由主义思想家，与其他思想家在惩罚目的上观点统一",
+      "importance": "medium"
+    },
+    {
+      "name": "密尔",
+      "type": "person",
+      "context": "古典自由主义思想家，与其他思想家在惩罚目的上观点统一",
+      "importance": "medium"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "德国自由主义哲学家，在《道德形而上学》中提出报应主义，认为惩罚是为了尊重罪犯的人格，反对仅以预防为目的的惩罚",
+      "importance": "high"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "德国自由主义哲学家，与康德共同推崇报应主义的惩罚观",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "古典政治哲学家，在《高尔吉亚》中提出惩罚是对灵魂的美好事情，可以改善邪恶的灵魂",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "记录苏格拉底对话的哲学家，《高尔吉亚》的作者",
+      "importance": "medium"
+    },
+    {
+      "name": "福柯",
+      "type": "person",
+      "context": "著有写惩罚的书，书中第一段描绘古代人对犯人的惩罚方式是五马分尸",
+      "importance": "medium"
+    },
+    {
+      "name": "阿尔基比亚德斯",
+      "type": "person",
+      "context": "斯巴达暴君，被年轻人举为例证反驳苏格拉底关于暴君内心不快乐的观点",
+      "importance": "medium"
+    },
+    {
+      "name": "小穆敦老师",
+      "type": "person",
+      "context": "上一期播客中的虚构角色，内心憎恶前夫和朋友的背叛",
+      "importance": "low"
+    },
+    {
+      "name": "《利维坦》",
+      "type": "work",
+      "context": "霍布斯的十七世纪著作，论述自然状态与惩罚的关系",
+      "importance": "high"
+    },
+    {
+      "name": "《政府论二篇》",
+      "type": "work",
+      "context": "洛克的著作，反映了当时英国严厉的刑罚制度",
+      "importance": "high"
+    },
+    {
+      "name": "《道德形而上学》",
+      "type": "work",
+      "context": "康德的著作，阐述报应主义的惩罚观，包含岛国解散前处死死刑犯的著名例子",
+      "importance": "high"
+    },
+    {
+      "name": "《高尔吉亚》",
+      "type": "work",
+      "context": "柏拉图的对话录，记录苏格拉底关于惩罚是对灵魂美好事情的论述",
+      "importance": "high"
+    },
+    {
+      "name": "预防主义（deterrence）",
+      "type": "concept",
+      "context": "现代社会惩罚坏人的第一种观点，认为惩罚的目的是预防犯罪、威慑坏人",
+      "importance": "high"
+    },
+    {
+      "name": "报应主义（retribution）",
+      "type": "concept",
+      "context": "现代社会惩罚坏人的第二种观点，认为惩罚是因为坏人罪有应得，是对犯罪的回报",
+      "importance": "high"
+    },
+    {
+      "name": "自然状态",
+      "type": "concept",
+      "context": "霍布斯提出的概念，指没有法律的状态，人在其中做任何坏事都不会受到惩罚",
+      "importance": "high"
+    },
+    {
+      "name": "社会契约",
+      "type": "concept",
+      "context": "康德理论中的隐形契约，文明社会成员享受便利的同时需遵守规则，破坏则需偿还",
+      "importance": "high"
+    },
+    {
+      "name": "荣誉杀戮",
+      "type": "event",
+      "context": "中东、北非、印度、巴基斯坦、尼泊尔等地仍存在的习俗，因家族名誉杀害违反规范者",
+      "importance": "medium"
+    },
+    {
+      "name": "二战期间用犯人做医学实验",
+      "type": "event",
+      "context": "康德批评预防主义可能导致的历史事实，作为反人道主义的例证",
+      "importance": "medium"
+    },
+    {
+      "name": "比利时",
+      "type": "place",
+      "context": "现代司法体系中人道化惩罚的典型，两年以下罪行基本不用坐牢，最高判25年",
+      "importance": "medium"
+    },
+    {
+      "name": "刚果",
+      "type": "place",
+      "context": "比利时殖民统治所在地，被描述为全欧洲殖民统治中最邪恶残忍的",
+      "importance": "low"
+    },
+    {
+      "name": "北欧社会",
+      "type": "place",
+      "context": "被描述为现代共产主义社会，监狱条件如度假村，体现预防主义矫正理念的极端发展",
+      "importance": "medium"
+    },
+    {
+      "name": "古典自由主义",
+      "type": "concept",
+      "context": "支持预防主义惩罚观的学派，包括霍布斯、洛克、贝卡利亚、边沁、密尔等",
+      "importance": "high"
+    },
+    {
+      "name": "德国自由主义",
+      "type": "concept",
+      "context": "支持报应主义惩罚观的学派，以康德、黑格尔为代表",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65c153cc0847349e0cfc1c90",
+  "title": "24-现代社会为什么要惩罚坏人？"
+}

@@ -1,0 +1,156 @@
+{
+  "style": {
+    "opening_pattern": "以播客制作背景和个人介绍引入，先解释节目性质和表达风格，再进入主题",
+    "structure": "个人背景说明→学术象牙塔的自嘲→减肥经历炫耀→核心案例对比（榜眼哥/前夫卡尔）→哲学理论阐释（亚里士多德vs康德）→总结升华",
+    "tone": "轻松自嘲、学术化口语、带有炫耀性的真诚",
+    "catchphrases": [
+      "唠个磕",
+      "榜眼哥",
+      "孔雀开屏",
+      "左耳朵进右耳朵出",
+      "纯天然的原生想法",
+      "得瑟一下",
+      "匪夷所思",
+      "硬生生的"
+    ],
+    "closing_pattern": "开放式提问邀请听众反馈",
+    "narrative_techniques": [
+      "类比（减肥与捡钱包的道德选择）",
+      "对比（亚里士多德式vs康德式）",
+      "举例（比利时法官朋友、陕西朋友、前夫卡尔）",
+      "自嘲（编辑技术无能）",
+      "故事化（与榜眼哥的年夜饭、卡尔的减肥史）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "作为古典道德观的代表，其'中庸之道'和'节制'美德被用来概括一种通过调整欲望本身来实现健康的生活方式",
+      "importance": "high"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "作为现代道德观的代表，其强调意志力和理性压制欲望的理论被用来概括一种通过强制约束行为来减肥的方式",
+      "importance": "high"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "主播的朋友，高考地区第三名，采用极端节食（每顿15个虾仁）快速减肥，作为'康德式减肥'的案例",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔",
+      "type": "person",
+      "context": "主播的前夫，通过每天跑10公里、300个俯卧撑和极度控制饮食快速减重40斤，是更极端的'康德式减肥'案例",
+      "importance": "high"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "被引用来说明'通向普世真理的途径一定是通过个人的途径'",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "与亚里士多德并列，其著作中讨论暴饮暴食作为灵魂不节制的体现",
+      "importance": "medium"
+    },
+    {
+      "name": "阿奎纳",
+      "type": "person",
+      "context": "中世纪哲学家，与亚里士多德并列作为'不产生卑劣欲望'的道德心态代表",
+      "importance": "medium"
+    },
+    {
+      "name": "海德格尔",
+      "type": "person",
+      "context": "被提及作为'可以将人与其行为剥离'的例子（曾加入纳粹党但仍可讨论其哲学）",
+      "importance": "low"
+    },
+    {
+      "name": "瓦格纳",
+      "type": "person",
+      "context": "德国作曲家，主播曾因认为其作品'过于民族主义'而中途离场",
+      "importance": "low"
+    },
+    {
+      "name": "《伦理学》",
+      "type": "work",
+      "context": "亚里士多德的著作，其中提出'中庸之道'和12种需要在过多与过少之间寻找平衡的美德",
+      "importance": "high"
+    },
+    {
+      "name": "中庸之道",
+      "type": "concept",
+      "context": "亚里士多德伦理学的核心观点，指在过多和过少之间寻找平衡点的美德实践方式",
+      "importance": "high"
+    },
+    {
+      "name": "节制",
+      "type": "concept",
+      "context": "古希腊美德的核心，指对欲望的控制，既不过度放纵也不过度压抑",
+      "importance": "high"
+    },
+    {
+      "name": "意志力",
+      "type": "concept",
+      "context": "康德式道德观的核心，指用理性强制压制自然欲望的能力，被视为美德的体现",
+      "importance": "high"
+    },
+    {
+      "name": "奥林匹克",
+      "type": "event",
+      "context": "作为古希腊传统的延续，体现古希腊文明对肉体健康的关注",
+      "importance": "low"
+    },
+    {
+      "name": "马拉松",
+      "type": "event",
+      "context": "同样作为古希腊传统，说明古希腊人对肉体健美的重视",
+      "importance": "low"
+    },
+    {
+      "name": "浙江",
+      "type": "place",
+      "context": "主播的家乡，饮食清淡、海鲜丰富，塑造了其先天的健康饮食欲望",
+      "importance": "medium"
+    },
+    {
+      "name": "北京",
+      "type": "place",
+      "context": "榜眼哥本科就读地，暗示其后来饮食习惯的变化",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "主播和榜眼哥目前所在地，主播描述其为'肥胖的国度'，消费环境腐蚀了其原有饮食习惯",
+      "importance": "medium"
+    },
+    {
+      "name": "比利时",
+      "type": "place",
+      "context": "主播的法官朋友的国籍，用于说明即使在西方也存在极其学术化的表达方式",
+      "importance": "low"
+    },
+    {
+      "name": "The New Thinkery",
+      "type": "work",
+      "context": "主播朋友制作的政治思想史播客，主播曾向其编辑请教播客制作技术",
+      "importance": "low"
+    },
+    {
+      "name": "巴赫小提琴协奏曲",
+      "type": "work",
+      "context": "主播唯一会添加的片头片尾音乐，象征其播客制作的'原生态'",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65d1488bb6c9256aeeee435c",
+  "title": "29-亚里士多德和康德分别会如何去减肥"
+}

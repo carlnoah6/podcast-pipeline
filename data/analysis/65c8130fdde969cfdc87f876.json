@@ -1,0 +1,125 @@
+{
+  "style": {
+    "opening_pattern": "以社会现象观察引入，列举年轻人关注的社交媒体话题（搞钱、省钱）作为切入点",
+    "structure": "现象描述→数据支撑→个人经历→哲学引入（康德）→文学分析（伏尔泰《老实人》）→历史引用（马基雅维利）→双重答案总结",
+    "tone": "理性深沉、带有个人情感共鸣的哲学式探讨",
+    "catchphrases": [
+      "虚头巴脑",
+      "搞钱",
+      "耕种我们的花园",
+      "一切都是最好的",
+      "失去希望",
+      "迷茫焦虑",
+      "平静地过好每一天"
+    ],
+    "closing_pattern": "引用名言并转化为个人实践宣言，以新年祝福作结",
+    "narrative_techniques": [
+      "类比（股市与情绪）",
+      "举例（小表妹的对话）",
+      "对比（父母一代与当代年轻人）",
+      "引用（书信原文）",
+      "故事讲述（老实人的流浪）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "播客中引用其文章《永久和平论》，讨论在绝望与希望之间寻找平衡点的哲学智慧",
+      "importance": "high"
+    },
+    {
+      "name": "伏尔泰",
+      "type": "person",
+      "context": "法国启蒙思想家，其讽刺小说《老实人》是本期播客的核心文本，用以阐述'耕种花园'的生活态度",
+      "importance": "high"
+    },
+    {
+      "name": "莱布尼茨",
+      "type": "person",
+      "context": "被伏尔泰讽刺的哲学家，其乐观主义哲学认为'这是所有可能世界中最好的世界'",
+      "importance": "medium"
+    },
+    {
+      "name": "马基雅维利",
+      "type": "person",
+      "context": "文艺复兴时期政治哲学家，其给朋友的书信被引用来说明通过阅读与古人对话获得慰藉的方式",
+      "importance": "high"
+    },
+    {
+      "name": "修昔底德",
+      "type": "person",
+      "context": "古希腊历史学家，被引用其对和平的定义——'不过是两场战争之间的间隔'",
+      "importance": "low"
+    },
+    {
+      "name": "约翰·宾",
+      "type": "person",
+      "context": "英国海军将军，在《老实人》中被提及因未正确交战而被处决的历史人物",
+      "importance": "low"
+    },
+    {
+      "name": "《老实人》（Candide）",
+      "type": "work",
+      "context": "伏尔泰1759年出版的讽刺小说，核心文本，讲述主人公从天真乐观到实践性乐观的转变",
+      "importance": "high"
+    },
+    {
+      "name": "《永久和平论》",
+      "type": "work",
+      "context": "康德的政治哲学文章，讨论不可能实现的目标对于平衡绝望与希望的意义",
+      "importance": "medium"
+    },
+    {
+      "name": "《君主论》",
+      "type": "work",
+      "context": "马基雅维利的政治哲学著作，被认为是现代政治哲学的开创之作",
+      "importance": "medium"
+    },
+    {
+      "name": "乐观主义",
+      "type": "concept",
+      "context": "莱布尼茨的哲学观点，认为现存世界是最好的可能世界，被伏尔泰在《老实人》中讽刺",
+      "importance": "high"
+    },
+    {
+      "name": "耕种花园（cultivate our garden）",
+      "type": "concept",
+      "context": "《老实人》结尾的核心隐喻，代表在认清现实残酷后仍选择积极实践的生活态度",
+      "importance": "high"
+    },
+    {
+      "name": "里斯本大地震",
+      "type": "event",
+      "context": "1755年发生的真实自然灾害，在《老实人》中被用来摧毁主人公的乐观主义幻想",
+      "importance": "medium"
+    },
+    {
+      "name": "七年战争",
+      "type": "event",
+      "context": "18世纪欧洲大规模战争，在《老实人》中被描绘为残酷现实的一部分",
+      "importance": "low"
+    },
+    {
+      "name": "葡萄牙宗教审判所",
+      "type": "organization",
+      "context": "《老实人》中描绘的宗教迫害机构，代表当时欧洲的黑暗面",
+      "importance": "low"
+    },
+    {
+      "name": "耶稣会",
+      "type": "organization",
+      "context": "罗马天主教修会，在《老实人》中被描绘为奴役土著的势力",
+      "importance": "low"
+    },
+    {
+      "name": "上证指数",
+      "type": "other",
+      "context": "中国股市指标，被用来对比2007年、2015年与当下的数据，说明投资者情绪低迷",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65c8130fdde969cfdc87f876",
+  "title": "26-对未来失去希望的年轻人要怎么平静地过好每一天？"
+}

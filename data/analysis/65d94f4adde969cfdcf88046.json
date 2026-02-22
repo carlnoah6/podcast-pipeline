@@ -1,0 +1,260 @@
+{
+  "style": {
+    "opening_pattern": "以当代春晚小品的衰落现象引入，通过个人观看体验建立共鸣",
+    "structure": "现象描述→历史对比（赵本山时期）→高峰分析（陈佩斯时期）→哲学内核阐释（古典自由主义）→现实关照与总结",
+    "tone": "理性客观中带有个人温情，学术分析与情感表达交织",
+    "catchphrases": [
+      "我清楚地记得",
+      "我想说的是",
+      "那我觉得",
+      "那在这里呢",
+      "哇真的太厉害了",
+      "那下面怎么办呢",
+      "OK",
+      "拜拜"
+    ],
+    "closing_pattern": "回归播客与听众的关系，强调信任连接的意义，开放式收尾",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "举例",
+      "引用访谈",
+      "古希腊语词源分析",
+      "电影对照（无间道）",
+      "反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "陈佩斯",
+      "type": "person",
+      "context": "春晚小品开创者，其喜剧作品体现古典自由主义内核，1999年后离开春晚转向话剧创作",
+      "importance": "high"
+    },
+    {
+      "name": "朱时茂",
+      "type": "person",
+      "context": "陈佩斯的固定搭档，与陈佩斯共同开创春晚小品形式，代表作《吃面条》《主角和配角》等",
+      "importance": "high"
+    },
+    {
+      "name": "赵本山",
+      "type": "person",
+      "context": "陈佩斯之后的春晚小品代表人物，以东北农民形象著称，2008年《火炬手》后曾公开表达创作压力",
+      "importance": "high"
+    },
+    {
+      "name": "哈耶克",
+      "type": "person",
+      "context": "奥地利经济学家，古典自由主义代表人物，其《通往奴役之路》中对中央计划经济的批评被用来类比春晚的资源集中问题",
+      "importance": "high"
+    },
+    {
+      "name": "米塞斯",
+      "type": "person",
+      "context": "奥地利学派经济学家，与哈耶克并列提及，代表古典自由主义经济思想",
+      "importance": "medium"
+    },
+    {
+      "name": "范伟",
+      "type": "person",
+      "context": "赵本山的搭档，共同出演《卖拐》《心病》等经典小品",
+      "importance": "low"
+    },
+    {
+      "name": "高秀敏",
+      "type": "person",
+      "context": "赵本山的搭档，共同出演《卖拐》系列小品",
+      "importance": "low"
+    },
+    {
+      "name": "宋丹丹",
+      "type": "person",
+      "context": "赵本山的搭档，2004-2006年《白云黑土》《小崔说事》等小品创造大量流行语",
+      "importance": "medium"
+    },
+    {
+      "name": "马东",
+      "type": "person",
+      "context": "《一年一度喜剧大赛》创办者，被主播提及作为当代优秀喜剧节目的代表",
+      "importance": "low"
+    },
+    {
+      "name": "刘德华",
+      "type": "person",
+      "context": "电影《无间道》演员，其饰演的刘建明角色被用来类比《警察和小偷》中身份认同的悲剧性",
+      "importance": "low"
+    },
+    {
+      "name": "梁朝伟",
+      "type": "person",
+      "context": "电影《无间道》演员，与刘德华的天台对手戏被引用",
+      "importance": "low"
+    },
+    {
+      "name": "《吃面条》",
+      "type": "work",
+      "context": "1984年春晚首个小品，陈佩斯朱时茂代表作，讲述小演员为拍镜头连吃三桶面的故事",
+      "importance": "high"
+    },
+    {
+      "name": "《主角和配角》",
+      "type": "work",
+      "context": "陈佩斯朱时茂经典小品，讲述主角与配角抢戏的故事",
+      "importance": "high"
+    },
+    {
+      "name": "《羊肉串》",
+      "type": "work",
+      "context": "陈佩斯朱时茂小品，城管与卖过期羊肉串小贩的斗智斗勇，体现不冒犯弱者的喜剧伦理",
+      "importance": "high"
+    },
+    {
+      "name": "《警察和小偷》",
+      "type": "work",
+      "context": "1991年春晚小品，主播最喜欢的陈佩斯作品，讲述小偷穿警服放哨后产生身份认同混乱的故事",
+      "importance": "high"
+    },
+    {
+      "name": "《胡椒面》",
+      "type": "work",
+      "context": "1989年春晚小品，无台词纯肢体表演，展现上层人士与蓝领工人抢胡椒面的冲突",
+      "importance": "high"
+    },
+    {
+      "name": "《白云黑土》/《小崔说事》",
+      "type": "work",
+      "context": "赵本山宋丹丹2004-2006年小品，创造'必须的''走了太伤自尊了'等流行语",
+      "importance": "medium"
+    },
+    {
+      "name": "《卖拐》系列",
+      "type": "work",
+      "context": "赵本山范伟高秀敏经典小品系列",
+      "importance": "low"
+    },
+    {
+      "name": "《心病》",
+      "type": "work",
+      "context": "赵本山范伟小品",
+      "importance": "low"
+    },
+    {
+      "name": "《火炬手》",
+      "type": "work",
+      "context": "2008年赵本山宋丹丹小品，因教育意义过重导致赵本山演后哭泣并表示想放弃",
+      "importance": "medium"
+    },
+    {
+      "name": "《无间道》",
+      "type": "work",
+      "context": "香港电影，其天台对峙场景被用来类比《警察和小偷》的身份悲剧",
+      "importance": "low"
+    },
+    {
+      "name": "《通往奴役之路》",
+      "type": "work",
+      "context": "哈耶克著作，其中对中央计划经济的批评被主播用来类比春晚的资源集中问题",
+      "importance": "medium"
+    },
+    {
+      "name": "老友记（网易采访）",
+      "type": "work",
+      "context": "陈佩斯接受的网易采访，主播多次引用其中关于春晚、文化市场、明朝歌舞秀的论述",
+      "importance": "high"
+    },
+    {
+      "name": "一年一度喜剧大赛",
+      "type": "work",
+      "context": "马东制作的喜剧竞演节目，被主播作为当代优秀喜剧的代表提及",
+      "importance": "low"
+    },
+    {
+      "name": "Philosophy（哲学播客）",
+      "type": "work",
+      "context": "主播两位哲学系教授朋友制作的播客，苹果播客评论数对比成为开场引子",
+      "importance": "low"
+    },
+    {
+      "name": "古典自由主义",
+      "type": "concept",
+      "context": "核心分析框架，主播用以解读陈佩斯喜剧的世界观内核，包括自由市场、反对中央集权、人与人之间信任的建立等",
+      "importance": "high"
+    },
+    {
+      "name": "奥地利经济学派/奥派",
+      "type": "concept",
+      "context": "古典自由主义的经济学分支，主播自称与其智库关系密切，哈耶克米塞斯为代表人物",
+      "importance": "high"
+    },
+    {
+      "name": "poiesis/poiein",
+      "type": "concept",
+      "context": "古希腊语，意为'创造'，主播用此论证艺术家的核心能力是创造力而非仅观察力",
+      "importance": "medium"
+    },
+    {
+      "name": "technique/episteme",
+      "type": "concept",
+      "context": "古希腊语区分，技巧与理论知识，主播用以分析《胡椒面》体现的喜剧工匠技艺",
+      "importance": "medium"
+    },
+    {
+      "name": "polycentrism",
+      "type": "concept",
+      "context": "多中心主义，奥地利经济学派概念，指信任在本地自主选择的群体中形成，与中央集权相对",
+      "importance": "medium"
+    },
+    {
+      "name": "春晚/中央电视台春节联欢晚会",
+      "type": "event",
+      "context": "分析的核心对象，主播认为其从1984年陈佩斯开创的高峰逐渐演变为资源过度集中的'春天祭祀大典'",
+      "importance": "high"
+    },
+    {
+      "name": "明朝宫廷歌舞秀",
+      "type": "event",
+      "context": "陈佩斯在采访中举的例子，用以说明政府集中资源办大型艺术活动导致地方文化衰败",
+      "importance": "medium"
+    },
+    {
+      "name": "文革结束后的喜剧复兴",
+      "type": "event",
+      "context": "主播提及的历史背景，陈佩斯喜剧被视为'从完全没有喜剧到可以笑的社会'的转变标志",
+      "importance": "medium"
+    },
+    {
+      "name": "浙江",
+      "type": "place",
+      "context": "主播童年居住地，用以说明赵本山小品对其作为南方女孩的陌生感与吸引力",
+      "importance": "low"
+    },
+    {
+      "name": "东北",
+      "type": "place",
+      "context": "赵本山小品的地理背景，主播童年时对其完全陌生的北方世界",
+      "importance": "low"
+    },
+    {
+      "name": "乌鲁木齐/新疆",
+      "type": "place",
+      "context": "《羊肉串》中陈佩斯假扮维吾尔族人的设定，主播分析其如何避免刻板印象冒犯",
+      "importance": "low"
+    },
+    {
+      "name": "北京",
+      "type": "place",
+      "context": "陈佩斯话剧演出地，主播因未去过而未能观看",
+      "importance": "low"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "主播所属播客平台或制作方，开场提及",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65d94f4adde969cfdcf88046",
+  "title": "30-陈佩斯喜剧反映出怎样的古典自由主义内核？"
+}

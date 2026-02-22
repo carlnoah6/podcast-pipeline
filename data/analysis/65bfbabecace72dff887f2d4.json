@@ -1,0 +1,190 @@
+{
+  "style": {
+    "opening_pattern": "虚构角色设定+直接点明主题",
+    "structure": "个人叙事（故事细节铺陈）→情感爆发与转折（闺蜜电话揭露真相）→理性反思（复仇欲望与自我挣扎）→历史哲学升华（修昔底德案例）→引用名言收束",
+    "tone": "坦诚私密、情感浓烈但理性克制，兼具文学性与思辨性",
+    "catchphrases": [
+      "小木敦老师/小树墩老师",
+      "老树敦爸爸",
+      "so what",
+      "乳腺畅通",
+      "狗男女",
+      "家人们",
+      "我他妈",
+      "虚头巴脑",
+      "正牌男女友",
+      "惺惺相惜"
+    ],
+    "closing_pattern": "引用哲学家名言（欧克肖特）作结",
+    "narrative_techniques": [
+      "第一人称沉浸式叙事",
+      "时间线倒叙与插叙",
+      "细节堆砌（物品清单、邮件内容）",
+      "对比（过去甜蜜/现在残酷）",
+      "类比（哈姆雷特鬼魂案例）",
+      "反问与自我对话",
+      "历史典故映射个人经历"
+    ]
+  },
+  "entities": [
+    {
+      "name": "小木敦老师/小树墩老师",
+      "type": "person",
+      "context": "播客叙述者虚构的自我投射角色，被前夫和闺蜜双重背叛的博士生妻子",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔",
+      "type": "person",
+      "context": "小木敦老师的前夫，美国博士生，婚内出轨并谋夺房产",
+      "importance": "high"
+    },
+    {
+      "name": "林阳小姐",
+      "type": "person",
+      "context": "小木敦老师相识12年的中国闺蜜，与前夫卡尔婚内出轨",
+      "importance": "high"
+    },
+    {
+      "name": "小花",
+      "type": "person",
+      "context": "小木敦老师的高中室友、白人朋友，打电话告知出轨真相的关键人物",
+      "importance": "high"
+    },
+    {
+      "name": "老树敦老师/老树敦爸爸",
+      "type": "person",
+      "context": "小木敦老师的父亲，溺爱女婿、为其购买西装和钢琴",
+      "importance": "medium"
+    },
+    {
+      "name": "Michael Oakeshott/欧克肖特",
+      "type": "person",
+      "context": "20世纪英国政治哲学家，播客结尾引用其关于'世界有蟑螂但仍值得热爱'的名言",
+      "importance": "medium"
+    },
+    {
+      "name": "修昔底德",
+      "type": "person",
+      "context": "古希腊历史学家，其《伯罗奔尼撒战争史》中被背叛岛国案例成为主播反思正义代价的核心文本",
+      "importance": "high"
+    },
+    {
+      "name": "哈姆雷特",
+      "type": "person",
+      "context": "莎士比亚戏剧人物，主播以其'看见鬼魂'的独白类比陈述事实不构成诽谤",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "德国哲学家，卡尔在离婚前一天还在家庭群提及要去大学教黑格尔",
+      "importance": "low"
+    },
+    {
+      "name": "《伯罗奔尼撒战争史》",
+      "type": "work",
+      "context": "修昔底德的历史著作，主播因教学需要阅读并从中获得面对背叛的智慧",
+      "importance": "high"
+    },
+    {
+      "name": "《水浒传》",
+      "type": "work",
+      "context": "中国古典小说，主播提及小时候读此书感受到'天下无公平'的道理",
+      "importance": "low"
+    },
+    {
+      "name": "中美律师函",
+      "type": "work",
+      "context": "卡尔和林阳联名发出的两封律师函，要求删除社交媒体帖子并道歉",
+      "importance": "medium"
+    },
+    {
+      "name": "劳夫劳伦西装/Ralph Lauren",
+      "type": "work",
+      "context": "卡尔定制的高级西装，离婚前一天还在向岳父索要购买",
+      "importance": "low"
+    },
+    {
+      "name": "婚内出轨/背叛",
+      "type": "concept",
+      "context": "播客核心议题，探讨如何面对至亲之人的双重背叛及人性阴暗面",
+      "importance": "high"
+    },
+    {
+      "name": "正义的代价",
+      "type": "concept",
+      "context": "通过修昔底德案例中岛国抵抗雅典导致灭国的故事，反思追求完全正义可能带来的自我毁灭",
+      "importance": "high"
+    },
+    {
+      "name": "三个月冷静期",
+      "type": "concept",
+      "context": "美国法律规定的离婚程序，期间双方不得再婚",
+      "importance": "medium"
+    },
+    {
+      "name": "女性之间的相互尊重",
+      "type": "concept",
+      "context": "主播强调与林阳友谊的基础是才华欣赏而非小女生情谊，因此背叛伤害更深",
+      "importance": "medium"
+    },
+    {
+      "name": "芝加哥",
+      "type": "place",
+      "context": "小木敦老师与卡尔购房的城市，也是卡尔与林阳同居出轨的地点",
+      "importance": "high"
+    },
+    {
+      "name": "波士顿",
+      "type": "place",
+      "context": "小木敦老师2023年秋季教书的城市，与卡尔分居两地",
+      "importance": "low"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "小木敦老师与卡尔2023年暑假做访问学者并度蜜月的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "加州",
+      "type": "place",
+      "context": "小木敦老师高中好友举办婚礼的地点",
+      "importance": "low"
+    },
+    {
+      "name": "布拉格",
+      "type": "place",
+      "context": "小木敦老师与卡尔暑假旅行地点，被视为爱情证据的甜蜜回忆",
+      "importance": "low"
+    },
+    {
+      "name": "比利时",
+      "type": "place",
+      "context": "主播男性朋友读法学博士并通过司法考试即将成为法官的国家",
+      "importance": "low"
+    },
+    {
+      "name": "杭州同乡会",
+      "type": "organization",
+      "context": "主播计划参加的春节社交活动之一",
+      "importance": "low"
+    },
+    {
+      "name": "苹果手表",
+      "type": "other",
+      "context": "小木敦老师9月送给卡尔的礼物，离婚时被带走表身留下空壳",
+      "importance": "low"
+    },
+    {
+      "name": "本杰里冰淇淋/Ben & Jerry's",
+      "type": "other",
+      "context": "主播提及卡尔认识她之前连这个冰淇淋品牌都没吃过，暗示其出身寒微",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65bfbabecace72dff887f2d4",
+  "title": "23-如何面对至亲的背叛？"
+}

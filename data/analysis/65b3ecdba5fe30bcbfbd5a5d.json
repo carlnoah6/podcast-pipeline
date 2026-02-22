@@ -1,0 +1,201 @@
+{
+  "style": {
+    "opening_pattern": "以激烈反讽和挑衅性言论开场，直接否定听众期待，用'给两个大耳瓜子'等夸张表达制造冲突感",
+    "structure": "核心观点前置→个人经历佐证→批判错误方法（快乐学习）→具体学习方法论→文化融入的反思→语言维持的困境→诗意升华结尾",
+    "tone": "犀利直率、自嘲与自信交织、带有愤怒感的真诚，时而刻薄时而温情",
+    "catchphrases": [
+      "下苦功",
+      "笨办法",
+      "没有捷径",
+      "葵花宝典",
+      "悬梁刺股",
+      "悲愤的心态",
+      "精神残疾",
+      "话不投机半句多",
+      "知识的幻影",
+      "关掉这期播客"
+    ],
+    "closing_pattern": "引用自己多年前的知乎回答，以诗意的个人感悟作结，将语言学习升华为时空穿越般的存在体验",
+    "narrative_techniques": [
+      "类比（功夫电影/天龙八部/鸣龙少年）",
+      "对比（自己vs美国同学/中国网民vs母语者）",
+      "自我揭露（青春期孤独经历）",
+      "反问",
+      "场景化描写（清晨背单词、咖啡馆闲聊）",
+      "反讽"
+    ]
+  },
+  "entities": [
+    {
+      "name": "张若昀",
+      "type": "person",
+      "context": "电视剧《鸣龙少年》的主演，饰演带领差生逆袭上清北的班主任",
+      "importance": "medium"
+    },
+    {
+      "name": "周星驰",
+      "type": "person",
+      "context": "电影《功夫》主演，被用来类比'买到葵花宝典改变人生'的幻想",
+      "importance": "low"
+    },
+    {
+      "name": "段誉",
+      "type": "person",
+      "context": "《天龙八部》角色，因毒物入口获得武功，被用来批判'不劳而获'的学习幻想",
+      "importance": "medium"
+    },
+    {
+      "name": "金庸",
+      "type": "person",
+      "context": "《天龙八部》作者，主播自称也是其粉丝",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "法国哲学家，被美国人用英语发音读作'如索'而非法语'胡索'",
+      "importance": "low"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "古希腊哲学家，主播通过阅读原文后觉得他'是一个傲慢之徒'",
+      "importance": "medium"
+    },
+    {
+      "name": "赫拉克利特",
+      "type": "person",
+      "context": "古希腊哲学家，被描述为'神秘莫测的人'",
+      "importance": "low"
+    },
+    {
+      "name": "《鸣龙少年》",
+      "type": "work",
+      "context": "热播电视剧，主播用来批判'创新教学法'和'差生逆袭秘籍'的虚假叙事",
+      "importance": "high"
+    },
+    {
+      "name": "《功夫》",
+      "type": "work",
+      "context": "周星驰电影，被用来类比对学习秘籍的幻想",
+      "importance": "low"
+    },
+    {
+      "name": "《天龙八部》",
+      "type": "work",
+      "context": "金庸武侠小说，段誉获得武功的方式被用来批判不劳而获心态",
+      "importance": "medium"
+    },
+    {
+      "name": "国家地理杂志",
+      "type": "work",
+      "context": "主播英语进步后在课堂上阅读的材料",
+      "importance": "low"
+    },
+    {
+      "name": "托福",
+      "type": "work",
+      "context": "英语水平考试，主播第一次106分第二次115分",
+      "importance": "medium"
+    },
+    {
+      "name": "雅思",
+      "type": "work",
+      "context": "被提及作为另一种应试英语考试",
+      "importance": "low"
+    },
+    {
+      "name": "AP拉丁考试",
+      "type": "work",
+      "context": "美国大学入门考试，主播拿了满分",
+      "importance": "medium"
+    },
+    {
+      "name": "明德暑期学校(Middlebury)",
+      "type": "organization",
+      "context": "美国最好的语言学校，主播在此进行三个月沉浸式阿拉伯语学习",
+      "importance": "medium"
+    },
+    {
+      "name": "Académie Française(法兰西学术院)",
+      "type": "organization",
+      "context": "法国官方机构，负责认证法语新词，维护法语纯洁性",
+      "importance": "medium"
+    },
+    {
+      "name": "快乐学习",
+      "type": "concept",
+      "context": "美国外语教学理念，被主播批判为效率低下、摧毁认真学习者",
+      "importance": "high"
+    },
+    {
+      "name": "沉浸式学习",
+      "type": "concept",
+      "context": "主播提到的有钱人学习外语方式，如飞到目标国家生活",
+      "importance": "medium"
+    },
+    {
+      "name": "小舌音",
+      "type": "concept",
+      "context": "法语特殊发音，美国学生普遍不发，老师也不纠正",
+      "importance": "low"
+    },
+    {
+      "name": "名词性别",
+      "type": "concept",
+      "context": "德语语法难点，需要记忆中性/阳性/阴性，比英语更复杂",
+      "importance": "low"
+    },
+    {
+      "name": "C1/C2语言等级",
+      "type": "concept",
+      "context": "欧洲语言共同参考框架，C1为高级，C2接近母语水平",
+      "importance": "medium"
+    },
+    {
+      "name": "寄宿学校",
+      "type": "place",
+      "context": "主播初中就读的学校类型，早上7点早自习，条件艰苦",
+      "importance": "medium"
+    },
+    {
+      "name": "南法",
+      "type": "place",
+      "context": "主播高中室友父母有度假房的地方，体现阶级差距的语言学习环境",
+      "importance": "medium"
+    },
+    {
+      "name": "Cape Cod",
+      "type": "place",
+      "context": "美国白人主流文化中的夏季度假地，主播曾假装感兴趣以融入",
+      "importance": "low"
+    },
+    {
+      "name": "Nantucket",
+      "type": "place",
+      "context": "美国白人主流文化中的夏季度假地",
+      "importance": "low"
+    },
+    {
+      "name": "帕特农神庙",
+      "type": "place",
+      "context": "古希腊建筑，象征古典世界的大门，与学习者的距离是'两千五百年'",
+      "importance": "medium"
+    },
+    {
+      "name": "高考",
+      "type": "event",
+      "context": "被用来类比托福等应试考试的逻辑：理解出题者意图",
+      "importance": "medium"
+    },
+    {
+      "name": "19世纪德国学者",
+      "type": "event",
+      "context": "在人文领域做出巨大贡献，其文献未被完全翻译，过去美国博士必须学德语阅读",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65b3ecdba5fe30bcbfbd5a5d",
+  "title": "22-如何学习和维持外语？"
+}
