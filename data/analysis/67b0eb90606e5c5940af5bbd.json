@@ -1,0 +1,388 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件引入——直接点明本期主题（诬告），并交代核心事件的时间、人物和背景，迅速建立叙事张力",
+    "structure": "个人经历→法律流程详解→多方博弈细节→学术/哲学反思→情感升华与自我疗愈，形成'遭遇-对抗-反思-成长'的完整弧线",
+    "tone": "理性克制中蕴含强烈情感，前半段冷静分析法律程序，后半段逐渐释放压抑的情绪，整体呈现'创伤后的清醒'",
+    "catchphrases": [
+      "臭名昭著",
+      "灰溜溜的撤诉",
+      "无聊诉讼",
+      "斗牛的律师/Bulldog Lawyer",
+      "搬起石头砸自己的脚",
+      "捏碎了牙咽下去",
+      "臭虫",
+      "狮子",
+      "粪球",
+      "守得云开见月明"
+    ],
+    "closing_pattern": "引用自己写的文字作结，以文学化的隐喻（臭虫与狮子）完成从受害者到幸存者的身份转换，兼具诗意与力量感",
+    "narrative_techniques": [
+      "第一人称亲历叙事",
+      "时间线清晰的事件还原",
+      "大量具体数字增强真实感（168页、10万美金、244000关注者）",
+      "对话体穿插（与律师、博导的对话）",
+      "类比（《罪与罚》Raskolnikov、化疗、臭虫与狮子）",
+      "反讽（对方律师的'名声'、和解要求的荒谬）",
+      "悬念设置（诉讼结果未知时的焦虑）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "小木敦/明镜",
+      "type": "person",
+      "context": "播客主播，本集叙述者，被前夫和闺蜜诬告诽谤的当事人",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔",
+      "type": "person",
+      "context": "小木敦的前夫，与林杨婚内出轨后联合起诉小木敦诽谤",
+      "importance": "high"
+    },
+    {
+      "name": "林杨",
+      "type": "person",
+      "context": "小木敦十几年的闺蜜，与卡尔婚内出轨后联合起诉小木敦，并向大学诬告其性骚扰",
+      "importance": "high"
+    },
+    {
+      "name": "小花",
+      "type": "person",
+      "context": "白人女性朋友，2024年1月撞见卡尔和林杨手牵手购物并告知小木敦",
+      "importance": "medium"
+    },
+    {
+      "name": "Marc Randazza",
+      "type": "person",
+      "context": "卡尔和林杨聘请的极右翼律师，以代理色情明星、白人至上主义者、Alex Jones等臭名昭著客户闻名",
+      "importance": "high"
+    },
+    {
+      "name": "马克律师",
+      "type": "person",
+      "context": "小木敦聘请的波士顿民事诉讼律师，有三十多年名誉诉讼经验",
+      "importance": "high"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "小木敦最好的朋友，其老公是纽约律所律师，在小木敦被告后提供关键帮助",
+      "importance": "medium"
+    },
+    {
+      "name": "医生大爷",
+      "type": "person",
+      "context": "与小木敦一起做瑜伽的朋友，虽非律师但熟悉医疗诉讼，帮助推荐律师",
+      "importance": "low"
+    },
+    {
+      "name": "小木敦的博导",
+      "type": "person",
+      "context": "七十多岁的女性学者，在诉讼期间给予小木敦关于法律正义与个人正义分离的关键劝诫",
+      "importance": "high"
+    },
+    {
+      "name": "严飞",
+      "type": "person",
+      "context": "曾在采访中与小木敦讨论过博导的劝诫",
+      "importance": "low"
+    },
+    {
+      "name": "鲁豫",
+      "type": "person",
+      "context": "曾在采访中与小木敦讨论过博导的劝诫，也是播客听众",
+      "importance": "low"
+    },
+    {
+      "name": "陶姐",
+      "type": "person",
+      "context": "与小木敦讨论美国政治的朋友，帮助她通过播客制作获得心流体验",
+      "importance": "low"
+    },
+    {
+      "name": "Alex Jones",
+      "type": "person",
+      "context": "InfoWars媒体人，因否认Sandy Hook校园枪击案真实性被告，Marc Randazza曾为其代理",
+      "importance": "medium"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "俄国作家，朋友将其小说《罪与罚》中的Raskolnikov与卡尔、林杨类比",
+      "importance": "medium"
+    },
+    {
+      "name": "Raskolnikov",
+      "type": "person",
+      "context": "《罪与罚》男主角，杀人但不承认自己是杀人犯，被用来类比卡尔和林杨的心理",
+      "importance": "medium"
+    },
+    {
+      "name": "田震",
+      "type": "person",
+      "context": "歌手，小木敦在痛苦时听其歌曲《风雨彩虹铿锵玫瑰》",
+      "importance": "low"
+    },
+    {
+      "name": "保姆哥",
+      "type": "person",
+      "context": "为小木敦GoFundMe捐款的朋友",
+      "importance": "low"
+    },
+    {
+      "name": "老乡哥",
+      "type": "person",
+      "context": "为小木敦GoFundMe捐款的朋友",
+      "importance": "low"
+    },
+    {
+      "name": "无锡同学",
+      "type": "person",
+      "context": "为小木敦GoFundMe捐款的朋友",
+      "importance": "low"
+    },
+    {
+      "name": "迈阿密法学院法学教授",
+      "type": "person",
+      "context": "听闻小木敦被校方调查后主动写信抗议的素不相识的学者",
+      "importance": "low"
+    },
+    {
+      "name": "美国政治教授",
+      "type": "person",
+      "context": "小木敦所在系的教授，计划用她的案例教学讨论校园官僚制度的程序不公",
+      "importance": "low"
+    },
+    {
+      "name": "第23期播客",
+      "type": "work",
+      "context": "小木敦2024年2月发布的讨论如何面对背叛的播客，被卡尔和林杨要求删除",
+      "importance": "high"
+    },
+    {
+      "name": "第49期播客",
+      "type": "work",
+      "context": "被卡尔和林杨要求删除的另一期播客",
+      "importance": "medium"
+    },
+    {
+      "name": "《罪与罚》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基小说，朋友用其中人物类比卡尔和林杨的心理状态",
+      "importance": "medium"
+    },
+    {
+      "name": "《纪念两段友谊的开始和终结》",
+      "type": "work",
+      "context": "小木敦2024年1月在小红书发布的帖子，记录与林杨的友谊及介绍她认识卡尔的过程",
+      "importance": "medium"
+    },
+    {
+      "name": "《风雨彩虹铿锵玫瑰》",
+      "type": "work",
+      "context": "田震演唱的歌曲，小木敦在痛苦时期反复聆听",
+      "importance": "low"
+    },
+    {
+      "name": "corruptrandazza.com",
+      "type": "work",
+      "context": "Marc Randazza的受害者建立的专门批评他的网站",
+      "importance": "low"
+    },
+    {
+      "name": "诽谤/Defamation",
+      "type": "concept",
+      "context": "卡尔和林杨起诉小木敦的核心罪名，指控她称两人为'通奸者'损害其名誉",
+      "importance": "high"
+    },
+    {
+      "name": "通奸/Adultery",
+      "type": "concept",
+      "context": "小木敦对卡尔和林杨关系的定性，成为诉讼争议焦点",
+      "importance": "high"
+    },
+    {
+      "name": "第一修正案/First Amendment",
+      "type": "concept",
+      "context": "美国宪法保障的言论自由条款，法官以此为由倾向支持小木敦",
+      "importance": "high"
+    },
+    {
+      "name": "无聊诉讼/Frivolous litigation",
+      "type": "concept",
+      "context": "缺乏事实依据、明知必败的诉讼，小木敦的律师认为本案接近此定义",
+      "importance": "high"
+    },
+    {
+      "name": "Privileged information",
+      "type": "concept",
+      "context": "公开的法律流程信息，任何人都可以讨论和诠释",
+      "importance": "medium"
+    },
+    {
+      "name": "Bulldog Lawyer",
+      "type": "concept",
+      "context": "马克律师形容廉价威胁性律师的术语，指收费低、乱咬人的律师",
+      "importance": "medium"
+    },
+    {
+      "name": "间接跟踪/Stalking by proxy",
+      "type": "concept",
+      "context": "卡尔和林杨向大学指控小木敦的罪名，指通过播客煽动粉丝跟踪他们",
+      "importance": "high"
+    },
+    {
+      "name": "禁言令/Gag order",
+      "type": "concept",
+      "context": "卡尔和林杨和解要求中小木敦终身不得提及相关经历的限制条款",
+      "importance": "medium"
+    },
+    {
+      "name": "保密令/Protective order",
+      "type": "concept",
+      "context": "卡尔和林杨申请的对性行为时间地点信息保密的法庭命令，被法官拒绝",
+      "importance": "medium"
+    },
+    {
+      "name": "程序正义 vs 结果正义",
+      "type": "concept",
+      "context": "小木敦批评大学调查时提出的核心矛盾，也是迈阿密法学院教授关注的议题",
+      "importance": "high"
+    },
+    {
+      "name": "制度正义 vs 个人正义",
+      "type": "concept",
+      "context": "博导向小木敦阐述的关键区分，法律只保证前者而非后者",
+      "importance": "high"
+    },
+    {
+      "name": "Sandy Hook校园枪击案",
+      "type": "event",
+      "context": "2012年美国康涅狄格州校园枪击案，Alex Jones否认其真实性引发诉讼",
+      "importance": "medium"
+    },
+    {
+      "name": "2024年1月17日离婚法庭",
+      "type": "event",
+      "context": "小木敦此前不知前夫出轨，上庭后三天被小花告知真相",
+      "importance": "high"
+    },
+    {
+      "name": "2024年5月正式离婚",
+      "type": "event",
+      "context": "小木敦恢复法律单身，同月发现被卡尔和林杨起诉",
+      "importance": "high"
+    },
+    {
+      "name": "2024年6月14日收到诉状",
+      "type": "event",
+      "context": "法警上门送达168页诉状，标志着诉讼正式开始",
+      "importance": "high"
+    },
+    {
+      "name": "2025年1月31日法官听证会",
+      "type": "event",
+      "context": "马萨诸塞州最高法庭法官提前开庭，痛斥双方并勒令卡尔和林杨提交性行为时间证据",
+      "importance": "high"
+    },
+    {
+      "name": "2025年2月撤诉",
+      "type": "event",
+      "context": "卡尔和林杨在法官要求取证后一周内签字同意撤诉",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "诉讼发生地，小木敦在此经历完整的民事诉讼流程",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "卡尔和林杨曾发中文律师函删除小木敦小红书内容；小木敦担心诉讼可能延烧至此",
+      "importance": "medium"
+    },
+    {
+      "name": "波士顿/麻省",
+      "type": "place",
+      "context": "马克律师执业所在地，诉讼管辖地",
+      "importance": "medium"
+    },
+    {
+      "name": "芝加哥",
+      "type": "place",
+      "context": "卡尔和林杨所在城市，小花在此撞见两人出轨",
+      "importance": "medium"
+    },
+    {
+      "name": "海德公园",
+      "type": "place",
+      "context": "芝加哥大学附近区域，二妹曾表示若见到卡尔会扇他耳光",
+      "importance": "low"
+    },
+    {
+      "name": "新英格兰地区",
+      "type": "place",
+      "context": "医生大爷声称认识此地所有一流律师",
+      "importance": "low"
+    },
+    {
+      "name": "马克律师的律所",
+      "type": "organization",
+      "context": "代理小木敦应诉的波士顿律师事务所",
+      "importance": "medium"
+    },
+    {
+      "name": "小木敦的大学",
+      "type": "organization",
+      "context": "卡尔和林杨向其性骚扰办公室提出投诉的机构，启动了独立的校方调查",
+      "importance": "high"
+    },
+    {
+      "name": "迈阿密法学院",
+      "type": "organization",
+      "context": "主动介入声援小木敦的法学教授所属机构",
+      "importance": "low"
+    },
+    {
+      "name": "InfoWars",
+      "type": "organization",
+      "context": "Alex Jones创办的极端右翼媒体平台",
+      "importance": "low"
+    },
+    {
+      "name": "GoFundMe",
+      "type": "organization",
+      "context": "小木敦为筹集律师费开设的水滴筹平台",
+      "importance": "medium"
+    },
+    {
+      "name": "小宇宙",
+      "type": "organization",
+      "context": "播客平台，《独树不成林》一年内从4000增长到244000关注者",
+      "importance": "medium"
+    },
+    {
+      "name": "小红书",
+      "type": "organization",
+      "context": "小木敦发布离婚帖子的平台，后被律师函删除30多个帖子",
+      "importance": "medium"
+    },
+    {
+      "name": "豆瓣小组",
+      "type": "organization",
+      "context": "林杨从中截图网友对小木敦的恶意揣测作为诉讼证据",
+      "importance": "low"
+    },
+    {
+      "name": "天涯",
+      "type": "organization",
+      "context": "林杨从中搜索小木敦相关信息的早期中文论坛",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67b0eb90606e5c5940af5bbd",
+  "title": "184-在美国忍受诬告是什么体验？"
+}

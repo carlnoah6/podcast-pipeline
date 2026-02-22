@@ -1,0 +1,185 @@
+{
+  "style": {
+    "opening_pattern": "以日常生活场景和个人计划引入，从预制菜、鸡、普洱茶等往期主题自然过渡到本期蔬菜主题",
+    "structure": "个人故事→具体食材对比（番茄、葱、面粉、酵母、葡萄、辣椒、牛奶、豆浆）→哲学概念升华（logos与eros）→社会观察（工业化与饮食节制）→总结回归",
+    "tone": "亲切随性、理性中带感性，既有生活化的口语表达，又有哲学思辨的深度",
+    "catchphrases": [
+      "你能想象",
+      "如果你体验过你就知道我在说什么",
+      "对吧",
+      "我想说的是",
+      "哇",
+      "味同嚼蜡",
+      "眨巴着她的大眼睛",
+      "叽里咕噜",
+      "不知不觉",
+      "献给我的朋友"
+    ],
+    "closing_pattern": "点明播客献给特定人物（保安大爷Peter），预告下期内容方向，温馨告别",
+    "narrative_techniques": [
+      "类比",
+      "举例",
+      "对比",
+      "反问",
+      "个人经历叙事",
+      "引用古典哲学概念",
+      "对话式互动",
+      "层层递进"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Peter",
+      "type": "person",
+      "context": "希腊裔美国保安大爷，与主播因背诵《伊利亚特》结识，多年友谊，定期赠送自家种植的番茄",
+      "importance": "high"
+    },
+    {
+      "name": "杨医生",
+      "type": "person",
+      "context": "主播的母亲，农村长大，怀念外婆腌的咸菜，坚持打新鲜豆浆不加糖",
+      "importance": "medium"
+    },
+    {
+      "name": "荷马/Homer",
+      "type": "person",
+      "context": "古希腊诗人，主播向Peter背诵其史诗《伊利亚特》前十行以示敬意",
+      "importance": "low"
+    },
+    {
+      "name": "尼采/Nietzsche",
+      "type": "person",
+      "context": "被引用来形容超市柜员无法理解'葡萄味的葡萄'，如同'尼采笔下的盲人'",
+      "importance": "low"
+    },
+    {
+      "name": "Pauline Nana",
+      "type": "person",
+      "context": "评论区蒙古族听众，描述内蒙古鲜奶与工业牛奶的口感差异",
+      "importance": "medium"
+    },
+    {
+      "name": "Amy",
+      "type": "person",
+      "context": "评论区蒙古族听众，补充呼伦贝尔巴尔虎部落牛奶的天然甜味特征",
+      "importance": "medium"
+    },
+    {
+      "name": "《伊利亚特》",
+      "type": "work",
+      "context": "荷马史诗，主播背诵其前十行给希腊保安Peter听",
+      "importance": "low"
+    },
+    {
+      "name": "logos",
+      "type": "concept",
+      "context": "古典希腊哲学概念，指逻辑、语言、理性，与自然完美所代表的eros（爱欲、体验）形成对立",
+      "importance": "high"
+    },
+    {
+      "name": "eros",
+      "type": "concept",
+      "context": "古典希腊哲学概念，指爱欲、体验、感受，与logos（理性逻辑）相对，代表自然完美的评判标准",
+      "importance": "high"
+    },
+    {
+      "name": "工业完美",
+      "type": "concept",
+      "context": "基于理性和逻辑的标准化完美，可复制、可数据化衡量，如超市番茄的外形标准",
+      "importance": "high"
+    },
+    {
+      "name": "自然完美",
+      "type": "concept",
+      "context": "基于经验和感受的完美，突出食物本性，如保安家番茄的'番茄味'",
+      "importance": "high"
+    },
+    {
+      "name": "番茄性/tomato-ness",
+      "type": "concept",
+      "context": "主播创造的术语，指番茄作为番茄的本质特征，超市番茄缺乏这种'灵魂'",
+      "importance": "medium"
+    },
+    {
+      "name": "老酵母",
+      "type": "concept",
+      "context": "传统发酵方式，代代相传的酵母菌种，与工业酵母粉发酵出的面食风味截然不同",
+      "importance": "medium"
+    },
+    {
+      "name": "胚芽层",
+      "type": "concept",
+      "context": "小麦加工中被工业化面粉去除的部分，含有维生素和面香，使面粉呈惨白色而非自然色",
+      "importance": "medium"
+    },
+    {
+      "name": "希腊经济崩溃（1970年代）",
+      "type": "event",
+      "context": "Peter在希腊经济崩溃前逃到美国的历史背景",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "主播留学和生活的地方，工业化食品的典型场域，与中国的饮食经验形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "主播旅游时购买过当地超市的葱",
+      "importance": "low"
+    },
+    {
+      "name": "荷兰",
+      "type": "place",
+      "context": "主播旅游时购买过当地超市的葱",
+      "importance": "low"
+    },
+    {
+      "name": "卡塔尔",
+      "type": "place",
+      "context": "主播旅游时购买过当地超市的葱",
+      "importance": "low"
+    },
+    {
+      "name": "以色列",
+      "type": "place",
+      "context": "主播旅游时购买过当地超市的葱",
+      "importance": "low"
+    },
+    {
+      "name": "内蒙古",
+      "type": "place",
+      "context": " listeners描述的天然牛奶产地，与省外及国外工业牛奶形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "呼伦贝尔巴尔虎部落",
+      "type": "place",
+      "context": "蒙古族listener描述的优质牛奶原产地，强调干牛粪烧火铜锅熬奶的传统",
+      "importance": "low"
+    },
+    {
+      "name": "小菜厂",
+      "type": "place",
+      "context": "中国传统的菜市场形态，摊主会赠送带泥巴的小葱，与美国超市形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "伊利",
+      "type": "organization",
+      "context": "中国工业牛奶品牌，listener指出省内（内蒙古）与省外产品口感差异",
+      "importance": "low"
+    },
+    {
+      "name": "蒙牛",
+      "type": "organization",
+      "context": "中国工业牛奶品牌，listener对比其与天然鲜奶的区别",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "673d5c2e11045e78e5725f59",
+  "title": "136-什么是一颗完美的番茄？"
+}

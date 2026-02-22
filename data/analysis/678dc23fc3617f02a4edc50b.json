@@ -1,0 +1,151 @@
+{
+  "style": {
+    "opening_pattern": "以回顾过往美食播客内容（鸡王争霸赛、保安番茄、普洱茶、给外国人做饭）的方式开场，通过对比引出本期主题——为何之前从未讨论过东海海鲜，因为这是一种“反普世性”的感情",
+    "structure": "个人故事→具体经验→哲学反思。先解释“反普世性”概念，接着讲述母亲作为海鲜女工的经历、童年出海捕鱼的记忆，再详细描述三种鱼类（带鱼、鲳鱼、黄鱼）的品鉴经验，最后上升到对经验知识与普世知识、工业食品与传统食物的对照反思",
+    "tone": "亲切絮叨而充满感情，像朋友间的深夜长谈，既有温情脉脉的个人回忆，又有知识分子的深刻反思，热情中带着固执，不严肃但极具穿透力",
+    "catchphrases": [
+      "普世性/反普世性",
+      "东海海鲜女工",
+      "蛮鱼（瞒着妈妈的蛮）",
+      "蒜瓣肉",
+      "金光闪闪/银光闪闪",
+      "热盈眶（我们是老乡）",
+      "面子菜",
+      "beach hater（沙滩歧视者）",
+      "康乐醋",
+      "三巨头（鲳黄带）"
+    ],
+    "closing_pattern": "总结核心观点（工业食品的普世性vs基于经验的反普世性知识），强调这是“工业社会无法理解的真实世界”，然后简单道别",
+    "narrative_techniques": [
+      "类比（鲳鱼像美女、带鱼像宝剑、黄鱼肉像蒜瓣）",
+      "对比（金鲳vs银鲳、野生vs养殖、美国vs中国、普世性vs反普世性）",
+      "具体细节描写（鳞片反光、手冻得像红萝卜、瞒着妈妈吃鳗鱼）",
+      "个人轶事（出海晕船、外公的海鲜厂、美国朋友请吃假鲳鱼）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "主播/我（海鲜女工的女儿）",
+      "type": "person",
+      "context": "讲述者，母亲是海鲜女工，外公开海鲜厂，童年常出海捕鱼，自称“海鲜大王”",
+      "importance": "high"
+    },
+    {
+      "name": "母亲/杨医生",
+      "type": "person",
+      "context": "儿科医生，小时候是海鲜女工，手因剥虾冻得像红萝卜，教会主播如何挑鱼",
+      "importance": "high"
+    },
+    {
+      "name": "外公",
+      "type": "person",
+      "context": "开海鲜厂，母亲小时候在厂里剥虾",
+      "importance": "medium"
+    },
+    {
+      "name": "外婆",
+      "type": "person",
+      "context": "去码头买便宜渔货，经历饥荒年代，因饮食习惯得糖尿病",
+      "importance": "medium"
+    },
+    {
+      "name": "美国内陆朋友",
+      "type": "person",
+      "context": "请主播吃金鲳却以为是银鲳，被主播认为不懂装懂",
+      "importance": "medium"
+    },
+    {
+      "name": "东海海鲜女工",
+      "type": "other",
+      "context": "主播的身份认同，指母亲和自己，代表一种基于经验的、反普世的知识持有者",
+      "importance": "high"
+    },
+    {
+      "name": "普世性/反普世性",
+      "type": "concept",
+      "context": "核心概念，主播对东海海鲜的爱是基于特定地域经验、无法被逻辑论证的、与现代工业普世性相悖的感情",
+      "importance": "high"
+    },
+    {
+      "name": "经验知识",
+      "type": "concept",
+      "context": "与科学真理/逻辑论点相对，基于生活经验和常识的知识，如识别银鲳和金鲳的能力",
+      "importance": "high"
+    },
+    {
+      "name": "面子菜",
+      "type": "concept",
+      "context": "用于彰显身份地位的菜肴，如昂贵的野生大黄鱼、全鳞鲳鱼，与主播朴素的海鲜观相对",
+      "importance": "medium"
+    },
+    {
+      "name": "东海海鲜三巨头",
+      "type": "concept",
+      "context": "指带鱼、黄鱼、鲳鱼，是东海最拿得上台面的三种鱼类",
+      "importance": "high"
+    },
+    {
+      "name": "康乐醋",
+      "type": "work",
+      "context": "主播最喜爱的醋，来自家乡，口味清淡鲜甜，最适合蘸新鲜海鲜",
+      "importance": "high"
+    },
+    {
+      "name": "黄鱼鲞",
+      "type": "work",
+      "context": "晒干熟成的黄鱼，旧时渔民因黄鱼泛滥而制作",
+      "importance": "medium"
+    },
+    {
+      "name": "沙蒜豆面",
+      "type": "work",
+      "context": "新荣记的招牌菜，使用丑陋但鲜美的沙蒜（海葵）制作",
+      "importance": "medium"
+    },
+    {
+      "name": "东海",
+      "type": "place",
+      "context": "主播的家乡海域，出产特定的小海鲜，与海南、越南、外洋海域不同",
+      "importance": "high"
+    },
+    {
+      "name": "浙江",
+      "type": "place",
+      "context": "主播的家乡省份，与福建、广东共享相似的海洋文化和胃",
+      "importance": "medium"
+    },
+    {
+      "name": "福建",
+      "type": "place",
+      "context": "与浙江共享同一片海，喜爱黄鱼作为面子菜，喜欢在汤里加酒",
+      "importance": "medium"
+    },
+    {
+      "name": "汕头",
+      "type": "place",
+      "context": "母亲弟弟工作的地方，母亲常去那里吃潮汕菜",
+      "importance": "low"
+    },
+    {
+      "name": "新奥尔良",
+      "type": "place",
+      "context": "美国传统虾农集中地，因进口虾冲击而衰落",
+      "importance": "low"
+    },
+    {
+      "name": "冈比亚",
+      "type": "place",
+      "context": "非洲国家，美国最大的冷冻虾进口国，存在大量非法捕捞",
+      "importance": "low"
+    },
+    {
+      "name": "新荣记",
+      "type": "organization",
+      "context": "著名餐厅，将沙蒜豆面推广给全国人民",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "678dc23fc3617f02a4edc50b",
+  "title": "168-东海海鲜女工如何反思普世性？"
+}

@@ -1,0 +1,332 @@
+{
+  "style": {
+    "opening_pattern": "以剧情回顾引入，承接上一集内容，预告本集主题",
+    "structure": "历史背景铺垫→核心论点提出（神学院=体制）→宗教知识科普→三个具体案例分析→总结升华",
+    "tone": "理性客观中带点犀利，学术性与通俗性结合，偶尔使用网络用语增加亲和力",
+    "catchphrases": [
+      "让我先退一步",
+      "OK",
+      "换句话说",
+      "对吧",
+      "所以说",
+      "我们可以这么理解",
+      "用现代网络语来说",
+      "平心而论",
+      "我觉得",
+      "这也是一个非常真实的我觉得对于现实的描述"
+    ],
+    "closing_pattern": "总结观点+预告下一集+开放式感慨",
+    "narrative_techniques": [
+      "类比（考公/体制内）",
+      "对比（于连与同学、天主教与新教、詹森主义者与其他神父）",
+      "举例（高启强故事）",
+      "反问",
+      "引用原文"
+    ]
+  },
+  "entities": [
+    {
+      "name": "于连",
+      "type": "person",
+      "context": "《红与黑》男主角，进入神学院试图通过'考公'进入天主教会体制，因野心勃勃、独立思考而在神学院中处处碰壁",
+      "importance": "high"
+    },
+    {
+      "name": "司汤达",
+      "type": "person",
+      "context": "《红与黑》作者，播客分析其如何通过于连的神学院经历描绘体制内的生存法则",
+      "importance": "high"
+    },
+    {
+      "name": "马丁·路德",
+      "type": "person",
+      "context": "1517年发动新教革命的德国神学家，播客以其作为天主教与新教分裂的关键人物，后成为于连在神学院的外号",
+      "importance": "high"
+    },
+    {
+      "name": "谢朗神父",
+      "type": "person",
+      "context": "小说中唯二的詹森主义者之一，推荐于连进入神学院，因真正信仰而被孤立",
+      "importance": "medium"
+    },
+    {
+      "name": "神学院院长（皮拉尔神父）",
+      "type": "person",
+      "context": "小说中另一位詹森主义者，面试于连时发现其有新教倾向但仍视其为同路人，后帮助于连改善处境",
+      "importance": "medium"
+    },
+    {
+      "name": "本地主教",
+      "type": "person",
+      "context": "于连通过院长介绍与之促膝长谈三小时的人文主义者，因赏识于连而改善其在神学院的处境",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "于连崇拜的历史人物，代表于连对永恒功业的渴望，与神学院体制的平庸形成对照",
+      "importance": "medium"
+    },
+    {
+      "name": "西哀士",
+      "type": "person",
+      "context": "法国大革命时期在教条教义中极其优秀却投奔革命方的例子，被用来论证教会为何警惕过于杰出的学生",
+      "importance": "low"
+    },
+    {
+      "name": "圣杰罗姆",
+      "type": "person",
+      "context": "天主教著名圣人，于连对其名字茫然无知，暴露其新教倾向",
+      "importance": "low"
+    },
+    {
+      "name": "圣奥古斯丁",
+      "type": "person",
+      "context": "天主教著名圣人，于连对其不了解，与传统天主教徒形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "圣波纳文图拉",
+      "type": "person",
+      "context": "天主教著名圣人，于连对其一无所知",
+      "importance": "low"
+    },
+    {
+      "name": "圣巴西略",
+      "type": "person",
+      "context": "天主教著名圣人，于连对其茫然无知",
+      "importance": "low"
+    },
+    {
+      "name": "帕斯卡",
+      "type": "person",
+      "context": "法国思想家，播客提到不理解詹森主义就无法理解他",
+      "importance": "low"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "被中国人视若珍宝的基督教哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "被中国人视若珍宝的基督教哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "被中国人视若珍宝的基督教哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "被中国人视若珍宝的基督教哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "其对宗教的蔑视导致中国人对宗教存在偏见和无知",
+      "importance": "low"
+    },
+    {
+      "name": "高启强",
+      "type": "person",
+      "context": "《狂飙》角色，播客用于类比于连因抱上大腿（主教）而改善处境的故事",
+      "importance": "low"
+    },
+    {
+      "name": "李宗盛",
+      "type": "person",
+      "context": "字幕志愿者，在结尾被提及",
+      "importance": "low"
+    },
+    {
+      "name": "《红与黑》",
+      "type": "work",
+      "context": "本集解析的19世纪法国小说，通过于连的经历展现1830年法国社会不同切片",
+      "importance": "high"
+    },
+    {
+      "name": "圣经",
+      "type": "work",
+      "context": "于连精通的文本，但在天主教语境中过度熟悉反而暴露其新教倾向",
+      "importance": "high"
+    },
+    {
+      "name": "95条论纲",
+      "type": "work",
+      "context": "马丁·路德1517年发表的文献，发动新教革命",
+      "importance": "medium"
+    },
+    {
+      "name": "《教皇论》（De Maistre）",
+      "type": "work",
+      "context": "维护教皇专制论的权威著作，于连背诵此书试图拍马屁却因讨论过深而失败",
+      "importance": "medium"
+    },
+    {
+      "name": "塔西佗",
+      "type": "work",
+      "context": "罗马历史学家，主教因于连提及而赠送其作品给神学院图书馆",
+      "importance": "low"
+    },
+    {
+      "name": "普鲁塔克",
+      "type": "work",
+      "context": "罗马作家，主教读过的'世俗研究'二流学科",
+      "importance": "low"
+    },
+    {
+      "name": "贺拉斯",
+      "type": "work",
+      "context": "罗马诗人，主教读过的'世俗研究'二流学科",
+      "importance": "low"
+    },
+    {
+      "name": "天主教",
+      "type": "concept",
+      "context": "播客核心分析对象，被重新定义为政治机构而非宗教机构，是19世纪法国最大的'体制'",
+      "importance": "high"
+    },
+    {
+      "name": "新教",
+      "type": "concept",
+      "context": "1517年从天主教分裂而出的基督教分支，强调个人与上帝的直接联系，与天主教形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "詹森主义",
+      "type": "concept",
+      "context": "17世纪天主教内部接近新教的神学运动，强调严格道德实践，小说中唯二真正信仰者的归属",
+      "importance": "high"
+    },
+    {
+      "name": "加尔文主义",
+      "type": "concept",
+      "context": "新教分支，詹森主义信仰与之类似",
+      "importance": "medium"
+    },
+    {
+      "name": "Sola Fide（因信称义）",
+      "type": "concept",
+      "context": "新教核心教义，只要信仰即可，无需教会中介",
+      "importance": "medium"
+    },
+    {
+      "name": "正统（Orthodox）",
+      "type": "concept",
+      "context": "天主教核心，要求理性匍匐于教条之下，是体制内生存的关键能力",
+      "importance": "high"
+    },
+    {
+      "name": "自由思想者（Free Thinker）",
+      "type": "concept",
+      "context": "于连在神学院中被认定的身份，被视为滔天大罪，导致其被孤立",
+      "importance": "high"
+    },
+    {
+      "name": "服从性测试",
+      "type": "concept",
+      "context": "播客用现代网络语描述神学院的苦行修炼，于连后期才领悟其重要性",
+      "importance": "medium"
+    },
+    {
+      "name": "扮猪吃老虎",
+      "type": "concept",
+      "context": "播客核心分析的体制内生存策略，于连尝试但失败",
+      "importance": "high"
+    },
+    {
+      "name": "厚黑学",
+      "type": "concept",
+      "context": "于连试图运用但拙劣失败的权力斗争技巧",
+      "importance": "medium"
+    },
+    {
+      "name": "考公/进体制",
+      "type": "concept",
+      "context": "播客用以类比19世纪法国神学院的核心隐喻，贯穿全篇",
+      "importance": "high"
+    },
+    {
+      "name": "铁饭碗/编制",
+      "type": "concept",
+      "context": "播客用以描述神学院学生追求的安稳生计",
+      "importance": "medium"
+    },
+    {
+      "name": "新教革命（1517年）",
+      "type": "event",
+      "context": "马丁·路德发动，导致基督教分裂为天主教和新教",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "被用来解释教会为何警惕过于杰出的学生（如西哀士投奔革命）",
+      "importance": "medium"
+    },
+    {
+      "name": "1830年",
+      "type": "event",
+      "context": "《红与黑》故事发生的年代，法国社会变革的关键时期",
+      "importance": "medium"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "19世纪欧洲最大的天主教国家，小说故事发生地",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "19世纪的新教国家",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "19世纪的新教国家",
+      "importance": "low"
+    },
+    {
+      "name": "德国/普鲁士",
+      "type": "place",
+      "context": "19世纪尚未统一，马丁·路德的故乡",
+      "importance": "low"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "法国最繁华的大城市，于连神学院后将前往的'老钱'贵族聚集地",
+      "importance": "medium"
+    },
+    {
+      "name": "县级市/小镇（维里埃）",
+      "type": "place",
+      "context": "小说前半段故事发生地，代表旧法国与新法国交织的社会切片",
+      "importance": "medium"
+    },
+    {
+      "name": "圣母大学",
+      "type": "organization",
+      "context": "播客举例说明天主教大学的命名特征",
+      "importance": "low"
+    },
+    {
+      "name": "天主教会/法国天主教会",
+      "type": "organization",
+      "context": "被重新定义为政治机构的'体制'，是19世纪法国重要的政治力量",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "675650bf17cd5416ad862b6d",
+  "title": "145-19世纪法国考公进入体制是咋样滴（《红与黑》解析5）"
+}

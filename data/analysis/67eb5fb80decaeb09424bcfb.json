@@ -1,0 +1,269 @@
+{
+  "style": {
+    "opening_pattern": "以听众评论引入，建立轻松氛围后迅速转入核心议题",
+    "structure": "观察现象→提出核心矛盾（特朗普政府的行为悖论）→具体案例分析（行政令针对律所）→历史纵深追溯（联邦党人协会40年布局）→人物深度剖析（Leonard Leo采访）→左右对比分析（建制派vs民粹派）→总结升华",
+    "tone": "理性客观中带批判锋芒，学术分析与政治评论交织，既有知识分子的冷静梳理，也有对当下局势的忧虑",
+    "catchphrases": [
+      "独树不成林",
+      "穿越体制的长征",
+      "互殴型政治",
+      "体制内的夺权",
+      "幕后建筑师",
+      "零售式的个案推动",
+      "批发式的深层影响力",
+      "像破唱片一样在强调",
+      "lawfare",
+      "铁拳惩罚"
+    ],
+    "closing_pattern": "开放式总结，点明多重冲突的复杂性，预告下期",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "举例",
+      "反问",
+      "数据引用",
+      "历史追溯",
+      "人物访谈引用",
+      "概念拆解"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "作为当权者却仍保持挑战者姿态，其政府与司法界产生激烈冲突，是分析的核心对象",
+      "importance": "high"
+    },
+    {
+      "name": "Leonard Leo（李奥）",
+      "type": "person",
+      "context": "联邦党人协会核心人物，被称为美国司法保守化的'幕后建筑师'，主导了过去40年右翼在司法界的布局",
+      "importance": "high"
+    },
+    {
+      "name": "联邦党人协会（Federalist Society）",
+      "type": "organization",
+      "context": "1982年成立的保守派法律组织，致力于推进原旨主义宪法解释，是右翼建制派在司法界夺权的核心平台",
+      "importance": "high"
+    },
+    {
+      "name": "Jack Smith",
+      "type": "person",
+      "context": "特别检察官，曾对特朗普提起诉讼，其代理律所Covington and Burling遭特朗普行政令针对",
+      "importance": "medium"
+    },
+    {
+      "name": "John Roberts（约翰·罗伯茨）",
+      "type": "person",
+      "context": "首席大法官，由小布什任命，近期公开批评特朗普阵营推动弹劾法官的行为",
+      "importance": "high"
+    },
+    {
+      "name": "Samuel Alito",
+      "type": "person",
+      "context": "最高法院大法官，由小布什任命，Leo参与推荐的保守派大法官之一",
+      "importance": "medium"
+    },
+    {
+      "name": "Neil Gorsuch",
+      "type": "person",
+      "context": "最高法院大法官，特朗普第一任期内提名，Leo协助挑选培养的保守派大法官",
+      "importance": "medium"
+    },
+    {
+      "name": "Brett Kavanaugh（卡瓦诺）",
+      "type": "person",
+      "context": "最高法院大法官，特朗普第一任期内提名，Leo协助挑选培养的保守派大法官",
+      "importance": "medium"
+    },
+    {
+      "name": "Amy Coney Barrett（巴雷特）",
+      "type": "person",
+      "context": "最高法院大法官，特朗普第一任期内提名，近期因某些判决与自由派站一起而被极端右派攻击",
+      "importance": "high"
+    },
+    {
+      "name": "James Boasberg（波斯伯格）",
+      "type": "person",
+      "context": "联邦法官，下达终止驱逐移民命令，遭特朗普政府无视并被共和党人要求弹劾",
+      "importance": "medium"
+    },
+    {
+      "name": "Nayib Bukele",
+      "type": "person",
+      "context": "萨尔瓦多总统，评论美国正在经历'司法政变'",
+      "importance": "low"
+    },
+    {
+      "name": "Don McGahn",
+      "type": "person",
+      "context": "特朗普1.0时期白宫法律顾问，促成了特朗普与Leo的首次会面",
+      "importance": "medium"
+    },
+    {
+      "name": "Paul Clement",
+      "type": "person",
+      "context": "美国前任总检察长，保守派律师，因意识形态被两家律所扫地出门的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "Steve Bannon（班农）",
+      "type": "person",
+      "context": "极端右派人物，攻击Amy Coney Barrett对MAGA运动不够忠诚",
+      "importance": "medium"
+    },
+    {
+      "name": "Elon Musk（马斯克）",
+      "type": "person",
+      "context": "高调呼吁弹劾大批法官，代表特朗普2.0中的非典型新右翼力量",
+      "importance": "medium"
+    },
+    {
+      "name": "Robert F. Kennedy Jr.（小罗伯特·肯尼迪）",
+      "type": "person",
+      "context": "特朗普2.0中的非典型人物，关注话题与文化立场与传统保守派格格不入",
+      "importance": "medium"
+    },
+    {
+      "name": "Antonio Gramsci（葛兰西）",
+      "type": "person",
+      "context": "意大利共产主义思想家，其'穿越体制的长征'理论被左右两派共同借鉴",
+      "importance": "high"
+    },
+    {
+      "name": "希拉里·克林顿（Hillary Clinton）",
+      "type": "person",
+      "context": "2016年总统竞选团队曾委托Perkins Coie律所撰写特朗普与俄罗斯情报档案",
+      "importance": "low"
+    },
+    {
+      "name": "Covington and Burling",
+      "type": "organization",
+      "context": "美国大律所，曾为Jack Smith提供法律服务，遭特朗普行政令吊销安全许可",
+      "importance": "medium"
+    },
+    {
+      "name": "Paul Weiss",
+      "type": "organization",
+      "context": "美国超级大律所，因前员工曾起诉特朗普而遭吊销安全许可，后与特朗普政府达成协议",
+      "importance": "high"
+    },
+    {
+      "name": "Perkins Coie",
+      "type": "organization",
+      "context": "美国大律所，因2016年为希拉里团队服务并撰写通俄档案而遭特朗普针对",
+      "importance": "medium"
+    },
+    {
+      "name": "MS-13",
+      "type": "organization",
+      "context": "黑帮组织，其成员被特朗普政府援引《外侨敌人法》遣返萨尔瓦多",
+      "importance": "low"
+    },
+    {
+      "name": "原旨主义（Originalism）",
+      "type": "concept",
+      "context": "联邦党人协会推崇的宪法解释理念，主张按宪法文本与建国者本意判案",
+      "importance": "high"
+    },
+    {
+      "name": "文本主义",
+      "type": "concept",
+      "context": "与原旨主义并列的宪法解释方法，强调严格依据法律文本",
+      "importance": "medium"
+    },
+    {
+      "name": "穿越体制的长征（Long march through the institutions）",
+      "type": "concept",
+      "context": "葛兰西提出的理论，描述左派和右派分别渗透大学、法院等机构的路径",
+      "importance": "high"
+    },
+    {
+      "name": "体制化/Institutional capture",
+      "type": "concept",
+      "context": "播客核心分析框架，指特定政治力量在机构内部逐渐扩张权力的过程",
+      "importance": "high"
+    },
+    {
+      "name": "司法独立",
+      "type": "concept",
+      "context": "建制保守派试图维系的原则，与特朗普政府的做法形成张力",
+      "importance": "high"
+    },
+    {
+      "name": "法律武器化/Lawfare",
+      "type": "concept",
+      "context": "特朗普长期指控左派用法律搞他，如今他自己也在用同样手段",
+      "importance": "high"
+    },
+    {
+      "name": "寒蝉效应",
+      "type": "concept",
+      "context": "法律界对特朗普行政令的担忧，指恐吓阻碍律所为挑战政府的当事人提供代理",
+      "importance": "medium"
+    },
+    {
+      "name": "临时限制令（Temporary restraining order）",
+      "type": "concept",
+      "context": "法官针对特朗普政府签发的命令，引发关于'维持现状'还是'干预行政'的争议",
+      "importance": "medium"
+    },
+    {
+      "name": "三权分立",
+      "type": "concept",
+      "context": "传统宪法主义原则，联邦党人协会认为其是保护个人尊严的关键",
+      "importance": "medium"
+    },
+    {
+      "name": "DEI（多元化项目）",
+      "type": "concept",
+      "context": "特朗普政府试图停止资助的项目，也是诉讼焦点之一",
+      "importance": "medium"
+    },
+    {
+      "name": "罗伊诉韦德案（Roe v. Wade）",
+      "type": "event",
+      "context": "被保守派最高法院多数派推翻的历史性案件，标志Leo等人改变美国历史",
+      "importance": "high"
+    },
+    {
+      "name": "2024年美国大选",
+      "type": "event",
+      "context": "特朗普席卷参议院众议院白宫，选民认可其反建制诉求",
+      "importance": "medium"
+    },
+    {
+      "name": "1月6日国会暴乱事件",
+      "type": "event",
+      "context": "Paul Weiss前员工曾就此起诉特朗普，成为该律所遭针对的缘由",
+      "importance": "medium"
+    },
+    {
+      "name": "1798年外侨敌人法（Alien Enemies Act）",
+      "type": "work",
+      "context": "特朗普政府援引的古老法律，用于遣返MS-13成员，引发司法冲突",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "整个播客讨论的政治舞台，涉及其司法体制、政府机构和社会变迁",
+      "importance": "high"
+    },
+    {
+      "name": "萨尔瓦多",
+      "type": "place",
+      "context": "MS-13成员被遣返的目的地，其总统评论美国'司法政变'",
+      "importance": "low"
+    },
+    {
+      "name": "耶鲁大学法学院",
+      "type": "place",
+      "context": "联邦党人协会1982年的创建地，保守派学生发现左派对法学院垄断的起点",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67eb5fb80decaeb09424bcfb",
+  "title": "199-美国建制右派如何霸占司法体制？"
+}

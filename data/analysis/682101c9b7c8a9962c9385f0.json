@@ -1,0 +1,248 @@
+{
+  "style": {
+    "opening_pattern": "以朋友对话引入，通过个人轶事（榜眼哥对巴尔扎克的轻视）建立话题张力，再用上海方言梗'乖乖隆地咚，韭菜炒大葱'作为核心隐喻贯穿全文",
+    "structure": "个人故事→文本细读（高老头、伏脱冷、拉斯蒂涅）→哲学框架引入（柏拉图《理想国》两种正义观）→回到文本验证→结论升华，形成'现象—理论—再现象'的螺旋结构",
+    "tone": "口语化但逻辑严密，带有辩论式的激情，频繁使用反问和设问推动论述，在学术分析与日常比喻之间自由切换",
+    "catchphrases": [
+      "乖乖隆地咚，韭菜炒大葱",
+      "成为上海人",
+      "掐住作者的咽喉",
+      "自然正义",
+      "高贵的狗",
+      "这是我的",
+      "模棱两可",
+      "灵魂折价交易",
+      "晚期资本主义",
+      "穿越表象"
+    ],
+    "closing_pattern": "总结性升华，将巴尔扎克的创作动机定义为'智识上的道德'，与开篇的朋友对话形成呼应闭环",
+    "narrative_techniques": [
+      "类比（上海/巴黎、苏北人/外省人、古琴归属问题）",
+      "反问（连续追问'为什么书名是高老头'）",
+      "对比（雨果vs巴尔扎克、色拉叙马霍斯vs苏格拉底、两种正义观）",
+      "场景还原（伏脱冷被捕的高潮段落细致描绘）",
+      "概念嫁接（将小说人物与哲学概念直接对应）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "巴尔扎克",
+      "type": "person",
+      "context": "法国小说家，《人间喜剧》作者，被讨论的核心对象，其'缺乏哲学性'的偏见需要被反驳",
+      "importance": "high"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "主播的朋友，代表认为巴尔扎克'不如斯汤达、陀思妥耶夫斯基'的文学观点，引出讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "拉斯蒂涅",
+      "type": "person",
+      "context": "《高老头》真正的男主角，来自南方落魄贵族家庭的穷大学生，面临是否融入巴黎社会的抉择",
+      "importance": "high"
+    },
+    {
+      "name": "高老头（高里奥）",
+      "type": "person",
+      "context": "小说名义主角，面条商，以父爱为全部人生意义，代表'爱自身之物'的前现代正义观",
+      "importance": "high"
+    },
+    {
+      "name": "伏脱冷",
+      "type": "person",
+      "context": "神秘逃犯，小说中'唯一高贵的角色'，代表'各司其职'的自然正义观，被捕场景为全书高潮",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "古希腊哲学家，其《理想国》中的两种正义观被用来重新解读《高老头》",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "柏拉图笔下的对话者，在《理想国》中探讨正义问题的方法被主播效仿",
+      "importance": "medium"
+    },
+    {
+      "name": "色拉叙马霍斯（Thrasymachus）",
+      "type": "person",
+      "context": "《理想国》第一卷中的智者，主张'正义是强者的利益'，被用来批评肤浅的'现实主义'阅读",
+      "importance": "medium"
+    },
+    {
+      "name": "雨果",
+      "type": "person",
+      "context": "与巴尔扎克对比的社会主义作家，态度鲜明批判社会，而巴尔扎克态度'模棱两可'",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "常被用来解读巴尔扎克的马克思主义视角，但主播认为这停留在表面",
+      "importance": "medium"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "被认为比巴尔扎克更有'哲学性'的作家，其《罪与罚》中的拉斯柯尔尼科夫与伏脱冷类比",
+      "importance": "medium"
+    },
+    {
+      "name": "斯汤达",
+      "type": "person",
+      "context": "被认为比巴尔扎克更有哲学性的作家",
+      "importance": "low"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "其'超人道德'被用来描述伏脱冷的无法无天",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "伏脱冷自称是其忠实信徒",
+      "importance": "low"
+    },
+    {
+      "name": "《高老头》",
+      "type": "work",
+      "context": "巴尔扎克1835年的小说，被重新解读为讨论柏拉图正义观的哲学文本",
+      "importance": "high"
+    },
+    {
+      "name": "《人间喜剧》",
+      "type": "work",
+      "context": "巴尔扎克的系列小说总称，常被误读为纯粹的现实主义描绘",
+      "importance": "high"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图的对话录，提供'各司其职'与'爱自身之物'两种正义观的理论框架",
+      "importance": "high"
+    },
+    {
+      "name": "《悲惨世界》",
+      "type": "work",
+      "context": "雨果的小说，其中贵族形象被用来对比巴尔扎克的暧昧态度",
+      "importance": "medium"
+    },
+    {
+      "name": "《罪与罚》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基的小说，拉斯柯尔尼科夫的正义观与伏脱冷类比",
+      "importance": "medium"
+    },
+    {
+      "name": "《共产党宣言》",
+      "type": "work",
+      "context": "1848年发表，常被误认为可以用马克思主义解读1835年的《高老头》",
+      "importance": "low"
+    },
+    {
+      "name": "各司其职的正义观",
+      "type": "concept",
+      "context": "柏拉图《理想国》第四卷提出的正义，即'最好的古琴属于最出色的演奏者'，对应伏脱冷",
+      "importance": "high"
+    },
+    {
+      "name": "爱自身之物的正义观（love of one's own）",
+      "type": "concept",
+      "context": "柏拉图《理想国》第二卷提出的正义，即'这是我的'，对应高老头的父爱",
+      "importance": "high"
+    },
+    {
+      "name": "高贵的狗",
+      "type": "concept",
+      "context": "柏拉图用来比喻第二种正义观的意象，对陌生人吠叫、对主人忠诚",
+      "importance": "medium"
+    },
+    {
+      "name": "自然正义",
+      "type": "concept",
+      "context": "伏脱冷所承认的凌驾于世俗法律之上的更高正义",
+      "importance": "high"
+    },
+    {
+      "name": "现实主义",
+      "type": "concept",
+      "context": "主播批判的对巴尔扎克的误读方式，认为他只是描绘现实腐败",
+      "importance": "medium"
+    },
+    {
+      "name": "现代性/现代社会",
+      "type": "concept",
+      "context": "被金钱支配、道德沦丧的巴黎社会，是小说描绘的背景",
+      "importance": "medium"
+    },
+    {
+      "name": "晚期资本主义",
+      "type": "concept",
+      "context": "豆瓣文艺青年常用的马克思主义解读框架",
+      "importance": "low"
+    },
+    {
+      "name": "布尔乔亚价值观",
+      "type": "concept",
+      "context": "被批判的资产阶级价值观，瓦解了前现代的正义观",
+      "importance": "medium"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "小说的核心舞台，经济、社交、权力中心，象征现代社会的诱惑与腐蚀",
+      "importance": "high"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "主播用来类比巴黎的中国城市，'成为上海人'对应拉斯蒂涅的抉择",
+      "importance": "high"
+    },
+    {
+      "name": "塞纳河",
+      "type": "place",
+      "context": "小说结尾拉斯蒂涅远眺巴黎时提到的河流",
+      "importance": "low"
+    },
+    {
+      "name": "徐汇区/乌鲁木齐路",
+      "type": "place",
+      "context": "上海的特定区域，用来具体化'成为上海人'的物质象征（买房资格）",
+      "importance": "low"
+    },
+    {
+      "name": "美国南部",
+      "type": "place",
+      "context": "伏脱冷梦想拥有200个奴隶农场的地方，象征摆脱世俗道德的自由",
+      "importance": "low"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "高老头通过倒卖面条致富的历史背景",
+      "importance": "low"
+    },
+    {
+      "name": "巴黎公社",
+      "type": "event",
+      "context": "雨果歌颂的事件，用来对比巴尔扎克的非政治性",
+      "importance": "low"
+    },
+    {
+      "name": "豆瓣",
+      "type": "organization",
+      "context": "被提及的书评平台，代表主流的'现实主义'误读",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "682101c9b7c8a9962c9385f0",
+  "title": "212-巴尔扎克如何用《高老头》讨论柏拉图正义观？"
+}

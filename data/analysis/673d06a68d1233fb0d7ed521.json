@@ -1,0 +1,257 @@
+{
+  "style": {
+    "opening_pattern": "以系列回顾引入，点明本期主题与之前柏拉图系列的关联，再提出具体话题",
+    "structure": "对比引入（亚里士多德vs普鲁塔克）→ 核心悖论提出 → 三个主要技巧分述（防御性自夸、借赞美他人自夸、添加阴影/缺点）→ 三种不合时宜的自夸警示 → 总结升华",
+    "tone": "轻松幽默、理性客观，带有个人化的口语表达和即时反应",
+    "catchphrases": [
+      "是不是非常有用的小技巧",
+      "对吧",
+      "有没有可能",
+      "大哥",
+      "老子的灵魂就是世界第一",
+      "饥不择食",
+      "无能狂怒",
+      "给点阳光你就灿烂",
+      "小鸡啄米似的",
+      "解腻的脆爽酸菜"
+    ],
+    "closing_pattern": "引用自己往期播客内容作结，将主题升华为古典教育与人文主义教育的意义",
+    "narrative_techniques": [
+      "类比",
+      "反问",
+      "举例",
+      "对比",
+      "自我调侃",
+      "重复强调",
+      "场景化描述"
+    ]
+  },
+  "entities": [
+    {
+      "name": "普鲁塔克（Plutarch）",
+      "type": "person",
+      "context": "罗马帝国时代希腊哲学家、历史学家，本文核心讨论对象，著有《如何不令人生厌地自我赞美》",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "被提及为播客此前多期讨论的对象，与普鲁塔克形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德（Aristotle）",
+      "type": "person",
+      "context": "其《尼各马可伦理学》中关于诚实、伟大灵魂（Megalopsychia）的讨论被详细对比分析",
+      "importance": "high"
+    },
+    {
+      "name": "蒙田（Montaigne）",
+      "type": "person",
+      "context": "文艺复兴时期法国哲学家，称普鲁塔克为其最喜欢的古典作家",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭（Rousseau）",
+      "type": "person",
+      "context": "认为教育小孩只需读普鲁塔克即可",
+      "importance": "medium"
+    },
+    {
+      "name": "莎士比亚（Shakespeare）",
+      "type": "person",
+      "context": "其剧作取材于普鲁塔克的《希腊罗马名人传》",
+      "importance": "low"
+    },
+    {
+      "name": "修昔底德（Thucydides）",
+      "type": "person",
+      "context": "与普鲁塔克并列为古典时期希腊文学修养的两座高峰",
+      "importance": "low"
+    },
+    {
+      "name": "色诺芬（Xenophon）",
+      "type": "person",
+      "context": "古希腊哲学家，其关于赞美的悖论被普鲁塔克引用",
+      "importance": "medium"
+    },
+    {
+      "name": "西塞罗（Cicero）",
+      "type": "person",
+      "context": "罗马政治家，因喋喋不休吹嘘自己在喀提林事件中的成功而被罗马人厌恶，作为反面案例",
+      "importance": "high"
+    },
+    {
+      "name": "Patroclus",
+      "type": "person",
+      "context": "《伊利亚特》中的英雄，成功时温和、濒死时自夸，作为正面案例",
+      "importance": "medium"
+    },
+    {
+      "name": "Phocion",
+      "type": "person",
+      "context": "雅典政治家，被判处死刑后说出最狂妄的自我赞美，作为逆境自夸的正面案例",
+      "importance": "medium"
+    },
+    {
+      "name": "亚历山大（Alexander the Great）",
+      "type": "person",
+      "context": "通过夸奖赫拉克勒斯来间接赞美自己，作为借赞美他人自夸的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "Aristides",
+      "type": "person",
+      "context": "通过夸奖亚历山大来间接赢得尊重",
+      "importance": "low"
+    },
+    {
+      "name": "迪奥尼修斯（Dionysius）",
+      "type": "person",
+      "context": "嘲笑政治家格伦，结果因嫉妒而嘲笑了自己，作为反面案例",
+      "importance": "medium"
+    },
+    {
+      "name": "格伦（Gelon）",
+      "type": "person",
+      "context": "被迪奥尼修斯嘲笑的政治家",
+      "importance": "low"
+    },
+    {
+      "name": "德摩斯梯尼（Demosthenes）",
+      "type": "person",
+      "context": "雅典著名政治家，其《论王冠》演讲被作为同时赞美自己和观众的典范案例",
+      "importance": "high"
+    },
+    {
+      "name": "奥德修斯（Odysseus/Odysseus）",
+      "type": "person",
+      "context": "荷马史诗中的英雄，足智多谋但承认胆小软弱，在科斯岛海战时用过往成就激励战友",
+      "importance": "high"
+    },
+    {
+      "name": "波吕斐摩斯（Polyphemus）",
+      "type": "person",
+      "context": "独眼巨人，奥德修斯曾独自对抗他，成为激励战友时的自我赞美素材",
+      "importance": "medium"
+    },
+    {
+      "name": "赫拉克勒斯（Heracles/Hercules）",
+      "type": "person",
+      "context": "被亚历山大公开夸奖的英雄，作为借赞美他人自夸的中介",
+      "importance": "low"
+    },
+    {
+      "name": "《希腊罗马名人传》（Parallel Lives）",
+      "type": "work",
+      "context": "普鲁塔克最著名的著作，古典文学中最伟大的名人传记",
+      "importance": "high"
+    },
+    {
+      "name": "De Se Ipsum Citra Invidiam Laudando（《如何不令人生厌地自我赞美》）",
+      "type": "work",
+      "context": "普鲁塔克用拉丁语撰写的文章，本期播客的核心文本",
+      "importance": "high"
+    },
+    {
+      "name": "《尼各马可伦理学》（Nicomachean Ethics）",
+      "type": "work",
+      "context": "亚里士多德的伦理学著作，其中第四卷第三、七章被详细讨论",
+      "importance": "high"
+    },
+    {
+      "name": "《论王冠》（On the Crown）",
+      "type": "work",
+      "context": "德摩斯梯尼的著名演讲，被作为同时赞美自己和雅典人民的典范",
+      "importance": "high"
+    },
+    {
+      "name": "《伊利亚特》（Iliad）",
+      "type": "work",
+      "context": "罗马史诗，其中Patroclus的故事被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "《奥德赛》（Odyssey）",
+      "type": "work",
+      "context": "荷马史诗，第十卷中奥德修斯对抗独眼巨人的故事被提及",
+      "importance": "medium"
+    },
+    {
+      "name": "Megalopsychia（拥有伟大灵魂的人/大度）",
+      "type": "concept",
+      "context": "亚里士多德伦理学中的核心美德，指灵魂伟大、自恃甚高且配得上的德性巅峰",
+      "importance": "high"
+    },
+    {
+      "name": "诚实/真实性（truthfulness）",
+      "type": "concept",
+      "context": "亚里士多德心中的重要美德，其评判自吹自擂的标准是真实与否",
+      "importance": "medium"
+    },
+    {
+      "name": "虚荣心",
+      "type": "concept",
+      "context": "普鲁塔克批评的自我赞美动机之一，被比作饥荒中喝自己尿的饥不择食",
+      "importance": "medium"
+    },
+    {
+      "name": "嫉妒",
+      "type": "concept",
+      "context": "自我赞美可能引发的恶习，也是不当自我赞美的动机之一",
+      "importance": "high"
+    },
+    {
+      "name": "古典修辞学",
+      "type": "concept",
+      "context": "普鲁塔克作品所属的学科领域，面向政治家的实用教育",
+      "importance": "medium"
+    },
+    {
+      "name": "人文主义教育",
+      "type": "concept",
+      "context": "播客结尾升华时提到的教育理念，与古典教育相通",
+      "importance": "medium"
+    },
+    {
+      "name": "喀提林阴谋（Catiline Conspiracy）",
+      "type": "event",
+      "context": "西塞罗因平定此事件而不断自夸，反而招致罗马人厌恶",
+      "importance": "medium"
+    },
+    {
+      "name": "科斯岛海战",
+      "type": "event",
+      "context": "奥德修斯用过往成就激励沮丧战友的场景",
+      "importance": "medium"
+    },
+    {
+      "name": "罗马帝国",
+      "type": "place",
+      "type_other": "历史时期/政权",
+      "context": "普鲁塔克生活的时代背景",
+      "importance": "low"
+    },
+    {
+      "name": "雅典",
+      "type": "place",
+      "context": "Phocion、德摩斯梯尼等政治家的城邦，民主政治的中心",
+      "importance": "medium"
+    },
+    {
+      "name": "西西里",
+      "type": "place",
+      "context": "迪奥尼修斯和格伦所在的地区",
+      "importance": "low"
+    },
+    {
+      "name": "拜占庭",
+      "type": "place",
+      "context": "德摩斯梯尼在《论王冠》中赞美雅典人为之做出的贡献",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "673d06a68d1233fb0d7ed521",
+  "title": "135-如何不令人生厌地自我赞美？"
+}

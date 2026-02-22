@@ -1,0 +1,372 @@
+{
+  "style": {
+    "opening_pattern": "以限定讨论范围开场，先定义'受过教育的闲人'这两个前提条件，建立讨论的边界",
+    "structure": "提出核心问题（如何阅读小说）→ 批判两种常见误区（过度关注'风格'与'影响'）→ 引入并深度解读苏珊·桑塔格《反对诠释》→ 对比作者与桑塔格的立场差异 → 以桑塔格名言总结升华",
+    "tone": "理性思辨、自我反思（承认自身诠释者身份）、深入但不晦涩、带有对话感的学术通俗化",
+    "catchphrases": [
+      "受过教育的闲人",
+      "本末倒置",
+      "智识上的懒惰",
+      "挖掘机",
+      "理论对艺术的强奸/强暴",
+      "爱欲",
+      "若即若离",
+      "视线狭窄/眼瞎"
+    ],
+    "closing_pattern": "引用苏珊·桑塔格名言'用艺术的爱欲取代诠释'结尾，提出开放式思考",
+    "narrative_techniques": [
+      "类比（挖掘机、强奸、饕餮、大飞机）",
+      "自我指涉与自我解构（承认自己是诠释者）",
+      "对比（古代与现代诠释、自己与桑塔格、柏拉图与荷马）",
+      "举例论证（贝多芬、福楼拜、鲁迅等）",
+      "反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "福楼拜",
+      "type": "person",
+      "context": "《包法利夫人》的作者，被讨论其写作风格是否属于现实主义，以及他对浪漫主义的态度",
+      "importance": "high"
+    },
+    {
+      "name": "苏珊·桑塔格",
+      "type": "person",
+      "context": "60年代美国女性知识分子，其文章《反对诠释》是本期播客后半段的核心讨论对象，主张用'爱欲'取代理论诠释",
+      "importance": "high"
+    },
+    {
+      "name": "包法利夫人",
+      "type": "person",
+      "context": "福楼拜小说中的女主角，被分析其浪漫幻想如何被批判，以及读者因风格偏见而忽视的其他维度",
+      "importance": "high"
+    },
+    {
+      "name": "包法利先生",
+      "type": "person",
+      "context": "小说中包法利夫人的丈夫，被主播指出福楼拜对他的批评不亚于对包法利夫人的批评，但常被读者忽视",
+      "importance": "medium"
+    },
+    {
+      "name": "奥默先生",
+      "type": "person",
+      "context": "小说中的药剂师角色，代表福楼拜对现代启蒙主义和科学实验精神的批判",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "被桑塔格列为60年代最具影响力的两种诠释理论之一（马克思主义），被批评为对艺术的'强奸'",
+      "importance": "medium"
+    },
+    {
+      "name": "弗洛伊德",
+      "type": "person",
+      "context": "被桑塔格列为60年代最具影响力的两种诠释理论之一（精神分析），同样被批评为对艺术的暴力诠释",
+      "importance": "medium"
+    },
+    {
+      "name": "贝多芬",
+      "type": "person",
+      "context": "被用作例子说明伟大艺术家是风格的缔造者而非追随者，不会刻意遵循某种主义创作",
+      "importance": "medium"
+    },
+    {
+      "name": "海顿",
+      "type": "person",
+      "context": "被提及作为贝多芬的老师，代表古典主义风格，但贝多芬并未因此受其束缚",
+      "importance": "low"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "被主播提及为自己初中时期阅读并模仿的作家之一，当时缺乏判断力",
+      "importance": "low"
+    },
+    {
+      "name": "张爱玲",
+      "type": "person",
+      "context": "被主播提及为自己小学到初中时期阅读的作家",
+      "importance": "low"
+    },
+    {
+      "name": "郭敬明",
+      "type": "person",
+      "context": "被主播提及为自己初中时期模仿过的作家，用以说明当时缺乏判断力",
+      "importance": "low"
+    },
+    {
+      "name": "雨果",
+      "type": "person",
+      "context": "被提及在往期播客中与陀思妥耶夫斯基的比较，用以说明'影响'一词的空洞",
+      "importance": "low"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "被提及在往期播客中与雨果的比较",
+      "importance": "low"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "被用来与荷马对比，代表哲学与诗歌之争，主播将自己与桑塔格的对立类比于此",
+      "importance": "medium"
+    },
+    {
+      "name": "荷马",
+      "type": "person",
+      "context": "被用来与柏拉图对比，代表诗歌的一方",
+      "importance": "medium"
+    },
+    {
+      "name": "朱熹",
+      "type": "person",
+      "context": "被提及作为中国古代诠释经典的例子，通过诠释孔子来建立自己的哲学",
+      "importance": "low"
+    },
+    {
+      "name": "王阳明",
+      "type": "person",
+      "context": "被提及作为中国古代诠释经典的另一个例子",
+      "importance": "low"
+    },
+    {
+      "name": "王国维",
+      "type": "person",
+      "context": "被提及《人间词话》的写作方式是一种诠释",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "被提及在往期播客中讨论《包法利夫人》与卢梭哲学的关系",
+      "importance": "low"
+    },
+    {
+      "name": "安迪·沃霍尔",
+      "type": "person",
+      "context": "被桑塔格提及，其番茄罐头作品代表对自身的戏仿，是当代艺术逃避诠释的方式",
+      "importance": "medium"
+    },
+    {
+      "name": "杜尚",
+      "type": "person",
+      "context": "被桑塔格提及，其小便池作品代表对自身的戏仿",
+      "importance": "medium"
+    },
+    {
+      "name": "波洛克",
+      "type": "person",
+      "context": "被桑塔格提及，其抽象绘画代表当代艺术通过抽象逃避诠释",
+      "importance": "medium"
+    },
+    {
+      "name": "罗斯科",
+      "type": "person",
+      "context": "被桑塔格提及（Rothko），其方形颜料画代表抽象艺术",
+      "importance": "medium"
+    },
+    {
+      "name": "《包法利夫人》",
+      "type": "work",
+      "context": "本期播客的核心分析文本，福楼拜的代表作，被用来讨论现实主义与浪漫主义的界限",
+      "importance": "high"
+    },
+    {
+      "name": "《反对诠释》",
+      "type": "work",
+      "context": "苏珊·桑塔格1964年写的文章，本期播客后半段的核心讨论对象，主张用'爱欲'取代理论诠释",
+      "importance": "high"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "卢梭的著作，被主播提及是大学时期与博士生一起研讨的文本",
+      "importance": "low"
+    },
+    {
+      "name": "《共产党宣言》",
+      "type": "work",
+      "context": "马克思的著作，被用作例子说明马克思主义者如何诠释作者意图",
+      "importance": "low"
+    },
+    {
+      "name": "《人间词话》",
+      "type": "work",
+      "context": "王国维的著作，被提及作为中国传统诠释方式的例子",
+      "importance": "low"
+    },
+    {
+      "name": "《悲惨世界》",
+      "type": "work",
+      "context": "雨果的著作，在往期播客中被讨论与《罪与罚》的关系",
+      "importance": "low"
+    },
+    {
+      "name": "《罪与罚》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基的著作",
+      "importance": "low"
+    },
+    {
+      "name": "《雅歌》",
+      "type": "work",
+      "context": "犹太教和基督教经典，被桑塔格用作古代诠释的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "现实主义",
+      "type": "concept",
+      "context": "文学风格概念，被讨论为读者对福楼拜的刻板印象，主播认为过度强调风格会扭曲阅读体验",
+      "importance": "high"
+    },
+    {
+      "name": "浪漫主义",
+      "type": "concept",
+      "context": "文学风格概念，被讨论为《包法利夫人》中既被批判又实际采用的写作手法",
+      "importance": "high"
+    },
+    {
+      "name": "古典主义",
+      "type": "concept",
+      "context": "艺术风格，被用来讨论贝多芬与海顿的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思主义",
+      "type": "concept",
+      "context": "被桑塔格批评的两种主要现代诠释理论之一，被比喻为对艺术的'强奸'",
+      "importance": "high"
+    },
+    {
+      "name": "弗洛伊德精神分析",
+      "type": "concept",
+      "context": "被桑塔格批评的两种主要现代诠释理论之一，同样被比喻为对艺术的暴力",
+      "importance": "high"
+    },
+    {
+      "name": "女性主义",
+      "type": "concept",
+      "context": "被提及为现代理论之一，用'男本位父权制'诠释一切，被桑塔格视为理论暴力",
+      "importance": "medium"
+    },
+    {
+      "name": "启蒙主义",
+      "type": "concept",
+      "context": "被提及为福楼拜通过奥默先生讽刺的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "风格",
+      "type": "concept",
+      "context": "主播批评的第一个误区，认为过度讨论风格是本末倒置",
+      "importance": "high"
+    },
+    {
+      "name": "影响",
+      "type": "concept",
+      "context": "主播批评的第二个误区，认为这是一个空洞、不精确的词，是'智识上的懒惰'",
+      "importance": "high"
+    },
+    {
+      "name": "诠释/解释",
+      "type": "concept",
+      "context": "桑塔格的核心批判对象，认为现代诠释是对艺术的暴力，是'智识对艺术的报复'",
+      "importance": "high"
+    },
+    {
+      "name": "透明性",
+      "type": "concept",
+      "context": "桑塔格提出的概念（transparency），指体验事物本身的光辉，而非通过理论",
+      "importance": "medium"
+    },
+    {
+      "name": "爱欲",
+      "type": "concept",
+      "context": "桑塔格主张用'艺术的爱欲'（erotics of art）取代诠释（hermeneutics）",
+      "importance": "high"
+    },
+    {
+      "name": "形式",
+      "type": "concept",
+      "context": "桑塔格强调应关注艺术的形式（form）而非内容（content）",
+      "importance": "high"
+    },
+    {
+      "name": "内容",
+      "type": "concept",
+      "context": "桑塔格认为现代诠释将艺术简化为内容（content）以便理论解剖",
+      "importance": "high"
+    },
+    {
+      "name": "巴洛克风格",
+      "type": "concept",
+      "context": "被提及作为贝多芬可能不小心写成的风格",
+      "importance": "low"
+    },
+    {
+      "name": "象征主义",
+      "type": "concept",
+      "context": "被桑塔格提及的法国诗歌流派，试图将沉默带入诗歌",
+      "importance": "low"
+    },
+    {
+      "name": "波普艺术",
+      "type": "concept",
+      "context": "被桑塔格提及，通过直白内容逃避诠释",
+      "importance": "medium"
+    },
+    {
+      "name": "抽象绘画",
+      "type": "concept",
+      "context": "被桑塔格提及，通过抽象逃避诠释",
+      "importance": "medium"
+    },
+    {
+      "name": "耽美小说",
+      "type": "concept",
+      "context": "主播提及小学时阅读并传播的类型文学",
+      "importance": "low"
+    },
+    {
+      "name": "柏拉图与荷马之争",
+      "type": "concept",
+      "context": "主播将自己与桑塔格的对立类比为哲学与诗歌之争",
+      "importance": "medium"
+    },
+    {
+      "name": "受过教育的闲人",
+      "type": "concept",
+      "context": "主播设定的讨论前提，指拥有判断力、不为应试而阅读的人",
+      "importance": "high"
+    },
+    {
+      "name": "豆瓣",
+      "type": "organization",
+      "context": "被提及作为读者评价书籍风格的平台",
+      "importance": "low"
+    },
+    {
+      "name": "微信读书",
+      "type": "organization",
+      "context": "被提及作为读者评价书籍风格的平台",
+      "importance": "low"
+    },
+    {
+      "name": "沃尔玛",
+      "type": "organization",
+      "context": "被主播用作自嘲的例子，说明'影响'一词的空洞",
+      "importance": "low"
+    },
+    {
+      "name": "纳粹德国",
+      "type": "place",
+      "context": "被主播用作例子说明'影响'一词的宽泛性",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67ad02705e6f58876dfb6fbd",
+  "title": "182-如何阅读一本小说？《包法利夫人》4"
+}

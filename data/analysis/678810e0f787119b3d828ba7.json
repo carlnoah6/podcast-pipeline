@@ -1,0 +1,236 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件引入，从TikTok在美国被禁、小红书成为下载量最大应用等时事背景切入",
+    "structure": "现象描述（三种反应分类）→ 平台机制深度剖析（前端审核）→ 哲学批判（黑格尔视角的核心悖论）→ 结论",
+    "tone": "理性客观但带有尖锐批判性，学术性与口语化并存，深入剖析但保持播客的对话感",
+    "catchphrases": [
+      "洋抖难民",
+      "前端审核",
+      "政治真空",
+      "吃饱了饭骂娘",
+      "小红书",
+      "矛盾/悖论",
+      "自由",
+      "黑格尔",
+      "密涅瓦的猫头鹰",
+      "独树不成林"
+    ],
+    "closing_pattern": "引用黑格尔观点进行哲学总结，并直接预告结束",
+    "narrative_techniques": [
+      "类比（将洋抖难民比作18世纪厌恶德国的德国人）",
+      "引用（黑格尔《德国宪法》、里根笑话、斯宾诺莎《神学政治论》）",
+      "对比（前端审核vs后端审核、美国平台vs小红书）",
+      "分类（将反应分为保守、开放、批判性左翼三种）",
+      "反问（多次质疑自由的前提与条件）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "黑格尔（Hegel）",
+      "type": "person",
+      "context": "播客核心引用对象，借其《德国宪法》中的观点批判洋抖难民的内在矛盾",
+      "importance": "high"
+    },
+    {
+      "name": "小红书",
+      "type": "place",
+      "context": "作为TikTok难民涌入的平台，被详细分析其前端审核机制与平台特性",
+      "importance": "high"
+    },
+    {
+      "name": "洋抖难民（TikTok Refugees）",
+      "type": "concept",
+      "context": "指因TikTok可能被禁而涌入小红书的美国用户，是本期讨论的核心现象",
+      "importance": "high"
+    },
+    {
+      "name": "前端审核（front end censorship）",
+      "type": "concept",
+      "context": "与后端审核相对，指内容发布前必须经过审核的机制，被详细剖析其对思维的影响",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "作为历史参照，被黑格尔用来分析现代自由观念的起源与问题",
+      "importance": "high"
+    },
+    {
+      "name": "扎克伯格（Mark Zuckerberg）",
+      "type": "person",
+      "context": "提到他在Joe Rogan播客中承认拜登政府曾向Meta施压审核疫苗相关内容",
+      "importance": "medium"
+    },
+    {
+      "name": "后端审核（back end censorship）",
+      "type": "concept",
+      "context": "与前端审核对比，指内容先发后审的机制，被认为是美国社交平台的主流",
+      "importance": "high"
+    },
+    {
+      "name": "《德国宪法》",
+      "type": "work",
+      "context": "黑格尔1798年的早期著作，播客借其中对18世纪德国人的批判来类比今日美国难民",
+      "importance": "high"
+    },
+    {
+      "name": "批判性左翼/新马克思主义",
+      "type": "concept",
+      "context": "指小红书部分用户持有的西方精英大学常见的政治立场，使用文化殖民等术语批判难民",
+      "importance": "medium"
+    },
+    {
+      "name": "文化殖民主义/文化帝国主义",
+      "type": "concept",
+      "context": "被第三种反应（批判性左翼）用来批判洋抖难民的关键词",
+      "importance": "medium"
+    },
+    {
+      "name": "里根（Reagan）",
+      "type": "person",
+      "context": "引用他与戈尔巴乔夫讲的关于美国和苏联自由的笑话",
+      "importance": "low"
+    },
+    {
+      "name": "戈尔巴乔夫（Gorbachev）",
+      "type": "person",
+      "context": "里根笑话中的苏联领导人",
+      "importance": "low"
+    },
+    {
+      "name": "斯宾诺莎（Spinoza）",
+      "type": "person",
+      "context": "提到其著作《神学政治论》曾被荷兰后端审核判为禁书",
+      "importance": "medium"
+    },
+    {
+      "name": "《神学政治论》",
+      "type": "work",
+      "context": "斯宾诺莎的著作，作为后端审核历史案例",
+      "importance": "medium"
+    },
+    {
+      "name": "刘骁骞",
+      "type": "person",
+      "context": "记者，出版新书《美国路人》，与播客主在小红书私信交流时被系统吞掉地址",
+      "importance": "low"
+    },
+    {
+      "name": "《美国路人》",
+      "type": "work",
+      "context": "刘骁骞的新书",
+      "importance": "low"
+    },
+    {
+      "name": "贾玲",
+      "type": "person",
+      "context": "提到其电影《热辣滚烫》的影评在小红书被审核",
+      "importance": "low"
+    },
+    {
+      "name": "《热辣滚烫》",
+      "type": "work",
+      "context": "贾玲的电影",
+      "importance": "low"
+    },
+    {
+      "name": "梁文道",
+      "type": "person",
+      "context": "文中举例投诉他人帖子时提及的道长",
+      "importance": "low"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "提到在小红书私聊中讨论陀思妥耶夫斯基也会被屏蔽",
+      "importance": "low"
+    },
+    {
+      "name": "Joe Rogan",
+      "type": "person",
+      "context": "播客主持人，扎克伯格在其节目中爆料",
+      "importance": "low"
+    },
+    {
+      "name": "密涅瓦的猫头鹰",
+      "type": "concept",
+      "context": "黑格尔的名言，被引用说明密涅瓦的猫头鹰只有在黄昏之时才会起飞",
+      "importance": "medium"
+    },
+    {
+      "name": "猫税（cat tax）",
+      "type": "other",
+      "context": "小红书上的文化现象，外国人发猫的照片表示友好",
+      "importance": "low"
+    },
+    {
+      "name": "川粉/MAGA",
+      "type": "other",
+      "context": "特朗普支持者，被描述为洋抖难民想要躲避的群体",
+      "importance": "medium"
+    },
+    {
+      "name": "Meta/Facebook/Instagram",
+      "type": "organization",
+      "context": "扎克伯格的公司，被提到受拜登政府施压进行内容审核",
+      "importance": "medium"
+    },
+    {
+      "name": "拜登政府/美国政府",
+      "type": "organization",
+      "context": "被指责向Meta施压审核疫苗相关内容，也是洋抖难民反对的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "普鲁士帝国",
+      "type": "organization",
+      "context": "历史参照，被黑格尔用来对比18世纪德国南部省份对北部的不认同",
+      "importance": "low"
+    },
+    {
+      "name": "苹果公司（Apple）",
+      "type": "organization",
+      "context": "提到小红书在苹果商店成为下载量最大的应用",
+      "importance": "low"
+    },
+    {
+      "name": "巴伐利亚/黑森",
+      "type": "place",
+      "context": "18世纪德国省份，被黑格尔用来类比相互仇视的德国人",
+      "importance": "low"
+    },
+    {
+      "name": "奥地利",
+      "type": "place",
+      "context": "历史参照，18世纪德国南部省份宁愿效忠奥地利也不愿效忠普鲁士",
+      "importance": "low"
+    },
+    {
+      "name": "苏联/克里姆林宫",
+      "type": "place",
+      "context": "里根笑话中的地点",
+      "importance": "low"
+    },
+    {
+      "name": "白宫",
+      "type": "place",
+      "context": "里根笑话中的地点",
+      "importance": "low"
+    },
+    {
+      "name": "荷兰",
+      "type": "place",
+      "context": "斯宾诺莎《神学政治论》被禁的国家",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "法国大革命发生地，被黑格尔分析",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "678810e0f787119b3d828ba7",
+  "title": "167-黑格尔会如何嘲笑洋抖难民？"
+}

@@ -1,0 +1,255 @@
+{
+  "style": {
+    "opening_pattern": "以回顾往期播客内容引入，通过对比1月预测与4月现实形成悬念",
+    "structure": "回顾旧论→描述反转→分析外部变量（特朗普因素）→对比两位候选人→深入剖析卡尼特质→国际比较（德国梅尔茨）→总结选举关键",
+    "tone": "理性分析中带戏剧性张力，既有学术观察的冷静，又有对政治戏剧性的惊叹",
+    "catchphrases": [
+      "加拿大必须强大",
+      "Canada strong",
+      "加拿大已经破碎",
+      "Canada is broken",
+      "达沃斯人",
+      "技术官僚",
+      "世界公民",
+      "右转",
+      "民粹领袖",
+      "生存威胁"
+    ],
+    "closing_pattern": "总结核心论点并回应标题，以开放式展望结束",
+    "narrative_techniques": [
+      "对比（1月vs4月、卡尼vs波利耶夫、加拿大vs德国）",
+      "反问",
+      "引用具体数据（20个百分点）",
+      "场景还原（'就在今天'）",
+      "概念重构（重新定义'右转'）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "马克·卡尼（Mark Carney）",
+      "type": "person",
+      "context": "自由党新领袖、前高盛银行家、前加拿大央行和英国央行行长，以技术官僚身份逆转选情",
+      "importance": "high"
+    },
+    {
+      "name": "皮埃尔·波利耶夫（Pierre Poilievre）",
+      "type": "person",
+      "context": "保守党领袖，曾被看好大胜但因与特朗普风格相近而在反美情绪中失利",
+      "importance": "high"
+    },
+    {
+      "name": "贾斯廷·特鲁多（Justin Trudeau）",
+      "type": "person",
+      "context": "辞职的前自由党总理，其十年执政积累的民怨因外部危机被转移",
+      "importance": "high"
+    },
+    {
+      "name": "唐纳德·特朗普（Donald Trump）",
+      "type": "person",
+      "context": "美国前总统/现任总统，其重返白宫引发的焦虑完全改变了加拿大大选议题",
+      "importance": "high"
+    },
+    {
+      "name": "弗里德里希·梅尔茨（Friedrich Merz）",
+      "type": "person",
+      "context": "德国新任总理，与卡尼背景相似（黑石集团、达沃斯精英），同样展现强硬民族主义言辞",
+      "importance": "medium"
+    },
+    {
+      "name": "马歇尔·奥尔巴赫（Marshall Auerbach）",
+      "type": "person",
+      "context": "多伦多经济学家，其政治评论预示了保守党的失败",
+      "importance": "low"
+    },
+    {
+      "name": "乔治·奥斯本（George Osborne）",
+      "type": "person",
+      "context": "英国前财政大臣，将卡尼挖至英国央行任职",
+      "importance": "low"
+    },
+    {
+      "name": "大卫·卡梅伦（David Cameron）",
+      "type": "person",
+      "context": "英国前首相，作为温和保守派的参照",
+      "importance": "low"
+    },
+    {
+      "name": "佩德罗·库琴斯基（Pedro Kuczynski）",
+      "type": "person",
+      "context": "秘鲁前总统，与卡尼类似的世界银行背景和世界公民身份",
+      "importance": "low"
+    },
+    {
+      "name": "乌尔苏拉·冯德莱恩（Ursula von der Leyen）",
+      "type": "person",
+      "context": "欧盟委员会主席，提出重新武装欧洲计划时点名将加拿大纳入",
+      "importance": "low"
+    },
+    {
+      "name": "弗拉基米尔·泽连斯基（Volodymyr Zelenskyy）",
+      "type": "person",
+      "context": "乌克兰总统，被特朗普赶出白宫后转向欧洲寻求支持",
+      "importance": "low"
+    },
+    {
+      "name": "《独树不成林》第163期",
+      "type": "work",
+      "context": "主播1月制作的预测加拿大即将右转的播客，本期对其进行回顾和修正",
+      "importance": "medium"
+    },
+    {
+      "name": "《独树不成林》第179期",
+      "type": "work",
+      "context": "分析德国大选和梅尔茨的播客，用于与加拿大情况对比",
+      "importance": "low"
+    },
+    {
+      "name": "《独树不成林》第189期",
+      "type": "work",
+      "context": "分析特朗普阵营外交政策的播客",
+      "importance": "low"
+    },
+    {
+      "name": "达沃斯论坛/世界经济论坛",
+      "type": "event",
+      "type_2": "organization",
+      "context": "全球化精英的象征性聚会，卡尼和梅尔茨都被视为'达沃斯人'",
+      "importance": "medium"
+    },
+    {
+      "name": "英国脱欧公投",
+      "type": "event",
+      "context": "卡尼担任英国央行行长期间的重要事件，他持反对脱欧立场",
+      "importance": "low"
+    },
+    {
+      "name": "2025年加拿大大选",
+      "type": "event",
+      "context": "本次播客分析的核心事件，自由党在民调落后20%的情况下逆转获胜",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普关税政策",
+      "type": "event",
+      "context": "特朗普对加拿大实施的快速变化的贸易政策，加剧加美关系紧张",
+      "importance": "medium"
+    },
+    {
+      "name": "重新武装欧洲计划",
+      "type": "concept",
+      "context": "冯德莱恩提出的计划，明确将加拿大、英国、挪威纳入而非美国",
+      "importance": "medium"
+    },
+    {
+      "name": "技术官僚",
+      "type": "concept",
+      "context": "卡尼的核心身份标签，强调专业管理能力而非民主选举资历",
+      "importance": "high"
+    },
+    {
+      "name": "达沃斯人",
+      "type": "concept",
+      "context": "贬义称呼，指代全球化时代的跨国资本精英",
+      "importance": "medium"
+    },
+    {
+      "name": "全球主义/世界主义",
+      "type": "concept",
+      "context": "卡尼和梅尔茨的传统意识形态立场，但在危机中融合了民族主义修辞",
+      "importance": "high"
+    },
+    {
+      "name": "国家资本主义",
+      "type": "concept",
+      "context": "主播认为加拿大可能被迫转向的经济模式，以应对与美国脱钩",
+      "importance": "medium"
+    },
+    {
+      "name": "去美国化",
+      "type": "concept",
+      "context": "西方联盟重组的方向，减少对美国中心的依赖",
+      "importance": "medium"
+    },
+    {
+      "name": "加拿大",
+      "type": "place",
+      "context": "本次大选的发生地，面临主权认同危机的国家",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "加拿大的邻国，从'兄弟朋友'变为'无法信任的国家'",
+      "importance": "high"
+    },
+    {
+      "name": "魁北克",
+      "type": "place",
+      "context": "本次大选的关键省份，技术性投票者保住自由党基本盘",
+      "importance": "medium"
+    },
+    {
+      "name": "安大略",
+      "type": "place",
+      "context": "与魁北克类似的选民结构，对民粹主义持警惕态度",
+      "importance": "medium"
+    },
+    {
+      "name": "瑞士达沃斯",
+      "type": "place",
+      "context": "世界经济论坛举办地，全球化精英的象征",
+      "importance": "low"
+    },
+    {
+      "name": "高盛集团（Goldman Sachs）",
+      "type": "organization",
+      "context": "卡尼曾工作的投资银行，标志其金融精英背景",
+      "importance": "medium"
+    },
+    {
+      "name": "黑石集团（Blackstone）",
+      "type": "organization",
+      "context": "梅尔茨曾工作的机构，与高盛对应",
+      "importance": "low"
+    },
+    {
+      "name": "加拿大央行",
+      "type": "organization",
+      "context": "卡尼曾担任行长的机构，构成其危机管理资历",
+      "importance": "medium"
+    },
+    {
+      "name": "英国央行",
+      "type": "organization",
+      "context": "卡尼曾担任行长的机构，强化其国际金融背景",
+      "importance": "medium"
+    },
+    {
+      "name": "世界银行",
+      "type": "organization",
+      "context": "库琴斯基曾任职的机构，与卡尼背景类比",
+      "importance": "low"
+    },
+    {
+      "name": "自由党（加拿大）",
+      "type": "organization",
+      "context": "执政党，在卡尼领导下从崩溃边缘逆转获胜",
+      "importance": "high"
+    },
+    {
+      "name": "保守党（加拿大）",
+      "type": "organization",
+      "context": "主要反对党，因无法回应反特朗普情绪而失利",
+      "importance": "high"
+    },
+    {
+      "name": "美墨加协定/USMCA",
+      "type": "other",
+      "context": "特朗普第一任谈判的贸易协定，后被他自己撕毁",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68106d0d7a449ae858582218",
+  "title": "207-加拿大为何没有右转？（加拿大大选分析）"
+}

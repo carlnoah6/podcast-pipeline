@@ -1,0 +1,273 @@
+{
+  "style": {
+    "opening_pattern": "以轻松话题转换引入，先回顾前几期严肃内容（《自由五部曲》《顾红明访谈》），再宣布回到运动单集",
+    "structure": "总-分结构：先定义倒立类型和难度层级→提出三个核心观点→逐层展开论述（每个观点配合具体动作拆解、个人经验、类比论证）→结尾总结三点并致谢赞助商",
+    "tone": "轻松亲切但富有哲思，口语化表达中穿插深度思考，带有明显的个人色彩和鼓励性",
+    "catchphrases": [
+      "虚头巴脑",
+      "一年级教育幼儿园小朋友",
+      "论迹不论心",
+      "硬着头皮",
+      "It's OK",
+      "So what",
+      "优优独播剧场——YoYo Television Series Exclusive",
+      "哼哧哼哧",
+      "摇摇晃晃",
+      "啪的一声"
+    ],
+    "closing_pattern": "总结三个核心观点+赞助商信息+标志性结束语",
+    "narrative_techniques": [
+      "类比（倒立与旅行、纸房子与台风、新手与老水手）",
+      "反问（连续使用\"你为什么做不到\"\"你不知道什么\"等引导听众自我反思）",
+      "举例（巴勒斯坦女壮士、母亲的康乐醋习惯、Crossfit/瑜伽课观察）",
+      "对比（高级体式vs低级体式、鲁莽vs可控的勇敢、狼狈摔倒vs优雅离开）",
+      "引用（亚里士多德《尼各马可伦理学》）",
+      "自我暴露（坦诚自己做不好拜日式、柔韧好于力量等个人局限）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "小木多/小木朵",
+      "type": "person",
+      "context": "播客主播自称，分享自己学习倒立的经历和教学观点",
+      "importance": "high"
+    },
+    {
+      "name": "顾红明",
+      "type": "person",
+      "context": "被提及为前几期访谈对象，与《自由五部曲》并列为近期严肃话题",
+      "importance": "low"
+    },
+    {
+      "name": "巴勒斯坦女壮士",
+      "type": "person",
+      "context": "主播提到的朋友，作为例子说明拥有力量但需增加柔韧性的练习者",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "被引用来讨论勇敢的概念，引用《尼各马可伦理学》中关于新手与老水手的比喻",
+      "importance": "medium"
+    },
+    {
+      "name": "Farfetch发发奇",
+      "type": "organization",
+      "context": "本期播客的赞助商，全球时尚购物平台，主播多次口播介绍其品牌和折扣活动",
+      "importance": "high"
+    },
+    {
+      "name": "萨洛蒙(Salomon)",
+      "type": "organization",
+      "context": "发发奇上销售的运动品牌，被主播作为专业户外品牌例子提及",
+      "importance": "low"
+    },
+    {
+      "name": "昂跑(On)",
+      "type": "organization",
+      "context": "发发奇上销售的运动品牌，被主播提及",
+      "importance": "low"
+    },
+    {
+      "name": "Satisfy",
+      "type": "organization",
+      "context": "发发奇上的小众设计师运动品牌",
+      "importance": "low"
+    },
+    {
+      "name": "Sporty and Rich",
+      "type": "organization",
+      "context": "发发奇上的小众设计师品牌",
+      "importance": "low"
+    },
+    {
+      "name": "JW Anderson",
+      "type": "organization",
+      "context": "主播个人喜欢在发发奇购买的小众设计师品牌",
+      "importance": "low"
+    },
+    {
+      "name": "Garney",
+      "type": "organization",
+      "context": "主播提及的设计师品牌",
+      "importance": "low"
+    },
+    {
+      "name": "Sandro",
+      "type": "organization",
+      "context": "主播提及的设计师品牌",
+      "importance": "low"
+    },
+    {
+      "name": "Jackie Moo",
+      "type": "organization",
+      "context": "主播提及的设计师品牌",
+      "importance": "low"
+    },
+    {
+      "name": "《自由五部曲》",
+      "type": "work",
+      "context": "主播提及的近期严肃话题系列节目",
+      "importance": "low"
+    },
+    {
+      "name": "《尼各马可伦理学》",
+      "type": "work",
+      "context": "亚里士多德的著作，被主播引用讨论勇敢与知识的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "第27期播客《旅行有什么意义吗》",
+      "type": "work",
+      "context": "主播自我引用，与本期倒立作为旅行的观点形成呼应",
+      "importance": "medium"
+    },
+    {
+      "name": "第192期播客",
+      "type": "work",
+      "context": "主播提及的往期节目，关于\"如何不在人身低谷持续下坠\"",
+      "importance": "low"
+    },
+    {
+      "name": "手倒立",
+      "type": "concept",
+      "context": "倒立的一种形式，需要肩膀和上臂力量，是讨论的核心动作之一",
+      "importance": "high"
+    },
+    {
+      "name": "手肘倒立",
+      "type": "concept",
+      "context": "倒立的一种形式，前臂着地，需要后背力量",
+      "importance": "medium"
+    },
+    {
+      "name": "头倒立",
+      "type": "concept",
+      "context": "倒立的一种形式，头部支撑部分重量，相对简单",
+      "importance": "medium"
+    },
+    {
+      "name": "分腿慢起手倒立",
+      "type": "concept",
+      "context": "高阶倒立变体，需要力量和劈叉柔韧性",
+      "importance": "medium"
+    },
+    {
+      "name": "俄挺俯卧撑",
+      "type": "concept",
+      "context": "被用作比倒立更难的力量动作例子",
+      "importance": "medium"
+    },
+    {
+      "name": "折刀俯卧撑",
+      "type": "concept",
+      "context": "基础训练动作，被强调为通往手倒立的必经之路",
+      "importance": "high"
+    },
+    {
+      "name": "海豚式",
+      "type": "concept",
+      "context": "瑜伽动作，用于培养手肘倒立所需的后背力量",
+      "importance": "medium"
+    },
+    {
+      "name": "拜日式",
+      "type": "concept",
+      "context": "最基础的瑜伽序列，主播强调其包含所有高难度动作的基础",
+      "importance": "high"
+    },
+    {
+      "name": "轮式",
+      "type": "concept",
+      "context": "瑜伽后弯动作，被用作手倒立翻过去摔倒所需的柔韧性例子",
+      "importance": "medium"
+    },
+    {
+      "name": "侧摔",
+      "type": "concept",
+      "context": "手倒立的一种安全离开方式，需要一定手臂力量",
+      "importance": "high"
+    },
+    {
+      "name": "核心力量",
+      "type": "concept",
+      "context": "被强调为所有倒立的基础，与抬腿卷腹等基础训练直接关联",
+      "importance": "high"
+    },
+    {
+      "name": "冲肩",
+      "type": "concept",
+      "context": "肩膀控制身体前倾不翻过去的力量，手倒立关键",
+      "importance": "medium"
+    },
+    {
+      "name": "前屈",
+      "type": "concept",
+      "context": "柔韧性训练，被强调为分腿慢起手倒立等动作的基础",
+      "importance": "medium"
+    },
+    {
+      "name": "兔子跳",
+      "type": "concept",
+      "context": "进入手倒立的基础方式，被描述为入门级别",
+      "importance": "low"
+    },
+    {
+      "name": "crossfit",
+      "type": "concept",
+      "context": "包含倒立训练的运动体系，被多次提及作为参照",
+      "importance": "low"
+    },
+    {
+      "name": "calisthenics/街头健身",
+      "type": "concept",
+      "context": "包含倒立训练的运动体系",
+      "importance": "low"
+    },
+    {
+      "name": "柔术杂技",
+      "type": "concept",
+      "context": "之前讨论过的包含倒立的运动",
+      "importance": "low"
+    },
+    {
+      "name": "没有高级体式",
+      "type": "concept",
+      "context": "本期最核心的哲学观点，否定体式等级之分",
+      "importance": "high"
+    },
+    {
+      "name": "练习如何摔倒",
+      "type": "concept",
+      "context": "第二个核心观点，将摔倒视为认知而非单纯技术",
+      "importance": "high"
+    },
+    {
+      "name": "倒立是最快的旅行",
+      "type": "concept",
+      "context": "第三个核心观点，将倒立体验类比为旅行带来的陌生化视角",
+      "importance": "high"
+    },
+    {
+      "name": "勇敢与鲁莽",
+      "type": "concept",
+      "context": "通过亚里士多德引出的伦理讨论，区分有知识的可控与无知的冒险",
+      "importance": "medium"
+    },
+    {
+      "name": "九寨沟",
+      "type": "place",
+      "context": "主播回忆童年与母亲旅行的地点，用来说明母亲拒绝改变饮食习惯的例子",
+      "importance": "low"
+    },
+    {
+      "name": "康乐醋",
+      "type": "other",
+      "context": "主播母亲旅行时随身携带的调味品，象征拒绝离开舒适区的反面例子",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6814ecef6970cc7b4d683afd",
+  "title": "209-如何倒立？"
+}

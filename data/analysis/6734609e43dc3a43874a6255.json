@@ -1,0 +1,297 @@
+{
+  "style": {
+    "opening_pattern": "以当前政治困境引入，通过对比历史制造悬念",
+    "structure": "现状困境→历史回顾（80年代民主党惨败）→改革路径分析（新民主党崛起）→关键人物登场（克林顿）→经验总结与现实对照",
+    "tone": "理性客观中带有机智幽默，历史叙述与政治分析交织",
+    "catchphrases": [
+      "现实大宝剑",
+      "reality therapy",
+      "摁在地上碾压",
+      "非常糟糕的夜晚",
+      "爽文会一直爽下去",
+      "角色扮演",
+      "正义超人",
+      "教育选民",
+      "小巫见大巫",
+      "爬回权力巅峰"
+    ],
+    "closing_pattern": "开放式总结，强调人的因素不可控，留下悬念",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "反问",
+      "举例",
+      "历史平行对照",
+      "音乐比喻"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "2024年大选获胜者，被民主党试图从历史中抹去但未成功",
+      "importance": "high"
+    },
+    {
+      "name": "里根（Ronald Reagan）",
+      "type": "person",
+      "context": "1980年代共和党总统，以压倒性优势击败民主党，将民主党逼至消亡边缘",
+      "importance": "high"
+    },
+    {
+      "name": "吉米·卡特（Jimmy Carter）",
+      "type": "person",
+      "context": "1977-1981年民主党总统，以水门事件后的局外人身份当选，四年后被里根击败",
+      "importance": "high"
+    },
+    {
+      "name": "沃尔特·蒙代尔（Walter Mondale）",
+      "type": "person",
+      "context": "1984年民主党总统候选人，被里根以美国历史上最大压倒性优势之一击败",
+      "importance": "high"
+    },
+    {
+      "name": "比尔·克林顿（Bill Clinton）",
+      "type": "person",
+      "context": "1992年当选的民主党总统，新民主党运动的代表人物，带领民主党重返权力巅峰",
+      "importance": "high"
+    },
+    {
+      "name": "阿尔·弗罗姆（Al From）",
+      "type": "person",
+      "context": "提出'reality therapy'概念的民主党改革者，DLC创始人",
+      "importance": "medium"
+    },
+    {
+      "name": "威尔·马歇尔（Will Marshall）",
+      "type": "person",
+      "context": "与Al From合作创立DLC的新民主党人",
+      "importance": "medium"
+    },
+    {
+      "name": "杰西·杰克逊（Jesse Jackson）",
+      "type": "person",
+      "context": "彩虹联盟领袖，黑人民权运动牧师，代表民主党建制派身份政治，与克林顿公开冲突",
+      "importance": "high"
+    },
+    {
+      "name": "老布什（George H.W. Bush）",
+      "type": "person",
+      "context": "里根之后的共和党总统，1988年击败民主党",
+      "importance": "medium"
+    },
+    {
+      "name": "尼克松（Richard Nixon）",
+      "type": "person",
+      "context": "因水门事件下台的前共和党总统，其丑闻使卡特得以当选",
+      "importance": "low"
+    },
+    {
+      "name": "林登·约翰逊（Lyndon B. Johnson/LBJ）",
+      "type": "person",
+      "context": "1960年代民主党总统，推动反贫困改革，其政策被80年代民主党建制派缅怀",
+      "importance": "low"
+    },
+    {
+      "name": "哈里斯（Kamala Harris）",
+      "type": "person",
+      "context": "2024年民主党总统候选人，被比作蒙代尔，因被迫背书极端政策而失败",
+      "importance": "high"
+    },
+    {
+      "name": "民主党领导委员会（Democratic Leadership Council/DLC）",
+      "type": "organization",
+      "context": "反建制的民主党智库，新民主党人的组织，克林顿通过其崛起",
+      "importance": "high"
+    },
+    {
+      "name": "全国妇女组织",
+      "type": "organization",
+      "context": "1980年代民主党建制派的利益联盟组成部分",
+      "importance": "low"
+    },
+    {
+      "name": "美国劳工协会（AFL-CIO）",
+      "type": "organization",
+      "context": "进步联盟核心利益团体，民主党建制派的支持者",
+      "importance": "low"
+    },
+    {
+      "name": "美国有色人种协会（NAACP）",
+      "type": "organization",
+      "context": "进步联盟核心利益团体",
+      "importance": "low"
+    },
+    {
+      "name": "塞拉俱乐部（Sierra Club）",
+      "type": "organization",
+      "context": "绿色环保组织，民主党建制派利益联盟成员",
+      "importance": "low"
+    },
+    {
+      "name": "彩虹联盟（Rainbow Coalition）",
+      "type": "organization",
+      "context": "杰西·杰克逊领导的民权运动组织，代表身份政治，与新民主党对立",
+      "importance": "high"
+    },
+    {
+      "name": "摩根士丹利（Morgan Stanley）",
+      "type": "organization",
+      "context": "被提及为2024年民主党动用的支持力量之一",
+      "importance": "low"
+    },
+    {
+      "name": "星球大战计划（Star Wars）",
+      "type": "concept",
+      "context": "里根的太空导弹防御计划，1984年蒙代尔攻击该计划导致失去选民支持",
+      "importance": "medium"
+    },
+    {
+      "name": "现实大宝剑/现实疗法（Reality Therapy）",
+      "type": "concept",
+      "context": "Al From提出的概念，要求民主党诚实面对失败和诊断现实",
+      "importance": "high"
+    },
+    {
+      "name": "新民主党人（New Democrats）",
+      "type": "concept",
+      "context": "DLC代表的温和改革派，主张摆脱1968年学运以来的左倾趋势，讨好中产阶级",
+      "importance": "high"
+    },
+    {
+      "name": "第三条路（Third Way）",
+      "type": "concept",
+      "context": "新民主党开拓的政治路线，介于传统左右之间",
+      "importance": "medium"
+    },
+    {
+      "name": "新自由主义（Neoliberalism）",
+      "type": "concept",
+      "context": "新民主党主张的意识形态，适应冷战后单极世界秩序",
+      "importance": "high"
+    },
+    {
+      "name": "双极体系/两极世界（Bipolar System/Bipolar World）",
+      "type": "concept",
+      "context": "冷战时期美苏对抗的世界秩序，里根主义的根基",
+      "importance": "medium"
+    },
+    {
+      "name": "单极世界（Unipolarity/Unipolar World）",
+      "type": "concept",
+      "context": "1989年柏林墙倒塌后美国独大的新世界秩序，克林顿叙事的基础",
+      "importance": "high"
+    },
+    {
+      "name": "包容性政治（Inclusive Politics）",
+      "type": "concept",
+      "context": "新民主党的主张，让各背景有抱负的美国人实现平等权利",
+      "importance": "medium"
+    },
+    {
+      "name": "公民政治家（Citizen Politician）",
+      "type": "concept",
+      "context": "吉米·卡特的自我定位，强调非职业政治家的局外人身份",
+      "importance": "low"
+    },
+    {
+      "name": "身份政治（Identity Politics）",
+      "type": "concept",
+      "context": "源自1968年学运的民主党建制派主张，被新民主党明确划清界限",
+      "importance": "high"
+    },
+    {
+      "name": "即兴爵士乐（Improvisational Jazz）",
+      "type": "concept",
+      "context": "里根演讲撰稿者对克林顿演讲风格的比喻，形容其即兴创作能力",
+      "importance": "medium"
+    },
+    {
+      "name": "水门事件（Watergate）",
+      "type": "event",
+      "context": "导致尼克松下台的丑闻，使卡特得以在1976年当选",
+      "importance": "low"
+    },
+    {
+      "name": "伊朗人质危机",
+      "type": "event",
+      "context": "1980年卡特面临的危机之一，导致其败选",
+      "importance": "low"
+    },
+    {
+      "name": "1980年美国总统大选",
+      "type": "event",
+      "context": "里根以489对49选举人票压倒性击败卡特",
+      "importance": "high"
+    },
+    {
+      "name": "1984年美国总统大选",
+      "type": "event",
+      "context": "里根对蒙代尔取得美国历史上最大压倒性胜利之一，仅明尼苏达州和华盛顿特区未翻红",
+      "importance": "high"
+    },
+    {
+      "name": "1988年美国总统大选",
+      "type": "event",
+      "context": "民主党再次败给老布什，80年代三次大选全败",
+      "importance": "medium"
+    },
+    {
+      "name": "1992年美国总统大选",
+      "type": "event",
+      "context": "克林顿获胜，新民主党带领民主党重返权力巅峰",
+      "importance": "high"
+    },
+    {
+      "name": "2024年美国总统大选",
+      "type": "event",
+      "context": "特朗普获胜，民主党惨败，被与80年代对比",
+      "importance": "high"
+    },
+    {
+      "name": "1968年学运",
+      "type": "event",
+      "context": "美国民主党不断左倾趋势的起点，影响持续数十年",
+      "importance": "medium"
+    },
+    {
+      "name": "柏林墙倒塌（1989年）",
+      "type": "event",
+      "context": "标志冷战结束、苏联瓦解，世界格局变为单极",
+      "importance": "high"
+    },
+    {
+      "name": "1992年6月12日克林顿彩虹联盟演讲",
+      "type": "event",
+      "context": "克林顿公开批评党内建制派和杰西·杰克逊，划清与身份政治的界限",
+      "importance": "high"
+    },
+    {
+      "name": "明尼苏达州",
+      "type": "place",
+      "context": "1984年大选唯一未翻红的州，蒙代尔的家乡",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿特区",
+      "type": "place",
+      "context": "1984年大选唯一未翻红的地区",
+      "importance": "low"
+    },
+    {
+      "name": "马萨诸塞州",
+      "type": "place",
+      "context": "里根作为保守派共和党人意外获胜的深蓝州",
+      "importance": "low"
+    },
+    {
+      "name": "纽约州",
+      "type": "place",
+      "context": "里根作为保守派共和党人意外获胜的深蓝州",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6734609e43dc3a43874a6255",
+  "title": "133-民主党如何爬回权力巅峰？"
+}

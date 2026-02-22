@@ -1,0 +1,145 @@
+{
+  "style": {
+    "opening_pattern": "以现代人与古代人的认知对比引入，关联上一期关于言论自由的内容作为铺垫",
+    "structure": "问题提出（现代自由观的局限）→学术史回顾（贡斯当/伯林的传统）→罗马社会结构分析（奴隶制/父权制）→政治自由理念（西塞罗/李维）→言论与政治文化→帝国与自由的张力→斯多葛派内在自由→总结",
+    "tone": "学术性与批判性并存，理性客观但带有价值关怀，层层递进的论述语气",
+    "catchphrases": [
+      "对吧",
+      "换句话说",
+      "比如说",
+      "我想强调的是",
+      "一方面...另一方面",
+      "你会发现",
+      "这意味着",
+      "正如...所说",
+      "让我们回到"
+    ],
+    "closing_pattern": "开放式总结，强调知识价值而非复古主张，邀请听众查看年表资料",
+    "narrative_techniques": [
+      "古今对比（罗马与现代自由主义）",
+      "概念辨析（消极自由vs非支配自由）",
+      "权威引用（西塞罗、塔西佗等）",
+      "层层递进的逻辑推演",
+      "辩证分析（帝国与自由的关系）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "西塞罗（Cicero）",
+      "type": "person",
+      "context": "罗马共和主义思想家，其《共和国》《义务篇》被反复引用作为罗马自由观的核心文本",
+      "importance": "high"
+    },
+    {
+      "name": "塔西佗（Tacitus）",
+      "type": "person",
+      "context": "罗马史学家，其《编年史》《阿古利可拉传》被用来批判帝国对自由的侵蚀",
+      "importance": "high"
+    },
+    {
+      "name": "本杰明·贡斯当（Benjamin Constant）",
+      "type": "person",
+      "context": "19世纪法国思想家，其《古人与今人之自由》被作为现代自由理论的对照",
+      "importance": "high"
+    },
+    {
+      "name": "以赛亚·伯林（Isaiah Berlin）",
+      "type": "person",
+      "context": "20世纪英国政治理论家，其《两种自由概念》被作为现代消极自由/积极自由区分的代表",
+      "importance": "high"
+    },
+    {
+      "name": "自由作为非支配（Freedom as Non-domination）",
+      "type": "concept",
+      "context": "罗马自由观的核心概念，即自由等于不受他人支配，区别于现代的不受干涉",
+      "importance": "high"
+    },
+    {
+      "name": "奴隶制（Slavery）",
+      "type": "concept",
+      "context": "罗马社会的基本制度，作为理解罗马自由观的起点（自由人即非奴隶）",
+      "importance": "high"
+    },
+    {
+      "name": "帝国（Imperium）",
+      "type": "concept",
+      "context": "拉丁语中指统治权力，播客讨论其与自由（Libertas）的复杂关系",
+      "importance": "high"
+    },
+    {
+      "name": "李维（Livy）",
+      "type": "person",
+      "context": "罗马史学家，其《自建城以来》被引用描述罗马权利争取史",
+      "importance": "medium"
+    },
+    {
+      "name": "萨卢斯特（Sallust）",
+      "type": "person",
+      "context": "罗马史学家，其《卡提琳阴谋》被引用讨论言论与腐败",
+      "importance": "medium"
+    },
+    {
+      "name": "昆廷·斯金纳（Quentin Skinner）",
+      "type": "person",
+      "context": "剑桥学派代表，新共和主义思想家",
+      "importance": "medium"
+    },
+    {
+      "name": "菲利普·佩蒂特（Philip Pettit）",
+      "type": "person",
+      "context": "政治哲学家，新共和主义代表",
+      "importance": "medium"
+    },
+    {
+      "name": "爱比克泰德（Epictetus）",
+      "type": "person",
+      "context": "斯多葛派哲学家，代表内在自由转向",
+      "importance": "medium"
+    },
+    {
+      "name": "奥古斯都（Augustus）",
+      "type": "person",
+      "context": "罗马第一位皇帝，其改革被作为共和国自由丧失的转折点",
+      "importance": "medium"
+    },
+    {
+      "name": "查士丁尼（Justinian）",
+      "type": "person",
+      "context": "拜占庭皇帝，其《法学阶梯》被引用",
+      "importance": "low"
+    },
+    {
+      "name": "《共和国》（De Re Publica）",
+      "type": "work",
+      "context": "西塞罗的政治哲学对话录，讨论自由与政治共同体的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "消极自由与积极自由",
+      "type": "concept",
+      "context": "伯林提出的区分，被作为现代自由理论的代表",
+      "importance": "medium"
+    },
+    {
+      "name": "新共和主义（Neo-Republicanism）",
+      "type": "concept",
+      "context": "当代政治理论流派，追溯罗马自由传统",
+      "importance": "medium"
+    },
+    {
+      "name": "父权制（Patriarchy）",
+      "type": "concept",
+      "context": "罗马家庭结构，父亲对家庭成员的权力",
+      "importance": "medium"
+    },
+    {
+      "name": "修辞（Rhetoric）",
+      "type": "concept",
+      "context": "罗马政治生活中演讲与辩论的艺术，被视为维护自由的手段",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67f714f759699d74dcb3f901",
+  "title": "202-古罗马人如何理解自由？"
+}

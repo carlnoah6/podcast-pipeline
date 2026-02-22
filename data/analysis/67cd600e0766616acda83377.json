@@ -1,0 +1,259 @@
+{
+  "style": {
+    "opening_pattern": "直接提出问题，以核心动词'是'的哲学追问切入",
+    "structure": "哲学概念拆解→个人经验叙事→政治理论分析→开放式结尾",
+    "tone": "理性深沉、真诚自省，带有危机意识和知识分子的忧患感",
+    "catchphrases": [
+      "喋喋不休",
+      "保护好你自己",
+      "认知决定经验/经验决定认知",
+      "墙头草",
+      "利维坦",
+      "叫天天不灵叫地地不应",
+      "鬼鬼祟祟",
+      "绘声绘色",
+      "第一世界的特权"
+    ],
+    "closing_pattern": "开放式提问，拒绝给出确定答案，邀请持续思考",
+    "narrative_techniques": [
+      "类比（吃屎的比格犬、视力与智力）",
+      "个人经历叙事（塞内加尔事件）",
+      "反问",
+      "对比（安全社会vs法治缺失地区）",
+      "引用经典文本"
+    ]
+  },
+  "entities": [
+    {
+      "name": "海德格尔",
+      "type": "person",
+      "context": "被提及《存在与时间》中关于'是'的哲学探讨",
+      "importance": "medium"
+    },
+    {
+      "name": "休谟",
+      "type": "person",
+      "context": "作为现代哲学代表，认为人可通过想象力和同情触碰经验以外的世界",
+      "importance": "medium"
+    },
+    {
+      "name": "亚当斯密",
+      "type": "person",
+      "context": "与休谟并列，代表通过同情心理解他人的现代哲学路径",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "被列为代表想象力和同情心的现代哲学家",
+      "importance": "low"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "代表通过逻辑触碰经验以外世界的哲学路径",
+      "importance": "medium"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "与康德并列，代表现代哲学中逻辑的路径",
+      "importance": "low"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "其观点被引用：没有人可以在体验中得出认知以外的东西；抱怨德国人带着道德谱系读不懂他的书",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "其洞穴寓言中的视力隐喻被用来类比智力",
+      "importance": "medium"
+    },
+    {
+      "name": "马基雅维利",
+      "type": "person",
+      "context": "作为现代政体奠基者之一，强调先保障人身安全再谈思想自由",
+      "importance": "medium"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "《利维坦》作者，被多次引用：人在自然状态下最强的感受是恐惧；安全是自由的前提",
+      "importance": "high"
+    },
+    {
+      "name": "洛克",
+      "type": "person",
+      "context": "作为现代政体奠基者之一，与马基雅维利、霍布斯并列",
+      "importance": "low"
+    },
+    {
+      "name": "福柯",
+      "type": "person",
+      "context": "被作为后现代主义代表，其权力理论被讨论：唯一的裁定者是power",
+      "importance": "medium"
+    },
+    {
+      "name": "斯宾诺莎",
+      "type": "person",
+      "context": "被犹太教会驱逐的历史案例，用来说明权威意识形态的裁判权",
+      "importance": "medium"
+    },
+    {
+      "name": "刘骁骞",
+      "type": "person",
+      "context": "上一期播客嘉宾，战地记者，因男性身份可以采访危险地区而被对比",
+      "importance": "medium"
+    },
+    {
+      "name": "《存在与时间》",
+      "type": "work",
+      "context": "海德格尔的著作，关于'是'的宏大哲学问题",
+      "importance": "medium"
+    },
+    {
+      "name": "《利维坦》",
+      "type": "work",
+      "context": "霍布斯的政治哲学著作，被多次引用讨论安全与自由的关系",
+      "importance": "high"
+    },
+    {
+      "name": "认知与经验的关系",
+      "type": "concept",
+      "context": "核心哲学议题：认知是否由经验决定，或经验是否由认知决定",
+      "importance": "high"
+    },
+    {
+      "name": "想象力",
+      "type": "concept",
+      "context": "作为现代人高低之分的标准，也是同情心的另一种说法",
+      "importance": "high"
+    },
+    {
+      "name": "同情心",
+      "type": "concept",
+      "context": "与想象力等同，是现代人理解他人疾苦的能力",
+      "importance": "medium"
+    },
+    {
+      "name": "道德谱系",
+      "type": "concept",
+      "context": "尼采的概念，指人既定的认知框架决定其能看到的经验",
+      "importance": "high"
+    },
+    {
+      "name": "完整性（安全与思想自由）",
+      "type": "concept",
+      "context": "个人层面的两个保障：物理安全优先于精神自由",
+      "importance": "high"
+    },
+    {
+      "name": "人权",
+      "type": "concept",
+      "context": "女权的基础，最基础定义是人身安全",
+      "importance": "high"
+    },
+    {
+      "name": "女权主义",
+      "type": "concept",
+      "context": "整集讨论的核心身份认同问题，是否有客观标准定义",
+      "importance": "high"
+    },
+    {
+      "name": "后现代主义",
+      "type": "concept",
+      "context": "福柯代表的思潮，认为权力是唯一的裁定者",
+      "importance": "medium"
+    },
+    {
+      "name": "权威意识形态（orthodoxy）",
+      "type": "concept",
+      "context": "第一种裁判分歧的方式，通过既定标准判断对错",
+      "importance": "high"
+    },
+    {
+      "name": "开放式的真理探求（Open-ended truth inquiry）",
+      "type": "concept",
+      "context": "第二种裁判方式，超越意识形态内部标准的探索",
+      "importance": "high"
+    },
+    {
+      "name": "第一世界的特权",
+      "type": "concept",
+      "context": "指和平地区精英女性忽视安全前提而呼吁更多权利的现象",
+      "importance": "high"
+    },
+    {
+      "name": "一带一路",
+      "type": "event",
+      "context": "讲述者在塞内加尔时正在如火如荼进行的中国基建项目",
+      "importance": "low"
+    },
+    {
+      "name": "卡塔尔",
+      "type": "place",
+      "context": "讲述者待过的保守中东伊斯兰国家之一",
+      "importance": "medium"
+    },
+    {
+      "name": "科威特",
+      "type": "place",
+      "context": "讲述者采访本地官员时遭遇性别轻视的国家",
+      "importance": "medium"
+    },
+    {
+      "name": "沙特阿拉伯",
+      "type": "place",
+      "context": "讲述者待过的保守中东伊斯兰国家",
+      "importance": "low"
+    },
+    {
+      "name": "摩洛哥",
+      "type": "place",
+      "context": "相对开放的非洲伊斯兰国家，讲述者去过",
+      "importance": "low"
+    },
+    {
+      "name": "阿尔及利亚",
+      "type": "place",
+      "context": "非洲伊斯兰国家，讲述者去过",
+      "importance": "low"
+    },
+    {
+      "name": "塞内加尔",
+      "type": "place",
+      "context": "西非国家，讲述者遭遇性威胁事件的发生地",
+      "importance": "high"
+    },
+    {
+      "name": "加拿大",
+      "type": "place",
+      "context": "云南穆斯林女童性恋女孩逃离后前往的目的地",
+      "importance": "low"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "讲述者00后小表妹所在城市，高中女生流行自称女童性恋",
+      "importance": "low"
+    },
+    {
+      "name": "云南",
+      "type": "place",
+      "context": "穆斯林女童性恋听友的家乡",
+      "importance": "low"
+    },
+    {
+      "name": "哥伦比亚",
+      "type": "place",
+      "context": "刘骁骞采访毒枭恐怖分子的南美危险国家",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67cd600e0766616acda83377",
+  "title": "191-我是一个女权主义者吗？"
+}

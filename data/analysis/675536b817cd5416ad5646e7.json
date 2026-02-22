@@ -1,0 +1,247 @@
+{
+  "style": {
+    "opening_pattern": "以张爱玲名言引入，提出'生活的戏剧化'问题，通过连续追问建立论述框架",
+    "structure": "引用名言→提出核心问题→历史回溯（卢梭）→文本细读（《红与黑》）→对比分析（于连vs市长夫人）→现代性批判与哲学升华",
+    "tone": "学术思辨与个人叙事交织，理性分析中带有情感温度（提及个人经历），批判性强但保持探讨的开放性",
+    "catchphrases": [
+      "对吧",
+      "也就是说",
+      "那么",
+      "比如说",
+      "换句话说",
+      "我觉得",
+      "很有意思",
+      "我们可以看到",
+      "换句话说"
+    ],
+    "closing_pattern": "总结核心观点（现代小说创造的'责任'概念扭曲了真实情感体验），预告下期内容",
+    "narrique_techniques": [
+      "类比（将19世纪言情小说与现代抖音短剧、小红书对比）",
+      "对比（于连的'小说滤镜'与市长夫人的'直接体验'）",
+      "文本细读与引用",
+      "连续设问",
+      "自我反思（主播对自己前期分析中过度关注个人经历的检讨）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "张爱玲",
+      "type": "person",
+      "context": "播客开篇引用其关于'先读到爱情小说后知道爱'的论述，作为核心问题提出的起点",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "被认定为最早关注'生活戏剧化'问题的思想家，其《爱弥儿》及对日内瓦剧院的辩论被讨论，也是《新爱洛依丝》的作者",
+      "importance": "high"
+    },
+    {
+      "name": "司汤达",
+      "type": "person",
+      "context": "《红与黑》的作者，被分析为深受卢梭影响，通过小说反思'小说如何扭曲爱情体验'的文学家",
+      "importance": "high"
+    },
+    {
+      "name": "于连（Julien Sorel）",
+      "type": "person",
+      "context": "《红与黑》男主角，木匠之子，通过阅读卢梭和拿破仑构建'屌丝逆袭'叙事，无法真实体验爱情，始终处于'角色扮演'状态",
+      "importance": "high"
+    },
+    {
+      "name": "德·瑞纳夫人（市长夫人）",
+      "type": "person",
+      "context": "《红与黑》女主角，在修道院长大从未读过言情小说，能直接通过感官体验爱情，被塑造为'反现代'的角色",
+      "importance": "high"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "于连崇拜的偶像，其'屌丝逆袭'故事构成于连阅读的核心文本，影响于连对爱情的想象",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "被提及作为对比，主播认为司汤达和卢梭描述的'小说-虚荣心'机制是比马克思的'异化'更微妙的异化形式",
+      "importance": "low"
+    },
+    {
+      "name": "朱莉（Julie）",
+      "type": "person",
+      "context": "卢梭《新爱洛依丝》的女主角，与家庭教师恋爱的贵族女性，被作为'言情小说原型的对照'",
+      "importance": "medium"
+    },
+    {
+      "name": "前夫",
+      "type": "person",
+      "context": "主播提及个人经历，因发现前夫出轨而在前几期解析中过度关注自我，导致本期试图回到更客观的文本分析",
+      "importance": "medium"
+    },
+    {
+      "name": "《红与黑》（Le Rouge et le Noir）",
+      "type": "work",
+      "context": "本期解析的核心文本，司汤达1830年的小说，被用来分析'小说如何扭曲爱情体验'",
+      "importance": "high"
+    },
+    {
+      "name": "《爱弥儿》（Émile）",
+      "type": "work",
+      "context": "卢梭的教育小说，被提及作为卢梭关注'生活戏剧化'问题的文本之一",
+      "importance": "medium"
+    },
+    {
+      "name": "《新爱洛依丝》（Julie, ou la nouvelle Héloïse）",
+      "type": "work",
+      "context": "卢梭的书信体言情小说，18世纪最畅销小说，讲述家庭教师与贵族女子的爱情，直接影响《红与黑》的叙事",
+      "importance": "high"
+    },
+    {
+      "name": "《忏悔录》（Les Confessions）",
+      "type": "work",
+      "context": "卢梭自传，被提及为于连唯一相信的三本书之一（与拿破仑自传并列）",
+      "importance": "medium"
+    },
+    {
+      "name": "第25期《直播这个现象在人类文明中代表了怎样的大趋势》",
+      "type": "work",
+      "context": "主播提及自己早期的播客单集，曾在其中讨论小说与中产阶级的兴起",
+      "importance": "low"
+    },
+    {
+      "name": "抖音短剧",
+      "type": "work",
+      "context": "被作为现代'言情小说'的类比，与19世纪小说对比，特别是'屌丝逆袭'题材",
+      "importance": "medium"
+    },
+    {
+      "name": "《流星花园》",
+      "type": "work",
+      "context": "被提及作为现代偶像剧/网剧的代表现代爱情叙事模板",
+      "importance": "low"
+    },
+    {
+      "name": "小红书",
+      "type": "work",
+      "context": "被作为现代人了解爱情的媒介之一，与19世纪小说类比",
+      "importance": "low"
+    },
+    {
+      "name": "微博",
+      "type": "work",
+      "context": "被作为现代人了解爱情的媒介之一",
+      "importance": "low"
+    },
+    {
+      "name": "生活的戏剧化",
+      "type": "concept",
+      "context": "核心概念，源自张爱玲，指现代人通过文学/艺术媒介（而非直接经验）来体验生活，导致生活与戏剧界限模糊",
+      "importance": "high"
+    },
+    {
+      "name": "先读到爱情小说后知道爱",
+      "type": "concept",
+      "context": "张爱玲提出的核心观察，描述现代人通过文本而非直接体验来理解爱情的现象",
+      "importance": "high"
+    },
+    {
+      "name": "屌丝逆袭",
+      "type": "concept",
+      "context": "用于描述于连通过阅读拿破仑/卢梭形成的叙事模板，也是现代抖音短剧的常见题材，代表一种通过奋斗从底层上升到顶层并获取爱情的男性幻想",
+      "importance": "high"
+    },
+    {
+      "name": "amour-propre（虚荣心/自尊）",
+      "type": "concept",
+      "context": "卢梭概念，被司汤达继承，指一种比较性的、依赖他人目光的自我价值感，被认为是驱使现代人按照小说模板去'扮演'爱情的心理机制",
+      "importance": "high"
+    },
+    {
+      "name": "异化",
+      "type": "concept",
+      "context": "马克思的概念被引入作为对比，主播认为司汤达描述的'小说-虚荣心'对爱情的扭曲是一种比经济异化更微妙的异化形式",
+      "importance": "medium"
+    },
+    {
+      "name": "sentiment de l'existence（存在的感觉）",
+      "type": "concept",
+      "context": "卢梭概念，描述纯粹的存在带来的甜蜜感受，于连在第八章短暂体验到但被其'想象中的责任'破坏",
+      "importance": "medium"
+    },
+    {
+      "name": "美德与善良（Virtue and Goodness）",
+      "type": "concept",
+      "context": "卢梭哲学的核心区分，被司汤达用于塑造市长夫人：她出轨故无'美德'（virtue），但本性'善良'（goodness），以此对抗现代社会的腐败价值观",
+      "importance": "medium"
+    },
+    {
+      "name": "想象中的责任",
+      "type": "concept",
+      "context": "司汤达描述于连爱情体验的核心概念，指于连不直接感受爱情，而是时刻思考'作为男性/英雄应该做什么'，这种想象的责任破坏了真实的愉悦",
+      "importance": "high"
+    },
+    {
+      "name": "人工味（artificiality）",
+      "type": "concept",
+      "context": "司汤达描述巴黎爱情的特点，指被小说主宰的、不自然的男女情爱关系，与市长夫人的自然体验形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "被提及作为于连阅读的军事记录的背景，也是拿破仑崛起的历史语境",
+      "importance": "low"
+    },
+    {
+      "name": "1758年日内瓦建剧院辩论",
+      "type": "event",
+      "context": "卢梭参与的重要文化事件，卢梭在此提出反对剧院/戏剧化的观点，被认为是'生活戏剧化'批评的源头",
+      "importance": "medium"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "被作为'现代都市文化'的典范，与张爱玲的上海类比，代表被小说主宰的、'人工味'的爱情发生地",
+      "importance": "high"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "被主播与张爱玲的论述联系，与巴黎类比，代表现代都市文化中'先读小说后知道爱'的语境",
+      "importance": "medium"
+    },
+    {
+      "name": "维里埃（Verrières）",
+      "type": "place",
+      "context": "《红与黑》故事发生的县级市，位于新旧法国交界处，既有传统贵族又有工业新贵，是连接巴黎与小城镇的关键空间",
+      "importance": "high"
+    },
+    {
+      "name": "日内瓦",
+      "type": "place",
+      "context": "卢梭参与剧院辩论的地点，代表18世纪欧洲文化中心",
+      "importance": "low"
+    },
+    {
+      "name": "修道院",
+      "type": "place",
+      "context": "市长夫人成长的教育环境，封闭、严格、无小说，塑造了其'反现代'特质",
+      "importance": "medium"
+    },
+    {
+      "name": "中产阶级",
+      "type": "organization",
+      "context": "与小说兴起紧密挂钩的社会阶层，小说的主要服务对象，区别于贵族的戏剧消费",
+      "importance": "medium"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "播客所属的栏目名称，在开场白中提及",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "675536b817cd5416ad5646e7",
+  "title": "144-通过言情小说体会爱情的现代人还能体会真实爱情吗？（《红与黑》解析4）"
+}

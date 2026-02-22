@@ -1,0 +1,230 @@
+{
+  "style": {
+    "opening_pattern": "以柴可夫斯基《胡桃夹子》音乐引入，结合圣诞节氛围，并回顾往期内容（第150期马克思、第55期美国女权）建立连续性",
+    "structure": "开场铺垫→提出核心问题（左翼女权内部分裂）→历史回顾（三波/四波女权简介）→第一重分裂（拒绝浪潮叙事/西方中心主义批判）→第二重分裂（马克思女权对自由女权的批评）→第三重分裂（对马克思本人的反思/燕妮·马克思）→第四重分裂（后现代主义与酷儿理论）→具体议题分析（监狱女权、废奴主义女权）→第五重分裂（跨性别议题/TERF vs 包容派）→结尾总结",
+    "tone": "理性客观但带有批判性个人立场，使用口语化表达（如'鬼鬼祟祟'、'捏着鼻子'），保持知识分子的距离感和反思性，避免使用复杂学术黑话",
+    "catchphrases": [
+      "鬼鬼祟祟",
+      "捏着鼻子",
+      "批评与自我批评",
+      "放下筷子骂娘",
+      "黑话",
+      "Girl Boss",
+      "浪潮",
+      "西方中心主义",
+      "交叉性",
+      "结构压迫"
+    ],
+    "closing_pattern": "总结观点（强调左翼内部矛盾比左右翼矛盾更激烈），引用'批评与自我批评'的传统概念，以'拜拜'口语化结束",
+    "narrative_techniques": [
+      "类比（将中文互联网女权争论类比为30年前美国第三波对第二波的批评）",
+      "举例（监狱女权、废奴主义女权、Girl Boss现象）",
+      "对比（马克思女权vs自由女权、TERF vs 包容派、卡尔·马克思vs燕妮·马克思）",
+      "引用（福柯、安吉拉·戴维斯、恩格斯、波伏娃）",
+      "反问（'你有没有发现...'）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "柴可夫斯基",
+      "type": "person",
+      "context": "播客开场提到其音乐作品《胡桃夹子》，并形容这首音乐'鬼鬼祟祟'符合播客调性",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "作为马克思主义创始人，被讨论其理论对女权主义的影响，以及左翼女权对马克思本人的反思和批评",
+      "importance": "high"
+    },
+    {
+      "name": "燕妮·马克思",
+      "type": "person",
+      "context": "马克思的妻子，被部分左翼女权主义者认为是真正应该被追溯的女权传统源头，而非卡尔·马克思本人",
+      "importance": "high"
+    },
+    {
+      "name": "恩格斯",
+      "type": "person",
+      "context": "被提及其关于婚姻制度的观点（婚姻把女人当作生产工具），作为第三波女权理论来源之一",
+      "importance": "medium"
+    },
+    {
+      "name": "波伏娃",
+      "type": "person",
+      "context": "法国女权主义者，其著作《第二性》被归为第二波女权主义的代表作",
+      "importance": "medium"
+    },
+    {
+      "name": "Gloria Steinem",
+      "type": "person",
+      "context": "美国女权主义者，被提及为第二波女权主义的代表性人物",
+      "importance": "medium"
+    },
+    {
+      "name": "Kimberlé Crenshaw",
+      "type": "person",
+      "context": "法律学者，交叉性（intersectionality）理论的提出者，在第三波女权中被广泛讨论",
+      "importance": "high"
+    },
+    {
+      "name": "福柯",
+      "type": "person",
+      "context": "法国哲学家，其《规训与惩罚》中关于监狱的理论被监狱女权主义者应用",
+      "importance": "high"
+    },
+    {
+      "name": "马尔库塞",
+      "type": "person",
+      "context": "法兰克福学派哲学家，被提及与安吉拉·戴维斯的师生关系",
+      "importance": "medium"
+    },
+    {
+      "name": "安吉拉·戴维斯",
+      "type": "person",
+      "context": "美国政治活动家、学者，被提及在废奴主义女权中的影响，主张废除警察",
+      "importance": "high"
+    },
+    {
+      "name": "《胡桃夹子》",
+      "type": "work",
+      "context": "柴可夫斯基的芭蕾舞剧音乐，被用作播客开场音乐",
+      "importance": "medium"
+    },
+    {
+      "name": "《第二性》",
+      "type": "work",
+      "context": "波伏娃的著作，被归为第二波女权主义代表作",
+      "importance": "medium"
+    },
+    {
+      "name": "《规训与惩罚》",
+      "type": "work",
+      "context": "福柯的著作，其监狱理论被监狱女权主义者应用",
+      "importance": "high"
+    },
+    {
+      "name": "三波女权主义",
+      "type": "concept",
+      "context": "传统女权主义历史分期（第一波争取投票权、第二波争取实质平等、第三波学术化/交叉性），但被当代左翼女权拒绝承认",
+      "importance": "high"
+    },
+    {
+      "name": "第四波女权主义",
+      "type": "concept",
+      "context": "当代女权主义阶段，特点是结合互联网、去中心化、拒绝浪潮叙事、重写女权历史",
+      "importance": "high"
+    },
+    {
+      "name": "交叉性",
+      "type": "concept",
+      "context": "Kimberlé Crenshaw提出的理论，关注种族、阶级、性别等身份的交叉，在第三波女权中成为核心概念",
+      "importance": "high"
+    },
+    {
+      "name": "酷儿理论",
+      "type": "concept",
+      "context": "拒绝性别二元论的理论，从第三波女权开始进入女权运动，成为当今左翼女权主流",
+      "importance": "high"
+    },
+    {
+      "name": "性别二元论",
+      "type": "concept",
+      "context": "传统观点相信男性和女性有根深蒂固的区别，被当今美国左翼女权主流拒绝",
+      "importance": "high"
+    },
+    {
+      "name": "自由女权主义",
+      "type": "concept",
+      "context": "主张在现有体制内争取女性平等权利（如投票权、工作权），被马克思女权批评为只关心加入压迫体系而非拆除体系",
+      "importance": "high"
+    },
+    {
+      "name": "马克思女权主义",
+      "type": "concept",
+      "context": "基于马克思主义批判资本主义和结构压迫的女权主义，批评自由女权只是成为压迫者",
+      "importance": "high"
+    },
+    {
+      "name": "激进女权主义",
+      "type": "concept",
+      "context": "在美国语境下与TERF（排斥跨性别的激进女权主义者）相关联，相信性别二元论，拒绝酷儿理论",
+      "importance": "high"
+    },
+    {
+      "name": "监狱女权主义",
+      "type": "concept",
+      "context": "结合福柯监狱理论的女权主义，批评国家暴力通过警务和监狱系统伤害边缘化女性",
+      "importance": "medium"
+    },
+    {
+      "name": "废奴主义女权主义",
+      "type": "concept",
+      "context": "结合黑人废奴运动传统的女权主义，主张废除警察，建立社群基层组织保护女性而非依赖国家",
+      "importance": "medium"
+    },
+    {
+      "name": "TERF",
+      "type": "concept",
+      "context": "Trans-Exclusionary Radical Feminist（排斥跨性别的激进女权主义者），被当今美国左翼女权主流批评为恐跨",
+      "importance": "high"
+    },
+    {
+      "name": "西方中心主义",
+      "type": "concept",
+      "context": "左翼女权批判传统女权史（三波浪潮）的视角，认为其代表西方白人霸权，忽视原住民和其他非西方女性的经验",
+      "importance": "high"
+    },
+    {
+      "name": "结构压迫",
+      "type": "concept",
+      "context": "马克思主义及后现代女权理论核心概念，认为压迫是系统性的而非个人性的",
+      "importance": "medium"
+    },
+    {
+      "name": "第一波女权主义浪潮",
+      "type": "event",
+      "context": "19世纪至20世纪初，主要诉求为争取女性投票权（suffragette）和废除奴隶制",
+      "importance": "high"
+    },
+    {
+      "name": "第二波女权主义浪潮",
+      "type": "event",
+      "context": "1960-1980年代，关注实质平等（工作场所、生育权、家暴、离婚法等），代表人物Gloria Steinem和波伏娃",
+      "importance": "high"
+    },
+    {
+      "name": "第三波女权主义浪潮",
+      "type": "event",
+      "context": "1990年代开始，学术化和理论化，引入酷儿理论和交叉性，批评前两波为白人中心主义",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "播客主要讨论的国家，作为左翼女权主义发展的主要场域",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "被提及作为对比，播客认为中国女权主义者的争论重复了30年前美国的矛盾",
+      "importance": "medium"
+    },
+    {
+      "name": "非洲",
+      "type": "place",
+      "context": "被左翼女权用来对比西方女性处境，认为西方女性不应过度强调自身受压迫而忽视其他地区女性",
+      "importance": "low"
+    },
+    {
+      "name": "法兰克福学派",
+      "type": "organization",
+      "context": "提及马尔库塞所属的思想流派",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "676484be1e823e72d33ecd91",
+  "title": "151-美国左翼女权主义如何内部分裂？"
+}

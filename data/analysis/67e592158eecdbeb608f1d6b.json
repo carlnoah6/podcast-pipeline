@@ -1,0 +1,296 @@
+{
+  "style": {
+    "opening_pattern": "以个人的学术工作状态引入，解释为何暂停普鲁塔克专题（正在从古希腊语翻译《道德论丛》并撰写导读），以'暴君一般的主观喜好'确立个人权威",
+    "structure": "个人学术状态→普鲁塔克影响（蒙田、莎士比亚、卢梭）→转向蒙田《论学究教育》→文本细读（问题提出→色诺芬/居鲁士故事→斯巴达vs雅典对比→苏格拉底故事→历史例证）→教育批判→现实反思",
+    "tone": "知识密集且带有强烈个人色彩，犀利幽默且学养深厚，自称'嘴毒'、'瑞平'（锐评），兼具学术严谨与口语化吐槽",
+    "catchphrases": [
+      "瑞平",
+      "掉书袋",
+      "嘴毒",
+      "暴君一般的主观喜好",
+      "口若悬河喋喋不休",
+      "废寝忘食",
+      "眼冒金星",
+      "体力活",
+      "法国老哥",
+      "学究"
+    ],
+    "closing_pattern": "总结蒙田观点（教育应培养判断力与德行而非记忆）并以反讽作结：有学历的人越来越多，但好人越来越少，有学问的人也越来越少",
+    "narrative_techniques": [
+      "类比（搬运知识的鹦鹉、植物过度滋养、借火取暖、假币）",
+      "举例（居鲁士判案、阿基米德、苏格拉底调侃学究）",
+      "对比（雅典vs斯巴达教育、古代哲人vs现代学究）",
+      "引用（大量直接引用蒙田、普鲁塔克、色诺芬）",
+      "反问（多处使用）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "蒙田（Michel de Montaigne）",
+      "type": "person",
+      "context": "16世纪法国哲学家，本文讨论的核心人物，其散文集《随笔集》第一卷第24篇《论学究教育》是本期播客分析的主要文本",
+      "importance": "high"
+    },
+    {
+      "name": "普鲁塔克（Plutarch）",
+      "type": "person",
+      "context": "古希腊作家，主播正在从古希腊语翻译其《道德论丛》，其《希腊罗马名人传》对蒙田影响深远，被蒙田称为'世上最有见解的作家'",
+      "importance": "high"
+    },
+    {
+      "name": "色诺芬（Xenophon）",
+      "type": "person",
+      "context": "古希腊作家，苏格拉底的学生，著有《居鲁士的教育》，播客中详细分析了书中居鲁士大帝小时候关于外套与正义的判断故事",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底（Socrates）",
+      "type": "person",
+      "context": "古希腊哲学家，文中提及他调侃一位在斯巴达赚不到钱的雅典学究，讽刺斯巴达人只关心国家兴亡而非语法诗学",
+      "importance": "high"
+    },
+    {
+      "name": "居鲁士大帝（Cyrus the Great）",
+      "type": "person",
+      "context": "波斯国王，色诺芬《居鲁士的教育》中的主角，播客讲述了他小时候在学校判案（高个男孩抢矮个男孩外套）的故事",
+      "importance": "high"
+    },
+    {
+      "name": "拉伯雷（Rabelais）",
+      "type": "person",
+      "context": "16世纪法国作家，被蒙田引用其名言'世间百物为学究器'，与蒙田并列为当时法国最学富五车的散文家",
+      "importance": "medium"
+    },
+    {
+      "name": "阿基米德（Archimedes）",
+      "type": "person",
+      "context": "古希腊数学家、工程师，被蒙田举为例证，说明真正的哲人即使专注思辨也能在需要时制造战争机器保卫国家，但本人看不起这些机械发明",
+      "importance": "medium"
+    },
+    {
+      "name": "泰勒斯（Thales）",
+      "type": "person",
+      "context": "古希腊哲学家，被亚里士多德记载在《政治学》中，曾为了戏弄讥讽者而从事商业获得巨富，证明哲人并非不能赚钱而是不屑为之",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德（Aristotle）",
+      "type": "person",
+      "context": "古希腊哲学家，其《政治学》记载了泰勒斯的故事，蒙田借此讨论智慧与精明的区别",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "古希腊哲学家，其《法律篇》采纳了斯巴达的教育方式，蒙田讨论其论战智术师（普罗塔戈拉）的观点",
+      "importance": "medium"
+    },
+    {
+      "name": "莎士比亚（Shakespeare）",
+      "type": "person",
+      "context": "英国剧作家，被提及为普鲁塔克三个最忠实门徒之一，其罗马剧大量引用普鲁塔克",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭（Rousseau）",
+      "type": "person",
+      "context": "法国思想家，被提及为普鲁塔克三个最忠实门徒之一",
+      "importance": "low"
+    },
+    {
+      "name": "第欧根尼（Diogenes）",
+      "type": "person",
+      "context": "古希腊犬儒学派哲学家，曾嘲笑文法学家研究奥德修斯的苦难却对自己的苦难一无所知",
+      "importance": "low"
+    },
+    {
+      "name": "恩培多克勒（Empedocles）",
+      "type": "person",
+      "context": "古希腊哲学家，曾拒绝王位",
+      "importance": "low"
+    },
+    {
+      "name": "克拉底斯（Crates）",
+      "type": "person",
+      "context": "古希腊犬儒学派哲学家，将王位让给兄弟，认为与庸人治理城邦不如与小孩玩耍",
+      "importance": "low"
+    },
+    {
+      "name": "普罗塔戈拉（Protagoras）",
+      "type": "person",
+      "context": "古希腊智术师，柏拉图曾写对话反驳他",
+      "importance": "low"
+    },
+    {
+      "name": "阿格西劳斯（Agesilaus）",
+      "type": "person",
+      "context": "斯巴达国王，认为儿童应学习长大后应当做什么",
+      "importance": "low"
+    },
+    {
+      "name": "查理八世（Charles VIII）",
+      "type": "person",
+      "context": "法国国王，曾几乎不费一兵一卒夺下那不勒斯王国",
+      "importance": "low"
+    },
+    {
+      "name": "赫拉克勒斯（Heracles）",
+      "type": "person",
+      "context": "希腊神话英雄，被提及作为高贵祖先的例子",
+      "importance": "low"
+    },
+    {
+      "name": "《道德论丛》（Moralia）",
+      "type": "work",
+      "context": "普鲁塔克的散文集，主播正在从古希腊语翻译并撰写导读",
+      "importance": "high"
+    },
+    {
+      "name": "《希腊罗马名人传》（Parallel Lives）",
+      "type": "work",
+      "context": "普鲁塔克的传记作品，对蒙田影响深远",
+      "importance": "high"
+    },
+    {
+      "name": "《随笔集》（Essais）",
+      "type": "work",
+      "context": "蒙田的散文集，本期播客分析的是第一卷第24篇《论学究教育》",
+      "importance": "high"
+    },
+    {
+      "name": "《居鲁士的教育》（Cyropaedia）",
+      "type": "work",
+      "context": "色诺芬的著作，讲述居鲁士大帝的教育，播客中详细分析了其中关于外套与正义的判案故事",
+      "importance": "high"
+    },
+    {
+      "name": "《政治学》（Politics）",
+      "type": "work",
+      "context": "亚里士多德的著作，记载了泰勒斯经商致富的故事",
+      "importance": "medium"
+    },
+    {
+      "name": "《法律篇》（Laws）",
+      "type": "work",
+      "context": "柏拉图的著作，采纳了斯巴达的教育方式",
+      "importance": "medium"
+    },
+    {
+      "name": "《奥德赛》（Odyssey）",
+      "type": "work",
+      "context": "荷马史诗，被第欧根尼提及",
+      "importance": "low"
+    },
+    {
+      "name": "掉书袋",
+      "type": "concept",
+      "context": "中文俗语，指卖弄学问，本期播客主题即分析蒙田对这类读书人的批评",
+      "importance": "high"
+    },
+    {
+      "name": "学究",
+      "type": "concept",
+      "context": "指迂腐的读书人，蒙田《论学究教育》批评的主要对象",
+      "importance": "high"
+    },
+    {
+      "name": "智术师（Sophist）",
+      "type": "concept",
+      "context": "古希腊的修辞学和辩论术教师，柏拉图曾论战之，蒙田引用此概念批评当时的学究",
+      "importance": "medium"
+    },
+    {
+      "name": "斯多葛学派（Stoicism）",
+      "type": "concept",
+      "context": "古希腊哲学流派，普鲁塔克曾对其持批评态度",
+      "importance": "low"
+    },
+    {
+      "name": "犬儒学派（Cynicism）",
+      "type": "concept",
+      "context": "古希腊哲学流派，克拉底斯和第欧根尼属于此派",
+      "importance": "low"
+    },
+    {
+      "name": "清教徒（Puritan）",
+      "type": "concept",
+      "context": "主播提及自己高中校训的清教徒精神，类比斯巴达精神",
+      "importance": "low"
+    },
+    {
+      "name": "斯巴达（Sparta）",
+      "type": "place",
+      "context": "古希腊城邦，以重视德行教育著称，与雅典形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "雅典（Athens）",
+      "type": "place",
+      "context": "古希腊城邦，以培养雄辩家、艺术家著称，与斯巴达形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "法国（France）",
+      "type": "place",
+      "context": "蒙田、拉伯雷的所在地，16世纪文艺复兴时期的文化背景",
+      "importance": "medium"
+    },
+    {
+      "name": "意大利（Italy）",
+      "type": "place",
+      "context": "提及意大利喜剧、那不勒斯王国、托斯卡纳，以及查理八世的征战",
+      "importance": "medium"
+    },
+    {
+      "name": "波斯（Persia）",
+      "type": "place",
+      "context": "居鲁士大帝的国家，色诺芬《居鲁士的教育》背景",
+      "importance": "medium"
+    },
+    {
+      "name": "罗马（Rome）",
+      "type": "place",
+      "context": "提及古罗马的尚武精神，以及普鲁塔克时代的罗马",
+      "importance": "medium"
+    },
+    {
+      "name": "土耳其帝国（Ottoman Empire）",
+      "type": "place",
+      "context": "被蒙田提及为当时最强盛尚武的帝国，鄙视学问",
+      "importance": "low"
+    },
+    {
+      "name": "西西里（Sicily）",
+      "type": "place",
+      "context": "提及苏格拉底时代的学究在那里卖课赚钱",
+      "importance": "low"
+    },
+    {
+      "name": "斯基泰（Scythia）",
+      "type": "place",
+      "context": "古代地区，蒙田提及的尚武民族",
+      "importance": "low"
+    },
+    {
+      "name": "帕提亚（Parthia）",
+      "type": "place",
+      "context": "古代地区，蒙田提及的尚武民族",
+      "importance": "low"
+    },
+    {
+      "name": "那不勒斯王国（Kingdom of Naples）",
+      "type": "place",
+      "context": "查理八世夺下的土地",
+      "importance": "low"
+    },
+    {
+      "name": "托斯卡纳（Tuscany）",
+      "type": "place",
+      "context": "意大利地区，被查理八世占领",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67e592158eecdbeb608f1d6b",
+  "title": "197-爱掉书袋的读书人为何使人忍俊不禁？"
+}

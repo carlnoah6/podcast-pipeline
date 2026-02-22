@@ -1,0 +1,313 @@
+{
+  "style": {
+    "opening_pattern": "以哲学史对比引入（孟德斯鸠、卢梭、尼采对柏拉图与普鲁塔克的不同态度），引出普鲁塔克的重要性",
+    "structure": "历史背景铺垫→文本介绍（《道德论丛》）→核心概念阐述（自爱与人性）→三个观察（原则一致性、赞美品质vs不良习惯、犯错时的反应）→如何做真朋友（场合、善意、适度）→总结升华",
+    "tone": "理性客观中带有亲切感，学术但不晦涩，结合个人经历（母亲治疗脖子、给大学生做饭等）增加温度，偶尔幽默",
+    "catchphrases": [
+      "对吧",
+      "比如说",
+      "我觉得",
+      "OK",
+      "老哥",
+      "换句话说",
+      "也就是说",
+      "是不是很...",
+      "让我们..."
+    ],
+    "closing_pattern": "总结全文要点（自我认知、言论自由、善意基础），引用亚里士多德对比，升华到'成为好的人才能获得真友谊'，礼貌道别",
+    "narrative_techniques": [
+      "类比（马屁精像水、像食物、像医生）",
+      "对比（真朋友vs马屁精，柏拉图vs阿尔西比亚德斯）",
+      "举例（历史人物、个人经历）",
+      "引用（修昔底德、普鲁塔克原文）",
+      "设问（如何区分...）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "《道德论丛》的作者，本文核心讨论对象，提出区分朋友与马屁精的哲学家",
+      "importance": "high"
+    },
+    {
+      "name": "Philopappos",
+      "type": "person",
+      "context": "叙利亚王子，罗马帝国附庸国王子，普鲁塔克《如何区分朋友和马屁精》一文的收信人",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "被孟德斯鸠、卢梭、尼采谨慎敌视的哲学家，普鲁塔克将其与阿尔西比亚德斯对比作为真朋友的例子",
+      "importance": "high"
+    },
+    {
+      "name": "阿尔西比亚德斯",
+      "type": "person",
+      "context": "雅典第一高富帅，普鲁塔克严厉批评的变色龙式人物，作为马屁精的典型反面教材",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "柏拉图的老师，柏拉图在公开场合被指责时回应苏格拉底的人，亚里士多德的老师",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "柏拉图的学生，口吃，其学生模仿其口吃，与普鲁塔克在友谊观上观点相近的哲学家",
+      "importance": "medium"
+    },
+    {
+      "name": "亚历山大大帝",
+      "type": "person",
+      "context": "亚里士多德的学生，讲话偏头且语速快，其追随者模仿其这些无关紧要的特质",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "对柏拉图持谨慎敌意但对普鲁塔克充满温情的哲学家，《爱弥儿》的作者",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "鄙视柏拉图主义和基督教的哲学家，极力推荐普鲁塔克",
+      "importance": "medium"
+    },
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "对柏拉图持谨慎敌意的哲学家",
+      "importance": "low"
+    },
+    {
+      "name": "迪奥尼修斯",
+      "type": "person",
+      "context": "叙拉古暴君，曾狂热迷恋哲学后放弃，其宫殿中充满马屁精式的柏拉图主义者",
+      "importance": "medium"
+    },
+    {
+      "name": "普罗泰戈拉",
+      "type": "person",
+      "context": "雅典著名诡辩家，因在公开场合训斥年轻朋友导致其自杀，此后不再当众训斥人",
+      "importance": "medium"
+    },
+    {
+      "name": "修昔底德",
+      "type": "person",
+      "context": "历史学家，其《伯罗奔尼撒战争史》记载了阿尔西比亚德斯的叛变，被引用关于民风败坏的论述",
+      "importance": "medium"
+    },
+    {
+      "name": "托勒密",
+      "type": "person",
+      "context": "埃及国王，被马屁精围绕，被鼓励用长笛古琴祭拜，被普鲁塔克特别批评",
+      "importance": "medium"
+    },
+    {
+      "name": "安东尼大帝",
+      "type": "person",
+      "context": "罗马将领，迷恋埃及艳后荒废朝政，被马屁精朋友劝说投奔爱情不管罗马人民",
+      "importance": "medium"
+    },
+    {
+      "name": "埃及艳后",
+      "type": "person",
+      "context": "埃及女王，与安东尼大帝恋爱，被马屁精用来劝说安东尼荒废朝政",
+      "importance": "low"
+    },
+    {
+      "name": "法拉里斯",
+      "type": "person",
+      "context": "阿克拉加斯暴君，与迪奥尼修斯一起被西西里人称为正义的统治者",
+      "importance": "low"
+    },
+    {
+      "name": "杨医生",
+      "type": "person",
+      "context": "主播的母亲，医生，在主播出生前24个月每晚按摩其脖子治疗肌无力",
+      "importance": "medium"
+    },
+    {
+      "name": "《道德论丛》",
+      "type": "work",
+      "context": "普鲁塔克的著作，包含2400多页，收录《如何区分朋友和马屁精》等文章",
+      "importance": "high"
+    },
+    {
+      "name": "《如何区分朋友和马屁精》",
+      "type": "work",
+      "context": "普鲁塔克写给Philopappos的文章，本文播客的核心讨论文本，出自《道德论丛》第四章",
+      "importance": "high"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "卢梭的著作，被认为是对柏拉图《理想国》的重写和推翻",
+      "importance": "medium"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图的著作，被卢梭《爱弥儿》重写和推翻的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "《超越善恶彼岸》",
+      "type": "work",
+      "context": "尼采的著作，其中讨论了柏拉图主义的民主化带来了基督教",
+      "importance": "medium"
+    },
+    {
+      "name": "《伯罗奔尼撒战争史》",
+      "type": "work",
+      "context": "修昔底德的著作，详细记载了阿尔西比亚德斯的叛变",
+      "importance": "medium"
+    },
+    {
+      "name": "《伦理学》",
+      "type": "work",
+      "context": "亚里士多德的著作，第七卷到第九卷描绘了以美德为目标的哲学性友谊",
+      "importance": "medium"
+    },
+    {
+      "name": "自爱",
+      "type": "concept",
+      "context": "人性中自然的一部分，马屁精的起源，使人无法对自己进行公正客观判断",
+      "importance": "high"
+    },
+    {
+      "name": "言论自由",
+      "type": "concept",
+      "context": "古希腊语Parrhesia，友谊最核心的元素，坦率的表达，与现代人理解的言论自由不同",
+      "importance": "high"
+    },
+    {
+      "name": "友谊",
+      "type": "concept",
+      "context": "完整人生中最重要的好事之一，起源于相似的兴趣和坦率表达，与马屁精的虚假友谊相对",
+      "importance": "high"
+    },
+    {
+      "name": "马屁精",
+      "type": "concept",
+      "context": "阿谀奉承者，利用人的自爱趁虚而入，像水一样随行而变，缺乏坦率，阻止人认识自己",
+      "importance": "high"
+    },
+    {
+      "name": "认识你自己",
+      "type": "concept",
+      "context": "德尔菲神庙阿波罗神殿的铭文Gnothi Seauton，马屁精会阻止人认识自己，是智慧人生的神谕",
+      "importance": "high"
+    },
+    {
+      "name": "真朋友",
+      "type": "concept",
+      "context": "与马屁精相对，为了对方的好而非讨好，行使坦率言论自由，在必要时带来痛苦",
+      "importance": "high"
+    },
+    {
+      "name": "德尔菲神谕",
+      "type": "concept",
+      "context": "古希腊人信奉的宗教阿波罗神殿的预言，包含'认识你自己'的铭文",
+      "importance": "medium"
+    },
+    {
+      "name": "美德",
+      "type": "concept",
+      "context": "友谊的目标是通往美德，真朋友为了美德等崇高目标可能带来痛苦",
+      "importance": "medium"
+    },
+    {
+      "name": "哲学性友谊",
+      "type": "concept",
+      "context": "以美德为最高目标的友谊，亚里士多德和普鲁塔克都强调这是罕见且美好的",
+      "importance": "medium"
+    },
+    {
+      "name": "雅典",
+      "type": "place",
+      "context": "古希腊城邦，阿尔西比亚德斯和苏格拉底所在的城市，有Philopappos纪念碑",
+      "importance": "high"
+    },
+    {
+      "name": "斯巴达",
+      "type": "place",
+      "context": "雅典的敌对城邦，阿尔西比亚德斯叛变后模仿其冷水澡传统的地方",
+      "importance": "medium"
+    },
+    {
+      "name": "叙拉古",
+      "type": "place",
+      "context": "西西里的城市，柏拉图曾受邀前往，暴君迪奥尼修斯统治的地方",
+      "importance": "medium"
+    },
+    {
+      "name": "西西里",
+      "type": "place",
+      "context": "被阿谀奉承摧毁的地区，把暴君行为称为正义统治",
+      "importance": "medium"
+    },
+    {
+      "name": "波斯帝国",
+      "type": "place",
+      "context": "阿尔西比亚德斯第二次叛变投奔的地方，以精致奢华著称",
+      "importance": "medium"
+    },
+    {
+      "name": "埃及",
+      "type": "place",
+      "context": "托勒密统治的地方，被马屁精围绕搞面子工程",
+      "importance": "medium"
+    },
+    {
+      "name": "罗马帝国",
+      "type": "place",
+      "context": "Philopappos所在帝国的宗主国，安东尼大帝所在的国家",
+      "importance": "medium"
+    },
+    {
+      "name": "叙利亚",
+      "type": "place",
+      "context": "Philopappos作为附庸国王子的王国",
+      "importance": "medium"
+    },
+    {
+      "name": "德尔菲",
+      "type": "place",
+      "context": "阿波罗神殿所在地，'认识你自己'神谕所在地",
+      "importance": "medium"
+    },
+    {
+      "name": "阿克拉加斯",
+      "type": "place",
+      "context": "暴君法拉里斯统治的城市",
+      "importance": "low"
+    },
+    {
+      "name": "阿波罗神殿",
+      "type": "organization",
+      "context": "德尔菲的神殿，刻有'认识你自己'铭文",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图学院",
+      "type": "organization",
+      "context": "柏拉图教学的地方，学生模仿其驼背",
+      "importance": "medium"
+    },
+    {
+      "name": "Philopappos纪念碑",
+      "type": "other",
+      "context": "雅典现代天际线中仍矗立的纪念Philopappos的碑",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67516942a314b553c65d1509",
+  "title": "143-如何区分朋友和马屁精？"
+}

@@ -1,0 +1,304 @@
+{
+  "style": {
+    "opening_pattern": "以当代普遍认知引入，通过对比现代人对言论自由的理所当然态度与当下互联网时代的怀疑情绪，建立张力",
+    "structure": "问题提出→历史对比（1700年前vs后）→核心案例分析（《加图书信》）→理论深化（密尔《论自由》）→两种路径的批判性对比→当代启示",
+    "tone": "理性思辨、知识密集、带有批判性反讽，对自由派立场既同情又保持距离",
+    "catchphrases": [
+      "让自由派热泪盈眶",
+      "清者自清",
+      "too simple, too naive",
+      "一瘸一拐",
+      "大包天",
+      "满嘴屁话",
+      "智障观点",
+      "松动土壤",
+      "过街老鼠",
+      "自我矛盾"
+    ],
+    "closing_pattern": "总结核心论点+开放式警示（好东西会消失，需要认真反思维护）",
+    "narrative_techniques": [
+      "历史对比（前现代vs现代）",
+      "反讽（记者被招安的反差）",
+      "引用原文（《加图书信》英文原文朗读）",
+      "类比（谎言与真理赛跑）",
+      "自我指涉（提及往期播客作为互文）",
+      "设问与反问",
+      "概念拆解（重新定义言论自由）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Fara Dabhoiwala",
+      "type": "person",
+      "context": "英国历史学家，其新书《What is Free Speech》是本期播客的主要参考来源",
+      "importance": "high"
+    },
+    {
+      "name": "《What is Free Speech》（什么是言论自由）",
+      "type": "work",
+      "context": "Fara Dabhoiwala的新书，副标题为'The History of a Dangerous Idea'，追溯言论自由思想史",
+      "importance": "high"
+    },
+    {
+      "name": "John Donne",
+      "type": "person",
+      "context": "英国诗人，被引用为代表早期英国文学传统中视语言为暴力的观点",
+      "importance": "low"
+    },
+    {
+      "name": "Robert Burton",
+      "type": "person",
+      "context": "《忧郁的解剖》作者，代表1700年前欧洲社会视语言为暴力的传统",
+      "importance": "low"
+    },
+    {
+      "name": "《忧郁的解剖》（Anatomy of Melancholy）",
+      "type": "work",
+      "context": "Robert Burton的著作，被引用说明早期欧洲社会对语言力量的认知",
+      "importance": "low"
+    },
+    {
+      "name": "丹尼尔·笛福（Daniel Defoe）",
+      "type": "person",
+      "context": "《鲁滨逊漂流记》作者，18世纪初指出媒体革命带来信息泛滥和党派之争的思想家",
+      "importance": "medium"
+    },
+    {
+      "name": "《鲁滨逊漂流记》",
+      "type": "work",
+      "context": "笛福的代表作，播客中用以标识其身份",
+      "importance": "low"
+    },
+    {
+      "name": "斯威夫特（Jonathan Swift）",
+      "type": "person",
+      "context": "《格列佛游记》作者，讽刺言论自由能让真理自然浮现的天真愿景，提出'谎言与真理赛跑'的比喻",
+      "importance": "medium"
+    },
+    {
+      "name": "《格列佛游记》",
+      "type": "work",
+      "context": "斯威夫特的代表作，播客中用以标识其身份",
+      "importance": "low"
+    },
+    {
+      "name": "《加图书信》（Cato's Letters）",
+      "type": "work",
+      "context": "1721年出版的政治小册子，由Trenchard和Gordon撰写，被视为美国宪法第一修正案的根基，强调言论自由是一切自由的壁垒",
+      "importance": "high"
+    },
+    {
+      "name": "John Trenchard",
+      "type": "person",
+      "context": "《加图书信》的作者之一，英国记者",
+      "importance": "medium"
+    },
+    {
+      "name": "Thomas Gordon",
+      "type": "person",
+      "context": "《加图书信》的作者之一，后被英国政府招安成为保守派宣传员，立场大变",
+      "importance": "medium"
+    },
+    {
+      "name": "Robert Walpole",
+      "type": "person",
+      "context": "英国保守政治家，Thomas Gordon晚年为其担任首席宣传员",
+      "importance": "low"
+    },
+    {
+      "name": "约翰·斯图尔特·密尔（John Stuart Mill）",
+      "type": "person",
+      "context": "1859年发表《论自由》，将言论自由从公共真理转向个体尊严与自主性，但认为只有'文明社会'配享有言论自由",
+      "importance": "high"
+    },
+    {
+      "name": "《论自由》",
+      "type": "work",
+      "context": "密尔的哲学著作，言论自由理论化的里程碑，首次将言论自由建立在个人内在尊严而非公共真理之上",
+      "importance": "high"
+    },
+    {
+      "name": "马丁·路德（Martin Luther）",
+      "type": "person",
+      "context": "宗教改革领袖，其'信徒可直接接触上帝'的理念被认为是'真理自然浮现'观念的起源之一",
+      "importance": "medium"
+    },
+    {
+      "name": "弥尔顿（John Milton）",
+      "type": "person",
+      "context": "密尔的前辈，相信真理与谬误自由竞争时真理必胜，被密尔批评为天真",
+      "importance": "medium"
+    },
+    {
+      "name": "Harriet",
+      "type": "person",
+      "context": "密尔爱上的已婚妇女，两人都是早期女性投票权倡导者",
+      "importance": "low"
+    },
+    {
+      "name": "马克思（Marx）",
+      "type": "person",
+      "context": "被作为结构性批判的代表，其理论对密尔式自由主义构成根本挑战",
+      "importance": "medium"
+    },
+    {
+      "name": "特朗普（Trump）",
+      "type": "person",
+      "context": "其时代带来政治不正确言论的崛起，'假新闻'概念的普及者",
+      "importance": "medium"
+    },
+    {
+      "name": "马斯克（Elon Musk）",
+      "type": "person",
+      "context": "买下推特后被类比为17世纪末英国媒体革命中话语权分散的现象",
+      "importance": "low"
+    },
+    {
+      "name": "南海泡沫（South Sea Bubble）",
+      "type": "event",
+      "context": "1721年英国金融灾难，《加图书信》正是在此背景下发表抨击政府",
+      "importance": "medium"
+    },
+    {
+      "name": "英国内战（1640-1650年代）",
+      "type": "event",
+      "context": "期间有过短暂关于言论自由的辩论，但1660年王政复辟后遭到强烈反弹",
+      "importance": "medium"
+    },
+    {
+      "name": "光荣革命（1688年）",
+      "type": "event",
+      "context": "之后英国对宗教和政治言论的严苛管制被迫终止，但并非因为认同言论自由",
+      "importance": "medium"
+    },
+    {
+      "name": "美国革命/建国（1776年）",
+      "type": "event",
+      "context": "《加图书信》直接影响美国建国时期的政治舆论，其名句进入各州《权利宣言》",
+      "importance": "high"
+    },
+    {
+      "name": "美国《权利法案》第一修正案",
+      "type": "work",
+      "context": "直接沿用《加图书信》中'言论自由是一切自由的壁垒'的表述",
+      "importance": "high"
+    },
+    {
+      "name": "宗教改革",
+      "type": "event",
+      "context": "被认为是'真理自然浮现'观念的两个起源之一",
+      "importance": "medium"
+    },
+    {
+      "name": "启蒙时代",
+      "type": "concept",
+      "context": "对普遍理性的信念被认为是'真理自然浮现'观念的第二个起源",
+      "importance": "medium"
+    },
+    {
+      "name": "言论自由（freedom of speech/free speech）",
+      "type": "concept",
+      "context": "播客核心讨论对象，被定义为'人们普遍拥有的针对公共事务发表私人意见的权利'，1700年后才出现的历史性观念",
+      "importance": "high"
+    },
+    {
+      "name": "学术自由",
+      "type": "concept",
+      "context": "与言论自由相对照，中世纪起源于大学内部，不延展到外部，不影响公共事务",
+      "importance": "medium"
+    },
+    {
+      "name": "发表自由/新闻出版自由（liberty of the press/freedom of the press）",
+      "type": "concept",
+      "context": "18世纪英国语境中的言论自由，聚焦于媒体和记者的政治批评权利",
+      "importance": "high"
+    },
+    {
+      "name": "放纵（licentiousness）",
+      "type": "concept",
+      "context": "与'发表自由'相对的贬义词，界限在于说话者是否喜欢该言论",
+      "importance": "medium"
+    },
+    {
+      "name": "结构性批判",
+      "type": "concept",
+      "context": "马克思主义等理论对密尔式个体自由主义的根本挑战，指出个体不自由且其自由压迫他人",
+      "importance": "high"
+    },
+    {
+      "name": "微暴力（microaggression）",
+      "type": "concept",
+      "context": "美国进步派观点，将语言暴力与物理暴力等同，与1700年前前现代社会观点类似",
+      "importance": "medium"
+    },
+    {
+      "name": "言论自由绝对主义（free speech absolutism）",
+      "type": "concept",
+      "context": "被批评为逻辑上不可能自洽的立场，必须否认语言是现实行动和依赖情境两个基本事实",
+      "importance": "high"
+    },
+    {
+      "name": "生活实验的自由",
+      "type": "concept",
+      "context": "密尔提出的核心理念，强调个体表达个性、生活方式的自主性",
+      "importance": "medium"
+    },
+    {
+      "name": "虚假新闻/假新闻（false news/fake news）",
+      "type": "concept",
+      "context": "13世纪英国已有相关法律，特朗普时代重新成为焦点，被视为言论自由的弊端之一",
+      "importance": "medium"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "言论自由概念的发源地，17世纪末媒体革命的发生地",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "将言论自由制度化、神圣化并散播到世界各地的国家，其建国根基与此密切相关",
+      "importance": "high"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "被密尔列为'文明人'的主要国家之一",
+      "importance": "low"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "被密尔列为'文明人'的主要国家之一",
+      "importance": "low"
+    },
+    {
+      "name": "印度（英国殖民地）",
+      "type": "place",
+      "context": "被密尔明确排除在配享言论自由的'文明社会'之外",
+      "importance": "medium"
+    },
+    {
+      "name": "摩门教",
+      "type": "organization",
+      "context": "密尔用其实践一夫多妻制的例子说明即使反对某种生活方式也应捍卫其自由",
+      "importance": "low"
+    },
+    {
+      "name": "天主教会",
+      "type": "organization",
+      "context": "1700年前设定言论审查制度的机构之一，宗教改革中被马丁·路德挑战",
+      "importance": "medium"
+    },
+    {
+      "name": "中世纪大学",
+      "type": "organization",
+      "context": "学术自由的起源机构，内部存在有限度的言论自由但不影响外部",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67f49bcb0decaeb0949a93b3",
+  "title": "201-英国人在什么契机下发明了言论自由？"
+}

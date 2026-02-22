@@ -1,0 +1,495 @@
+{
+  "style": {
+    "opening_pattern": "以概念界定引入，先明确核心术语（现代小说、十九世纪）的定义范围，建立讨论基础",
+    "structure": "历史背景→横向对比→三点深度分析→回应批评。具体为：界定现代小说范畴→横向对比英法德意文学差异提出'缺德'论点→三点原因剖析（启蒙思想渊源/阶级意识觉醒/政治现实动荡）→回应'文学去政治化'批评",
+    "tone": "理性学术但口语化，具有强烈的个人阅读体验和见解，逻辑严密但不失犀利，带有知识分子的批判精神",
+    "catchphrases": [
+      "缺德",
+      "布尔乔亚",
+      "现代性",
+      "批判性思考",
+      "一技绝尘",
+      "毋庸置疑",
+      "横向对比",
+      "启蒙运动的孩子",
+      "缺德不是一个贬义词",
+      "站在鸟的肩上"
+    ],
+    "closing_pattern": "总结论点并回应潜在批评，以学术自省的方式结束，留下开放性思考空间",
+    "narrative_techniques": [
+      "横向对比（英法德意俄文学比较）",
+      "历史语境化（将文学置于法国大革命历史脉络）",
+      "概念重构（重新定义'缺德'为中性学术术语）",
+      "举例论证（大量具体作家作品分析）",
+      "反事实推理（假设英国/德国没有阶级意识的情况）",
+      "学术史梳理（提及白璧德、马克思等理论家）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "狄德罗",
+      "type": "person",
+      "context": "启蒙时代百科全书编写者，在《拉摩的侄儿》《论戏剧》《论小说》中探讨现代小说理论，为现代小说奠定理论框架",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "写出18世纪最畅销小说《新爱洛依丝》，被认为是第一部真正现代意义小说的作者，与狄德罗共同探讨现代小说角色",
+      "importance": "high"
+    },
+    {
+      "name": "巴尔扎克",
+      "type": "person",
+      "context": "法国现实主义作家代表，其作品《高老头》被用来与狄更斯《双城记》对比，体现法国小说的'缺德'特质",
+      "importance": "high"
+    },
+    {
+      "name": "斯汤达（司汤达）",
+      "type": "person",
+      "context": "法国作家，其《红与黑》被与冯塔纳《艾菲·布里斯特》对比，体现19世纪初法国小说比19世纪末德国小说更激进",
+      "importance": "high"
+    },
+    {
+      "name": "雨果",
+      "type": "person",
+      "context": "法国浪漫主义作家，被称为'法国的雨果'与狄更斯对比，《悲惨世界》被用来与《雾都孤儿》比较",
+      "importance": "high"
+    },
+    {
+      "name": "福楼拜",
+      "type": "person",
+      "context": "法国作家，被描述为对现代科学文明冷嘲热讽，与雨果一样被认为'很缺德'，其作品《包法利夫人》被提及",
+      "importance": "high"
+    },
+    {
+      "name": "简·奥斯丁",
+      "type": "person",
+      "context": "英国作家，被用来与法国作家对比，其《傲慢与偏见》被认为是不带批判性地描绘贵族传统秩序",
+      "importance": "medium"
+    },
+    {
+      "name": "狄更斯",
+      "type": "person",
+      "context": "19世纪英国最受欢迎、最具批判性小说家，被称为'英国的雨果'，但其作品仍被认为比法国小说更温情、道德",
+      "importance": "medium"
+    },
+    {
+      "name": "乔治·艾略特",
+      "type": "person",
+      "context": "英国作家，被认为比狄更斯更加道德性，与简·奥斯丁一起代表英国小说的道德教养传统",
+      "importance": "medium"
+    },
+    {
+      "name": "台奥多尔·冯塔纳",
+      "type": "person",
+      "context": "德国现实主义小说家，被称为'德国的福楼拜'，其《艾菲·布里斯特》被认为比法国小说保守沉闷",
+      "importance": "medium"
+    },
+    {
+      "name": "亚历山德罗·曼佐尼",
+      "type": "person",
+      "context": "意大利小说家，写出《约婚夫妇》，19世纪意大利国民小说作者，被用来与法国小说家对比",
+      "importance": "medium"
+    },
+    {
+      "name": "欧文·白璧德（Irving Babbitt）",
+      "type": "person",
+      "context": "20世纪初美国新人文运动创始人，批评德国教育体系，主张美国应模仿法国而非德国教育",
+      "importance": "medium"
+    },
+    {
+      "name": "杜威",
+      "type": "person",
+      "context": "胡适的老师，被认为是德国教育在美国的产物，约翰霍普金斯大学培养",
+      "importance": "low"
+    },
+    {
+      "name": "威尔逊",
+      "type": "person",
+      "context": "美国总统，被认为是德国教育在美国的产物",
+      "importance": "low"
+    },
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "被提及为五四运动时期留洋中国人，对中国文学有浪漫化理解",
+      "importance": "low"
+    },
+    {
+      "name": "徐志摩",
+      "type": "person",
+      "context": "被提及为五四运动时期留洋中国人，对中国文学有浪漫化理解",
+      "importance": "low"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "被提及为19世纪法国思想家，政治观察中心在法国",
+      "importance": "medium"
+    },
+    {
+      "name": "圣西门",
+      "type": "person",
+      "context": "19世纪法国思想家，最早将中产阶级理论化的法国思想家之一",
+      "importance": "medium"
+    },
+    {
+      "name": "孔德",
+      "type": "person",
+      "context": "19世纪法国思想家，最早将中产阶级理论化的法国思想家之一",
+      "importance": "medium"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "19世纪法国思想家，最早将中产阶级理论化的法国思想家之一",
+      "importance": "medium"
+    },
+    {
+      "name": "罗兰·巴特",
+      "type": "person",
+      "context": "20世纪理论家，被提及为彻底理论化写作过程",
+      "importance": "low"
+    },
+    {
+      "name": "萨特",
+      "type": "person",
+      "context": "20世纪理论家，被提及为彻底理论化写作过程",
+      "importance": "low"
+    },
+    {
+      "name": "梅洛-庞蒂",
+      "type": "person",
+      "context": "20世纪理论家，被提及为彻底理论化写作过程",
+      "importance": "low"
+    },
+    {
+      "name": "蒙田",
+      "type": "person",
+      "context": "被提及为伟大个体丈量永恒世界",
+      "importance": "low"
+    },
+    {
+      "name": "爱比克泰德",
+      "type": "person",
+      "context": "被提及为伟大个体丈量永恒世界",
+      "importance": "low"
+    },
+    {
+      "name": "奥古斯丁",
+      "type": "person",
+      "context": "被提及为伟大个体丈量永恒世界",
+      "importance": "low"
+    },
+    {
+      "name": "莎士比亚",
+      "type": "person",
+      "context": "被提及为伟大个体丈量永恒世界",
+      "importance": "low"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "法国历史人物，19世纪政权更迭代表",
+      "importance": "medium"
+    },
+    {
+      "name": "路易十六",
+      "type": "person",
+      "context": "法国历史人物，被砍头的国王",
+      "importance": "medium"
+    },
+    {
+      "name": "路易·菲利普",
+      "type": "person",
+      "context": "法国历史人物，七月王朝代表",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑三世",
+      "type": "person",
+      "context": "法国历史人物，法兰西第二帝国",
+      "importance": "medium"
+    },
+    {
+      "name": "《十日谈》",
+      "type": "work",
+      "context": "中世纪小说性作品代表",
+      "importance": "low"
+    },
+    {
+      "name": "《堂吉诃德》",
+      "type": "work",
+      "context": "中世纪小说性作品代表",
+      "importance": "low"
+    },
+    {
+      "name": "《新爱洛依丝》",
+      "type": "work",
+      "context": "卢梭作品，被认为第一部真正现代意义的小说",
+      "importance": "high"
+    },
+    {
+      "name": "《拉摩的侄儿》",
+      "type": "work",
+      "context": "狄德罗作品，讨论现代小说理论",
+      "importance": "medium"
+    },
+    {
+      "name": "《论戏剧》",
+      "type": "work",
+      "context": "狄德罗作品，讨论现代小说理论",
+      "importance": "medium"
+    },
+    {
+      "name": "《论小说》",
+      "type": "work",
+      "context": "狄德罗作品，讨论现代小说理论",
+      "importance": "medium"
+    },
+    {
+      "name": "《红与黑》",
+      "type": "work",
+      "context": "斯汤达作品，与德国小说对比体现法国激进性",
+      "importance": "high"
+    },
+    {
+      "name": "《拉辛与莎士比亚》",
+      "type": "work",
+      "context": "斯汤达作品，体现小说理论",
+      "importance": "medium"
+    },
+    {
+      "name": "《高老头》",
+      "type": "work",
+      "context": "巴尔扎克作品，与狄更斯对比",
+      "importance": "medium"
+    },
+    {
+      "name": "《悲惨世界》",
+      "type": "work",
+      "context": "雨果作品，与狄更斯对比",
+      "importance": "medium"
+    },
+    {
+      "name": "《双城记》",
+      "type": "work",
+      "context": "狄更斯作品，与《高老头》对比",
+      "importance": "medium"
+    },
+    {
+      "name": "《雾都孤儿》",
+      "type": "work",
+      "context": "狄更斯作品，与《悲惨世界》对比",
+      "importance": "medium"
+    },
+    {
+      "name": "《艾菲·布里斯特》",
+      "type": "work",
+      "context": "冯塔纳作品，与《红与黑》对比体现德国保守性",
+      "importance": "medium"
+    },
+    {
+      "name": "《约婚夫妇》",
+      "type": "work",
+      "context": "曼佐尼作品，意大利国民小说",
+      "importance": "medium"
+    },
+    {
+      "name": "《傲慢与偏见》",
+      "type": "work",
+      "context": "简·奥斯丁作品，体现英国小说道德性",
+      "importance": "medium"
+    },
+    {
+      "name": "《战争与和平》",
+      "type": "work",
+      "context": "托尔斯泰作品，例外于俄国文学传统",
+      "importance": "medium"
+    },
+    {
+      "name": "《包法利夫人》",
+      "type": "work",
+      "context": "福楼拜作品，被冯塔纳对标",
+      "importance": "medium"
+    },
+    {
+      "name": "《国富论》",
+      "type": "work",
+      "context": "亚当·斯密作品，对比法国阶级意识",
+      "importance": "medium"
+    },
+    {
+      "name": "启蒙主义",
+      "type": "concept",
+      "context": "现代小说萌芽的思想环境，法国小说理论化的基础",
+      "importance": "high"
+    },
+    {
+      "name": "现代性",
+      "type": "concept",
+      "context": "法国小说表现出的激进现代特质，与'缺德'同义",
+      "importance": "high"
+    },
+    {
+      "name": "布尔乔亚",
+      "type": "concept",
+      "context": "法语词源指中产阶级，法国阶级意识觉醒的核心",
+      "importance": "high"
+    },
+    {
+      "name": "批判性思考",
+      "type": "concept",
+      "context": "现代教育强调的思考方式，与法国小说特质呼应",
+      "importance": "medium"
+    },
+    {
+      "name": "现实主义",
+      "type": "concept",
+      "context": "19世纪法国文学流派，与浪漫主义并提",
+      "importance": "medium"
+    },
+    {
+      "name": "浪漫主义",
+      "type": "concept",
+      "context": "19世纪法国文学流派，与现实主义并提",
+      "importance": "medium"
+    },
+    {
+      "name": "无神论",
+      "type": "concept",
+      "context": "19世纪法国小说中普遍存在的特质，与其他欧洲国家不同",
+      "importance": "high"
+    },
+    {
+      "name": "阶级意识",
+      "type": "concept",
+      "context": "法国社会催生的中产阶级自我觉醒意识，影响小说特质",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "1789年爆发，导致法国社会道德体系全面崩塌，影响19世纪小说发展",
+      "importance": "high"
+    },
+    {
+      "name": "恐怖统治",
+      "type": "event",
+      "context": "法国大革命期间的暴力阶段，影响法国作家创作环境",
+      "importance": "medium"
+    },
+    {
+      "name": "波旁王朝复辟",
+      "type": "event",
+      "context": "1815-1830年，法国政权更迭的一部分，体现政治动荡",
+      "importance": "medium"
+    },
+    {
+      "name": "七月革命",
+      "type": "event",
+      "context": "1830年爆发，建立七月王朝，体现19世纪法国政治动荡",
+      "importance": "medium"
+    },
+    {
+      "name": "二月革命",
+      "type": "event",
+      "context": "1848年爆发，短暂建立第二共和国，体现政治动荡",
+      "importance": "medium"
+    },
+    {
+      "name": "巴黎公社",
+      "type": "event",
+      "context": "1871年，极左与极右斗争的体现，影响法国社会",
+      "importance": "medium"
+    },
+    {
+      "name": "五四运动",
+      "type": "event",
+      "context": "影响中国现代文学观念，被提及作为中国人文学观念的政治背景",
+      "importance": "medium"
+    },
+    {
+      "name": "延安文艺座谈会",
+      "type": "event",
+      "context": "1942年，被提及作为中国文学去政治化心态的历史根源",
+      "importance": "medium"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "19世纪现代小说的起源地和巅峰代表，经历剧烈政治动荡",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "与法国对比，社会秩序相对稳定，小说更具道德温情",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "与法国对比，国家未统一，缺乏法国式的社会批判",
+      "importance": "medium"
+    },
+    {
+      "name": "意大利",
+      "type": "place",
+      "context": "与法国对比，国家未统一，文学性相对较弱",
+      "importance": "medium"
+    },
+    {
+      "name": "俄国（俄罗斯）",
+      "type": "place",
+      "context": "被认为与欧洲文明略微脱轨，具有法国现代性与东正教虔诚的双重特质",
+      "importance": "medium"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "法国首都，被描绘为大城市的冷漠代表，与伦敦对比",
+      "importance": "medium"
+    },
+    {
+      "name": "伦敦",
+      "type": "place",
+      "context": "英国首都，狄更斯笔下描绘为压抑、拥挤、肮脏和道德困境的城市",
+      "importance": "low"
+    },
+    {
+      "name": "约翰霍普金斯大学",
+      "type": "organization",
+      "context": "第一所德国体系现代科研大学，培养杜威、威尔逊",
+      "importance": "low"
+    },
+    {
+      "name": "哈佛大学",
+      "type": "organization",
+      "context": "白璧德批评其教育落后，主张模仿法国教育",
+      "importance": "low"
+    },
+    {
+      "name": "波旁王朝",
+      "type": "organization",
+      "context": "1815-1830年复辟，代表旧制度复位",
+      "importance": "medium"
+    },
+    {
+      "name": "七月王朝",
+      "type": "organization",
+      "context": "1830-1848年，代表中产阶级路易·菲利普统治",
+      "importance": "medium"
+    },
+    {
+      "name": "第三共和国",
+      "type": "organization",
+      "context": "1870年后建立，极左极右斗争激烈",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6803fe8d1f1db84a56590ecc",
+  "title": "206-法国现代小说为何如此缺德？"
+}

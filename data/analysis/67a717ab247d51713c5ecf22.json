@@ -1,0 +1,363 @@
+{
+  "style": {
+    "opening_pattern": "直接介绍主题并预告结构，明确列出本集将讨论的三个核心问题（AFD为何受欢迎、外交政策、Alice Weidel是谁）",
+    "structure": "问题引入→历史背景→人物画像→跨国对比→镜像分析，采用'极右翼AFD分析→极左翼BSW对比→两党政策相似性总结'的双线结构",
+    "tone": "理性批判与个性化观察结合，带有知识分子的讽刺（如对媒体'一惊一乍'的批评），保持分析性但掺杂主观判断（如'地铁老人脸的瞠目结舌'）",
+    "catchphrases": [
+      "搞啥子名堂",
+      "这个女人",
+      "防火墙",
+      "德国优先",
+      "唯一的替代品",
+      "Dexit",
+      "工人阶级",
+      "一惊一乍",
+      "政治正确",
+      "觉醒派"
+    ],
+    "closing_pattern": "总结式结尾，通过列举BSW吸引的选民类型（前绿党、前社民党选民）收束全文，强调两党相似性",
+    "narrative_techniques": [
+      "跨国类比（将德国AFD/BSW与美国特朗普/桑德斯对比）",
+      "人物对比（Weidel与Wagenknecht的风格反差）",
+      "个人经验插入（柏林租房经历论证租金冻结政策）",
+      "设问引导（'为什么AFD经常抱怨...'）",
+      "历史倒叙（从2024年回溯到2013年AFD发展史）",
+      "数据引用（民调支持率、选举结果）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Alice Weidel",
+      "type": "person",
+      "context": "AFD党魁，同性恋，与伴侣居住在瑞士，以冷静理性的技术官僚风格著称，将AFD从混乱抗议党转变为潜在执政党形象",
+      "importance": "high"
+    },
+    {
+      "name": "Sahra Wagenknecht",
+      "type": "person",
+      "context": "BSW（莎拉·瓦根克内希特联盟）创始人，前左翼党成员，极具个人魅力的政治明星，YouTube网红，强调阶级政治反对身份政治",
+      "importance": "high"
+    },
+    {
+      "name": "AFD (Alternative for Deutschland)",
+      "type": "organization",
+      "context": "德国选择党/另类选择党，极右翼政党，目前民调17-18%，德国第二大党，主张反欧盟、反移民、亲俄、德国优先",
+      "importance": "high"
+    },
+    {
+      "name": "BSW (Bündnis Sahra Wagenknecht)",
+      "type": "organization",
+      "context": "莎拉·瓦根克内希特联盟，2024年初成立的新兴极左翼政党，民调7%，起源于左翼党，主张反北约、反欧盟扩张、亲俄、社会福利",
+      "importance": "high"
+    },
+    {
+      "name": "Donald Trump",
+      "type": "person",
+      "context": "美国前总统，经常被拿来与德国极右翼/极左翼对比，播客多次类比2016年特朗普崛起与当前德国政治",
+      "importance": "medium"
+    },
+    {
+      "name": "Angela Merkel",
+      "type": "person",
+      "context": "德国前总理，其政党对默克尔的态度被用来类比AFD内部对Weidel的态度",
+      "importance": "medium"
+    },
+    {
+      "name": "Olaf Scholz",
+      "type": "person",
+      "context": "德国现任社民党总理，其领导的'红绿灯'政府刚刚解体",
+      "importance": "medium"
+    },
+    {
+      "name": "Bernie Sanders",
+      "type": "person",
+      "context": "美国民主社会主义者，其立场被用来与Wagenknecht对比，强调阶级政治",
+      "importance": "medium"
+    },
+    {
+      "name": "Steve Bannon",
+      "type": "person",
+      "context": "特朗普阵营民粹主义者，与桑德斯在移民问题上立场相近，被用来类比德国极左极右的相似性",
+      "importance": "low"
+    },
+    {
+      "name": "Alexander Gauland",
+      "type": "person",
+      "context": "AFD前领导人，2017年曾与Weidel共同领导该党",
+      "importance": "low"
+    },
+    {
+      "name": "NATO (北约)",
+      "type": "organization",
+      "context": "北大西洋公约组织，AFD和BSW都批评北约，AFD质疑集体防御义务，BSW认为北约与美国黑石勾结",
+      "importance": "high"
+    },
+    {
+      "name": "EU (欧盟)",
+      "type": "organization",
+      "context": "European Union，AFD希望削弱欧盟权力甚至退出(Dexit)，BSW反对欧盟扩张",
+      "importance": "high"
+    },
+    {
+      "name": "SPD (社民党)",
+      "type": "organization",
+      "context": "Social Democratic Party of Germany，德国现任执政党，支持率15%，被视为失去工人阶级支持",
+      "importance": "medium"
+    },
+    {
+      "name": "CDU/CSU (保守联盟)",
+      "type": "organization",
+      "context": "Christian Democratic Union/Christian Social Union，德国最大反对党，支持率30%，AFD之后的第二大党",
+      "importance": "medium"
+    },
+    {
+      "name": "Die Linke (左翼党)",
+      "type": "organization",
+      "context": "德国左翼党，Wagenknecht之前所在的政党，她因不满其过度关注身份政治而离开",
+      "importance": "medium"
+    },
+    {
+      "name": "Grüne (绿党)",
+      "type": "organization",
+      "context": "德国绿党，被批评过于关注气候和身份议题，失去工人阶级支持，其选民转向BSW",
+      "importance": "medium"
+    },
+    {
+      "name": "UKIP (英国独立党)",
+      "type": "organization",
+      "context": "UK Independence Party，被用来类比AFD在欧盟态度上的激进化",
+      "importance": "low"
+    },
+    {
+      "name": "BlackRock (黑石/贝莱德)",
+      "type": "organization",
+      "context": "美国金融巨头，BSW批评其与北约勾结，脱离底层人民",
+      "importance": "low"
+    },
+    {
+      "name": "Dexit (德国脱欧)",
+      "type": "concept",
+      "context": "德国退出欧盟的概念，在AFD党内私下讨论但不是公开官方立场",
+      "importance": "medium"
+    },
+    {
+      "name": "Brandmauer (防火墙)",
+      "type": "concept",
+      "context": "德国主流政党不与AFD合作的原则，源于对纳粹历史教训的反思",
+      "importance": "high"
+    },
+    {
+      "name": "德国优先 (Germany First)",
+      "type": "concept",
+      "context": "AFD的外交政策核心，类似特朗普的美国优先",
+      "importance": "high"
+    },
+    {
+      "name": "身份政治 (Identity Politics)",
+      "type": "concept",
+      "context": "Wagenknecht批评左翼过度关注性别、气候等身份议题而忽视阶级问题",
+      "importance": "high"
+    },
+    {
+      "name": "阶级政治 (Class Politics)",
+      "type": "concept",
+      "context": "Wagenknecht强调的传统左翼核心，关注工人阶级经济利益",
+      "importance": "high"
+    },
+    {
+      "name": "政治正确/觉醒派 (Political Correctness/Woke)",
+      "type": "concept",
+      "context": "AFD和BSW共同反对的自由主义价值观，包括DEI、开放边境等",
+      "importance": "medium"
+    },
+    {
+      "name": "租金冻结 (Rent Freeze)",
+      "type": "concept",
+      "context": "BSW主张的住房政策，播客主通过柏林租房经历批评该政策导致房源短缺",
+      "importance": "medium"
+    },
+    {
+      "name": "绿色转型 (Green Transition)",
+      "type": "concept",
+      "context": "德国能源政策，AFD和BSW都反对，认为增加穷人负担",
+      "importance": "medium"
+    },
+    {
+      "name": "内燃机 (Combustion Engine)",
+      "type": "concept",
+      "context": "AFD主张保留传统汽车引擎，反对强制绿色能源供暖",
+      "importance": "low"
+    },
+    {
+      "name": "2016年美国大选",
+      "type": "event",
+      "context": "被用来类比当前德国政治，特别是媒体对AFD的关注反而助其崛起，类似特朗普现象",
+      "importance": "high"
+    },
+    {
+      "name": "2024年美国大选",
+      "type": "event",
+      "context": "播客主提及2024年11月美国大选时观察到的媒体反应与2016年类似",
+      "importance": "medium"
+    },
+    {
+      "name": "2021年德国联邦大选",
+      "type": "event",
+      "context": "AFD获得10.4%选票",
+      "importance": "medium"
+    },
+    {
+      "name": "2024年德国地方选举",
+      "type": "event",
+      "context": "AFD在图林根州第一、萨克森州第二，BSW成立初期民调达7%",
+      "importance": "high"
+    },
+    {
+      "name": "俄乌战争/俄罗斯入侵乌克兰",
+      "type": "event",
+      "context": "影响德国政治外交的关键事件，AFD和BSW均反对制裁俄罗斯、反对向乌克兰提供武器",
+      "importance": "high"
+    },
+    {
+      "name": "德国'红绿灯'政府解体",
+      "type": "event",
+      "context": "社民党、绿党、自民党联合政府最近解体，导致提前大选",
+      "importance": "medium"
+    },
+    {
+      "name": "叙利亚阿萨德政权倒台",
+      "type": "event",
+      "context": "AFD利用此事件呼吁叙利亚难民返回",
+      "importance": "low"
+    },
+    {
+      "name": "北溪管道事件",
+      "type": "event",
+      "context": "AFD主张恢复从俄罗斯进口天然气，重建北溪管道",
+      "importance": "medium"
+    },
+    {
+      "name": "德国 (Germany)",
+      "type": "place",
+      "context": "讨论的核心国家，面临政治危机和经济停滞",
+      "importance": "high"
+    },
+    {
+      "name": "东德 (East Germany)",
+      "type": "place",
+      "context": "AFD和BSW的基本盘所在地，两德统一前的社会主义地区",
+      "importance": "high"
+    },
+    {
+      "name": "西德 (West Germany)",
+      "type": "place",
+      "context": "与东德相对，传统政治中心",
+      "importance": "low"
+    },
+    {
+      "name": "瑞士 (Switzerland)",
+      "type": "place",
+      "context": "Alice Weidel与伴侣居住地",
+      "importance": "medium"
+    },
+    {
+      "name": "柏林 (Berlin)",
+      "type": "place",
+      "context": "德国首都，播客主以当地租金冻结政策为例批评BSW经济政策",
+      "importance": "medium"
+    },
+    {
+      "name": "图林根州 (Thuringia)",
+      "type": "place",
+      "context": "2024年地方选举中AFD获得第一的东德州",
+      "importance": "medium"
+    },
+    {
+      "name": "萨克森州 (Saxony)",
+      "type": "place",
+      "context": "2024年地方选举中AFD获得第二的东德州",
+      "importance": "medium"
+    },
+    {
+      "name": "勃兰登堡 (Brandenburg)",
+      "type": "place",
+      "context": "Weidel在此举行军事会议讨论难民问题",
+      "importance": "low"
+    },
+    {
+      "name": "俄罗斯 (Russia)",
+      "type": "place",
+      "context": "AFD和BSW均主张恢复与俄关系、进口能源，反对制裁",
+      "importance": "high"
+    },
+    {
+      "name": "中国 (China)",
+      "type": "place",
+      "context": "AFD主张加强贸易关系，不关注价值观差异；德国汽车工业面临中国竞争",
+      "importance": "medium"
+    },
+    {
+      "name": "乌克兰 (Ukraine)",
+      "type": "place",
+      "context": "AFD和BSW均反对向乌提供武器，反对制裁俄罗斯",
+      "importance": "medium"
+    },
+    {
+      "name": "叙利亚 (Syria)",
+      "type": "place",
+      "context": "阿萨德倒台后，AFD呼吁叙利亚难民返回",
+      "importance": "low"
+    },
+    {
+      "name": "美国 (United States)",
+      "type": "place",
+      "context": "经常作为对比对象，特别是2016和2024年大选中的特朗普现象",
+      "importance": "high"
+    },
+    {
+      "name": "波士顿 (Boston)",
+      "type": "place",
+      "context": "与柏林对比房租价格",
+      "importance": "low"
+    },
+    {
+      "name": "波罗的海国家 (Baltic states)",
+      "type": "place",
+      "context": "AFD质疑若俄对此采取行动德国是否有义务介入",
+      "importance": "low"
+    },
+    {
+      "name": "YouTube",
+      "type": "work",
+      "context": "Wagenknecht拥有70万粉丝的平台，也是AFD传播渠道",
+      "importance": "medium"
+    },
+    {
+      "name": "小宇宙",
+      "type": "work",
+      "context": "播客《独树不成林》的发布平台，评论区有德国居民反馈",
+      "importance": "low"
+    },
+    {
+      "name": "德国之声 (Deutsche Welle)",
+      "type": "work",
+      "context": "其民调显示45%德国选民最关心经济问题",
+      "importance": "low"
+    },
+    {
+      "name": "播客第64期《特朗普选民都是什么人啊》",
+      "type": "work",
+      "context": "被引用来对比特朗普与AFD的共同点",
+      "importance": "medium"
+    },
+    {
+      "name": "播客第173期《特朗普2.0会给美国带来怎样变动》",
+      "type": "work",
+      "context": "被引用来讨论特朗普外交政策与AFD的相似性",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67a717ab247d51713c5ecf22",
+  "title": "181-德国极右翼和极左翼这俩女人准备搞啥子名堂？"
+}

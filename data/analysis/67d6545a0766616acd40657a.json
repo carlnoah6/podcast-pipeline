@@ -1,0 +1,349 @@
+{
+  "style": {
+    "opening_pattern": "以历史现象引入，追溯酗酒行为的古今普遍性，通过古希腊语和拉丁语的词汇考证建立话题的历史纵深感",
+    "structure": "历史背景→核心文本介绍→逐卷解读→个人感悟与总结，形成'现象-文本-分析-升华'的递进结构",
+    "tone": "轻松幽默、亲切随性，带有知识分子的自嘲和叛逆感，时而严肃分析时而插科打诨",
+    "catchphrases": [
+      "对吧",
+      "OK",
+      "很有意思的是",
+      "你知道",
+      "让我在这里再插一句嘴",
+      "随他们去骂吧",
+      "我不在乎",
+      "拜拜拜拜"
+    ],
+    "closing_pattern": "开放式总结+个人感悟升华，将饮酒艺术引申为处世艺术和生活哲学",
+    "narrative_techniques": [
+      "类比（将饮酒比作爱情、战争、航海等）",
+      "举例（大量历史人物和事件）",
+      "对比（节制vs放纵、古典vs现代）",
+      "反问",
+      "引用古籍原文",
+      "自我调侃"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Vincent Obsopoeus",
+      "type": "person",
+      "context": "16世纪德国诗人，《饮酒的艺术》作者，被主播形容为性格桀骜难驯、爱讽刺、与自己很像的人",
+      "importance": "high"
+    },
+    {
+      "name": "奥维德(Ovid)",
+      "type": "person",
+      "context": "罗马诗人，著有《爱的艺术》，Obsopoeus效仿的对象",
+      "importance": "high"
+    },
+    {
+      "name": "塞内卡(Seneca)",
+      "type": "person",
+      "context": "古罗马哲学家，曾评论罗马女人酗酒的现象",
+      "importance": "medium"
+    },
+    {
+      "name": "Camerarius",
+      "type": "person",
+      "context": "16世纪人文主义者，Obsopoeus的朋友，曾劝他不要出版《饮酒的艺术》",
+      "importance": "medium"
+    },
+    {
+      "name": "普鲁塔克(Plutarch)",
+      "type": "person",
+      "context": "古希腊作家，主播提到正在翻译他的作品，多次引用其内容",
+      "importance": "medium"
+    },
+    {
+      "name": "斯汤达(Stendhal)",
+      "type": "person",
+      "context": "法国作家，被主播列为性格亲切、可成为朋友的历史人物",
+      "importance": "low"
+    },
+    {
+      "name": "斯威夫特(Swift)",
+      "type": "person",
+      "context": "英国作家，被主播列为性格亲切的历史人物",
+      "importance": "low"
+    },
+    {
+      "name": "马基雅维利(Machiavelli)",
+      "type": "person",
+      "context": "意大利政治思想家，被主播列为性格亲切的历史人物",
+      "importance": "low"
+    },
+    {
+      "name": "霍布斯(Hobbes)",
+      "type": "person",
+      "context": "英国哲学家，被主播列为性格亲切的历史人物",
+      "importance": "low"
+    },
+    {
+      "name": "亚当·斯密(Adam Smith)",
+      "type": "person",
+      "context": "苏格兰经济学家，被主播明确说不会与其成为朋友",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭(Rousseau)",
+      "type": "person",
+      "context": "法国思想家，被主播明确说不会与其成为朋友",
+      "importance": "low"
+    },
+    {
+      "name": "康德(Kant)",
+      "type": "person",
+      "context": "德国哲学家，被主播明确说不会与其成为朋友，并吐槽他说吃饭时不应该喝酒",
+      "importance": "low"
+    },
+    {
+      "name": "洛克(Locke)",
+      "type": "person",
+      "context": "英国哲学家，被主播明确说不会与其成为朋友",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔(Hegel)",
+      "type": "person",
+      "context": "德国哲学家，被主播明确说不会与其成为朋友",
+      "importance": "low"
+    },
+    {
+      "name": "苏格拉底(Socrates)",
+      "type": "person",
+      "context": "古希腊哲学家，其妻子被作为反面例子，形容为天天吵架掀桌的伴侣",
+      "importance": "low"
+    },
+    {
+      "name": "加图(Cato)",
+      "type": "person",
+      "context": "古罗马政治家，被用来形容酒桌上端着架子装道德模范的人",
+      "importance": "low"
+    },
+    {
+      "name": "西塞罗(Cicero)",
+      "type": "person",
+      "context": "古罗马演说家，被用来形容酒桌上端着架子的人，也被Obsopoeus自称在饮酒艺术上超越",
+      "importance": "low"
+    },
+    {
+      "name": "柏拉图(Plato)",
+      "type": "person",
+      "context": "古希腊哲学家，被Obsopoeus请来作证某些场合沉醉是合理的",
+      "importance": "low"
+    },
+    {
+      "name": "维吉尔(Virgil)",
+      "type": "person",
+      "context": "古罗马诗人，被Obsopoeus请来作证某些场合沉醉是合理的",
+      "importance": "low"
+    },
+    {
+      "name": "荷马(Homer)",
+      "type": "person",
+      "context": "古希腊诗人，被Obsopoeus请来作证某些场合沉醉是合理的",
+      "importance": "low"
+    },
+    {
+      "name": "阿喀琉斯(Achilles)",
+      "type": "person",
+      "context": "希腊神话英雄，Obsopoeus吐槽奥德修斯惹恼了他，若懂饮酒艺术或许伊利亚特大战不会爆发",
+      "importance": "low"
+    },
+    {
+      "name": "奥德修斯(Odysseus/Ulysses)",
+      "type": "person",
+      "context": "希腊神话英雄，被Obsopoeus批评讲话不管场合，不懂饮酒艺术",
+      "importance": "low"
+    },
+    {
+      "name": "狄多女王(Dido)",
+      "type": "person",
+      "context": "迦太基女王，Obsopoeus提到她用美酒款待特洛伊人的热闹场面",
+      "importance": "low"
+    },
+    {
+      "name": "赫克托尔(Hector)",
+      "type": "person",
+      "context": "特洛伊英雄，被Obsopoeus用作酒战策略的比喻，应集中火力对战一人",
+      "importance": "low"
+    },
+    {
+      "name": "赫拉克勒斯(Heracles)",
+      "type": "person",
+      "context": "希腊神话最伟大的英雄，Obsopoeus用他都不敢轻易对抗两个敌人来比喻酒战的艰难",
+      "importance": "low"
+    },
+    {
+      "name": "Protesilaus",
+      "type": "person",
+      "context": "希腊神话人物，被Obsopoeus用来形容鲁莽冲撞的愚笨饮酒者",
+      "importance": "low"
+    },
+    {
+      "name": "Apelles",
+      "type": "person",
+      "context": "古希腊画家，其画作《醉酒之缘》被Obsopoeus详细描述，作为第二卷的开篇",
+      "importance": "medium"
+    },
+    {
+      "name": "毕达哥拉斯(Pythagoras)",
+      "type": "person",
+      "context": "古希腊哲学家，其学生被要求五年静默、手口如瓶，被Obsopoeus作为理想酒友的典范",
+      "importance": "low"
+    },
+    {
+      "name": "德拉古(Draco)",
+      "type": "person",
+      "context": "雅典立法者，Obsopoeus说自己不是那种刻字写法律的德拉古，不会对偶尔醉酒小题大做",
+      "importance": "low"
+    },
+    {
+      "name": "汉尼拔(Hannibal)",
+      "type": "person",
+      "context": "迦太基将领，因醉酒丧失战斗力，被作为警示例子",
+      "importance": "low"
+    },
+    {
+      "name": "亚历山大(Alexander the Great)",
+      "type": "person",
+      "context": "马其顿国王，酒后杀死朋友，被作为警示例子",
+      "importance": "low"
+    },
+    {
+      "name": "尼禄(Nero)",
+      "type": "person",
+      "context": "罗马皇帝，醉生梦死身败名裂，被作为警示例子",
+      "importance": "low"
+    },
+    {
+      "name": "厄庇墨透斯(Epimetheus)",
+      "type": "person",
+      "context": "希腊神话人物，Obsopoeus将无节制的饮酒者比作他门下的猪",
+      "importance": "low"
+    },
+    {
+      "name": "Nestor",
+      "type": "person",
+      "context": "特洛伊战争中的老智者，Obsopoeus提到醉汉认为酒神之子的头衔胜过Hector和Nestor的荣誉",
+      "importance": "low"
+    },
+    {
+      "name": "雅典提蒙(Timon of Athens)",
+      "type": "person",
+      "context": "古希腊厌世者，Obsopoeus用其形容16世纪德国流行的厌世生活方式",
+      "importance": "low"
+    },
+    {
+      "name": "百眼巨人(Argus Panoptes)",
+      "type": "person",
+      "context": "希腊神话人物，Obsopoeus建议酒战中需要像他一样的警觉",
+      "importance": "low"
+    },
+    {
+      "name": "巴库斯(Bacchus)/Liber",
+      "type": "person",
+      "context": "酒神，全书的核心神祇，Obsopoeus向其祷告求灵感和好酒，自称是其老师",
+      "importance": "high"
+    },
+    {
+      "name": "节制女神(Sophrosyne)",
+      "type": "person",
+      "context": "在Apelles画作中与欢愉女神共同主持宴席，代表节制的理想状态",
+      "importance": "medium"
+    },
+    {
+      "name": "欢愉女神(Hedone)",
+      "type": "person",
+      "context": "在Apelles画作中与节制女神共同主持宴席",
+      "importance": "medium"
+    },
+    {
+      "name": "宿醉(Methe的仆从)",
+      "type": "person",
+      "context": "在Apelles画作中带领人进入醉酒花园的女子，满脸通红",
+      "importance": "medium"
+    },
+    {
+      "name": "醉酒者Methe",
+      "type": "person",
+      "context": "古希腊语中酗酒的意思，在Apelles画作中坐在醉酒花园主位上的拟人化形象",
+      "importance": "medium"
+    },
+    {
+      "name": "《饮酒的艺术》(De Arte Bibendi)",
+      "type": "work",
+      "context": "1536年出版的文艺复兴时期拉丁语著作，全书三卷，教导如何有品地饮酒，曾是畅销书后被列为禁书",
+      "importance": "high"
+    },
+    {
+      "name": "《爱的艺术》(De Arte Amandi)",
+      "type": "work",
+      "context": "奥维德的著作，Obsopoeus效仿的对象，主播提到Amo是学拉丁语的第一个动词",
+      "importance": "high"
+    },
+    {
+      "name": "《伊利亚特》(Iliad)",
+      "type": "work",
+      "context": "荷马史诗，Obsopoeus脑洞大开说若奥德修斯懂饮酒艺术或许这场大战不会爆发",
+      "importance": "low"
+    },
+    {
+      "name": "《奥德赛》(Odyssey)",
+      "type": "work",
+      "context": "荷马史诗，提到狄多用美酒款待特洛伊人的场面",
+      "importance": "low"
+    },
+    {
+      "name": "《醉酒之缘》(The Temptation of Drunkenness)",
+      "type": "work",
+      "context": "古希腊画家Apelles的画作，可能已失传或仅为假想，被Obsopoeus在第二卷开篇详细描述",
+      "importance": "medium"
+    },
+    {
+      "name": "酗酒/Methe",
+      "type": "concept",
+      "context": "古希腊语词汇，指疯狂喝酒的状态，在Apelles画作中被拟人化为醉酒花园的主人",
+      "importance": "high"
+    },
+    {
+      "name": "节制(Sophrosyne/Temperance)",
+      "type": "concept",
+      "context": "全书核心思想，Obsopoeus主张的态度，与完全禁酒相反，是持久清醒的关键",
+      "importance": "high"
+    },
+    {
+      "name": "男性气概/酒局文化",
+      "type": "concept",
+      "context": "15世纪德国首次将疯狂喝酒变成男性气概展示，16世纪扩散至全欧洲，是主播追溯的现代酒局文化根源",
+      "importance": "high"
+    },
+    {
+      "name": "酒战兵法",
+      "type": "concept",
+      "context": "第三卷核心内容，将酒局比作战场，教授如何在不得不喝的场合获胜的策略",
+      "importance": "medium"
+    },
+    {
+      "name": "十字军东征",
+      "type": "event",
+      "context": "结束后欧洲经济结构变化，中世纪骑士阶层失去方向，转而用酒填补空虚，是酒局文化的社会根源",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "15-16世纪酒局文化的发源地，葡萄园面积是今天的四倍，人均酒精摄入量是今天的六倍",
+      "importance": "high"
+    },
+    {
+      "name": "天主教会",
+      "type": "organization",
+      "context": "将《饮酒的艺术》列为禁书的机构，被Obsopoeus明修栈道暗度陈仓地调侃",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67d6545a0766616acd40657a",
+  "title": "193-如何有品地饮酒？"
+}

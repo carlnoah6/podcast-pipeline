@@ -1,0 +1,289 @@
+{
+  "style": {
+    "opening_pattern": "以自嘲式人设建立开场，通过'海王'和'海鲜大王'的身份标签，结合家族渔村背景（外公海鲜厂、母亲剥虾经历）建立个人权威与情感连接，再引入自由市场局限性的核心议题",
+    "structure": "个人家族叙事建立人设 → 与奥地利学派的'爱恨情仇'（学术背景与调侃） → 核心案例堆积（美国海鲜市场造假乱象的大量具体案例） → 对比分析（日本鱼市的高效管制与活杀工艺） → 美国渔业政策反思（小渔民消失与生态管制悖论） → 结论（自由市场在知识不对等下的失效）",
+    "tone": "轻松幽默、口语化、知识型吐槽、略带偏执与狂热（对海鲜的专业执着）、自嘲与自信并存、理性分析与情绪化表达交织",
+    "catchphrases": [
+      "海王",
+      "海鲜大王",
+      "根正苗红",
+      "疯疯癫癫",
+      "正义斗士",
+      "绿头苍蝇一样的荧光",
+      "摩擦着前肢",
+      "捏着鼻子"
+    ],
+    "closing_pattern": "总结核心观点（自由市场无法解决海鲜市场的知识不对等与诈骗问题）后简短告别，保持开放式思考",
+    "narrative_techniques": [
+      "类比（将海鲜市场与自由市场理论进行类比）",
+      "举例（大量具体鱼类造假案例的堆积论证）",
+      "对比（美国市场的混乱与日本市场的高效管制）",
+      "个人经历叙事（家族背景、渔民大爷的故事、自身消费经历）",
+      "反问",
+      "夸张（'滔滔不绝讲三个小时'、'绿头苍蝇'等）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "奥地利经济学派",
+      "type": "concept",
+      "context": "主播调侃自己与该学派的关系，称其为朋友但也热衷于调侃，曾利用该学派资助学习德语",
+      "importance": "high"
+    },
+    {
+      "name": "自由市场",
+      "type": "concept",
+      "context": "核心讨论对象，主播通过海鲜市场的案例反思自由市场在知识不对等情况下的局限性",
+      "importance": "high"
+    },
+    {
+      "name": "门格尔",
+      "type": "person",
+      "context": "奥地利学派创始人，主播提及曾捏着鼻子阅读其著作以换取研究经费",
+      "importance": "medium"
+    },
+    {
+      "name": "庞巴维克",
+      "type": "person",
+      "context": "奥地利学派经济学家，主播提及阅读其著作",
+      "importance": "medium"
+    },
+    {
+      "name": "米塞斯",
+      "type": "person",
+      "context": "奥地利学派代表人物，主播提及书柜中有其全集",
+      "importance": "low"
+    },
+    {
+      "name": "哈耶克",
+      "type": "person",
+      "context": "奥地利学派代表人物，主播曾在第107期播客讨论其个人自由主义局限性",
+      "importance": "medium"
+    },
+    {
+      "name": "美国东海岸海鲜市场",
+      "type": "place",
+      "context": "主播重点批评的区域，指出其存在严重的标签错误和以次充好问题",
+      "importance": "high"
+    },
+    {
+      "name": "日本海鲜市场",
+      "type": "place",
+      "context": "作为正面案例，展示严格管制下的高质量市场，鱼港无腥味，活杀处理",
+      "importance": "high"
+    },
+    {
+      "name": "东海沿海地区",
+      "type": "place",
+      "context": "主播的家乡，认为自己家乡的鱼质量不亚于日本，但市场管理不如日本",
+      "importance": "high"
+    },
+    {
+      "name": "马里兰蓝蟹",
+      "type": "other",
+      "context": "被美国餐厅和超市广泛造假的对象，常用便宜的游泳蟹冒充",
+      "importance": "high"
+    },
+    {
+      "name": "红鲷鱼",
+      "type": "other",
+      "context": "高价值鱼类，常被便宜的罗非鱼冒充，主播详细描述了两者的口感差异",
+      "importance": "high"
+    },
+    {
+      "name": "罗非鱼",
+      "type": "other",
+      "context": "美国最便宜的鱼之一，常被用来冒充红鲷鱼等贵价鱼",
+      "importance": "high"
+    },
+    {
+      "name": "缅因龙虾",
+      "type": "other",
+      "context": "高端龙虾品种，常被加勒比海龙虾或小龙虾冒充，主播对此有详细论述",
+      "importance": "high"
+    },
+    {
+      "name": "鱼港整备法",
+      "type": "concept",
+      "context": "日本管理渔港的严格法律，分为三个等级，规定污水处理、活杀处理等",
+      "importance": "high"
+    },
+    {
+      "name": "活杀",
+      "type": "concept",
+      "context": "日本鱼市处理鱼的方式，上岸后立即放血，比窒息而死更人道且能保持鱼肉新鲜",
+      "importance": "high"
+    },
+    {
+      "name": "神经活杀",
+      "type": "concept",
+      "context": "更精细的宰杀方式，用铁丝插入脊椎阻断神经，避免乳酸堆积，保持鱼肉细腻",
+      "importance": "medium"
+    },
+    {
+      "name": "鳕鱼角",
+      "type": "place",
+      "context": "主播朋友的邻居（70多岁渔民）曾在此捕鱼，70年代可捕大鱼，90年代后因管制无法维持",
+      "importance": "medium"
+    },
+    {
+      "name": "蓝鳍金枪鱼",
+      "type": "other",
+      "context": "70年代美国渔民捕捞后可被日本渔商高价收购，90年代后个体渔民难以维持",
+      "importance": "medium"
+    },
+    {
+      "name": "Oceana",
+      "type": "organization",
+      "context": "环保组织，2015年研究发现华盛顿特区和马里兰州40%的蟹饼标签错误",
+      "importance": "medium"
+    },
+    {
+      "name": "Inside Edition",
+      "type": "organization",
+      "context": "美国315打假节目，2016年曝光Red Lobster餐厅用小龙虾代替龙虾",
+      "importance": "medium"
+    },
+    {
+      "name": "Red Lobster",
+      "type": "organization",
+      "context": "美国连锁餐厅，被曝光龙虾汤里用小龙虾和鳕鱼肉冒充",
+      "importance": "medium"
+    },
+    {
+      "name": "台湾海鲜市场",
+      "type": "place",
+      "context": "被主播拿来与日本对比，认为管理不如日本，渔民处理鱼的方式无法达到生吃标准",
+      "importance": "medium"
+    },
+    {
+      "name": "印尼鱼港",
+      "type": "place",
+      "context": "被批评比浙江鱼港还差，鱼港腥臭，鱼货半腐烂",
+      "importance": "medium"
+    },
+    {
+      "name": "加蓬",
+      "type": "place",
+      "context": "非洲国家，美国80%的虾进口于此，存在严重的非法捕捞和副渔获物丢弃问题",
+      "importance": "medium"
+    },
+    {
+      "name": "德国历史学派",
+      "type": "concept",
+      "context": "主播为了学德语而谎称要研究的学派，用来调侃自己'坑蒙拐骗'研究经费",
+      "importance": "low"
+    },
+    {
+      "name": "2024美国大选",
+      "type": "event",
+      "context": "主播提及自己调侃民主党政策导致在2024大选中惨败，惹恼了一些听众",
+      "importance": "low"
+    },
+    {
+      "name": "三文鱼",
+      "type": "other",
+      "context": "提及美国市场存在养殖与野生标签混淆问题",
+      "importance": "medium"
+    },
+    {
+      "name": "虹鳟鱼",
+      "type": "other",
+      "context": "在中国常被冒充三文鱼，在美国也存在标签问题",
+      "importance": "low"
+    },
+    {
+      "name": "蟹饼",
+      "type": "other",
+      "context": "美国东海岸常见前菜，常用便宜螃蟹冒充马里兰蓝蟹制作",
+      "importance": "medium"
+    },
+    {
+      "name": "剥皮鱼",
+      "type": "other",
+      "context": "浙江和日本都捕捞，但日本采用活杀后可生吃鱼肝，浙江处理方式无法达到标准",
+      "importance": "medium"
+    },
+    {
+      "name": "箭鱼",
+      "type": "other",
+      "context": "70年代美国渔民在鳕鱼角捕捞的大鱼之一",
+      "importance": "low"
+    },
+    {
+      "name": " swimming crab（游泳蟹）",
+      "type": "other",
+      "context": "东南亚产的便宜螃蟹，常被用来冒充马里兰蓝蟹",
+      "importance": "medium"
+    },
+    {
+      "name": "小龙虾/Langostino",
+      "type": "other",
+      "context": "常被用来冒充缅因龙虾，Red Lobster被曝光使用",
+      "importance": "medium"
+    },
+    {
+      "name": "鳕鱼",
+      "type": "other",
+      "context": "Red Lobster被曝光用鳕鱼肉冒充龙虾肉",
+      "importance": "medium"
+    },
+    {
+      "name": "扇贝",
+      "type": "other",
+      "context": "提及可能被白鱼合成造假，缺少连接肌肉",
+      "importance": "medium"
+    },
+    {
+      "name": "黑鲈鱼",
+      "type": "other",
+      "context": "可能被用来冒充红鲷鱼",
+      "importance": "low"
+    },
+    {
+      "name": "条纹鲈鱼",
+      "type": "other",
+      "context": "可能被用来冒充红鲷鱼",
+      "importance": "low"
+    },
+    {
+      "name": "海鲈鱼",
+      "type": "other",
+      "context": "可能被用来冒充红鲷鱼",
+      "importance": "low"
+    },
+    {
+      "name": "电捕鱼/炸鱼",
+      "type": "concept",
+      "context": "非法捕捞方式，破坏生态，主播提及政府管制可防止此类行为",
+      "importance": "low"
+    },
+    {
+      "name": "副渔获物",
+      "type": "concept",
+      "context": "非法捕捞中99.8%的非目标海产被丢弃，包括海龟鲨鱼等",
+      "importance": "medium"
+    },
+    {
+      "name": "科兹纳",
+      "type": "person",
+      "context": "Israel Kirzner，奥地利学派经济学家，主播提及书柜中有其著作",
+      "importance": "low"
+    },
+    {
+      "name": "小宇宙",
+      "type": "place",
+      "context": "播客平台，主播提及在上面被骂",
+      "importance": "low"
+    },
+    {
+      "name": "明镜与点点",
+      "type": "organization",
+      "context": "播客栏目，主播请求支持",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67e353a7af5840b33350a7fc",
+  "title": "196-成为海王如何帮我反思自由市场的局限？"
+}

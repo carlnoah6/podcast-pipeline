@@ -1,0 +1,273 @@
+{
+  "style": {
+    "opening_pattern": "以直接反驳名人名言引入，通过对比'美丽单词'的幽默列举建立个人立场",
+    "structure": "新闻事件→历史背景→理论分析→现实对照→开放式提问",
+    "tone": "轻松幽默中带理性分析，自嘲式调侃与学术严谨并存",
+    "catchphrases": [
+      "性缩力满满的老光棍",
+      "喋喋不休",
+      "自然自由体系",
+      "零和竞争",
+      "看不见的手",
+      "制度人",
+      "谨慎、谦逊和克制",
+      "撬起了他的小头",
+      "新闻联播插播完毕",
+      "我的最好的朋友保姆哥"
+    ],
+    "closing_pattern": "开放式提问，邀请听众反馈，形成对话感",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "举例",
+      "引用",
+      "反讽",
+      "个人轶事穿插"
+    ]
+  },
+  "entities": [
+    {
+      "name": "亚当·斯密(Adam Smith)",
+      "type": "person",
+      "context": "现代经济学之父，《国富论》作者，被主播戏称为'性缩力满满的老光棍'",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普(Donald Trump)",
+      "type": "person",
+      "context": "美国前总统，其关税政策被作为分析对象，声称'tariff is the most beautiful word'",
+      "importance": "high"
+    },
+    {
+      "name": "特鲁多(Justin Trudeau)",
+      "type": "person",
+      "context": "加拿大总理，发表演讲回应美国关税政策，宣布报复性关税",
+      "importance": "medium"
+    },
+    {
+      "name": "克劳迪娅·辛鲍姆(Claudia Sheinbaum)",
+      "type": "person",
+      "context": "墨西哥总统，下令征收报复性关税并拒绝白宫指控",
+      "importance": "medium"
+    },
+    {
+      "name": "皮埃尔·普瓦列夫尔(Pierre Poilievre)",
+      "type": "person",
+      "context": "加拿大保守党领袖，提出'Canada first'口号",
+      "importance": "low"
+    },
+    {
+      "name": "保姆哥",
+      "type": "person",
+      "context": "主播的朋友，博士论文研究亚当·斯密，提供私人信件等研究资料",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭(Rousseau)",
+      "type": "person",
+      "context": "被主播拿来与亚当·斯密对比，同样被调侃个人生活但尊重其思想深度",
+      "importance": "low"
+    },
+    {
+      "name": "霍布斯(Hobbes)",
+      "type": "person",
+      "context": "被提及为建立'人都是狭隘自私自利'理论的政治哲学家",
+      "importance": "low"
+    },
+    {
+      "name": "曼德维尔(Mandeville)",
+      "type": "person",
+      "context": "与霍布斯一起被提及，主播曾在第37期播客讨论其理论",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德(Aristotle)",
+      "type": "person",
+      "context": "被亚当·斯密引用，指出货币(Nomisma)源自Nomos(法律和习俗)",
+      "importance": "medium"
+    },
+    {
+      "name": "《国富论》(Wealth of Nations)",
+      "type": "work",
+      "context": "1776年出版的现代经济学开创之作，第四卷专门批判重商主义",
+      "importance": "high"
+    },
+    {
+      "name": "《道德情操论》(The Theory of Moral Sentiments)",
+      "type": "work",
+      "context": "亚当·斯密的另一部著作，其中提出'制度人'(man of system)概念",
+      "importance": "medium"
+    },
+    {
+      "name": "《独立宣言》",
+      "type": "work",
+      "context": "1776年美国国父发表的重要政治文献，与《国富论》同年",
+      "importance": "low"
+    },
+    {
+      "name": "重商主义(mercantilism)",
+      "type": "concept",
+      "context": "18世纪欧洲主流经济理论，主张通过关税限制进口、鼓励出口以增加金银储备",
+      "importance": "high"
+    },
+    {
+      "name": "自然自由体系(System of Natural Liberty)",
+      "type": "concept",
+      "context": "亚当·斯密提出的核心理论，主张自由市场优于人为干预",
+      "importance": "high"
+    },
+    {
+      "name": "货币贬值(debasement)",
+      "type": "concept",
+      "context": "亚当·斯密批判的早期货币政策之一，指减少硬币金属含量",
+      "importance": "medium"
+    },
+    {
+      "name": "纸币信用(paper credit money)",
+      "type": "concept",
+      "context": "亚当·斯密批判的早期货币政策之一，反对将其作为政策工具",
+      "importance": "medium"
+    },
+    {
+      "name": "零和竞争",
+      "type": "concept",
+      "context": "重商主义的基础观念，认为国际贸易是有你没我的竞争",
+      "importance": "medium"
+    },
+    {
+      "name": "看不见的手",
+      "type": "concept",
+      "context": "亚当·斯密提出的市场自发调节机制，优于人为设计",
+      "importance": "medium"
+    },
+    {
+      "name": "制度人(man of system)",
+      "type": "concept",
+      "context": "亚当·斯密在《道德情操论》中批评的自以为是、试图操纵经济的决策者",
+      "importance": "medium"
+    },
+    {
+      "name": "特朗普关税政策",
+      "type": "event",
+      "context": "2025年2月宣布对中加墨征收高额关税，引发贸易战",
+      "importance": "high"
+    },
+    {
+      "name": "伊朗人质危机",
+      "type": "event",
+      "context": "特鲁多演讲中提及的历史事件，444天人质危机期间加拿大帮助美国",
+      "importance": "low"
+    },
+    {
+      "name": "卡特里娜台风(Katrina)",
+      "type": "event",
+      "context": "2005年袭击新奥尔良的飓风，加拿大曾提供帮助",
+      "importance": "low"
+    },
+    {
+      "name": "9·11事件",
+      "type": "event",
+      "context": "2001年恐怖袭击，加拿大曾为滞留乘客提供庇护",
+      "importance": "low"
+    },
+    {
+      "name": "加州山火",
+      "type": "event",
+      "context": "几周前发生的自然灾害，加拿大派出水弹轰炸机协助",
+      "importance": "low"
+    },
+    {
+      "name": "诺曼底登陆",
+      "type": "event",
+      "context": "特鲁多演讲中提及的二战战役，加美并肩作战",
+      "importance": "low"
+    },
+    {
+      "name": "朝鲜战争",
+      "type": "event",
+      "context": "特鲁多演讲中提及的冷战冲突，加美共同参战",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "关税政策的实施方，与加拿大、墨西哥爆发贸易战",
+      "importance": "high"
+    },
+    {
+      "name": "加拿大",
+      "type": "place",
+      "context": "美国第二大贸易伙伴，75%以上出口流向美国，采取报复性关税",
+      "importance": "high"
+    },
+    {
+      "name": "墨西哥",
+      "type": "place",
+      "context": "美国最大贸易伙伴之一，90%美国牛油果来源地，采取报复措施",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "被征收10%关税，向WTO提起诉讼并誓言反制",
+      "importance": "high"
+    },
+    {
+      "name": "不列颠哥伦比亚省",
+      "type": "place",
+      "context": "加拿大省份，取消美国酒类销售重点针对肯塔基州波本威士忌",
+      "importance": "low"
+    },
+    {
+      "name": "肯塔基州",
+      "type": "place",
+      "context": "美国红州，其波本威士忌成为加拿大报复目标",
+      "importance": "low"
+    },
+    {
+      "name": "弗兰德斯(Flanders)",
+      "type": "place",
+      "context": "特鲁多演讲中提及的一战战场",
+      "importance": "low"
+    },
+    {
+      "name": "坎大哈(Kandahar)",
+      "type": "place",
+      "context": "特鲁多演讲中提及的阿富汗城市，加美共同作战",
+      "importance": "low"
+    },
+    {
+      "name": "朝鲜半岛",
+      "type": "place",
+      "context": "特鲁多演讲中提及的朝鲜战争地点",
+      "importance": "low"
+    },
+    {
+      "name": "世贸组织(WTO)",
+      "type": "organization",
+      "context": "中国表示将向该组织对美国提起诉讼",
+      "importance": "low"
+    },
+    {
+      "name": "亚马逊(Amazon)",
+      "type": "organization",
+      "context": "受关税影响的中国商家平台之一",
+      "importance": "low"
+    },
+    {
+      "name": "Temu",
+      "type": "organization",
+      "context": "被称为'美国拼多多'的中国电商平台，受关税影响",
+      "importance": "low"
+    },
+    {
+      "name": "Shein",
+      "type": "organization",
+      "context": "被称为'美国1688'的中国快时尚平台，受关税影响",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67a306c3247d51713cb4f561",
+  "title": "177-亚当斯密会如何批评特朗普关税政策？"
+}

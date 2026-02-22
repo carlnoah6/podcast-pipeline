@@ -1,0 +1,205 @@
+{
+  "style": {
+    "opening_pattern": "以听众反馈和争议引入，通过描述'被性别问题不堪其扰的人'的抱怨来建立对话张力",
+    "structure": "回应批评→提出核心问题（但丁误引）→抛出主题→理想状态假设→理论溯源（恩格斯著作）→方法论批判→文本细读→结论",
+    "tone": "犀利反讽、学术思辨、带有挑衅性的理性客观",
+    "catchphrases": [
+      "在智障和缺德之间，我暂时选择缺德",
+      "最基础、最基础、最基础",
+      "大叫驴一样的比格犬",
+      "老登",
+      "爹味",
+      "滑跪磕头道歉",
+      "经济人",
+      "最大公约数"
+    ],
+    "closing_pattern": "总结性论断后戛然而止，以'怪恩格斯吧'的讽刺收尾",
+    "narrative_techniques": [
+      "类比（比格犬与阿喀琉斯对比）",
+      "反问",
+      "举例（哪吒敖丙之父）",
+      "对比（现代科学vs古希腊范式）",
+      "自我指涉（回应批评者）",
+      "重复强调（多次重复关键短语）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "恩格斯",
+      "type": "person",
+      "context": "本集核心分析对象，其1884年著作《家庭、私有制和国家的起源》被论证为当代性别对立思维框架的起源",
+      "importance": "high"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "与恩格斯共同创立理论，其《共产党宣言》《资本论》《德意志意识形态》被引用，笔记被恩格斯用于写作",
+      "importance": "high"
+    },
+    {
+      "name": "刘易斯·亨利·摩根",
+      "type": "person",
+      "context": "美国人类学家，1877年《古代社会》为恩格斯提供核心理论基础，研究印第安人亲属制度",
+      "importance": "high"
+    },
+    {
+      "name": "但丁",
+      "type": "person",
+      "context": "被错误引用'地狱里最炙热的地方留给中立者'，主播详细辨析其真正谴责的是告密者而非思想异见者",
+      "importance": "medium"
+    },
+    {
+      "name": "波伏娃",
+      "type": "person",
+      "context": "作为20世纪女权代表，其《第二性》被提及仍延续恩格斯的思维框架",
+      "importance": "medium"
+    },
+    {
+      "name": "达尔文",
+      "type": "person",
+      "context": "1859年《物种起源》开启进化论时代，间接影响摩根的人类学研究",
+      "importance": "low"
+    },
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "与亚里士多德并列为讨论'天性'的古希腊思想家，代表超越现代科学的思考方式",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "同上，代表古典哲学对人性自然的理解",
+      "importance": "low"
+    },
+    {
+      "name": "阿喀琉斯",
+      "type": "person",
+      "context": "古希腊男子气概的最高范式，与'平均值'方法论形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "其'高贵的野蛮人'思想被指出与摩根对原始社会的崇拜相结合",
+      "importance": "low"
+    },
+    {
+      "name": "《家庭、私有制和国家的起源》",
+      "type": "work",
+      "context": "恩格斯1884年出版的核心著作，被论证为定义过去百年女性问题辩论术语的源头",
+      "importance": "high"
+    },
+    {
+      "name": "《古代社会》",
+      "type": "work",
+      "context": "摩根1877年560页人类学巨著，第一本唯物主义方式理解人类社会演变的研究",
+      "importance": "high"
+    },
+    {
+      "name": "《共产党宣言》",
+      "type": "work",
+      "context": "马克思1848年撰写，已将妇女解放纳入革命社会主义理论核心",
+      "importance": "medium"
+    },
+    {
+      "name": "《资本论》",
+      "type": "work",
+      "context": "马克思论述人的异化来自劳动分工，恩格斯套用此逻辑解释性别分工",
+      "importance": "medium"
+    },
+    {
+      "name": "《德意志意识形态》",
+      "type": "work",
+      "context": "马克思恩格斯1846年提出理想社会需废除私有财产和家庭",
+      "importance": "medium"
+    },
+    {
+      "name": "《神曲》",
+      "type": "work",
+      "context": "但丁的反暴政诗篇，主播用以辨析'中立者下地狱'的误引",
+      "importance": "medium"
+    },
+    {
+      "name": "《第二性》",
+      "type": "work",
+      "context": "波伏娃存在主义女权代表作，被指出仍未脱离恩格斯框架",
+      "importance": "medium"
+    },
+    {
+      "name": "《物种起源》",
+      "type": "work",
+      "context": "达尔文1859年著作，开启进化论时代",
+      "importance": "low"
+    },
+    {
+      "name": "阶级社会/阶级",
+      "type": "concept",
+      "context": "恩格斯理论的核心变量，性别压迫的根源被归结于阶级社会的兴起",
+      "importance": "high"
+    },
+    {
+      "name": "原始共产主义",
+      "type": "concept",
+      "context": "恩格斯认为阶级社会前存在的无压迫状态，女性地位平等",
+      "importance": "high"
+    },
+    {
+      "name": "性别分工",
+      "type": "concept",
+      "context": "恩格斯解释压迫机制的关键：男性承担生产、女性承担生育的分工导致不平等",
+      "importance": "high"
+    },
+    {
+      "name": "一夫一妻制/专偶制",
+      "type": "concept",
+      "context": "被恩格斯视为经济单位而非自然关系，目的是继承私有财产",
+      "importance": "high"
+    },
+    {
+      "name": "经济人/ economic being",
+      "type": "concept",
+      "context": "主播批判的核心：马克思主义将人首先理解为经济存在而非道德存在",
+      "importance": "high"
+    },
+    {
+      "name": "平均值/最大公约数",
+      "type": "concept",
+      "context": "现代科学方法论的特征，与古希腊'最高范式'形成对比，被批判为失去道德维度",
+      "importance": "high"
+    },
+    {
+      "name": "唯物主义/现代科学方法论",
+      "type": "concept",
+      "context": "恩格斯分析的基础，被批判为瓦解了讨论自然、道德、崇高人性的能力",
+      "importance": "high"
+    },
+    {
+      "name": "男子气概/ Andreia",
+      "type": "concept",
+      "context": "古希腊语中代表勇气与男子气概的词，以阿喀琉斯为最高范式",
+      "importance": "medium"
+    },
+    {
+      "name": "女权主义四股浪潮",
+      "type": "concept",
+      "context": "主播此前节目内容，左派右派女权均已讨论",
+      "importance": "low"
+    },
+    {
+      "name": "佛罗伦萨",
+      "type": "place",
+      "context": "但丁因政治敌人认为其思想危险而被流放，终身无法回归",
+      "importance": "low"
+    },
+    {
+      "name": "纽约州北部",
+      "type": "place",
+      "context": "摩根接触印第安人进行人类学调查的地点",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67a2b8e8247d51713ca37dd4",
+  "title": "176-恩格斯为当代社会男女性别对立做出了什么卓越的贡献？"
+}

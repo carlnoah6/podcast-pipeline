@@ -1,0 +1,166 @@
+{
+  "style": {
+    "opening_pattern": "直接进入主题，以文学人物分类引入，将《包法利夫人》中三个男性角色直接对应现代社会的alpha男、beta男和小情人三种类型",
+    "structure": "人物分类→逐层分析→哲学升华：先提出三种懦弱男性类型，分别详细剖析莱昂、罗多夫、包法利先生的懦弱表现，最后上升到对现代男性消亡的哲学批判",
+    "tone": "严肃深沉、批判性强、理性中带有强烈道德判断，使用尖锐的社会批评和文学分析相结合的学术口吻",
+    "catchphrases": [
+      "懦夫",
+      "胆小怕事",
+      "alpha男",
+      "beta男",
+      "福楼拜写道",
+      "这是一种",
+      "我们可以看到",
+      "我认为",
+      "接盘侠",
+      "末人"
+    ],
+    "closing_pattern": "引用对比升华，以莫扎特歌剧《唐璜》中唐璜宁愿下地狱也不忏悔的勇敢形象，与《包法利夫人》中懦弱男性形成强烈对比，并以音乐意象结束",
+    "narrative_techniques": [
+      "对比",
+      "举例",
+      "反问",
+      "类比",
+      "引用",
+      "层层递进",
+      "人物类型学分析"
+    ]
+  },
+  "entities": [
+    {
+      "name": "福楼拜",
+      "type": "person",
+      "context": "《包法利夫人》的作者，主播多次引用其对男性角色的刻画，强调他对懦弱男性的鄙视态度",
+      "importance": "high"
+    },
+    {
+      "name": "爱玛·包法利（艾玛）",
+      "type": "person",
+      "context": "《包法利夫人》的女主角，与三个男性角色发生关系，是分析男性懦弱特质的重要参照",
+      "importance": "high"
+    },
+    {
+      "name": "夏尔·包法利",
+      "type": "person",
+      "context": "爱玛的丈夫，被主播定义为'beta男'和'接盘侠'，代表认知懦弱和逃避现实的男性",
+      "importance": "high"
+    },
+    {
+      "name": "罗多夫",
+      "type": "person",
+      "context": "爱玛的第一个情人，被定义为'alpha男'，代表不愿为多情负责的懦弱",
+      "importance": "high"
+    },
+    {
+      "name": "莱昂",
+      "type": "person",
+      "context": "爱玛的第二个情人，文艺青年，被多次用'胆小怕事'形容，代表缺乏主心骨的懦弱",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "其《尼各马可伦理学》被引用，讨论勇敢作为基础美德的理论",
+      "importance": "high"
+    },
+    {
+      "name": "唐璜",
+      "type": "person",
+      "context": "文学形象，与罗多夫对比，代表愿意为多情下地狱的勇敢，与罗多夫的懦弱形成对照",
+      "importance": "high"
+    },
+    {
+      "name": "莫扎特",
+      "type": "person",
+      "context": "歌剧《唐璜》的作曲者，其音乐被用作播客结尾",
+      "importance": "medium"
+    },
+    {
+      "name": "波伏娃",
+      "type": "person",
+      "context": "其《第二性》被提及，讨论性解放与女性权益的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "其'末人'(last man)概念被引用，形容莱昂式的懦弱现代人",
+      "importance": "medium"
+    },
+    {
+      "name": "《包法利夫人》",
+      "type": "work",
+      "context": "福楼拜的小说，本集播客的核心分析文本",
+      "importance": "high"
+    },
+    {
+      "name": "《尼各马可伦理学》",
+      "type": "work",
+      "context": "亚里士多德的伦理学著作，被用来论述勇敢的基础性地位",
+      "importance": "high"
+    },
+    {
+      "name": "《唐璜》",
+      "type": "work",
+      "context": "莫扎特的歌剧，作为勇敢多情的对照形象",
+      "importance": "high"
+    },
+    {
+      "name": "《第二性》",
+      "type": "work",
+      "context": "波伏娃的女性主义著作，被用来讨论性解放议题",
+      "importance": "medium"
+    },
+    {
+      "name": "《鲁滨逊漂流记》",
+      "type": "work",
+      "context": "被用来类比莱昂和爱玛偷情时的孤立幻想",
+      "importance": "medium"
+    },
+    {
+      "name": "《红与黑》",
+      "type": "work",
+      "context": "司汤达的小说，被用来类比文艺青年的爱情观",
+      "importance": "low"
+    },
+    {
+      "name": "勇敢",
+      "type": "concept",
+      "context": "亚里士多德美德伦理学中的基础美德，与懦弱形成对立",
+      "importance": "high"
+    },
+    {
+      "name": "懦弱/懦夫",
+      "type": "concept",
+      "context": "本集播客的核心批判概念，用以形容三种男性角色的根本缺陷",
+      "importance": "high"
+    },
+    {
+      "name": "Alpha男",
+      "type": "concept",
+      "context": "当代网络用语，指罗多夫式的多情但不负责任的男性",
+      "importance": "high"
+    },
+    {
+      "name": "Beta男",
+      "type": "concept",
+      "context": "当代网络用语，指包法利先生式的逃避现实、接盘侠男性",
+      "importance": "high"
+    },
+    {
+      "name": "末人",
+      "type": "concept",
+      "context": "尼采哲学概念，指莱昂式的缺乏激情和责任感的现代人",
+      "importance": "medium"
+    },
+    {
+      "name": "接盘侠",
+      "type": "concept",
+      "context": "当代网络用语，形容包法利先生被妻子背叛仍不承认的状态",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67afad3805a90dfd0d8b8f40",
+  "title": "183-现代男人咋这么多没骨气的懦夫？《包法利夫人》5"
+}
