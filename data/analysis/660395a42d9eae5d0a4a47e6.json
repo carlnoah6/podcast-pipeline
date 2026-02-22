@@ -1,0 +1,188 @@
+{
+  "style": {
+    "opening_pattern": "以规范性假设引入，先提出自己对大学教育的基本立场和前提假设",
+    "structure": "问题提出→甘阳讲座引入→中美对比框架→老乡哥案例→保姆哥案例→成绩通胀分析→海特著作分析→结尾开放式提问",
+    "tone": "理性客观中带有个体经验色彩，学术性与个人叙事交织",
+    "catchphrases": [
+      "我的规范性假设",
+      "从我的视角",
+      "从我的偏见",
+      "老乡哥",
+      "保姆哥",
+      "卷绩点",
+      "鸡娃",
+      "未老先衰",
+      "Gentleman C",
+      "心灵的封闭"
+    ],
+    "closing_pattern": "开放式提问，邀请听众思考中美大学困境哪个更容易改善",
+    "narrative_techniques": [
+      "类比（中国大学高中化vs美国大学小学化）",
+      "举例（老乡哥、保姆哥的个人经历）",
+      "对比（中美成绩通胀的不同后果）",
+      "引用（甘阳、海特的著作和观点）",
+      "反问（质疑自由时间分配的公平性）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "甘阳",
+      "type": "person",
+      "context": "清华大学新雅书院教授，在复旦大学通识教育中心讲座《大学应否以及能否克制内卷化》，主张减少课程数量、给予学生更多自由时间",
+      "importance": "high"
+    },
+    {
+      "name": "老乡哥",
+      "type": "person",
+      "context": "播客主讲人的博士同学，农村留守儿童出身，10年前在北京读本科，回忆当时大学氛围相对自由多元，绩点不是唯一标准",
+      "importance": "high"
+    },
+    {
+      "name": "保姆哥",
+      "type": "person",
+      "context": "播客主讲人的同事兼同学，北大本科毕业时任年级第一，观察到北大从2012-2017年开始逐渐内卷化，本科生花越来越多时间在学业上",
+      "importance": "high"
+    },
+    {
+      "name": "Jonathan Haidt（乔纳森·海特）",
+      "type": "person",
+      "context": "芝加哥大学心理学教授，中间派学者，著有《The Coddling of the American Mind》，分析美国大学生变得敏感脆弱的原因",
+      "importance": "high"
+    },
+    {
+      "name": "洪堡",
+      "type": "person",
+      "context": "19世纪德国教育家，代表自由主义传统，认为大学应让青年变成思想独立的人",
+      "importance": "medium"
+    },
+    {
+      "name": "马基雅维利",
+      "type": "person",
+      "context": "老乡哥提及的古人，表示想通过阅读与古人对话，追求思想自由",
+      "importance": "low"
+    },
+    {
+      "name": "密尔",
+      "type": "person",
+      "context": "其观点被Haidt引用，认为真理越辩越明，不同观点相互抵抗挑战才能避免偏激狭隘",
+      "importance": "medium"
+    },
+    {
+      "name": "《大学应否以及能否克制内卷化》",
+      "type": "work",
+      "context": "甘阳教授在复旦大学通识教育中心的讲座，发表于澎湃思想市场公众号",
+      "importance": "high"
+    },
+    {
+      "name": "《The Coddling of the American Mind》（美国心灵的溺爱/被宠坏的美国心灵）",
+      "type": "work",
+      "context": "Jonathan Haidt 2018年的著作，分析95后年轻人变成思想极端巨婴的原因",
+      "importance": "high"
+    },
+    {
+      "name": "《中国科学报》",
+      "type": "work",
+      "context": "2023年高考后发表文章探讨大学高中化问题，提供高中生和大学生学习时间数据",
+      "importance": "medium"
+    },
+    {
+      "name": "新雅书院",
+      "type": "organization",
+      "context": "清华大学的博雅教育体制，最接近美国文理学院模式，选专业不受限制、学科交叉",
+      "importance": "medium"
+    },
+    {
+      "name": "元培学院",
+      "type": "organization",
+      "context": "北大的博雅教育体制，与新雅书院类似",
+      "importance": "medium"
+    },
+    {
+      "name": "LSU（路易斯安那州立大学）",
+      "type": "organization",
+      "context": "播客主讲人饭局上遇到的美国政治教授所在的大学",
+      "importance": "low"
+    },
+    {
+      "name": "哈佛",
+      "type": "organization",
+      "context": "美国顶尖大学，现在平均绩点3.8，70年代存在Gentleman C现象",
+      "importance": "medium"
+    },
+    {
+      "name": "耶鲁",
+      "type": "organization",
+      "context": "美国顶尖大学，现在平均绩点3.7",
+      "importance": "low"
+    },
+    {
+      "name": "大学高中化",
+      "type": "concept",
+      "context": "中国大学的现象，本科生课程过多、被动学习、自主性不足、为保研疯狂卷绩点",
+      "importance": "high"
+    },
+    {
+      "name": "大学小学化",
+      "type": "concept",
+      "context": "美国大学的现象，成绩通胀严重、学生被过度保护、对冒犯性观点敏感脆弱、像小孩过家家",
+      "importance": "high"
+    },
+    {
+      "name": "Gentleman C",
+      "type": "concept",
+      "context": "60年代美国顶尖大学给贵族子弟的面子成绩，现在演变为Gentleman A/A-",
+      "importance": "medium"
+    },
+    {
+      "name": "成绩通胀",
+      "type": "concept",
+      "context": "中美大学都出现的现象，但导致相反结果：美国学业变轻松，中国学业变难",
+      "importance": "high"
+    },
+    {
+      "name": "安全地带（Safe Zone）",
+      "type": "concept",
+      "context": "美国学生要求建立的校园空间，体现对言语冒犯的过度敏感",
+      "importance": "medium"
+    },
+    {
+      "name": "Trigger Warning",
+      "type": "concept",
+      "context": "美国学生要求的触发警告，在发表冒犯言论前必须警告学生",
+      "importance": "medium"
+    },
+    {
+      "name": "微暴力",
+      "type": "concept",
+      "context": "美国学生反对的概念，将轻微言语冒犯视为暴力",
+      "importance": "medium"
+    },
+    {
+      "name": "精细育儿",
+      "type": "concept",
+      "context": "Haidt分析的美国家庭教育变化，导致一代失败者",
+      "importance": "medium"
+    },
+    {
+      "name": "自由教育/博雅教育",
+      "type": "concept",
+      "context": "老乡哥追求的大学教育目的，认为教育使人自由，是大学与技校的区别",
+      "importance": "high"
+    },
+    {
+      "name": "保研",
+      "type": "concept",
+      "context": "中国大学保研制度，10年前绩点占80%科研学生活动各占10%，现在绩点成为唯一指标",
+      "importance": "high"
+    },
+    {
+      "name": "圆明园、颐和园、北海、香山",
+      "type": "place",
+      "context": "甘阳关心学生是否离开清华园去这些地方逛一逛，体现对学生全面成长的关注",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "660395a42d9eae5d0a4a47e6",
+  "title": "41-精英大学为什么变得越来越高中化？"
+}

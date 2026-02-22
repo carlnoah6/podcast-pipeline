@@ -1,0 +1,158 @@
+{
+  "style": {
+    "opening_pattern": "以朋友（杨医生）的职业经历引入，结合中国青少年心理问题的统计数据建立现实关切",
+    "structure": "个人观察→核心研究介绍（海特教授新书）→四种危害逐层分析（社会性剥夺、睡眠不足、注意力分散、成瘾）→反驳与补充（其他因素、阶级差异、对立观点）→悲观结论",
+    "tone": "理性客观中带有个体焦虑，学术引用与个人经验交织，结尾转向深沉无力",
+    "catchphrases": [
+      "咱就是说",
+      "平心而论",
+      "彻头彻尾",
+      "病毒式的传播",
+      "意识上的根本转变",
+      "重新布线",
+      "FOMO（Fear of missing out）",
+      "关系性暴力",
+      "数字鸿沟",
+      "有益的假象"
+    ],
+    "closing_pattern": "引用托克维尔《论美国的民主》序言中的大河比喻，表达无法阻挡技术潮流的悲观态度，以个人无力感收束",
+    "narrative_techniques": [
+      "数据引用增强说服力",
+      "个人回忆穿插（初中用翻盖手机、与男生打架道歉）",
+      "类比（社交媒体与烟草公司对比、黑猩猩梳理毛发）",
+      "反问引发思考",
+      "对比（中美家长教育差异、贫富家庭数字鸿沟逆转）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "杨医生",
+      "type": "person",
+      "context": "播客主讲人的朋友，从门诊转到研究青少年心理问题的行政岗位，经常向家长和学生科普青少年心理疾病问题",
+      "importance": "medium"
+    },
+    {
+      "name": "复旦大学《中国青年网民社会心态调查报告》（2022年）",
+      "type": "work",
+      "context": "被引用说明中国14-35岁受访者中超半数有焦虑、近三成有抑郁的数据来源",
+      "importance": "medium"
+    },
+    {
+      "name": "中国疾控中心",
+      "type": "organization",
+      "context": "其报告显示2017-2021年青少年自杀现象呈上升态势，年平均增长率17%",
+      "importance": "medium"
+    },
+    {
+      "name": "Jonathan Haidt（乔纳森·海特）",
+      "type": "person",
+      "context": "芝加哥大学心理学家，2024年3月出版新书《焦虑的一代》，提出2010年iPhone 4问世是青少年心理健康转折点",
+      "importance": "high"
+    },
+    {
+      "name": "《焦虑的一代：童年的重构是如何导致精神疾病在美国泛滥》（The Anxious Generation: How the Great Rewiring of Childhood is Causing an Epidemic of Mental Illness）",
+      "type": "work",
+      "context": "海特教授2024年3月26日出版的新书，播客核心分析对象，提出智能手机重塑童年导致精神疾病泛滥",
+      "importance": "high"
+    },
+    {
+      "name": "iPhone 4",
+      "type": "other",
+      "context": "海特认为2010年问世的iPhone 4是革命性产品，因首次配置前置摄像头，使青少年开始把目光投向自己，成为心理健康转折点",
+      "importance": "high"
+    },
+    {
+      "name": "App Store（苹果商店）",
+      "type": "other",
+      "context": "2009年出现，与iPhone 4、点赞转发功能等共同构成2010年前后改变青少年童年的技术创新",
+      "importance": "medium"
+    },
+    {
+      "name": "Facebook（脸书）",
+      "type": "organization",
+      "context": "2009年推出点赞功能，与推特转发功能一起使社交媒体从社交网络变成病毒式传播",
+      "importance": "medium"
+    },
+    {
+      "name": "Twitter（推特）",
+      "type": "organization",
+      "context": "2009年推出转发功能，促成社交媒体的病毒式传播转变",
+      "importance": "low"
+    },
+    {
+      "name": "Instagram",
+      "type": "organization",
+      "context": "被提及为美国青少年高强度使用的社交媒体之一",
+      "importance": "low"
+    },
+    {
+      "name": "Snapchat",
+      "type": "organization",
+      "context": "被提及为美国青少年高强度使用的社交媒体之一",
+      "importance": "low"
+    },
+    {
+      "name": "前额叶皮层（frontal cortex）",
+      "type": "concept",
+      "context": "人类做决定和执行能力的所在地，青春期尚未成熟，易受社交媒体无限诱惑影响",
+      "importance": "medium"
+    },
+    {
+      "name": "FOMO（Fear of missing out，错失恐惧）",
+      "type": "concept",
+      "context": "美国流行语，指青少年因担心错过同学间的最新话题和潮流而被迫持续上网的焦虑",
+      "importance": "medium"
+    },
+    {
+      "name": "完美主义心态",
+      "type": "concept",
+      "context": "女孩比男孩更易受其影响，认为一切必须完美，否则感到惶恐，与社交媒体使用时间关联更大",
+      "importance": "medium"
+    },
+    {
+      "name": "关系性暴力（relational aggression）",
+      "type": "concept",
+      "context": "女孩群体间的统治方式，通过损害名誉、人际关系、排外来实现，社交媒体使其更简便普遍",
+      "importance": "medium"
+    },
+    {
+      "name": "马克·扎克伯格（Mark Zuckerberg）",
+      "type": "person",
+      "context": "脸书创始人，2021年3月在美国国会出示Frances Haugen的调查，声称Facebook对三分之二青少年心理健康有益",
+      "importance": "medium"
+    },
+    {
+      "name": "Frances Haugen",
+      "type": "person",
+      "context": "受Facebook委托进行调查研究的人，其调查被扎克伯格用于国会辩护，但被海特批评",
+      "importance": "low"
+    },
+    {
+      "name": "Abigail Shrier",
+      "type": "person",
+      "context": "美国社会心理学家，对海特理论提出反驳，指出2016年2-8岁儿童中六分之一确诊心理疾病，该年龄段无智能手机",
+      "importance": "medium"
+    },
+    {
+      "name": "iPad（平板电脑）",
+      "type": "other",
+      "context": "被海特认为是入侵11岁以下儿童的智能设备，改变育儿体验，使幼儿大脑神经元被重新连接",
+      "importance": "medium"
+    },
+    {
+      "name": "托克维尔（Tocqueville）",
+      "type": "person",
+      "context": "法国思想家，其1830年《论美国的民主》序言中的大河比喻被播客主讲人引用，表达无法阻止技术潮流的悲观心态",
+      "importance": "medium"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "托克维尔1830年出版著作，其序言中的大河比喻被用于结尾表达无力感",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "660b176f1519139e4f03f4f3",
+  "title": "44-智能手机如何影响青少年心理健康？"
+}

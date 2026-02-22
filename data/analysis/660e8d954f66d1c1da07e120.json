@@ -1,0 +1,206 @@
+{
+  "style": {
+    "opening_pattern": "以系列播客回顾引入，建立话题连续性后提出新视角",
+    "structure": "现象描述→历史演变（内卷-躺平-发疯）→引入核心问题→跨文化对比分析（中美童年教育）→理论支撑→数据论证→回应质疑→哲学式结尾",
+    "tone": "理性思辨、略带悲观、学术化但口语化表达",
+    "catchphrases": [
+      "我觉得",
+      "比如说",
+      "那",
+      "扯到这里",
+      "话说回",
+      "当然我这里的意思仍然是",
+      "就像我们知道",
+      "说到这里我想要",
+      "OK今天就说到这里"
+    ],
+    "closing_pattern": "引用名言并反驳，提出个人哲学立场，开放式收尾",
+    "narrative_techniques": [
+      "类比（树木与温室、免疫系统与心理韧性）",
+      "对比（中美教育趋势、不同代际年轻人）",
+      "举例（小表弟玩游戏、杨医生让孩子买酱油）",
+      "数据引用",
+      "反问",
+      "专家引述"
+    ]
+  },
+  "entities": [
+    {
+      "name": "杨医生",
+      "type": "person",
+      "context": "70年出生的儿科医生，有30多年临床经验，近年专注青少年心理健康，为播客提供规培生管理观察视角",
+      "importance": "high"
+    },
+    {
+      "name": "海特教授（Jonathan Haidt）",
+      "type": "person",
+      "context": "美国教育心理学教授，1963年出生，《焦虑的一代》作者，其研究构成播客核心理论支撑",
+      "importance": "high"
+    },
+    {
+      "name": "塔勒布（Nassim Nicholas Taleb）",
+      "type": "person",
+      "context": "提及其作品《反脆弱》，作为欧美学者关注年轻人脆弱性问题的例证",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "在结尾被引用并反驳其'改变世界'的哲学立场，用于阐述播主自己的观察优先方法论",
+      "importance": "medium"
+    },
+    {
+      "name": "费尔巴哈",
+      "type": "person",
+      "context": "被间接提及，通过马克思《关于费尔巴哈的提纲》中的名言引出哲学讨论",
+      "importance": "low"
+    },
+    {
+      "name": "面包星球的依依妈妈",
+      "type": "person",
+      "context": "上一期播客的评论者，其关于小贩妈妈无暇顾及孩子的观察被引用",
+      "importance": "low"
+    },
+    {
+      "name": "《浅谈清华学风以及课程内卷》",
+      "type": "work",
+      "context": "2019年11月1日清华本科生发表的文章，'内卷'一词流行的起点，文中用'养蛊'比喻竞争体制",
+      "importance": "high"
+    },
+    {
+      "name": "《反脆弱》（Antifragile）",
+      "type": "work",
+      "context": "塔勒布著作，作为十年前欧美学者关注年轻人脆弱性的代表性书籍被提及",
+      "importance": "medium"
+    },
+    {
+      "name": "《坚毅》（Grit）",
+      "type": "work",
+      "context": "欧美畅销书，反映西方成年人对年轻一代缺乏韧性品质的担忧",
+      "importance": "medium"
+    },
+    {
+      "name": "《焦虑的一代》（The Anxious Generation）",
+      "type": "work",
+      "context": "海特教授的著作，播客核心参考文献，提供大量数据图表支持自由玩耍缺失与心理问题的关联",
+      "importance": "high"
+    },
+    {
+      "name": "《关于费尔巴哈的提纲》",
+      "type": "work",
+      "context": "马克思著作，播主引用其中'哲学家只是解释世界，问题在于改变世界'的名言进行反驳",
+      "importance": "medium"
+    },
+    {
+      "name": "内卷",
+      "type": "concept",
+      "context": "从清华文章起源的概念，描述2019年前年轻人焦虑竞争的精神状态，被视为带有微弱希望的反抗",
+      "importance": "high"
+    },
+    {
+      "name": "躺平",
+      "type": "concept",
+      "context": "疫情中年轻人的精神状态，代表希望缩小到不值得努力时的消极反抗",
+      "importance": "high"
+    },
+    {
+      "name": "发疯",
+      "type": "concept",
+      "context": "疫情封控结束后年轻人的精神状态，代表放弃理智逻辑参与体系的自由诉求表达",
+      "importance": "high"
+    },
+    {
+      "name": "自由玩耍（free play）",
+      "type": "concept",
+      "context": "播客核心论点，指无成人监督的街头/社区玩耍，被认为是培养社会性、抗压能力和韧性的关键",
+      "importance": "high"
+    },
+    {
+      "name": "主体性",
+      "type": "concept",
+      "context": "播主认为内卷、躺平、发疯虽负面但都体现的主体反抗意识，与当下死气沉沉形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "规培生",
+      "type": "concept",
+      "context": "医学院毕业后接受临床训练的住院医生，工资较低，杨医生观察到这一代规培生越来越脆弱",
+      "importance": "medium"
+    },
+    {
+      "name": "00后整顿职场",
+      "type": "concept",
+      "context": "网络流行说法，播主用以解释年轻人不再忍受使唤的现象，但杨医生认为实际是缺乏劳动纪律",
+      "importance": "medium"
+    },
+    {
+      "name": "无菌环境假说/免疫疾病类比",
+      "type": "concept",
+      "context": "海特教授提出的理论，将过度保护导致的心理问题类比为免疫系统疾病",
+      "importance": "high"
+    },
+    {
+      "name": "清华大学",
+      "type": "organization",
+      "context": "2019年内卷文章的发源地，与麻省理工对比揭示中国本科教学负担过重",
+      "importance": "medium"
+    },
+    {
+      "name": "麻省理工学院（MIT）",
+      "type": "organization",
+      "context": "被清华学生拿来对比，计算机专业课程量更少，作为中国大学'养蛊'教育的参照",
+      "importance": "low"
+    },
+    {
+      "name": "广电总局",
+      "type": "organization",
+      "context": "2004年左右开始审核电视节目，终结了千禧年前后尺度极大的猎奇犯罪节目时代",
+      "importance": "low"
+    },
+    {
+      "name": "独生子女政策",
+      "type": "event",
+      "context": "1979年开始的中国政策，与美国家庭自然减少生育数量同步，导致精细化育儿和注意力集中",
+      "importance": "high"
+    },
+    {
+      "name": "改革开放",
+      "type": "event",
+      "context": "作为独生子女政策实施的时代背景被提及",
+      "importance": "low"
+    },
+    {
+      "name": "2019年",
+      "type": "event",
+      "context": "内卷概念流行起点，疫情前焦虑情绪的代表年份",
+      "importance": "medium"
+    },
+    {
+      "name": "疫情/新冠疫情",
+      "type": "event",
+      "context": "划分年轻人精神状态三阶段的关键时间节点（前-中-后），大环境恶化的核心事件",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "与中国并列的主要分析对象，两国童年教育趋势高度相似，提供对比数据和理论来源",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "播主主要关怀的对象，年轻人失去失败勇气的具体语境",
+      "importance": "high"
+    },
+    {
+      "name": "杭州",
+      "type": "place",
+      "context": "播主初中所在地，取消双休日从实验班扩展到全体学生的教育改革见证地",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "660e8d954f66d1c1da07e120",
+  "title": "45-年轻人为什么失去了失败的勇气？"
+}

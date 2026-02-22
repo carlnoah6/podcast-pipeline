@@ -1,0 +1,267 @@
+{
+  "style": {
+    "opening_pattern": "以播客创作背景和个人状态引入，说明选题缘由（互联网流行词现象），建立与听众的亲近感",
+    "structure": "个人创作立场声明→互联网用法调查→韦伯原典解读→哲学概念展开（尼采、柏拉图、托尔斯泰）→现实观察（美国/中国）→个人反驳与升华→音乐结尾",
+    "tone": "理性客观中带有个人温度，学术严谨但不失生活化表达，批判性思考与自我反思并存",
+    "catchphrases": [
+      "重新发明轮子",
+      "走一步算一步",
+      "如梦初醒",
+      "广袤无垠的沙漠",
+      "Who knows",
+      "OK",
+      "对吧",
+      "我觉得",
+      "这个现象",
+      "我的观察"
+    ],
+    "closing_pattern": "以个人经历故事+音乐分享作结，将抽象哲学概念转化为感性体验，形成情感升华",
+    "narrative_techniques": [
+      "类比（洞穴隐喻与现代生活对比）",
+      "举例（大量网络帖子、个人经历）",
+      "反问（Why truth? Why life?）",
+      "对比（启蒙积极描述vs韦伯消极描述）",
+      "引用（韦伯、尼采、柏拉图、托尔斯泰、席勒）",
+      "归谬（完全祛魅世界的反人性后果）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "马克斯·韦伯（Max Weber）",
+      "type": "person",
+      "context": "德国社会学家、政治学家、经济学家、哲学家、历史学家，1917年提出'世界的祛魅'概念，本集核心分析对象",
+      "importance": "high"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "韦伯思想上的先驱，提出'上帝已死'，韦伯的祛魅概念被视为对其诊断的延伸",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "其《理想国》中的洞穴隐喻被韦伯重新解读，用以对比古希腊科学与现代科学的差异",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "作为柏拉图笔下的角色，其关于洞穴隐喻的论述被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "席勒（Friedrich Schiller）",
+      "type": "person",
+      "context": "德国诗人，其诗作《希腊之神》中的'die entgötterte Natur'（去神化的自然）被认为是韦伯术语的来源",
+      "importance": "medium"
+    },
+    {
+      "name": "托尔斯泰",
+      "type": "person",
+      "context": "被韦伯引用，认为科学无法回答'我们应该如何生活'这一最重要问题",
+      "importance": "medium"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "作为启蒙时代哲学家的代表，其对启蒙的积极理解与韦伯形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "卡尔（主播前夫）",
+      "type": "person",
+      "context": "其父母为福音派教徒，母亲反对疫苗的个人经历被用来说明美国社会的信仰现象",
+      "importance": "low"
+    },
+    {
+      "name": "小木敦老师的前夫",
+      "type": "person",
+      "context": "网络帖子中提到的人物，被用来说明'对高学历白男祛魅'的互联网用法",
+      "importance": "low"
+    },
+    {
+      "name": "晚晚",
+      "type": "person",
+      "context": "网络红人，被用来说明'艺术在大众眼中已经祛魅'的现象",
+      "importance": "low"
+    },
+    {
+      "name": "《学术作为一种志业》（Wissenschaft als Beruf）",
+      "type": "work",
+      "context": "韦伯1917年的学术演讲，'世界的祛魅'概念的出处，冯克利译有中文版",
+      "importance": "high"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "托克维尔的著作，主播提及正在备课讲授此书与2024美国大选的关系",
+      "importance": "low"
+    },
+    {
+      "name": "《红与黑》",
+      "type": "work",
+      "context": "司汤达的文学作品，主播提及作为休闲阅读选择",
+      "importance": "low"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图的哲学著作，其中的洞穴隐喻是本集重要分析文本",
+      "importance": "high"
+    },
+    {
+      "name": "《希腊之神》",
+      "type": "work",
+      "context": "席勒的诗作，被认为是韦伯'祛魅'术语的词源",
+      "importance": "medium"
+    },
+    {
+      "name": "《赋格的艺术》（Die Kunst der Fuge）",
+      "type": "work",
+      "context": "巴赫的音乐作品，主播在结尾分享，作为'触摸神的脸庞'的感性体验",
+      "importance": "medium"
+    },
+    {
+      "name": "祛魅（Entzauberung/Disenchantment）",
+      "type": "concept",
+      "context": "本集核心概念，韦伯用以描述现代性进程中世界失去魔力、魔法消除的过程",
+      "importance": "high"
+    },
+    {
+      "name": "世界的祛魅（Entzauberung der Welt/Disenchantment of the world）",
+      "type": "concept",
+      "context": "韦伯对现代性状况的诊断，指科学理性化导致超验世界被摧毁、终极价值从公共生活消失",
+      "importance": "high"
+    },
+    {
+      "name": "重新发明轮子（reinventing the wheel）",
+      "type": "concept",
+      "context": "英文谚语，主播用以批评互联网上大多数新词只是用新术语描述旧现象",
+      "importance": "medium"
+    },
+    {
+      "name": "启蒙（Enlightenment/Aufklärung）",
+      "type": "concept",
+      "context": "18世纪思想运动，韦伯对其态度从积极转为审慎，是理解祛魅概念的重要背景",
+      "importance": "high"
+    },
+    {
+      "name": "理性化（rationalized）/理智化（intellectualized）",
+      "type": "concept",
+      "context": "韦伯描述现代性特征的核心术语，与祛魅过程紧密相关",
+      "importance": "high"
+    },
+    {
+      "name": "后现代主义",
+      "type": "concept",
+      "context": "韦伯之后发展的哲学思潮，试图在价值虚无后建构新的价值体系",
+      "importance": "medium"
+    },
+    {
+      "name": "重新魅惑（re-enchantment）",
+      "type": "concept",
+      "context": "20世纪80年代以来西方社会对超越性和灵性的新兴趣，作为祛魅的反动",
+      "importance": "high"
+    },
+    {
+      "name": "洞穴隐喻",
+      "type": "concept",
+      "context": "柏拉图《理想国》中的著名寓言，被韦伯重新解读以说明古今科学观的差异",
+      "importance": "high"
+    },
+    {
+      "name": "Omakase",
+      "type": "concept",
+      "context": "日式料理形式，网络帖子中用以说明'祛魅'的互联网用法——发现其并非高贵神秘",
+      "importance": "low"
+    },
+    {
+      "name": "仪式感/ritual",
+      "type": "concept",
+      "context": "主播提出的核心矛盾：现代人一边祛魅一边渴望仪式，说明完全祛魅的反人性",
+      "importance": "high"
+    },
+    {
+      "name": "天命",
+      "type": "concept",
+      "context": "儒家思想中的超验概念，作为被现代科学理性摧毁的神秘空间之例",
+      "importance": "medium"
+    },
+    {
+      "name": "daimon",
+      "type": "concept",
+      "context": "柏拉图思想中的概念，作为被现代科学理性摧毁的神秘空间之例",
+      "importance": "low"
+    },
+    {
+      "name": "上帝已死",
+      "type": "concept",
+      "context": "尼采的著名论断，韦伯的祛魅概念被视为对此的直接回应和延伸",
+      "importance": "high"
+    },
+    {
+      "name": "事实与价值（fact and value）",
+      "type": "concept",
+      "context": "韦伯指出现代科学只讲事实不讲价值，无法解释自身存在的意义",
+      "importance": "high"
+    },
+    {
+      "name": "2024年美国大选",
+      "type": "event",
+      "context": "主播提及正在备课讲授的内容，与托克维尔研究相关",
+      "importance": "low"
+    },
+    {
+      "name": "新冠疫情",
+      "type": "event",
+      "context": "被用来说明美国社会阴谋论盛行、拒绝科学的现象",
+      "importance": "medium"
+    },
+    {
+      "name": "启蒙时代/启蒙运动",
+      "type": "event",
+      "context": "18世纪欧洲思想运动，韦伯站在其终点反思其后果",
+      "importance": "high"
+    },
+    {
+      "name": "东京",
+      "type": "place",
+      "context": "网络帖子中的地点，用以说明Omakase祛魅的例子",
+      "importance": "low"
+    },
+    {
+      "name": "牛津",
+      "type": "place",
+      "context": "网络帖子中的地点，'上了牛津之后我对名校祛魅了'",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "主播长期生活的国家，用以观察祛魅与重新魅惑的双重现象",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "主播成长的国家，观察到信仰缺失与玄学兴起的并行现象",
+      "importance": "high"
+    },
+    {
+      "name": "福音派教会/Mega Church",
+      "type": "organization",
+      "context": "美国南部快速发展的宗教组织形式，作为重新魅惑现象的体现",
+      "importance": "medium"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "主播所属或合作的播客栏目，开场时请求支持",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6605cd7a2d9eae5d0ab0c264",
+  "title": "42-对世界祛魅是长大成熟的体现吗"
+}

@@ -1,0 +1,358 @@
+{
+  "style": {
+    "opening_pattern": "以核心矛盾直接引入——开篇即点明'左派右派都十分嫌弃自由主义'这一反常现象，制造认知冲突",
+    "structure": "问题提出→历史脉络梳理→左派批评分析→右派批评三分法（民粹主义/天主教/极右）→个人经历穿插→结论升华",
+    "tone": "理性客观中带个人温度，学术分析与播客口语化表达结合，频繁使用第一人称叙述个人经历和对话场景",
+    "catchphrases": [
+      "腹背受敌",
+      "无家可归",
+      "heimat",
+      "建立在感情基础上的攻击",
+      "他们不是傻子",
+      "自由主义的孩子",
+      "恰恰是因为他太成功了",
+      "话说到这里",
+      "OK让我们",
+      "哎我们下期再见吧"
+    ],
+    "closing_pattern": "引用核心观点进行哲学升华——以Deneen的'自由主义失败是因为太成功'收束，指出所有批评者都是'自由主义的孩子'",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "举例",
+      "反问",
+      "个人经历叙事",
+      "对话场景还原",
+      "概念分层拆解"
+    ]
+  },
+  "entities": [
+    {
+      "name": "约翰·洛克",
+      "type": "person",
+      "context": "被部分学者认为是'自由主义之父'的17世纪英国哲学家，与霍布斯并列讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "被部分学者认为是'自由主义之父'的17世纪英国哲学家，比洛克稍早",
+      "importance": "medium"
+    },
+    {
+      "name": "哈耶克",
+      "type": "person",
+      "context": "古典自由主义的代表人物，主播曾专门做过一期节目介绍其思想",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "2016年当选美国总统，标志着美国右派从拥护自由主义转向批评自由主义的转折点",
+      "importance": "high"
+    },
+    {
+      "name": "里根",
+      "type": "person",
+      "context": "被古典自由主义者怀念的共和党总统时期，被视为他们的'家'的时代",
+      "importance": "medium"
+    },
+    {
+      "name": "Ibram X. Kendi",
+      "type": "person",
+      "context": "美国左派最有影响力的作家之一，著有《How to be an anti-racist》，将反种族主义比作对抗癌症",
+      "importance": "high"
+    },
+    {
+      "name": "Patrick Deneen",
+      "type": "person",
+      "context": "圣母大学政治哲学教授，2018年出版《Why Liberalism Failed》，成为美国右翼民粹主义运动的领头人之一",
+      "importance": "high"
+    },
+    {
+      "name": "Adrian Vermeule",
+      "type": "person",
+      "context": "哈佛法学院教授，美国反自由主义天主教徒中的知识分子名人，integralism（一体化）运动的代表人物",
+      "importance": "high"
+    },
+    {
+      "name": "Costin Vlad Alamariu/Bronze Age Pervert(BAP)",
+      "type": "person",
+      "context": "耶鲁政治理论系博士，网名'青铜时代变态'，2018年出版《Bronze Age Mindset》，极端右派网红",
+      "importance": "high"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "BAP的博士论文研究对象，其思想被极端右派人士广泛援引作为精神资源",
+      "importance": "medium"
+    },
+    {
+      "name": "Viktor Orbán",
+      "type": "person",
+      "context": "匈牙利民粹主义领导人，Deneen曾去拜访他",
+      "importance": "low"
+    },
+    {
+      "name": "Andrew Tate",
+      "type": "person",
+      "context": "男权主义者，对自由主义有批评但被认为缺乏深刻思想",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "古代政治哲学家代表，其'政府目的是让公民获得美德'的观点与现代自由主义形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "认为阶级是最基础政治单位，其理论被美国当代左派用种族替代阶级进行改造",
+      "importance": "high"
+    },
+    {
+      "name": "亚当·斯密",
+      "type": "person",
+      "context": "被天主教徒朋友深刻批评的自由主义传统代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "主播计划在第50期付费单集中讲解其《论美国的民主》",
+      "importance": "low"
+    },
+    {
+      "name": "How to be an anti-racist(《如何成为一个反种族主义者》)",
+      "type": "work",
+      "context": "Ibram X. Kendi的著作，美国左派过去几年最有影响力的书之一",
+      "importance": "high"
+    },
+    {
+      "name": "Why Liberalism Failed(《自由主义为什么会失败》)",
+      "type": "work",
+      "context": "Patrick Deneen 2018年出版的著作，成为美国右翼民粹主义的重要理论基础",
+      "importance": "high"
+    },
+    {
+      "name": "Second Class: How the Elites Betrayed America's Working Men and Women",
+      "type": "work",
+      "context": "2024年4月2日出版的书，描绘美国主流媒体，提到94%媒体人政治左倾",
+      "importance": "medium"
+    },
+    {
+      "name": "Bronze Age Mindset(《青铜时期的心态》)",
+      "type": "work",
+      "context": "BAP 2018年出版的书，教导男性如何摆脱自由主义腐败获得'青铜时期心态'",
+      "importance": "high"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "托克维尔的著作，主播考虑在第50期付费单集中讲解",
+      "importance": "low"
+    },
+    {
+      "name": "《鲁滨逊漂流记》",
+      "type": "work",
+      "context": "主播考虑在第50期付费单集中讲解的另一本书，认为是一本深刻的哲学小说",
+      "importance": "low"
+    },
+    {
+      "name": "荷马史诗",
+      "type": "work",
+      "context": "BAP崇尚的古典教育内容，认为真正的男人要模仿其中的英雄心态",
+      "importance": "low"
+    },
+    {
+      "name": "自由主义",
+      "type": "concept",
+      "context": "本期播客的核心分析对象，被定义为'政府存在的意义是保障公民自由'的意识形态，正遭受左右两派夹击",
+      "importance": "high"
+    },
+    {
+      "name": "古典自由主义",
+      "type": "concept",
+      "context": "自由主义的一个分支，在当代美国被左右两派共同嫌弃，主播曾参加相关智库会议",
+      "importance": "high"
+    },
+    {
+      "name": "法兰克福学派",
+      "type": "concept",
+      "context": "美国左派批评自由主义的理论基础来源，有一百多年历史",
+      "importance": "medium"
+    },
+    {
+      "name": "后现代主义",
+      "type": "concept",
+      "context": "启发了美国左派的哲学，认为世界上没有客观真理，一切都是建构的",
+      "importance": "high"
+    },
+    {
+      "name": "批判种族理论(critical race theory)",
+      "type": "concept",
+      "context": "马克思主义批判理论的分支，用种族代替阶级作为最基础政治单位",
+      "importance": "high"
+    },
+    {
+      "name": "后殖民主义",
+      "type": "concept",
+      "context": "美国左派意识形态之一，攻击对象是自由主义",
+      "importance": "medium"
+    },
+    {
+      "name": "新马克思主义",
+      "type": "concept",
+      "context": "美国左派意识形态之一，影响力在大学和媒体界非常大",
+      "importance": "medium"
+    },
+    {
+      "name": "法西斯主义",
+      "type": "concept",
+      "context": "20世纪初席卷欧洲的右翼风潮，属于极端右派对自由主义的批评",
+      "importance": "medium"
+    },
+    {
+      "name": "纳粹主义",
+      "type": "concept",
+      "context": "20世纪初的极端右派思潮，二战后被击败",
+      "importance": "medium"
+    },
+    {
+      "name": "民粹主义",
+      "type": "concept",
+      "context": "2016年以来美国保守派大本营大幅倾向的政治方向，反对自由主义",
+      "importance": "high"
+    },
+    {
+      "name": "integralism(一体化)",
+      "type": "concept",
+      "context": "美国天主教保守派运动，主张神权和政权的一体化，由Adrian Vermeule等人推动",
+      "importance": "high"
+    },
+    {
+      "name": "微侵犯(microaggression)",
+      "type": "concept",
+      "context": "针对有色人种的种族歧视行为，包括言语和行为上无意识的刻板印象、轻视或消极态度",
+      "importance": "medium"
+    },
+    {
+      "name": "社会建构",
+      "type": "concept",
+      "context": "后现代主义核心观点，认为种族、性取向、性别都是社会建构出来的而非自然存在",
+      "importance": "high"
+    },
+    {
+      "name": "末人(last man)",
+      "type": "concept",
+      "context": "尼采的概念，被BAP用来形容自由主义创造出的羸弱、没有理想、追求平等的人",
+      "importance": "medium"
+    },
+    {
+      "name": "平权运动(affirmative action)",
+      "type": "event",
+      "context": "2023年美国最高法院裁定哈佛大学基于种族的招生政策违宪，引发古典马克思主义者与保守派站在一起的奇特现象",
+      "importance": "high"
+    },
+    {
+      "name": "二战",
+      "type": "event",
+      "context": "西方传统右派在二战后经历了约70年对自由主义的拥护时期",
+      "importance": "medium"
+    },
+    {
+      "name": "2016年特朗普当选",
+      "type": "event",
+      "context": "标志着美国右派重新转向批评自由主义的转折点，古典自由主义者感到'无家可归'",
+      "importance": "high"
+    },
+    {
+      "name": "印第安纳州",
+      "type": "place",
+      "context": "主播两三年前参加古典自由主义智库开会的地点",
+      "importance": "low"
+    },
+    {
+      "name": "欧盟",
+      "type": "place",
+      "context": "被Deneen视为自由主义的产物，遭到民粹主义运动的反对",
+      "importance": "medium"
+    },
+    {
+      "name": "匈牙利",
+      "type": "place",
+      "context": "民粹主义领导人Orbán执政的国家，Deneen曾去拜访",
+      "importance": "low"
+    },
+    {
+      "name": "越南",
+      "type": "place",
+      "context": "BAP认为女人的领域应该是去越南，体现其极端男权主义观点",
+      "importance": "low"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "美国保守派/右派的主要政党，2016年后大幅倾向民粹主义反自由主义",
+      "importance": "high"
+    },
+    {
+      "name": "民主党",
+      "type": "organization",
+      "context": "美国左派/进步派的主要政党，其成员批评自由主义的理论基础来自法兰克福学派等",
+      "importance": "high"
+    },
+    {
+      "name": "哈佛大学",
+      "type": "organization",
+      "context": "2023年最高法院裁定其基于种族的招生政策违宪，支持平权运动的左翼主流精英大学代表",
+      "importance": "medium"
+    },
+    {
+      "name": "圣母大学",
+      "type": "organization",
+      "context": "Patrick Deneen任教的大学，他在出版《Why Liberalism Failed》后基本不带博士生",
+      "importance": "low"
+    },
+    {
+      "name": "哈佛法学院",
+      "type": "organization",
+      "context": "Adrian Vermeule任教的机构",
+      "importance": "low"
+    },
+    {
+      "name": "麻省理工",
+      "type": "organization",
+      "context": "BAP本科就读的学校",
+      "importance": "low"
+    },
+    {
+      "name": "哥伦比亚大学",
+      "type": "organization",
+      "context": "BAP硕士就读的学校",
+      "importance": "low"
+    },
+    {
+      "name": "耶鲁大学",
+      "type": "organization",
+      "context": "BAP攻读政治哲学博士的学校，其博士论文写尼采",
+      "importance": "low"
+    },
+    {
+      "name": "古典自由主义智库",
+      "type": "organization",
+      "context": "主播过去四年经常去开会的机构，位于印第安纳州，成员感到在特朗普当选后'无家可归'",
+      "importance": "medium"
+    },
+    {
+      "name": "heimat(德语：家/故土)",
+      "type": "other",
+      "context": "古典自由主义高级研究员使用的德语词，形容他们在共和党中失去归属感的处境",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6610cd68c891c06e7385f5a6",
+  "title": "46-为何当今美国左派右派都嫌弃自由主义？"
+}
