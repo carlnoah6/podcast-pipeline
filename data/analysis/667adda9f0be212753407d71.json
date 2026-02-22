@@ -1,0 +1,263 @@
+{
+  "style": {
+    "opening_pattern": "直接点明主题并降低预期，以闲聊播客、无准备、无营养内容作为开场，建立轻松随意的氛围",
+    "structure": "话题引入→核心概念拆解（态度→找共性→标签化）→个人经验穿插→平台对比→理论升华（三种公共空间）→回应争议→结尾收束",
+    "tone": "坦诚直白、略带自嘲、理性分析中夹杂个人情绪，既有学术训练的严谨又有网络时代的松弛感",
+    "catchphrases": [
+      "你算个什么东西",
+      "咱们得倒着想",
+      "标签化",
+      "服务意识",
+      "有所保留",
+      "脑雾哥",
+      "哗众取宠",
+      "取宠",
+      "众",
+      "假装"
+    ],
+    "closing_pattern": "回归个人价值标准，提出与主题看似无关实则深层的自我衡量体系，以精神世界的活力和深度作结，形成开放式余韵",
+    "narrative_techniques": [
+      "类比",
+      "举例",
+      "自我暴露",
+      "对比",
+      "反问",
+      "层层递进",
+      "引用权威",
+      "歇后语/俗语转化"
+    ]
+  },
+  "entities": [
+    {
+      "name": "刘擎",
+      "type": "person",
+      "context": "被作为知识分子参与公共媒体遭受批评的案例，其《做一个清醒的现代人》中的自我辩护观点被讨论和肯定",
+      "importance": "high"
+    },
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "被引用为反例，说明伟大思想家可以同时拥有商业行为（炒郁金香），其《论法的精神》的永恒价值不受此影响",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "作为学术界守门人制度弊端的典型案例，因《悲剧的诞生》被排挤出欧洲学术界，终身未获同行认可",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "其《政治学》中关于公共空间三种统治模式的理论被用来分析互联网哗众取宠现象",
+      "importance": "medium"
+    },
+    {
+      "name": "哈耶克",
+      "type": "person",
+      "context": "播客第14期主题人物，其政治思想引发极端负面评论，成为讨论知识分子公共发言风险的引子",
+      "importance": "medium"
+    },
+    {
+      "name": "弗里德曼",
+      "type": "person",
+      "context": "与哈耶克一同出现在负面评论中，被攻击为自由空想资本主义乌托邦市场经济理论的代表",
+      "importance": "low"
+    },
+    {
+      "name": "Constant Alomario",
+      "type": "person",
+      "context": "美国极右分子，其著作《哲学和血统的重要性》被作为学术界守门人成功过滤的低劣思想案例",
+      "importance": "low"
+    },
+    {
+      "name": "钱福卡尔",
+      "type": "person",
+      "context": "主播的丈夫，博士生身份与其共同构成小红书早期标签人设的一部分，湖边读黑格尔的场景被反复提及",
+      "importance": "medium"
+    },
+    {
+      "name": "杨医生",
+      "type": "person",
+      "context": "主播的母亲，作为中年女性网民的典型案例，其关注种菜种花账号的行为用来说明标签吸引机制",
+      "importance": "low"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "主播的朋友，运营公众号'政治哲学研究'，既是播客推广者也是讨论知识分子能否哗众取宠的对话引子，其后台评论成为重要素材",
+      "importance": "high"
+    },
+    {
+      "name": "小花同学",
+      "type": "person",
+      "context": "虚构或泛指的上过美国高中的二十几岁年轻女生，用于具体化取悦特定群体的策略",
+      "importance": "low"
+    },
+    {
+      "name": "杜甫",
+      "type": "person",
+      "context": "与李白对举，用于论证评价知识分子的标准应独立于其经济状况",
+      "importance": "low"
+    },
+    {
+      "name": "李白",
+      "type": "person",
+      "context": "与杜甫对举，用于论证评价知识分子的标准应独立于其经济状况",
+      "importance": "low"
+    },
+    {
+      "name": "海德格尔",
+      "type": "person",
+      "context": "其代表作《存在与时间》被主播用来自谦，表示自己没有写出同等水平著作是因为能力不足而非哗众取宠分心",
+      "importance": "low"
+    },
+    {
+      "name": "《论法的精神》",
+      "type": "work",
+      "context": "孟德斯鸠的代表作，被作为永恒经典价值的象征，证明思想家的商业行为不影响其著作分量",
+      "importance": "medium"
+    },
+    {
+      "name": "《悲剧的诞生》",
+      "type": "work",
+      "context": "尼采的第一部真正伟大著作，导致其被古典学界排挤，成为学术界守门人制度弊端的关键例证",
+      "importance": "medium"
+    },
+    {
+      "name": "《政治学》",
+      "type": "work",
+      "context": "亚里士多德的著作，其中关于公共空间三种统治模式的论述构成主播分析互联网结构的理论框架",
+      "importance": "medium"
+    },
+    {
+      "name": "《做一个清醒的现代人》",
+      "type": "work",
+      "context": "刘擎的著作，其中关于知识分子利用新媒体自我辩护的文章被详细讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "《存在与时间》",
+      "type": "work",
+      "context": "海德格尔的代表作，主播用来自我调侃没有同等野心和能力",
+      "importance": "low"
+    },
+    {
+      "name": "《哲学和血统的重要性》",
+      "type": "work",
+      "context": "Constant Alomario的极右著作，被作为学术界成功过滤低劣思想的正面案例",
+      "importance": "low"
+    },
+    {
+      "name": "哗众取宠",
+      "type": "concept",
+      "context": "全文核心概念，被重新定义和分析：从贬义词转化为互联网上获取注意力的必要技术，包含态度、找共性、标签化三个步骤",
+      "importance": "high"
+    },
+    {
+      "name": "标签化",
+      "type": "concept",
+      "context": "哗众取宠的核心技术手段，指将个人真实特质抽象化为公共可识别的符号，是连接个人与众的关键环节",
+      "importance": "high"
+    },
+    {
+      "name": "公共空间",
+      "type": "concept",
+      "context": "借用亚里士多德的政治学概念，分为一人统治、少数人统治（学术界）、所有人统治（互联网）三种模式，是理解不同场域规则差异的框架",
+      "importance": "high"
+    },
+    {
+      "name": "同行评审",
+      "type": "concept",
+      "context": "学术界守门人制度的具体机制，被类比为一种小众化的哗众取宠，需要谄媚已功成名就者以获得认可",
+      "importance": "medium"
+    },
+    {
+      "name": "西方伪史论",
+      "type": "concept",
+      "context": "被作为学术界守门人成功过滤的低劣理论案例，说明少数人统治空间的质量控制功能",
+      "importance": "low"
+    },
+    {
+      "name": "启蒙主义",
+      "type": "concept",
+      "context": "刘擎被描述为比主播更坚定的信仰者，代表对知识分子责任和公共空间可能性的乐观态度",
+      "importance": "medium"
+    },
+    {
+      "name": "全球主义",
+      "type": "concept",
+      "context": "作为二十几岁海外女性的生活方式标签之一，与运动、化妆、追星等并列",
+      "importance": "low"
+    },
+    {
+      "name": "女权主义",
+      "type": "concept",
+      "context": "被作为二十几岁海外女性的普遍政治立场，是取悦该群体可利用的标签资源",
+      "importance": "low"
+    },
+    {
+      "name": "独立女性",
+      "type": "concept",
+      "context": "可被标签化的个人特质选项之一，与向往爱情的娇妻人设形成受众矛盾",
+      "importance": "medium"
+    },
+    {
+      "name": "Vineyard Vines",
+      "type": "other",
+      "context": "美国休闲服装品牌，作为新英格兰地区阶级生活方式的具体标签符号出现",
+      "importance": "low"
+    },
+    {
+      "name": "L.L.Bean",
+      "type": "other",
+      "context": "美国户外用品品牌，与Vineyard Vines共同构成新英格兰阶级生活方式的标签组合",
+      "importance": "low"
+    },
+    {
+      "name": "南塔克特",
+      "type": "place",
+      "context": "美国马萨诸塞州岛屿，富人夏季度假胜地，作为新英格兰生活方式标签的地理符号",
+      "importance": "low"
+    },
+    {
+      "name": "新英格兰",
+      "type": "place",
+      "context": "美国东北部地区，其特定生活方式被作为阶级虚荣心的满足对象",
+      "importance": "low"
+    },
+    {
+      "name": "法国宫廷",
+      "type": "place",
+      "context": "与伦敦大剧院对举，说明同一表演者无法同时取悦截然不同的受众群体",
+      "importance": "low"
+    },
+    {
+      "name": "伦敦大剧院",
+      "type": "place",
+      "context": "与法国宫廷对举，代表工薪阶层的娱乐空间",
+      "importance": "low"
+    },
+    {
+      "name": "小红书",
+      "type": "organization",
+      "context": "主播获得20万关注者的主要平台，是分析标签化运作机制的核心案例来源",
+      "importance": "high"
+    },
+    {
+      "name": "知乎",
+      "type": "organization",
+      "context": "主播十年前拥有6万粉丝的平台，其专业性强化的哗众取宠逻辑与小红书不同",
+      "importance": "medium"
+    },
+    {
+      "name": "政治哲学研究",
+      "type": "organization",
+      "context": "脑雾哥运营的公众号，国内最大的政治哲学学术讯息汇总平台，也是本播客的推广渠道",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "667adda9f0be212753407d71",
+  "title": "78-如何哗众取宠？"
+}

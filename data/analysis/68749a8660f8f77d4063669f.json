@@ -1,0 +1,194 @@
+{
+  "style": {
+    "opening_pattern": "以假设性历史对比引入，通过设想'如果陀思妥耶夫斯基晚出生70年'建立与《正午的黑暗》的关联",
+    "structure": "书籍引入→哲学铺垫（与陀思妥耶夫斯基对比、批判英美反乌托邦小说）→意识形态分析（自由主义与社会主义的共性）→小说情节与人物心理分析→关键场景收束",
+    "tone": "严肃深沉、理性思辨、哲学性强、学术化但带有强烈个人观点",
+    "catchphrases": [
+      "逻辑必然性",
+      "历史必须要前进",
+      "科学必须要发展",
+      "第一人称单数",
+      "结构性批判",
+      "二流批判",
+      "理性万岁",
+      "我们",
+      "真理",
+      "抽象概念"
+    ],
+    "closing_pattern": "在关键场景（博格洛夫被拖去枪决）处戛然而止，形成悬念式/开放式结尾",
+    "narrative_techniques": [
+      "类比（将库斯勒与陀思妥耶夫斯基类比）",
+      "对比（《正午的黑暗》与《1984》/《美丽新世界》对比，自由主义与社会主义对比）",
+      "引用（引用小说原文与哲学概念）",
+      "设问（多次使用'为什么'、'是什么'等提问方式推进论述）",
+      "层层递进（从具体小说到哲学抽象再到具体情节）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "《正午的黑暗》",
+      "type": "work",
+      "context": "1940年出版的小说，德文原名Sonnenfinsternis，英文Darkness at Noon，作者阿瑟·库斯勒，被认为是20世纪西方文学史上最著名的政治小说之一",
+      "importance": "high"
+    },
+    {
+      "name": "阿瑟·库斯勒",
+      "type": "person",
+      "context": "Arthur Koestler，匈牙利人，前苏共支持者，后因苏联大清洗逃到英国加入英国国籍，前匈共党员，《正午的黑暗》作者",
+      "importance": "high"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "俄国作家，被主播假设如果晚出生70年会写出类似《正午的黑暗》的作品，其《死屋手记》《地下室手记》《罪与罚》被频繁对比",
+      "importance": "high"
+    },
+    {
+      "name": "鲁巴乔夫",
+      "type": "person",
+      "context": "《正午的黑暗》主角，老布尔什维克，类似于托洛茨基和罗莎·卢森堡的第一代革命派，在监狱中经历心理转变",
+      "importance": "high"
+    },
+    {
+      "name": "伊凡诺夫",
+      "type": "person",
+      "context": "鲁巴乔夫的老战友，第一场审讯的审讯者，与鲁巴乔夫就'我们'的定义展开哲学辩论",
+      "importance": "high"
+    },
+    {
+      "name": "《1984》",
+      "type": "work",
+      "context": "乔治·奥威尔的作品，被主播批评为基于自由派立场的二流批判，缺乏对社会主义底层逻辑的反思",
+      "importance": "high"
+    },
+    {
+      "name": "《美丽新世界》",
+      "type": "work",
+      "context": "赫胥黎的作品，同样被主播批评为基于自由派立场的结构性批判，而非根本性批判",
+      "importance": "high"
+    },
+    {
+      "name": "乔治·奥威尔",
+      "type": "person",
+      "context": "《1984》作者，被批评为基于自由主义立场进行政治批判的英美作家代表",
+      "importance": "medium"
+    },
+    {
+      "name": "拉斯柯尔尼科夫",
+      "type": "person",
+      "context": "《罪与罚》主角，被用来与鲁巴乔夫对比，两者都在逻辑层面自洽但在道德层面造成沦丧",
+      "importance": "medium"
+    },
+    {
+      "name": "罗莎·卢森堡",
+      "type": "person",
+      "context": "历史人物，被用来类比鲁巴乔夫，代表真正的第一代革命派和国际主义知识分子",
+      "importance": "medium"
+    },
+    {
+      "name": "托洛茨基",
+      "type": "person",
+      "context": "历史人物，被用来类比鲁巴乔夫，代表坚定的第一代布尔什维克",
+      "importance": "medium"
+    },
+    {
+      "name": "施密特",
+      "type": "person",
+      "context": "Carl Schmitt，德国政治哲学家，被用来类比英美自由派小说家的批判局限",
+      "importance": "medium"
+    },
+    {
+      "name": "董乐山",
+      "type": "person",
+      "context": "《正午的黑暗》中译本译者，1999年后未再版",
+      "importance": "low"
+    },
+    {
+      "name": "博格洛夫",
+      "type": "person",
+      "context": "鲁巴乔夫的老同事，粗壮的水手，在小说结尾处被拖去枪决，引发鲁巴乔夫对死亡的反思",
+      "importance": "medium"
+    },
+    {
+      "name": "老大哥/一号",
+      "type": "other",
+      "context": "《正午的黑暗》中的组织领袖，匿名的一号领袖，类似《1984》中的老大哥，无处不在的组织领袖",
+      "importance": "medium"
+    },
+    {
+      "name": "理性/历史必然性/逻辑必然性",
+      "type": "concept",
+      "context": "鲁巴乔夫信奉的核心概念，认为历史具有前进方向、科学必须发展，一切都有逻辑上的必然性",
+      "importance": "high"
+    },
+    {
+      "name": "第一人称单数",
+      "type": "concept",
+      "context": "与'我们'相对的个体声音，在鲁巴乔夫被监禁时出现的内在声音，由记忆、愧疚和牙痛等肉体感受构成，代表非理性的个体存在",
+      "importance": "high"
+    },
+    {
+      "name": "结构性批判与根本性批判",
+      "type": "concept",
+      "context": "主播区分了英美自由派小说的结构性批判（描绘乌托邦的恐怖）与陀思妥耶夫斯基/库斯勒的根本性批判（质疑现代意识形态的哲学基础）",
+      "importance": "high"
+    },
+    {
+      "name": "自由主义与社会主义的共性",
+      "type": "concept",
+      "context": "主播认为两者在现代性基础上共享对历史方向性、科学发展、个体与集体对立的相同理解，只是选择了不同的侧重",
+      "importance": "high"
+    },
+    {
+      "name": "苏联大清洗",
+      "type": "event",
+      "context": "导致库斯勒逃离苏联的历史事件，也是《正午的黑暗》的小说背景",
+      "importance": "medium"
+    },
+    {
+      "name": "沙皇流放陀思妥耶夫斯基",
+      "type": "event",
+      "context": "1849年陀思妥耶夫斯基因参加社会主义秘密读书会被判死刑后改判流放西伯利亚四年，与库斯勒的政治转变类似",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "被鲁巴乔夫用来对比20世纪革命，认为后者在道德之上加上了科学经验",
+      "importance": "medium"
+    },
+    {
+      "name": "匈牙利",
+      "type": "place",
+      "context": "库斯勒的出生地，前匈共党员",
+      "importance": "low"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "库斯勒逃往并加入国籍的地方",
+      "importance": "low"
+    },
+    {
+      "name": "西伯利亚",
+      "type": "place",
+      "context": "陀思妥耶夫斯基被流放的地方",
+      "importance": "low"
+    },
+    {
+      "name": "苏共/苏联共产党",
+      "type": "organization",
+      "context": "鲁巴乔夫所属但后来批判的组织，小说中以'组织'代称",
+      "importance": "medium"
+    },
+    {
+      "name": "布尔什维克",
+      "type": "organization",
+      "context": "鲁巴乔夫所属的革命派别",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68749a8660f8f77d4063669f",
+  "title": "237-陀思妥耶夫斯基会如何书写20世纪？"
+}

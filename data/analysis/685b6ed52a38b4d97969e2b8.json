@@ -1,0 +1,416 @@
+{
+  "style": {
+    "opening_pattern": "直接点题并预告结构，主播在开场白中立即说明这是上一期的续集，并清晰列出本期将讨论的三个要点（MAGA内部分歧、极左极右分歧、民主党失声）",
+    "structure": "新闻动态汇报→分维度深度分析→总结。首先汇报过去10天的军事动态（美国空袭伊朗核设施），然后分别深入分析特朗普阵营内部的两派分裂、极左极右的跨党派联盟、以及民主党的集体失声，最后总结当前美国政坛的重组态势",
+    "tone": "理性犀利、快节奏、强个人色彩、批判性。主播以“拿着话筒的大叫驴”自嘲，语速快（自称“机关枪”），对两党均有批评但明显对共和党内的孤立主义派有更多同情，整体语气自信且带有知识分子的优越感",
+    "catchphrases": [
+      "拿着话筒的大叫驴",
+      "大脑的呕吐物",
+      "鸡脚嘎啦的人名",
+      "港币养子",
+      "安静如鸡",
+      "爬回权力巅峰",
+      "MAGA",
+      "美国优先",
+      "机关枪一样的分析",
+      "populist主播"
+    ],
+    "closing_pattern": "总结回顾+预告+告别。主播简要回顾本期讨论的三个核心要点，确认时间线后，以“我们下期再见吧拜拜”结束",
+    "narrative_techniques": [
+      "大量具体案例（列举Tucker Carlson、Marjorie Taylor Greene、AOC等具体人物的言行）",
+      "对比（极左vs极右、特朗普vs奥巴马、鹰派vs孤立主义派）",
+      "设问（“为什么民主党安静如鸡？”）",
+      "自嘲与自贬（将自己比作“大叫驴”、“呕吐物”以建立亲和力）",
+      "引用直接引语（大量引用特朗普、Carlson等人的社交媒体原话）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普(Donald Trump)",
+      "type": "person",
+      "context": "美国总统，在本集中作为决策核心被讨论，其下令空袭伊朗核设施并引发MAGA阵营内部激烈分裂",
+      "importance": "high"
+    },
+    {
+      "name": "Tucker Carlson",
+      "type": "person",
+      "context": "前福克斯主播，特朗普盟友，MAGA内部孤立主义派的代表，强烈反对美国空袭伊朗，被特朗普公开嘲讽为'Crazy Tucker Carlson'",
+      "importance": "high"
+    },
+    {
+      "name": "Marjorie Taylor Greene",
+      "type": "person",
+      "context": "共和党众议员，极右翼代表，'Tucker Carlson战队'成员，与极左AOC形成跨党派反战联盟",
+      "importance": "high"
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez (AOC)",
+      "type": "person",
+      "context": "民主党众议员，极左进步派代表，'The Squad'成员，与极右MTG共同反对美国卷入伊朗战争",
+      "importance": "high"
+    },
+    {
+      "name": "万斯(JD Vance)",
+      "type": "person",
+      "context": "美国副总统，原本是最直言不讳的孤立主义者，此次在特朗普参战问题上试图扮演和事老角色",
+      "importance": "medium"
+    },
+    {
+      "name": "Tulsi Gabbard",
+      "type": "person",
+      "context": "美国国家情报总监，MAGA内部的鸽派代表，反对军事干预伊朗",
+      "importance": "medium"
+    },
+    {
+      "name": "内塔尼亚胡(Benjamin Netanyahu)",
+      "type": "person",
+      "context": "以色列总理，被极左议员Rashida Tlaib称为'战争罪犯'，其政权被认为试图将美国拖入战争",
+      "importance": "medium"
+    },
+    {
+      "name": "Steve Bannon",
+      "type": "person",
+      "context": "特朗普前策略师，与Tucker Carlson联合抵抗鹰派阵营",
+      "importance": "medium"
+    },
+    {
+      "name": "Jack Posobiec",
+      "type": "person",
+      "context": "MAGA网红，孤立主义者阵营成员",
+      "importance": "low"
+    },
+    {
+      "name": "Mark Levin",
+      "type": "person",
+      "context": "保守派广播名嘴，鹰派代表，与Tucker Carlson公开互骂，称其为'Caterson'(被卡塔尔收买的人)",
+      "importance": "medium"
+    },
+    {
+      "name": "Ben Shapiro",
+      "type": "person",
+      "context": "保守派评论员，鹰派阵营成员",
+      "importance": "low"
+    },
+    {
+      "name": "Sean Hannity",
+      "type": "person",
+      "context": "福克斯主播，鹰派阵营成员",
+      "importance": "low"
+    },
+    {
+      "name": "Laura Loomer",
+      "type": "person",
+      "context": "极右翼活动家，鹰派阵营成员",
+      "importance": "low"
+    },
+    {
+      "name": "Lindsey Graham",
+      "type": "person",
+      "context": "共和党参议员，鹰派代表",
+      "importance": "medium"
+    },
+    {
+      "name": "Tom Cotton",
+      "type": "person",
+      "context": "共和党参议员，绰号'棉花哥'，鹰派代表",
+      "importance": "medium"
+    },
+    {
+      "name": "Chip Roy",
+      "type": "person",
+      "context": "共和党众议员，支持特朗普参战，反对Tucker Carlson的孤立主义",
+      "importance": "medium"
+    },
+    {
+      "name": "Thomas Massie",
+      "type": "person",
+      "context": "共和党众议员，与民主党Ro Khanna联手提出法案阻止特朗普未经国会批准对伊朗动武",
+      "importance": "medium"
+    },
+    {
+      "name": "Ro Khanna",
+      "type": "person",
+      "context": "加州民主党众议员，与共和党Thomas Massie联手提出反战法案",
+      "importance": "medium"
+    },
+    {
+      "name": "Rashida Tlaib",
+      "type": "person",
+      "context": "民主党众议员，巴勒斯坦裔，'The Squad'成员，强烈反对美国卷入战争",
+      "importance": "medium"
+    },
+    {
+      "name": "Dan Cain",
+      "type": "person",
+      "context": "参谋长联席会议主席，就战损评估发表声明",
+      "importance": "low"
+    },
+    {
+      "name": "Hakeem Jeffries",
+      "type": "person",
+      "context": "众议院少数党领袖，被批评缺乏勇气对伊朗问题表态",
+      "importance": "medium"
+    },
+    {
+      "name": "Chuck Schumer",
+      "type": "person",
+      "context": "参议院多数党领袖，被批评在伊朗问题上失声",
+      "importance": "medium"
+    },
+    {
+      "name": "Charlie Kirk",
+      "type": "person",
+      "context": "MAGA网红主播，原本倾向孤立主义后转而支持特朗普参战",
+      "importance": "medium"
+    },
+    {
+      "name": "奥巴马(Barack Obama)",
+      "type": "person",
+      "context": "美国前总统，其伊朗核协议被批评无效，目前在伊朗问题上保持沉默",
+      "importance": "medium"
+    },
+    {
+      "name": "拜登(Joe Biden)",
+      "type": "person",
+      "context": "美国前总统，曾在2012年副总统辩论中表示绝不允许伊朗拥有核武器，目前对特朗普空袭伊朗保持沉默",
+      "importance": "medium"
+    },
+    {
+      "name": "哈里斯(Kamala Harris)",
+      "type": "person",
+      "context": "美国前副总统，2024年特朗普的对手，曾在竞选中表示绝不允许伊朗拥有核武器，目前保持沉默",
+      "importance": "medium"
+    },
+    {
+      "name": "杰克·里德(Jack Reed)",
+      "type": "person",
+      "context": "民主党资深议员，批评以色列空袭伊朗是鲁莽升级",
+      "importance": "low"
+    },
+    {
+      "name": "Truth Social",
+      "type": "work",
+      "context": "特朗普的社交媒体平台，特朗普通过该平台宣布空袭伊朗及停火协议",
+      "importance": "medium"
+    },
+    {
+      "name": "福克斯新闻(Fox News)",
+      "type": "work",
+      "context": "美国保守派媒体，主播Tucker Carlson曾在此工作，后被解雇",
+      "importance": "medium"
+    },
+    {
+      "name": "Free Press",
+      "type": "work",
+      "context": "美国独立媒体，报道了民主党内部对伊朗问题的态度",
+      "importance": "low"
+    },
+    {
+      "name": "MAGA(Make America Great Again)",
+      "type": "concept",
+      "context": "特朗普的政治运动，本集讨论该阵营内部在伊朗问题上的严重分裂",
+      "importance": "high"
+    },
+    {
+      "name": "美国优先(America First)",
+      "type": "concept",
+      "context": "特朗普阵营的核心外交理念，本集讨论其两种解读：霸权主义vs孤立主义",
+      "importance": "high"
+    },
+    {
+      "name": "孤立主义(Isolationism)",
+      "type": "concept",
+      "context": "MAGA内部一派的外交立场，反对美国卷入伊朗战争，代表人物Tucker Carlson",
+      "importance": "high"
+    },
+    {
+      "name": "新保守主义(Neoconservatism)",
+      "type": "concept",
+      "context": "政治理念，被Tucker Carlson等人批评，与福克斯新闻解雇Carlson有关",
+      "importance": "medium"
+    },
+    {
+      "name": "反锡安主义(Anti-Zionism)",
+      "type": "concept",
+      "context": "极左派如AOC、Rashida Tlaib的立场，反对以色列，与极右形成反战联盟",
+      "importance": "medium"
+    },
+    {
+      "name": "战争权力法案(War Powers Act)",
+      "type": "concept",
+      "context": "1973年法案，被Thomas Massie和Ro Khanna援引以阻止特朗普未经国会批准对伊朗动武",
+      "importance": "medium"
+    },
+    {
+      "name": "B2轰炸机",
+      "type": "concept",
+      "context": "美军用于空袭伊朗福尔多核设施的战略轰炸机",
+      "importance": "medium"
+    },
+    {
+      "name": "钻地炸弹(Bunker Buster)",
+      "type": "concept",
+      "context": "美军用于摧毁地下核设施的武器，由B2轰炸机投下",
+      "importance": "medium"
+    },
+    {
+      "name": "浓缩铀",
+      "type": "concept",
+      "context": "伊朗核设施生产的核材料，是美国和以色列打击的目标",
+      "importance": "medium"
+    },
+    {
+      "name": "伊斯兰革命卫队(IRGC)",
+      "type": "concept",
+      "context": "伊朗军事组织，其指挥部和设施被以色列空军打击",
+      "importance": "medium"
+    },
+    {
+      "name": "美国空袭伊朗核设施(2025年6月22日)",
+      "type": "event",
+      "context": "特朗普宣布对伊朗福尔多、内坦兹、伊斯法罕三处核设施发动空袭，是本集讨论的核心事件",
+      "importance": "high"
+    },
+    {
+      "name": "伊朗袭击以色列(2025年6月)",
+      "type": "event",
+      "context": "伊朗对美国空袭的报复行动，提前通知卡塔尔后袭击了乌戴德空军基地",
+      "importance": "high"
+    },
+    {
+      "name": "以色列-伊朗停火协议(2025年6月)",
+      "type": "event",
+      "context": "通过卡塔尔斡旋达成的停火协议，但双方都有违反，特朗普公开斥责以色列",
+      "importance": "high"
+    },
+    {
+      "name": "2024年美国总统大选",
+      "type": "event",
+      "context": "被多次提及作为背景，分析民主党失利后的状态",
+      "importance": "medium"
+    },
+    {
+      "name": "伊拉克战争",
+      "type": "event",
+      "context": "被Rashida Tlaib提及，作为美国被欺骗卷入战争的历史教训",
+      "importance": "medium"
+    },
+    {
+      "name": "2012年副总统辩论",
+      "type": "event",
+      "context": "拜登曾表示绝不允许伊朗拥有核武器，与本集当前沉默形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "伊朗(Iran)",
+      "type": "place",
+      "context": "被美国和以色列打击的目标国家，其核设施是福尔多、内坦兹、伊斯法罕",
+      "importance": "high"
+    },
+    {
+      "name": "以色列(Israel)",
+      "type": "place",
+      "context": "美国的盟友，首先对伊朗核设施发动袭击，后与美国协同作战",
+      "importance": "high"
+    },
+    {
+      "name": "美国(United States)",
+      "type": "place",
+      "context": "主播分析的主体国家，其内部对伊朗政策存在严重分歧",
+      "importance": "high"
+    },
+    {
+      "name": "福尔多(Fordow)",
+      "type": "place",
+      "context": "伊朗地下浓缩铀工厂，美军使用钻地炸弹打击的关键目标",
+      "importance": "high"
+    },
+    {
+      "name": "内坦兹(Natanz)",
+      "type": "place",
+      "context": "伊朗核设施，美军打击目标之一",
+      "importance": "medium"
+    },
+    {
+      "name": "伊斯法罕(Isfahan)",
+      "type": "place",
+      "context": "伊朗城市，其核设施被美军打击",
+      "importance": "medium"
+    },
+    {
+      "name": "卡塔尔(Qatar)",
+      "type": "place",
+      "context": "美国在乌戴德空军基地所在地，在停火协议中扮演斡旋者角色，与伊朗关系密切",
+      "importance": "high"
+    },
+    {
+      "name": "乌戴德空军基地(Al Udeid Air Base)",
+      "type": "place",
+      "context": "美军在中东的重要基地，伊朗提前通知后对其发动象征性袭击",
+      "importance": "high"
+    },
+    {
+      "name": "德黑兰(Tehran)",
+      "type": "place",
+      "context": "伊朗首都，其巴勒斯坦广场和伊文监狱被以色列象征性轰炸",
+      "importance": "medium"
+    },
+    {
+      "name": "关岛(Guam)",
+      "type": "place",
+      "context": "美国领土，B2轰炸机被部署至此准备对伊朗的空袭",
+      "importance": "low"
+    },
+    {
+      "name": "宁波",
+      "type": "place",
+      "context": "中国城市，主播用其面积与卡塔尔对比以说明卡塔尔之小",
+      "importance": "low"
+    },
+    {
+      "name": "共和党(Republican Party)",
+      "type": "organization",
+      "context": "美国政党，内部在伊朗问题上分裂为鹰派和孤立主义派",
+      "importance": "high"
+    },
+    {
+      "name": "民主党(Democratic Party)",
+      "type": "organization",
+      "context": "美国反对党，在伊朗问题上被批评为'安静如鸡'、集体失声",
+      "importance": "high"
+    },
+    {
+      "name": "民主党全国委员会(DNC)",
+      "type": "organization",
+      "context": "民主党组织机构，被批评在输掉2024年大选后内部仍一团糟",
+      "importance": "medium"
+    },
+    {
+      "name": "伊斯兰革命卫队(IRGC)",
+      "type": "organization",
+      "context": "伊朗军事组织，其指挥部和设施被以色列空军打击",
+      "importance": "medium"
+    },
+    {
+      "name": "参谋长联席会议(Joint Chiefs of Staff)",
+      "type": "organization",
+      "context": "美国军事指挥机构，主席Dan Cain就战损评估发表声明",
+      "importance": "low"
+    },
+    {
+      "name": "以色列空军(Israeli Air Force)",
+      "type": "organization",
+      "context": "对伊朗IRGC目标和德黑兰象征性地点发动打击",
+      "importance": "medium"
+    },
+    {
+      "name": "美军(US Military)",
+      "type": "organization",
+      "context": "对伊朗三处核设施发动历史性打击",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "685b6ed52a38b4d97969e2b8",
+  "title": "229-美国内部对伊朗是什么态度？"
+}

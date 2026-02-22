@@ -1,0 +1,165 @@
+{
+  "style": {
+    "opening_pattern": "以学术概念引入，从卢梭《爱弥儿》的教育学与政治学双重属性切入，建立理论框架后再转向个人经历",
+    "structure": "理论铺垫→家庭背景→童年性格形成→与学校权威的多个具体冲突案例→反思总结，呈现为'哲学概念→个人史→案例分析→政治反思'的递进结构",
+    "tone": "理性自省与黑色幽默交织，既有学术分析的冷静，又有自我调侃的轻松，偶尔带刺（如对评论区听众的回应）",
+    "catchphrases": [
+      "讲道理",
+      "野蛮人/野蛮小孩",
+      "暴烈",
+      "驯服",
+      "交换关系",
+      "睁一只眼闭一只眼",
+      "破罐子破摔",
+      "作战到底",
+      "没有美德的...但是...",
+      "听个乐子吧"
+    ],
+    "closing_pattern": "主动消解自身经历的示范意义，以'听个乐子'的自谦作结，同时暗含对听众的挑衅式关怀",
+    "narrative_techniques": [
+      "类比（将写八股文比作在粪堆上种草皮种花）",
+      "对比（父母作为'更好的孩子'与自己的'难以驯服'）",
+      "具体场景还原（盼盼小面包、蹲坑看《梵高传》等细节）",
+      "引用经典文本印证个人经验（色诺芬、卢梭、亚里士多德）",
+      "反讽（'风中拉屎的武汉人'）",
+      "自我标签化（'量化管理的头号敌人'）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "其著作《爱弥儿》被引为现代教育学与政治学的重要文本，播客主借此建立儿童与权威关系的理论框架",
+      "importance": "high"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "被描述为既是现代教育学最重要著作也是政治学著作，是播客讨论儿童与权威关系的理论起点",
+      "importance": "high"
+    },
+    {
+      "name": "色诺芬",
+      "type": "person",
+      "context": "其笔下居鲁士大帝的童年故事被用来对照播客主自己'暴打护士'的经历，说明自然正义的概念",
+      "importance": "medium"
+    },
+    {
+      "name": "居鲁士大帝",
+      "type": "person",
+      "context": "色诺芬笔下的童年形象，因看到外套分配不公而要求交换，被用来类比儿童天生的正义感",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "其《政治学》中'人是政治的动物'的观点被引用，说明人对荣誉的渴望与社会依赖的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "《政治学》",
+      "type": "work",
+      "context": "亚里士多德的著作，被用来解释人为何需要城邦以获得荣誉",
+      "importance": "medium"
+    },
+    {
+      "name": "郑渊洁",
+      "type": "person",
+      "context": "播客主童年偷钱购买其全集，成为挨打事件之一",
+      "importance": "low"
+    },
+    {
+      "name": "郭敬明",
+      "type": "person",
+      "context": "初中时接触的作家，其'悲春伤秋'的风格影响了播客主的红旗下讲话写作，导致失去演讲机会",
+      "importance": "low"
+    },
+    {
+      "name": "韩寒",
+      "type": "person",
+      "context": "与郭敬明一同被提及，代表播客主初中时接触的文艺青年风格",
+      "importance": "low"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "朋友，曾在华育和上海中学参加奥数班，与播客主讨论题海战术的普遍性",
+      "importance": "low"
+    },
+    {
+      "name": "风中拉屎的武汉人",
+      "type": "person",
+      "context": "麻省理工人工智能博士朋友，因玩魔方的经历与播客主就'发现规则vs背诵规则'达成共识",
+      "importance": "medium"
+    },
+    {
+      "name": "《梵高传》",
+      "type": "work",
+      "context": "播客主熄灯后躲在厕所用手电筒看完的书，感动到在蹲坑上抽泣",
+      "importance": "low"
+    },
+    {
+      "name": "新概念英语",
+      "type": "work",
+      "context": "播客主逃晚自习蹲在草坪里用磁带机背诵的教材，成为与权威冲突的导火索之一",
+      "importance": "low"
+    },
+    {
+      "name": "自然正义",
+      "type": "concept",
+      "context": "区别于社会正义的概念，指儿童未经社会契约观念污染前对公平的原始感知，是播客核心论述概念",
+      "importance": "high"
+    },
+    {
+      "name": "社会正义",
+      "type": "concept",
+      "context": "与自然正义相对，预设产权和财产权等社会契约建构的正义观念",
+      "importance": "medium"
+    },
+    {
+      "name": "量化管理",
+      "type": "concept",
+      "context": "播客主自称为其'头号敌人'，指学校按成绩分班、排名等扁平化评价体系，被批判为摧毁真正优等生的能力",
+      "importance": "high"
+    },
+    {
+      "name": "荣誉",
+      "type": "concept",
+      "context": "古典社会驱动人做事的重要动因，播客主将其作为与学校建立'交换关系'的核心——以成绩换荣誉",
+      "importance": "medium"
+    },
+    {
+      "name": "原生家庭",
+      "type": "concept",
+      "context": "播客主用以描述父母无法逃离的不幸家庭环境，但强调父母主动选择了不同的教育方式",
+      "importance": "medium"
+    },
+    {
+      "name": "核心家庭",
+      "type": "concept",
+      "context": "播客主描述自己出生对父母意味着建立属于自己的独立家庭单元，是逃离上一代控制的唯一方式",
+      "importance": "medium"
+    },
+    {
+      "name": "华育",
+      "type": "organization",
+      "context": "上海著名初中，榜眼哥曾在此参加奥数班",
+      "importance": "low"
+    },
+    {
+      "name": "上海中学",
+      "type": "organization",
+      "context": "上海顶尖高中，榜眼哥曾在此参加奥数班",
+      "importance": "low"
+    },
+    {
+      "name": "麻省理工学院",
+      "type": "organization",
+      "context": "风中拉屎的武汉人攻读人工智能博士的学校",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "69604c478f388c61e1ed0daf",
+  "title": "289-我在童年如何与权威周旋？"
+}
