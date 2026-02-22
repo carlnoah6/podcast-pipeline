@@ -1,0 +1,460 @@
+{
+  "style": {
+    "opening_pattern": "以预设听众质疑的方式引入，连续提出三个可能的反对意见（'这能对比吗''有什么好对比''吹捧还是拉踩'），然后逐一回应，建立对话感和防御性姿态",
+    "structure": "个人经历铺垫→核心概念定义→中美剧集对比分析→理论升华（托克维尔）→结论，采用'问题—历史—哲学—现实'的递进结构",
+    "tone": "理性客观中带有个人的谦逊自省，频繁使用自我贬低的表达（'清澈愚蠢的小学生''什么都不懂'）来降低论述的攻击性，同时保持学术分析的深度",
+    "catchphrases": [
+      "对比的目的只是为了观察",
+      "我是一位爱国人士",
+      "清澈愚蠢的小学生",
+      "暴露我的无知",
+      "活不过第一集",
+      "开诚布公地说",
+      "OK背景介绍完毕",
+      "那当然我还想说",
+      "我觉得这真的是一本好书",
+      "真心的希望这一期可以过审"
+    ],
+    "closing_pattern": "开放式收尾，表达对审查的担忧（'如果不过审的话那就算了吧'），回归个人化的轻松语气",
+    "narrative_techniques": [
+      "类比",
+      "反问",
+      "举例",
+      "对比",
+      "自我叙事",
+      "引用权威",
+      "场景还原"
+    ]
+  },
+  "entities": [
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "主播的朋友，哲学政治哲学博士候选人，向主播推荐《人民的名义》并解答中国政治结构问题",
+      "importance": "medium"
+    },
+    {
+      "name": "沙瑞金",
+      "type": "person",
+      "context": "《人民的名义》中省委书记，代表中央空降的正义力量，最睿智、最正义的人物",
+      "importance": "high"
+    },
+    {
+      "name": "田国富",
+      "type": "person",
+      "context": "《人民的名义》中为沙瑞金出谋划策的省委书记，来自中央",
+      "importance": "medium"
+    },
+    {
+      "name": "侯亮平",
+      "type": "person",
+      "context": "《人民的名义》中反贪局长，来自中央，被称为'反贪上方宝剑'",
+      "importance": "high"
+    },
+    {
+      "name": "高育良",
+      "type": "person",
+      "context": "《人民的名义》中政法派代表人物，地方腐败势力之一",
+      "importance": "medium"
+    },
+    {
+      "name": "李达康",
+      "type": "person",
+      "context": "《人民的名义》中秘书派代表人物，与高育良相争多年",
+      "importance": "medium"
+    },
+    {
+      "name": "赵东来",
+      "type": "person",
+      "context": "《人民的名义》中铁骨铮铮的好官，拥有崇高美德和智慧的清官代表",
+      "importance": "medium"
+    },
+    {
+      "name": "Frank Underwood/弗兰克·安德伍德",
+      "type": "person",
+      "context": "《纸牌屋》主角，美国众议员多数党党鞭，冷血无情、毫无道德标准的政客形象",
+      "importance": "high"
+    },
+    {
+      "name": "Kevin Spacey",
+      "type": "person",
+      "context": "《纸牌屋》主演，饰演Frank Underwood",
+      "importance": "low"
+    },
+    {
+      "name": "大卫·芬奇",
+      "type": "person",
+      "context": "《纸牌屋》导演",
+      "importance": "low"
+    },
+    {
+      "name": "奥巴马",
+      "type": "person",
+      "context": "时任美国总统，被提及也在观看《纸牌屋》",
+      "importance": "low"
+    },
+    {
+      "name": "罗姆尼",
+      "type": "person",
+      "context": "共和党参议员，2012年与奥巴马竞争总统，曾在主播高中进行毕业演讲",
+      "importance": "low"
+    },
+    {
+      "name": "Teddy Roosevelt/老罗斯福",
+      "type": "person",
+      "context": "美国前总统，主播高中的创始人之一，喜欢非洲打猎，捐赠动物标本给学校",
+      "importance": "low"
+    },
+    {
+      "name": "FDR/小罗斯福",
+      "type": "person",
+      "context": "美国前总统，老罗斯福的侄子，主播高中最有名的毕业生",
+      "importance": "low"
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "被民主党视为威胁美国民主的人物，与2021年1月6日冲击国会山事件相关",
+      "importance": "medium"
+    },
+    {
+      "name": "Aaron Sorkin/艾伦·索金",
+      "type": "person",
+      "context": "《白宫风云》编剧，前四季由其创作",
+      "importance": "medium"
+    },
+    {
+      "name": "Josiah Bartlett/巴特莱特",
+      "type": "person",
+      "context": "《白宫风云》中的民主党总统，电视剧主角",
+      "importance": "high"
+    },
+    {
+      "name": "克林顿",
+      "type": "person",
+      "context": "美国前总统，《白宫风云》中多个情节隐喻其任内的丑闻和决策",
+      "importance": "medium"
+    },
+    {
+      "name": "莫妮卡·莱温斯基",
+      "type": "person",
+      "context": "与克林顿性丑闻相关的女性，被《白宫风云》第一季情节隐喻",
+      "importance": "low"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "19世纪法国哲学家，《论美国的民主》作者，本集核心理论依据",
+      "importance": "high"
+    },
+    {
+      "name": "本杰明·富兰克林",
+      "type": "person",
+      "context": "美国开国元勋，道德教育家，提出'诚实是最好的策略'",
+      "importance": "medium"
+    },
+    {
+      "name": "马基雅维利",
+      "type": "person",
+      "context": "意大利政治思想家，被《纸牌屋》误解为支持无道德政治的代表",
+      "importance": "medium"
+    },
+    {
+      "name": "小布什",
+      "type": "person",
+      "context": "美国前总统，911事件后发动全球反恐战争",
+      "importance": "low"
+    },
+    {
+      "name": "《人民的名义》",
+      "type": "work",
+      "context": "2017年中国主旋律反腐剧，最高人民检察院监制，本集核心分析对象之一",
+      "importance": "high"
+    },
+    {
+      "name": "《纸牌屋》/House of Cards",
+      "type": "work",
+      "context": "2013年Netflix政治剧，描绘美国政治黑暗面，被主播认为不是真正优秀的主旋律正剧",
+      "importance": "high"
+    },
+    {
+      "name": "《最后幸存者》",
+      "type": "work",
+      "context": "主播高中时观看的美国政治剧之一",
+      "importance": "low"
+    },
+    {
+      "name": "《国务卿夫人》",
+      "type": "work",
+      "context": "主播高中时观看的美国政治剧之一",
+      "importance": "low"
+    },
+    {
+      "name": "《白宫风云》/The West Wing",
+      "type": "work",
+      "context": "1999-2006年美国政治剧，主播心中最好的美国主旋律正剧，由室友推荐",
+      "importance": "high"
+    },
+    {
+      "name": "《绝对权力》",
+      "type": "work",
+      "context": "中国展示官场博弈的电视剧，露骨程度不亚于《纸牌屋》",
+      "importance": "low"
+    },
+    {
+      "name": "《龙年档案》",
+      "type": "work",
+      "context": "中国展示官场博弈的电视剧",
+      "importance": "low"
+    },
+    {
+      "name": "《至高利益》",
+      "type": "work",
+      "context": "中国展示官场博弈的电视剧",
+      "importance": "low"
+    },
+    {
+      "name": "《国家公诉》",
+      "type": "work",
+      "context": "中国展示官场博弈的电视剧",
+      "importance": "low"
+    },
+    {
+      "name": "《黄石》/Yellowstone",
+      "type": "work",
+      "context": "美国右派观众偏好的电视剧，讲述农场主与自然和政府作战",
+      "importance": "medium"
+    },
+    {
+      "name": "《继承者之战》/Succession",
+      "type": "work",
+      "context": "美国右派观众偏好的商战剧",
+      "importance": "low"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "托克维尔1835年的著作，本集核心理论来源，分析美国政治生态的关键文本",
+      "importance": "high"
+    },
+    {
+      "name": "Netflix/奈飞",
+      "type": "organization",
+      "context": "《纸牌屋》播出平台，因该剧稳固了美国第一网剧平台地位",
+      "importance": "low"
+    },
+    {
+      "name": "最高人民检察院",
+      "type": "organization",
+      "context": "《人民的名义》的监制单位",
+      "importance": "medium"
+    },
+    {
+      "name": "党委",
+      "type": "organization",
+      "context": "中国五套班子之一，主播向榜眼哥请教的基础政治结构",
+      "importance": "medium"
+    },
+    {
+      "name": "政委",
+      "type": "organization",
+      "context": "中国五套班子之一",
+      "importance": "low"
+    },
+    {
+      "name": "人大",
+      "type": "organization",
+      "context": "中国五套班子之一，立法机构",
+      "importance": "medium"
+    },
+    {
+      "name": "政协",
+      "type": "organization",
+      "context": "中国五套班子之一",
+      "importance": "low"
+    },
+    {
+      "name": "两院",
+      "type": "organization",
+      "context": "中国司法机构，主播曾询问属于legislative还是judiciary power",
+      "importance": "medium"
+    },
+    {
+      "name": "民主党",
+      "type": "organization",
+      "context": "美国两大政党之一，主张大政府和社会福利，好莱坞和大学校园的主要支持者",
+      "importance": "high"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "美国两大政党之一，主张小政府和低税收，不信任联邦政府",
+      "importance": "high"
+    },
+    {
+      "name": "Young Democrats/年轻民主党员",
+      "type": "organization",
+      "context": "主播高中时的政治俱乐部，曾与共和党俱乐部辩论",
+      "importance": "low"
+    },
+    {
+      "name": "Young Republicans/年轻共和党员",
+      "type": "organization",
+      "context": "主播高中时的政治俱乐部",
+      "importance": "low"
+    },
+    {
+      "name": "汉东省京州市",
+      "type": "place",
+      "context": "《人民的名义》故事发生地，地方腐败势力的所在地",
+      "importance": "medium"
+    },
+    {
+      "name": "华盛顿哥伦比亚特区",
+      "type": "place",
+      "context": "《纸牌屋》故事发生地，美国政治中心",
+      "importance": "low"
+    },
+    {
+      "name": "秘鲁",
+      "type": "place",
+      "context": "主播室友的父亲竞选上该国总统，主播曾参加宣誓典礼",
+      "importance": "low"
+    },
+    {
+      "name": "伊拉克",
+      "type": "place",
+      "context": "美国发动战争的国家，导致政府公信力下降",
+      "importance": "low"
+    },
+    {
+      "name": "阿富汗",
+      "type": "place",
+      "context": "美国发动战争的国家",
+      "importance": "low"
+    },
+    {
+      "name": "叙利亚",
+      "type": "place",
+      "context": "《白宫风云》中恐怖主义组织所在国",
+      "importance": "low"
+    },
+    {
+      "name": "Equatorial Kundu",
+      "type": "place",
+      "context": "《白宫风云》第四季虚构的非洲国家，隐喻卢旺达",
+      "importance": "medium"
+    },
+    {
+      "name": "卢旺达",
+      "type": "place",
+      "context": "1994年发生种族大屠杀的国家，克林顿政府未干预",
+      "importance": "medium"
+    },
+    {
+      "name": "911事件",
+      "type": "event",
+      "context": "恐怖分子袭击美国双子大楼事件，改变美国政治走向，《白宫风云》第三季提前预言类似情境",
+      "importance": "high"
+    },
+    {
+      "name": "2021年1月6日冲击国会山事件",
+      "type": "event",
+      "context": "特朗普支持者冲击美国国会，被民主党视为威胁民主的事件",
+      "importance": "medium"
+    },
+    {
+      "name": "war on terror/反恐战争",
+      "type": "event",
+      "context": "小布什在911后发动的全球军事行动",
+      "importance": "medium"
+    },
+    {
+      "name": "1994年卢旺达种族大屠杀",
+      "type": "event",
+      "context": "克林顿政府有能力但未干预的种族灭绝事件，《白宫风云》第四季隐喻此事件",
+      "importance": "medium"
+    },
+    {
+      "name": "主旋律正剧",
+      "type": "concept",
+      "context": "本集核心概念，指既弘扬真善美又真实揭露政治生态的电视剧类型",
+      "importance": "high"
+    },
+    {
+      "name": "政治生态",
+      "type": "concept",
+      "context": "本集核心概念，指政治运作的实际环境和人际关系网络",
+      "importance": "high"
+    },
+    {
+      "name": "五套班子",
+      "type": "concept",
+      "context": "中国政府结构的通俗说法，包括党委、政委、人大、政协、军队、两院",
+      "importance": "medium"
+    },
+    {
+      "name": "legislative power/立法权",
+      "type": "concept",
+      "context": "主播向榜眼哥请教的中国政治结构问题之一",
+      "importance": "low"
+    },
+    {
+      "name": "judiciary power/司法权",
+      "type": "concept",
+      "context": "主播向榜眼哥请教的中国政治结构问题之一",
+      "importance": "low"
+    },
+    {
+      "name": "executive power/行政权",
+      "type": "concept",
+      "context": "主播向榜眼哥请教的中国政治结构问题之一",
+      "importance": "low"
+    },
+    {
+      "name": "马基雅维利主义",
+      "type": "concept",
+      "context": "被《纸牌屋》误解为政客应抛弃道德的政治哲学，主播认为是肤浅理解",
+      "importance": "medium"
+    },
+    {
+      "name": "Civis Romanus Sum/我是一个罗马公民",
+      "type": "concept",
+      "context": "古罗马帝国公民的安全自豪感象征，《白宫风云》中巴特莱特总统引用的帝国主义话语",
+      "importance": "medium"
+    },
+    {
+      "name": "A Proportional Response/合理反应",
+      "type": "concept",
+      "context": "《白宫风云》第三季标题，讨论报复的合理性边界",
+      "importance": "medium"
+    },
+    {
+      "name": "enlightened self-interest/开明的利己主义",
+      "type": "concept",
+      "context": "托克维尔提出的核心概念，美国人通过利己达到利他的方式，本集最重要的理论概念",
+      "importance": "high"
+    },
+    {
+      "name": "self-interest well understood/经过正确理解的利己主义",
+      "type": "concept",
+      "context": "托克维尔对开明利己主义的另一种表述",
+      "importance": "medium"
+    },
+    {
+      "name": "Honesty is the best policy/诚实是最好的策略",
+      "type": "concept",
+      "context": "本杰明·富兰克林流传的美国俗语，体现开明利己主义的道德观",
+      "importance": "medium"
+    },
+    {
+      "name": "极端个人主义",
+      "type": "concept",
+      "context": "托克维尔担忧的美国民主滑坡方向之一",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65e665d6da891a9cd9da8e95",
+  "title": "33-中美主旋律正剧如何体现两国不同的政治生态？"
+}

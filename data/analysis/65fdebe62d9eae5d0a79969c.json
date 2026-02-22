@@ -1,0 +1,298 @@
+{
+  "style": {
+    "opening_pattern": "以音乐话题引入，通过个人经历（唱歌背景、三段音乐品味）建立轻松闲聊氛围，最后过渡到正题",
+    "structure": "个人故事铺垫→剧情回顾→核心问题提出（两种误解理论）→市长夫人的误解分析（结合个人婚姻经历）→市长的误解分析→于连动机分析→总结",
+    "tone": "轻松幽默与严肃深沉交替，前半段唠嗑闲聊，后半段深度心理分析，带有强烈的自我暴露和情感投射",
+    "catchphrases": [
+      "小木墩",
+      "啰里吧嗦",
+      "丧夫了",
+      "他妈的",
+      "OK",
+      "哇",
+      "真的是",
+      "人性太人性了",
+      "self-delusion",
+      "misunderstanding"
+    ],
+    "closing_pattern": "引用尼采书名作为结尾，预告下期内容，自我总结式收束",
+    "narrative_techniques": [
+      "类比",
+      "举例",
+      "对比",
+      "自我暴露",
+      "反讽",
+      "引用文学理论",
+      "个人经历与文本互文"
+    ]
+  },
+  "entities": [
+    {
+      "name": "于连",
+      "type": "person",
+      "context": "《红与黑》主人公，农村木匠之子，被市长聘请为家庭教师，与市长夫人偷情",
+      "importance": "high"
+    },
+    {
+      "name": "市长夫人",
+      "type": "person",
+      "context": "市长之妻，从小在修道院长大，真诚向往美德却误解于连为道德高洁之人，最终与于连偷情",
+      "importance": "high"
+    },
+    {
+      "name": "市长",
+      "type": "person",
+      "context": "出身没落贵族，粗鄙功利，以阶级眼光看待于连，将其视为下等仆人",
+      "importance": "high"
+    },
+    {
+      "name": "司汤达",
+      "type": "person",
+      "context": "《红与黑》作者，被分析其讽刺写作技艺高超",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔",
+      "type": "person",
+      "context": "主播前夫，莫扎特爱好者，婚内出轨，被主播用来类比市长夫人对于连的误解",
+      "importance": "high"
+    },
+    {
+      "name": "林漾小姐",
+      "type": "person",
+      "context": "卡尔出轨对象，主播认识十几年的朋友",
+      "importance": "medium"
+    },
+    {
+      "name": "小花",
+      "type": "person",
+      "context": "在芝大校园旁捉住卡尔婚内出轨的朋友",
+      "importance": "low"
+    },
+    {
+      "name": "Martha Nussbaum",
+      "type": "person",
+      "context": "美国著名哲学教授，曾与卡尔合教歌剧史课程",
+      "importance": "low"
+    },
+    {
+      "name": "歌德",
+      "type": "person",
+      "context": "德国诗人，《荒野上的小蔷薇》填词者，被称为'德国的莎士比亚'",
+      "importance": "medium"
+    },
+    {
+      "name": "舒伯特",
+      "type": "person",
+      "context": "作曲家，为《荒野上的小蔷薇》作曲",
+      "importance": "medium"
+    },
+    {
+      "name": "莫扎特",
+      "type": "person",
+      "context": "卡尔狂热喜爱的作曲家，其歌剧《费加罗的婚礼》《唐璜》《女人皆如此》《魔笛》被提及",
+      "importance": "medium"
+    },
+    {
+      "name": "Da Ponte",
+      "type": "person",
+      "context": "与莫扎特合作创作三部歌剧的剧作家",
+      "importance": "low"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "《论美国的民主》作者，主播通过其书理解美国小镇文化",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "其《尼各马可伦理学》被主播研读，美德理论被用来分析市长夫人的误解",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "书名《Human, All Too Human》（人性，太人性的）被用作结尾引用",
+      "importance": "medium"
+    },
+    {
+      "name": "乔致庸",
+      "type": "person",
+      "context": "电视剧《乔家大院》主角，被举为例说明现实中美德的复杂性",
+      "importance": "medium"
+    },
+    {
+      "name": "陈建斌",
+      "type": "person",
+      "context": "饰演乔致庸的演员",
+      "importance": "low"
+    },
+    {
+      "name": "李达康",
+      "type": "person",
+      "context": "电视剧《人民的名义》角色，被举为例说明正义美德的复杂性",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "于连崇拜的英雄，象征其红色戎装野心与革命理想",
+      "importance": "medium"
+    },
+    {
+      "name": "巴赫",
+      "type": "person",
+      "context": "小提琴第一协奏曲原为小木墩系列开场音乐",
+      "importance": "low"
+    },
+    {
+      "name": "《红与黑》",
+      "type": "work",
+      "context": "本期解析的司汤达小说，从第六章讲到第十二章的偷情情节",
+      "importance": "high"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "托克维尔著作，主播高中后阅读以理解自身经历",
+      "importance": "medium"
+    },
+    {
+      "name": "《尼各马可伦理学》",
+      "type": "work",
+      "context": "亚里士多德著作，主播在学校研读，影响其对美德的理解",
+      "importance": "medium"
+    },
+    {
+      "name": "《费加罗的婚礼》",
+      "type": "work",
+      "context": "莫扎特与Da Ponte合作的歌剧",
+      "importance": "low"
+    },
+    {
+      "name": "《唐璜》",
+      "type": "work",
+      "context": "莫扎特与Da Ponte合作的歌剧",
+      "importance": "low"
+    },
+    {
+      "name": "《女人皆如此》(Cosi fan tutte)",
+      "type": "work",
+      "context": "莫扎特与Da Ponte合作的歌剧，卡尔为此学意大利语",
+      "importance": "low"
+    },
+    {
+      "name": "《魔笛》(Zauberflöte)",
+      "type": "work",
+      "context": "莫扎特歌剧，主播与前夫卡尔学习其中的男女对唱",
+      "importance": "low"
+    },
+    {
+      "name": "《荒野上的小蔷薇》(Heidenröslein)",
+      "type": "work",
+      "context": "歌德作词、舒伯特作曲的18世纪德国歌曲，歌词残忍，被主播视为自身经历的预言",
+      "importance": "medium"
+    },
+    {
+      "name": "《乔家大院》",
+      "type": "work",
+      "context": "电视剧，用以举例说明现实中美德的复杂性",
+      "importance": "medium"
+    },
+    {
+      "name": "《人民的名义》",
+      "type": "work",
+      "context": "电视剧，李达康角色被用来说明正义美德的复杂表现",
+      "importance": "medium"
+    },
+    {
+      "name": "In excelsis Deo/Gloria to God",
+      "type": "work",
+      "context": "圣诞圣歌，主播在播客开头演唱",
+      "importance": "low"
+    },
+    {
+      "name": "Lessons and Carols",
+      "type": "work",
+      "context": "英国新教传统圣诞仪式，主播高中合唱团参与表演",
+      "importance": "low"
+    },
+    {
+      "name": "《圣经》（拉丁语版）",
+      "type": "work",
+      "context": "于连背诵全书以获得学识名声，被市长聘为家庭教师的契机",
+      "importance": "medium"
+    },
+    {
+      "name": "Human, All Too Human",
+      "type": "work",
+      "context": "尼采著作，被主播用作结尾引用概括人性主题",
+      "importance": "medium"
+    },
+    {
+      "name": "自然贵族 vs 世袭贵族",
+      "type": "concept",
+      "context": "主播分析的核心概念，于连自认为是自然贵族，而市长只承认世袭贵族",
+      "importance": "high"
+    },
+    {
+      "name": "有意识的自我欺骗 (intentional self-delusion)",
+      "type": "concept",
+      "context": "主播提出的核心分析框架，用以解释市长夫人为何'眼瞎'爱上于连",
+      "importance": "high"
+    },
+    {
+      "name": "无意识的自我欺骗 (unconscious self-delusion)",
+      "type": "concept",
+      "context": "用以描述市长无法理解于连自我认知的阶级局限性",
+      "importance": "medium"
+    },
+    {
+      "name": "象牙塔/没有进入真正的生活 (no experience of life)",
+      "type": "concept",
+      "context": "司汤达对市长夫人的描述，主播用以解释其对美德的理论性误解",
+      "importance": "high"
+    },
+    {
+      "name": "美德的纯洁性 vs 复杂性",
+      "type": "concept",
+      "context": "主播通过乔致庸、李达康等例子说明的核心观点：现实中的美德必然混杂复杂因素",
+      "importance": "high"
+    },
+    {
+      "name": "Episcopalianism（美国圣公会）",
+      "type": "organization",
+      "context": "主播高中的基督教流派，温和的新教，影响主播的音乐背景",
+      "importance": "low"
+    },
+    {
+      "name": "芝加哥歌剧院",
+      "type": "organization",
+      "context": "卡尔与该机构院长及Martha Nussbaum合教歌剧史课程",
+      "importance": "low"
+    },
+    {
+      "name": "法国（1830年代）",
+      "type": "place",
+      "context": "《红与黑》故事发生地，贵族制瓦解、中产阶级崛起的变迁社会",
+      "importance": "high"
+    },
+    {
+      "name": "主播的高中（美国小镇）",
+      "type": "place",
+      "context": "主播参加四年教堂合唱团的地方，被比作托克维尔描绘的美国",
+      "importance": "medium"
+    },
+    {
+      "name": "芝大（芝加哥大学）",
+      "type": "place",
+      "context": "主播发现卡尔婚内出轨证据的地点",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65fdebe62d9eae5d0a79969c",
+  "title": "39-《红与黑》解析2 为什么市长夫人要和穷小子出轨偷情？"
+}

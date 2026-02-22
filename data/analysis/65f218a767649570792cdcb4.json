@@ -1,0 +1,265 @@
+{
+  "style": {
+    "opening_pattern": "以核心问题直接引入，通过对比两个社交媒体平台（推特与小红书）抛出争议性议题",
+    "structure": "案例批判→理论铺垫→反证分析→正面案例探讨→个人经历佐证→商业逻辑解释→总结反思",
+    "tone": "理性思辨、温和坚定，带有个人经验色彩的知识分子式论述",
+    "catchphrases": [
+      "口说无凭",
+      "茁壮成长",
+      "鬼魅魍魉妖魔鬼怪",
+      "用脚投票",
+      "Vote with your feet",
+      "necessary price",
+      "烂人",
+      "阴暗的键盘侠"
+    ],
+    "closing_pattern": "开放式总结，邀请听众在评论区文明探讨",
+    "narrative_techniques": [
+      "对比论证（推特vs小红书）",
+      "个人经历叙事（知乎遭遇、小红书体验）",
+      "设问引导",
+      "具体案例举证",
+      "理论引用（密尔《论自由》）",
+      "商业逻辑推演"
+    ]
+  },
+  "entities": [
+    {
+      "name": "约翰·斯图尔特·密尔（John Stuart Mill）",
+      "type": "person",
+      "context": "被引用来支持言论自由理论，但其观点被主播认为在现实中（如推特）并未带来预期的文明对话",
+      "importance": "high"
+    },
+    {
+      "name": "埃隆·马斯克（Elon Musk）",
+      "type": "person",
+      "context": "收购推特后推行极端言论自由政策，成为主播批判的核心案例",
+      "importance": "high"
+    },
+    {
+      "name": "梅根·凯利（Megan Kelly）",
+      "type": "person",
+      "context": "福克斯电视台前主持人，因马斯克收购推特而得以重返平台发声的保守派媒体人代表",
+      "importance": "medium"
+    },
+    {
+      "name": "塔克·卡尔森（Tucker Carlson）",
+      "type": "person",
+      "context": "福克斯电视台前主持人，同样因推特政策变化而受益的保守派媒体人",
+      "importance": "medium"
+    },
+    {
+      "name": "罗恩·德桑蒂斯（Ron DeSantis）",
+      "type": "person",
+      "context": "佛罗里达州州长，其竞选策略被用来说明推特上男权亚文化已壮大到影响政治的程度",
+      "importance": "medium"
+    },
+    {
+      "name": "去妹",
+      "type": "person",
+      "context": "小红书博主，因讨论强奸镜头拍摄方式而被禁言7天，引发本次播客讨论的导火索事件",
+      "importance": "high"
+    },
+    {
+      "name": "去妹王两",
+      "type": "person",
+      "context": "公众号作者，撰写《女性困在小红书审核》一文，提出小红书背刺女性的批评观点",
+      "importance": "high"
+    },
+    {
+      "name": "老乡哥",
+      "type": "person",
+      "context": "主播朋友，向主播转发引发讨论的文章",
+      "importance": "low"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "主播朋友，同样转发文章并与主播讨论小红书男女粉丝比例问题",
+      "importance": "low"
+    },
+    {
+      "name": "苏老师",
+      "type": "person",
+      "context": "主播虚构的'中年妇女'形象，用于说明引战内容如何降低用户消费欲望",
+      "importance": "low"
+    },
+    {
+      "name": "《论自由》",
+      "type": "work",
+      "context": "密尔的经典著作，主播详细引用其中关于思想自由的观点，但指出其在社交媒体现实中的局限性",
+      "importance": "high"
+    },
+    {
+      "name": "小红书",
+      "type": "organization",
+      "context": "作为'和谐管控'的典型案例，主播肯定其友善社区氛围但也批评其对女性议题的过度审核",
+      "importance": "high"
+    },
+    {
+      "name": "推特（Twitter/X）",
+      "type": "organization",
+      "context": "作为'极端放任自由'的反面教材，主播用大量观察证明无管控导致仇恨言论泛滥",
+      "importance": "high"
+    },
+    {
+      "name": "知乎",
+      "type": "organization",
+      "context": "主播早期创作平台，因涌入低素质男性用户导致骚扰泛滥而成为负面案例",
+      "importance": "medium"
+    },
+    {
+      "name": "微博",
+      "type": "organization",
+      "context": "被提及为与知乎类似、充斥人身攻击的社交平台",
+      "importance": "low"
+    },
+    {
+      "name": "Facebook/脸书",
+      "type": "organization",
+      "context": "被用作说明西方社交媒体也有社会话题审核机制的例子，同时展示拼多多广告评论区现象",
+      "importance": "medium"
+    },
+    {
+      "name": "Instagram",
+      "type": "organization",
+      "context": "被提及与小红书类似，会过滤引战敏感词",
+      "importance": "low"
+    },
+    {
+      "name": "TikTok",
+      "type": "organization",
+      "context": "同样被提及有引战内容审核机制",
+      "importance": "low"
+    },
+    {
+      "name": "拼多多/Temu",
+      "type": "organization",
+      "context": "海外扩张案例，其广告在Facebook上遭遇评论区攻击，反衬小红书和谐评论区的商业价值",
+      "importance": "medium"
+    },
+    {
+      "name": "蒙牛",
+      "type": "organization",
+      "context": "被假设为例子，说明小红书不可能出现品牌广告下出现负面历史讨论的情况",
+      "importance": "low"
+    },
+    {
+      "name": "雅诗兰黛",
+      "type": "organization",
+      "context": "被用作例子说明愉悦体验如何促进广告转化",
+      "importance": "low"
+    },
+    {
+      "name": "福克斯电视台（Fox News）",
+      "type": "organization",
+      "context": "梅根·凯利和塔克·卡尔森的前雇主，代表美国保守派媒体势力",
+      "importance": "low"
+    },
+    {
+      "name": "言论自由/极端放任自由",
+      "type": "concept",
+      "context": "播客核心辩论概念之一，主播通过推特案例论证其无法自动带来文明对话",
+      "importance": "high"
+    },
+    {
+      "name": "和谐管控/审核机制",
+      "type": "concept",
+      "context": "另一核心概念，主播承认其维护友善环境的价值，但警惕其对严肃议题的压制",
+      "importance": "high"
+    },
+    {
+      "name": "政治正确",
+      "type": "concept",
+      "context": "被多次提及，既是西方社交媒体审核的依据，也是推特上男权群体声称反抗的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "女性主义/女权主义",
+      "type": "concept",
+      "context": "贯穿全文的讨论主题，主播关注其在不同平台生态中的表达空间",
+      "importance": "high"
+    },
+    {
+      "name": "男权/恐女",
+      "type": "concept",
+      "context": "主播观察到在推特上'茁壮成长'的亚文化群体，成为放任自由负面后果的证据",
+      "importance": "high"
+    },
+    {
+      "name": "仇恨言论/歧视性言论",
+      "type": "concept",
+      "context": "小红书对去妹等博主的禁言理由，主播质疑其定义被滥用",
+      "importance": "medium"
+    },
+    {
+      "name": "引战",
+      "type": "concept",
+      "context": "平台算法工程师视角下的关键概念，解释为何平台要过滤争议性内容",
+      "importance": "high"
+    },
+    {
+      "name": "必要的代价（necessary price）",
+      "type": "concept",
+      "context": "主播提出的选择：容忍骚扰以换取自由，还是接受管制以换取友善",
+      "importance": "medium"
+    },
+    {
+      "name": "用脚投票（Vote with your feet）",
+      "type": "concept",
+      "context": "自由主义者的典型回应，主播承认自己正是这样做的（离开知乎选择小红书）",
+      "importance": "medium"
+    },
+    {
+      "name": "马斯克收购推特",
+      "type": "event",
+      "context": "2022-2023年的重大商业事件，主播观察到的社交媒体生态转折点",
+      "importance": "high"
+    },
+    {
+      "name": "2008年三聚氰胺事件",
+      "type": "event",
+      "context": "被用作假设例子，说明小红书不可能允许此类品牌负面历史出现在广告评论区",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "主播居住地，提供观察推特生态的第一手视角",
+      "importance": "medium"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "小红书的运营所在地，主播强调中文语境中缺乏'完全放任自由'的经验",
+      "importance": "medium"
+    },
+    {
+      "name": "摩洛哥",
+      "type": "place",
+      "context": "主播知乎时期发布照片的地点，该照片引发小腿打分骚扰",
+      "importance": "low"
+    },
+    {
+      "name": "秘鲁",
+      "type": "place",
+      "context": "主播知乎文章中提到的参加总统宣誓典礼的地点",
+      "importance": "low"
+    },
+    {
+      "name": "山东",
+      "type": "place",
+      "context": "一位评论者所在地，其关于性别思维差异的问题被小红书屏蔽",
+      "importance": "low"
+    },
+    {
+      "name": "佛罗里达州",
+      "type": "place",
+      "context": "罗恩·德桑蒂斯担任州长的地区",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65f218a767649570792cdcb4",
+  "title": "36-女性议题在和谐管控之下还是在放任自由之下才可以得到更好的讨论？推特vs.小红书"
+}

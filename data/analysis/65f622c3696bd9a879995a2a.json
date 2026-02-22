@@ -1,0 +1,193 @@
+{
+  "style": {
+    "opening_pattern": "以听众可能的疑问引入（回应上期播客），提出核心问题",
+    "structure": "个人故事→理论引入→自我剖析→实践方法→总结升华",
+    "tone": "轻松幽默、自嘲坦诚、理性分析中带有个人色彩",
+    "catchphrases": [
+      "恶之花结出善果",
+      "阴暗的愉悦感",
+      "小区大妈免费领鸡蛋的快乐",
+      "毒蘑菇",
+      "绽放的火烈鸟",
+      "鬼鬼祟祟",
+      "咬牙切齿",
+      "我就是那种人"
+    ],
+    "closing_pattern": "开放式结尾，提及未展开的话题并自嘲放弃",
+    "narrative_techniques": [
+      "类比",
+      "举例",
+      "对比",
+      "自嘲",
+      "引用",
+      "场景描绘"
+    ]
+  },
+  "entities": [
+    {
+      "name": "小花",
+      "type": "person",
+      "context": "主播在美国高中的室友，白人上层阶级女孩，从小养成运动习惯的代表人物",
+      "importance": "high"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "主播的中国朋友，身体技能出色，校队攀岩队长，主播曾试图模仿其运动习惯",
+      "importance": "medium"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "17世纪英国哲学家，提出私欲是社会进步源泉的观点，被主播用来类比自己的运动哲学",
+      "importance": "high"
+    },
+    {
+      "name": "曼德维尔（Mandeville）",
+      "type": "person",
+      "context": "英国哲学家，《蜜蜂的预言》作者，提出'私恶即公益'的悖论，是本期播客的核心理论来源",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "提出amour-propre（爱慕虚荣）是万恶之源，主播引用其观点但选择反向利用",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "德国哲学家，在结尾被提及会批判主播这种'腐败'的运动心态",
+      "importance": "low"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "德国哲学家，与亚里士多德一起被提及为'减肥逻辑'的代表，结尾再次被提及代表德国式意志哲学",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "古希腊哲学家，其'古典美德'概念被用来描述理想化的运动热爱状态",
+      "importance": "medium"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "德国哲学家，结尾被简单提及为代表钢铁意志哲学的代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "福楼拜",
+      "type": "person",
+      "context": "19世纪法国作家，主播自嘲自己若放纵虚荣会变成他笔下爱慕虚荣的中产阶级角色",
+      "importance": "low"
+    },
+    {
+      "name": "斯汤达",
+      "type": "person",
+      "context": "19世纪法国作家，与福楼拜、巴尔扎克并列被提及",
+      "importance": "low"
+    },
+    {
+      "name": "巴尔扎克",
+      "type": "person",
+      "context": "19世纪法国作家，与福楼拜、斯汤达并列被提及",
+      "importance": "low"
+    },
+    {
+      "name": "林杨小姐",
+      "type": "person",
+      "context": "小花撞见的主播前夫出轨对象，仅在背景故事中提及",
+      "importance": "low"
+    },
+    {
+      "name": "《蜜蜂的寓言》（Fable of the Bees）",
+      "type": "work",
+      "context": "曼德维尔的诗作，提出'私恶即公益'的核心悖论，是本期播客的理论基础",
+      "importance": "high"
+    },
+    {
+      "name": "《利维坦》",
+      "type": "work",
+      "context": "霍布斯的政治哲学著作，主播提及以说明霍布斯的道德观",
+      "importance": "medium"
+    },
+    {
+      "name": "《超越善恶的彼岸》",
+      "type": "work",
+      "context": "尼采的著作，结尾被提及其中尼采攻击英国哲学的章节",
+      "importance": "low"
+    },
+    {
+      "name": "曼德维尔悖论",
+      "type": "concept",
+      "context": "核心概念：私欲和个人恶行恰恰是社会繁荣的能源，被主播应用于个人运动习惯的养成",
+      "importance": "high"
+    },
+    {
+      "name": "amour-propre（爱慕虚荣/自爱）",
+      "type": "concept",
+      "context": "卢梭提出的概念，被认为是万恶之源，但主播选择利用它作为运动动力",
+      "importance": "high"
+    },
+    {
+      "name": "Selbst-Überwindung（自我征服）",
+      "type": "concept",
+      "context": "德国哲学概念，代表用钢铁意志克服软弱，主播自嘲无法做到而选择'腐败'的英国方式",
+      "importance": "medium"
+    },
+    {
+      "name": "古典美德",
+      "type": "concept",
+      "context": "亚里士多德式的理想状态，将运动视为自然欲望的一部分，主播认为中国人目前难以达到",
+      "importance": "medium"
+    },
+    {
+      "name": "资本主义自由市场",
+      "type": "concept",
+      "context": "被关联到曼德维尔思想，主播提及左派对其批评但迅速转回运动话题",
+      "importance": "low"
+    },
+    {
+      "name": "Calisthenics",
+      "type": "concept",
+      "context": "街头健身/徒手训练，主播的运动小分队讨论的视频内容",
+      "importance": "low"
+    },
+    {
+      "name": "马拉松",
+      "type": "event",
+      "context": "主播后来开始参与的运动项目，标志其运动习惯的转变",
+      "importance": "medium"
+    },
+    {
+      "name": "奥林匹克",
+      "type": "event",
+      "context": "古希腊传承至今的运动赛事，被用来说明运动在古典文明中的重要性",
+      "importance": "low"
+    },
+    {
+      "name": "美国高中",
+      "type": "place",
+      "context": "主播观察美国上层阶级运动文化的场所，也是她社交焦虑的来源地",
+      "importance": "high"
+    },
+    {
+      "name": "波士顿",
+      "type": "place",
+      "context": "小花家所在城市区域，红袜子队教练住在她家对面",
+      "importance": "low"
+    },
+    {
+      "name": "五朵金花",
+      "type": "organization",
+      "context": "主播建立的中国女生运动小分队微信群名称",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65f622c3696bd9a879995a2a",
+  "title": "37-懒惰的人如何找到天天锻炼的动力？曼德维尔悖论"
+}

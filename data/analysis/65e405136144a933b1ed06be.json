@@ -1,0 +1,156 @@
+{
+  "style": {
+    "opening_pattern": "以社会现象观察引入，描述年轻人普遍存在的矛盾心理状态",
+    "structure": "现象观察→东西方对比→哲学分析→个人经验→结论升华",
+    "tone": "理性客观中带亲切感，既有学术分析的深度，又有生活化的口语表达",
+    "catchphrases": [
+      "狗活每一天",
+      "保持稳定发疯",
+      "破防",
+      "那很明显",
+      "榜眼哥",
+      "让我控制住我自己",
+      "我不知道大家有没有意识到",
+      "这是一个很有意思的小插曲"
+    ],
+    "closing_pattern": "引用卢梭名言进行哲学升华，将个人成长与公民责任相联系",
+    "narrative_techniques": [
+      "类比（婴儿暴君、藏羚羊）",
+      "对比（中美社会、东西方教育）",
+      "举例（小表妹、二妹、巴勒斯坦妹子）",
+      "反问",
+      "自我纠正"
+    ]
+  },
+  "entities": [
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "18世纪日内瓦哲学家，其著作《爱弥儿》中关于欲望与能力不平衡的观点被用来解释现代人焦虑攀比的根源",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "其关于婴儿是潜在成年人的观点被卢梭反驳",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "《理想国》中关于教育正义公民的观点被卢梭对比，卢梭主张先培养完整的人再谈公民责任",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "其著作标题\"看那是一个人\"被用来形容看到他人突破身体极限时的赞叹之情",
+      "importance": "low"
+    },
+    {
+      "name": "孙俪",
+      "type": "person",
+      "context": "作为分享瑜伽练习的明星例子，说明中国网络上对公众人物运动成果的攀比性嘲讽",
+      "importance": "low"
+    },
+    {
+      "name": "杨丞琳",
+      "type": "person",
+      "context": "同上，作为分享瑜伽体式的明星例子",
+      "importance": "low"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "卢梭的教育哲学著作，核心观点是现代人痛苦源于欲望与能力的不匹配，播客以此为基础提出停止焦虑攀比的方法",
+      "importance": "high"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图的著作，卢梭在《爱弥儿》中暗指其教育目标是将人培养成正义公民",
+      "importance": "medium"
+    },
+    {
+      "name": "欲望与能力的不匹配",
+      "type": "concept",
+      "context": "卢梭提出的核心概念，认为现代人痛苦的根源在于欲望过大而能力不足，解决之道是 either 增强能力 or 减少欲望",
+      "importance": "high"
+    },
+    {
+      "name": "Gentle Parenting",
+      "type": "concept",
+      "context": "美国流行的育儿理论，代表鼓励式教育，与中国的打压式教育形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "松弛感",
+      "type": "concept",
+      "context": "中国互联网流行语，代表拒绝焦虑攀比的生活态度之一",
+      "importance": "medium"
+    },
+    {
+      "name": "躺平",
+      "type": "concept",
+      "context": "中国互联网流行语，代表退出竞争、拒绝攀比的生活方式",
+      "importance": "medium"
+    },
+    {
+      "name": "双减",
+      "type": "event",
+      "context": "中国教育政策，导致补课费用上涨，反而加剧了教育不公平",
+      "importance": "medium"
+    },
+    {
+      "name": "日本90年代通缩",
+      "type": "event",
+      "context": "被用来类比东方社会对攀比的自救式反应，催生了\"宅男\"文化",
+      "importance": "medium"
+    },
+    {
+      "name": "加州取消公立学校理科精英班",
+      "type": "event",
+      "context": "美国系统性拒绝攀比的例子，但导致结果不公平，亚裔学生比例过高的问题被回避而非解决",
+      "importance": "medium"
+    },
+    {
+      "name": "纽约市精英公立高中取消入学考试",
+      "type": "event",
+      "context": "改为抽签制，同样体现美国系统性拒绝攀比但带来更大不公",
+      "importance": "medium"
+    },
+    {
+      "name": "纽约马拉松",
+      "type": "event",
+      "context": "世界六大马拉松之一，朋友二妹参加的比赛",
+      "importance": "low"
+    },
+    {
+      "name": "日内瓦",
+      "type": "place",
+      "context": "卢梭的实际出生地，播客中特意纠正以避免\"榜眼哥\"批评",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "作为西方社会的代表，与中国/日本形成系统性 vs 个人性拒绝攀比的对比",
+      "importance": "high"
+    },
+    {
+      "name": "日本",
+      "type": "place",
+      "context": "作为东方社会的代表，90年代出现\"宅男\"文化作为对攀比的自救反应",
+      "importance": "medium"
+    },
+    {
+      "name": "麻省理工（MIT）",
+      "type": "organization",
+      "context": "播客主朋友的本科就读学校，该朋友毕业于纽约精英公立高中",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65e405136144a933b1ed06be",
+  "title": "32-怎么停止焦虑的攀比？"
+}
