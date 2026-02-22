@@ -1,0 +1,47 @@
+name: Build Knowledge Base
+
+on:
+  workflow_dispatch:
+
+env:
+  MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+  MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -e . modal
+
+      - name: K-003 Aggregate entities
+        run: python scripts/aggregate_entities.py
+
+      - name: K-006 Chunk texts
+        run: python scripts/chunk_texts.py
+
+      - name: D-020 Aggregate style
+        run: python scripts/aggregate_style.py
+
+      - name: K-007+K-008 Build FAISS index
+        run: python scripts/build_faiss.py
+
+      - name: Commit knowledge base
+        run: |
+          git config user.name "podcast-pipeline[bot]"
+          git config user.email "bot@podcast-pipeline.local"
+          git add data/knowledge/
+          if ! git diff --cached --quiet; then
+            git commit -m "knowledge: build entity db + FAISS index + style profile [auto]"
+            git pull --rebase origin main || true
+            git push origin main
+          fi
