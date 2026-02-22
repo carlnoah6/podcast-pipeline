@@ -1,0 +1,285 @@
+{
+  "style": {
+    "opening_pattern": "以系列回顾引入，先提及往期内容（阿伦特评价海德格尔、布莱希特、本雅明），再引出本期主题人物茨威格，形成对比张力",
+    "structure": "背景介绍→作品简介→核心文本逐段解读→历史语境扩展→理论分析（帝国主义与政体合法性）→类比论证（伏尔泰与中国）→回到文本深化批判→总结收束",
+    "tone": "犀利毒舌中带有学术严谨，口语化表达与深度分析交织，兼具知识分子的批判锋芒和播客的亲和力",
+    "catchphrases": [
+      "锐评",
+      "毒舌",
+      "拎不清",
+      "后知后觉是一种耻辱",
+      "太平的黄金时代",
+      "但是但是但是但是但是但是但是但是",
+      "神往——对吧那谁，我点名了",
+      "哇塞",
+      "就对我来说",
+      "不好意思说岔了"
+    ],
+    "closing_pattern": "引用编辑与阿伦特的后续通信作为收尾，既回应可能的质疑，又强化核心论点，最后简短告别",
+    "narrative_techniques": [
+      "类比（波西米亚风情与当代文艺青年、伏尔泰浪漫化中国与茨威格浪漫化维也纳）",
+      "反问（多次使用'为什么他提都不提卡夫卡和布莱希特呢？'）",
+      "举例（厨娘为女高音流泪、理查德·施特劳斯事件）",
+      "对比（茨威格的'黄金时代'与阿伦特引用的政治现实描述）",
+      "引用原文逐句批驳",
+      "自我指涉（提及自己的翻译计划、个人阅读体验）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "汉娜·阿伦特（Hannah Arendt）",
+      "type": "person",
+      "context": "书评作者，对茨威格《昨日的世界》进行严厉批判，指出其后知后觉、追求名望、脱离政治等问题",
+      "importance": "high"
+    },
+    {
+      "name": "斯特凡·茨威格（Stefan Zweig）",
+      "type": "person",
+      "context": "《昨日的世界》作者，被阿伦特批评为对政治灾难后知后觉、沉迷于名望和文化精英主义的知识分子典型",
+      "importance": "high"
+    },
+    {
+      "name": "《昨日的世界：一个欧洲人的回忆》（Die Welt von Gestern）",
+      "type": "work",
+      "context": "茨威格的遗作回忆录，被阿伦特1943年书评严厉批判，在中文世界极受文艺青年推崇",
+      "importance": "high"
+    },
+    {
+      "name": "马丁·海德格尔（Martin Heidegger）",
+      "type": "person",
+      "context": "往期播客中讨论过阿伦特如何评价他，与阿伦特有私交",
+      "importance": "medium"
+    },
+    {
+      "name": "贝托尔特·布莱希特（Bertolt Brecht）",
+      "type": "person",
+      "context": "往期播客讨论对象，被阿伦特视为战后德语文明最伟大诗人之一，却被茨威格在书中完全忽视",
+      "importance": "medium"
+    },
+    {
+      "name": "瓦尔特·本雅明（Walter Benjamin）",
+      "type": "person",
+      "context": "与阿伦特有生死之交，自杀前将手稿托付给阿伦特",
+      "importance": "medium"
+    },
+    {
+      "name": "弗朗茨·卡夫卡（Franz Kafka）",
+      "type": "person",
+      "context": "被阿伦特指出是茨威格忽视的战后德语文明最伟大诗人之一，因生前未获名望而未被茨威格提及",
+      "importance": "medium"
+    },
+    {
+      "name": "理查德·施特劳斯（Richard Strauss）",
+      "type": "person",
+      "context": "作曲家，1935年上演茨威格编剧的歌剧《沉默的女人》，茨威格对其表示感激，被阿伦特批评为不斗争而沉默",
+      "importance": "medium"
+    },
+    {
+      "name": "雨果·冯·霍夫曼斯塔尔（Hugo von Hofmannsthal）",
+      "type": "person",
+      "context": "奥地利现代主义文学家，被提及也陷入对戏剧的狂热，相信维也纳人热爱戏剧出于雅典式公民精神",
+      "importance": "medium"
+    },
+    {
+      "name": "伏尔泰（Voltaire）",
+      "type": "person",
+      "context": "被用作类比，其对中国的浪漫化想象与茨威格对维也纳犹太文化的浪漫化相似",
+      "importance": "medium"
+    },
+    {
+      "name": "孟德斯鸠（Montesquieu）",
+      "type": "person",
+      "context": "其《论法的精神》首次逆转了欧洲对中国的浪漫化想象",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔（Hegel）",
+      "type": "person",
+      "context": "延续了孟德斯鸠对中国专制制度的负面评价",
+      "importance": "low"
+    },
+    {
+      "name": "弗里德里希·尼采（Friedrich Nietzsche）",
+      "type": "person",
+      "context": "被提及讨论过悲剧的狂热，关联到另一期播客内容",
+      "importance": "low"
+    },
+    {
+      "name": "歌德（Goethe）",
+      "type": "person",
+      "context": "被茨威格一代犹太青年视为天才化身和模仿对象",
+      "importance": "low"
+    },
+    {
+      "name": "伦勃朗（Rembrandt）",
+      "type": "person",
+      "context": "被提及为犹太青年绘画天才试图成为的对象",
+      "importance": "low"
+    },
+    {
+      "name": "贝多芬（Beethoven）",
+      "type": "person",
+      "context": "被提及为犹太音乐爱好者试图成为的对象",
+      "importance": "low"
+    },
+    {
+      "name": "妖果老师",
+      "type": "person",
+      "context": "主播提及的朋友，与其喜欢讨论欧洲思想史对中国的运用",
+      "importance": "low"
+    },
+    {
+      "name": "另取之远",
+      "type": "person",
+      "context": "被主播点名调侃，代表对茨威格笔下知识分子文化共同体'神往'的中文文艺青年",
+      "importance": "low"
+    },
+    {
+      "name": "《极权主义的起源》（The Origins of Totalitarianism）",
+      "type": "work",
+      "context": "阿伦特自己的著作，其中对帝国主义的分析与她对茨威格时代的批判相关联",
+      "importance": "medium"
+    },
+    {
+      "name": "《沉默的女人》（Die schweigsame Frau）",
+      "type": "work",
+      "context": "理查德·施特劳斯1935年创作的歌剧，剧本由茨威格撰写，在纳粹德国上演时面临政治阻力",
+      "importance": "medium"
+    },
+    {
+      "name": "《孟德斯鸠论法的精神》",
+      "type": "work",
+      "context": "首次逆转欧洲对中国浪漫化想象的重要著作",
+      "importance": "low"
+    },
+    {
+      "name": "帝国主义（Imperialism）",
+      "type": "concept",
+      "context": "阿伦特分析的核心概念，认为欧洲国家忙于经济扩张而忽视政体合法性问题，最终导致灾难",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙专制制度（Enlightened Despotism）",
+      "type": "concept",
+      "context": "伏尔泰对中国制度的理想化描述，被主播用来类比茨威格对维也纳文化的浪漫化",
+      "importance": "medium"
+    },
+    {
+      "name": "波西米亚风情/波西米亚主义（Bohemianism）",
+      "type": "concept",
+      "context": "被阿伦特批判为资产阶级子弟逃避父母庇护的镜像，名流社会的另一种形式",
+      "importance": "medium"
+    },
+    {
+      "name": "明星文化/名人文化（Celebrity Culture）",
+      "type": "concept",
+      "context": "阿伦特对维也纳戏剧狂热的诊断，认为其预先昭告了好莱坞的崛起，而非古典文艺复兴",
+      "importance": "high"
+    },
+    {
+      "name": "名望（Fame）",
+      "type": "concept",
+      "context": "阿伦特批判的核心，认为茨威格一代犹太人将对伟大的崇拜实际转化为对名望的贪婪追求",
+      "importance": "high"
+    },
+    {
+      "name": "反犹主义（Antisemitism）",
+      "type": "concept",
+      "context": "阿伦特指出其在19世纪80年代已进入沙龙，茨威格却直到1933年才如梦初醒",
+      "importance": "medium"
+    },
+    {
+      "name": "无国籍状态（Statelessness）",
+      "type": "concept",
+      "context": "茨威格最终面临的处境，阿伦特后来深入研究的议题",
+      "importance": "medium"
+    },
+    {
+      "name": "Menorah杂志",
+      "type": "organization",
+      "context": "发表阿伦特书评英文节选的期刊",
+      "importance": "low"
+    },
+    {
+      "name": "哈布斯堡王朝",
+      "type": "organization",
+      "context": "被描述为腐败官僚体系的过时政权，支撑茨威格所谓'黄金时代'",
+      "importance": "medium"
+    },
+    {
+      "name": "第三共和国",
+      "type": "organization",
+      "context": "法国当时危机重重却依旧维持的政体",
+      "importance": "low"
+    },
+    {
+      "name": "容克政权",
+      "type": "organization",
+      "context": "德国被自由派资产阶级和工人阶级同时憎恨的军事和思想破产政权",
+      "importance": "low"
+    },
+    {
+      "name": "维也纳",
+      "type": "place",
+      "context": "茨威格笔下'昨日的世界'的核心，奥匈帝国晚期自由人文主义文化的代表城市",
+      "importance": "high"
+    },
+    {
+      "name": "奥地利",
+      "type": "place",
+      "context": "茨威格的祖国，被阿伦特指出失业之苦远超其他欧洲国家，却被茨威格完全忽视",
+      "importance": "medium"
+    },
+    {
+      "name": "斯德哥尔摩",
+      "type": "place",
+      "context": "茨威格去世后《昨日的世界》出版地",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "阿伦特1943年撰写书评时刚刚抵达的地方，当时她还不会英语",
+      "importance": "low"
+    },
+    {
+      "name": "萨尔斯堡",
+      "type": "place",
+      "context": "茨威格在此收集来宾簿中的名人签名，被阿伦特作为其虚荣心的证据",
+      "importance": "low"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "被伏尔泰浪漫化的对象，主播用以类比茨威格对维也纳的描绘",
+      "importance": "medium"
+    },
+    {
+      "name": "第一次世界大战",
+      "type": "event",
+      "context": "茨威格回忆录追溯的核心历史节点，精神结构崩塌的开端",
+      "importance": "medium"
+    },
+    {
+      "name": "1933年希特勒登台",
+      "type": "event",
+      "context": "彻底改变茨威格个人生活的政治事件，但未能改变其价值尺度",
+      "importance": "medium"
+    },
+    {
+      "name": "1942年茨威格自杀",
+      "type": "event",
+      "context": "茨威格生命的终点，《昨日的世界》成为遗作",
+      "importance": "medium"
+    },
+    {
+      "name": "大规模失业",
+      "type": "event",
+      "context": "战后最可怕、最具决定性的事件之一，被茨威格完全忽视",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6987b026a22480add6080766",
+  "title": "301-阿伦特如何痛骂茨威格？"
+}

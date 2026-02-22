@@ -1,0 +1,158 @@
+{
+  "style": {
+    "opening_pattern": "直接切入主题，从反驳'强调女性特殊需求是弱化女性'的社会建构论观点开始，立即提出'男女身体差异'的核心议题",
+    "structure": "反驳立论→生理机制阐述（雌激素、骨密度）→长期后果预警（更年期爆发）→解决方案（力量训练）→伦理呼吁（尊重中老年女性）→行动指令",
+    "tone": "理性客观但带有强烈的关怀与警示意味，严肃深沉，兼具科学教育性与'骂醒'口吻，对年轻女性既有批评也有保护欲",
+    "catchphrases": [
+      "事实就是",
+      "断崖式",
+      "月经紊乱",
+      "骨密度",
+      "雌激素",
+      "更年期",
+      "力量训练",
+      "身体记账",
+      "男女差异",
+      "像女人一样运动"
+    ],
+    "closing_pattern": "总结核心观点（不要追求低体脂、必须做力量训练）+情感升华（'把强壮当做底线，把力量当做尊严'）+行动号召（'从今天开始像女人一样运动'）+告别",
+    "narrative_techniques": [
+      "对比（男女生理差异、年轻与中老年女性、专业运动员与普通人）",
+      "类比（运动是长期合同、身体记账、更年期是地狱模式）",
+      "个人经历与观察（母亲作为医生、各地瑜伽馆体验、身边健身朋友案例）",
+      "引用专家（Stacey Sims及其著作观点）",
+      "反问与设问（'你能做几个俯卧撑？''你能坚持一分钟吗？'）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Stacey Sims",
+      "type": "person",
+      "context": "被引用为近十几年女性运动科学领域最重要的科学家之一，其著作提出'Women are not small men'（女人不是缩小版的男人）的观点",
+      "importance": "high"
+    },
+    {
+      "name": "母亲（讲述者的母亲）",
+      "type": "person",
+      "context": "作为面临更年期问题的医生，为播客提供了关于中老年女性患者的临床经验和现实观察",
+      "importance": "medium"
+    },
+    {
+      "name": "雌激素（雌性激素）",
+      "type": "concept",
+      "context": "被强调为女性运动健康中的核心激素，影响骨形成、肌肉恢复、结缔组织修复，其水平波动直接影响更年期健康",
+      "importance": "high"
+    },
+    {
+      "name": "睾酮（雄性激素）",
+      "type": "concept",
+      "context": "被描述为健身文化中过度关注的激素，与短期运动表现直接相关，但对女性长期健康的重要性被认为低于雌激素",
+      "importance": "medium"
+    },
+    {
+      "name": "骨密度",
+      "type": "concept",
+      "context": "作为女性运动健康的核心指标，强调年轻时雌激素抑制导致的骨量流失会在更年期集中爆发，导致骨折风险",
+      "importance": "high"
+    },
+    {
+      "name": "力量训练",
+      "type": "concept",
+      "context": "被提出的核心解决方案，强调其不仅是健身房行为，而是可以在公园、家中进行的引体向上、俯卧撑等，目的是保护骨骼和关节",
+      "importance": "high"
+    },
+    {
+      "name": "更年期（绝经期）",
+      "type": "event",
+      "context": "被描述为女性必须直面的生理阶段（约45-55岁），雌激素断崖式下降会导致骨量流失、肌肉下降、代谢固化等问题",
+      "importance": "high"
+    },
+    {
+      "name": "体脂率",
+      "type": "concept",
+      "context": "被强烈批评的健身目标，指出追求过低体脂率对女性尤其危险，会导致内分泌不稳定、月经紊乱，代价在更年期显现",
+      "importance": "high"
+    },
+    {
+      "name": "结缔组织",
+      "type": "concept",
+      "context": "在播客中被提及的重要性，指雌激素影响下的组织修复能力，与运动损伤风险直接相关，在第269期播客中有详细讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "月经周期",
+      "type": "concept",
+      "context": "被提及作为女性训练需要调整的基础生理周期，与雌激素水平波动相关",
+      "importance": "medium"
+    },
+    {
+      "name": "低碳饮食/生酮饮食",
+      "type": "concept",
+      "context": "被批评为不适合女性的饮食法，指出男性可以承受的极端饮食对女性会导致月经失调",
+      "importance": "medium"
+    },
+    {
+      "name": "俯卧撑",
+      "type": "other",
+      "context": "被用作衡量女性基础力量的标准，指出能完成标准俯卧撑的女性在健身人群中仍属罕见",
+      "importance": "medium"
+    },
+    {
+      "name": "阿斯汤加（Ashtanga）",
+      "type": "other",
+      "context": "被提及的高阶瑜伽练习，讲述者观察到高阶练习者常出现臀部干瘪的现象",
+      "importance": "low"
+    },
+    {
+      "name": "HIIT（高强度间歇训练）",
+      "type": "other",
+      "context": "被Stacey Sims推崇的高效训练方式，但讲述者认为对普通人门槛过高",
+      "importance": "medium"
+    },
+    {
+      "name": "普拉提",
+      "type": "other",
+      "context": "被提及作为女性常选择的运动形式之一",
+      "importance": "low"
+    },
+    {
+      "name": "三大项",
+      "type": "other",
+      "context": "指深蹲、卧推、硬拉，被Stacey Sims推崇的健身房力量训练",
+      "importance": "medium"
+    },
+    {
+      "name": "波比跳",
+      "type": "other",
+      "context": "被用作测试基础体能的例子（做五个就红温）",
+      "importance": "low"
+    },
+    {
+      "name": "平板支撑",
+      "type": "other",
+      "context": "被建议作为入门训练动作",
+      "importance": "low"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "文本开头提及的支持栏目，可能是口播广告或合作方",
+      "importance": "low"
+    },
+    {
+      "name": "中国/中国社会",
+      "type": "place",
+      "context": "被特别指出的语境，强调中老年女性在此语境中缺乏支持且面临羞耻",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "讲述者提及在美国上课的经历，作为观察样本的一部分",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "695013702db086f8974b0b42",
+  "title": "284-如何像女人一样运动？"
+}

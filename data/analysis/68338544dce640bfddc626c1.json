@@ -1,0 +1,216 @@
+{
+  "style": {
+    "opening_pattern": "以赞助商广告引入，转入对00后小表妹做饭的观察，进而引出哲学思考",
+    "structure": "个人观察→哲学概念对比（笛卡尔vs亚里士多德）→烹饪实践对比→品味与审美反思→回归赞助商广告",
+    "tone": "轻松幽默、口语化、富有哲思、带有强烈的个人情感色彩",
+    "catchphrases": [
+      "炸厨房",
+      "00后小表妹",
+      "穷鬼套餐",
+      "喋喋不休",
+      "凭感觉",
+      "冷锅热油",
+      "反向歧视",
+      "异端",
+      "此酱油非彼酱油"
+    ],
+    "closing_pattern": "赞助商产品介绍+听众福利说明+告别",
+    "narrative_techniques": [
+      "类比（将做饭比作哲学体系）",
+      "对比（笛卡尔式与亚里士多德式）",
+      "个人轶事（与小表妹的争吵、与榜眼哥的争论）",
+      "反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "笛卡尔",
+      "type": "person",
+      "context": "作为现代哲学代表，其'清楚明晰的观念'被类比为遵循精确菜谱的烹饪方式",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "作为古代哲学代表，其基于'习俗'(nomos)的认知论被类比为依靠经验和感觉的烹饪方式",
+      "importance": "high"
+    },
+    {
+      "name": "00后小表妹",
+      "type": "person",
+      "context": "主播观察的对象，代表严格按照小红书菜谱做饭、拒绝经验替换的'笛卡尔式'年轻厨师",
+      "importance": "high"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "主播的朋友，与主播就上海菜甜度、馄饨正宗性等饮食差异发生争论",
+      "importance": "medium"
+    },
+    {
+      "name": "意大利大妈",
+      "type": "person",
+      "context": "被主播引为同道，代表依靠手感、经验和具体食材判断的'亚里士多德式'烹饪传统",
+      "importance": "medium"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "在讨论品味高低时被提及的作家，与雨果一起出现在往期播客评论中",
+      "importance": "low"
+    },
+    {
+      "name": "雨果",
+      "type": "person",
+      "context": "在讨论品味高低时被提及的作家",
+      "importance": "low"
+    },
+    {
+      "name": "清楚且明晰的观念 (idea clara et distincta)",
+      "type": "concept",
+      "context": "笛卡尔认识论的核心，被类比为精确、可量化、可复制的菜谱",
+      "importance": "high"
+    },
+    {
+      "name": "习俗/规范 (nomos)",
+      "type": "concept",
+      "context": "亚里士多德认识论的起点，指代通过代际传承、口耳相传的生活经验与规范",
+      "importance": "high"
+    },
+    {
+      "name": "认识论 (epistemology)",
+      "type": "concept",
+      "context": "关于认知的理论，主播用此框架分析两种烹饪哲学的根本差异",
+      "importance": "medium"
+    },
+    {
+      "name": "菜谱",
+      "type": "concept",
+      "context": "作为核心隐喻，代表笛卡尔式的精确规范，与亚里士多德式的'凭感觉'相对",
+      "importance": "high"
+    },
+    {
+      "name": "品味/审美",
+      "type": "concept",
+      "context": "主播讨论的核心议题之一，认为其空间在笛卡尔式科学思维统治下被压缩",
+      "importance": "high"
+    },
+    {
+      "name": "慢性炎症",
+      "type": "concept",
+      "context": "在赞助商产品（鱼油）介绍部分提及的健康概念",
+      "importance": "medium"
+    },
+    {
+      "name": "Omega-3脂肪酸",
+      "type": "concept",
+      "context": "赞助商产品（拜耳鱼油）的核心成分，被详细介绍其生理作用",
+      "importance": "medium"
+    },
+    {
+      "name": "龙井虾仁",
+      "type": "work",
+      "context": "主播用来阐述亚里士多德式烹饪观的典型例子，强调必须用新鲜河虾和好茶",
+      "importance": "high"
+    },
+    {
+      "name": "红烧肉",
+      "type": "work",
+      "context": "主播与小表妹争论的例子，关于使用日本酱油还是中国酱油的本质区别",
+      "importance": "high"
+    },
+    {
+      "name": "《政治学》",
+      "type": "work",
+      "context": "提及的亚里士多德著作",
+      "importance": "medium"
+    },
+    {
+      "name": "《伦理学》",
+      "type": "work",
+      "context": "提及的亚里士多德著作",
+      "importance": "medium"
+    },
+    {
+      "name": "《方法论》",
+      "type": "work",
+      "context": "提及的笛卡尔著作",
+      "importance": "medium"
+    },
+    {
+      "name": "杭州",
+      "type": "place",
+      "context": "主播读书的地方，龙井虾仁的原产地，代表特定的饮食文化",
+      "importance": "medium"
+    },
+    {
+      "name": "苏州",
+      "type": "place",
+      "context": "与无锡一起被提及为江浙沪菜系中最甜的地区",
+      "importance": "low"
+    },
+    {
+      "name": "无锡",
+      "type": "place",
+      "context": "与苏州一起被提及为江浙沪菜系中最甜的地区",
+      "importance": "low"
+    },
+    {
+      "name": "温州",
+      "type": "place",
+      "context": "主播提及的馄饨正宗性（温州小馄饨）",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "主播和00后小表妹目前居住的地方，也是观察发生的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "东海边",
+      "type": "place",
+      "context": "主播情感联结的地方，代表家乡和真正的'吃饱'的感觉",
+      "importance": "medium"
+    },
+    {
+      "name": "拜耳 (Bayer)",
+      "type": "organization",
+      "context": "本期播客的赞助商，德国药企，One A Day品牌的母公司",
+      "importance": "medium"
+    },
+    {
+      "name": "One A Day",
+      "type": "organization",
+      "context": "拜耳旗下的营养品牌，本期赞助产品水晶鱼油的出品方",
+      "importance": "medium"
+    },
+    {
+      "name": "麦当劳",
+      "type": "organization",
+      "context": "00后小表妹常吃的'穷鬼套餐'的来源",
+      "importance": "low"
+    },
+    {
+      "name": "康乐醋",
+      "type": "other",
+      "context": "主播极其喜爱的特定品牌醋，代表个人化的味觉记忆和习惯",
+      "importance": "medium"
+    },
+    {
+      "name": "穷鬼套餐",
+      "type": "other",
+      "context": "指麦当劳5美元套餐，代表工业化、标准化的快餐文化",
+      "importance": "medium"
+    },
+    {
+      "name": "日本酱油",
+      "type": "other",
+      "context": "与小表妹争论的焦点，代表被归类为'酱油'但本质不同的食材",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68338544dce640bfddc626c1",
+  "title": "216-笛卡尔和亚里士多德会分别如何做饭？"
+}

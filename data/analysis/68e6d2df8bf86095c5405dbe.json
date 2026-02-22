@@ -1,0 +1,144 @@
+{
+  "style": {
+    "opening_pattern": "以疲惫感和闲聊意愿引入，直接点明主题",
+    "structure": "现象描述→个人经历→三个层面的反思（生活内容化、名气的悖论、体量与平庸）→总结",
+    "tone": "坦诚自省、尖锐批判、带有防御性的幽默",
+    "catchphrases": [
+      "大脑呕吐物",
+      "汪汪汪的把主人吵死",
+      "关我屁事",
+      "轴到令人匪夷所思",
+      "口吐白沫拒绝沟通",
+      "谁红谁有理",
+      "你滚",
+      "拽"
+    ],
+    "closing_pattern": "开放式总结，强调一切好事都有代价的辩证观点",
+    "narrative_techniques": [
+      "自我贬抑与自夸交替",
+      "具体场景举例（朋友对话、读书会提问）",
+      "类比（训练有素的狗、衣服的使用品vs消费品）",
+      "对比（私人生活vs公共生活、弱者vs强者的拽）",
+      "引用哲学概念（阿伦特、亚里士多德）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "独树不成林",
+      "type": "work",
+      "context": "主播自己的播客节目，被称为'现象级播客'，是整集讨论的核心对象",
+      "importance": "high"
+    },
+    {
+      "name": "小宇宙",
+      "type": "organization",
+      "context": "播客平台，主播提到2024年1月在该平台只有8000订阅者，现在有48万",
+      "importance": "medium"
+    },
+    {
+      "name": "凤凰卫视",
+      "type": "organization",
+      "context": "主播为其录制战争纪录片，提到录节目时需要穿得庄严保守",
+      "importance": "medium"
+    },
+    {
+      "name": "看理想",
+      "type": "organization",
+      "context": "主播在北京与其做读书会时遇到一位00后小表妹的提问",
+      "importance": "medium"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "主播的朋友，在开车聊天时被主播用培根《新亚特兰蒂斯》的观点攻击打瘦脸针的欲望",
+      "importance": "medium"
+    },
+    {
+      "name": "绑眼哥",
+      "type": "person",
+      "context": "主播的朋友，评价主播的观点'可以做成一期播客'，引发主播对生活内容化的警惕",
+      "importance": "medium"
+    },
+    {
+      "name": "培根",
+      "type": "person",
+      "context": "哲学家，主播引用其《新亚特兰蒂斯》中科学家掌控自然的欲望来类比现代人改造身体的欲望",
+      "importance": "medium"
+    },
+    {
+      "name": "阿伦特",
+      "type": "person",
+      "context": "政治哲学家，主播引用其观点：爱本身不具备公共性质，进入公共领域的爱一定会变态",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "哲学家，主播引用其《伦理学》第三卷关于'拥有伟大灵魂的人'（麦格洛庞提斯）的讨论",
+      "importance": "high"
+    },
+    {
+      "name": "金·卡戴珊家族",
+      "type": "person",
+      "context": "被主播作为'仅仅因为被关注所以受关注'的现代网红现象最糟糕变体的例子",
+      "importance": "low"
+    },
+    {
+      "name": "新亚特兰蒂斯",
+      "type": "work",
+      "context": "培根的著作，主播用来类比现代人改造身体的欲望",
+      "importance": "medium"
+    },
+    {
+      "name": "伦理学",
+      "type": "work",
+      "context": "亚里士多德的著作，主播引用第三卷关于麦格洛庞提斯的内容",
+      "importance": "medium"
+    },
+    {
+      "name": "生活内容化",
+      "type": "concept",
+      "context": "主播极其厌恶的现象，指生活被转化为可供消费的内容，分为'观点内容化'和'生活彻底内容化'两个层面",
+      "importance": "high"
+    },
+    {
+      "name": "modus operandi",
+      "type": "concept",
+      "context": "拉丁语，指存在方式或运作方式，主播用来描述组织成长后被迫改变的模式",
+      "importance": "medium"
+    },
+    {
+      "name": "noblesse oblige",
+      "type": "concept",
+      "context": "法语，贵族职责，主播用来描述成功人士必须装谦卑的社会期待",
+      "importance": "medium"
+    },
+    {
+      "name": "UGC/PGC",
+      "type": "concept",
+      "context": "MCN机构常用的专业缩写，主播提到听到这些词会'口吐白沫拒绝沟通'",
+      "importance": "low"
+    },
+    {
+      "name": "50年代美国新保守主义运动",
+      "type": "event",
+      "context": "主播用来举例说明政治运动成长到一定规模后必须进入主流、改变姿态的规律",
+      "importance": "medium"
+    },
+    {
+      "name": "20世纪德国马克思主义运动",
+      "type": "event",
+      "context": "主播用来举例说明政治运动成长到一定规模后必须进入主流、改变姿态的规律",
+      "importance": "medium"
+    },
+    {
+      "name": "北京",
+      "type": "place",
+      "context": "主播在此与看理想做读书会，遇到00后小表妹的提问",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68e6d2df8bf86095c5405dbe",
+  "title": "261-成为现象级的播客如何威胁我的人格？"
+}

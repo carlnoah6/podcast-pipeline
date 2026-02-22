@@ -1,0 +1,114 @@
+{
+  "style": {
+    "opening_pattern": "直接抛出核心论点，以挑衅性对比引入主题",
+    "structure": "论点→对比分析→哲学深挖→现实例证→总结升华",
+    "tone": "犀利批判、理性中带激情、反讽与真诚交织",
+    "catchphrases": [
+      "训练所有的教养去祈求真理的眷顾",
+      "人造价值体系",
+      "自然价值体系",
+      "You can't take yourself too seriously",
+      "为了统治而统治",
+      "思想的傲慢",
+      "穿透不完美",
+      "人很可笑，但是人值得被笑着对待"
+    ],
+    "closing_pattern": "引用式总结，将核心观点凝练为一句具有普遍性的真理",
+    "narrative_techniques": [
+      "对比（学者vs喜剧演员、人造vs自然、抽象vs具体）",
+      "举例（陈佩斯、师门等级、美国脱口秀演员）",
+      "反问",
+      "类比",
+      "自我指涉（不排除自己）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "陈佩斯",
+      "type": "person",
+      "context": "作为成功喜剧演员的典范，被用来论证谦卑、接地气、热爱具体人的品质",
+      "importance": "high"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "被引用其'我家门前有两棵树'的例子来说明抽象化与命名的必要性",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "被指认为继承了德国观念论中将抽象人类人格化的倾向",
+      "importance": "medium"
+    },
+    {
+      "name": "祥林嫂",
+      "type": "person",
+      "context": "作为过度诉苦、丧失喜剧性的反面例子",
+      "importance": "low"
+    },
+    {
+      "name": "《陈佩斯喜剧反映出怎样的自由古典主义内核》",
+      "type": "work",
+      "context": "主播自己播客的第30期节目，用于支撑对陈佩斯小品分析的权威性",
+      "importance": "medium"
+    },
+    {
+      "name": "人造价值体系",
+      "type": "concept",
+      "context": "核心批判概念，指学界建立在比较、排名之上的非自然标准",
+      "importance": "high"
+    },
+    {
+      "name": "自然价值体系",
+      "type": "concept",
+      "context": "与前者对立，以笑声为唯一标准，趋于平等和谦卑",
+      "importance": "high"
+    },
+    {
+      "name": "批判性理论",
+      "type": "concept",
+      "context": "被批判为'为了统治而统治'的现代学术倾向，通过打倒权威建立新权威",
+      "importance": "high"
+    },
+    {
+      "name": "德国观念论",
+      "type": "concept",
+      "context": "被指认为将抽象人类人格化的哲学传统源头",
+      "importance": "medium"
+    },
+    {
+      "name": "人类的抽象化/具体的人的抽象化",
+      "type": "concept",
+      "context": "现代学术的基础操作，既是认知必要又被批判为导致对具体人的漠视",
+      "importance": "high"
+    },
+    {
+      "name": "抑郁症",
+      "type": "concept",
+      "context": "作为抽象化具体情绪的医学概念例子",
+      "importance": "low"
+    },
+    {
+      "name": "同性恋",
+      "type": "concept",
+      "context": "作为特殊群体被进一步抽象化的例子",
+      "importance": "low"
+    },
+    {
+      "name": "师门/师父/师母",
+      "type": "organization",
+      "context": "被批判为中国学界等级森严、人身依附关系的典型制度",
+      "importance": "medium"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "片头提到的赞助或合作方",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "697c25f8073030367a6c3c4a",
+  "title": "297-喜剧演员为何比学者更为高尚"
+}

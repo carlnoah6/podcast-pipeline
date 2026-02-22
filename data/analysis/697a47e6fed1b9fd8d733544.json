@@ -1,0 +1,297 @@
+{
+  "style": {
+    "opening_pattern": "以流行文化概念引入（Malcolm Gladwell的'一万小时定律'），迅速转向个人经历，建立共鸣点后提出核心主题",
+    "structure": "时间线叙事（0-100小时→250小时→250-750小时→750-1000小时）→阶段特征分析→社交维度拓展→跨地域/跨文化对比→哲学升华→产品植入收尾",
+    "tone": "真诚自省、平实亲切，带有知识分子的自我剖析气质，不回避脆弱时刻（离婚诉讼、身材焦虑），同时保持理性分析",
+    "catchphrases": [
+      "破瑜伽馆",
+      "甜蜜期",
+      "运动生活化",
+      "战歌一响",
+      "孔雀开屏",
+      "捅破窗户纸",
+      "量变发生质变",
+      "身体成为了我的陌生人",
+      "身体变累了我就不会心累了",
+      "像刷牙吃饭工作一样"
+    ],
+    "closing_pattern": "回归核心隐喻（身体作为朋友），用日常细节堆叠形成情感高潮，感谢赞助商后自然结束",
+    "narrative_techniques": [
+      "时间线分段对比",
+      "身体感受的具象化描写",
+      "城市人格化类比（上海=卷，成都=chill）",
+      "条件性反射/肌肉记忆的心理学解释",
+      "自嘲式幽默",
+      "赞助内容无缝融入叙事（耳机作为状态切换的仪式工具）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Malcolm Gladwell",
+      "type": "person",
+      "context": "《异类》作者，其'一万小时定律'被主播引用作为开场引子",
+      "importance": "low"
+    },
+    {
+      "name": "《异类》",
+      "type": "work",
+      "context": "2009年出版的畅销书，提出'一万小时刻意练习'成为专家的理论",
+      "importance": "low"
+    },
+    {
+      "name": "索尼音扣",
+      "type": "other",
+      "context": "索尼耳夹式耳机，作为运动伴侣和状态切换工具贯穿全文，是本期赞助商产品",
+      "importance": "high"
+    },
+    {
+      "name": "阿斯汤加",
+      "type": "concept",
+      "context": "瑜伽流派之一，主播初期不了解，后期参加大师班精进",
+      "importance": "medium"
+    },
+    {
+      "name": "流瑜伽",
+      "type": "concept",
+      "context": "瑜伽流派之一，与哈他、阿斯汤加并列被主播提及",
+      "importance": "low"
+    },
+    {
+      "name": "哈他",
+      "type": "concept",
+      "context": "瑜伽流派之一，主播初学时完全不了解的基础概念",
+      "importance": "low"
+    },
+    {
+      "name": "乌鸦式",
+      "type": "concept",
+      "context": "悬浮体式的入门动作，主播练了250节课才解锁的第一个中高级体式",
+      "importance": "high"
+    },
+    {
+      "name": "舞王抓脚",
+      "type": "concept",
+      "context": "高级后弯体式，主播在上海Y+被Evan Yang辅助完成第一个",
+      "importance": "medium"
+    },
+    {
+      "name": "康迪亚一式/二式",
+      "type": "concept",
+      "context": "手支撑高级体式，在'甜蜜期'解锁的动作",
+      "importance": "low"
+    },
+    {
+      "name": "蜻蜓式",
+      "type": "concept",
+      "context": "手支撑高级体式，基于乌鸦式的变体",
+      "importance": "low"
+    },
+    {
+      "name": "萤火虫式",
+      "type": "concept",
+      "context": "手支撑高级体式，基于乌鸦式的变体",
+      "importance": "low"
+    },
+    {
+      "name": "David Swenson",
+      "type": "person",
+      "context": "著名阿斯汤加大师，主播参加过他的大师班",
+      "importance": "medium"
+    },
+    {
+      "name": "Kino MacGregor",
+      "type": "person",
+      "context": "著名阿斯汤加大师，主播参加过她的训练",
+      "importance": "medium"
+    },
+    {
+      "name": "Mani Yoga",
+      "type": "organization",
+      "context": "上海瑜伽馆，被称为'黄埔军校'，主播与Yolanda老师成为朋友",
+      "importance": "medium"
+    },
+    {
+      "name": "Yolanda",
+      "type": "person",
+      "context": "Mani Yoga的老师，与主播成为朋友",
+      "importance": "low"
+    },
+    {
+      "name": "Y+瑜伽馆",
+      "type": "organization",
+      "context": "上海知名瑜伽馆，主播在此上Evan Yang的创意流课程",
+      "importance": "medium"
+    },
+    {
+      "name": "Evan Yang",
+      "type": "person",
+      "context": "Y+瑜伽馆著名老师，创意流创始人，辅助主播完成第一个舞王抓脚",
+      "importance": "medium"
+    },
+    {
+      "name": "鸿门",
+      "type": "organization",
+      "context": "上海高难度瑜伽馆，全员能做手倒立后弯，主播自称不敢去",
+      "importance": "low"
+    },
+    {
+      "name": "北京瑜伽院",
+      "type": "organization",
+      "context": "主播新书活动期间前往练习的场馆",
+      "importance": "low"
+    },
+    {
+      "name": "小林老师",
+      "type": "person",
+      "context": "北京瑜伽院的老师",
+      "importance": "low"
+    },
+    {
+      "name": "成都新瑜伽",
+      "type": "organization",
+      "context": "主播多次前往练习的场馆，见证小韩女儿栗子出生",
+      "importance": "medium"
+    },
+    {
+      "name": "小韩",
+      "type": "person",
+      "context": "成都新瑜伽老师，播客听众，主动挑战主播一起练习，舞王抓脚水平极高",
+      "importance": "high"
+    },
+    {
+      "name": "鸦鸦",
+      "type": "person",
+      "context": "成都瑜伽老师，带学生参加主播新书分享会",
+      "importance": "low"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "《独树不成林》音乐总监，带主播尝试CrossFit等其他运动",
+      "importance": "medium"
+    },
+    {
+      "name": "CrossFit",
+      "type": "concept",
+      "context": "高强度功能性训练，主播作为新手尝试的其他运动",
+      "importance": "medium"
+    },
+    {
+      "name": "超级猩猩",
+      "type": "organization",
+      "context": "健身品牌，主播尝试其BPMegaformer课程",
+      "importance": "low"
+    },
+    {
+      "name": "BPMegaformer",
+      "type": "concept",
+      "context": "超级猩猩的器械训练课程",
+      "importance": "low"
+    },
+    {
+      "name": "Calisthenics",
+      "type": "concept",
+      "context": "自重训练，主播尝试的其他运动类型",
+      "importance": "low"
+    },
+    {
+      "name": "Pure",
+      "type": "organization",
+      "context": "上海高端瑜伽馆，热门课程需要抢课排队",
+      "importance": "low"
+    },
+    {
+      "name": "热瑜伽",
+      "type": "concept",
+      "context": "在美国特别流行的瑜伽类型，因美国人柔韧性差而受欢迎",
+      "importance": "medium"
+    },
+    {
+      "name": "彭于晏",
+      "type": "person",
+      "context": "演员，主播自嘲式比喻自己的身材目标",
+      "importance": "low"
+    },
+    {
+      "name": "贝多芬",
+      "type": "person",
+      "context": "作曲家，主播骑车去瑜伽馆时听的音乐之一",
+      "importance": "low"
+    },
+    {
+      "name": "Lady Gaga",
+      "type": "person",
+      "context": "歌手，主播骑车去瑜伽馆时听的音乐之一",
+      "importance": "low"
+    },
+    {
+      "name": "凤凰传奇",
+      "type": "organization",
+      "context": "音乐组合，主播骑车去瑜伽馆时听的音乐之一",
+      "importance": "low"
+    },
+    {
+      "name": "波士顿",
+      "type": "place",
+      "context": "主播居住和练习瑜伽的城市，有'破瑜伽馆'",
+      "importance": "high"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "主播认为瑜伽最卷的中国城市，场馆竞争激烈",
+      "importance": "high"
+    },
+    {
+      "name": "成都",
+      "type": "place",
+      "context": "主播认为瑜伽氛围很chill的城市，与小韩等老师建立友谊",
+      "importance": "high"
+    },
+    {
+      "name": "北京",
+      "type": "place",
+      "context": "主播新书活动期间前往练习瑜伽的城市",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "主播长期居住的国度，与中国瑜伽文化形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "主播回国做新书活动并体验各地瑜伽馆的国家",
+      "importance": "medium"
+    },
+    {
+      "name": "新冠疫情/封控",
+      "type": "event",
+      "context": "主播开始瑜伽练习的历史背景，期间完全停止运动和社会交往",
+      "importance": "high"
+    },
+    {
+      "name": "离婚诉讼",
+      "type": "event",
+      "context": "主播开始瑜伽时的个人生活危机，成为运动的初始动力之一",
+      "importance": "medium"
+    },
+    {
+      "name": "灵动环",
+      "type": "other",
+      "context": "索尼音扣的可调节支撑架设计，主播喜欢的细节",
+      "importance": "low"
+    },
+    {
+      "name": "莫兰迪色系",
+      "type": "other",
+      "context": "索尼音扣的颜色设计，主播提及的审美特点",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "697a47e6fed1b9fd8d733544",
+  "title": "296-练一千小时瑜伽给我生活带来什么改变"
+}

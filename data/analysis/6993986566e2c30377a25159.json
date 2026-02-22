@@ -1,0 +1,224 @@
+{
+  "style": {
+    "opening_pattern": "以引用往期播客内容（第292期）建立连续性，通过回顾沙特与阿联酋的决裂事件引入本期核心主题",
+    "structure": "引入（回顾往期+提出问题）→背景（沙特的中心地位：石油、宗教、地理）→主体（2030愿景的三个维度：经济/租金国家、社会/女性地位、宗教/瓦哈比派）→转折（改革挫折：卡舒吉事件、经济困境）→比较分析（沙特与阿联酋关系演变：从师徒到决裂）→结论（改革本质与高风险性）",
+    "tone": "理性客观兼具分析深度，学术严谨中穿插口语化表达（如'叽里咕噜'、'你侬我侬'），呈现'深度政论+知识科普'的混合风格",
+    "catchphrases": [
+      "叽里咕噜",
+      "你侬我侬",
+      "租金国家",
+      "2030愿景",
+      "MBS",
+      "MBZ",
+      "瓦哈比",
+      "李光耀式",
+      "迪拜模式",
+      "丽思卡尔顿酒店"
+    ],
+    "closing_pattern": "总结性陈述提出开放性哲学问题（威权国家用发展替代民主的极限），随后简短道别",
+    "narrative_techniques": [
+      "类比（MBS比作李光耀、马丁·路德；沙特改革比作新加坡模式）",
+      "对比（沙特vs阿联酋、改革前vs改革后、民主化vs威权现代化）",
+      "设问（多次使用'为什么''意味着什么'引导听众思考）",
+      "具体案例（丽思卡尔顿酒店软禁、卡舒吉事件、也门战争）",
+      "引用回溯（多次引用第292期播客内容建立互文性）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Mohammed bin Salman (MBS)",
+      "type": "person",
+      "context": "沙特王储，2015年上台后推动2030愿景，整合权力并主导经济、社会、宗教三大改革",
+      "importance": "high"
+    },
+    {
+      "name": "Mohammed bin Zayed (MBZ)",
+      "type": "person",
+      "context": "阿联酋总统，曾是MBS的导师和亲密盟友，近期与沙特决裂并转向印度、俄罗斯寻求合作",
+      "importance": "high"
+    },
+    {
+      "name": "沙特阿拉伯 (Saudi Arabia)",
+      "type": "place",
+      "context": "本集讨论的核心国家，阿拉伯半岛面积最大、人口最多的国家，拥有麦加和麦地那两大圣城",
+      "importance": "high"
+    },
+    {
+      "name": "阿联酋 (United Arab Emirates)",
+      "type": "place",
+      "context": "与沙特关系密切的海湾国家，迪拜模式的代表，近期与沙特在也门问题上决裂",
+      "importance": "high"
+    },
+    {
+      "name": "2030愿景 (Vision 2030)",
+      "type": "concept",
+      "context": "MBS提出的政治经济改革计划，旨在摆脱石油依赖、发展科技旅游娱乐业、建设NEOM新城",
+      "importance": "high"
+    },
+    {
+      "name": "瓦哈比派 (Wahhabism)",
+      "type": "concept",
+      "context": "18世纪逊尼派伊斯兰改革运动，沙特传统宗教基础，被MBS削弱以集中王权",
+      "importance": "high"
+    },
+    {
+      "name": "Jamal Khashoggi",
+      "type": "person",
+      "context": "沙特记者，为华盛顿邮报撰稿，2018年在沙特驻伊斯坦布尔领事馆被杀害肢解",
+      "importance": "high"
+    },
+    {
+      "name": "也门 (Yemen)",
+      "type": "place",
+      "context": "沙特2015年发动军事干预的国家，也是沙特与阿联酋决裂的导火索（南方过渡委员会问题）",
+      "importance": "medium"
+    },
+    {
+      "name": "胡塞武装 (Houthis)",
+      "type": "organization",
+      "context": "也门反政府武装，什叶派武装组织，向沙特发射导弹构成安全威胁",
+      "importance": "medium"
+    },
+    {
+      "name": "OPEC",
+      "type": "organization",
+      "context": "石油输出国组织，沙特在其中发挥定价锚作用，但过去十年影响力下降",
+      "importance": "medium"
+    },
+    {
+      "name": "丽思卡尔顿酒店 (Ritz-Carlton)",
+      "type": "place",
+      "context": "利雅得五星级酒店，2017年MBS将沙特精英软禁于此以巩固权力",
+      "importance": "medium"
+    },
+    {
+      "name": "NEOM",
+      "type": "place",
+      "context": "沙特计划建设的巨型新城项目，位于沙漠中央，包括The Line线性城市",
+      "importance": "medium"
+    },
+    {
+      "name": "新加坡/李光耀 (Singapore/Lee Kuan Yew)",
+      "type": "place/person",
+      "context": "被主播用作类比，MBS希望成为沙特的李光耀，完成从第三世界到第一世界的跃升",
+      "importance": "medium"
+    },
+    {
+      "name": "卡塔尔 (Qatar)",
+      "type": "place",
+      "context": "2017-2018年曾与沙特、阿联酋联合制裁的海湾国家，因与伊朗和宗教长老关系密切",
+      "importance": "medium"
+    },
+    {
+      "name": "以色列 (Israel)",
+      "type": "place",
+      "context": "与阿联酋通过亚伯拉罕协议关系正常化，被沙特媒体描绘为阿联酋背后的犹太复国主义力量",
+      "importance": "medium"
+    },
+    {
+      "name": "亚伯拉罕协议 (Abraham Accords)",
+      "type": "event",
+      "context": "2020年签署的阿联酋与以色列关系正常化协议，两年内双边贸易突破25亿美元",
+      "importance": "medium"
+    },
+    {
+      "name": "麦加 (Mecca)",
+      "type": "place",
+      "context": "伊斯兰教第一大圣城，位于沙特境内，赋予沙特王室宗教合法性",
+      "importance": "medium"
+    },
+    {
+      "name": "麦地那 (Medina)",
+      "type": "place",
+      "context": "伊斯兰教第二大圣城，位于沙特境内",
+      "importance": "medium"
+    },
+    {
+      "name": "印度 (India)",
+      "type": "place",
+      "context": "MBZ近期访问签署能源、投资和安全协议的国家",
+      "importance": "low"
+    },
+    {
+      "name": "莫迪 (Modi)",
+      "type": "person",
+      "context": "印度总理，与MBZ会面",
+      "importance": "low"
+    },
+    {
+      "name": "普京 (Putin)",
+      "type": "person",
+      "context": "俄罗斯总统，MBZ近期会见",
+      "importance": "low"
+    },
+    {
+      "name": "土库曼斯坦 (Turkmenistan)",
+      "type": "place",
+      "context": "天然气储量全球第四，阿联酋试图帮助其通过里海向欧洲出口",
+      "importance": "low"
+    },
+    {
+      "name": "阿塞拜疆 (Azerbaijan)",
+      "type": "place",
+      "context": "管道过境国，土库曼斯坦天然气通往欧洲的通道",
+      "importance": "low"
+    },
+    {
+      "name": "南方过渡委员会 (Southern Transitional Council)",
+      "type": "organization",
+      "context": "也门分离主义运动，获阿联酋支持，控制南部海岸",
+      "importance": "medium"
+    },
+    {
+      "name": "Rentier State/租金国家",
+      "type": "concept",
+      "context": "政治学概念，描述沙特传统上依赖石油租金而非税收的国家模式",
+      "importance": "medium"
+    },
+    {
+      "name": "马丁·路德 (Martin Luther)",
+      "type": "person",
+      "context": "被主播用作类比，MBS希望成为伊斯兰世界的马丁·路德，推动宗教改革",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿邮报 (Washington Post)",
+      "type": "organization",
+      "context": "Jamal Khashoggi撰稿的媒体",
+      "importance": "low"
+    },
+    {
+      "name": "伊斯坦布尔 (Istanbul)",
+      "type": "place",
+      "context": "Khashoggi遇害的沙特领事馆所在地",
+      "importance": "low"
+    },
+    {
+      "name": "海湾合作委员会 (GCC)",
+      "type": "organization",
+      "context": "海湾国家合作组织，沙特的安全决策影响其战略走向",
+      "importance": "medium"
+    },
+    {
+      "name": "逊尼派/什叶派 (Sunni/Shia)",
+      "type": "concept",
+      "context": "伊斯兰教两大派别，沙特代表逊尼派阵营",
+      "importance": "medium"
+    },
+    {
+      "name": "迪拜 (Dubai)",
+      "type": "place",
+      "context": "阿联酋酋长国，作为沙特改革想要模仿的'迪拜模式'典范",
+      "importance": "medium"
+    },
+    {
+      "name": "The Line",
+      "type": "place",
+      "context": "NEOM新城内的线性城市项目",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6993986566e2c30377a25159",
+  "title": "304-沙特阿拉伯过去十年在进行一场怎样的政治改革？"
+}

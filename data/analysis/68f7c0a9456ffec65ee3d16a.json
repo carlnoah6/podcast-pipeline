@@ -1,0 +1,241 @@
+{
+  "style": {
+    "opening_pattern": "以人物介绍引入，先建立盖伦的历史地位和重要性，再引出具体主题",
+    "structure": "生平背景→学术派别→核心理论（健康/疾病定义）→实践应用（锻炼观）→人生哲学（心理韧性）→结尾总结",
+    "tone": "理性客观中带有亲切感，学术性强但善用现代类比（如'汤臣一品'），兼具知识传播与个人感悟",
+    "catchphrases": [
+      "换句话说",
+      "我想说的是",
+      "你看",
+      "对吧",
+      "盖伦认为",
+      "我自己",
+      "我们可以说",
+      "总之",
+      "事实上",
+      "并不是"
+    ],
+    "closing_pattern": "以盖伦晚年坚持写作和去世作结，回归人物生平总结并自然收尾",
+    "narrative_techniques": [
+      "类比（将角斗士医生比作国家队队医，将帕拉蒂尼山大火比作烧掉汤臣一品）",
+      "对比（古今医学观对比，三派医学理论对比，不同锻炼方式对比）",
+      "举例（大量引用盖伦著作中的具体案例和书信内容）",
+      "引用（直接引用盖伦原著《论卫生》《小球锻炼》等原文）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "盖伦 (Galen)",
+      "type": "person",
+      "context": "古罗马最著名的医生，本集核心人物，曾任罗马皇帝御医，著作占现存希腊文献10%",
+      "importance": "high"
+    },
+    {
+      "name": "马可·奥勒留 (Marcus Aurelius)",
+      "type": "person",
+      "context": "罗马皇帝，盖伦的病人，曾邀请盖伦随军出征，其去世后罗马陷入混乱",
+      "importance": "medium"
+    },
+    {
+      "name": "希波克拉底 (Hippocrates)",
+      "type": "person",
+      "context": "古希腊医学之父，盖伦最推崇的前辈，其文集深刻影响盖伦的医学理论",
+      "importance": "medium"
+    },
+    {
+      "name": "昔兰尼的阿里斯提普斯 (Aristippus of Cyrene)",
+      "type": "person",
+      "context": "昔兰尼学派哲学家，盖伦在书信中引用其对待财产损失的态度来说明如何面对痛苦",
+      "importance": "medium"
+    },
+    {
+      "name": "塞尔苏斯 (Celsus)",
+      "type": "person",
+      "context": "公元一世纪罗马百科作者，在《医学八卷》中将医学分为理性派、经验派、方法派三派",
+      "importance": "low"
+    },
+    {
+      "name": "安提阿库斯 (Antiochus)",
+      "type": "person",
+      "context": "罗马医生，80多岁仍步行出诊，被盖伦引为适龄锻炼的典范",
+      "importance": "low"
+    },
+    {
+      "name": "希罗菲卢斯 (Herophilus)",
+      "type": "person",
+      "context": "公元前四世纪末亚历山大医生，与埃拉西斯特拉图斯共同进行人体解剖实验，奠定解剖学基础",
+      "importance": "low"
+    },
+    {
+      "name": "埃拉西斯特拉图斯 (Erasistratus)",
+      "type": "person",
+      "context": "公元前四世纪末亚历山大医生，与希罗菲卢斯共同进行人体解剖实验",
+      "importance": "low"
+    },
+    {
+      "name": "第欧根尼 (Diogenes)",
+      "type": "person",
+      "context": "犬儒派哲学家，被盖伦引用为不忧虑贫困的典范",
+      "importance": "low"
+    },
+    {
+      "name": "克拉底 (Crates)",
+      "type": "person",
+      "context": "哲学家，被盖伦引用为不忧虑贫困的典范",
+      "importance": "low"
+    },
+    {
+      "name": "医学八卷 (De Medicina)",
+      "type": "work",
+      "context": "塞尔苏斯的医学百科著作，其中将医学分为理性派、经验派、方法派三派",
+      "importance": "medium"
+    },
+    {
+      "name": "论卫生 (De Sanitate Tuenda/On Hygiene)",
+      "type": "work",
+      "context": "盖伦的重要著作，其中详细定义了健康和疾病，提出健康是良好平衡的观点",
+      "importance": "high"
+    },
+    {
+      "name": "用小球进行锻炼 (On Exercise with a Small Ball)",
+      "type": "work",
+      "context": "盖伦专门论述锻炼的文章，称赞小球锻炼简单、全面、适合各阶层，既能锻炼身体又能愉悦心灵",
+      "importance": "medium"
+    },
+    {
+      "name": "希波克拉底文集 (Hippocratic Corpus)",
+      "type": "work",
+      "context": "古希腊医学文献集，盖伦将其视为医学理想的奠基，深受其影响并加以改造发展",
+      "importance": "medium"
+    },
+    {
+      "name": "如何健康 (How to Be Healthy)",
+      "type": "work",
+      "context": "普林斯顿出版社古典哲学系列书籍，收录了盖伦《用小球进行锻炼》一文",
+      "importance": "low"
+    },
+    {
+      "name": "健康 (Health)",
+      "type": "concept",
+      "context": "盖伦定义为良好的平衡，有完全健康和未达完美但仍健康的状态，是动态且个体化的，与顺乎本性相关",
+      "importance": "high"
+    },
+    {
+      "name": "疾病 (Disease)",
+      "type": "concept",
+      "context": "盖伦定义为违背本性或功能受损的状态，是失衡的表现，存在于光谱上的连续体",
+      "importance": "high"
+    },
+    {
+      "name": "理性派 (Dogmatists/Rationalists)",
+      "type": "concept",
+      "context": "古代医学三派之一，主张探究疾病的隐秘原因，认为只有了解因果才能正确治疗",
+      "importance": "medium"
+    },
+    {
+      "name": "经验派 (Empiricists)",
+      "type": "concept",
+      "context": "古代医学三派之一，反对空谈因果，强调直接观察与实践经验，重视前人可靠论著",
+      "importance": "medium"
+    },
+    {
+      "name": "方法派 (Methodists)",
+      "type": "concept",
+      "context": "古代医学三派之一，主张不必追求病因，将疾病分为过度松弛、过度紧缩和混合状态三类，被盖伦强烈反对",
+      "importance": "medium"
+    },
+    {
+      "name": "体液理论 (Humoral Theory)",
+      "type": "concept",
+      "context": "盖伦医学理论的根基，认为健康与疾病与体液失衡有关，健康是体液的良好平衡",
+      "importance": "medium"
+    },
+    {
+      "name": "混合 (Krasis/Mixture)",
+      "type": "concept",
+      "context": "盖伦用来描述体质和体液构成的术语，健康在于混合的适度，混合会随年龄持续变化",
+      "importance": "medium"
+    },
+    {
+      "name": "本性/自然 (Nature/Physis)",
+      "type": "concept",
+      "context": "盖伦医学中的重要概念，健康是顺乎本性的状态，疾病是有背本性的状态",
+      "importance": "medium"
+    },
+    {
+      "name": "小球锻炼 (Small Ball Exercise)",
+      "type": "concept",
+      "context": "盖伦推崇的锻炼方式，认为其简单、全面、适合各阶层，能同时锻炼身体和心灵",
+      "importance": "medium"
+    },
+    {
+      "name": "适龄锻炼 (Age-appropriate Exercise)",
+      "type": "concept",
+      "context": "盖伦强调锻炼应适合年龄，反对过度竞技训练，主张温和适度的身体活动",
+      "importance": "medium"
+    },
+    {
+      "name": "帕加玛 (Pergamon)",
+      "type": "place",
+      "context": "盖伦出生地，位于今土耳其，是罗马亚细亚省重要的经济文化中心",
+      "importance": "medium"
+    },
+    {
+      "name": "亚历山大 (Alexandria)",
+      "type": "place",
+      "context": "埃及城市，公元前四世纪末以来世界医学学习重镇，盖伦求学之旅的重要一站",
+      "importance": "medium"
+    },
+    {
+      "name": "罗马 (Rome)",
+      "type": "place",
+      "context": "罗马帝国首都，盖伦30岁后前往执业并成为皇帝御医的地方，也是其大量著作完成地",
+      "importance": "medium"
+    },
+    {
+      "name": "帕拉蒂尼山 (Palatine Hill)",
+      "type": "place",
+      "context": "罗马最富庶的地区，公元192年大火烧毁此地，盖伦的大量手稿、药材和器械仓库被毁",
+      "importance": "medium"
+    },
+    {
+      "name": "昔兰尼 (Cyrene)",
+      "type": "place",
+      "context": "古希腊城市，哲学家阿里斯提普斯的故乡，位于今利比亚",
+      "importance": "low"
+    },
+    {
+      "name": "亚细亚省 (Asia Province)",
+      "type": "place",
+      "context": "罗马省份，帕加玛所在，盖伦最初担任角斗士医生的地方",
+      "importance": "low"
+    },
+    {
+      "name": "帕拉蒂尼山大火 (Fire of Palatine Hill)",
+      "type": "event",
+      "context": "公元192年罗马大火，烧毁盖伦数十年来收集的手稿、药材和器械，是他人生中最大的不幸",
+      "importance": "medium"
+    },
+    {
+      "name": "马可·奥勒留去世后的内战 (Civil War after Marcus Aurelius)",
+      "type": "event",
+      "context": "公元180年马可·奥勒留去世后罗马陷入混乱和内战，盖伦的许多朋友和家人在此期间死亡",
+      "importance": "low"
+    },
+    {
+      "name": "日耳曼战争 (Germanic Wars)",
+      "type": "event",
+      "context": "马可·奥勒留和康茂德时期对日耳曼民族的战争，盖伦曾被皇帝命令随军行医",
+      "importance": "low"
+    },
+    {
+      "name": "罗马帝国 (Roman Empire)",
+      "type": "organization",
+      "context": "盖伦生活的政治实体，为其提供了从帕加玛到罗马的职业舞台和皇帝御医的职位",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68f7c0a9456ffec65ee3d16a",
+  "title": "265-古罗马名医如何讨论健康？"
+}

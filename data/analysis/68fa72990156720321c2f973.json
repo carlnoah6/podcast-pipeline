@@ -1,0 +1,206 @@
+{
+  "style": {
+    "opening_pattern": "以学术界的权力结构和话语模式引入，通过描述学界\"精英寡头制\"和溜须拍马的现象切入主题",
+    "structure": "先介绍罗尔斯政治自由主义的背景与核心概念（公共理性、合理性）→分析其内在矛盾（试图中立却预设特定立场）→对比启蒙自由主义（洛克、麦迪逊）与罗尔斯的区别→得出结论：罗尔斯主义无法面对真正的异见，只能自说自话",
+    "tone": "批判性强、犀利、带有讽刺意味，理性但带有鲜明个人立场，学术但口语化，善用反讽",
+    "catchphrases": [
+      "合理/不合理",
+      "公共理性",
+      "括号化",
+      "自说自话",
+      "总体性学说",
+      "政治自由主义",
+      "启蒙自由主义",
+      "打不过",
+      "正义",
+      "卖拐"
+    ],
+    "closing_pattern": "用\"卖拐\"的比喻形象化总结罗尔斯政治自由主义的策略，然后简单道别",
+    "narrative_techniques": [
+      "类比（如\"卖拐\"、\"括号化\"）",
+      "反问（大量使用修辞性疑问）",
+      "对比（罗尔斯与洛克/麦迪逊，政治自由主义与启蒙自由主义）",
+      "引用（大量引用罗尔斯原文并批判性解读）",
+      "归谬法（展示罗尔斯理论的内在矛盾）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "罗尔斯",
+      "type": "person",
+      "context": "本集核心讨论对象，美国政治哲学家，政治自由主义的提出者，著有《正义论》和《政治自由主义》",
+      "importance": "high"
+    },
+    {
+      "name": "迈克·桑德尔",
+      "type": "person",
+      "context": "社群主义代表人物，哈佛教授，在80年代提出对罗尔斯《正义论》的著名批评",
+      "importance": "high"
+    },
+    {
+      "name": "洛克",
+      "type": "person",
+      "context": "启蒙自由主义代表人物，与罗尔斯形成对比，著有《论宽容》，主张自由主义必须能够与异见对话",
+      "importance": "high"
+    },
+    {
+      "name": "麦迪逊",
+      "type": "person",
+      "context": "美国国父，《联邦党人文集》第十篇作者，与罗尔斯形成对比，接受人性堕落和观点多元",
+      "importance": "high"
+    },
+    {
+      "name": "施密特",
+      "type": "person",
+      "context": "政治哲学家，提出敌友之分，主播引用其对自由主义的批评指出罗尔斯反政治的本质",
+      "importance": "medium"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "哲学家，提出公共理性概念，被罗尔斯借用但颠倒其原意",
+      "importance": "medium"
+    },
+    {
+      "name": "Stanley Fish",
+      "type": "person",
+      "context": "美国自由派、实用主义者，90年代对罗尔斯的批评指出其包容前提要求非自由派自我转化",
+      "importance": "medium"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "提及《伤逝》中的涓生试图教育子君，作为启蒙自由主义的例子",
+      "importance": "low"
+    },
+    {
+      "name": "《正义论》",
+      "type": "work",
+      "context": "罗尔斯1971年出版著作，奠定其学术地位，被桑德尔等社群主义者批评",
+      "importance": "high"
+    },
+    {
+      "name": "《政治自由主义》",
+      "type": "work",
+      "context": "罗尔斯1991年出版著作，本集核心分析对象，提出公共理性、合理性等概念",
+      "importance": "high"
+    },
+    {
+      "name": "《联邦党人文集》",
+      "type": "work",
+      "context": "特别是第十篇，麦迪逊撰写，与罗尔斯形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "《论宽容》",
+      "type": "work",
+      "context": "洛克著作，主播用以对比罗尔斯，指出洛克愿意与异见对话",
+      "importance": "medium"
+    },
+    {
+      "name": "《什么是启蒙》",
+      "type": "work",
+      "context": "康德文章，提出公共理性概念",
+      "importance": "medium"
+    },
+    {
+      "name": "《回顾公共理性》",
+      "type": "work",
+      "context": "罗尔斯发表在芝加哥大学法学院期刊的论文，回应施密特",
+      "importance": "medium"
+    },
+    {
+      "name": "政治自由主义",
+      "type": "concept",
+      "context": "罗尔斯提出的理论，试图在形而上学上保持中立，通过公共理性包容多元总体性学说",
+      "importance": "high"
+    },
+    {
+      "name": "公共理性",
+      "type": "concept",
+      "context": "罗尔斯核心概念，要求政治讨论只诉诸广泛接受的信念和科学，排除有争议的真理问题",
+      "importance": "high"
+    },
+    {
+      "name": "合理性",
+      "type": "concept",
+      "context": "罗尔斯核心标准（reasonableness），用以判断总体性学说是否可被包容，与真理脱钩",
+      "importance": "high"
+    },
+    {
+      "name": "总体性学说",
+      "type": "concept",
+      "context": "罗尔斯术语（comprehensive doctrine），指宗教、道德、哲学等包含世界观和价值观的完整体系",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙自由主义",
+      "type": "concept",
+      "context": "罗尔斯所反对的早期自由主义，代表为洛克、康德、密尔等，主张理性主义和启蒙",
+      "importance": "medium"
+    },
+    {
+      "name": "社群主义",
+      "type": "concept",
+      "context": "80年代与自由主义争论的思潮，桑德尔为代表，批评罗尔斯《正义论》中的义务论自由主义",
+      "importance": "medium"
+    },
+    {
+      "name": "敌友之分",
+      "type": "concept",
+      "context": "施密特提出的政治概念，主播用以对比罗尔斯，指出罗尔斯逃避政治本质",
+      "importance": "medium"
+    },
+    {
+      "name": "权利优先于善",
+      "type": "concept",
+      "context": "罗尔斯《正义论》中的命题，被桑德尔批评",
+      "importance": "medium"
+    },
+    {
+      "name": "义务论自由主义",
+      "type": "concept",
+      "context": "桑德尔对罗尔斯《正义论》的归类（Deontological Liberalism）",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "罗尔斯理论的现实背景，美国学界主流，主播强调其与美国政治共同体脱节",
+      "importance": "medium"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "提及中国学界也有主流话语，如马克思解读易经等",
+      "importance": "low"
+    },
+    {
+      "name": "卡塔尔",
+      "type": "place",
+      "context": "主播举例说明罗尔斯如何用合理性标准审判穆斯林",
+      "importance": "low"
+    },
+    {
+      "name": "芝加哥大学法学院",
+      "type": "organization",
+      "context": "罗尔斯《回顾公共理性》论文发表处",
+      "importance": "low"
+    },
+    {
+      "name": "穆斯林兄弟会",
+      "type": "organization",
+      "context": "主播举例说明其他正义方案",
+      "importance": "low"
+    },
+    {
+      "name": "JSTOR",
+      "type": "other",
+      "context": "学术数据库，主播引用其论文平均阅读量数据",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68fa72990156720321c2f973",
+  "title": "267-罗尔斯式政治自由主义为啥谁都打不过？"
+}

@@ -1,0 +1,300 @@
+{
+  "style": {
+    "opening_pattern": "以宏观历史哲学命题引入（现代世俗化、上帝已死、虚无主义），逐步聚焦到日常体验（通勤、外卖、刷短视频的重复），形成从形而上到形而下的张力",
+    "structure": "问题提出（现代虚无主义与重复困境）→ 具象例证（马友友演奏巴赫大提琴组曲66年的故事）→ 哲学分析（尼采'永恒轮回'→海德格尔'重复/Wiederholung'→阿伦特'诞生性'）→ 回归主题（回应Lululemon'春天重复如新'的赞助主题）",
+    "tone": "理性思辨与诗意抒情交织，学术严谨中带有播客主个人化的热情与自嘲（提及'保姆哥''榜眼哥'），试图将艰深哲学概念通俗化但不失深度",
+    "catchphrases": [
+      "对吧",
+      "也就是说",
+      "我想说的是",
+      "众所周知",
+      "重复如新",
+      "这是一个事实",
+      "你不能要求",
+      "换句话说"
+    ],
+    "closing_pattern": "诗意总结（以河流、音乐、日出为意象）+ 回归赞助主题（Lululemon新春主题）+ 开放式提问邀请听众互动（分享重复如新的故事）",
+    "narrative_techniques": [
+      "类比（将马友友演奏巴赫类比哲学概念的具象化）",
+      "引用与阐释（大量引用尼采、海德格尔、阿伦特原文后用人话解释）",
+      "对比（柏拉图与亚里士多德的文采对比，宗教时代与现代对重复的不同态度）",
+      "设问与反问（频繁使用'你难道不会...吗''这意味着什么'）",
+      "个人 anecdote（插入与'保姆哥'关于学术会议无聊但有深度的对话）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "现代哲学家，提出'永恒轮回'思想实验作为对虚无主义的反击，认为重复可以是新生",
+      "importance": "high"
+    },
+    {
+      "name": "海德格尔",
+      "type": "person",
+      "context": "哲学家，在《存在与时间》中提出'重复'(Wiederholung)概念，强调重复是取回过去潜能的决断",
+      "importance": "high"
+    },
+    {
+      "name": "阿伦特",
+      "type": "person",
+      "context": "哲学家，在《心智生活》和《人的境况》中提出'诞生性'概念，认为重复是对'你是谁'这一问题的重新回答",
+      "importance": "high"
+    },
+    {
+      "name": "马友友",
+      "type": "person",
+      "context": "大提琴家，4岁开始演奏巴赫大提琴组曲，重复演奏66年，通过想象河流领悟到重复如新",
+      "importance": "high"
+    },
+    {
+      "name": "巴赫",
+      "type": "person",
+      "context": "作曲家，其大提琴组曲曾被长期视为练习曲，后被马友友等演奏家诠释出深刻音乐性",
+      "importance": "high"
+    },
+    {
+      "name": "帕布罗·卡萨尔斯",
+      "type": "person",
+      "context": "大提琴家，1901年重新发掘并复兴了巴赫大提琴组曲的音乐性",
+      "importance": "medium"
+    },
+    {
+      "name": "赫拉克利特",
+      "type": "person",
+      "context": "前苏格拉底哲学家，提出'人不能两次踏进同一条河流'，被马友友用来理解重复与流动的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "笛卡尔",
+      "type": "person",
+      "context": "哲学家，在《第一沉思录》中开始怀疑一切，被尼采视为现代怀疑时代的起点",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "哲学家，被提及与亚里士多德对比，认为其写作既有深度又有文采",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "哲学家，被提及与柏拉图对比，认为其写作相对枯燥但同样深刻",
+      "importance": "low"
+    },
+    {
+      "name": "塞内卡",
+      "type": "person",
+      "context": "斯多葛派哲学家，被列举为有文采且被广泛阅读的思想家",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "哲学家，被列举为有文采且被广泛阅读的思想家",
+      "importance": "low"
+    },
+    {
+      "name": "叔本华",
+      "type": "person",
+      "context": "哲学家，被列举为有文采且被广泛阅读的思想家",
+      "importance": "low"
+    },
+    {
+      "name": "肯尼迪",
+      "type": "person",
+      "context": "美国总统，马友友7岁时曾为他演奏",
+      "importance": "low"
+    },
+    {
+      "name": "保姆哥",
+      "type": "person",
+      "context": "播客主的朋友，与播客主讨论学术会议无聊但有深度的话题",
+      "importance": "low"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "播客主的朋友，与播客主讨论哲学家文采与深度的关系",
+      "importance": "low"
+    },
+    {
+      "name": "永恒轮回",
+      "type": "concept",
+      "context": "尼采提出的思想实验，假设生命将无数次重复，以此逼迫人们肯定生命或陷入虚无",
+      "importance": "high"
+    },
+    {
+      "name": "重复(Wiederholung)",
+      "type": "concept",
+      "context": "海德格尔在《存在与时间》中提出的概念，指取回过去潜能的决断，区别于机械复制",
+      "importance": "high"
+    },
+    {
+      "name": "诞生性",
+      "type": "concept",
+      "context": "阿伦特提出的概念，指人通过诞生进入世界，每一次行动都是新的开端，赋予重复以意义",
+      "importance": "high"
+    },
+    {
+      "name": "虚无主义",
+      "type": "concept",
+      "context": "现代性的困境，指上帝死后终极意义消失，一切价值被怀疑后的精神状态",
+      "importance": "high"
+    },
+    {
+      "name": "此在(Dasein)",
+      "type": "concept",
+      "context": "海德格尔术语，指人的存在方式，强调其在时间中的存在和向死而生",
+      "importance": "medium"
+    },
+    {
+      "name": "超人",
+      "type": "concept",
+      "context": "尼采哲学中的概念，指能够肯定永恒轮回、超越虚无主义的人",
+      "importance": "medium"
+    },
+    {
+      "name": "热爱命运(Amor fati)",
+      "type": "concept",
+      "context": "尼采提出的概念，指无条件地肯定和热爱自己的命运，包括痛苦与重复",
+      "importance": "medium"
+    },
+    {
+      "name": "上帝已死",
+      "type": "concept",
+      "context": "尼采对现代世俗化的诊断，指绝对价值和终极意义的崩塌",
+      "importance": "medium"
+    },
+    {
+      "name": "君权神授",
+      "type": "concept",
+      "context": "中世纪政治概念，与现代的世俗化形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "怀疑一切",
+      "type": "concept",
+      "context": "笛卡尔的方法论，被尼采视为现代怀疑时代的起点",
+      "importance": "low"
+    },
+    {
+      "name": "人不能两次踏进同一条河流",
+      "type": "concept",
+      "context": "赫拉克利特的名言，被用来理解重复与流动的关系",
+      "importance": "low"
+    },
+    {
+      "name": "逝者如斯夫不舍昼夜",
+      "type": "concept",
+      "context": "《论语》中的句子，与赫拉克利特的思想对比",
+      "importance": "low"
+    },
+    {
+      "name": "奴隶道德",
+      "type": "concept",
+      "context": "尼采哲学中的概念，指弱者通过否定生命来逃避强者的价值",
+      "importance": "low"
+    },
+    {
+      "name": "快乐的科学",
+      "type": "work",
+      "context": "尼采的著作，其中对永恒轮回有最清晰的描述",
+      "importance": "high"
+    },
+    {
+      "name": "存在与时间",
+      "type": "work",
+      "context": "海德格尔1927年出版的巨著，其中提出了Wiederholung概念",
+      "importance": "high"
+    },
+    {
+      "name": "心智生活",
+      "type": "work",
+      "context": "阿伦特晚年最后一本书，总结了尼采和海德格尔对重复的理解",
+      "importance": "high"
+    },
+    {
+      "name": "人的境况",
+      "type": "work",
+      "context": "阿伦特的重要著作，提出了诞生性概念，播客主翻译了此书",
+      "importance": "high"
+    },
+    {
+      "name": "巴赫大提琴组曲",
+      "type": "work",
+      "context": "巴赫的音乐作品，曾被长期视为练习曲，后被马友友等演奏家赋予深刻音乐性",
+      "importance": "high"
+    },
+    {
+      "name": "查拉图斯特拉如是说",
+      "type": "work",
+      "context": "尼采的著作，其中提出了超人理论和永恒轮回",
+      "importance": "medium"
+    },
+    {
+      "name": "第一沉思录",
+      "type": "work",
+      "context": "笛卡尔的著作，其中开始怀疑一切",
+      "importance": "low"
+    },
+    {
+      "name": "论语",
+      "type": "work",
+      "context": "儒家经典，其中'逝者如斯夫'被提及与赫拉克利特对比",
+      "importance": "low"
+    },
+    {
+      "name": "现代世俗化",
+      "type": "event",
+      "context": "从中世纪的君权神授、宗教蒙昧中自我解放，走向上帝死亡的时代",
+      "importance": "high"
+    },
+    {
+      "name": "1901年巴赫大提琴组曲复兴",
+      "type": "event",
+      "context": "大提琴家卡萨尔斯重新发掘并复兴了巴赫大提琴组曲的音乐性",
+      "importance": "medium"
+    },
+    {
+      "name": "马友友4岁首次学习巴赫",
+      "type": "event",
+      "context": "马友友4岁时第一次学习巴赫大提琴组曲，开始了他66年的重复演奏",
+      "importance": "medium"
+    },
+    {
+      "name": "马友友7岁为肯尼迪演奏",
+      "type": "event",
+      "context": "马友友7岁时在巴黎出生，为美国总统肯尼迪演奏",
+      "importance": "low"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "马友友的出生地",
+      "importance": "low"
+    },
+    {
+      "name": "浙江",
+      "type": "place",
+      "context": "马友友的老家/祖籍",
+      "importance": "low"
+    },
+    {
+      "name": "Lululemon",
+      "type": "organization",
+      "context": "本期播客的赞助商，其新春主题'春天重复如新'成为播客讨论的引子",
+      "importance": "high"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "播客所属的制作方或栏目",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6971e979ef1cf272a7d8e037",
+  "title": "293-现代哲学如何在重复中寻找意义？"
+}

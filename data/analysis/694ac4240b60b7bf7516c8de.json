@@ -1,0 +1,188 @@
+{
+  "style": {
+    "opening_pattern": "以闲聊方式引入，结合个人性格特质（缺乏同情心）作为切入点，提出核心问题（为什么名人会发疯）",
+    "structure": "个人性格剖析→对名人烦恼的初始态度（不屑）→理论分析（喜爱与厌恶都有成本）→历史对比（被宠爱的幸运儿vs被厌恶的底层）→个人经历类比（奶奶令人窒息的爱）→名人处境分析（金钱与道德绑架）→解决方案（设立边界与守护闲暇）→结尾",
+    "tone": "极度口语化、自我暴露式、直白犀利，带有自嘲和讽刺，分析时理性客观但情感上保持距离",
+    "catchphrases": [
+      "对吧",
+      "事实就是",
+      "我想说的是",
+      "我不",
+      "这种",
+      "他们会",
+      "比如说",
+      "我在这里",
+      "我不明白",
+      "我不知道"
+    ],
+    "closing_pattern": "突然结束，没有总结陈词，直接告别（'OK今天我们就说到这里吧我们下期再见'）",
+    "narrative_techniques": [
+      "个人经历类比（奶奶送饭与名人受喜爱）",
+      "极端对比（阿尔西比亚德vs奴隶）",
+      "自我剖析（缺乏同情心）",
+      "具体场景描写（签书、饭局、山东大哥待客）",
+      "反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "阿尔西比亚德（Alcibiades）",
+      "type": "person",
+      "context": "作为被世界宠爱的天之骄子的例子，与受到世界厌恶的底层人对比",
+      "importance": "medium"
+    },
+    {
+      "name": "布克·华盛顿（Booker T. Washington）",
+      "type": "person",
+      "context": "作为从奴隶出身但摆脱束缚、获得成就的黑人思想家例子",
+      "importance": "medium"
+    },
+    {
+      "name": "弗雷德里克·道格拉斯（Frederick Douglass）",
+      "type": "person",
+      "context": "作为奴隶出身但阅读亚里士多德、获得智慧的黑人思想家例子",
+      "importance": "medium"
+    },
+    {
+      "name": "郑世亮",
+      "type": "person",
+      "context": "在北京新书活动对谈的男嘉宾，被描述为尊重女性、聪明的好男人",
+      "importance": "low"
+    },
+    {
+      "name": "孙宇晨",
+      "type": "person",
+      "context": "在上海新书活动对谈的男嘉宾，被描述为尊重女性、聪明的好男人",
+      "importance": "low"
+    },
+    {
+      "name": "鲁豫（陈鲁豫）",
+      "type": "person",
+      "context": "作为对比的例子，描述她在签售会上对每个人保持真诚和精力的专业素养",
+      "importance": "medium"
+    },
+    {
+      "name": "《刺字》",
+      "type": "work",
+      "context": "说话人的新书，一本政治讽刺小说，与美国时政相关",
+      "importance": "high"
+    },
+    {
+      "name": "《赛雷三分钟漫画三国演义》",
+      "type": "work",
+      "context": "鲁豫在西西弗书店签售的书",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德著作",
+      "type": "work",
+      "context": "弗雷德里克·道格拉斯在还是奴隶时阅读的书籍",
+      "importance": "low"
+    },
+    {
+      "name": "结构性不公",
+      "type": "concept",
+      "context": "用来描述奴隶制等社会制度对特定群体的系统性压迫",
+      "importance": "medium"
+    },
+    {
+      "name": "情绪价值",
+      "type": "concept",
+      "context": "用来描述朋友需要的是安慰而非分析，说话人无法提供这种价值",
+      "importance": "medium"
+    },
+    {
+      "name": "闲暇",
+      "type": "concept",
+      "context": "核心概念，指不需要背负任何责任、完全由自己控制的空间和时间，是'真正的奢侈品'",
+      "importance": "high"
+    },
+    {
+      "name": "自然正义",
+      "type": "concept",
+      "context": "用来描述名人被压垮后回到平凡生活是一种自然的结果，不值得同情",
+      "importance": "medium"
+    },
+    {
+      "name": "道德绑架",
+      "type": "concept",
+      "context": "用来描述穷人试图利用道德来强迫名人给予帮助的行为",
+      "importance": "medium"
+    },
+    {
+      "name": "西西弗书店",
+      "type": "place",
+      "context": "鲁豫举办签售会的地点",
+      "importance": "low"
+    },
+    {
+      "name": "臭手庄园",
+      "type": "place",
+      "context": "南京的流浪猫救助基地，说话人从这里购买猫粮捐赠",
+      "importance": "low"
+    },
+    {
+      "name": "成都",
+      "type": "place",
+      "context": "说话人去做新书活动的城市",
+      "importance": "low"
+    },
+    {
+      "name": "北京",
+      "type": "place",
+      "context": "举办新书活动的城市",
+      "importance": "low"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "举办新书活动的城市",
+      "importance": "low"
+    },
+    {
+      "name": "长沙",
+      "type": "place",
+      "context": "提到做俯卧撑梗时提到的城市",
+      "importance": "low"
+    },
+    {
+      "name": "浙江",
+      "type": "place",
+      "context": "说话人的家乡，提到观察当地老板的生活",
+      "importance": "low"
+    },
+    {
+      "name": "山东",
+      "type": "place",
+      "context": "提到山东大哥待客之道的地方",
+      "importance": "low"
+    },
+    {
+      "name": "美国南方",
+      "type": "place",
+      "context": "布克·华盛顿和弗雷德里克·道格拉斯出身的地方，存在奴隶制",
+      "importance": "medium"
+    },
+    {
+      "name": "阿拉巴马州",
+      "type": "place",
+      "context": "具体提到布克·华盛顿出身的州",
+      "importance": "low"
+    },
+    {
+      "name": "小宇宙",
+      "type": "organization",
+      "context": "播客平台，提到麦巴赫在该平台打广告",
+      "importance": "low"
+    },
+    {
+      "name": "麦巴赫",
+      "type": "organization",
+      "context": "广告商，点名让说话人打广告",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "694ac4240b60b7bf7516c8de",
+  "title": "281-为什么名人会发疯？"
+}

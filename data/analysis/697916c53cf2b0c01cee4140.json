@@ -1,0 +1,272 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件/时事引入，主播关联自己前一期播客（第292期关于阿拉伯海湾局势）与马克·卡尼在达沃斯的演讲，形成时间上的呼应（“就在我发完那期播客的第二天”）",
+    "structure": "递进式结构：1)引入与巧合发现（个人预测与官方表态的呼应）；2)核心论点展开（自由主义国际秩序的本质——既非纯粹理想主义也非纯粹霸权，而是大国妥协的制度化结果）；3)历史对比（1945年前强权政治 vs 1945年后规则秩序 vs 当下断裂）；4)现状分析（欧洲面临的困境：德法分歧、英国脱欧、右翼崛起）；5)结论（中等强国的选择——“如果你不在餐桌旁，你就会出现在菜单上”）",
+    "tone": "严肃深沉，理性客观，带有历史厚重感。使用大量学术性语言（“制度化的结果”、“合法性流失”、“威慑平衡”），但同时保持清晰的说理和强烈的现实关怀",
+    "catchphrases": [
+      "以规则为基础的自由主义国际秩序",
+      "海市蜃楼",
+      "验尸报告",
+      "如果你不在餐桌旁，你就会出现在菜单上",
+      "中等强国",
+      "霸权",
+      "断裂",
+      "多把伞的结构",
+      "清醒的聪明人",
+      "规则失去了它的遮蔽作用"
+    ],
+    "closing_pattern": "总结观点并升华。主播回到马克·卡尼的演讲，强调秩序是“建设出来的”而非“祈祷出来的”，最后以“多把伞的结构”作为隐喻结束，呼应标题中“美国退群之后”的应对之策",
+    "narrative_techniques": [
+      "历史类比（频繁使用1945年、19世纪美国扩张、苏伊士运河危机等历史对比）",
+      "引用权威（大量引用马克·卡尼的演讲内容作为核心论据支撑）",
+      "对比（理想主义 vs 现实主义、1945年前 vs 1945年后、美国 vs 欧洲、规则 vs 权力）",
+      "隐喻（“海市蜃楼”、“验尸报告”、“餐桌与菜单”、“多把伞”）",
+      "反讽（指出“清醒的聪明人”其实是“聪明的白痴”，看破政治神话却不懂政治必须建立在神话之上）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "马克·卡尼 (Mark Carney)",
+      "type": "person",
+      "context": "加拿大总理，前高盛银行家、央行行长，在达沃斯论坛发表演讲宣称基于规则的自由主义国际秩序已死，是本期播客分析的核心人物",
+      "importance": "high"
+    },
+    {
+      "name": "唐纳德·特朗普 (Donald Trump)",
+      "type": "person",
+      "context": "美国总统，其政策转向（购买格陵兰、控制巴拿马运河、强调美国优先）被作为美国回归19世纪强权政治思维的代表",
+      "importance": "high"
+    },
+    {
+      "name": "以规则为基础的自由主义国际秩序 (Rules-based liberal international order)",
+      "type": "concept",
+      "context": "本期播客的核心分析对象，被描述为二战后大国妥协的制度化结果，现已进入“验尸报告”阶段",
+      "importance": "high"
+    },
+    {
+      "name": "中等强国 (Middle powers)",
+      "type": "concept",
+      "context": "马克·卡尼演讲中的核心主体，指加拿大、欧洲等美国以外的西方国家，面临联合自强或各自为战的选择",
+      "importance": "high"
+    },
+    {
+      "name": "美国 (United States)",
+      "type": "place",
+      "context": "西方联盟的核心霸权国家，正在从规则秩序的维护者转变为回归19世纪强权交易思维的国家",
+      "importance": "high"
+    },
+    {
+      "name": "加拿大 (Canada)",
+      "type": "place",
+      "context": "马克·卡尼领导的国家，被描述为自由主义国际秩序的典型产物和受益者，其总理承认秩序已死具有标志性意义",
+      "importance": "high"
+    },
+    {
+      "name": "欧洲 (Europe)",
+      "type": "place",
+      "context": "西方联盟的重要组成部分，面临德法分歧、英国脱欧、右翼崛起等多重困境，处于旧秩序松动、新结构未形成的过渡期",
+      "importance": "high"
+    },
+    {
+      "name": "达沃斯世界经济论坛 (World Economic Forum at Davos)",
+      "type": "event",
+      "context": "马克·卡尼发表重要演讲的场合，代表自由主义国际秩序的核心论坛，主播强调在此场合宣告秩序已死的讽刺性",
+      "importance": "high"
+    },
+    {
+      "name": "联合国 (United Nations)",
+      "type": "organization",
+      "context": "二战后建立的机构，被描述为规则秩序的重要组成部分，但现实中常被大国绕过（如2003年伊拉克战争）",
+      "importance": "high"
+    },
+    {
+      "name": "北约 (NATO)",
+      "type": "organization",
+      "context": "西方军事联盟，面临美国战略抽身后的存在意义危机，与欧盟的关系需要重估",
+      "importance": "high"
+    },
+    {
+      "name": "欧盟 (European Union)",
+      "type": "organization",
+      "context": "欧洲一体化项目，被质疑是否只是和平工程，面临与主权国家（法德英）之间的张力",
+      "importance": "high"
+    },
+    {
+      "name": "威廉·麦金莱 (William McKinley)",
+      "type": "person",
+      "context": "美国第25任总统，以帝国扩张闻名，特朗普白宫悬挂其肖像，象征美国回归19世纪扩张主义",
+      "importance": "medium"
+    },
+    {
+      "name": "安德鲁·杰克逊 (Andrew Jackson)",
+      "type": "person",
+      "context": "美国第7任总统，特朗普推崇的19世纪民粹主义强人政治代表，民主党人",
+      "importance": "medium"
+    },
+    {
+      "name": "埃马纽埃尔·马克龙 (Emmanuel Macron)",
+      "type": "person",
+      "context": "法国总统，推动欧洲政治共同体，与德国在欧洲未来设想上出现分化",
+      "importance": "medium"
+    },
+    {
+      "name": "德法分歧 (Franco-German divergence)",
+      "type": "concept",
+      "context": "欧洲内部核心矛盾，法国和德国对欧洲未来设想分化，影响欧盟统一战略",
+      "importance": "medium"
+    },
+    {
+      "name": "布雷顿森林体系 (Bretton Woods system)",
+      "type": "organization",
+      "context": "二战后建立的国际经济秩序，构成自由主义国际秩序的经济基础",
+      "importance": "medium"
+    },
+    {
+      "name": "苏伊士运河危机 (Suez Crisis)",
+      "type": "event",
+      "context": "1956年事件，主播用以说明1945年后英美关系并非一直和谐，也曾有深度危机",
+      "importance": "medium"
+    },
+    {
+      "name": "格陵兰 (Greenland)",
+      "type": "place",
+      "context": "特朗普表示要购买的岛屿，被主播作为美国回归19世纪领土扩张思维的例证",
+      "importance": "medium"
+    },
+    {
+      "name": "巴拿马运河 (Panama Canal)",
+      "type": "place",
+      "context": "特朗普政府试图重新控制的水道，象征美国将地缘空间视为战略资产",
+      "importance": "medium"
+    },
+    {
+      "name": "施密特主义 (Schmittian)",
+      "type": "concept",
+      "context": "右翼政治哲学，强调敌我区分，主播用以说明对自由主义国际秩序的右翼批评",
+      "importance": "low"
+    },
+    {
+      "name": "福斯塔夫 (Falstaff)",
+      "type": "person",
+      "context": "莎士比亚戏剧人物，主播在《神的注脚》中分析过，用以说明政治神话的必要性",
+      "importance": "low"
+    },
+    {
+      "name": "修昔底德 (Thucydides)",
+      "type": "person",
+      "context": "古希腊历史学家，马克·卡尼引用其名言“强者为所欲为，弱者承受必须承受的命运”",
+      "importance": "medium"
+    },
+    {
+      "name": "阿拉伯海湾 (Arabian Gulf)",
+      "type": "place",
+      "context": "主播第292期播客主题，与本期内容形成对比（中东视角 vs 西方视角）",
+      "importance": "medium"
+    },
+    {
+      "name": "沙特阿拉伯 (Saudi Arabia)",
+      "type": "place",
+      "context": "第292期分析对象，被主播拿来与加拿大对比（一个放弃普世价值，一个仍坚持）",
+      "importance": "medium"
+    },
+    {
+      "name": "替代方案德国党 (Alternative for Deutschland, AfD)",
+      "type": "organization",
+      "context": "德国极右翼政党，可能被选上台，象征欧洲政治右移",
+      "importance": "medium"
+    },
+    {
+      "name": "国民联盟 (National Rally)",
+      "type": "organization",
+      "context": "法国极右翼政党，可能执政，象征欧洲政治右移",
+      "importance": "medium"
+    },
+    {
+      "name": "联合远征军 (Joint Expeditionary Force)",
+      "type": "organization",
+      "context": "北欧-波罗的海-波兰-荷兰的军事合作网络，被称为“新汉萨同盟”",
+      "importance": "medium"
+    },
+    {
+      "name": "汉萨同盟 (Hanseatic League)",
+      "type": "organization",
+      "context": "历史上北欧商业联盟，被借用来形容新的国家间网络",
+      "importance": "low"
+    },
+    {
+      "name": "卡塔尔 (Qatar)",
+      "type": "place",
+      "context": "加拿大寻求建立战略伙伴关系的国家之一",
+      "importance": "low"
+    },
+    {
+      "name": "新加坡 (Singapore)",
+      "type": "place",
+      "context": "英国寻求合作的国家之一，非西方价值观前提",
+      "importance": "low"
+    },
+    {
+      "name": "印度 (India)",
+      "type": "place",
+      "context": "英国寻求合作的国家之一",
+      "importance": "low"
+    },
+    {
+      "name": "乌克兰 (Ukraine)",
+      "type": "place",
+      "context": "加拿大表示支持的国家，国际站队对象",
+      "importance": "medium"
+    },
+    {
+      "name": "墨西哥 (Mexico)",
+      "type": "place",
+      "context": "历史上被美国夺取大片土地的国家",
+      "importance": "low"
+    },
+    {
+      "name": "埃德蒙·伯克 (Edmund Burke)",
+      "type": "person",
+      "context": "保守主义思想家，主播引用其关于稳定性和神话重要性的观点",
+      "importance": "low"
+    },
+    {
+      "name": "马基雅维利 (Niccolò Machiavelli)",
+      "type": "person",
+      "context": "政治思想家，主播引用其关于政治神话必要性的观点",
+      "importance": "low"
+    },
+    {
+      "name": "世贸组织 (World Trade Organization, WTO)",
+      "type": "organization",
+      "context": "面临威胁的多边机构，中等强国依赖的制度框架",
+      "importance": "medium"
+    },
+    {
+      "name": "联合国气候大会 (UN Climate Conference)",
+      "type": "event",
+      "context": "面临威胁的集体解决问题制度框架",
+      "importance": "low"
+    },
+    {
+      "name": "路易斯安那购地 (Louisiana Purchase)",
+      "type": "event",
+      "context": "美国19世纪领土扩张的例子",
+      "importance": "low"
+    },
+    {
+      "name": "吞并夏威夷 (Annexation of Hawaii)",
+      "type": "event",
+      "context": "美国历史领土扩张的例子",
+      "importance": "low"
+    },
+    {
+      "name": "2003年伊拉克战争 (2003 Iraq War)",
+      "type": "event",
+      "context": "美国绕开联合国的例子，说明大国破坏规则",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "697916c53cf2b0c01cee4140",
+  "title": "295-美国退群之后西方联盟的其他国家要咋办？"
+}

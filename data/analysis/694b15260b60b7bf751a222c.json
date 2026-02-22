@@ -1,0 +1,193 @@
+{
+  "style": {
+    "opening_pattern": "以重复口头禅\"来听八卦啦\"三次开场，营造轻松闲聊氛围，随后直接点明本期主题",
+    "structure": "事件切入（传统基金会离职潮）→ 历史纵深（政党制度演变与现代政党史）→ 核心事件分析（卡尔森采访尼克·富恩特斯事件始末）→ 个人评论（三点深度评价）",
+    "tone": "口语化、轻松幽默但见解深刻，带有强烈的个人色彩和批判性思维，时而使用网络流行语和讽刺",
+    "catchphrases": [
+      "来听八卦啦",
+      "daddy",
+      "破事",
+      "对吧",
+      "钓鱼",
+      "破防",
+      "蛤蟆人",
+      "屌丝",
+      "小仙女"
+    ],
+    "closing_pattern": "总结三点个人评价（自由主义内在张力、身份政治反噬、年轻男性榜样缺失），以温和呼吁结束，强调\"不让他们变坏\"的社会责任",
+    "narrative_techniques": [
+      "类比（将极端言论比作'钓鱼'）",
+      "历史对比（伯克/亚当斯时期与现代政党）",
+      "设问反问（'谁来做daddy的接班人'）",
+      "举例说明（列举大量具体人名和事件）",
+      "左右派镜像对比（保守派与自由派内部撕裂的对称性）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "被昵称为'daddy'，MAGA运动的核心人物，2016年崛起摧毁了共和党建制派",
+      "importance": "high"
+    },
+    {
+      "name": "Tucker Carlson（塔克·卡尔森）",
+      "type": "person",
+      "context": "美国保守派媒体人'一哥'，因采访Nick Fuentes引发争议，拒绝与极端观点划清界限",
+      "importance": "high"
+    },
+    {
+      "name": "Nick Fuentes（尼克·富恩特斯）",
+      "type": "person",
+      "context": "27岁极右翼白人民族主义网红，'Groypers'领袖，以钓鱼和极端言论（反犹、反女权、支持希特勒）闻名",
+      "importance": "high"
+    },
+    {
+      "name": "Kevin Roberts（凯文·罗伯茨）",
+      "type": "person",
+      "context": "传统基金会（Heritage Foundation）负责人，因拒绝与Carlson划清界限导致员工集体离职",
+      "importance": "high"
+    },
+    {
+      "name": "Mike Pence（迈克·彭斯）",
+      "type": "person",
+      "context": "美国前副总统，创建了'Advancing American Freedom'智库，接收了从传统基金会离职的员工",
+      "importance": "medium"
+    },
+    {
+      "name": "Charlie Kirk（查理·柯克）",
+      "type": "person",
+      "context": "保守派活动家，曾被Nick Fuentes及其支持者（Groypers）攻击为'Conservative Inc.'（保守主义有限公司）",
+      "importance": "medium"
+    },
+    {
+      "name": "Ben Shapiro（本·夏皮罗）",
+      "type": "person",
+      "context": "保守派评论家，曾公开与Nick Fuentes划清界限",
+      "importance": "medium"
+    },
+    {
+      "name": "Ted Cruz（泰德·克鲁兹）",
+      "type": "person",
+      "context": "德克萨斯州参议员，曾称Nick Fuentes是'毒药'",
+      "importance": "medium"
+    },
+    {
+      "name": "Andrew Tate（安德鲁·泰特）",
+      "type": "person",
+      "context": "网红男性至上主义者，被提及作为缺乏男性榜样的年轻男孩崇拜的对象",
+      "importance": "low"
+    },
+    {
+      "name": "埃德蒙·伯克（Edmund Burke）",
+      "type": "person",
+      "context": "英国政治家，被提及为现代政党制度理论的先驱之一",
+      "importance": "low"
+    },
+    {
+      "name": "Heritage Foundation（传统基金会）",
+      "type": "organization",
+      "context": "美国最大保守派智库，因内部对极端主义态度分歧爆发人事危机，十几名员工离职",
+      "importance": "high"
+    },
+    {
+      "name": "MAGA（Make America Great Again）",
+      "type": "organization",
+      "context": "特朗普领导的政治运动，已成为共和党主流，特点是民粹主义和围绕特朗普个人魅力",
+      "importance": "high"
+    },
+    {
+      "name": "Republican Party（共和党）",
+      "type": "organization",
+      "context": "美国两大政党之一，正面临后特朗普时代的转型危机和内部撕裂",
+      "importance": "high"
+    },
+    {
+      "name": "Advancing American Freedom（推进美国自由）",
+      "type": "organization",
+      "context": "前副总统彭斯创建的智库，接收了从传统基金会离职的保守派学者",
+      "importance": "medium"
+    },
+    {
+      "name": "Groypers",
+      "type": "organization",
+      "context": "Nick Fuentes的追随者群体，名称源自绿色青蛙表情包，代表另类右翼网络亚文化",
+      "importance": "medium"
+    },
+    {
+      "name": "White Nationalism（白人民族主义）",
+      "type": "concept",
+      "context": "Nick Fuentes代表的意识形态，主张白人至上、反移民、反犹、反女权，支持建立种族等级制度",
+      "importance": "high"
+    },
+    {
+      "name": "America First（美国优先）",
+      "type": "concept",
+      "context": "被Nick Fuentes及其支持者使用的政治口号，但在此语境下与白人基督教民族主义结合",
+      "importance": "medium"
+    },
+    {
+      "name": "Incel（非自愿独身者）",
+      "type": "concept",
+      "context": "Nick Fuentes自称'proud incel'（骄傲的屌丝），代表反女权、仇视女性的网络亚文化",
+      "importance": "medium"
+    },
+    {
+      "name": "Conservative Inc.（保守主义有限公司）",
+      "type": "concept",
+      "context": "Nick Fuentes用来攻击主流保守派（如Charlie Kirk）的术语，指责其被企业收买",
+      "importance": "low"
+    },
+    {
+      "name": "身份政治（Identity Politics）",
+      "type": "concept",
+      "context": "播客评论的核心概念之一，分析Nick Fuentes现象作为对左翼身份政治的反噬",
+      "importance": "high"
+    },
+    {
+      "name": "自由主义内在张力",
+      "type": "concept",
+      "context": "播客提出的理论框架，讨论言论自由与排斥极端观点之间的张力",
+      "importance": "high"
+    },
+    {
+      "name": "传统基金会人员离职危机",
+      "type": "event",
+      "context": "因Kevin Roberts拒绝与Tucker Carlson划清界限，十几名学者集体离职投奔Mike Pence的智库",
+      "importance": "high"
+    },
+    {
+      "name": "Tucker Carlson采访Nick Fuentes事件",
+      "type": "event",
+      "context": "2025年10月（文本设定时间），Carlson采访极端右翼网红Fuentes，引发保守派内部巨大争议",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普2016年崛起",
+      "type": "event",
+      "context": "被描述为摧毁共和党建制派的转折点，标志着MAGA运动兴起",
+      "importance": "medium"
+    },
+    {
+      "name": "巴以战争两周年",
+      "type": "event",
+      "context": "文本提及的时间节点（2025年10月），与Carlson采访Fuentes时间重合，涉及反犹言论争议",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "讨论的主要国家，涉及共和党、保守派运动及2028年大选",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "提及Edmund Burke和英国政党制度发展",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "694b15260b60b7bf751a222c",
+  "title": "282-极右白人民族主义正如何撕裂共和党的后特朗普转型？"
+}

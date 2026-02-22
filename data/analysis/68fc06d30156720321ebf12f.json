@@ -1,0 +1,198 @@
+{
+  "style": {
+    "opening_pattern": "以自身经历引入，引用往期播客内容作为切入点，直接提出核心议题",
+    "structure": "提出核心区分→逐层展开三个区别（讲述vs制作、与生活关系、人格与英雄）→哲学升华→文学例证收尾",
+    "tone": "严肃深沉、思辨性强、带有个人情感投入",
+    "catchphrases": [
+      "大叫驴一样狂吠不止",
+      "天知地知你知我知",
+      "出片",
+      "废片",
+      "零人点赞",
+      "奴隶放下脚铐的骄傲",
+      "冲向永恒",
+      "仅此而已"
+    ],
+    "closing_pattern": "以经典文学文本（荷马史诗）作结，将讨论提升至人类文明高度，开放式收束",
+    "narrative_techniques": [
+      "类比（动物vs人、工厂vs艺术）",
+      "反问",
+      "举例（长辈故事、骑士文学、超级英雄电影）",
+      "对比（故事vs内容、讲述vs制作）",
+      "引用（德语词源学、马克思术语）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "阿基琉斯（Achilles）",
+      "type": "person",
+      "context": "作为荷马史诗中的英雄人物，被用来说明故事主角选择有限生命而非神之永生的意义",
+      "importance": "high"
+    },
+    {
+      "name": "忒提斯（Thetis）",
+      "type": "person",
+      "context": "阿基琉斯的母亲，海洋女神，曾向儿子预言两种命运",
+      "importance": "medium"
+    },
+    {
+      "name": "荷马（Homer）",
+      "type": "person",
+      "context": "古希腊诗人，《伊利亚特》和《奥德赛》的作者，被引为人类文明第一个故事的创造者",
+      "importance": "high"
+    },
+    {
+      "name": "塞万提斯（Cervantes）",
+      "type": "person",
+      "context": "通过其作品《堂吉诃德》被提及，作为在低俗品类中创造伟大故事的例证",
+      "importance": "medium"
+    },
+    {
+      "name": "克里斯托弗·诺兰（Christopher Nolan）",
+      "type": "person",
+      "context": "通过《黑暗骑士》系列被提及，作为在商业类型片中创造好故事的导演",
+      "importance": "low"
+    },
+    {
+      "name": "马克思（Marx）",
+      "type": "person",
+      "context": "其术语'Gattungswesen'（类存在）被引用，说明人被标签化为群体样本的状态",
+      "importance": "medium"
+    },
+    {
+      "name": "张震",
+      "type": "person",
+      "context": "被用作例子，描述在街上看到帅哥这一微小事件如何构成故事",
+      "importance": "low"
+    },
+    {
+      "name": "《伊利亚特》（Iliad）",
+      "type": "work",
+      "context": "荷马史诗，阿基琉斯的故事出处，第九卷中阿基琉斯选择凡人命运的段落被详细引用",
+      "importance": "high"
+    },
+    {
+      "name": "《奥德赛》（Odyssey）",
+      "type": "work",
+      "context": "荷马史诗，开篇第一个词'人'（andra）被强调为人类文明最伟大的故事开端",
+      "importance": "high"
+    },
+    {
+      "name": "《堂吉诃德》（Don Quixote）",
+      "type": "work",
+      "context": "被用作在垃圾品类（骑士文学）中出现的伟大作品例证",
+      "importance": "medium"
+    },
+    {
+      "name": "《黑暗骑士》系列（The Dark Knight）",
+      "type": "work",
+      "context": "被用作在商业爆米花类型（超级英雄电影）中出现的优秀故事",
+      "importance": "low"
+    },
+    {
+      "name": "《黑客帝国》（The Matrix）",
+      "type": "work",
+      "context": "2001年左右出现的开创性电影，代表好莱坞讲故事的黄金时代",
+      "importance": "low"
+    },
+    {
+      "name": "《指环王》（The Lord of the Rings）",
+      "type": "work",
+      "context": "2001年左右出现的奇幻史诗，代表全新宇宙的开创",
+      "importance": "low"
+    },
+    {
+      "name": "《哈利·波特》（Harry Potter）",
+      "type": "work",
+      "context": "2001年左右出现的魔法世界故事，代表好莱坞讲故事的时代",
+      "importance": "low"
+    },
+    {
+      "name": "《加勒比海盗》（Pirates of the Caribbean）",
+      "type": "work",
+      "context": "2000年代初期的冒险电影，被用来对比当下内容生产时代",
+      "importance": "low"
+    },
+    {
+      "name": "《X战警》（X-Men）",
+      "type": "work",
+      "context": "2000年代初期的超级英雄电影，代表讲故事而非生产内容的年代",
+      "importance": "low"
+    },
+    {
+      "name": "《甄嬛传》",
+      "type": "work",
+      "context": "被用作分析视频的热门题材，说明同一故事可被不同叙述者讲述",
+      "importance": "low"
+    },
+    {
+      "name": "《大明王朝1566》",
+      "type": "work",
+      "context": "与《甄嬛传》并列，作为被多次分析的历史剧",
+      "importance": "low"
+    },
+    {
+      "name": "Geschichte（德语：故事/历史）",
+      "type": "concept",
+      "context": "德语中故事与历史为同一词汇，被用来论证个体故事汇聚成人类历史的哲学观点",
+      "importance": "high"
+    },
+    {
+      "name": "Gattungswesen（类存在）",
+      "type": "concept",
+      "context": "马克思哲学术语，指人作为物种存在的抽象化状态，与具体人格相对",
+      "importance": "medium"
+    },
+    {
+      "name": "生活内容化",
+      "type": "concept",
+      "context": "播客核心批判对象，指将日常生活制作为可复制内容的现象",
+      "importance": "high"
+    },
+    {
+      "name": "政治宣传（propaganda）",
+      "type": "concept",
+      "context": "被用作内容的典型模式——固定信息、无限复制、可预计",
+      "importance": "medium"
+    },
+    {
+      "name": "MCN公司",
+      "type": "organization",
+      "context": "被类比为工厂，说明内容生产的工业化特征",
+      "importance": "medium"
+    },
+    {
+      "name": "好莱坞（Hollywood）",
+      "type": "organization",
+      "context": "被批评从讲故事转向生产内容，导致电影质量下降",
+      "importance": "medium"
+    },
+    {
+      "name": "文革",
+      "type": "event",
+      "context": "被用作社会失去聆听故事能力的极端例子，无数故事被砸在地上无人听见",
+      "importance": "medium"
+    },
+    {
+      "name": "中世纪",
+      "type": "place/time",
+      "context": "骑士文学流行的时代背景，作为产生《堂吉诃德》的垃圾品类环境",
+      "importance": "low"
+    },
+    {
+      "name": "西班牙",
+      "type": "place",
+      "context": "《堂吉诃德》的文学归属地，被称为西班牙文学史上最伟大的作品",
+      "importance": "low"
+    },
+    {
+      "name": "特洛伊",
+      "type": "place",
+      "context": "阿基琉斯选择的命运之地，他将在此获得短暂但不朽的荣耀",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68fc06d30156720321ebf12f",
+  "title": "268-故事和内容有什么区别"
+}

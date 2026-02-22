@@ -1,0 +1,628 @@
+{
+  "style": {
+    "opening_pattern": "以系列回顾引入，先交代前作背景（自由五部曲），再提出本集核心问题",
+    "structure": "历史溯源→概念辨析→关键时间节点确立（1932年）→思想演变→成就与巅峰→衰落与批判→当代现状",
+    "tone": "理性客观、学术严谨，带有强烈的反框架化倾向，对左右二分法持批判态度",
+    "catchphrases": [
+      "独树不成林",
+      "刨根究底",
+      "智识诚实",
+      "大傻帽",
+      "话太多学识太少思想懒惰",
+      "这不是一码事",
+      "这是另外一套问题",
+      "让我们退一步说",
+      "快速总结一下",
+      "我只能说"
+    ],
+    "closing_pattern": "开放式总结，强调美国经验的局限性，呼吁更辩证的视野，标准告别语",
+    "narrative_techniques": [
+      "自我引用（频繁提及往期播客编号）",
+      "直接引述历史文献和日记",
+      "类比（将自由主义比作奴隶制）",
+      "反问",
+      "具体案例支撑论点（校车计划、炉边谈话）",
+      "对比（罗斯福式vs哈耶克式自由主义）",
+      "个人经历穿插（教美国历史、问历史学家朋友）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "小罗斯福/富兰克林·德拉诺·罗斯福（Franklin D. Roosevelt）",
+      "type": "person",
+      "context": "1932年通过新政演讲将'自由派'一词确立为美国政治的核心自我描述，定义为介于共产主义和法西斯主义之间的中间道路",
+      "importance": "high"
+    },
+    {
+      "name": "杜威（John Dewey）",
+      "type": "person",
+      "context": "罗斯福时代最重要的自由主义思想家，胡适的老师，提供新政的思想根基，比罗斯福更左但非马克思主义者",
+      "importance": "high"
+    },
+    {
+      "name": "洛克（John Locke）",
+      "type": "person",
+      "context": "被追溯为美国自由主义传统的思想源头之一，其财产概念与自由主义挂钩，奠定古典自由主义基础",
+      "importance": "medium"
+    },
+    {
+      "name": "杰弗逊（Thomas Jefferson）",
+      "type": "person",
+      "context": "常被归入美国自由主义传统，但从未自称'自由派'，独立宣言作者",
+      "importance": "medium"
+    },
+    {
+      "name": "麦迪逊（James Madison）",
+      "type": "person",
+      "context": "联邦党人文集作者，被视为自由主义传统中的伟人但未自称自由派",
+      "importance": "medium"
+    },
+    {
+      "name": "林肯（Abraham Lincoln）",
+      "type": "person",
+      "context": "美国自由主义传统中的经典人物，与道格拉斯的辩论被提及",
+      "importance": "medium"
+    },
+    {
+      "name": "霍布斯（Thomas Hobbes）",
+      "type": "person",
+      "context": "利维坦作者，被问及是左还是右以说明左右框架的无力，早期自由主义奠基人",
+      "importance": "medium"
+    },
+    {
+      "name": "托克维尔（Alexis de Tocqueville）",
+      "type": "person",
+      "context": "《论美国的民主》作者，1830年预测工业贵族将成为新特权阶层，其关于法律与共识关系的观察被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "20年代赴美师从杜威，将杜威-密尔-边沁式的狭隘英美自由主义带回中国，构成现代中国人理解自由主义的主要窗口",
+      "importance": "medium"
+    },
+    {
+      "name": "索尔仁尼琴（Aleksandr Solzhenitsyn）",
+      "type": "person",
+      "context": "苏联知识分子，曾在播客第203期讨论其如何批评西方自由",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "被问及是左还是右以批判左右二分法的历史局限性",
+      "importance": "low"
+    },
+    {
+      "name": "马基雅维利（Niccolò Machiavelli）",
+      "type": "person",
+      "context": "被问及是左还是右以说明左右框架无法处理1789年前的思想",
+      "importance": "low"
+    },
+    {
+      "name": "奥古斯丁（Augustine of Hippo）",
+      "type": "person",
+      "context": "被问及是左还是右",
+      "importance": "low"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "被用来讽刺左右标签的滥用——哲人王统治是右，男女一起摔跤是左",
+      "importance": "low"
+    },
+    {
+      "name": "霍梅尼（Ruhollah Khomeini）",
+      "type": "person",
+      "context": "1979年伊朗革命人物，与女权主义者、马克思主义者共同反对巴列维王朝，用来说明左右之分的混乱",
+      "importance": "low"
+    },
+    {
+      "name": "雷克斯福德·特格韦尔（Rexford Tugwell）",
+      "type": "person",
+      "context": "罗斯福智囊团Brain Trust成员，经济学家，日记中记载了对罗斯福使用'liberal'一词的疑问",
+      "importance": "medium"
+    },
+    {
+      "name": "威廉·巴克利（William F. Buckley Jr.）",
+      "type": "person",
+      "context": "美国新保守主义运动开创者，创立《国家评论》杂志，创造'Liberal Establishment'概念，著《Up from Liberalism》",
+      "importance": "medium"
+    },
+    {
+      "name": "惠特克·钱伯斯（Whittaker Chambers）",
+      "type": "person",
+      "context": "与巴克利一起批判20世纪中期自由主义的新保守主义人物",
+      "importance": "low"
+    },
+    {
+      "name": "欧文·豪（Irving Howe）",
+      "type": "person",
+      "context": "左翼杂志《Dissent》创始人之一，从左侧批判自由主义",
+      "importance": "low"
+    },
+    {
+      "name": "诺曼·梅勒（Norman Mailer）",
+      "type": "person",
+      "context": "左翼知识分子，《Dissent》杂志相关人物",
+      "importance": "low"
+    },
+    {
+      "name": "索尔·阿林斯基（Saul Alinsky）",
+      "type": "person",
+      "context": "社区组织活动家，左翼批判自由主义的代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "詹姆斯·鲍德温（James Baldwin）",
+      "type": "person",
+      "context": "黑人作家，民权运动知识分子，吴琦翻译过其作品，质疑白人自由派只推动法律平等而非经济社会平等",
+      "importance": "medium"
+    },
+    {
+      "name": "马丁·路德·金（Martin Luther King Jr.）",
+      "type": "person",
+      "context": "黑人民权运动领袖，作为第三条批判路径的代表人物",
+      "importance": "medium"
+    },
+    {
+      "name": "洛兰·汉斯贝里（Lorraine Hansberry）",
+      "type": "person",
+      "context": "黑人剧作家，民权运动知识分子",
+      "importance": "low"
+    },
+    {
+      "name": "格温多琳·布鲁克斯（Gwendolyn Brooks）",
+      "type": "person",
+      "context": "黑人诗人，民权运动知识分子",
+      "importance": "low"
+    },
+    {
+      "name": "布克·T·华盛顿（Booker T. Washington）",
+      "type": "person",
+      "context": "早期黑人民权运动家，著有《Up from Slavery》，巴克利借用其书名写《Up from Liberalism》",
+      "importance": "low"
+    },
+    {
+      "name": "林登·约翰逊（Lyndon B. Johnson）",
+      "type": "person",
+      "context": "通过'伟大社会'改革实现自由派政策，但因越南战争被左翼批判",
+      "importance": "medium"
+    },
+    {
+      "name": "艾森豪威尔（Dwight D. Eisenhower）",
+      "type": "person",
+      "context": "共和党总统，但也接受罗斯福自由主义观念，赞成政府监管经济",
+      "importance": "low"
+    },
+    {
+      "name": "戈德华特（Barry Goldwater）",
+      "type": "person",
+      "context": "1964年总统候选人，其竞选被视为对自由派批判的全国性突破",
+      "importance": "low"
+    },
+    {
+      "name": "里根（Ronald Reagan）",
+      "type": "person",
+      "context": "70年代对自由派的批判最终在其时期登上高峰，开启新自由主义时代",
+      "importance": "medium"
+    },
+    {
+      "name": "奥巴马（Barack Obama）",
+      "type": "person",
+      "context": "2008年崛起，选择通过拯救银行为自由主义续命，金融危机中重建资本主义结构",
+      "importance": "medium"
+    },
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "2016年崛起，代表后自由主义时代的右翼，其支持者称里根派为'里根僵尸'",
+      "importance": "medium"
+    },
+    {
+      "name": "伯尼·桑德斯（Bernie Sanders）",
+      "type": "person",
+      "context": "自称为社会民主主义者，目前美国最受欢迎的政治人物之一，代表激进左翼",
+      "importance": "medium"
+    },
+    {
+      "name": "扎米尔·马姆达尼（Zohran Mamdani）",
+      "type": "person",
+      "context": "纽约市长选举中崛起的激进左翼政治家",
+      "importance": "low"
+    },
+    {
+      "name": "斯大林（Joseph Stalin）",
+      "type": "person",
+      "context": "曾呼吁美国马克思主义者不要再叫罗斯福法西斯，转而拉拢罗斯福对抗真正的法西斯",
+      "importance": "low"
+    },
+    {
+      "name": "纽曼枢机/约翰·亨利·纽曼（John Henry Newman）",
+      "type": "person",
+      "context": "红衣主教，《大学的理念》作者，记载17-18世纪自由意味着宗教宽容",
+      "importance": "low"
+    },
+    {
+      "name": "密尔/约翰·斯图尔特·密尔（John Stuart Mill）",
+      "type": "person",
+      "context": "19世纪英国哲学家，其自由主义构成胡适理解的重要来源",
+      "importance": "low"
+    },
+    {
+      "name": "边沁（Jeremy Bentham）",
+      "type": "person",
+      "context": "英国功利主义者，其思想被杜威更新，也是胡适理解的自由主义来源之一",
+      "importance": "low"
+    },
+    {
+      "name": "吴琦",
+      "type": "person",
+      "context": "播客主播的朋友，翻译过詹姆斯·鲍德温的书",
+      "importance": "low"
+    },
+    {
+      "name": "马克思（Karl Marx）",
+      "type": "person",
+      "context": "其术语'让渡劳动价值'被杜威使用，马克思主义在美国的发展被罗斯福新政吸收而受挫",
+      "importance": "medium"
+    },
+    {
+      "name": "独立宣言",
+      "type": "work",
+      "context": "美国第一个建国文件，被视为自由主义传统的自我实现",
+      "importance": "medium"
+    },
+    {
+      "name": "美国宪法",
+      "type": "work",
+      "context": "与独立宣言并列为建国文件，体现自由主义传统",
+      "importance": "medium"
+    },
+    {
+      "name": "联邦党人文集（The Federalist Papers）",
+      "type": "work",
+      "context": "麦迪逊等撰写的建国文件，研究美国早期政治的重要文献",
+      "importance": "low"
+    },
+    {
+      "name": "反联邦党人文集",
+      "type": "work",
+      "context": "与联邦党人文集相对的早期美国政治文献",
+      "importance": "low"
+    },
+    {
+      "name": "利维坦（Leviathan）",
+      "type": "work",
+      "context": "霍布斯的著作，自由主义奠基之作，但作者未自称自由派",
+      "importance": "low"
+    },
+    {
+      "name": "政府二论/政府论（Two Treatises of Government）",
+      "type": "work",
+      "context": "洛克的著作，自由主义奠基之作",
+      "importance": "low"
+    },
+    {
+      "name": "论美国的民主（Democracy in America）",
+      "type": "work",
+      "context": "托克维尔1830年的著作，预测工业贵族的出现，讨论法律与共识的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "大学的理念（The Idea of a University）",
+      "type": "work",
+      "context": "纽曼枢机的著作，记载17-18世纪自由意味着宗教宽容",
+      "importance": "low"
+    },
+    {
+      "name": "被遗忘的美国人（Forgotten Man）",
+      "type": "work",
+      "context": "罗斯福1932年在民主党代表大会上的著名演讲，首次系统阐述新政自由主义",
+      "importance": "high"
+    },
+    {
+      "name": "国家评论（National Review）",
+      "type": "work",
+      "context": "巴克利创立的杂志，创造'Liberal Establishment'概念，新保守主义阵地",
+      "importance": "medium"
+    },
+    {
+      "name": "摆脱自由主义（Up from Liberalism）",
+      "type": "work",
+      "context": "巴克利1959年的著作，将自由主义类比为奴隶制",
+      "importance": "medium"
+    },
+    {
+      "name": "摆脱奴隶制（Up from Slavery）",
+      "type": "work",
+      "context": "布克·T·华盛顿的著作，巴克利借用其书名",
+      "importance": "low"
+    },
+    {
+      "name": "异议/异见（Dissent）",
+      "type": "work",
+      "context": "左翼杂志，与《国家评论》作用类似，从左侧批判自由主义",
+      "importance": "medium"
+    },
+    {
+      "name": "退伍军人法案/GI Bill",
+      "type": "work",
+      "context": "美国政府为二战退伍老兵提供补贴让其免费上大学的法案，推动教育和郊区住房发展",
+      "importance": "medium"
+    },
+    {
+      "name": "1964年民权法案（Civil Rights Act of 1964）",
+      "type": "work",
+      "context": "自由派在20世纪中期的重大成就，扩张黑人民权",
+      "importance": "medium"
+    },
+    {
+      "name": "1965年投票权法案（Voting Rights Act of 1965）",
+      "type": "work",
+      "context": "自由派成就，保障黑人投票权",
+      "importance": "medium"
+    },
+    {
+      "name": "1968年住房权法案",
+      "type": "work",
+      "context": "自由派成就，保障黑人住房权利",
+      "importance": "medium"
+    },
+    {
+      "name": "哈特-塞勒移民法案/Hart-Celler Immigration Act（1965年移民法案）",
+      "type": "work",
+      "context": "开放美国移民制度，允许亚非拉移民，终结1929年前的严格移民法",
+      "importance": "medium"
+    },
+    {
+      "name": "自由主义/liberalism",
+      "type": "concept",
+      "context": "本集核心讨论对象，1932年罗斯福将其确立为美国政治的自我描述，定义为介于共产主义和法西斯主义之间的中间道路，强调政府干预保护个人自由",
+      "importance": "high"
+    },
+    {
+      "name": "新政/New Deal",
+      "type": "concept",
+      "context": "罗斯福1933年后推行的政策纲领，1932年竞选时开始辩护，核心是通过政府行动调节经济、保护个人自由，巩固资本主义秩序",
+      "importance": "high"
+    },
+    {
+      "name": "放任自由资本主义/laissez-faire capitalism",
+      "type": "concept",
+      "context": "胡佛政府的政策，罗斯福明确反对，认为不能继续依赖",
+      "importance": "medium"
+    },
+    {
+      "name": "社会主义",
+      "type": "concept",
+      "context": "罗斯福需要与之区分的左翼立场，避免被骂成社会主义者",
+      "importance": "medium"
+    },
+    {
+      "name": "法西斯主义",
+      "type": "concept",
+      "context": "罗斯福需要与之区分的右翼集权立场，定义自由主义的另一端边界",
+      "importance": "medium"
+    },
+    {
+      "name": "经济上的王侯贵族/Economic Royalists",
+      "type": "concept",
+      "context": "罗斯福对巨型企业家的称呼，视为新出现的贵族阶级，是现代自由主义要制衡的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "进步时代/Progressive Era",
+      "type": "concept",
+      "context": "罗斯福之前的改革时期，其对国家角色扩张的设想被罗斯福超越",
+      "importance": "low"
+    },
+    {
+      "name": "自由主义共识/新政秩序/New Deal order",
+      "type": "concept",
+      "context": "五六十年代两党都接受的罗斯福自由主义观念，政府必须制衡大企业、监管经济，60年代末开始瓦解",
+      "importance": "high"
+    },
+    {
+      "name": "自由建制派/Liberal Establishment",
+      "type": "concept",
+      "context": "巴克利创造的概念，指要剥夺自由的自由主义体制，必须被防范",
+      "importance": "medium"
+    },
+    {
+      "name": "伟大社会/Great Society",
+      "type": "concept",
+      "context": "约翰逊总统的自由派改革，建立庞大福利国家，但因越南战争受批判",
+      "importance": "medium"
+    },
+    {
+      "name": "校车计划/busing",
+      "type": "concept",
+      "context": "70年代初自由派推出的种族融合政策，强行让黑白学生跨区上学，导致工人阶级和底层中产强烈反弹，被视为自由派的重大失误",
+      "importance": "high"
+    },
+    {
+      "name": "茶党/Tea Party",
+      "type": "concept",
+      "context": "2008年出现的右翼运动，与占领华尔街运动同时出现",
+      "importance": "low"
+    },
+    {
+      "name": "占领华尔街/Occupy Wall Street",
+      "type": "concept",
+      "context": "2008年出现的左翼运动，与茶党同时出现",
+      "importance": "low"
+    },
+    {
+      "name": "社会民主主义/social democracy",
+      "type": "concept",
+      "context": "伯尼·桑德斯自称的立场，比罗斯福式自由主义更激进的左翼",
+      "importance": "medium"
+    },
+    {
+      "name": "觉醒/woke",
+      "type": "concept",
+      "context": "特朗普攻击左翼和建制派时使用的词汇，指责他们想让所有人都变得觉醒",
+      "importance": "low"
+    },
+    {
+      "name": "大萧条/Great Depression",
+      "type": "event",
+      "context": "1929年开始的经济危机，失业率25%，银行倒闭，农产品价格崩盘，为罗斯福自由主义的出现提供契机",
+      "importance": "high"
+    },
+    {
+      "name": "1929年股市崩盘",
+      "type": "event",
+      "context": "大萧条的起点，暴露金融体系、住房、农业和国际债务结构的脆弱",
+      "importance": "medium"
+    },
+    {
+      "name": "第二次世界大战/WWII",
+      "type": "event",
+      "context": "紧随大萧条而来，使罗斯福自由主义能够拥抱更强大的国家，营造统一团结的紧迫性",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命（1789年）",
+      "type": "event",
+      "context": "左右框架的起源语境，被批评为无法分析美国和伊朗政治",
+      "importance": "medium"
+    },
+    {
+      "name": "美国革命",
+      "type": "event",
+      "context": "自由主义开始与宗教分离、指代政府和人民决定统治权的时期",
+      "importance": "medium"
+    },
+    {
+      "name": "1872年美国大选",
+      "type": "event",
+      "context": "自由共和党（Liberal Republican Party）出现但惨败消失，说明20世纪前自由派在美国一闪而过",
+      "importance": "low"
+    },
+    {
+      "name": "1979年伊朗革命",
+      "type": "event",
+      "context": "被用来说明左右之分无力的案例——霍梅尼、女权主义者、马克思主义者共同反对巴列维王朝",
+      "importance": "low"
+    },
+    {
+      "name": "越南战争",
+      "type": "event",
+      "context": "60年代末自由派政策的重大失败，责任被归咎于约翰逊总统，导致左翼对自由主义的批判",
+      "importance": "high"
+    },
+    {
+      "name": "2008年金融危机",
+      "type": "event",
+      "context": "奥巴马选择拯救银行为自由主义续命，同时出现茶党和占领华尔街运动",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "本集讨论的核心国家，1932年成为自由派自我描述正式出现的地点",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "言论自由的发明地（第201期），19世纪中期出现自由党（Liberal Party）",
+      "importance": "medium"
+    },
+    {
+      "name": "罗马",
+      "type": "place",
+      "context": "古代自由理解的案例（第202期）",
+      "importance": "low"
+    },
+    {
+      "name": "苏联",
+      "type": "place",
+      "context": "索尔仁尼琴批评西方自由的案例（第203期），马克思主义兴盛但被新政吸收",
+      "importance": "medium"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "法国大革命自由理解的案例（第205期），左右框架的发源地",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "欧陆自由主义传统，不使用自由主义一词，实为共和主义传统",
+      "importance": "low"
+    },
+    {
+      "name": "伊朗",
+      "type": "place",
+      "context": "1979年革命用来说明左右之分的无力",
+      "importance": "low"
+    },
+    {
+      "name": "旧金山",
+      "type": "place",
+      "context": "1932年10月罗斯福在此发表演讲，强调财富集中问题和政府作为人民工具的使命",
+      "importance": "low"
+    },
+    {
+      "name": "莫斯科",
+      "type": "place",
+      "context": "被对比罗斯福新政——苏联强制大家住进统一面积的公寓，而美国通过立法推动郊区建设",
+      "importance": "low"
+    },
+    {
+      "name": "宾夕法尼亚州/宾州",
+      "type": "place",
+      "context": "托克维尔观察到法律允许黑人投票但社会共识不允许的案例地点",
+      "importance": "low"
+    },
+    {
+      "name": "自由共和党/Liberal Republican Party",
+      "type": "organization",
+      "context": "1872年大选中昙花一现的政党，惨败后消失",
+      "importance": "low"
+    },
+    {
+      "name": "全国自由联盟/National Liberal League",
+      "type": "organization",
+      "context": "1876-1885年间反对天主教的自由派组织，反对政教合一，但鲜为人知",
+      "importance": "low"
+    },
+    {
+      "name": "智囊团/Brain Trust",
+      "type": "organization",
+      "context": "罗斯福1932年竞选时组建的政策顾问团队，包括特格韦尔等人",
+      "importance": "medium"
+    },
+    {
+      "name": "民主党",
+      "type": "organization",
+      "context": "罗斯福所属的政党，历史上号召力最强的总统所在党，2025年正经历中间自由派与激进左翼的内战",
+      "importance": "high"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "艾森豪威尔时期也接受罗斯福自由主义观念，但2025年已在特朗普崛起后走向后自由主义时代",
+      "importance": "high"
+    },
+    {
+      "name": "共产党",
+      "type": "organization",
+      "context": "1929年后在美国迅速发展，后被罗斯福新政吸收诉求，失去发展土壤",
+      "importance": "medium"
+    },
+    {
+      "name": "炉边谈话/Fireside Chats",
+      "type": "other",
+      "context": "罗斯福利用广播新技术直接向民众传播理念的演讲形式，被视为科技带来的政治民主化的早期案例",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68e158808bf86095c5cf0b2e",
+  "title": "259-自由派什么时候出现在美国？"
+}

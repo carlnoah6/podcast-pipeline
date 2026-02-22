@@ -1,0 +1,114 @@
+{
+  "style": {
+    "opening_pattern": "直接提出核心矛盾（血缘关系既定但生活方式存在本质冲突）",
+    "structure": "个人经历对比→母亲特质剖析→冲突本质分析→教育方法论（结合卢梭理论）→具体策略（规矩、不纠结、睁一只眼闭一只眼）→情感升华",
+    "tone": "理性真诚、深刻自省、略带幽默自嘲、辩证客观",
+    "catchphrases": [
+      "我妈",
+      "纠结",
+      "死的规矩",
+      "舒适",
+      "较真",
+      "不纠结",
+      "自然",
+      "睁一只眼闭一只眼"
+    ],
+    "closing_pattern": "以死亡意象升华到爱与信任的精神世界，情感高潮收束",
+    "narrative_techniques": [
+      "对比（母女生活方式）",
+      "类比（引用卢梭《爱弥儿》）",
+      "自我剖析",
+      "具体案例（日记测试、外婆被撞）",
+      "反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "我妈",
+      "type": "person",
+      "context": "播客讲述者的母亲，小县城儿科医生，代表追求舒适、妥协的生活方式",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "被引用来论证自然教育理论，其《爱弥儿》中的教育理念与母亲的教育方式形成呼应",
+      "importance": "high"
+    },
+    {
+      "name": "生活方式冲突",
+      "type": "concept",
+      "context": "核心议题，指母亲追求舒适与女儿追求极致较真之间的本质差异",
+      "importance": "high"
+    },
+    {
+      "name": "死的规矩",
+      "type": "concept",
+      "context": "母亲的教育策略之一，指以自然法则而非道德说教建立的不可协商的规矩",
+      "importance": "high"
+    },
+    {
+      "name": "自然教育",
+      "type": "concept",
+      "context": "引用卢梭《爱弥儿》的理论，强调在理性发育前以自然规律而非道德规范教育孩子",
+      "importance": "high"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "卢梭的教育学著作，被用来对照分析母亲设立'死的规矩'的教育哲学",
+      "importance": "high"
+    },
+    {
+      "name": "杨永信",
+      "type": "person",
+      "context": "被提及作为极端错误教育方式的例子，指电击治疗网瘾的'恶魔'",
+      "importance": "medium"
+    },
+    {
+      "name": "杨永信治疗网瘾纪录片",
+      "type": "work",
+      "context": "鲁豫制作的纪录片，讲述者观看后情绪激动，用来讨论家长对问题儿童的错误处理方式",
+      "importance": "medium"
+    },
+    {
+      "name": "外婆",
+      "type": "person",
+      "context": "讲述者的外婆，被描述为横穿马路被撞三次仍不悔改的'神的大妈'，用来展现家庭中的荒诞与无奈",
+      "importance": "medium"
+    },
+    {
+      "name": "小县城",
+      "type": "place",
+      "context": "母亲工作生活和讲述者童年成长的地方，代表一种按部就班、追求舒适的生活环境",
+      "importance": "medium"
+    },
+    {
+      "name": "云南（香格里拉、丽江）",
+      "type": "place",
+      "context": "讲述者与母亲旅游地点，用来具体说明母亲对女儿'强势'特质的不适",
+      "importance": "medium"
+    },
+    {
+      "name": "鲁豫",
+      "type": "person",
+      "context": "制作杨永信纪录片的媒体人，被提及作为该纪录片的制作者",
+      "importance": "low"
+    },
+    {
+      "name": "上海文艺出版社",
+      "type": "organization",
+      "context": "讲述者提及的工作单位之一，用来举例说明其工作态度对周围人的影响",
+      "importance": "low"
+    },
+    {
+      "name": "理想国",
+      "type": "organization",
+      "context": "讲述者提及的工作单位之一，用来举例说明其工作态度对周围人的影响",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68ed4150525f51df382af751",
+  "title": "263-如何养大一个跟自己生活方式有本质冲突的小孩？"
+}

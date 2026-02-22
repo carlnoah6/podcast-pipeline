@@ -1,0 +1,241 @@
+{
+  "style": {
+    "opening_pattern": "直接提出核心问题并批判主流观点",
+    "structure": "批判主流观点→建立分析前提→历史时间线梳理（1920s-1970s）→关键人物与政策分析→结论",
+    "tone": "理性客观、学术严谨、略带锋芒",
+    "catchphrases": [
+      "平铺直叙的梳理",
+      "从...的视角出发",
+      "这是一个事实",
+      "与此同时我们要承认的另外一个事实是",
+      "在逻辑上是闭环的",
+      "我们先自己活一活嘛",
+      "以色列先选择凑上去",
+      "拥抱政策"
+    ],
+    "closing_pattern": "开放式收尾（文本截断于1979年和平条约，未完整呈现结尾）",
+    "narrative_techniques": [
+      "对比",
+      "反问",
+      "举例",
+      "类比",
+      "历史叙事",
+      "数据引用"
+    ]
+  },
+  "entities": [
+    {
+      "name": "米尔斯海默",
+      "type": "person",
+      "context": "被提及为写过《以色列游说集团与美国对外政策》的国际政治学家，代表'美国被犹太人控制'这一主流学术观点",
+      "importance": "medium"
+    },
+    {
+      "name": "《以色列游说集团与美国对外政策》",
+      "type": "work",
+      "context": "米尔斯海默的著作，被认为是揭露犹太集团对美国政治决策影响的代表性作品",
+      "importance": "medium"
+    },
+    {
+      "name": "杜鲁门",
+      "type": "person",
+      "context": "1948年以色列建国时的美国总统，在以色列建国11分钟后即承认以色列，但同时在第一次中东战争中实施武器禁运",
+      "importance": "high"
+    },
+    {
+      "name": "艾森豪威尔",
+      "type": "person",
+      "context": "1956年苏伊士运河危机时期的美国总统，强迫以色列撤退，但被本-古里安持续游说",
+      "importance": "high"
+    },
+    {
+      "name": "肯尼迪",
+      "type": "person",
+      "context": "1960年代总统，对以色列采取'拥抱政策'，深度担心以色列研制核武器",
+      "importance": "high"
+    },
+    {
+      "name": "卡特",
+      "type": "person",
+      "context": "1979年在任总统，主导了埃及与以色列的和平条约",
+      "importance": "medium"
+    },
+    {
+      "name": "本-古里安",
+      "type": "person",
+      "context": "以色列第一任总理，被认为是以色列国防军的缔造者，做出向美国靠拢的关键战略决定，持续向美国推销美以关系",
+      "importance": "high"
+    },
+    {
+      "name": "纳赛尔（Abdel Nasser）",
+      "type": "person",
+      "context": "埃及领袖，推销泛阿拉伯主义，领导阿拉伯国家配备苏联新式武器，构成1950年代以色列的主要威胁",
+      "importance": "medium"
+    },
+    {
+      "name": "萨达特",
+      "type": "person",
+      "context": "1973年赎罪日战争时领导埃及突然渡过苏伊士运河进攻以色列",
+      "importance": "medium"
+    },
+    {
+      "name": "斯大林",
+      "type": "person",
+      "context": "批准通过捷克斯洛伐克向以色列出售武器，误判以色列可能成为反西方左翼国家",
+      "importance": "high"
+    },
+    {
+      "name": "辛克莱·刘易斯",
+      "type": "person",
+      "context": "1935年小说《这不可能发生》的作者，该小说被主播翻译并用于说明当时美国的排外和反犹情绪",
+      "importance": "low"
+    },
+    {
+      "name": "《这不可能发生》",
+      "type": "work",
+      "context": "主播翻译的1935年小说，用于体现美国社会对移民的焦虑和排外情绪",
+      "importance": "low"
+    },
+    {
+      "name": "贝尔福宣言（Balfour Declaration）",
+      "type": "event",
+      "context": "1917年英国政府发表的官方外交声明，首次由主要帝国正式承认犹太复国主义的政治目标",
+      "importance": "high"
+    },
+    {
+      "name": "Lodge-Fish Resolution（洛奇-菲什决议）",
+      "type": "event",
+      "context": "1922年美国国会通过的决议，对贝尔福宣言背书，标志着美国国会开始将支持犹太复国作为一种政策立场",
+      "importance": "high"
+    },
+    {
+      "name": "紧急配额法案（Emergency Quota Act）",
+      "type": "event",
+      "context": "1921年美国国会通过的法案，系统性地压低东欧和南欧移民，实际上将犹太人排除在美国大门之外",
+      "importance": "high"
+    },
+    {
+      "name": "第一次中东战争（1948年）",
+      "type": "event",
+      "context": "以色列建国次日爆发的战争，以色列面临最严重生存危机，最终依靠捷克斯洛伐克武器存活并扩张",
+      "importance": "high"
+    },
+    {
+      "name": "苏伊士运河危机（1956年）",
+      "type": "event",
+      "context": "英法以结盟试图夺回运河，被美国强迫撤退，但证明以色列可作为对抗阿拉伯和苏联力量的有效制衡",
+      "importance": "high"
+    },
+    {
+      "name": "六日战争（1967年）",
+      "type": "event",
+      "context": "以色列证明自己是地区强权，摧毁苏联武装的阿拉伯联军，强化美国'拥抱政策'",
+      "importance": "high"
+    },
+    {
+      "name": "赎罪日战争（1973年）",
+      "type": "event",
+      "context": "埃及叙利亚突袭，以色列初期损失惨重，阿拉伯国家随后发动石油禁运引发世界能源危机",
+      "importance": "high"
+    },
+    {
+      "name": "古巴导弹危机",
+      "type": "event",
+      "context": "1960年代重大背景事件，使美国深度担心核战争风险，影响对以色列核武器的态度",
+      "importance": "medium"
+    },
+    {
+      "name": "巴勒斯坦分治决议（1947年）",
+      "type": "event",
+      "context": "联合国通过的在原英国殖民地建立犹太国家和阿拉伯国家的决议",
+      "importance": "high"
+    },
+    {
+      "name": "马歇尔计划",
+      "type": "event",
+      "context": "1947-48年美国核心优先事项，导致国务院不愿因中东事务分散遏制苏联的资源",
+      "importance": "medium"
+    },
+    {
+      "name": "石油禁运（1973年）",
+      "type": "event",
+      "context": "阿拉伯产油国因美国支持以色列实施的禁运，导致美国油价暴涨通货膨胀，迫使美国深度卷入中东",
+      "importance": "high"
+    },
+    {
+      "name": "Kibbutz（基布兹）",
+      "type": "concept",
+      "context": "以色列内部高度共产主义化的集体农庄，体现以色列国家组织内部的社会主义化特征",
+      "importance": "medium"
+    },
+    {
+      "name": "拥抱政策",
+      "type": "concept",
+      "context": "1960年代起美国对以色列的政策，通过紧密绑定维持影响力和控制力，防止以色列做出对美国不利的事",
+      "importance": "high"
+    },
+    {
+      "name": "以色列国防军（IDF）",
+      "type": "organization",
+      "context": "由本-古里安整合建立的统一军队，1948年时尚处散乱状态，后成为强悍军事力量",
+      "importance": "high"
+    },
+    {
+      "name": "捷克斯洛伐克",
+      "type": "place",
+      "context": "1948年在斯大林批准下向以色列出售决定性武器补给，帮助以色列扭转第一次中东战争战局",
+      "importance": "high"
+    },
+    {
+      "name": "巴勒斯坦",
+      "type": "place",
+      "context": "原英国托管地，1947年联合国决议分治，1948年阿拉伯国家未能成立",
+      "importance": "high"
+    },
+    {
+      "name": "苏联",
+      "type": "place",
+      "context": "冷战对手，通过捷克斯洛伐克间接武装以色列，后被以色列放弃而选择站队美国",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "巴勒斯坦托管国，发表贝尔福宣言，与美国在三四十年代就犹太复国主义产生矛盾",
+      "importance": "high"
+    },
+    {
+      "name": "埃及",
+      "type": "place",
+      "context": "第一次中东战争主要参战国，纳赛尔和萨达特领导下的阿拉伯世界核心力量",
+      "importance": "medium"
+    },
+    {
+      "name": "约旦",
+      "type": "place",
+      "context": "第一次中东战争参战国，关心吞并约旦河西岸，与埃及存在内讧",
+      "importance": "medium"
+    },
+    {
+      "name": "沙特阿拉伯",
+      "type": "place",
+      "context": "美国国务院担忧失去关系的阿拉伯产油国，涉及美国能源安全考量",
+      "importance": "low"
+    },
+    {
+      "name": "Hawk missile（霍克导弹）",
+      "type": "work",
+      "context": "1962年美国首次批准向以色列出售的防空导弹，标志美以战略关系实质性升级",
+      "importance": "medium"
+    },
+    {
+      "name": "Messerschmitt（梅塞施密特战斗机）",
+      "type": "work",
+      "context": "以色列1948年从捷克购买的改装战斗机，帮助扭转战场平衡",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "694d99dd63a654fa60de418e",
+  "title": "283-美国为何把支持以色列作为一种政策立场？"
+}

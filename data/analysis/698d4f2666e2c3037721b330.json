@@ -1,0 +1,190 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件引入，直接点明讨论主题——西方国家正在发生的立法改革，并回顾自己两年前相关播客内容建立连续性",
+    "structure": "背景回顾（第44期播客+《焦虑一代》核心论点）→ 作者学术脉络梳理（从《娇惯的心灵》到《焦虑一代》的问题延续）→ 全球立法实践案例（澳大利亚为核心样本）→ 四条行动规范详解 → AI'魔鬼计划'的隐喻分析 → 阶级问题的自我批判 → 哲学升华结尾",
+    "tone": "理性客观中带个人化反思，既有学术梳理的严谨，也有亲历者式的情感投入，对'快乐教育''美国崇拜'等话题带有明显的批判性反讽",
+    "catchphrases": [
+      "一搭没一搭",
+      "啪啪的打脸",
+      "智障",
+      "海特大盛宴",
+      "醍醐灌顶",
+      "哇塞",
+      "OK",
+      "不管怎么样",
+      "事实就是",
+      "在我看来"
+    ],
+    "closing_pattern": "引用名言收束（Leon Kass关于'站立的灵魂'），将技术批判上升到存在哲学高度，以开放式呼吁作结",
+    "narrative_techniques": [
+      "类比（社交媒体与19世纪鸦片馆、老虎机奖励机制）",
+      "对比（富人阶层与穷人阶层的童年实践差异，藏族司机与美国中产家长的意识差距）",
+      "举例（南澳州州长睡前读书的真实轶事、自己大二中东电影课的经历）",
+      "反问（'你来上这个课不是要把自己带进这个空间吗？'）",
+      "框架转换（让AI扮演'魔鬼'提出毁掉下一代的计划，再对照现实）",
+      "自我指涉（预判听众可能的阶级批判并提前回应）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "乔纳森·海特（Jonathan Haidt）",
+      "type": "person",
+      "context": "美国著名社会心理学家，《焦虑一代》《娇惯的心灵》《象与骑象人》作者，其研究推动了全球青少年社交媒体限制立法运动",
+      "importance": "high"
+    },
+    {
+      "name": "《焦虑一代》（The Anxious Generation）",
+      "type": "work",
+      "context": "2024年3月出版的社会心理学著作，指出2010年是青少年心理健康转折点，智能手机和社交媒体导致Z世代心理疾病激增，引发全球立法响应",
+      "importance": "high"
+    },
+    {
+      "name": "《娇惯的心灵》（The Coddling of the American Mind）",
+      "type": "work",
+      "context": "海特2018年出版的畅销书，批评90年代至2000年初美国主流教育观念（鼓励式教育、情绪至上、安全主义文化）削弱大学生心理韧性",
+      "importance": "high"
+    },
+    {
+      "name": "《象与骑象人》（The Happiness Hypothesis）",
+      "type": "work",
+      "context": "海特早期畅销书，提出幸福来自内在与外在的调和、人与超越之物的嵌入关系",
+      "importance": "medium"
+    },
+    {
+      "name": "智能手机/社交媒体对青少年的影响",
+      "type": "concept",
+      "context": "核心讨论议题，涉及注意力侵蚀、身份表演化、关系货币化、算法成瘾等心理伤害机制",
+      "importance": "high"
+    },
+    {
+      "name": "Z世代（1996-2012年出生）",
+      "type": "concept",
+      "context": "海特研究的核心对象，其心理健康在2010年代初开始急剧恶化，被称为'焦虑一代'",
+      "importance": "high"
+    },
+    {
+      "name": "安全主义文化（Safetyism）",
+      "type": "concept",
+      "context": "海特提出的概念，指美国大学自2013年起出现的过度保护学生情绪、设立安全空间和触发警告的文化趋势",
+      "importance": "high"
+    },
+    {
+      "name": "触发警告（Trigger Warning）",
+      "type": "concept",
+      "context": "美国大学为保护学生心理而要求教师在课程中提前警告可能令人不适的内容，被海特批评为削弱教育本质",
+      "importance": "medium"
+    },
+    {
+      "name": "澳大利亚16岁以下社交媒体禁令",
+      "type": "event",
+      "context": "2024年11月签署联邦法律、2025年12月生效的全球首个国家级立法，禁止16岁以下青少年使用社交媒体，已关闭450万个账户",
+      "importance": "high"
+    },
+    {
+      "name": "Peter Malinauskas",
+      "type": "person",
+      "context": "南澳州州长，因妻子推荐阅读《焦虑一代》而委托起草相关法律草案，推动澳大利亚联邦立法",
+      "importance": "medium"
+    },
+    {
+      "name": "马克龙（Emmanuel Macron）",
+      "type": "person",
+      "context": "法国总统，2025年达沃斯会议与海特会谈，讨论将社交媒体年龄设至15岁及家长同意例外条款问题",
+      "importance": "medium"
+    },
+    {
+      "name": "达沃斯世界经济论坛",
+      "type": "event",
+      "type_other": "organization",
+      "context": "2025年会议上海特成为全球政治领导人贵宾，与多国领导人讨论社交媒体限制立法",
+      "importance": "medium"
+    },
+    {
+      "name": "无手机校园政策",
+      "type": "concept",
+      "context": "海特提出的第三条规范，已在美、中、巴西、丹麦等多国学校实施，获得美国左右两派共识",
+      "importance": "high"
+    },
+    {
+      "name": "Smartphone Free Childhood（英国）",
+      "type": "organization",
+      "context": "英国母亲主导的组织，为父母设计延迟给小孩配手机的承诺机制",
+      "importance": "medium"
+    },
+    {
+      "name": "Wait Until the 8th（等八年级结束）",
+      "type": "organization",
+      "context": "美国类似组织，推动家长集体行动延迟给孩子智能手机",
+      "importance": "medium"
+    },
+    {
+      "name": "ChatGPT/人工智能",
+      "type": "concept",
+      "context": "海特让其扮演'魔鬼'提出毁掉下一代的七个计划，以此对照现实中科技对青少年的实际危害",
+      "importance": "medium"
+    },
+    {
+      "name": "《毁掉下一代的魔鬼计划》",
+      "type": "work",
+      "context": "海特发表的文章，通过AI生成的七个'邪恶计划'揭示社交媒体和算法对青少年的系统性伤害",
+      "importance": "medium"
+    },
+    {
+      "name": "Leon Kass",
+      "type": "person",
+      "context": "芝加哥大学教授，播客结尾引述其名言'那些已经忘记如何站立的灵魂注定是浅薄的灵魂'",
+      "importance": "medium"
+    },
+    {
+      "name": "iPhone 4前置摄像头/App Store/点赞功能",
+      "type": "concept",
+      "context": "2010年前后涌现的技术创新，被海特视为塑造当代青少年成长环境、转变社交媒体性质的关键节点",
+      "importance": "medium"
+    },
+    {
+      "name": "关系性暴力（Relational Aggression）",
+      "type": "concept",
+      "context": "女性群体中特有的社交攻击形式，海特用以解释社交媒体对女孩负面影响更严重的原因",
+      "importance": "medium"
+    },
+    {
+      "name": "硅谷/康涅狄格州富裕社区",
+      "type": "place",
+      "context": "美国最早出现'无科技社群'和街区合约的地区，富人阶层优先实践限制孩子屏幕时间的育儿方式",
+      "importance": "medium"
+    },
+    {
+      "name": "香格里拉（云南）",
+      "type": "place",
+      "context": "播客主25年夏天旅行地，通过与藏族、纳西族司机导游的对话揭示阶级/意识鸿沟——农村家长缺乏智能手机危害的认知",
+      "importance": "medium"
+    },
+    {
+      "name": "抖音/TikTok",
+      "type": "organization",
+      "context": "被反复提及的社交媒体平台代表，青少年平均每天沉浸5小时，算法以注意力而非幸福为目标",
+      "importance": "medium"
+    },
+    {
+      "name": "Semafor",
+      "type": "organization",
+      "context": "美国独立媒体，海特在其上发表关于全球父母请求立法帮助的文章",
+      "importance": "low"
+    },
+    {
+      "name": "快乐教育/鼓励式教育",
+      "type": "concept",
+      "context": "90年代至千禧年初在中国家长中流行的美式教育理念，被海特批评为导致年轻一代缺乏心理弹性和认知扭曲",
+      "importance": "medium"
+    },
+    {
+      "name": "分房睡培养独立性",
+      "type": "concept",
+      "context": "播客主母亲曾纠结的美国育儿建议，最终选择培养亲密依赖而非盲目效仿",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "698d4f2666e2c3037721b330",
+  "title": "302-国家应该立法禁止青少年使用社交媒体吗？"
+}

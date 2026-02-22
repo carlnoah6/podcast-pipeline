@@ -1,0 +1,364 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件（2026年1月美军抓捕马杜罗）引入，结合幽默自嘲（主持人普通话发音不清，'委内瑞拉'读音模糊）",
+    "structure": "倒叙时间线（近五年美委关系升级）→ 历史纵深（殖民史→石油史→查韦斯时代→马杜罗时代）→ 横向对比（美国20世纪拉美干预史）",
+    "tone": "理性客观、严肃深沉、信息密度高、带有历史厚重感和人文关怀",
+    "catchphrases": [
+      "对吧",
+      "我想说的是",
+      "我们可以看到",
+      "也就是说",
+      "事实上",
+      "委内瑞拉（发音模糊的自嘲式重复）"
+    ],
+    "closing_pattern": "总结回顾（梳理本期讨论的三大时间线）+ 告别式（'我已经讲累了'）",
+    "narrative_techniques": [
+      "时间线梳理（多线索并行：2020-2026年、殖民时期至今）",
+      "类比（'沙特版委内瑞拉'、'砍掉蛇头保留蛇身'、'庞氏骗局'）",
+      "对比（1950-80年代富裕vs 2010年代贫困、查韦斯vs马杜罗）",
+      "数据引用（通胀率、石油产量、人口外流数字）",
+      "场景描绘（'马杜罗在唱歌'、'斩首行动'细节）",
+      "历史纵深（500年回溯）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "委内瑞拉",
+      "type": "place",
+      "context": "本期播客的核心讨论对象，从富裕国家沦为最贫困危险国家的拉美国家",
+      "importance": "high"
+    },
+    {
+      "name": "马杜罗",
+      "type": "person",
+      "context": "委内瑞拉前总统，2026年1月3日被美军抓捕并带往纽约审判，被指控为跨国犯罪组织头目",
+      "importance": "high"
+    },
+    {
+      "name": "查韦斯",
+      "type": "person",
+      "context": "Hugo Chávez，委内瑞拉前总统（1999-2013），通过民粹主义上台，实施石油国有化并建立威权体制，是塑造现代委内瑞拉的关键人物",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "美国总统特朗普，其政权对委内瑞拉政策从起诉、制裁升级到最终军事抓捕马杜罗，体现'门罗主义'的回归",
+      "importance": "high"
+    },
+    {
+      "name": "石油诅咒",
+      "type": "concept",
+      "context": "解释委内瑞拉经济困境的核心概念，指国家过度依赖自然资源导致经济结构脆弱、腐败滋生和政治不稳定",
+      "importance": "high"
+    },
+    {
+      "name": "2026年1月3日抓捕马杜罗",
+      "type": "event",
+      "context": "美军在加拉加斯实施'斩首行动'，抓捕马杜罗及其夫人并带往纽约审判，是本期播客的开场核心事件",
+      "importance": "high"
+    },
+    {
+      "name": "2002年委内瑞拉政变",
+      "type": "event",
+      "context": "军方短暂推翻查韦斯但很快失败，此事件成为分水岭，此后查韦斯开始彻底清除异己，将忠诚置于能力之上，导致体制崩溃",
+      "importance": "high"
+    },
+    {
+      "name": "2024年委内瑞拉大选",
+      "type": "event",
+      "context": "反对派获得约70%选票但马杜罗通过舞弊继续掌权，仅获朝鲜、俄罗斯等少数国家承认，引发后续美国升级干预",
+      "importance": "high"
+    },
+    {
+      "name": "加拉加斯",
+      "type": "place",
+      "context": "委内瑞拉首都，曾是每四人就有一人是西方人的繁荣都市，现为危险混乱之地，也是马杜罗被捕地点",
+      "importance": "high"
+    },
+    {
+      "name": "OPEC",
+      "type": "organization",
+      "context": "石油输出国组织，委内瑞拉是创始成员国，该组织曾通过协调油价影响国际政治，在70年代石油危机中发挥关键作用",
+      "importance": "medium"
+    },
+    {
+      "name": "PDVSA",
+      "type": "organization",
+      "context": "委内瑞拉国家石油公司，1970年代成立，后被查韦斯和马杜罗安插亲信管理，因无能和腐败导致产量暴跌",
+      "importance": "medium"
+    },
+    {
+      "name": "门罗主义",
+      "type": "concept",
+      "context": "特朗普干预委内瑞拉的理论基础，主张西半球是美国的势力范围，不允许外部势力（如中俄）介入",
+      "importance": "medium"
+    },
+    {
+      "name": "西蒙·玻利瓦尔",
+      "type": "person",
+      "context": "委内瑞拉民族英雄，领导独立战争摆脱西班牙统治，是查韦斯'玻利瓦尔革命'的思想源头",
+      "importance": "medium"
+    },
+    {
+      "name": "卡斯特罗",
+      "type": "person",
+      "context": "Fidel Castro，古巴领导人，查韦斯的亲密盟友，委内瑞拉通过石油换取古巴医生和安保人员，形成互利关系",
+      "importance": "medium"
+    },
+    {
+      "name": "María Corina Machado",
+      "type": "person",
+      "context": "委内瑞拉反对派领袖，2024年诺贝尔和平奖得主，虽被禁止参选但成功整合反对派联盟",
+      "importance": "medium"
+    },
+    {
+      "name": "Edmundo González",
+      "type": "person",
+      "context": "2024年反对派实际候选人，马查多推出的门面人物，获得压倒性胜利但选举结果被窃",
+      "importance": "medium"
+    },
+    {
+      "name": "太阳军团",
+      "type": "organization",
+      "context": "Cartel de los Soles，被指为马杜罗政权控制的贩毒集团，特朗普将其列为全球恐怖组织，成为军事干预的法律借口",
+      "importance": "medium"
+    },
+    {
+      "name": "Colectivo",
+      "type": "organization",
+      "context": "亲政权民兵组织，骑摩托车成群结队，负责镇压异议而非维护治安，是马杜罗维持统治的暴力工具",
+      "importance": "medium"
+    },
+    {
+      "name": "亨利·基辛格",
+      "type": "person",
+      "context": "美国前国务卿，冷战时期拉美干预政策的核心设计者，其'只要非共即可'的逻辑影响至今",
+      "importance": "medium"
+    },
+    {
+      "name": "诺列加",
+      "type": "person",
+      "context": "巴拿马前领导人，美国最后一次抓捕拉美领导人的先例，现仍在美国服刑，与马杜罗案直接类比",
+      "importance": "medium"
+    },
+    {
+      "name": "1954年危地马拉政变",
+      "type": "event",
+      "context": "CIA支持的政变，冷战时期美国拉美干预的开端，确立了'反共即可'的干预逻辑",
+      "importance": "medium"
+    },
+    {
+      "name": "1973年智利政变",
+      "type": "event",
+      "context": "美国支持推翻民选总统阿连德，建立皮诺切特独裁政权，体现冷战现实政治的残酷性",
+      "importance": "medium"
+    },
+    {
+      "name": "猪湾入侵",
+      "type": "event",
+      "context": "1961年美国试图推翻卡斯特罗的失败行动，冷战时期对古巴干预的标志性事件",
+      "importance": "low"
+    },
+    {
+      "name": "秃鹰行动",
+      "type": "event",
+      "context": "CIA牵头的跨国行动，在阿根廷、巴西等国阻止亲苏领导人上台，支持独裁统治",
+      "importance": "low"
+    },
+    {
+      "name": "哥伦比亚",
+      "type": "place",
+      "context": "委内瑞拉邻国，接收了约150万委内瑞拉难民，也是毒品贩运路线上的关键国家",
+      "importance": "low"
+    },
+    {
+      "name": "古巴",
+      "type": "place",
+      "context": "委内瑞拉的重要盟友，通过医生和安全人员换取石油，马杜罗被抓捕后政权稳定性受关注",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "实施对委制裁并最终抓捕马杜罗的国家，拥有唯一能提炼委内瑞拉重油的炼油厂",
+      "importance": "medium"
+    },
+    {
+      "name": "1811年委内瑞拉独立",
+      "type": "event",
+      "context": "委内瑞拉宣布脱离西班牙独立，利用拿破仑入侵西班牙的机会，但随后经历十年血腥内战",
+      "importance": "low"
+    },
+    {
+      "name": "1970年代石油国有化",
+      "type": "event",
+      "context": "委内瑞拉将石油产业收归国有，成立PDVSA，向外国公司支付补偿但未达预期，成为长期争议源头",
+      "importance": "medium"
+    },
+    {
+      "name": "哥伦布",
+      "type": "person",
+      "context": "1498年到达委内瑞拉的探险家，开启西班牙殖民时期",
+      "importance": "low"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "19世纪初入侵西班牙，导致西班牙虚弱，为拉美独立运动提供机会",
+      "importance": "low"
+    },
+    {
+      "name": "拜登",
+      "type": "person",
+      "context": "美国前任总统，在2024年大选后对马杜罗实施制裁但无实质后果",
+      "importance": "low"
+    },
+    {
+      "name": "金正恩",
+      "type": "person",
+      "context": "朝鲜领导人，少数承认马杜罗2024年胜选的国家领导人之一",
+      "importance": "low"
+    },
+    {
+      "name": "普京",
+      "type": "person",
+      "context": "俄罗斯领导人，支持马杜罗并承认其胜选，在委内瑞拉有军事装备影响力",
+      "importance": "low"
+    },
+    {
+      "name": "阿萨德",
+      "type": "person",
+      "context": "叙利亚前总统（任期末段），曾承认马杜罗2024年胜选",
+      "importance": "low"
+    },
+    {
+      "name": "皮诺切特",
+      "type": "person",
+      "context": "智利独裁者，美国支持其通过1973年政变上台，代表冷战残酷现实",
+      "importance": "low"
+    },
+    {
+      "name": "马可·卢比奥",
+      "type": "person",
+      "context": "现任美国国务卿，兼任国家安全顾问，类似基辛格的双重职位",
+      "importance": "low"
+    },
+    {
+      "name": "老罗斯福",
+      "type": "person",
+      "context": "Teddy Roosevelt，20世纪初确立美国将加勒比海和中美洲视为势力范围的逻辑起点",
+      "importance": "low"
+    },
+    {
+      "name": "苏联/俄罗斯",
+      "type": "place",
+      "context": "冷战时期美国的对手，试图在拉美扩大影响力，现为委内瑞拉防御系统装备提供者",
+      "importance": "low"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "与委内瑞拉关系深厚的国家，美国此次行动意图削弱其在西半球影响力",
+      "importance": "low"
+    },
+    {
+      "name": "墨西哥湾",
+      "type": "place",
+      "context": "特朗普称其为'美国湾'（Gulf of America），美国在此集中部署航母战斗群拦截所谓毒品快艇",
+      "importance": "low"
+    },
+    {
+      "name": "西班牙",
+      "type": "place",
+      "context": "委内瑞拉的殖民宗主国，19世纪初被拿破仑入侵导致虚弱，引发委独立运动",
+      "importance": "low"
+    },
+    {
+      "name": "葡萄牙",
+      "type": "place",
+      "context": "文本中未提及，不列入"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "法航曾运营巴黎直飞加拉加斯的超音速航线，拿破仑入侵西班牙",
+      "importance": "low"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "英国石油（BP）曾在委内瑞拉经营，被国有化",
+      "importance": "low"
+    },
+    {
+      "name": "卡塔尔、沙特、阿联酋",
+      "type": "place",
+      "context": "中东产油国，为避免石油诅咒正努力实现经济多元化，与委内瑞拉形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "埃克森",
+      "type": "organization",
+      "context": "Exxon，美国石油公司，在委内瑞拉国有化后未获充分补偿，对重返委国持谨慎态度",
+      "importance": "low"
+    },
+    {
+      "name": "雪佛龙",
+      "type": "organization",
+      "context": "Chevron，美国石油公司，曾在委内瑞拉经营",
+      "importance": "low"
+    },
+    {
+      "name": "英国石油",
+      "type": "organization",
+      "context": "BP，曾在委内瑞拉经营",
+      "importance": "low"
+    },
+    {
+      "name": "USS Gerald Ford",
+      "type": "other",
+      "context": "美国最大航空母舰，被派往加勒比海执行任务，显示美国军事存在远超缉毒需求",
+      "importance": "low"
+    },
+    {
+      "name": "全球反恐战争",
+      "type": "concept",
+      "context": "Global War on Terror，特朗普政府将委内瑞拉问题套用的规则和语言框架",
+      "importance": "low"
+    },
+    {
+      "name": "斩首行动",
+      "type": "concept",
+      "context": "形容美国抓捕马杜罗的策略，即'砍掉蛇头保留蛇身'，避免全面政权更迭",
+      "importance": "medium"
+    },
+    {
+      "name": "庞氏骗局",
+      "type": "concept",
+      "context": "形容委内瑞拉荒诞的外汇管制制度，该制度成为经济崩溃的重要原因",
+      "importance": "low"
+    },
+    {
+      "name": "毒恐主义",
+      "type": "concept",
+      "context": "Narco Terrorism，美国指控马杜罗政权通过贩毒获利的罪名基础",
+      "importance": "medium"
+    },
+    {
+      "name": "约瑟夫·波拿巴",
+      "type": "person",
+      "context": "拿破仑之弟，被扶为西班牙国王，引发拉美殖民地不满和独立运动",
+      "importance": "low"
+    },
+    {
+      "name": "Diosdado Cabello",
+      "type": "person",
+      "context": "委内瑞拉政权核心人物，至今仍使用Colectivo民兵维持统治",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6969763f109824f9e1b79056",
+  "title": "291-委内瑞拉怎么变成了今天这个样子？"
+}

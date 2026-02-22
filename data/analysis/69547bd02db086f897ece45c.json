@@ -1,0 +1,244 @@
+{
+  "style": {
+    "opening_pattern": "以音乐播放引入，直接点明主题并高度赞誉作品地位",
+    "structure": "个人创作背景说明→作品整体介绍→逐乐章分析（第一乐章详细解析→第二、三乐章简述→第四乐章重点展开）→哲学意义升华",
+    "tone": "热情洋溢、理性与感性交织、带有强烈个人情感投入",
+    "catchphrases": [
+      "无中生有",
+      "向着天空挥拳的人",
+      "拒绝和现实妥协",
+      "恐怖和弦",
+      "延迟满足",
+      "为永恒写作",
+      "人人皆兄弟",
+      "何等光辉的一团混乱",
+      "拙劣的普世主义",
+      "抓着我们的肩膀"
+    ],
+    "closing_pattern": "回应开篇康德星空意象，以理想主义的自我辩护作结，强调作品的普世价值与当代意义",
+    "narrative_techniques": [
+      "音乐片段穿插解说",
+      "对比（贝多芬与其他作曲家）",
+      "类比（现代主义陈词滥调）",
+      "设问自答",
+      "引用同时代人描述",
+      "反复咏叹式表达",
+      "个人经历嵌入"
+    ]
+  },
+  "entities": [
+    {
+      "name": "贝多芬（Ludwig van Beethoven）",
+      "type": "person",
+      "context": "第九交响曲的创作者，被描述为自传式作曲家、向着天空挥拳的人、拒绝与现实妥协的性格",
+      "importance": "high"
+    },
+    {
+      "name": "第九交响曲（D小调第9号交响曲）",
+      "type": "work",
+      "context": "人类音乐史上最伟大的交响曲，四个乐章结构，首次在交响曲中加入人声合唱《欢乐颂》",
+      "importance": "high"
+    },
+    {
+      "name": "欢乐颂（Ode to Joy）",
+      "type": "work",
+      "context": "第九交响曲第四乐章，根据席勒诗作改编的合唱部分，象征人类兄弟情谊与普世理想",
+      "importance": "high"
+    },
+    {
+      "name": "康德（Immanuel Kant）",
+      "type": "person",
+      "context": "德国哲学家，其'头顶的星空'名言被贝多芬直接引用，成为第九交响曲的核心哲学意象",
+      "importance": "high"
+    },
+    {
+      "name": "席勒（Friedrich Schiller）",
+      "type": "person",
+      "context": "德国启蒙哲学家，1785年创作《欢乐颂》诗作，贝多芬据此谱写第四乐章歌词",
+      "importance": "high"
+    },
+    {
+      "name": "尼采（Friedrich Nietzsche）",
+      "type": "person",
+      "context": "其名言'所有哲学体系都是哲学家的自传'被用来解释贝多芬音乐的自传性质",
+      "importance": "medium"
+    },
+    {
+      "name": "瓦格纳（Richard Wagner）",
+      "type": "person",
+      "context": "称第九交响曲某和弦为'恐怖和弦'，继承并极端化了贝多芬的延迟满足技法",
+      "importance": "medium"
+    },
+    {
+      "name": "勃拉姆斯（Johannes Brahms）",
+      "type": "person",
+      "context": "因'第九交响曲诅咒'心理阴影直到50岁才写出第一部交响曲，公开引用《欢乐颂》",
+      "importance": "medium"
+    },
+    {
+      "name": "莫扎特（Wolfgang Amadeus Mozart）",
+      "type": "person",
+      "context": "作为对比案例，其音乐不显露个人性格，与贝多芬的自传式作曲形成鲜明对照",
+      "importance": "medium"
+    },
+    {
+      "name": "肖斯塔科维奇（Dmitri Shostakovich）",
+      "type": "person",
+      "context": "另一对比案例，极度害羞的性格不在音乐中显露",
+      "importance": "low"
+    },
+    {
+      "name": "蒙田（Michel de Montaigne）",
+      "type": "person",
+      "context": "法国哲学家，《酒神的注脚》系列第四期讨论对象，论醉酒主题",
+      "importance": "low"
+    },
+    {
+      "name": "薄伽丘（Giovanni Boccaccio）",
+      "type": "person",
+      "context": "《十日谈》作者，《酒神的注脚》系列第三期讨论对象",
+      "importance": "low"
+    },
+    {
+      "name": "莎士比亚（William Shakespeare）",
+      "type": "person",
+      "context": "其笔下最有哲学深度的醉汉角色在《酒神的注脚》第五期讨论",
+      "importance": "low"
+    },
+    {
+      "name": "陀思妥耶夫斯基（Fyodor Dostoevsky）",
+      "type": "person",
+      "context": "《酒神的注脚》最后三期计划讨论的现代文明人物之一，与酒的关系",
+      "importance": "low"
+    },
+    {
+      "name": "卡尔·车尔尼（Carl Czerny）",
+      "type": "person",
+      "context": "贝多芬的学生，记载贝多芬创作时心中想着康德头顶的星空",
+      "importance": "medium"
+    },
+    {
+      "name": "路易斯·施波尔（Louis Spohr）",
+      "type": "person",
+      "context": "与贝多芬同时代的德国作曲家，描述贝多芬极其非凡的指挥风格",
+      "importance": "medium"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "播客音乐总监，钢琴演奏者，自称弹不了贝多芬因为太'直男'，福州人性格无忧无虑",
+      "importance": "medium"
+    },
+    {
+      "name": "荷马史诗",
+      "type": "work",
+      "context": "《酒神的注脚》第一期内容，酒代表文明的古典源头",
+      "importance": "low"
+    },
+    {
+      "name": "《会饮》（柏拉图）",
+      "type": "work",
+      "context": "《酒神的注脚》第二期内容，讨论其中的酒意象",
+      "importance": "low"
+    },
+    {
+      "name": "《十日谈》",
+      "type": "work",
+      "context": "《酒神的注脚》第三期内容，中世纪文学中的酒",
+      "importance": "low"
+    },
+    {
+      "name": "59号四重奏（F大调弦乐四重奏）",
+      "type": "work",
+      "context": "贝多芬早期作品，其慢乐章与第九交响曲第三乐章开头相似，都关联康德星空意象",
+      "importance": "medium"
+    },
+    {
+      "name": "A小调间奏曲（勃拉姆斯）",
+      "type": "work",
+      "context": "由脑雾哥演奏，用以说明勃拉姆斯音乐不显露其暴躁性格",
+      "importance": "low"
+    },
+    {
+      "name": "《酒神的注脚》",
+      "type": "work",
+      "context": "主播制作的八集限定播客，以酒串联西方文明史，与看理想合作推出",
+      "importance": "medium"
+    },
+    {
+      "name": "《独树不成林》",
+      "type": "work",
+      "context": "本播客节目名称，本期为第286集",
+      "importance": "medium"
+    },
+    {
+      "name": "《乐辞不安》",
+      "type": "work",
+      "context": "脑雾哥自己做的音乐播客，讨论练琴与开车、与肖邦八字不合等话题",
+      "importance": "low"
+    },
+    {
+      "name": "第九交响曲诅咒",
+      "type": "concept",
+      "context": "后世作曲家对创作第九交响曲的恐惧，认为预示死亡，勃拉姆斯因此拖延多年",
+      "importance": "medium"
+    },
+    {
+      "name": "谐谑曲（Scherzo）",
+      "type": "concept",
+      "context": "原为'玩笑'之意，贝多芬将其从优雅小步舞曲转变为奔放有力的形式，贝九第二乐章打破自身定下的规则",
+      "importance": "medium"
+    },
+    {
+      "name": "现代主义",
+      "type": "concept",
+      "context": "从无开始一部交响曲后来成为现代主义作曲家的陈词滥调，但贝多芬的空无最终形成强音和弦",
+      "importance": "medium"
+    },
+    {
+      "name": "延迟满足",
+      "type": "concept",
+      "context": "贝多芬发明的音乐技法，被瓦格纳继承并极端化，如第三乐章号角前的漫长铺垫",
+      "importance": "medium"
+    },
+    {
+      "name": "宣叙调",
+      "type": "concept",
+      "context": "第四乐章开头由大提琴和低音提琴演奏的无歌词段落，模仿人声说话",
+      "importance": "medium"
+    },
+    {
+      "name": "双重副歌",
+      "type": "concept",
+      "context": "第四乐章末尾将《欢乐颂》主题与吟诵主题同时交织的宏伟手法",
+      "importance": "medium"
+    },
+    {
+      "name": "普世主义",
+      "type": "concept",
+      "context": "主播批评拙劣的普世主义但捍卫有才华的普世主义，第九交响曲是其赞歌",
+      "importance": "high"
+    },
+    {
+      "name": "道德共同体",
+      "type": "concept",
+      "context": "贝多芬要求实现的人性理想，强调纯洁、严苛劳动和博爱",
+      "importance": "high"
+    },
+    {
+      "name": "维也纳",
+      "type": "place",
+      "context": "1824年5月7日第九交响曲首演地点",
+      "importance": "medium"
+    },
+    {
+      "name": "看理想",
+      "type": "organization",
+      "context": "与主播合作推出《酒神的注脚》的平台，提供编辑团队协助插入音乐",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "69547bd02db086f897ece45c",
+  "title": "286-贝多芬如何用第九交响曲强迫人类望向康德的星空"
+}

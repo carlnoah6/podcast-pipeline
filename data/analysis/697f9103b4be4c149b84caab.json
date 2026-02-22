@@ -1,0 +1,96 @@
+{
+  "style": {
+    "opening_pattern": "以南北气候对比的个人经历引入，从南方人对北方寒冷的误解切入主题",
+    "structure": "个人经历铺垫→环境危险详解（黑冰、冰爪、积雪）→身体感受描述→核心观点展开（三层递进：活在当下/发热奇迹/与自己和解）→总结升华",
+    "tone": "亲切絮叨、理性中带感性、自嘲式幽默",
+    "catchphrases": [
+      "南方人闻所未闻",
+      "你的身体想死的时候你的人就不想死了",
+      "活着就好",
+      "放弃不是认输",
+      "朴素的硬核的自由",
+      "我这个人就这样你也别指望我改",
+      "这不是一个心理感受",
+      "这是一个生存模式"
+    ],
+    "closing_pattern": "开放式收束，强调核心观点后自然告别",
+    "narrative_techniques": [
+      "类比（冰箱冷冻室、行走蒸笼、暖气炉）",
+      "对比（南北气候、室内外运动、由外向内vs由内向外取暖）",
+      "举例（眼睫毛结冰、脚踝冰柱、狗吃屎）",
+      "反问",
+      "自我调侃"
+    ]
+  },
+  "entities": [
+    {
+      "name": "马萨诸塞州",
+      "type": "place",
+      "context": "播客主第一次跑半马的地点，位于美国东北部，冬季严寒多雪",
+      "importance": "high"
+    },
+    {
+      "name": "Cape Cod",
+      "type": "place",
+      "context": "马萨诸塞州海边小镇，播客主在此完成人生首次半马",
+      "importance": "medium"
+    },
+    {
+      "name": "冰雪大世界",
+      "type": "place",
+      "context": "播客主用来形容东北雪景的词汇，对南方人而言完全陌生",
+      "importance": "low"
+    },
+    {
+      "name": "Yaktrax",
+      "type": "organization",
+      "context": "播客主购买的冰爪经典品牌，用于在结冰路面防滑",
+      "importance": "medium"
+    },
+    {
+      "name": "黑冰（black ice）",
+      "type": "concept",
+      "context": "冬跑最大敌人，指夜间重新凝结的透明薄冰层，极其危险",
+      "importance": "high"
+    },
+    {
+      "name": "冰爪",
+      "type": "concept",
+      "context": "套在运动鞋外的橡胶鞋套，底部带金属钉，用于穿透冰面防滑",
+      "importance": "high"
+    },
+    {
+      "name": "三层穿衣法",
+      "type": "concept",
+      "context": "东北冬跑必需的穿衣系统：速干保暖层、保温层、防风衣硬壳",
+      "importance": "high"
+    },
+    {
+      "name": "心流状态",
+      "type": "concept",
+      "context": "跑步时进入的美妙体验，冬跑时因内外温差对比而更易达到",
+      "importance": "medium"
+    },
+    {
+      "name": "季节性抑郁",
+      "type": "concept",
+      "context": "北欧及极寒地区因日照短、天气冷而产生的冬季情绪问题",
+      "importance": "medium"
+    },
+    {
+      "name": "半马马拉松/21公里",
+      "type": "event",
+      "context": "播客主人生中首次完成的半程马拉松，是冬跑训练的契机",
+      "importance": "high"
+    },
+    {
+      "name": "波士顿大暴雪",
+      "type": "event",
+      "context": "播客主近期仍坚持冬跑的背景事件",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "697f9103b4be4c149b84caab",
+  "title": "298-在东北冬跑如何帮我摆脱苦闷？"
+}
