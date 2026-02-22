@@ -1,0 +1,242 @@
+{
+  "style": {
+    "opening_pattern": "以问题引入，直接提出核心议题——巴厘岛'灵性'的本质与代价",
+    "structure": "个人经历铺垫→历史背景（宗教起源）→社会观察（种姓制度）→殖民史影响→理论引用（孟德斯鸠）→自我反思与转折→预告下期",
+    "tone": "坦诚自省、带有批判性的温情回忆，理性分析与个人情感交织",
+    "catchphrases": [
+      "斗志这个词在当地年轻人中基本不存在",
+      "资本既可以腐败",
+      "老四坐拥着巴厘岛最大宗的中世纪的艺术品",
+      "他就不需要买这些果子了",
+      "像中国人一样勤劳的当地人可以说没有",
+      "鱼和熊掌不能兼得",
+      "太贪心的女人最终什么都得不到",
+      "我现在是一个人",
+      "我的猫来了抱歉真的打呼噜天哪"
+    ],
+    "closing_pattern": "预告下期内容，形成系列结构，以告别语结束",
+    "narrative_techniques": [
+      "个人亲历叙事",
+      "对比（巴厘岛人与中国人的精神状态对比）",
+      "引用（孟德斯鸠名言及气候论）",
+      "具体案例（低种姓画家、老四家族、冲浪教练男友）",
+      "自我反讽",
+      "历史追溯"
+    ]
+  },
+  "entities": [
+    {
+      "name": "简·奥斯丁",
+      "type": "person",
+      "context": "被提及作为猜名人游戏中的文化常识测试，冲浪教练不知道她是谁",
+      "importance": "low"
+    },
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "被引用其关于贸易使文明温和/腐败的名言，以及《论法的精神》中的气候论",
+      "importance": "high"
+    },
+    {
+      "name": "Elite（老四）",
+      "type": "person",
+      "context": "巴厘岛婆罗门氏族成员，拥有大量中世纪艺术品和地产，叙述者的主要当地人脉",
+      "importance": "high"
+    },
+    {
+      "name": "美术主任",
+      "type": "person",
+      "context": "美国学校白人女教师，带叙述者首次去巴厘岛，在巴厘岛有三四十年人脉",
+      "importance": "high"
+    },
+    {
+      "name": "冲浪教练（德国男友）",
+      "type": "person",
+      "context": "17岁金发德国人，叙述者的初恋男友，法兰克福人，没文化但身材好",
+      "importance": "medium"
+    },
+    {
+      "name": "老四的妻子",
+      "type": "person",
+      "context": "印尼第五代华人，不会中文，因肤色较白被婆罗门氏族迎娶以'优化血统'",
+      "importance": "medium"
+    },
+    {
+      "name": "老四的父亲",
+      "type": "person",
+      "context": "婆罗门氏族，不工作，靠扫鸡蛋花卖钱为生，学习梵文想成为大祭司",
+      "importance": "medium"
+    },
+    {
+      "name": "低种姓画家",
+      "type": "person",
+      "context": "通过美术主任获得西方艺术界人脉，回巴厘岛后与婆罗门平起平坐",
+      "importance": "high"
+    },
+    {
+      "name": "阿拉伯人",
+      "type": "person",
+      "context": "十一世纪征服印尼群岛，将伊斯兰教传入，唯独未征服巴厘岛",
+      "importance": "medium"
+    },
+    {
+      "name": "荷兰殖民者",
+      "type": "person",
+      "context": "1906年开始殖民巴厘岛，试图教当地妇女穿上衣",
+      "importance": "medium"
+    },
+    {
+      "name": "《论法的精神》",
+      "type": "work",
+      "context": "孟德斯鸠著作，其中的气候论被用来解释巴厘岛人的慵懒性格",
+      "importance": "high"
+    },
+    {
+      "name": "巴厘岛的殖民博物馆",
+      "type": "organization",
+      "context": "位于乌布中心，记载荷兰殖民历史，但没有记录压迫内容",
+      "importance": "low"
+    },
+    {
+      "name": "波士顿大学美术系",
+      "type": "organization",
+      "context": "为低种姓画家举办个展的大学",
+      "importance": "low"
+    },
+    {
+      "name": "印尼大学艺术系",
+      "type": "organization",
+      "context": "美术主任认识的学术机构",
+      "importance": "low"
+    },
+    {
+      "name": "爪哇王国",
+      "type": "organization",
+      "context": "十一世纪信奉印度教的王国，被阿拉伯人灭亡，巴厘岛保留了其文化",
+      "importance": "high"
+    },
+    {
+      "name": "婆罗门",
+      "type": "concept",
+      "context": "最高种姓，僧侣阶层，掌握土地和文化教育权力，不需要工作",
+      "importance": "high"
+    },
+    {
+      "name": "刹帝利",
+      "type": "concept",
+      "context": "第二高种姓，武士贵族，从事行政管理",
+      "importance": "medium"
+    },
+    {
+      "name": "吠舍",
+      "type": "concept",
+      "context": "第三种种姓，商人农民",
+      "importance": "low"
+    },
+    {
+      "name": "首陀罗",
+      "type": "concept",
+      "context": "最低种姓，劳动者",
+      "importance": "low"
+    },
+    {
+      "name": "种姓制度（Caste System）",
+      "type": "concept",
+      "context": "巴厘岛保留的印度教社会等级制度，被描述为相对温和但仍落后",
+      "importance": "high"
+    },
+    {
+      "name": "气候论",
+      "type": "concept",
+      "context": "孟德斯鸠理论，认为炎热气候使人慵懒松弛，寒冷气候使人勇敢进取",
+      "importance": "high"
+    },
+    {
+      "name": "Commerce softens morals / Commerce corrupts morals",
+      "type": "concept",
+      "context": "孟德斯鸠名言，贸易使野蛮文明变得温和但也使其腐败堕落",
+      "importance": "high"
+    },
+    {
+      "name": "巴厘岛",
+      "type": "place",
+      "context": "印度尼西亚信奉印度教的岛屿，叙述者度过青春期的地点，全球瑜伽旅游胜地",
+      "importance": "high"
+    },
+    {
+      "name": "乌布（Ubud）",
+      "type": "place",
+      "context": "巴厘岛文化中心，原为稻田，现为旅游繁华小镇，叙述者常居地",
+      "importance": "high"
+    },
+    {
+      "name": "爪哇",
+      "type": "place",
+      "context": "巴厘岛旁边的大岛，信奉伊斯兰教，印尼人口主要居住地",
+      "importance": "medium"
+    },
+    {
+      "name": "阿拉伯半岛",
+      "type": "place",
+      "context": "十一世纪阿拉伯人从此出发征服印尼",
+      "importance": "low"
+    },
+    {
+      "name": "法兰克福",
+      "type": "place",
+      "context": "德国城市，冲浪教练男友的故乡",
+      "importance": "low"
+    },
+    {
+      "name": "阿姆斯特丹",
+      "type": "place",
+      "context": "荷兰首都，有大量印尼餐厅因殖民历史",
+      "importance": "low"
+    },
+    {
+      "name": "太保河",
+      "type": "place",
+      "context": "巴厘岛河流，老四父亲曾在此游泳等裤子晾干",
+      "importance": "low"
+    },
+    {
+      "name": "1978-1979年印尼排华大屠杀",
+      "type": "event",
+      "context": "针对富裕华人商人的屠杀，导致华人在印尼地位微妙",
+      "importance": "medium"
+    },
+    {
+      "name": "1906年荷兰殖民巴厘岛",
+      "type": "event",
+      "context": "荷兰人来到巴厘岛，发现当地妇女不穿上衣",
+      "importance": "medium"
+    },
+    {
+      "name": "十一世纪阿拉伯征服印尼",
+      "type": "event",
+      "context": "伊斯兰教传入印尼，唯独巴厘岛保持印度教",
+      "importance": "high"
+    },
+    {
+      "name": "印尼华人",
+      "type": "other",
+      "context": "在印尼地位微妙，被类比为犹太人在欧洲，受歧视但经济重要，常被婆罗门氏族迎娶",
+      "importance": "high"
+    },
+    {
+      "name": "嬉皮士文化",
+      "type": "other",
+      "context": "叙述者曾经历的生活方式，包括瑜伽、冲浪、流浪生活",
+      "importance": "medium"
+    },
+    {
+      "name": "湿婆",
+      "type": "other",
+      "context": "印度教神明，葬礼上会烧纸做的湿婆像超度亡灵",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "656e9521e555654ace464820",
+  "title": "13-海岛阳光下的阴影：谈一谈我认识的巴厘岛人"
+}

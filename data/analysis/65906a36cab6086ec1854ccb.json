@@ -1,0 +1,158 @@
+{
+  "style": {
+    "opening_pattern": "以现代生活场景引入，将古代哲学对话与当代读者熟悉的观点（哲学无用论、成功学、享乐主义）建立联系",
+    "structure": "背景介绍→对话结构说明→三个核心论点逐一分析（正义观→哲学无用论→享乐主义）→总结升华",
+    "tone": "轻松口语化但内容严肃深刻，带有知识分子的亲切感和思辨性",
+    "catchphrases": [
+      "小老哥",
+      "怎么样",
+      "巴拉巴拉",
+      "搞哲学",
+      "乌合之众",
+      "狮子和绵羊",
+      "厨子和医生",
+      "OK",
+      "哇塞",
+      "你可第三"
+    ],
+    "closing_pattern": "开放式邀请，鼓励听众开始阅读柏拉图原著",
+    "narrative_techniques": [
+      "类比（医生与厨子、漏水的水罐、抓痒）",
+      "反问",
+      "古今对比",
+      "场景想象",
+      "铺垫悬念（苏格拉底之死的历史暗示）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "西方哲学鼻祖，本文中作为反驳卡利克勒三个观点的哲学家，最终被雅典法庭判处死刑",
+      "importance": "high"
+    },
+    {
+      "name": "卡利克勒（Callicles）",
+      "type": "person",
+      "context": "高尔吉亚篇对话第三部分的主角，富有的雅典青年，持有强权即正义、哲学无用论、享乐主义三种观点",
+      "importance": "high"
+    },
+    {
+      "name": "高尔吉亚（Gorgias）",
+      "type": "person",
+      "context": "古希腊著名修辞学家，来自西西里岛，教授演讲艺术以培养政治家，对话以其命名",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "19世纪哲学家，其《道德谱系》中的观点与卡利克勒的正义观相似，播客中将此对话视为苏格拉底对尼采的潜在回应",
+      "importance": "medium"
+    },
+    {
+      "name": "伯里克利",
+      "type": "person",
+      "context": "古希腊著名政治家，卡利克勒崇拜的领袖人物之一",
+      "importance": "low"
+    },
+    {
+      "name": "地米斯托克利",
+      "type": "person",
+      "context": "古希腊著名军事家，卡利克勒崇拜的领袖人物之一",
+      "importance": "low"
+    },
+    {
+      "name": "普罗泰戈拉（Protagoras）",
+      "type": "person",
+      "context": "古希腊著名诡辩家，柏拉图另一篇对话以其命名，苏格拉底被迫与其对话",
+      "importance": "low"
+    },
+    {
+      "name": "波斯大帝",
+      "type": "person",
+      "context": "卡利克勒用以说明自然正义的例子，认为强者征服弱者符合自然法则",
+      "importance": "low"
+    },
+    {
+      "name": "希特勒",
+      "type": "person",
+      "context": "播客作者用以说明强权即正义观点可能导致残酷后果的现代例子",
+      "importance": "low"
+    },
+    {
+      "name": "《高尔吉亚》（Gorgias）",
+      "type": "work",
+      "context": "柏拉图的对话录，分为三部分，本集播客重点讨论第三部分苏格拉底与卡利克勒的对话",
+      "importance": "high"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图最著名的作品，播客中提到其中苏格拉底也是被迫进行对话",
+      "importance": "low"
+    },
+    {
+      "name": "《道德谱系》",
+      "type": "work",
+      "context": "尼采的代表作，其中的正义观与卡利克勒的观点相似",
+      "importance": "medium"
+    },
+    {
+      "name": "苏格拉底的审判",
+      "type": "work",
+      "context": "柏拉图记录苏格拉底被雅典法庭审判的对话录，播客中多次暗示卡利克勒预见了这一结局",
+      "importance": "medium"
+    },
+    {
+      "name": "强权即正义（Might makes right）",
+      "type": "concept",
+      "context": "卡利克勒的核心正义观，认为强者统治弱者是符合自然法则的正义",
+      "importance": "high"
+    },
+    {
+      "name": "自然正义（natural justice）",
+      "type": "concept",
+      "context": "卡利克勒提出的概念，指强者应拥有更多资源、统治弱者的自然法则",
+      "importance": "high"
+    },
+    {
+      "name": "传统正义（conventional justice）",
+      "type": "concept",
+      "context": "卡利克勒提出的概念，指弱者通过人数优势制定的法律习俗，主张人人平等以压制强者",
+      "importance": "high"
+    },
+    {
+      "name": "哲学无用论",
+      "type": "concept",
+      "context": "卡利克勒的观点，认为年轻时可有节制地学习哲学，但终身研究哲学会腐蚀人格、使人无力自保",
+      "importance": "high"
+    },
+    {
+      "name": "享乐主义",
+      "type": "concept",
+      "context": "卡利克勒的价值观，认为幸福来自自由满足所有欲望，最快乐的生活是暴君式的无节制生活",
+      "importance": "high"
+    },
+    {
+      "name": "修辞学（Rhetoric）",
+      "type": "concept",
+      "context": "高尔吉亚教授的学科，苏格拉底批评其为讨好听众、追求私利的奉承术而非真正艺术",
+      "importance": "medium"
+    },
+    {
+      "name": "民主雅典",
+      "type": "place",
+      "context": "对话发生的城邦背景，卡利克勒反对的由多数弱者统治的政治体制",
+      "importance": "medium"
+    },
+    {
+      "name": "西西里岛",
+      "type": "place",
+      "context": "高尔吉亚的故乡",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65906a36cab6086ec1854ccb",
+  "title": "18-苏格拉底会如何反驳哲学无用论？"
+}

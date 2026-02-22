@@ -1,0 +1,266 @@
+{
+  "style": {
+    "opening_pattern": "以热点社会事件引入（韩国女星巴黎跳脱衣舞及中国女星观看事件），进而引出哲学思考",
+    "structure": "现象引入→提出核心哲学问题（自由的界限）→理论框架阐述（伯林与贡斯当的自由概念）→概念解析（消极自由与积极自由）→极端案例分析（卖身自由与戴头巾自由）→弱势群体视角反思→总结",
+    "tone": "理性思辨、学术通俗化，兼具逻辑推演与社会关怀",
+    "catchphrases": [
+      "消极自由",
+      "积极自由",
+      "freedom from",
+      "freedom to",
+      "古代人的自由",
+      "现代人的自由",
+      "公共讨论",
+      "社会共同体",
+      "躺平自由",
+      "卖身自由"
+    ],
+    "closing_pattern": "总结观点（强调需要公共讨论而非道德谴责，关注弱势群体）后告别",
+    "narrative_techniques": [
+      "类比（用躺平自由解释消极自由，用财务自由解释积极自由）",
+      "对比（消极自由vs积极自由，古代自由vs现代自由，卖身自由vs戴头巾自由，女性自由讨论vs男性自由讨论）",
+      "举例（啤酒肚男性拍肚皮、刘翔跨栏、黑格尔著作等）",
+      "反问",
+      "引用理论"
+    ]
+  },
+  "entities": [
+    {
+      "name": "以赛亚·伯林（Isaiah Berlin）",
+      "type": "person",
+      "context": "二十世纪英国政治哲学家，其论文《两种自由概念》是本文核心理论框架，提出消极自由与积极自由的区分",
+      "importance": "high"
+    },
+    {
+      "name": "本杰明·贡斯当（Benjamin Constant）",
+      "type": "person",
+      "context": "法国自由主义哲学家，比伯林早一百年提出《古代人的自由与现代人的自由》，深刻影响伯林的理论",
+      "importance": "high"
+    },
+    {
+      "name": "洛克（John Locke）",
+      "type": "person",
+      "context": "被伯林提及的英国古典政治哲学家，使用消极自由概念",
+      "importance": "medium"
+    },
+    {
+      "name": "托克维尔（Tocqueville）",
+      "type": "person",
+      "context": "被提及的法国思想家，关注个人自由领域",
+      "importance": "medium"
+    },
+    {
+      "name": "黑格尔（Hegel）",
+      "type": "person",
+      "context": "被用作例子说明'读懂黑格尔'不属于消极自由",
+      "importance": "low"
+    },
+    {
+      "name": "刘翔",
+      "type": "person",
+      "context": "被用作例子说明'用刘翔的速度跨栏'不属于消极自由",
+      "importance": "low"
+    },
+    {
+      "name": "《两种自由概念》（Two Concepts of Liberty）",
+      "type": "work",
+      "context": "以赛亚·伯林最著名的演讲/论文，区分消极自由与积极自由",
+      "importance": "high"
+    },
+    {
+      "name": "《古代人的自由与现代人的自由》（The Liberty of Ancients Compared with that of Moderns）",
+      "type": "work",
+      "context": "贡斯当的著名演讲，对比古希腊公民参与式自由与现代私人领域自由",
+      "importance": "high"
+    },
+    {
+      "name": "消极自由（Negative Liberty）",
+      "type": "concept",
+      "context": "伯林提出的概念，即'freedom from'，指不受他人干涉的自由，如躺平自由",
+      "importance": "high"
+    },
+    {
+      "name": "积极自由（Positive Liberty）",
+      "type": "concept",
+      "context": "伯林提出的概念，即'freedom to'，指成为自己主人的自由，如经济自由/财务自由",
+      "importance": "high"
+    },
+    {
+      "name": "古代人的自由",
+      "type": "concept",
+      "context": "贡斯当提出的概念，指古希腊公民参与公共政治、服从集体的自由，对应伯林的积极自由",
+      "importance": "high"
+    },
+    {
+      "name": "现代人的自由",
+      "type": "concept",
+      "context": "贡斯当提出的概念，指现代私人领域受保护、不受公共权力干涉的自由，对应伯林的消极自由",
+      "importance": "high"
+    },
+    {
+      "name": "跳脱衣舞自由",
+      "type": "concept",
+      "context": "播客核心讨论案例，由韩国女星巴黎跳脱衣舞事件引出，探讨其是否属于真正的自由",
+      "importance": "high"
+    },
+    {
+      "name": "卖身自由/嫖娼自由",
+      "type": "concept",
+      "context": "作为极端案例与戴头巾自由对比，讨论在荷兰合法而在美中非法的现象",
+      "importance": "high"
+    },
+    {
+      "name": "戴头巾自由/蒙面自由",
+      "type": "concept",
+      "context": "作为与卖身自由相反的极端案例，讨论在法国被禁止而在阿拉伯国家被强制的情况",
+      "importance": "high"
+    },
+    {
+      "name": "躺平自由",
+      "type": "concept",
+      "context": "用作解释消极自由的通俗例子，指年轻人想躺平而不被干涉的自由",
+      "importance": "medium"
+    },
+    {
+      "name": "经济自由/财务自由",
+      "type": "concept",
+      "context": "用作解释积极自由的通俗例子，指花钱不用看人脸色、自主做决定的能力",
+      "importance": "medium"
+    },
+    {
+      "name": "穿衣自由",
+      "type": "concept",
+      "context": "讨论女性穿短裙、性感衣服不被凝视的自由，与跳脱衣舞自由形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "男性凝视",
+      "type": "concept",
+      "context": "提及的在讨论跳脱衣舞事件时涉及的女性主义概念",
+      "importance": "medium"
+    },
+    {
+      "name": "女性主义",
+      "type": "concept",
+      "context": "提及的在讨论跳脱衣舞事件时涉及的争议领域",
+      "importance": "medium"
+    },
+    {
+      "name": "资本主义",
+      "type": "concept",
+      "context": "提及的在讨论跳脱衣舞事件时涉及的争议领域",
+      "importance": "low"
+    },
+    {
+      "name": "法国共和主义",
+      "type": "concept",
+      "context": "解释法国禁止戴头巾政策的政治理念基础",
+      "importance": "medium"
+    },
+    {
+      "name": "父权主义/父权制",
+      "type": "concept",
+      "context": "讨论卖身和戴头巾时提及的压迫性社会结构",
+      "importance": "medium"
+    },
+    {
+      "name": "私人空间与公共空间",
+      "type": "concept",
+      "context": "讨论消极自由时涉及的界限划分问题",
+      "importance": "medium"
+    },
+    {
+      "name": "韩国女明星巴黎跳脱衣舞事件",
+      "type": "event",
+      "context": "播客讨论的引子事件，指Lisa在疯马秀的表演",
+      "importance": "high"
+    },
+    {
+      "name": "中国女星观看脱衣舞事件",
+      "type": "event",
+      "context": "与韩国女星事件相关，在中文网络引发争议",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "贡斯当写作背景，被用来对比古代自由与现代自由",
+      "importance": "medium"
+    },
+    {
+      "name": "伊朗女性头巾抗议事件",
+      "type": "event",
+      "context": "提及的近年事件，女性因未戴头巾被警察暴力致死",
+      "importance": "medium"
+    },
+    {
+      "name": "法国穆斯林戴头巾禁令争议",
+      "type": "event",
+      "context": "法国近十年来最有争议的公共话题，禁止在公共学校戴穆斯林头巾",
+      "importance": "medium"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "韩国女明星跳脱衣舞的地点",
+      "importance": "high"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "禁止穆斯林女性戴头巾的国家，贡斯当和托克维尔的背景",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "讨论争议发生的主要网络社区所在地，嫖娼非法",
+      "importance": "high"
+    },
+    {
+      "name": "韩国",
+      "type": "place",
+      "context": "跳脱衣舞女明星的国籍",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "讨论毒品管制、堕胎、枪支问题，嫖娼非法",
+      "importance": "medium"
+    },
+    {
+      "name": "荷兰",
+      "type": "place",
+      "context": "嫖娼合法的国家例子",
+      "importance": "medium"
+    },
+    {
+      "name": "沙特阿拉伯",
+      "type": "place",
+      "context": "强制戴头巾的国家例子",
+      "importance": "medium"
+    },
+    {
+      "name": "卡塔尔",
+      "type": "place",
+      "context": "强制戴头巾的国家例子",
+      "importance": "low"
+    },
+    {
+      "name": "伊朗",
+      "type": "place",
+      "context": "发生女性头巾抗议事件的国家",
+      "importance": "medium"
+    },
+    {
+      "name": "古希腊/雅典",
+      "type": "place",
+      "context": "贡斯当讨论的古代自由的来源地",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6579164d20d779b49d60d942",
+  "title": "15-跳脱衣舞自由算是自由吗？"
+}

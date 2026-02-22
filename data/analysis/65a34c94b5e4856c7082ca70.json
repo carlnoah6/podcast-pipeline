@@ -1,0 +1,140 @@
+{
+  "style": {
+    "opening_pattern": "以朋友故事引入，通过对比秘鲁总统事件引出更宏大的欧洲贵族家族故事",
+    "structure": "个人经历→家族历史背景→二战流亡史→冷战再流亡→苏联解体后复兴→当代传承→哲学反思",
+    "tone": "叙事性强、感性中带理性，既有朋友间聊天的亲切感，又有对历史命运的深沉感慨",
+    "catchphrases": [
+      "眼见他起朱楼，眼见他宴宾客，眼见他楼塌了",
+      "run",
+      "一股电流穿透了他的身体",
+      "灰头土脸",
+      "嘉靖年间",
+      "三万箱宝藏",
+      "不可思议",
+      "感慨万千",
+      "苦尽甘来",
+      "温和不再偏激"
+    ],
+    "closing_pattern": "引用修昔底德作结，升华到历史智慧的哲学层面",
+    "narrative_techniques": [
+      "类比（老船翻新、嘉靖年间房子）",
+      "对比（充公宫殿vs私人宫殿、欧洲穷vs美国富）",
+      "场景还原（火车偷听、月黑风高夜逃跑、酒吧看电视）",
+      "直接引语（大量引用朋友及其家人的原话）",
+      "时间跳跃（700年→20世纪→90年代→当代）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "洛布科维茨家族（Lobkowitz/Lobkowicz）",
+      "type": "person",
+      "context": "播客主角的室友家族，欧洲最古老的波西米亚贵族家庭之一，历史可追溯至14世纪",
+      "importance": "high"
+    },
+    {
+      "name": "马克西米利安·洛布科维茨（Maximilian Lobkowitz）",
+      "type": "person",
+      "context": "朋友的太爷爷，1888年出生，曾任捷克驻英国大使，两次失去家产又两次试图收回",
+      "importance": "high"
+    },
+    {
+      "name": "希特勒/纳粹德国",
+      "type": "person",
+      "context": "1939年吞并捷克，在洛布科维茨宫殿宣布成立波西米亚保护国，没收家族财产",
+      "importance": "high"
+    },
+    {
+      "name": "苏联/共产主义政权",
+      "type": "organization",
+      "context": "1948年政变后再次没收洛布科维茨家族财产，将宫殿作为司令部",
+      "importance": "high"
+    },
+    {
+      "name": "洛布科维茨宫殿（Lobkowicz Palace）",
+      "type": "place",
+      "context": "位于布拉格市中心，16世纪建立，捷克唯一私人拥有的宫殿，现为家族博物馆",
+      "importance": "high"
+    },
+    {
+      "name": "布拉格抛窗事件（Defenestration of Prague）",
+      "type": "event",
+      "context": "1618年引发三十年战争的事件，当时洛布科维茨家族是布拉格的管理者",
+      "importance": "medium"
+    },
+    {
+      "name": "天鹅绒革命",
+      "type": "event",
+      "context": "1989年捷克斯洛伐克和平结束共产主义统治的民主化运动",
+      "importance": "high"
+    },
+    {
+      "name": "修昔底德（Thucydides）",
+      "type": "person",
+      "context": "西方第一位历史学家，其著作《伯罗奔尼撒战争史》被主播引用作结尾升华",
+      "importance": "medium"
+    },
+    {
+      "name": "委拉斯开兹",
+      "type": "person",
+      "context": "西班牙画家，其作品是洛布科维茨家族收藏中被纳粹记录在案的藏品之一",
+      "importance": "low"
+    },
+    {
+      "name": "丢勒",
+      "type": "person",
+      "context": "德国文艺复兴画家，其作品收藏于已充公的Schwarzenberg等布拉格宫殿中",
+      "importance": "low"
+    },
+    {
+      "name": "Schwarzenberg Palace",
+      "type": "place",
+      "context": "布拉格已充公的贵族宫殿之一，现为国家财产",
+      "importance": "low"
+    },
+    {
+      "name": "Sternberg Palace",
+      "type": "place",
+      "context": "布拉格已充公的贵族宫殿之一，现为国家财产",
+      "importance": "low"
+    },
+    {
+      "name": "Kinský Palace",
+      "type": "place",
+      "context": "布拉格已充公的贵族宫殿之一，现为国家财产",
+      "importance": "low"
+    },
+    {
+      "name": "Hochadel",
+      "type": "concept",
+      "context": "德语'高级贵族'，指德国奥地利比利时最顶层的极少数贵族阶层",
+      "importance": "medium"
+    },
+    {
+      "name": "纳粹档案",
+      "type": "work",
+      "context": "德国人严谨记录的掠夺物品清单，成为90年代收回家族财产的关键证据",
+      "importance": "high"
+    },
+    {
+      "name": "东京世博会",
+      "type": "event",
+      "context": "洛布科维茨家族受邀代表捷克文化展示波西米亚艺术，标志其家族地位获得认可",
+      "importance": "medium"
+    },
+    {
+      "name": "NFT",
+      "type": "concept",
+      "context": "朋友哥哥负责的家族产业创新项目，将文艺复兴名画转化为区块链代币",
+      "importance": "low"
+    },
+    {
+      "name": "信托/非盈利文化机构",
+      "type": "concept",
+      "context": "家族为运营宫殿和藏品设立的法律架构，限制后代变卖资产",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "65a34c94b5e4856c7082ca70",
+  "title": "20-历史宿命压到个人身上是怎样的感觉？（一个家族的故事）"
+}

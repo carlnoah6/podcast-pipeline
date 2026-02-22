@@ -1,0 +1,197 @@
+{
+  "style": {
+    "opening_pattern": "以当代社会现象（找搭子）引入，直接提出核心问题",
+    "structure": "现象描述→哲学分析（亚里士多德）→现代对比→社会批判→教育反思",
+    "tone": "理性思辨、略带忧虑、真诚自省",
+    "catchphrases": [
+      "我不知道你是否可以与此产生共鸣",
+      "在我的理解中",
+      "也就是说",
+      "那我觉得",
+      "OK讲到这里",
+      "绕回到自我身上",
+      "我们下期再见"
+    ],
+    "closing_pattern": "预告下期内容+个人化告别",
+    "narrative_techniques": [
+      "类比（奶奶与棉毛裤的例子）",
+      "反问（连续追问友谊的本质）",
+      "自我暴露（分享个人困惑和经历）",
+      "对比（搭子vs传统友谊、亚里士多德vs蒙田）",
+      "举例（饭搭子、健身搭子等具体类型）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "古希腊哲学家，其《尼各马可伦理学》第八卷关于完美友谊的论述是本集核心分析对象",
+      "importance": "high"
+    },
+    {
+      "name": "蒙田",
+      "type": "person",
+      "context": "法国文艺复兴时期哲学家，与拉博埃西的友谊被视为文学史上最著名的友谊典范",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "被用作引子，探讨为何他选择在城邦中与朋友交谈而非独自沉思",
+      "importance": "medium"
+    },
+    {
+      "name": "色诺芬",
+      "type": "person",
+      "context": "苏格拉底的学生，《申辩篇》的作者，记录了苏格拉底与朋友读书聊天的场景",
+      "importimportance": "low"
+    },
+    {
+      "name": "拉博埃西",
+      "type": "person",
+      "context": "蒙田的挚友，英年早逝，其死亡成为蒙田随笔中最动人的篇章主题",
+      "importance": "high"
+    },
+    {
+      "name": "德里达",
+      "type": "person",
+      "context": "20世纪法国哲学家，其《友谊的政治学》中关于'友谊的遗嘱性'概念被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "被提及为传统哲学中对友谊有重要定义的哲学家之一，但未展开论述",
+      "importance": "low"
+    },
+    {
+      "name": "《尼各马可伦理学》/《伦理学》",
+      "type": "work",
+      "context": "亚里士多德的著作，第八卷专门讨论友谊，是本集的理论基础",
+      "importance": "high"
+    },
+    {
+      "name": "《申辩篇》",
+      "type": "work",
+      "context": "色诺芬记录的苏格拉底对话录，其中描述了苏格拉底享受与朋友共读的场景",
+      "importance": "low"
+    },
+    {
+      "name": "《蒙田随笔录》",
+      "type": "work",
+      "context": "蒙田的散文集，其中关于与拉博埃西友谊的篇章被视为法国文学史上最动人的友谊书写",
+      "importance": "high"
+    },
+    {
+      "name": "《友谊的政治学》",
+      "type": "work",
+      "context": "德里达的著作，提出'友谊的遗嘱性'——友谊与死亡在哲学写作中的共生关系",
+      "importance": "medium"
+    },
+    {
+      "name": "搭子",
+      "type": "concept",
+      "context": "当代中国年轻人中兴起的规律性结伴活动关系，强调事件共享而非人格欣赏",
+      "importance": "high"
+    },
+    {
+      "name": "完美的友谊/最高友谊",
+      "type": "concept",
+      "context": "亚里士多德定义：基于德行相近、互惠善意、无私倾慕的罕见人际关系",
+      "importance": "high"
+    },
+    {
+      "name": "不完美的友谊",
+      "type": "concept",
+      "context": "亚里士多德分类：基于快乐或实用性的功利性友谊，是绝大多数人际关系的形态",
+      "importance": "high"
+    },
+    {
+      "name": "社交边界感/分寸感",
+      "type": "concept",
+      "context": "年轻人对搭子的核心期待，拒绝深入介入彼此生活，排斥爱与关心的表达",
+      "importance": "high"
+    },
+    {
+      "name": "友谊的遗嘱性",
+      "type": "concept",
+      "context": "德里达提出的概念，指友谊与死亡在哲学文本中的反复共生现象",
+      "importance": "medium"
+    },
+    {
+      "name": "自我性/现代性自我",
+      "type": "concept",
+      "context": "主播分析的核心概念，指年轻人将自我需求置于首位、将他人工具化的倾向",
+      "importance": "high"
+    },
+    {
+      "name": "饭搭子",
+      "type": "concept",
+      "context": "最常见的搭子类型，第一财经调查中占比最高的搭子需求",
+      "importance": "medium"
+    },
+    {
+      "name": "健身搭子",
+      "type": "concept",
+      "context": "通过互相督促完成健身目标的搭子类型",
+      "importance": "low"
+    },
+    {
+      "name": "旅游搭子",
+      "type": "concept",
+      "context": "共同旅行、分享美食信息的搭子类型",
+      "importance": "low"
+    },
+    {
+      "name": "2023年三四月微博热搜",
+      "type": "event",
+      "context": "主播观察到'搭子成为一种新型社交关系'话题进入公众视野的时间节点",
+      "importance": "medium"
+    },
+    {
+      "name": "第一财经问卷调查",
+      "type": "event",
+      "context": "调查1400多人显示58%女性有搭子，饭搭子类型遥遥领先",
+      "importance": "medium"
+    },
+    {
+      "name": "德国19世纪现代大学创建",
+      "type": "event",
+      "context": "主播提及的教育史背景，作为下期播客《什么是大学教育》的预告",
+      "importance": "low"
+    },
+    {
+      "name": "大理",
+      "type": "place",
+      "context": "被用作例子，说明年轻人优先满足'去大理放飞自我'的自我需求",
+      "importance": "low"
+    },
+    {
+      "name": "云南",
+      "type": "place",
+      "context": "背包客旅行的目的地，体现年轻人对自我实现的追求",
+      "importance": "low"
+    },
+    {
+      "name": "古希腊城邦",
+      "type": "place",
+      "context": "苏格拉底漫步交谈的场所，象征公共生活中的哲学友谊",
+      "importance": "low"
+    },
+    {
+      "name": "第一财经",
+      "type": "organization",
+      "context": "进行搭子现象问卷调查的媒体机构",
+      "importance": "low"
+    },
+    {
+      "name": "00后",
+      "type": "other",
+      "context": "主播观察到的找搭子现象的主要群体",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "654d1798aa96f6e6426168ae",
+  "title": "11-为什么年轻人想要找搭子，不再渴望友谊"
+}
