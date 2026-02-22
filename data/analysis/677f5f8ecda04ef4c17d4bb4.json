@@ -1,0 +1,153 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件引入（特鲁多宣布卸任）+ 直接提出核心问题",
+    "structure": "新闻事件→宏观国家分析（经济/移民/环境）→具体人物分析（特鲁多失势原因）→未来人物预测（Poilievre上台）→政策对比（加美保守派差异）",
+    "tone": "犀利批判、带有强烈个人立场、口语化表达、讽刺幽默",
+    "catchphrases": [
+      "人人喊打",
+      "活宝",
+      "屁股决定大脑",
+      "捏着嗓子尖叫哀叹",
+      "挥刀自宫",
+      "鸡角嘎啦",
+      "金毛在看比特犬",
+      "水滴筹",
+      "过街老鼠",
+      "摩拳擦掌"
+    ],
+    "closing_pattern": "总结核心观点后开放式收尾（提及加元贬值的政治影响）+ 简短告别",
+    "narrative_techniques": [
+      "类比（加拿大vs英国、阿尔伯塔vs德克萨斯）",
+      "对比（加拿大人vs美国人）",
+      "举例（卡车司机抗议、餐厅被骂视频）",
+      "反问",
+      "反讽",
+      "数据引用（民调80%、汇率1.4）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Justin Trudeau（贾斯廷·特鲁多）",
+      "type": "person",
+      "context": "担任九年总理后宣布卸任，因疫情政策、卡车司机抗议事件等变得极度不受欢迎，导致自由党可能在大选后不复存在",
+      "importance": "high"
+    },
+    {
+      "name": "Pierre Poilievre（皮埃尔·普瓦列夫尔）",
+      "type": "person",
+      "context": "加拿大保守党领袖，因支持2022年卡车司机抗议而一战成名，预计将以压倒性优势成为下一任总理",
+      "importance": "high"
+    },
+    {
+      "name": "加拿大自由党（Liberal Party）",
+      "type": "organization",
+      "context": "1867年建立的政党，执政时间超过加拿大任何其他政党，但在特鲁多领导下可能被彻底摧毁",
+      "importance": "high"
+    },
+    {
+      "name": "加拿大保守党（Conservative Party）",
+      "type": "organization",
+      "context": "官方反对党，在民调中以两位数领先，Poilievre自2022年以来担任领袖",
+      "importance": "high"
+    },
+    {
+      "name": "2022年加拿大卡车司机抗议",
+      "type": "event",
+      "context": "新冠疫情期间的重大抗议活动，导火索为未戴口罩的卡车女司机被拒绝入境，最终演变为对政府清零政策和强制疫苗的抗议，成为特鲁多政治生涯的转折点",
+      "importance": "high"
+    },
+    {
+      "name": "碳税（Carbon Tax）",
+      "type": "concept",
+      "context": "加拿大环境政策核心，被左翼媒体宣传为受欢迎，但实际被普通民众厌恶，尤其在严寒气候和高通胀背景下加重生活负担",
+      "importance": "high"
+    },
+    {
+      "name": "加拿大住房危机",
+      "type": "concept",
+      "context": "由过去十年大规模移民（主要来自印度、中国、菲律宾）导致的房地产泡沫，房价占据20-50岁公民全部资产负债表",
+      "importance": "high"
+    },
+    {
+      "name": "人均GDP下降",
+      "type": "concept",
+      "context": "加拿大过去十年的核心经济问题——GDP增长仅来自人口增长而非生产力提升，导致居民实际生活质量下降",
+      "importance": "high"
+    },
+    {
+      "name": "阿尔伯塔省（Alberta）",
+      "type": "place",
+      "context": "加拿大的石油产区和右派大本营，被类比为'加拿大的德克萨斯州或巴伐利亚'，Poilievre的家乡",
+      "importance": "medium"
+    },
+    {
+      "name": "加拿大最高法院",
+      "type": "organization",
+      "context": "在卡车司机抗议六个月后裁定政府冻结抗议者银行账户的行为违宪",
+      "importance": "medium"
+    },
+    {
+      "name": "加拿大参议院财政委员会",
+      "type": "organization",
+      "context": "在卡车司机抗议期间投票决定研究'意识形态极端主义的崛起'，被主播讽刺为脱离现实",
+      "importance": "medium"
+    },
+    {
+      "name": "净零排放政策",
+      "type": "concept",
+      "context": "加拿大左翼政府的环保目标，被批评为不顾民生、在能源成本高涨时仍提高取暖费",
+      "importance": "medium"
+    },
+    {
+      "name": "加元贬值",
+      "type": "concept",
+      "context": "加拿大货币持续走弱，影响中产阶级冬季南下避寒的能力，成为政治问题",
+      "importance": "medium"
+    },
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "被多次提及作为对比，主播强调加拿大人最讨厌成为美国人或被称为特朗普主义者",
+      "importance": "medium"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "被反复类比的国家，面临相似的移民、住房、通胀问题，但程度较轻",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "加拿大的南方邻国，被用来对比政治文化差异（美国人痴迷政治vs加拿大人不关心政治）和保守派政策差异",
+      "importance": "medium"
+    },
+    {
+      "name": "印度/中国/菲律宾",
+      "type": "place",
+      "context": "过去十年加拿大移民的主要来源国，数百万20-40岁青壮年移民涌入",
+      "importance": "medium"
+    },
+    {
+      "name": "渥太华",
+      "type": "place",
+      "context": "加拿大首都，卡车司机抗议活动的汇聚地点",
+      "importance": "low"
+    },
+    {
+      "name": "佛罗里达/夏威夷/亚利桑那",
+      "type": "place",
+      "context": "加拿大中产阶级冬季避寒的目的地，加元贬值使其难以负担",
+      "importance": "low"
+    },
+    {
+      "name": "拜仁/巴伐利亚",
+      "type": "place",
+      "context": "主播用来自我定位的地区，形容自己性格暴躁与加拿大人的温和形成对比",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "677f5f8ecda04ef4c17d4bb4",
+  "title": "163-加拿大为何即将右转？"
+}

@@ -1,0 +1,198 @@
+{
+  "style": {
+    "opening_pattern": "直接引入核心文本与问题，通过区分'热衷于吃瓜的人'与'吃瓜群众'设定讨论范围，并点明普鲁塔克《道德论丛》的读者对象是'心中的君子'",
+    "structure": "逐段解读经典文本（普鲁塔克《道德论丛》第39章）→ 穿插古希腊语/拉丁语词源分析 → 结合现代社交媒体语境进行古今对比 → 引入个人反思与尼采哲学视角 → 以音乐推荐作结",
+    "tone": "理性深刻中带有轻松幽默，口语化与学术化并存，使用'罗马老头''吃瓜''锐评'等网络化表达消解古典哲学的严肃性，但始终保持对伦理问题的深刻追问",
+    "catchphrases": [
+      "这个罗马老头",
+      "吃瓜",
+      "Polupragmosunēs",
+      "多管闲事",
+      "好奇心",
+      "道德论丛",
+      "俄狄浦斯王",
+      "一切价值的重估"
+    ],
+    "closing_pattern": "以开放式哲学提问作结（关于现代社会价值重估后个体如何自处），并附赠古典音乐推荐（巴赫《G弦上的咏叹调》）作为听觉礼物",
+    "narrative_techniques": [
+      "古今类比（将古罗马集市/码头比作现代社交媒体平台）",
+      "动物隐喻（猎犬训练、鸡啄牛粪、蚂蟥、苍蝇、渔夫）",
+      "文本细读（逐段解读普鲁塔克原文并穿插希腊语/拉丁语词源分析）",
+      "反问与设问（频繁使用'对吧''你能想象吗'等互动式提问）",
+      "跨文本互文（将普鲁塔克与柏拉图《理想国》、尼采'重估一切价值'并置）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "普鲁塔克（Plutarch）",
+      "type": "person",
+      "context": "本集核心讨论对象，古希腊作家，《道德论丛》作者，被主播称为'罗马老头'",
+      "importance": "high"
+    },
+    {
+      "name": "《道德论丛》（Moralia）",
+      "type": "work",
+      "context": "普鲁塔克的伦理著作集，本集讨论的是其中第39章《如何做一个多管闲事的人》（Peri Polupragmosunēs）",
+      "importance": "high"
+    },
+    {
+      "name": "Polupragmosunēs",
+      "type": "concept",
+      "context": "古希腊语概念，意为'多管闲事'或'过分好奇'，由polu（多）和pragma（行动/事务）组成，是本集讨论的核心概念",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "古希腊哲学家，被引用《理想国》中关于暴君和欲望与理性冲突的论述（尸体比喻）",
+      "importance": "high"
+    },
+    {
+      "name": "《理想国》（Republic）",
+      "type": "work",
+      "context": "柏拉图的哲学著作，被用来对比讨论暴君心理和欲望与理性的冲突",
+      "importance": "high"
+    },
+    {
+      "name": "俄狄浦斯王（Oedipus）",
+      "type": "person",
+      "context": "索福克勒斯悲剧中的主人公，被普鲁塔克用作有害好奇心导致毁灭的典型案例",
+      "importance": "high"
+    },
+    {
+      "name": "索福克勒斯（Sophocles）",
+      "type": "person",
+      "context": "古希腊悲剧作家，《俄狄浦斯王》的作者",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采（Nietzsche）",
+      "type": "person",
+      "context": "哲学家，主播引用其'一切价值的重估'（transvaluation of values）概念来讨论现代社会对吃瓜行为的价值重估",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭（Rousseau）",
+      "type": "person",
+      "context": "哲学家，被提到其承认自己是'八卦大王'且个人品德较低",
+      "importance": "medium"
+    },
+    {
+      "name": "亚历山大大帝（Alexander the Great）",
+      "type": "person",
+      "context": "历史人物，其继承者莱西马库斯的故事被用来说明权力的危险",
+      "importance": "medium"
+    },
+    {
+      "name": "莱西马库斯（Lysimachus）",
+      "type": "person",
+      "context": "亚历山大的继承者，国王，与喜剧诗人的对话被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "大流士二世（Darius II）",
+      "type": "person",
+      "context": "波斯国王，被作为专制暴君的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "苏格拉底（Socrates）",
+      "type": "person",
+      "context": "哲学家，被引用其关于不饿时不应进食的建议",
+      "importance": "medium"
+    },
+    {
+      "name": "荷马（Homer）",
+      "type": "person",
+      "context": "诗人，《荷马史诗》作者，被用来讨论专注于瑕疵的现象",
+      "importance": "medium"
+    },
+    {
+      "name": "《荷马史诗》",
+      "type": "work",
+      "context": "史诗作品，被提及其中重复语句等瑕疵",
+      "importance": "medium"
+    },
+    {
+      "name": "《伊利亚特》（Iliad）",
+      "type": "work",
+      "context": "荷马史诗的一部分",
+      "importance": "low"
+    },
+    {
+      "name": "阿尔基洛科斯（Archilochus）",
+      "type": "person",
+      "context": "诗人，被提及使用侮辱女性语言",
+      "importance": "low"
+    },
+    {
+      "name": "巴赫（Bach）",
+      "type": "person",
+      "context": "音乐家，节目结尾推荐其音乐",
+      "importance": "low"
+    },
+    {
+      "name": "《G弦上的咏叹调》（Air on the G String）",
+      "type": "work",
+      "context": "巴赫的音乐作品，节目结尾播放",
+      "importance": "low"
+    },
+    {
+      "name": "鲁豫",
+      "type": "person",
+      "context": "主持人，主播提到在《岩中花述》中与其对话",
+      "importance": "low"
+    },
+    {
+      "name": "《岩中花述》",
+      "type": "work",
+      "context": "播客节目，主播曾参与录制",
+      "importance": "low"
+    },
+    {
+      "name": "好奇心（Curiosity）",
+      "type": "concept",
+      "context": "本集核心讨论概念，区分有益与有害的好奇心",
+      "importance": "high"
+    },
+    {
+      "name": "吃瓜/八卦（Gossip）",
+      "type": "concept",
+      "context": "主播用来翻译Polupragmosunēs的现代网络用语，指对他人隐私的过度关注",
+      "importance": "high"
+    },
+    {
+      "name": "多管闲事（Being a busybody/Meddlesomeness）",
+      "type": "concept",
+      "context": "Polupragmosunēs的中文翻译之一，指过分关注他人事务",
+      "importance": "high"
+    },
+    {
+      "name": "专制政权/暴君（Tyranny/Despotism）",
+      "type": "concept",
+      "context": "文章结尾讨论的概念，将吃瓜者与专制君王的耳目类比",
+      "importance": "high"
+    },
+    {
+      "name": "一切价值的重估（Transvaluation of values）",
+      "type": "concept",
+      "context": "尼采哲学概念，主播用来描述现代社会对吃瓜行为态度的根本转变",
+      "importance": "medium"
+    },
+    {
+      "name": "科林斯（Corinth）",
+      "type": "place",
+      "context": "古希腊城邦，俄狄浦斯王认为自己来自的地方",
+      "importance": "low"
+    },
+    {
+      "name": "奴隶（Slavery）",
+      "type": "concept",
+      "context": "古罗马社会制度，文中提到将信件交给奴隶传递",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "675a27ca17cd5416ad621d97",
+  "title": "146-古罗马老头如何锐评吃瓜行为"
+}

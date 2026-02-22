@@ -1,0 +1,249 @@
+{
+  "style": {
+    "opening_pattern": "以对比两部经典文学作品的市场接受度引入，先建立《悲惨世界》的流行地位再转折批评",
+    "structure": "个人阅读体验→作品批评（雨果）→核心论点提出（陀思妥耶夫斯基嘲笑雨果）→三点论证（男女主角对比+社会主义角色讽刺）→开放式结尾预告下期",
+    "tone": "犀利批判、知识精英式的自信、带有口语化的学术讨论",
+    "catchphrases": [
+      "现在更讨厌雨果",
+      "垃圾食品",
+      "真的吗我不信",
+      "口说无凭",
+      "猥琐的想法",
+      "绝世好鸡",
+      "狡猾的老头",
+      "老狗",
+      "拉踩",
+      "读书不成灵"
+    ],
+    "closing_pattern": "预告下期内容并留下悬念，以随性语气结束",
+    "narrative_techniques": [
+      "类比（炸鸡vs走地鸡、垃圾食品vs真正好的食品）",
+      "对比（雨果与陀思妥耶夫斯基的人物塑造方式）",
+      "反问",
+      "举例",
+      "自我调侃",
+      "引用他人评价（福楼拜）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "维克多·雨果",
+      "type": "person",
+      "context": "《悲惨世界》的作者，被播客主批评为'三流小说家'，其社会主义与浪漫主义结合的创作手法遭到系统性反驳",
+      "importance": "high"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "《罪与罚》的作者，被塑造为深刻剖析人性的作家，被认为用《罪与罚》'嘲笑'雨果的《悲惨世界》",
+      "importance": "high"
+    },
+    {
+      "name": "《悲惨世界》",
+      "type": "work",
+      "context": "雨果1862年出版的2000页长篇小说，被称为'天主教社会主义的垃圾'和'爆米花文学'",
+      "importance": "high"
+    },
+    {
+      "name": "《罪与罚》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基1866年出版的小说，被认为是针对《悲惨世界》的回应和'嘲笑'",
+      "importance": "high"
+    },
+    {
+      "name": "冉阿让",
+      "type": "person",
+      "context": "《悲惨世界》男主角，因偷面包入狱19年，被批评为'不是真正的罪犯'，缺乏真实的犯罪性与诚实之间的张力",
+      "importance": "high"
+    },
+    {
+      "name": "拉斯柯尔尼科夫",
+      "type": "person",
+      "context": "《罪与罚》男主角，杀死放高利贷老太婆的大学生，被认为是冉阿让和马吕斯的'结合体'，体现了更深刻的犯罪与诚实的张力",
+      "importance": "high"
+    },
+    {
+      "name": "马吕斯",
+      "type": "person",
+      "context": "《悲惨世界》第二男主角，崇拜拿破仑的贵族青年法律学生，其拿破仑崇拜被雨果用亲情'柔和化'而未能深入探讨",
+      "importance": "high"
+    },
+    {
+      "name": "索尼娅",
+      "type": "person",
+      "context": "《罪与罚》女主角，内心纯洁的妓女，被认为是芳汀和珂赛特的'结合体'",
+      "importance": "medium"
+    },
+    {
+      "name": "芳汀",
+      "type": "person",
+      "context": "《悲惨世界》女主角之一，被迫卖头发、牙齿最终成为妓女的母亲，代表社会制度压迫下的悲剧",
+      "importance": "medium"
+    },
+    {
+      "name": "珂赛特",
+      "type": "person",
+      "context": "《悲惨世界》女主角之一，芳汀的女儿，在严酷环境中保持心灵纯洁的女孩",
+      "importance": "medium"
+    },
+    {
+      "name": "列别兹雅科夫",
+      "type": "person",
+      "context": "《罪与罚》中的社会主义角色，被认为是陀思妥耶夫斯基专门插入来嘲笑雨果本人'喋喋不休'姿态的滑稽人物",
+      "importance": "medium"
+    },
+    {
+      "name": "司汤达",
+      "type": "person",
+      "context": "《红与黑》作者，被引用来批评《悲惨世界》，其对于连的拿破仑崇拜分析被认为比雨果更深刻",
+      "importance": "medium"
+    },
+    {
+      "name": "福楼拜",
+      "type": "person",
+      "context": "《包法利夫人》作者，称《悲惨世界》为'天主教社会主义的垃圾'(Catholical Socialist Garbage)",
+      "importance": "medium"
+    },
+    {
+      "name": "于连",
+      "type": "person",
+      "context": "《红与黑》男主角，同样崇拜拿破仑，司汤达对其心理的分析被用来对比雨果对马吕斯的处理",
+      "importance": "medium"
+    },
+    {
+      "name": "安·兰德",
+      "type": "person",
+      "context": "《阿特拉斯耸耸肩》作者，被类比雨果'喋喋不休的讨论毫不相关的事情'",
+      "importance": "low"
+    },
+    {
+      "name": "尚马秋",
+      "type": "person",
+      "context": "《悲惨世界》中被误认为冉阿让的智力低下者，冉阿让选择诚实坦白使其免于顶罪",
+      "importance": "medium"
+    },
+    {
+      "name": "尼古拉",
+      "type": "person",
+      "context": "《罪与罚》中跑到警察局顶罪的笨油漆匠，陀思妥耶夫斯基借此探讨'渴望通过折磨证明自己人格高尚'的心理",
+      "importance": "medium"
+    },
+    {
+      "name": "沙威",
+      "type": "person",
+      "context": "《悲惨世界》中的警察，被认为是最有意思的角色，既正义又邪恶，下期预告将详细讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "德纳第",
+      "type": "person",
+      "context": "《悲惨世界》中开酒馆的中产阶级家庭，被社会力量塑造成'纯粹的现代奴隶主'",
+      "importance": "low"
+    },
+    {
+      "name": "Gavroche",
+      "type": "person",
+      "context": "《悲惨世界》中流亡街头的小男孩，其悲剧被归咎于法国邪恶的福利系统",
+      "importance": "low"
+    },
+    {
+      "name": "杜尼娅",
+      "type": "person",
+      "context": "拉斯柯尔尼科夫的姐姐，在小说末尾与他进行关键对话",
+      "importance": "low"
+    },
+    {
+      "name": "《战争与和平》",
+      "type": "work",
+      "context": "托尔斯泰的超长小说，被作为正面例子与《悲惨世界》对比，被认为是'一流的作品'",
+      "importance": "medium"
+    },
+    {
+      "name": "《白鲸》",
+      "type": "work",
+      "context": "Herman Melville的作品，被认为比《悲惨世界》更长更晦涩但更加伟大，是美国文学最伟大的作品之一",
+      "importance": "medium"
+    },
+    {
+      "name": "《红与黑》",
+      "type": "work",
+      "context": "司汤达的作品，出版于《悲惨世界》之前约30年，其对拿破仑崇拜的描绘被用来对比雨果",
+      "importance": "medium"
+    },
+    {
+      "name": "《包法利夫人》",
+      "type": "work",
+      "context": "福楼拜的代表作，与《悲惨世界》同时期出版",
+      "importance": "low"
+    },
+    {
+      "name": "《阿特拉斯耸耸肩》",
+      "type": "work",
+      "context": "安·兰德的作品，被用来类比雨果'喋喋不休'的作者介入式写作",
+      "importance": "low"
+    },
+    {
+      "name": "社会主义",
+      "type": "concept",
+      "context": "被批评与浪漫主义结合会产生'逻辑有问题的三流作品'，雨果被定位为社会主义者",
+      "importance": "high"
+    },
+    {
+      "name": "浪漫主义",
+      "type": "concept",
+      "context": "雨果的核心创作手法，强调'爱可以拯救一切'，被认为与社会主义存在内在悖论",
+      "importance": "high"
+    },
+    {
+      "name": "拿破仑崇拜",
+      "type": "concept",
+      "context": "19世纪欧洲青年的普遍心理，对不平等的渴望而非平等，雨果无法深入探讨而被陀思妥耶夫斯基极端化呈现",
+      "importance": "high"
+    },
+    {
+      "name": "人的社会性vs个体性",
+      "type": "concept",
+      "context": "现代哲学最重要的问题之一，雨果未能深刻讨论，陀思妥耶夫斯基则展现社会系统对人性的全方位塑造",
+      "importance": "high"
+    },
+    {
+      "name": "犯罪性与诚实",
+      "type": "concept",
+      "context": "两部小说男主角的核心张力，陀思妥耶夫斯基的版本被认为更加深刻",
+      "importance": "high"
+    },
+    {
+      "name": "存在性危机",
+      "type": "concept",
+      "context": "拿破仑崇拜在平等社会中可能的展现形式，以冒险和犯法本身为目的",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "拿破仑崇拜被视为对其'平等自由有爱'目标的反对",
+      "importance": "low"
+    },
+    {
+      "name": "俄罗斯",
+      "type": "place",
+      "context": "陀思妥耶夫斯基的祖国，其小说展现的社会体制压迫被认为'犀利程度不亚于雨果'",
+      "importance": "medium"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "雨果的祖国，《悲惨世界》的故事背景，其监狱系统、福利系统、司法系统被批评为'邪恶'",
+      "importance": "medium"
+    },
+    {
+      "name": "西伯利亚",
+      "type": "place",
+      "context": "《罪与罚》结尾拉斯柯尔尼科夫和索尼娅被流放的地方",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "677c4b2acda04ef4c1da53f4",
+  "title": "161-陀思妥耶夫斯基如何用《罪与罚》嘲笑雨果《悲惨世界》？"
+}

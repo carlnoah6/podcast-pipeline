@@ -1,0 +1,139 @@
+{
+  "style": {
+    "opening_pattern": "以细节观察引入（从播客封面都有猫这一观察引出主题）",
+    "structure": "引入→赞助广告→身体维度(握力)→身体维度(视力)→灵魂维度(好奇心)→赞助广告/结尾",
+    "tone": "轻松亲切、知识分享型，口语化且带有个人特色（频繁提及宠物与家人），在专业健康知识讲解时保持理性",
+    "catchphrases": [
+      "奶牛猫",
+      "黑皮白袜体育生",
+      "保姆哥",
+      "杨医生",
+      "像猫一样",
+      "鬼鬼祟祟",
+      "彼得大帝",
+      "独树不成林",
+      "握力"
+    ],
+    "closing_pattern": "赞助商致谢+福利信息+下期预告",
+    "narrative_techniques": [
+      "类比（猫与人的类比，狗与猫的对比）",
+      "举例（奶牛猫爬窗帘、观察松鼠彼得大帝、自己倒立练习）",
+      "引用（蒙田关于猫的哲学评论）",
+      "拟人（猫的心理活动描写）",
+      "对比（猫和狗的好奇心差异，室内光与自然光）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "握力/抓力",
+      "type": "concept",
+      "context": "本集核心概念，从猫的抓力谈到人类握力的重要性，分为握紧力、捏合力、屈伸、支撑力四种",
+      "importance": "high"
+    },
+    {
+      "name": "奶牛猫",
+      "type": "other",
+      "context": "作者养的猫，外号'智力低下的黑皮白袜体育生'，作为观察握力和视力的主要对象",
+      "importance": "high"
+    },
+    {
+      "name": "狸花猫",
+      "type": "other",
+      "context": "作者养的另一只猫，与奶牛猫一起观察松鼠",
+      "importance": "high"
+    },
+    {
+      "name": "Omega-3/鱼油",
+      "type": "concept",
+      "context": "本集赞助商产品拜耳One A Day水晶鱼油的核心成分，被描述为对毛发、皮肤、血脂、视力有益",
+      "importance": "high"
+    },
+    {
+      "name": "拜耳/One A Day",
+      "type": "organization",
+      "context": "德国百年药企，本集赞助商，其水晶鱼油产品被详细介绍",
+      "importance": "high"
+    },
+    {
+      "name": "好奇心",
+      "type": "concept",
+      "context": "本集第三部分核心概念，分析猫对外谨慎、对内无限的好奇心，与狗和现代人对比",
+      "importance": "high"
+    },
+    {
+      "name": "视力/睫状肌",
+      "type": "concept",
+      "context": "本集第二部分核心概念，从猫的视力保护方式谈到人类近视问题，强调睫状肌调节和户外自然光的重要性",
+      "importance": "high"
+    },
+    {
+      "name": "蒙田",
+      "type": "person",
+      "context": "16世纪法国哲学家，被引用《随笔录》中关于'当你和猫玩时不知道是谁在玩谁'的评论",
+      "importance": "medium"
+    },
+    {
+      "name": "彼得大帝/Peter",
+      "type": "other",
+      "context": "作者家门口枫树上的松鼠，被作者和猫一起观察，作为动态用眼训练的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "大卫·斯文森/David Swenson",
+      "type": "person",
+      "context": "阿斯汤加瑜伽大师，作者曾上他的课，他给予'像猫爪一样抠地'的比喻",
+      "importance": "medium"
+    },
+    {
+      "name": "杨医生",
+      "type": "person",
+      "context": "作者的母亲，儿科医生，血脂代谢异常服用鱼油，建议儿童每天两小时户外",
+      "importance": "medium"
+    },
+    {
+      "name": "保姆哥",
+      "type": "person",
+      "context": "帮作者养猫三个月的朋友，因是猫的保姆而得名",
+      "importance": "low"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "作者的朋友，大学攀岩队队长，手指捏力很强",
+      "importance": "low"
+    },
+    {
+      "name": "阿斯汤加瑜伽",
+      "type": "concept",
+      "context": "作者提到的瑜伽流派，大卫·斯文森是该流派大师",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "被提及关于'现代人活在自己之外'的观点",
+      "importance": "low"
+    },
+    {
+      "name": "《红与黑》",
+      "type": "work",
+      "context": "司汤达的小说，被作为现代小说的例子提及",
+      "importance": "low"
+    },
+    {
+      "name": "《包法利夫人》",
+      "type": "work",
+      "context": "福楼拜的小说，被作为现代小说的例子提及",
+      "importance": "low"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "作者去做访问学者三个月的地方",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "678606e7b21f1c0fb3c858d4",
+  "title": "166-如何像猫一样健康？"
+}

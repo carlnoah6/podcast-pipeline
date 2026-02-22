@@ -1,0 +1,290 @@
+{
+  "style": {
+    "opening_pattern": "以概念澄清引入，先对核心术语'进步''保守'进行中性化定义，建立讨论框架",
+    "structure": "前提澄清→核心论点（政党结构保守）→第二论点（文化精英保守）→第三论点（媒介保守）→历史对比→结论呼吁",
+    "tone": "理性犀利、批判性强、带有学术分析色彩但口语化表达",
+    "catchphrases": [
+      "我想说的是",
+      "我们可以看到",
+      "也就是说",
+      "在这个播客中",
+      "我的意思是",
+      "恰恰是因为",
+      "精神自卫",
+      "高高在上",
+      "胡说八道",
+      "臭嘴巴"
+    ],
+    "closing_pattern": "总结三个论点并发出强烈呼吁，以情绪化收尾（'闭上你的臭嘴巴傲慢的小丑'）",
+    "narrative_techniques": [
+      "对比（2016年特朗普vs桑德斯命运对比、两党高层换血对比、两党大会氛围对比）",
+      "举例（大量具体人物、数据、事件）",
+      "类比（'饥饿游戏首都的人'）",
+      "反问",
+      "历史纵向比较（1968年民主党反思）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "作为2016年和2024年共和党总统候选人，被描述为反建制、民粹主义的代表，彻底重塑了共和党",
+      "importance": "high"
+    },
+    {
+      "name": "桑德斯（Bernie Sanders）",
+      "type": "person",
+      "context": "2016年民主党初选中的激进左翼候选人，因党内机制未能获得提名，被用来与特朗普对比说明民主党更保守",
+      "importance": "high"
+    },
+    {
+      "name": "希拉里·克林顿（Hillary Clinton）",
+      "type": "person",
+      "context": "2016年民主党最终提名的传统建制派候选人，代表党内精英的选择",
+      "importance": "high"
+    },
+    {
+      "name": "奥巴马（Barack Obama）",
+      "type": "person",
+      "context": "2008年带入一批精英进入民主党高层，其叙事至今仍主导民主党，被视为民主党停滞的象征",
+      "importance": "high"
+    },
+    {
+      "name": "哈里斯（Kamala Harris）",
+      "type": "person",
+      "context": "2024年民主党候选人，被描述为获得几乎所有名流支持却惨败，其竞选被主流媒体称为'完美无缺'",
+      "importance": "high"
+    },
+    {
+      "name": "J.D.万斯（J.D. Vance）",
+      "type": "person",
+      "context": "共和党新星，与Project 2025关系密切，被提及为未来可能比特朗普更认真对待该计划的人物",
+      "importance": "medium"
+    },
+    {
+      "name": "埃隆·马斯克（Elon Musk）",
+      "type": "person",
+      "context": "少数支持特朗普的硅谷科技大佬，收购X挑战传统媒体霸权，被描述为'反精英的精英'",
+      "importance": "medium"
+    },
+    {
+      "name": "彼得·蒂尔（Peter Thiel）",
+      "type": "person",
+      "context": "另一位支持特朗普的硅谷精英，创办UATX大学反对多元化，被硅谷主流排斥",
+      "importance": "medium"
+    },
+    {
+      "name": "Brianna Wu",
+      "type": "person",
+      "context": "跨性别女性、民主党人，其采访被引用来说明民主党高层在媒介使用上的保守和脱节",
+      "importance": "medium"
+    },
+    {
+      "name": "杰布·布什（Jeb Bush）",
+      "type": "person",
+      "context": "2016年共和党建制派代表人物，其政治明星光环已被新一代共和党人取代",
+      "importance": "low"
+    },
+    {
+      "name": "罗姆尼（Mitt Romney）",
+      "type": "person",
+      "context": "2016年反对特朗普的共和党建制派精英代表",
+      "importance": "low"
+    },
+    {
+      "name": "Pete Buttigieg",
+      "type": "person",
+      "context": "被提及为民主党少数可能的年轻面孔，但在党内地位边缘化",
+      "importance": "low"
+    },
+    {
+      "name": "贝索斯（Jeff Bezos）",
+      "type": "person",
+      "context": "作为支持民主党的富豪精英例子",
+      "importance": "low"
+    },
+    {
+      "name": "扎克伯格（Mark Zuckerberg）",
+      "type": "person",
+      "context": "2020年为拜登捐款4亿美元，代表支持民主党的科技精英",
+      "importance": "low"
+    },
+    {
+      "name": "乔治·索罗斯（George Soros）",
+      "type": "person",
+      "context": "被列举为民主党支持者",
+      "importance": "low"
+    },
+    {
+      "name": "碧昂丝（Beyoncé）",
+      "type": "person",
+      "context": "支持哈里斯的一线明星例子",
+      "importance": "low"
+    },
+    {
+      "name": "泰勒·斯威夫特（Taylor Swift）",
+      "type": "person",
+      "context": "支持哈里斯的一线明星例子",
+      "importance": "low"
+    },
+    {
+      "name": "奥普拉（Oprah Winfrey）",
+      "type": "person",
+      "context": "支持哈里斯的一线明星例子",
+      "importance": "low"
+    },
+    {
+      "name": "Vivek Ramaswamy",
+      "type": "person",
+      "context": "共和党新星，代表党派的新血液",
+      "importance": "low"
+    },
+    {
+      "name": "Tulsi Gabbard",
+      "type": "person",
+      "context": "共和党新星，代表党派的新血液",
+      "importance": "low"
+    },
+    {
+      "name": "Nikki Haley",
+      "type": "person",
+      "context": "共和党新星，代表党派的新血液",
+      "importance": "low"
+    },
+    {
+      "name": "Marco Rubio",
+      "type": "person",
+      "context": "从2016年建制派转变为当今共和党新星",
+      "importance": "low"
+    },
+    {
+      "name": "安德鲁·杰克逊（Andrew Jackson）",
+      "type": "person",
+      "context": "被类比为特朗普式的民粹主义总统",
+      "importance": "low"
+    },
+    {
+      "name": "Project 2025（2025计划）",
+      "type": "work",
+      "context": "Heritage Foundation发布的重塑联邦政府企划，被左翼媒体与特朗普绑定，但实际被特朗普竞选团队排斥",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思主义历史哲学",
+      "type": "concept",
+      "context": "被用来解释中文语境中'进步''科学''发展'为何成为自动褒义词",
+      "importance": "medium"
+    },
+    {
+      "name": "民粹主义（Populism）",
+      "type": "concept",
+      "context": "核心分析概念，用于描述特朗普和桑德斯的共同特征，以及2016年以来的政治转向",
+      "importance": "high"
+    },
+    {
+      "name": "新保守主义（Neoconservatism）",
+      "type": "concept",
+      "context": "冷战以来共和党主流意识形态，被特朗普时代的新右翼完全放弃",
+      "importance": "medium"
+    },
+    {
+      "name": "超级代表（Super Delegates）",
+      "type": "concept",
+      "context": "民主党党内机制，被用来解释为何桑德斯未能获得提名，体现民主党更保守",
+      "importance": "medium"
+    },
+    {
+      "name": "Gamergate",
+      "type": "event",
+      "context": "2012年网络事件，Brianna Wu作为受害人被网暴的背景",
+      "importance": "low"
+    },
+    {
+      "name": "2016年美国总统大选",
+      "type": "event",
+      "context": "关键转折点，特朗普崛起和桑德斯失败的年份，被视为一切改变的起点",
+      "importance": "high"
+    },
+    {
+      "name": "2024年美国总统大选",
+      "type": "event",
+      "context": "最新选举，哈里斯惨败证明特朗普不是异常现象",
+      "importance": "high"
+    },
+    {
+      "name": "1968年民主党全国代表大会",
+      "type": "event",
+      "context": "被引用为民主党需要类似的历史性反思时刻",
+      "importance": "low"
+    },
+    {
+      "name": "威斯康辛州共和党大会（2024年7月）",
+      "type": "event",
+      "context": "被描述为代表真正选民关切的会议，与民主党大会形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "民主党全国代表大会（2024年8月）",
+      "type": "event",
+      "context": "被讽刺为'春节联欢晚会'，只庆祝旧话术而不面对新问题",
+      "importance": "low"
+    },
+    {
+      "name": "常青藤联盟（Ivy League）",
+      "type": "organization",
+      "context": "被描述为支持民主党的传统精英机构，偏左的大喇叭",
+      "importance": "medium"
+    },
+    {
+      "name": "Heritage Foundation（传统基金会）",
+      "type": "organization",
+      "context": "保守派智库，发布Project 2025，但与特朗普竞选团队关系紧张",
+      "importance": "medium"
+    },
+    {
+      "name": "CNN",
+      "type": "organization",
+      "context": "被批评的主流媒体，大选后分析态度傲慢，认为'美国人民配不上哈里斯'",
+      "importance": "medium"
+    },
+    {
+      "name": "MSNBC",
+      "type": "organization",
+      "context": "被批评的主流媒体，与CNN同样态度",
+      "importance": "medium"
+    },
+    {
+      "name": "麦肯锡（McKinsey）",
+      "type": "organization",
+      "context": "被提及为民主党顾问阶层提供咨询图表的传统咨询公司",
+      "importance": "low"
+    },
+    {
+      "name": "UATX（University of Austin at Texas）",
+      "type": "organization",
+      "context": "Peter Thiel创办的大学，旨在反对多元化和后现代学术",
+      "importance": "low"
+    },
+    {
+      "name": "Twitch",
+      "type": "other",
+      "context": "新兴直播平台，Brianna Wu试图说服民主党使用但被拒绝",
+      "importance": "low"
+    },
+    {
+      "name": "YouTube",
+      "type": "other",
+      "context": "被提及为Brianna Wu来自的世界，代表全新媒介",
+      "importance": "low"
+    },
+    {
+      "name": "X（原Twitter）",
+      "type": "other",
+      "context": "马斯克收购的平台，挑战传统媒体霸权",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6730291ef373fe5d4d071eb1",
+  "title": "131-当今美国民主党为何比共和党更加保守？"
+}

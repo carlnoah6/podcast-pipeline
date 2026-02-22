@@ -1,0 +1,566 @@
+{
+  "style": {
+    "opening_pattern": "以对比引入，先抛出中国八九十年代人文精神大辩论作为引子，制造反差和悬念",
+    "structure": "中国语境铺垫→批判性分析中国辩论的局限→转向美国背景→按时间线梳理美国辩论的发展（1973年Rieff→1982年Bate→1985年Bennett→1987年布鲁姆高潮→左派回应→当代反思）→结尾回归中国知识分子的盲区",
+    "tone": "犀利批判、自信张扬、带有挑衅性的学术评论风格，夹杂口语化表达和情绪性判断",
+    "catchphrases": [
+      "OK",
+      "搁那",
+      "驴头不对马嘴",
+      "格斗吧",
+      "直翻白眼",
+      "初生牛犊不怕虎",
+      "智障发言",
+      "为这种天真和误解倍感尴尬",
+      "这就不得而知了"
+    ],
+    "closing_pattern": "开放式提问，以一连串反问句收尾，引发听众思考",
+    "narrative_techniques": [
+      "对比（中美两场辩论的对照）",
+      "反讽（对中国知识分子的辛辣嘲讽）",
+      "举例（大量书籍和人物的具体引用）",
+      "设问",
+      "历史时间线叙事",
+      "类比（将学术争论比作'格斗'）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "帕森斯（Talcott Parsons）",
+      "type": "person",
+      "context": "哈佛社会学家，其提出的市场经济、民主政治、个人主义三条铁律被中国80年代知识分子视为西方现代化的精髓",
+      "importance": "medium"
+    },
+    {
+      "name": "沈昌文",
+      "type": "person",
+      "context": "当时著名读书杂志主编，提出开展人文精神辩论以坚守人文精神",
+      "importance": "low"
+    },
+    {
+      "name": "许晋林",
+      "type": "person",
+      "context": "教授，曾参加人文精神大辩论，回忆当年两种反对声音的来源",
+      "importance": "low"
+    },
+    {
+      "name": "王猛",
+      "type": "person",
+      "context": "作家，反对重建人文精神，认为市场经济是大方向，中国没有人文精神可重建",
+      "importance": "medium"
+    },
+    {
+      "name": "张一武",
+      "type": "person",
+      "context": "后现代叙事代表，认为人文精神是宏大叙事，主张小叙事",
+      "importance": "low"
+    },
+    {
+      "name": "陈晓明",
+      "type": "person",
+      "context": "后现代叙事代表，与张一武共同批评人文精神的宏大叙事性质",
+      "importance": "low"
+    },
+    {
+      "name": "康德（Immanuel Kant）",
+      "type": "person",
+      "context": "其《什么是启蒙》中的Sapere Aude被中国知识分子视为人文精神的源头，但主播批评他们连卢梭都处理不了",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "康德的老师，批评科学和艺术发展会带来道德败坏，其思想与人文精神的关系被中国知识分子忽视",
+      "importance": "medium"
+    },
+    {
+      "name": "亚当·斯密（Adam Smith）",
+      "type": "person",
+      "context": "苏格兰启蒙主义代表，其自由市场机制与康德式启蒙主义被主播比作中国辩论中相互搏斗的'两个表兄弟'",
+      "importance": "medium"
+    },
+    {
+      "name": "阿伦·布鲁姆（Allan Bloom）",
+      "type": "person",
+      "context": "芝加哥大学政治哲学家，1987年出版《美国心灵的封闭》，引爆美国人文精神大辩论，翻译过精准的柏拉图《理想国》和卢梭《爱弥儿》",
+      "importance": "high"
+    },
+    {
+      "name": "Philip Rieff",
+      "type": "person",
+      "context": "社会学家，1973年出版《Fellow Teachers》，早于布鲁姆批评美国大学教育，抨击杜威实用主义将课堂变为政治宣传讲台",
+      "importance": "high"
+    },
+    {
+      "name": "杜威（John Dewey）",
+      "type": "person",
+      "context": "胡适崇拜的实验主义哲学家，其实用主义教育理念被Rieff和主播批评为拒绝永恒真理、将教育变为政治表达",
+      "importance": "high"
+    },
+    {
+      "name": "Walter Jackson Bate",
+      "type": "person",
+      "context": "哈佛文学评论家，1982年发表《英语学科的危机》，宣称人文学科面临毁灭性灾难",
+      "importance": "high"
+    },
+    {
+      "name": "William J. Bennett",
+      "type": "person",
+      "context": "里根政府时期国家人文学基金会主任，1985年发表报告《重新夺回文化遗产》，批评教育者放弃文化传承职责",
+      "importance": "high"
+    },
+    {
+      "name": "Roger Kimball",
+      "type": "person",
+      "context": "耶鲁哲学博士候选人，《新标准》杂志编辑，1987年出版《美国心灵的中毒》和《拿着终身教职的激进分子》，直接受布鲁姆启发",
+      "importance": "medium"
+    },
+    {
+      "name": "Dinesh D'Souza",
+      "type": "person",
+      "context": "1991年出版《不自由教育》，批评校园种族政治和性别政治，主播批评其引用本科期间的幼稚发言，缺乏学术深度",
+      "importance": "medium"
+    },
+    {
+      "name": "Victor David Hanson",
+      "type": "person",
+      "context": "1998年出版《谁杀死了荷马》，哀叹古典教育消亡，延续布鲁姆对西方经典沦丧的批评",
+      "importance": "medium"
+    },
+    {
+      "name": "Marjorie Garber",
+      "type": "person",
+      "context": "英语系教授，参与编写1989年《为人文学科发声》报告，反驳传统人文主义者",
+      "importance": "low"
+    },
+    {
+      "name": "Katherine Stimpson",
+      "type": "person",
+      "context": "参与编写1989年《为人文学科发声》报告的学者之一",
+      "importance": "low"
+    },
+    {
+      "name": "Peter Brooks",
+      "type": "person",
+      "context": "参与编写1989年《为人文学科发声》报告的学者之一",
+      "importance": "low"
+    },
+    {
+      "name": "George Levine",
+      "type": "person",
+      "context": "参与编写1989年《为人文学科发声》报告的学者之一",
+      "importance": "low"
+    },
+    {
+      "name": "Jonathan Culler",
+      "type": "person",
+      "context": "参与编写1989年《为人文学科发声》报告的学者之一",
+      "importance": "low"
+    },
+    {
+      "name": "Ann Kaplan",
+      "type": "person",
+      "context": "参与编写1989年《为人文学科发声》报告的学者之一",
+      "importance": "low"
+    },
+    {
+      "name": "Richard Rorty",
+      "type": "person",
+      "context": "哲学家，指出1988年杜克大学会议是文化左派大集合",
+      "importance": "medium"
+    },
+    {
+      "name": "Henry Giroux",
+      "type": "person",
+      "context": "在《南大西洋季刊》特刊中呼吁大学目的不是追求真理而是推动社会正义",
+      "importance": "medium"
+    },
+    {
+      "name": "Alexander Nehamas",
+      "type": "person",
+      "context": "提议将看电视纳入人文学科的学者",
+      "importance": "low"
+    },
+    {
+      "name": "George Kennedy",
+      "type": "person",
+      "context": "北卡罗来纳州古典学教授，承认后结构主义语言任意性观点难以运用于古典学科",
+      "importance": "low"
+    },
+    {
+      "name": "Gerald Graff",
+      "type": "person",
+      "context": "芝加哥大学教授，提出将文化冲突本身变成研究对象，出版《文化战争之后》",
+      "importance": "medium"
+    },
+    {
+      "name": "James Tettleton",
+      "type": "person",
+      "context": "纽约大学英语教授，锐评Graff的书是左翼公关修复工作",
+      "importance": "low"
+    },
+    {
+      "name": "尼采（Friedrich Nietzsche）",
+      "type": "person",
+      "context": "布鲁姆认为尼采式的美国左翼使社会感染了有害的相对主义",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "被Rieff称为伟大的人性教师之一，布鲁姆翻译其《理想国》，其思想从大学课堂消失被视为危机",
+      "importance": "medium"
+    },
+    {
+      "name": "海顿（Joseph Haydn）",
+      "type": "person",
+      "context": "被Rieff称为伟大的人性教师之一，从大学课堂消失",
+      "importance": "low"
+    },
+    {
+      "name": "贝多芬（Ludwig van Beethoven）",
+      "type": "person",
+      "context": "被Rieff称为伟大的人性教师之一，从大学课堂消失",
+      "importance": "low"
+    },
+    {
+      "name": "韦伯（Max Weber）",
+      "type": "person",
+      "context": "被Rieff称为伟大的人性教师之一，从大学课堂消失",
+      "importance": "low"
+    },
+    {
+      "name": "洛克（John Locke）",
+      "type": "person",
+      "context": "布鲁姆批评美国社会建立在洛克式自由文化自由主义价值体系之上",
+      "importance": "medium"
+    },
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "三十年代代表，崇拜杜威实验主义，主播在第95期播客讨论过",
+      "importance": "medium"
+    },
+    {
+      "name": "白璧德（Irving Babbitt）",
+      "type": "person",
+      "context": "主播暗示中国知识分子只知道杜威而不知道他，代表被忽视的保守声音",
+      "importance": "medium"
+    },
+    {
+      "name": "《美国心灵的封闭》（The Closing of the American Mind）",
+      "type": "work",
+      "context": "阿伦·布鲁姆1987年出版的超级畅销书，引爆美国人文精神大辩论，催生批评美国教育的'小产业'",
+      "importance": "high"
+    },
+    {
+      "name": "《Fellow Teachers》/《我的教师同行们》",
+      "type": "work",
+      "context": "Philip Rieff 1973年出版，早于布鲁姆批评美国大学教育，未受显著关注",
+      "importance": "high"
+    },
+    {
+      "name": "《什么是启蒙》",
+      "type": "work",
+      "context": "康德的文章，其中的Sapere Aude被中国知识分子视为人文精神定义的来源",
+      "importance": "medium"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图著作，布鲁姆翻译了学界最精准的英文版",
+      "importance": "medium"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "卢梭著作，布鲁姆翻译了学界最精准的英文版",
+      "importance": "medium"
+    },
+    {
+      "name": "《英语学科的危机》/《英文文学的危机》（The Crisis in English Studies）",
+      "type": "work",
+      "context": "Walter Jackson Bate 1982年在《哈佛杂志》发表的文章，宣称人文学科面临毁灭性灾难",
+      "importance": "high"
+    },
+    {
+      "name": "《重新夺回文化遗产》（To Reclaim a Legacy）",
+      "type": "work",
+      "context": "William J. Bennett 1985年发表的报告，批评教育者放弃文化传承职责",
+      "importance": "high"
+    },
+    {
+      "name": "《美国心灵的中毒》（The Poisoning of the American Mind）",
+      "type": "work",
+      "context": "Roger Kimball 1987年出版，标题模仿布鲁姆，直接受其启发",
+      "importance": "medium"
+    },
+    {
+      "name": "《拿着终身教职的激进分子》（Tenured Radicals）",
+      "type": "work",
+      "context": "Roger Kimball另一本批评耶鲁等校左翼教授的书",
+      "importance": "medium"
+    },
+    {
+      "name": "《不自由教育》/《校园里的种族政治和性别政治》",
+      "type": "work",
+      "context": "Dinesh D'Souza 1991年出版，批评大学身份政治和多元文化主义",
+      "importance": "medium"
+    },
+    {
+      "name": "《谁杀死了荷马？》（Who Killed Homer? The Demise of Classical Education and the Recovery of Greek Wisdom）",
+      "type": "work",
+      "context": "Victor David Hanson 1998年出版，哀叹古典教育消亡",
+      "importance": "medium"
+    },
+    {
+      "name": "《美国心灵的溺爱》（The Coddling of the American Mind）",
+      "type": "work",
+      "context": "2018年出版，标题模仿布鲁姆，讨论安全主义过度保护学生",
+      "importance": "medium"
+    },
+    {
+      "name": "《为人文学科发声》（Speaking for the Humanities）",
+      "type": "work",
+      "context": "1989年美国人文学会资助的报告，由一群资深教授编写反驳传统人文主义者",
+      "importance": "high"
+    },
+    {
+      "name": "《南大西洋季刊》（South Atlantic Quarterly）",
+      "type": "work",
+      "context": "1990年左翼学术期刊，专门出特刊讨论自由教育政治，反映文化左翼的真正回应",
+      "importance": "high"
+    },
+    {
+      "name": "《文化战争之后》",
+      "type": "work",
+      "context": "Gerald Graff 1992年出版，提出将文化冲突本身变成研究对象",
+      "importance": "medium"
+    },
+    {
+      "name": "《美国反对美国》",
+      "type": "work",
+      "context": "主播提及的著作，代表某种观察美国的视角",
+      "importance": "low"
+    },
+    {
+      "name": "人文精神",
+      "type": "concept",
+      "context": "中美两场大辩论的核心概念，但中国知识分子未能真正定义，被困在18世纪启蒙主义框架中",
+      "importance": "high"
+    },
+    {
+      "name": "文化相对主义（cultural relativism）",
+      "type": "concept",
+      "context": "布鲁姆主要抨击的对象，认为真相都是相对的，阻碍真理探索，导致虚无主义",
+      "importance": "high"
+    },
+    {
+      "name": "后现代主义",
+      "type": "concept",
+      "context": "六七十年代兴起，质疑理性、进步和科学信仰，推动美国学界转向种族、阶级、性别研究",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙主义/启蒙精神",
+      "type": "concept",
+      "context": "中国知识分子崇尚并预设其正确性，但美国辩论中连捍卫者和反对者都在批评它",
+      "importance": "high"
+    },
+    {
+      "name": "新自由主义",
+      "type": "concept",
+      "context": "中国知识分子谄媚推崇的自由市场思想体系，但不知同时期西方学者对其严厉批评",
+      "importance": "medium"
+    },
+    {
+      "name": "觉醒主义",
+      "type": "concept",
+      "context": "当今中国知识分子宣传谄媚的西方价值观，但不知西方左右派学者正在批评",
+      "importance": "medium"
+    },
+    {
+      "name": "宏大叙事",
+      "type": "concept",
+      "context": "张一武、陈晓明批评人文精神是压抑的宏大叙事，主张小叙事",
+      "importance": "medium"
+    },
+    {
+      "name": "Sapere Aude",
+      "type": "concept",
+      "context": "拉丁语'敢于求知'，出自康德《什么是启蒙》，被中国知识分子视为人文精神源头",
+      "importance": "medium"
+    },
+    {
+      "name": "德国启蒙主义",
+      "type": "concept",
+      "context": "与苏格兰启蒙主义相对，主播将中国辩论比作这两种18世纪思潮的搏斗",
+      "importance": "medium"
+    },
+    {
+      "name": "苏格兰启蒙主义",
+      "type": "concept",
+      "context": "亚当·斯密代表的思潮，与德国启蒙主义相对",
+      "importance": "medium"
+    },
+    {
+      "name": "实用主义",
+      "type": "concept",
+      "context": "杜威的教育理念，拒绝永恒真理，被Rieff和主播批评为瓦解人文教育三大推理之一",
+      "importance": "high"
+    },
+    {
+      "name": "结构主义",
+      "type": "concept",
+      "context": "八十年代中期高等教育主流潮流之一，布鲁姆批评其强化对理性真理标准的怀疑",
+      "importance": "medium"
+    },
+    {
+      "name": "后结构主义",
+      "type": "concept",
+      "context": "八十年代中期高等教育主流潮流之一",
+      "importance": "medium"
+    },
+    {
+      "name": "读者反应理论",
+      "type": "concept",
+      "context": "八十年代中期高等教育主流潮流之一",
+      "importance": "low"
+    },
+    {
+      "name": "后殖民研究",
+      "type": "concept",
+      "context": "八十年代中期高等教育主流潮流之一",
+      "importance": "low"
+    },
+    {
+      "name": "身份政治",
+      "type": "concept",
+      "context": "Dinesh D'Souza批评的大学现象，影响言论自由和普世价值观",
+      "importance": "medium"
+    },
+    {
+      "name": "多元文化主义",
+      "type": "concept",
+      "context": "受到传统人文主义者批评，被认为以意识形态取代真理追求",
+      "importance": "medium"
+    },
+    {
+      "name": "安全主义",
+      "type": "concept",
+      "context": "《美国心灵的溺爱》讨论的概念，过度保护学生导致脆弱，扼杀知识辩论",
+      "importance": "medium"
+    },
+    {
+      "name": "邓小平南巡",
+      "type": "event",
+      "context": "1992年发生，之后中国经济开始转型，人文精神大讨论出现在1993年",
+      "importance": "medium"
+    },
+    {
+      "name": "上海股票交易所成立",
+      "type": "event",
+      "context": "1992年成立，被参加辩论的知识分子反复提及为社会风气转变的标志",
+      "importance": "low"
+    },
+    {
+      "name": "越南战争",
+      "type": "event",
+      "context": "其恐怖促使左翼思想家质疑理性、进步和科学的信仰，推动后现代思想起源",
+      "importance": "medium"
+    },
+    {
+      "name": "1968年学生抗议运动",
+      "type": "event",
+      "context": "其失败促使左翼思想家转向后现代思想，质疑启蒙理性",
+      "importance": "high"
+    },
+    {
+      "name": "纳粹摧毁德国大学",
+      "type": "event",
+      "context": "1930年发生，布鲁姆将其与美国高等教育的政治化做有争议的比较",
+      "importance": "medium"
+    },
+    {
+      "name": "2016年民粹主义保守主义兴起",
+      "type": "event",
+      "context": "主播将其与八九十年代学界对左派的冲击对比，指出 today's populism 完全抛弃了对人文精神的关怀",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "八九十年代人文精神大辩论的发生地，主播批评其知识分子的西方想象肤浅",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "八九十年代学术文化战争和人文精神大辩论的发生地，辩论更为深刻多元",
+      "importance": "high"
+    },
+    {
+      "name": "哈佛大学",
+      "type": "organization",
+      "context": "Walter Jackson Bate发表文章之处，帕森斯所在的学校",
+      "importance": "medium"
+    },
+    {
+      "name": "芝加哥大学",
+      "type": "organization",
+      "context": "阿伦·布鲁姆和Gerald Graff所在的学校，保守主义重镇",
+      "importance": "high"
+    },
+    {
+      "name": "耶鲁大学",
+      "type": "organization",
+      "context": "Roger Kimball的母校，其批评的主要对象",
+      "importance": "medium"
+    },
+    {
+      "name": "杜克大学",
+      "type": "organization",
+      "context": "1988年举办文化左派大集合会议的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "北卡罗来纳州大学教堂山分校",
+      "type": "organization",
+      "context": "与杜克大学共同举办1988年会议",
+      "importance": "low"
+    },
+    {
+      "name": "纽约大学",
+      "type": "organization",
+      "context": "James Tettleton所在的学校",
+      "importance": "low"
+    },
+    {
+      "name": "达特茅斯学院",
+      "type": "organization",
+      "context": "Dinesh D'Souza本科就读的学校，其校报《达特茅斯评论》",
+      "importance": "low"
+    },
+    {
+      "name": "国家人文学基金会",
+      "type": "organization",
+      "context": "William J. Bennett担任主任的机构，发表《重新夺回文化遗产》",
+      "importance": "medium"
+    },
+    {
+      "name": "美国人文学会",
+      "type": "organization",
+      "context": "资助《为人文学科发声》报告的组织",
+      "importance": "medium"
+    },
+    {
+      "name": "College Trained Primitives（大学教育出来的原始人）",
+      "type": "other",
+      "context": "Rieff对美国嬉皮士反文化的称呼，指越受教育越反文化的现象",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "674cb0040ed328720abcea7d",
+  "title": "142-8090年代美国知识分子如何就人文精神开展大辩论？"
+}

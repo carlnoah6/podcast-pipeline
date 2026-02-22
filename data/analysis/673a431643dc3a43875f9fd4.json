@@ -1,0 +1,236 @@
+{
+  "style": {
+    "opening_pattern": "以生活场景引入，从学术会议后的聚餐对话切入，通过咖啡迷与茶客的对比引出主题",
+    "structure": "个人经历叙述→普洱茶知识科普（产区、工艺、山头）→理论阐述（理性标准化的价值）→核心论证（品味的非理性维度）→跨品类类比（咖啡、辣椒、醋、香槟）→总结升华",
+    "tone": "理性客观中带有个人情感温度，知识性与反思性结合，轻松但不失深度，兼具学术严谨与生活气息",
+    "catchphrases": [
+      "虚头巴脑",
+      "黑话最多",
+      "茶鬼",
+      "刮刮油",
+      "鸟粪",
+      "理性标准化",
+      "土壤和气候",
+      "品味",
+      "经验判断",
+      "及格线"
+    ],
+    "closing_pattern": "回到个人故事（香槟哥），通过跨文化对比呼应主题，开放式总结理性的局限与非理性的价值",
+    "narrative_techniques": [
+      "类比论证（咖啡、辣椒、醋、香槟与普洱的跨品类对照）",
+      "举例说明（大益7542、下关8653等具体茶品）",
+      "对比分析（生茶vs熟茶、标准化vs个性化、理性vs非理性）",
+      "个人经历叙事（童年茶馆经历、考茶艺师资格证）",
+      "反问与设问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "引用《论法的精神》中的气候论，说明土壤和气候对品味的不可标准化影响",
+      "importance": "high"
+    },
+    {
+      "name": "香槟哥",
+      "type": "person",
+      "context": "来自法国香槟地区的政治学家博后，通过他对香槟甜度的吐槽说明理性标准化对品味的压缩",
+      "importance": "high"
+    },
+    {
+      "name": "保姆哥",
+      "type": "person",
+      "context": "被提及的朋友，吐槽主播吃撑后喝茶刮油的习惯",
+      "importance": "medium"
+    },
+    {
+      "name": "老乡哥",
+      "type": "person",
+      "context": "第35期讨论过的朋友，父母是浙江茶农",
+      "importance": "low"
+    },
+    {
+      "name": "《论法的精神》",
+      "type": "work",
+      "context": "孟德斯鸠的著作，其中的气候论被用来论证地域差异对品味的决定性影响",
+      "importance": "high"
+    },
+    {
+      "name": "普洱茶",
+      "type": "concept",
+      "context": "核心讨论对象，分为生茶和熟茶，涉及产区、工艺、山头等多个维度",
+      "importance": "high"
+    },
+    {
+      "name": "生茶",
+      "type": "concept",
+      "context": "未经人工发酵的普洱茶，口感更苦涩，门槛更高",
+      "importance": "high"
+    },
+    {
+      "name": "熟茶",
+      "type": "concept",
+      "context": "经过渥堆人工发酵的普洱茶，口感香甜纯厚滑",
+      "importance": "high"
+    },
+    {
+      "name": "渥堆发酵",
+      "type": "concept",
+      "context": "熟茶制作的核心工艺，涉及微生物技术，对温湿度控制要求极高",
+      "importance": "high"
+    },
+    {
+      "name": "拼配",
+      "type": "concept",
+      "context": "大厂通过混合不同年份、山头茶叶来稳定品质的核心工艺",
+      "importance": "high"
+    },
+    {
+      "name": "干仓/湿仓",
+      "type": "concept",
+      "context": "储存茶叶的不同湿度环境，会导致同一茶饼几年后口感差异",
+      "importance": "medium"
+    },
+    {
+      "name": "山头（班章、冰岛）",
+      "type": "concept",
+      "context": "普洱茶鄙视链顶端的著名产地，班章属勐海（苦浓强），冰岛属临沧（冰糖甜）",
+      "importance": "medium"
+    },
+    {
+      "name": "产区（西双版纳、临沧、普洱）",
+      "type": "concept",
+      "context": "普洱茶的三大基础产区，各有不同的气候土壤特征",
+      "importance": "medium"
+    },
+    {
+      "name": "理性标准化",
+      "type": "concept",
+      "context": "核心哲学概念，指通过工业逻辑实现品质稳定，但会压缩品味的非理性空间",
+      "importance": "high"
+    },
+    {
+      "name": "品味/品鉴",
+      "type": "concept",
+      "context": "播客核心讨论的反思对象，被认为是部分理性部分非理性，基于经验、土壤和个体判断",
+      "importance": "high"
+    },
+    {
+      "name": "气候论",
+      "type": "concept",
+      "context": "孟德斯鸠提出的理论，被用来解释不同地域因土壤气候产生的品味差异不可标准化",
+      "importance": "high"
+    },
+    {
+      "name": "云南（普洱、西双版纳、临沧）",
+      "type": "place",
+      "context": "普洱茶的核心产区，涉及勐海、勐库等具体山头",
+      "importance": "high"
+    },
+    {
+      "name": "勐海（班章）",
+      "type": "place",
+      "context": "西双版纳产区的著名茶山，以苦浓强口感著称",
+      "importance": "medium"
+    },
+    {
+      "name": "勐库（冰岛）",
+      "type": "place",
+      "context": "临沧产区的著名茶山，以冰糖甜口感著称",
+      "importance": "medium"
+    },
+    {
+      "name": "龙井山",
+      "type": "place",
+      "context": "杭州产龙井茶的地方，主播童年时随茶馆老板娘去收茶",
+      "importance": "low"
+    },
+    {
+      "name": "香港",
+      "type": "place",
+      "context": "被提及与大陆喝茶品味不同，习惯带有霉味的口感",
+      "importance": "medium"
+    },
+    {
+      "name": "珠三角",
+      "type": "place",
+      "context": "港台炒茶风气传入大陆的第一站，与干燥地区喝茶习惯不同",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "主播目前所在地，提到美国人不懂茶叶品味，只能买到标准化大厂茶",
+      "importance": "medium"
+    },
+    {
+      "name": "香槟地区（法国）",
+      "type": "place",
+      "context": "香槟哥的故乡，说明土壤气候对品味的决定性影响",
+      "importance": "medium"
+    },
+    {
+      "name": "山西（陈醋）、镇江（米醋）、天津（独流醋）、康乐（玫瑰醋）",
+      "type": "place",
+      "context": "作为类比说明不同地域的品味差异，康乐醋代表家的味道",
+      "importance": "low"
+    },
+    {
+      "name": "大益茶厂",
+      "type": "organization",
+      "context": "云南大厂代表，7542是生茶标杆，代表标准化理性选择",
+      "importance": "high"
+    },
+    {
+      "name": "下关茶厂",
+      "type": "organization",
+      "context": "云南大厂代表，8653是生茶标杆，主播在美国方便购买的渠道",
+      "importance": "high"
+    },
+    {
+      "name": "老同志",
+      "type": "organization",
+      "context": "提及的云南普洱茶品牌，属于标准化大厂选择",
+      "importance": "medium"
+    },
+    {
+      "name": "勐海茶厂",
+      "type": "organization",
+      "context": "大益茶厂前身，7542中的'2'代表勐海茶厂",
+      "importance": "medium"
+    },
+    {
+      "name": "2000年左右港台商人炒茶",
+      "type": "event",
+      "context": "普洱茶老茶价格被炒高的历史起点，从港台传入珠三角",
+      "importance": "medium"
+    },
+    {
+      "name": "考茶艺师资格证",
+      "type": "event",
+      "context": "主播15-16岁时的经历，在北京考取初级资格证，因年龄不够未考中级",
+      "importance": "medium"
+    },
+    {
+      "name": "7542",
+      "type": "other",
+      "context": "大益茶厂生茶标杆，75年配方+4级茶+勐海茶厂编号，代表标准化产品",
+      "importance": "high"
+    },
+    {
+      "name": "8653",
+      "type": "other",
+      "context": "下关茶厂生茶标杆，86年配方+5级茶+下关茶厂编号，计划经济时期分级产物",
+      "importance": "high"
+    },
+    {
+      "name": "Extra Brut/Doux等香槟甜度等级",
+      "type": "other",
+      "context": "美国市场与法国本土香槟甜度标准的对比，说明理性标准化对品味的压缩",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "673a431643dc3a43875f9fd4",
+  "title": "134-品鉴普洱如何帮我反思理性的局限？"
+}

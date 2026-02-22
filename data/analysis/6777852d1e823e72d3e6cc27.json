@@ -1,0 +1,237 @@
+{
+  "style": {
+    "opening_pattern": "直接提出问题",
+    "structure": "问题→文学分析→哲学延伸→历史对照→自我反思→总结",
+    "tone": "理性客观",
+    "catchphrases": [
+      "对吧",
+      "OK",
+      "我觉得",
+      "你可以说",
+      "这也是为什么",
+      "与此同时",
+      "恰恰是因为",
+      "这是一种",
+      "我们去看",
+      "我想要强调的是"
+    ],
+    "closing_pattern": "开放式提问与总结观点结合",
+    "narrative_techniques": [
+      "类比",
+      "反问",
+      "举例",
+      "对比",
+      "引用文本细节",
+      "自我经验介入"
+    ]
+  },
+  "entities": [
+    {
+      "name": "马蒂尔德小姐（Mathilde de la Mole）",
+      "type": "person",
+      "context": "《红与黑》下卷主角，贵族千金，拥有一切却感到空虚，通过爱上于连来消解存在危机",
+      "importance": "high"
+    },
+    {
+      "name": "司汤达（Stendhal）",
+      "type": "person",
+      "context": "《红与黑》作者，被尼采称为最伟大的现代心理学家",
+      "importance": "high"
+    },
+    {
+      "name": "于连·索雷尔（Julien Sorel）",
+      "type": "person",
+      "context": "《红与黑》男主角，马蒂尔德爱上的对象，因谋杀市长夫人被判死刑",
+      "importance": "high"
+    },
+    {
+      "name": "拉斯柯尔尼科夫（Raskolnikov）",
+      "type": "person",
+      "context": "陀思妥耶夫斯基《罪与罚》男主角，社会边缘人物，与马蒂尔德形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "陀思妥耶夫斯基（Dostoevsky）",
+      "type": "person",
+      "context": "俄国作家，《罪与罚》作者，其笔下的虚无主题与司汤达形成呼应",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采（Nietzsche）",
+      "type": "person",
+      "context": "德国哲学家，提出'Tun ist alles'（行动就是一切），将司汤达称为最伟大的现代心理学家",
+      "importance": "high"
+    },
+    {
+      "name": "海德格尔（Heidegger）",
+      "type": "person",
+      "context": "德国哲学家，《存在与时间》作者，讨论死亡与存在的主题与马蒂尔德的渴望相关",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底（Socrates）",
+      "type": "person",
+      "context": "古希腊哲学家，在《会饮篇》中提出哲学是一种孕育，女人比男人更接近哲学",
+      "importance": "medium"
+    },
+    {
+      "name": "狄奥提玛（Diotima）",
+      "type": "person",
+      "context": "苏格拉底在《会饮篇》中承认的唯一哲学老师，女性，教导苏格拉底关于爱的哲学",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭（Rousseau）",
+      "type": "person",
+      "context": "法国思想家，马蒂尔德阅读其作品后厌恶巴黎现代性，模仿《新爱洛依丝》女主角",
+      "importance": "medium"
+    },
+    {
+      "name": "伏尔泰（Voltaire）",
+      "type": "person",
+      "context": "法国启蒙思想家，马蒂尔德阅读其反叛小说，学习表面虔诚、私下无神论的态度",
+      "importance": "medium"
+    },
+    {
+      "name": "玛格丽特王后（Marguerite de Valois）",
+      "type": "person",
+      "context": "马蒂尔德的祖先，1574年抱着被斩首情夫的头颅亲手埋葬，成为马蒂尔德崇拜的英雄形象",
+      "importance": "high"
+    },
+    {
+      "name": "亨利四世（Henry IV）",
+      "type": "person",
+      "context": "英国国王，玛格丽特王后的情夫的密友",
+      "importance": "low"
+    },
+    {
+      "name": "《红与黑》（Le Rouge et le Noir）",
+      "type": "work",
+      "context": "司汤达的小说，本期播客分析的核心文本，分为上下两卷",
+      "importance": "high"
+    },
+    {
+      "name": "《罪与罚》（Crime and Punishment）",
+      "type": "work",
+      "context": "陀思妥耶夫斯基的小说，与《红与黑》对比讨论虚无主题",
+      "importance": "medium"
+    },
+    {
+      "name": "《存在与时间》（Being and Time）",
+      "type": "work",
+      "context": "海德格尔的哲学著作，讨论死亡与存在危机的主题",
+      "importance": "medium"
+    },
+    {
+      "name": "《会饮篇》（Symposium）",
+      "type": "work",
+      "context": "柏拉图的对话录，苏格拉底在其中讨论爱与哲学作为孕育",
+      "importance": "medium"
+    },
+    {
+      "name": "《新爱洛依丝》（Julie, or the New Heloise）",
+      "type": "work",
+      "context": "卢梭的小说，马蒂尔德模仿其中女主角对爱人的感情",
+      "importance": "medium"
+    },
+    {
+      "name": "存在危机（Existential crisis）",
+      "type": "concept",
+      "context": "马蒂尔德行为的第一动机，因拥有一切而感到的无聊和空虚带来的存在性焦虑",
+      "importance": "high"
+    },
+    {
+      "name": "自我神化（Mythification of the self）",
+      "type": "concept",
+      "context": "马蒂尔德行为的第二动机，通过神话过去和自身来追求意义",
+      "importance": "high"
+    },
+    {
+      "name": "Tun ist alles（行动就是一切）",
+      "type": "concept",
+      "context": "尼采哲学的核心概括，马蒂尔德和于连共有的对于行动的渴望",
+      "importance": "high"
+    },
+    {
+      "name": "现代性危机",
+      "type": "concept",
+      "context": "19-20世纪的核心主题，包括存在危机、自我神化和对行动的极端追求",
+      "importance": "high"
+    },
+    {
+      "name": "BDSM",
+      "type": "concept",
+      "context": "播客中用来类比马蒂尔德在爱情中选择臣服、自我羞辱以创造存在危机的现代现象",
+      "importance": "medium"
+    },
+    {
+      "name": "agency（主体性/能动性）",
+      "type": "concept",
+      "context": "马蒂尔德追求的真正的自主性，通过打破社会模板的行动来实现",
+      "importance": "medium"
+    },
+    {
+      "name": "1789年法国大革命",
+      "type": "event",
+      "context": "于连和西班牙革命派讨论的想要在法国复刻的历史事件",
+      "importance": "medium"
+    },
+    {
+      "name": "1574年神圣联盟战争",
+      "type": "event",
+      "context": "玛格丽特王后的情夫被斩首的年份，马蒂尔德每年穿黑袍悼念的日子",
+      "importance": "high"
+    },
+    {
+      "name": "1830年",
+      "type": "event",
+      "context": "《红与黑》小说设定的时代背景",
+      "importance": "low"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "马蒂尔德生活的城市，她厌恶其现代性的庸俗虚伪",
+      "importance": "medium"
+    },
+    {
+      "name": "西班牙",
+      "type": "place",
+      "context": "与于连聊天的革命派的祖国，该革命派因试图复刻法国大革命被判死刑",
+      "importance": "low"
+    },
+    {
+      "name": "俄罗斯/俄国",
+      "type": "place",
+      "context": "拉斯柯尔尼科夫生活的国家，19世纪社会底层背景",
+      "importance": "low"
+    },
+    {
+      "name": "柏林夜店",
+      "type": "place",
+      "context": "播客中提到的现代例子，年轻人通过激进方式对抗现代社会无聊的场所",
+      "importance": "medium"
+    },
+    {
+      "name": "巴厘岛",
+      "type": "place",
+      "context": "主播自我批评的例子，年轻时以为冲浪、嬉皮士生活是反叛，实则是另一种模板",
+      "importance": "medium"
+    },
+    {
+      "name": "沃尔玛超市",
+      "type": "organization",
+      "context": "播客中用来类比马蒂尔德在舞会上感到的无聊——琳琅满目的麦片选择实为单一",
+      "importance": "low"
+    },
+    {
+      "name": "淘宝",
+      "type": "organization",
+      "context": "播客中提到的现代资本社会例子，无数美拉德风外套无法激起心中涟漪",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6777852d1e823e72d3e6cc27",
+  "title": "158-如何面对拥有一切之后的空虚？（《红与黑》7）"
+}

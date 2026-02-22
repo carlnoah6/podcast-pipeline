@@ -1,0 +1,248 @@
+{
+  "style": {
+    "opening_pattern": "直接介绍主题与议程",
+    "structure": "背景铺垫→人物分析→政策详解→外交展望→总结收尾",
+    "tone": "理性客观中带有个性化评论，兼具学术分析与通俗表达",
+    "catchphrases": [
+      "对吧",
+      "OK",
+      "哇哦",
+      "八九不离十",
+      "龟毛",
+      "屁事不干",
+      "小老弟",
+      "智障和愚蠢的言行",
+      "滑跪道歉",
+      "原地爆炸"
+    ],
+    "closing_pattern": "总结回顾本期要点并预告下期",
+    "narrative_techniques": [
+      "对比（梅尔茨vs默克尔、梅尔茨vs舒尔茨、梅尔茨vs特朗普）",
+      "类比（用英国工党批评布莱尔类比梅尔茨批评默克尔）",
+      "举例（德铁晚点、意大利火车笑话）",
+      "反问",
+      "引用原话"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Friedrich Merz（弗里德里希·梅尔茨）",
+      "type": "person",
+      "context": "德国保守联盟领袖，有望成为下一任德国总理，69岁，曾任BlackRock高管，以自信、直接、不敏感的政治风格著称",
+      "importance": "high"
+    },
+    {
+      "name": "安格拉·默克尔（Angela Merkel）",
+      "type": "person",
+      "context": "德国前总理，CDU成员，与梅尔茨有长期党内权力恩怨，被梅尔茨批评将保守联盟变得不再保守",
+      "importance": "high"
+    },
+    {
+      "name": "Olaf Scholz（奥拉夫·舒尔茨）",
+      "type": "person",
+      "context": "现任德国总理，社民党成员，以谨慎、模棱两可的执政风格著称，支持率大幅下降",
+      "importance": "high"
+    },
+    {
+      "name": "唐纳德·特朗普（Donald Trump）",
+      "type": "person",
+      "context": "美国总统，梅尔茨试图塑造能与其打交道的务实商人形象，欧洲政治中频繁被参照的人物",
+      "importance": "medium"
+    },
+    {
+      "name": "托尼·布莱尔（Tony Blair）",
+      "type": "person",
+      "context": "英国前工党首相，被党内批评让工党过于保守，与梅尔茨对默克尔的批评形成类比",
+      "importance": "medium"
+    },
+    {
+      "name": "埃马纽埃尔·马克龙（Emmanuel Macron）",
+      "type": "person",
+      "context": "法国总统，被评价为有个人魅力但未能有效团结欧洲",
+      "importance": "medium"
+    },
+    {
+      "name": "塔克·卡尔森（Tucker Carlson）",
+      "type": "person",
+      "context": "美国新右翼媒体人，曾称赞莫斯科地铁站比西雅图整洁",
+      "importance": "low"
+    },
+    {
+      "name": "托马斯·杰斐逊（Thomas Jefferson）",
+      "type": "person",
+      "context": "美国国父，创建了美国第一个政党",
+      "importance": "low"
+    },
+    {
+      "name": "贝尼托·墨索里尼（Benito Mussolini）",
+      "type": "person",
+      "context": "意大利法西斯独裁者，'只有墨索里尼能让火车准点'成为经典笑话",
+      "importance": "low"
+    },
+    {
+      "name": "CDU/CSU联盟（基督教民主联盟/基督教社会联盟）",
+      "type": "organization",
+      "context": "德国保守派政党联盟，当前支持率约30%，是德国最强大最成功的政党集团",
+      "importance": "high"
+    },
+    {
+      "name": "社民党（SPD）",
+      "type": "organization",
+      "context": "德国社会民主党，现任执政党，支持率从25%降至15%，是梅尔茨可能的联合执政伙伴之一",
+      "importance": "high"
+    },
+    {
+      "name": "绿党（Die Grünen）",
+      "type": "organization",
+      "context": "德国环保主义政党，支持率约15%，是梅尔茨可能的联合执政伙伴之一",
+      "importance": "high"
+    },
+    {
+      "name": "德国选择党（AfD）",
+      "type": "organization",
+      "context": "德国极右翼政党，支持率可能达20%成为第二大党，但被所有主流党派排斥无法进入政府",
+      "importance": "high"
+    },
+    {
+      "name": "自民党（FDP）",
+      "type": "organization",
+      "context": "支持自由贸易的自由主义政党，2021-2025年三党联盟成员之一",
+      "importance": "medium"
+    },
+    {
+      "name": "BlackRock（贝莱德）",
+      "type": "organization",
+      "context": "全球资产管理公司，梅尔茨曾在此工作，成为左翼批评其资产阶级傀儡的把柄",
+      "importance": "medium"
+    },
+    {
+      "name": "债务刹车（Schuldenbremse/Black Zero）",
+      "type": "concept",
+      "context": "德国宪法中的平衡预算条款，限制政府借贷，被视为改善公共设施的主要障碍",
+      "importance": "high"
+    },
+    {
+      "name": "专制轴心国（Axis of Autocracies）",
+      "type": "concept",
+      "context": "梅尔茨对华外交策略中将俄罗斯和中国归类的术语",
+      "importance": "medium"
+    },
+    {
+      "name": "去风险化（De-risking）",
+      "type": "concept",
+      "context": "梅尔茨对华经济政策核心，强调德国企业应降低对中国市场和供应链的依赖",
+      "importance": "high"
+    },
+    {
+      "name": "Strategiefähigkeit（战略能力）",
+      "type": "concept",
+      "context": "梅尔茨提出的德国外交安全目标，要从沉睡的中等强国转变为领导别人的中等强国",
+      "importance": "medium"
+    },
+    {
+      "name": "Taurus巡航导弹",
+      "type": "other",
+      "context": "德国先进导弹系统，舒尔茨拒绝向乌克兰提供，梅尔茨表示可能提供",
+      "importance": "medium"
+    },
+    {
+      "name": "福岛核灾难",
+      "type": "event",
+      "context": "2011年日本核电站事故，导致默克尔决定德国过早关闭核电站，梅尔茨认为这是一个错误",
+      "importance": "medium"
+    },
+    {
+      "name": "俄乌战争",
+      "type": "event",
+      "context": "2022年爆发的战争，促使舒尔茨设立特别国防预算，也是检验德国欧洲领导力的关键事件",
+      "importance": "high"
+    },
+    {
+      "name": "2025年达沃斯世界经济论坛",
+      "type": "event",
+      "context": "梅尔茨以准总理身份发表演讲，阐述保守联盟执政前100天计划",
+      "importance": "medium"
+    },
+    {
+      "name": "2025年2月23日德国大选",
+      "type": "event",
+      "context": "即将举行的联邦议院选举，决定德国下届政府组成",
+      "importance": "high"
+    },
+    {
+      "name": "2029年德国大选",
+      "type": "event",
+      "context": "下一次大选，AfD计划届时进入政府掌权，是梅尔茨四年执政的关键考验节点",
+      "importance": "medium"
+    },
+    {
+      "name": "慕尼黑安全会议（2023年）",
+      "type": "event",
+      "context": "梅尔茨派出七名男性代表引发女性代表争议的事件发生地",
+      "importance": "low"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "播客核心讨论对象，面临公共设施危机、债务危机和经济衰退的欧洲最大经济体",
+      "importance": "high"
+    },
+    {
+      "name": "瑞士",
+      "type": "place",
+      "context": "被用作对比德国铁路准点率的邻国，同一辆火车进入瑞士就变准点",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "欧洲核心国家，马克龙领导下的法国在团结欧洲方面被评价为失败",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "被频繁作为参照系，其两党制与欧洲多党制形成对比，公共设施也被批评落后",
+      "importance": "medium"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "梅尔茨对华政策焦点，被归为专制轴心国，德国企业被警告降低对华依赖和风险",
+      "importance": "high"
+    },
+    {
+      "name": "俄罗斯",
+      "type": "place",
+      "context": "德国能源曾外包的对象，俄乌战争后德国已摆脱能源依赖，梅尔茨主张更强硬切割",
+      "importance": "high"
+    },
+    {
+      "name": "乌克兰",
+      "type": "place",
+      "context": "梅尔茨承诺比舒尔茨更强硬支持的国家，可能获得Taurus巡航导弹",
+      "importance": "medium"
+    },
+    {
+      "name": "台湾",
+      "type": "place",
+      "context": "梅尔茨警告若爆发战争，西方可能制裁中国，导致德国企业在华投资冲销",
+      "importance": "medium"
+    },
+    {
+      "name": "莫斯科",
+      "type": "place",
+      "context": "塔克·卡尔森称赞其地铁站比西雅图整洁",
+      "importance": "low"
+    },
+    {
+      "name": "西雅图",
+      "type": "place",
+      "context": "美国城市，被用来对比莫斯科地铁站的整洁程度",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67a52cbbd74435e4a3894c30",
+  "title": "179-德国保守联盟代表什么政治立场？"
+}

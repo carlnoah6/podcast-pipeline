@@ -1,0 +1,171 @@
+{
+  "style": {
+    "opening_pattern": "以生活场景引入（做饭像打仗），然后解释个人动机",
+    "structure": "个人经历→原因分析→核心论点（三个层次：底线与自由、吃力讨好与选民判断、行政集中与管理分散）→政治理论升华",
+    "tone": "轻松幽默、理性思辨、带有自嘲和坦诚",
+    "catchphrases": [
+      "对吧",
+      "吃力要讨好",
+      "爱吃不吃，但是来者都是客",
+      "东方暴君",
+      "厨房里的将军",
+      "饭桶",
+      "我不欠我身边任何人",
+      "完全不内耗",
+      "蝗虫过境",
+      "啧啧称奇"
+    ],
+    "closing_pattern": "总结三个核心观点并呼应开头，简洁收尾",
+    "narrative_techniques": [
+      "类比（做饭与民主政治）",
+      "举例（三类食客的具体案例）",
+      "对比（给自己做饭vs给别人做饭）",
+      "引用（托克维尔）",
+      "自嘲（承认放油盐的愧疚感）",
+      "故事化（母亲的故事、德国教授的故事）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "被引用来阐述管理权力分散与行政权力集中的区分，是本期播客最核心的理论来源",
+      "importance": "high"
+    },
+    {
+      "name": "田螺",
+      "type": "person",
+      "context": "美食作家，被作为精致家宴的对照例子，主播表达羡慕其高端饭局",
+      "importance": "medium"
+    },
+    {
+      "name": "涛姐",
+      "type": "person",
+      "context": "《声东击西》播客主播，主播与之聊天时讨论田螺家宴",
+      "importance": "low"
+    },
+    {
+      "name": "陈震",
+      "type": "person",
+      "context": "被主播随口提及，作为承认重油重盐时感到愧疚的参照",
+      "importance": "low"
+    },
+    {
+      "name": "康德式晚宴",
+      "type": "concept",
+      "context": "主播对自己组织的学术聚餐的戏称，暗示哲学系背景",
+      "importance": "medium"
+    },
+    {
+      "name": "个人主义",
+      "type": "concept",
+      "context": "核心讨论概念，主播试图重新定义其与集体主义的关系，批判20世纪中国意识形态对其的污名化",
+      "importance": "high"
+    },
+    {
+      "name": "集体主义",
+      "type": "concept",
+      "context": "与个人主义对照讨论，主播认为两者并非对立",
+      "importance": "high"
+    },
+    {
+      "name": "原子化",
+      "type": "concept",
+      "context": "描述现代社会人际关系疏离的状态，是主播开始组织聚餐的社会背景",
+      "importance": "medium"
+    },
+    {
+      "name": "搭子",
+      "type": "concept",
+      "context": "当代年轻人新型社交方式，被主播在往期播客讨论过",
+      "importance": "low"
+    },
+    {
+      "name": "管理权力分散/行政权力集中",
+      "type": "concept",
+      "context": "本期最核心的政治理论框架，从托克维尔引申而来，用于解释厨房秩序与民主政治的关系",
+      "importance": "high"
+    },
+    {
+      "name": "2024年美国大选",
+      "type": "event",
+      "context": "被用来例证民主党失败的原因——关注选民应该关心什么而非真正关心什么",
+      "importance": "medium"
+    },
+    {
+      "name": "慕尼黑大学",
+      "type": "place",
+      "context": "德国教授求学之地，提及他在此之前曾在餐厅打工",
+      "importance": "low"
+    },
+    {
+      "name": "民主党",
+      "type": "organization",
+      "context": "被批评在2024年大选中因脱离选民真实关切而惨败",
+      "importance": "medium"
+    },
+    {
+      "name": "红油抄手",
+      "type": "other",
+      "context": "主播给大学生做的垫底碳水菜品，用速冻素食水饺制作",
+      "importance": "low"
+    },
+    {
+      "name": "周杰伦葱油饼",
+      "type": "other",
+      "context": "主播给大学生做的另一道垫底菜品，形容像披萨一样",
+      "importance": "low"
+    },
+    {
+      "name": "蚂蚁上树",
+      "type": "other",
+      "context": "主播常做的下饭菜，被描述为酸溜溜、猪肉末和粉条、价格便宜",
+      "importance": "low"
+    },
+    {
+      "name": "口水鸡",
+      "type": "other",
+      "context": "主播给大学生做的肉类菜品之一",
+      "importance": "low"
+    },
+    {
+      "name": "酸汤肥牛",
+      "type": "other",
+      "context": "主播常做的菜品，出现在多类聚餐中",
+      "importance": "low"
+    },
+    {
+      "name": "椒麻牛肉",
+      "type": "other",
+      "context": "主播给大学生做的肉类菜品",
+      "importance": "low"
+    },
+    {
+      "name": "胡萝卜排骨汤",
+      "type": "other",
+      "context": "早期招待美国人的尴尬案例，美国人只喝汤不会啃骨头",
+      "importance": "medium"
+    },
+    {
+      "name": "昆布抹茶冰淇淋",
+      "type": "other",
+      "context": "田螺家宴上的精致甜品，与主播的粗放风格形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "意大利烩饭/蘑菇烩饭",
+      "type": "other",
+      "context": "德国教授承认自己会在其中多加黄油",
+      "importance": "low"
+    },
+    {
+      "name": "巴斯克",
+      "type": "other",
+      "context": "主播提到的烘焙甜品，说明需要大量糖才能达到口感",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67414fab11045e78e5393564",
+  "title": "138-做大锅饭如何帮我反思民主政治?？"
+}

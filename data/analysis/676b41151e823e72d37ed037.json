@@ -1,0 +1,416 @@
+{
+  "style": {
+    "opening_pattern": "直接给出核心答案，以悬念式标题回应引入",
+    "structure": "提出核心论点→历史对比（新古典主义vs浪漫主义）→引入第三种人文主义传统→分析概念连锁反应（天才→品味→良知）→三个层面总结（艺术欣赏关系、艺术流派、政治影响）→结尾回归核心",
+    "tone": "理性思辨、学术严谨、带有批判性反思",
+    "catchphrases": [
+      "对吧",
+      "OK",
+      "我们可以",
+      "我想说的是",
+      "这意味着",
+      "你可以理解为什么",
+      "在我看来",
+      "我们可以说",
+      "拜拜拜拜拜拜"
+    ],
+    "closing_pattern": "引用白璧德名言作结，以音乐推荐收尾",
+    "narrative_techniques": [
+      "历史对比",
+      "概念溯源",
+      "举例论证",
+      "类比延伸",
+      "反问",
+      "层层递进"
+    ]
+  },
+  "entities": [
+    {
+      "name": "白璧德（Irving Babbitt）",
+      "type": "person",
+      "context": "本期播客核心文本来源，美国新人文主义思想家，其文章《Genius and Taste》是讨论基础",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "被认定为18世纪中叶改变天才定义的关键人物，浪漫主义运动的开启者",
+      "importance": "high"
+    },
+    {
+      "name": "伏尔泰",
+      "type": "person",
+      "context": "作为对比案例，代表延续新古典主义天才观的进步思想家",
+      "importance": "medium"
+    },
+    {
+      "name": "爱德华·杨（Edward Young）",
+      "type": "person",
+      "context": "1759年发表《论原创作品》，宣称天才可能不识字，标志天才观念转变",
+      "importance": "medium"
+    },
+    {
+      "name": "莎士比亚",
+      "type": "person",
+      "context": "作为人文主义传统中受现实约束的想象力的典范，与新浪漫主义天才观对比",
+      "importance": "high"
+    },
+    {
+      "name": "荷马",
+      "type": "person",
+      "context": "古希腊诗人，亚里士多德评价其为创造性模仿者，不以个人身份取悦读者",
+      "importance": "high"
+    },
+    {
+      "name": "维吉尔",
+      "type": "person",
+      "context": "古罗马诗人，因自觉无法超越荷马而想烧毁《埃涅阿斯纪》，代表受标准约束的天才态度",
+      "importance": "high"
+    },
+    {
+      "name": "歌德",
+      "type": "person",
+      "context": "德国诗人，表示若早读古希腊诗便不再创作，体现对更高标准的敬畏",
+      "importance": "high"
+    },
+    {
+      "name": "沈周",
+      "type": "person",
+      "context": "明代画家，作为临摹黄公望的典范，代表古典品味标准",
+      "importance": "medium"
+    },
+    {
+      "name": "黄公望",
+      "type": "person",
+      "context": "元末明初画家，《富春山居图》作者，作为高于天才的品味标准存在",
+      "importance": "medium"
+    },
+    {
+      "name": "王羲之",
+      "type": "person",
+      "context": "书法家，作为古典书画临摹的最高典范之一",
+      "importance": "low"
+    },
+    {
+      "name": "施莱格尔",
+      "type": "person",
+      "context": "德国哲学家，1803年主张天才与品味合二为一，反对品味对天才的束缚",
+      "importance": "medium"
+    },
+    {
+      "name": "亚当·斯密",
+      "type": "person",
+      "context": "英国哲学家，《道德情操论》承接了卢梭关于良知的概念",
+      "importance": "medium"
+    },
+    {
+      "name": "赫尔德（Herder）",
+      "type": "person",
+      "context": "德国唯心主义哲学家，将个体天才的自我表达上升到民族精神层面",
+      "importance": "medium"
+    },
+    {
+      "name": "费希特（Fichte）",
+      "type": "person",
+      "context": "德国唯心主义哲学家，与赫尔德共同推动民族精神的神秘化",
+      "importance": "medium"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "作为巴赫音乐的欣赏者案例，说明古典艺术欣赏者与艺术家在更高标准相逢",
+      "importance": "medium"
+    },
+    {
+      "name": "门德尔松（Mendelssohn）",
+      "type": "person",
+      "context": "黑格尔的好友，首次将巴赫《马太受难曲》带给柏林听众",
+      "importance": "low"
+    },
+    {
+      "name": "莫奈",
+      "type": "person",
+      "context": "印象派代表画家，作为19世纪艺术想象力失去标准后的产物",
+      "importance": "medium"
+    },
+    {
+      "name": "马奈",
+      "type": "person",
+      "context": "印象派画家，与莫奈、雷诺阿、塞尚并列提及",
+      "importance": "low"
+    },
+    {
+      "name": "雷诺阿",
+      "type": "person",
+      "context": "印象派画家，与莫奈等人并列",
+      "importance": "low"
+    },
+    {
+      "name": "塞尚",
+      "type": "person",
+      "context": "印象派画家，与莫奈等人并列",
+      "importance": "low"
+    },
+    {
+      "name": "苏珊·桑塔格",
+      "type": "person",
+      "context": "20世纪艺术理论家，《反对阐释》代表现代艺术欣赏者即创造者的观点",
+      "importance": "medium"
+    },
+    {
+      "name": "简·奥斯丁",
+      "type": "person",
+      "context": "小说家，在第9期播客中与张爱玲对比讨论",
+      "importance": "low"
+    },
+    {
+      "name": "张爱玲",
+      "type": "person",
+      "context": "小说家，与简·奥斯丁对比，讨论现代小说中疯子角色的减少",
+      "importance": "low"
+    },
+    {
+      "name": "米开朗基罗",
+      "type": "person",
+      "context": "作为艺术最高标准的象征，与儿童画作被错误等同对比",
+      "importance": "low"
+    },
+    {
+      "name": "贝多芬",
+      "type": "person",
+      "context": "播客结尾音乐推荐对象",
+      "importance": "low"
+    },
+    {
+      "name": "《Genius and Taste》（天才和品味）",
+      "type": "work",
+      "context": "白璧德的文章，本期播客核心文本来源之一",
+      "importance": "high"
+    },
+    {
+      "name": "《文学和美国大学》",
+      "type": "work",
+      "context": "第121期讨论的白璧德著作，本期为续集",
+      "importance": "high"
+    },
+    {
+      "name": "《论原创作品》（Conjectures on Original Composition）",
+      "type": "work",
+      "context": "爱德华·杨1759年著作，宣称天才可能不识字",
+      "importance": "medium"
+    },
+    {
+      "name": "《论科学与艺术》",
+      "type": "work",
+      "context": "卢梭著作，第121期详细解析过",
+      "importance": "medium"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "卢梭著作，第47期讨论过，体现其良知哲学",
+      "importance": "medium"
+    },
+    {
+      "name": "《忏悔录》",
+      "type": "work",
+      "context": "卢梭自传，展现其对良知的重新定义",
+      "importance": "medium"
+    },
+    {
+      "name": "《道德情操论》",
+      "type": "work",
+      "context": "亚当·斯密著作，承接卢梭的良知概念",
+      "importance": "medium"
+    },
+    {
+      "name": "《埃涅阿斯纪》（Aeneid）",
+      "type": "work",
+      "context": "维吉尔的史诗，因自觉不如荷马而想烧毁",
+      "importance": "medium"
+    },
+    {
+      "name": "《伊利亚特》",
+      "type": "work",
+      "context": "荷马史诗，维吉尔试图超越的标准",
+      "importance": "low"
+    },
+    {
+      "name": "《奥德赛》",
+      "type": "work",
+      "context": "荷马史诗，维吉尔试图超越的标准",
+      "importance": "low"
+    },
+    {
+      "name": "《富春山居图》",
+      "type": "work",
+      "context": "黄公望画作，作为古典书画临摹的最高典范",
+      "importance": "medium"
+    },
+    {
+      "name": "《马太受难曲》",
+      "type": "work",
+      "context": "巴赫作品，由门德尔松首次带给柏林听众",
+      "importance": "low"
+    },
+    {
+      "name": "《反对阐释》",
+      "type": "work",
+      "context": "苏珊·桑塔格著作，代表现代艺术理论",
+      "importance": "medium"
+    },
+    {
+      "name": "哈姆雷特",
+      "type": "work",
+      "context": "莎士比亚剧作角色，体现受现实约束的想象力",
+      "importance": "low"
+    },
+    {
+      "name": "李尔王",
+      "type": "work",
+      "context": "莎士比亚剧作角色，体现受现实约束的想象力",
+      "importance": "low"
+    },
+    {
+      "name": "亨利五世",
+      "type": "work",
+      "context": "莎士比亚剧作，其中Falstaff角色被重点分析",
+      "importance": "low"
+    },
+    {
+      "name": "天才（genius）",
+      "type": "concept",
+      "context": "核心讨论概念，经历了从临摹者到自我表达者的历史转变",
+      "importance": "high"
+    },
+    {
+      "name": "品味（taste）",
+      "type": "concept",
+      "context": "与天才紧密关联的概念，从高于天才的标准变为与天才合一",
+      "importance": "high"
+    },
+    {
+      "name": "良知（conscience）",
+      "type": "concept",
+      "context": "18世纪与天才、品味同步转变的概念，从约束兽性变为扩张神性",
+      "importance": "high"
+    },
+    {
+      "name": "人文主义教育",
+      "type": "concept",
+      "context": "播客系列主题，第121期已讨论，本期为续集",
+      "importance": "high"
+    },
+    {
+      "name": "新古典主义",
+      "type": "concept",
+      "context": "16世纪文艺复兴晚期至18世纪中叶的艺术传统，天才=顶尖临摹者",
+      "importance": "high"
+    },
+    {
+      "name": "浪漫主义",
+      "type": "concept",
+      "context": "18世纪中叶兴起的运动，卢梭开启，天才=独一无二的创造者",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙主义",
+      "type": "concept",
+      "context": "法国18世纪思想运动，浪漫主义在其高峰时崛起",
+      "importance": "medium"
+    },
+    {
+      "name": "形式主义",
+      "type": "concept",
+      "context": "新古典主义天才观的核心缺陷，难以区分精气神临摹与机械复印",
+      "importance": "medium"
+    },
+    {
+      "name": "创造性临摹（creative imitation）",
+      "type": "concept",
+      "context": "人文主义传统中的第三种天才观，结合想象力与临摹",
+      "importance": "high"
+    },
+    {
+      "name": "印象主义",
+      "type": "concept",
+      "context": "19世纪主流艺术运动，与天才重新定义为表达密切相关",
+      "importance": "medium"
+    },
+    {
+      "name": "表现主义",
+      "type": "concept",
+      "context": "20世纪艺术运动，纯粹抒发内心情感，忽视现实",
+      "importance": "medium"
+    },
+    {
+      "name": "民族主义/国家主义",
+      "type": "concept",
+      "context": "19世纪政治现象，被认为源于个体天才自我表达上升到民族层面",
+      "importance": "high"
+    },
+    {
+      "name": "民族精神（Volksgeist）",
+      "type": "concept",
+      "context": "德国唯心主义核心概念，民族层面的自我陶醉与神秘化",
+      "importance": "medium"
+    },
+    {
+      "name": "民主政体",
+      "type": "concept",
+      "context": "19世纪兴起的政治形式，与18世纪新概念相互滋养",
+      "importance": "medium"
+    },
+    {
+      "name": "平等主义",
+      "type": "concept",
+      "context": "民主政体的精神基础，与天才、品味、良知的重新定义契合",
+      "importance": "medium"
+    },
+    {
+      "name": "megalomania（自我极端膨胀）",
+      "type": "concept",
+      "context": "现代天才的负面特征，源于想象力失去约束",
+      "importance": "medium"
+    },
+    {
+      "name": "18世纪中叶",
+      "type": "event",
+      "context": "关键历史节点，天才观念发生根本转变的时刻",
+      "importance": "high"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "启蒙主义和浪漫主义的发源地，卢梭、伏尔泰的活动地",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "唯心主义哲学和民族主义思想的发展地，赫尔德、费希特的活动地",
+      "importance": "medium"
+    },
+    {
+      "name": "柏林洪堡大学",
+      "type": "place",
+      "context": "黑格尔听门德尔松演奏巴赫的地点",
+      "importance": "low"
+    },
+    {
+      "name": "吴门画派",
+      "type": "organization",
+      "context": "明代画派，沈周为其创始人",
+      "importance": "low"
+    },
+    {
+      "name": "明四家",
+      "type": "organization",
+      "context": "明代四位最著名画家，沈周为其中之一",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "676b41151e823e72d37ed037",
+  "title": "153-天才在哪个历史节点开始发疯？"
+}

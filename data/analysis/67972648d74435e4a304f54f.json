@@ -1,0 +1,272 @@
+{
+  "style": {
+    "opening_pattern": "以历史背景引入，从卢梭1750年的成名作《论科学与艺术》的创作缘起讲起，通过具体场景（狄德罗入狱、卢梭读报）建立时空感",
+    "structure": "核心观点预告→历史背景铺垫→文本细读分析（三点：自然道德/现代科学/现代艺术）→情节回顾与哲学对照→结论收束",
+    "tone": "理性客观中带有犀利批判，学术性与通俗性平衡，对浪漫主义和启蒙主义保持反讽距离",
+    "catchphrases": [
+      "百无聊赖",
+      "自然道德",
+      "科学主义者",
+      "不带爱恨的情欲",
+      "礼崩乐坏",
+      "布尔乔亚",
+      "任督二脉",
+      "当红炸子鸡",
+      "圣母心",
+      "劣币驱逐良币"
+    ],
+    "closing_pattern": "总结三点讨论内容并预告下期，简洁收尾",
+    "narrative_techniques": [
+      "对比（18世纪vs19世纪、卢梭vs福楼拜、传统道德vs自然道德）",
+      "举例（瘸子手术、农业博览会、歌剧场景）",
+      "反讽（罗多尔夫的'真诚'告白、奥默的科学信仰）",
+      "互文（将小说情节与哲学文本对照）",
+      "场景还原（详细描述关键章节的情境）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "法国启蒙思想家，1750年因《论科学与艺术》成名，提出'越文明越缺德'的批判，是福楼拜的思想先驱",
+      "importance": "high"
+    },
+    {
+      "name": "福楼拜（Gustave Flaubert）",
+      "type": "person",
+      "context": "《包法利夫人》作者，1856年出版小说，被分析为以文学方式重现和反思卢梭哲学",
+      "importance": "high"
+    },
+    {
+      "name": "爱玛·包法利（Emma Bovary）",
+      "type": "person",
+      "context": "小说女主角，崇拜卢梭、沉溺浪漫幻想，其出轨经历体现自然道德的实践与失败",
+      "importance": "high"
+    },
+    {
+      "name": "罗多尔夫（Rodolphe）",
+      "type": "person",
+      "context": "地主、浪荡子，利用卢梭式'自然道德'话术勾引爱玛，代表对卢梭主义的讽刺性挪用",
+      "importance": "high"
+    },
+    {
+      "name": "奥默先生（Homais）",
+      "type": "person",
+      "context": "药剂师、科学主义者，现代医学迷信的代表，推动瘸子手术失败，象征启蒙科学的庸俗化",
+      "importance": "high"
+    },
+    {
+      "name": "莱昂（Léon）",
+      "type": "person",
+      "context": "爱玛的第一个心动对象，后去巴黎学法律，代表小镇青年的厌倦与都市幻想",
+      "importance": "medium"
+    },
+    {
+      "name": "夏尔·包法利（Charles Bovary）",
+      "type": "person",
+      "context": "爱玛的丈夫，失去父权权威的医生，因瘸子手术失败而名声扫地",
+      "importance": "medium"
+    },
+    {
+      "name": "阿贝·布尔尼贤（Abbé Bournisien）",
+      "type": "person",
+      "context": "小镇天主教牧师，与奥默辩论艺术问题，但无力提出卢梭式的深刻批判",
+      "importance": "medium"
+    },
+    {
+      "name": "狄德罗（Denis Diderot）",
+      "type": "person",
+      "context": "启蒙思想家、百科全书主编，卢梭的好友，1750年入狱事件触发卢梭的灵感",
+      "importance": "medium"
+    },
+    {
+      "name": "伏尔泰（Voltaire）",
+      "type": "person",
+      "context": "启蒙主义代表，与卢梭对立，支持科学艺术进步",
+      "importance": "medium"
+    },
+    {
+      "name": "达朗贝尔（d'Alembert）",
+      "type": "person",
+      "context": "百科全书撰稿人，主张在日内瓦建剧院，被卢梭《致达朗贝尔的信》反驳",
+      "importance": "medium"
+    },
+    {
+      "name": "拉加迪（Lagardy）",
+      "type": "person",
+      "context": "19世纪著名男高音，生活放荡，其歌剧表演让爱玛神魂颠倒",
+      "importance": "low"
+    },
+    {
+      "name": "沃尔特·司各特（Walter Scott）",
+      "type": "person",
+      "context": "英国浪漫主义小说家，爱玛年轻时阅读其作品，影响其浪漫幻想",
+      "importance": "low"
+    },
+    {
+      "name": "路易-菲利普（Louis-Philippe）",
+      "type": "person",
+      "context": "'布尔乔亚国王'，1830年革命后即位，代表中产阶级利益的君主",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑（Napoleon）",
+      "type": "person",
+      "context": "法国大革命后称帝又被推翻，说明法国王权的反复",
+      "importance": "low"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "古希腊哲学家，其关于爱美与热爱真理的观点被引用对比现代人的狭隘审美",
+      "importance": "low"
+    },
+    {
+      "name": "西塞罗（Cicero）",
+      "type": "person",
+      "context": "古罗马哲学家，与蒙田、卢梭同属质疑现代医学的哲学传统",
+      "importance": "low"
+    },
+    {
+      "name": "蒙田（Montaigne）",
+      "type": "person",
+      "context": "法国文艺复兴思想家，其怀疑传统延续至卢梭对医学的批判",
+      "importance": "low"
+    },
+    {
+      "name": "陀思妥耶夫斯基（Dostoevsky）",
+      "type": "person",
+      "context": "俄国作家，《罪与罚》中的科学主义者角色被拿来与奥默对比",
+      "importance": "low"
+    },
+    {
+      "name": "《包法利夫人》（Madame Bovary）",
+      "type": "work",
+      "context": "福楼拜1856年出版的小说，本集分析的核心文本，被视为对卢梭哲学的文学回应",
+      "importance": "high"
+    },
+    {
+      "name": "《论科学与艺术》（Discours sur les sciences et les arts）",
+      "type": "work",
+      "context": "卢梭1750年成名作，获第戎学院征文第一名，首次提出文明与道德割裂的命题",
+      "importance": "high"
+    },
+    {
+      "name": "《忏悔录》（Confessions）",
+      "type": "work",
+      "context": "卢梭自传，记载其读到征文题目时'打通任督二脉'的经历",
+      "importance": "medium"
+    },
+    {
+      "name": "《爱弥儿》（Émile）",
+      "type": "work",
+      "context": "卢梭教育哲学著作，第一卷攻击现代医学，认为其剥夺人面对死亡的能力",
+      "importance": "high"
+    },
+    {
+      "name": "《致达朗贝尔的信》（Lettre à d'Alembert）",
+      "type": "work",
+      "context": "卢梭1758年文章，反驳在日内瓦建剧院的提议，质疑剧院对道德的危害",
+      "importance": "high"
+    },
+    {
+      "name": "《百科全书》（Encyclopédie）",
+      "type": "work",
+      "context": "狄德罗主编的启蒙主义巨著，代表科学艺术进步的乐观主义",
+      "importance": "medium"
+    },
+    {
+      "name": "《罪与罚》（Crime and Punishment）",
+      "type": "work",
+      "context": "陀思妥耶夫斯基小说，其中的科学主义者角色与奥默形成互文",
+      "importance": "low"
+    },
+    {
+      "name": "自然道德",
+      "type": "concept",
+      "context": "卢梭提出的基于人性本能和纯洁同情心的道德，对抗传统社会习俗的压迫，但在小说中被罗多尔夫工具化",
+      "importance": "high"
+    },
+    {
+      "name": "传统道德",
+      "type": "concept",
+      "context": "基于社会习俗和宗教规范的道德体系，在小说中已实质崩坏但无人承认",
+      "importance": "high"
+    },
+    {
+      "name": "科学主义",
+      "type": "concept",
+      "context": "对科学的盲目信仰，认为科学理论可以瓦解一切经验空间，奥默是其文学化身",
+      "importance": "high"
+    },
+    {
+      "name": "不带爱恨的情欲",
+      "type": "concept",
+      "context": "罗多尔夫对出轨的态度，情欲与道德完全割裂，被视为现代人的象征",
+      "importance": "high"
+    },
+    {
+      "name": "布尔乔亚（Bourgeois）",
+      "type": "concept",
+      "context": "中产阶级价值观，路易-菲利普被称为'布尔乔亚国王'，代表商业、科学、经济发展的利益",
+      "importance": "medium"
+    },
+    {
+      "name": "浪漫主义",
+      "type": "concept",
+      "context": "继承卢梭对传统道德批评的思潮，但被福楼拜讽刺为道德败坏的借口",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙主义",
+      "type": "concept",
+      "context": "相信科学艺术带来进步和道德纯洁的思潮，以狄德罗、伏尔泰、达朗贝尔为代表",
+      "importance": "high"
+    },
+    {
+      "name": "第戎学院",
+      "type": "organization",
+      "context": "法国学术权威机构，1750年举办'科学和艺术进步是否有助于道德纯洁'的有奖征文",
+      "importance": "medium"
+    },
+    {
+      "name": "永镇（Yonville-l'Abbaye）",
+      "type": "place",
+      "context": "小说发生的虚构小镇，举办农业博览会，代表19世纪法国外省生活",
+      "importance": "medium"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "爱玛和莱昂幻想的大都市，象征浪漫与艺术的生活，与外省小镇形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "日内瓦",
+      "type": "place",
+      "context": "达朗贝尔提议建剧院的城市，卢梭写信反驳，成为艺术道德辩论的地点",
+      "importance": "low"
+    },
+    {
+      "name": "1789年法国大革命",
+      "type": "event",
+      "context": "推翻帝王制的革命，但之后王权反复，到《包法利夫人》时代仍有国王",
+      "importance": "medium"
+    },
+    {
+      "name": "1830年革命",
+      "type": "event",
+      "context": "七月革命，路易- Philippe取代波旁复辟王朝即位",
+      "importance": "low"
+    },
+    {
+      "name": "农业博览会",
+      "type": "event",
+      "context": "小说第八章的场景，罗多尔夫在此勾引爱玛，穿插官僚演讲和牲畜声音，形成荒诞对比",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67972648d74435e4a304f54f",
+  "title": "172-《包法利夫人》如何解剖卢梭哲学？（3）"
+}

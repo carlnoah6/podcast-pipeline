@@ -1,0 +1,148 @@
+{
+  "style": {
+    "opening_pattern": "以免责声明和自我保护声明开场，先降低听众预期并划清责任边界",
+    "structure": "个人观察引入→对比两种身体观（属性vs能力）→三种沉沦分析（他人/过去/未来）→社群故事案例→总结升华",
+    "tone": "轻松口语化但带有哲学思辨性，兼具朋友聊天的亲切感和知识分子的分析深度",
+    "catchphrases": [
+      "00后小表妹",
+      "爆汗",
+      "characteristics和capacities",
+      "skin in the game",
+      "别太把自己当回事",
+      "虚假的沉沦",
+      "打了一场恶仗的勇士",
+      "中二热血",
+      "鸡同鸭讲",
+      "孔雀开屏"
+    ],
+    "closing_pattern": "总结观点并升华——从运动习惯延伸到行动哲学，以告别语结束",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "举例",
+      "个人经历叙事",
+      "对话还原",
+      "反问",
+      "场景描写"
+    ]
+  },
+  "entities": [
+    {
+      "name": "明镜与点点",
+      "type": "person",
+      "context": "播客主播提到的需要支持的栏目人物",
+      "importance": "low"
+    },
+    {
+      "name": "波士顿儿童医院科室主任（75岁老头）",
+      "type": "person",
+      "context": "主播认识的75岁老人，身体素质极好，骑自行车比主播快，用来论证年龄与运动能力的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "猪猪",
+      "type": "person",
+      "context": "主播的河南女生朋友，CrossFit狂热爱好者，能做五个标准引体向上，代表有运动习惯者的身体观",
+      "importance": "medium"
+    },
+    {
+      "name": "杨一生",
+      "type": "person",
+      "context": "主播的母亲，50岁才开始运动，曾长期陷入对过去的浪漫化幻想，现养成规律运动习惯",
+      "importance": "medium"
+    },
+    {
+      "name": "巴勒斯坦女壮士",
+      "type": "person",
+      "context": "主播在瑜伽馆的朋友，在社群冲突事件中飞到老师课上做了11个手倒立以示抗议",
+      "importance": "medium"
+    },
+    {
+      "name": "印度小姐姐",
+      "type": "person",
+      "context": "瑜伽馆老师，主播的朋友，向主播八卦社群冲突事件的后续",
+      "importance": "low"
+    },
+    {
+      "name": "胖胖的基佬",
+      "type": "person",
+      "context": "主播在瑜伽馆的朋友，参与社群维护行动",
+      "importance": "low"
+    },
+    {
+      "name": "新来的瑜伽老师（刻薄白女）",
+      "type": "person",
+      "context": "与主播发生冲突的新老师，要求动作整齐划一，被主播和朋友用社群逻辑反击",
+      "importance": "medium"
+    },
+    {
+      "name": "Bikram瑜伽",
+      "type": "concept",
+      "context": "一种严苛的瑜伽传统，在美国多数瑜伽馆被禁止，主播认为新老师受其影响",
+      "importance": "low"
+    },
+    {
+      "name": "肉毒素瘦腿针",
+      "type": "concept",
+      "context": "主播表妹想打的针，只能维持六个月，主播用以批判属性导向的身体改造观",
+      "importance": "low"
+    },
+    {
+      "name": "四柱俯卧撑",
+      "type": "concept",
+      "context": "瑜伽基础体式，主播选择在此基础上做更高阶的手倒立",
+      "importance": "low"
+    },
+    {
+      "name": "手倒立/下巴倒立",
+      "type": "concept",
+      "context": "高阶瑜伽体式，主播在课上做的进阶练习，引发与新老师的冲突",
+      "importance": "low"
+    },
+    {
+      "name": "弓箭式引体向上",
+      "type": "concept",
+      "context": "更高阶的引体向上变体，猪猪即将掌握的能力目标",
+      "importance": "low"
+    },
+    {
+      "name": "硬拉",
+      "type": "concept",
+      "context": "力量训练动作，主播用来说明能力导向的身体关注",
+      "importance": "low"
+    },
+    {
+      "name": "健腹轮",
+      "type": "concept",
+      "context": "核心训练器械，主播用来说明能力导向的身体关注",
+      "importance": "low"
+    },
+    {
+      "name": "慢起倒立",
+      "type": "concept",
+      "context": "主播提到的倒立训练方式，受饮食影响时做起来更吃力",
+      "importance": "low"
+    },
+    {
+      "name": "河南烩面",
+      "type": "other",
+      "context": "主播胡吃海喝的例子，说明饮食放纵对运动表现的影响",
+      "importance": "low"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "00后小表妹成长的地方，主播用以说明容貌焦虑的社会环境背景",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "主播生活十几年的地方，用以对比亚洲人与白人黑人女性的腿毛差异",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67455ec28d1233fb0d1e55bd",
+  "title": "139-锻炼习惯会瓦解哪些虚假的沉沦？"
+}

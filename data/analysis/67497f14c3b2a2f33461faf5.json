@@ -1,0 +1,267 @@
+{
+  "style": {
+    "opening_pattern": "以概念辨析引入，先区分特朗普、万斯与更激进的新右翼革命派三者的关系，再提出核心问题",
+    "structure": "概念界定→历史背景（智库运作机制）→具体分析（2025计划内容）→案例深入（教育改革）→外交政策→总结澄清",
+    "tone": "理性客观、分析性强，带有学术讲解色彩，偶尔穿插口语化表达",
+    "catchphrases": [
+      "第二次美国革命",
+      "烧毁/摧毁现存体制",
+      "觉醒病毒",
+      "用脚投票",
+      "进攻型现实主义",
+      "国师",
+      "一言堂",
+      "睡在一个被窝里沆瀣一气",
+      "圣母小雪花白左",
+      "身在曹营心在汉"
+    ],
+    "closing_pattern": "总结观点并澄清常见误解，以疲惫的口语化告别结束",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "举例",
+      "反问",
+      "历史对照",
+      "概念辨析"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "与前副总统万斯及更激进的新右翼革命派区分开来，对新右翼2025计划保持距离",
+      "importance": "high"
+    },
+    {
+      "name": "万斯",
+      "type": "person",
+      "context": "特朗普的副手，比特朗普更接近新右翼革命派，为2025计划撰写序言",
+      "importance": "high"
+    },
+    {
+      "name": "Kevin Roberts",
+      "type": "person",
+      "context": "传统基金会董事长，2025计划的主要作者，提出'第二次美国革命'概念",
+      "importance": "high"
+    },
+    {
+      "name": "Dick Cheney",
+      "type": "person",
+      "context": "代表被新右翼挤出共和党的建制派新保守主义势力",
+      "importance": "medium"
+    },
+    {
+      "name": "Liz Cheney",
+      "type": "person",
+      "context": "与父亲Dick Cheney一同代表共和党建制派，被民主党2024年大选吸收",
+      "importance": "medium"
+    },
+    {
+      "name": "比尔·克林顿",
+      "type": "person",
+      "context": "1992年DLC智库推出的总统候选人，代表新民主党成功崛起的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "Russ Vought",
+      "type": "person",
+      "context": "2025计划中管理预算办公室章节的作者，被特朗普任命为OMB负责人",
+      "importance": "medium"
+    },
+    {
+      "name": "Tucker Carlson",
+      "type": "person",
+      "context": "新右翼媒体人，曾赴莫斯科歌颂俄罗斯治安，体现新右翼'既爱国又恨国'的矛盾",
+      "importance": "medium"
+    },
+    {
+      "name": "汉密尔顿",
+      "type": "person",
+      "context": "被美国国父，被Kevin Roberts引用作为第一次美国革命后重建机构的典范",
+      "importance": "low"
+    },
+    {
+      "name": "米尔斯海默",
+      "type": "person",
+      "context": "芝加哥大学国际关系教授，进攻型现实主义理论代表，其理论被主播认为是新右翼外交政策的真正基础",
+      "importance": "high"
+    },
+    {
+      "name": "Project 2025/2025计划",
+      "type": "work",
+      "context": "传统基金会2022年发表的900页政策报告，主张'第二次美国革命'和摧毁现存体制",
+      "importance": "high"
+    },
+    {
+      "name": "《大国政治的悲剧》",
+      "type": "work",
+      "context": "米尔斯海默的代表作，阐述进攻型现实主义国际关系理论",
+      "importance": "medium"
+    },
+    {
+      "name": "Mandate",
+      "type": "work",
+      "context": "里根时期传统基金会提供的政策报告，被里根内阁广泛采纳",
+      "importance": "low"
+    },
+    {
+      "name": "Heritage Foundation/传统基金会",
+      "type": "organization",
+      "context": "共和党党内智库，发表2025计划，试图重塑共和党方向",
+      "importance": "high"
+    },
+    {
+      "name": "Brookings Institution",
+      "type": "organization",
+      "context": "华盛顿最大的研究型智库之一，聚集左派建制派、民主党建制派",
+      "importance": "medium"
+    },
+    {
+      "name": "American Enterprise Institute (AEI)",
+      "type": "organization",
+      "context": "华盛顿研究型智库，聚集右翼建制派",
+      "importance": "medium"
+    },
+    {
+      "name": "RAND Corporation/兰德公司",
+      "type": "organization",
+      "context": "从政府承接课题进行研究的研究型智库",
+      "importance": "low"
+    },
+    {
+      "name": "DLC (Democratic Leadership Council)",
+      "type": "organization",
+      "context": "民主党党内智库，1980-90年代推动新民主党崛起，模式被传统基金会效仿",
+      "importance": "high"
+    },
+    {
+      "name": "哈佛大学",
+      "type": "organization",
+      "context": "被新右翼作为进步左翼思想温床的典型批判对象，每年接受大量政府资助",
+      "importance": "medium"
+    },
+    {
+      "name": "布朗大学",
+      "type": "organization",
+      "context": "被提及40%本科生自我认定性别流动，作为进步教育洗脑的例证",
+      "importance": "low"
+    },
+    {
+      "name": "五角大楼",
+      "type": "organization",
+      "context": "被新右翼认为需要进行彻底改革的军事机构",
+      "importance": "medium"
+    },
+    {
+      "name": "联邦调查局",
+      "type": "organization",
+      "context": "被新右翼认为已被武器化、两次迫害前总统的政府机构",
+      "importance": "low"
+    },
+    {
+      "name": "纽约时报",
+      "type": "organization",
+      "context": "被Kevin Roberts称为'骗子巢穴'的媒体代表",
+      "importance": "low"
+    },
+    {
+      "name": "第二次美国革命",
+      "type": "concept",
+      "context": "新右翼革命派的自我定位，主张通过法律允许的方式重建而非暴力推翻美国机构",
+      "importance": "high"
+    },
+    {
+      "name": "进攻型现实主义",
+      "type": "concept",
+      "context": "主播认为新右翼外交政策的真正理论基础，区别于孤立主义",
+      "importance": "high"
+    },
+    {
+      "name": "孤立主义",
+      "type": "concept",
+      "context": "常被误认为新右翼外交政策的标签，主播对此进行澄清",
+      "importance": "medium"
+    },
+    {
+      "name": "新保守主义",
+      "type": "concept",
+      "context": "冷战以来统治美国外交政策的理念，被新右翼完全抛弃",
+      "importance": "medium"
+    },
+    {
+      "name": "联邦制",
+      "type": "concept",
+      "context": "新右翼主张将教育权回归各州的核心制度依据",
+      "importance": "medium"
+    },
+    {
+      "name": "觉醒病毒",
+      "type": "concept",
+      "context": "新右翼对进步意识形态的贬称，认为其侵扰了教育部等机构",
+      "importance": "medium"
+    },
+    {
+      "name": "DEI",
+      "type": "concept",
+      "context": "多元、公平、包容政策，被新右翼视为有害无益的研究领域",
+      "importance": "medium"
+    },
+    {
+      "name": "平权政策/affirmative action",
+      "type": "concept",
+      "context": "哈佛女教师用以反讽的例子：若真在乎思想多元化，应为保守学生提供平权",
+      "importance": "medium"
+    },
+    {
+      "name": "美国教育部",
+      "type": "organization",
+      "context": "新右翼主张废除的联邦部门，认为其是教育问题的来源并侵犯联邦制",
+      "importance": "high"
+    },
+    {
+      "name": "管理和预算办公室/OMB",
+      "type": "organization",
+      "context": "2025计划中有专门章节，其作者Russ Vought被特朗普任命接管该机构",
+      "importance": "medium"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "新右翼外交政策集中军事注意力的主要对象，被视为美国霸权的潜在挑战者",
+      "importance": "high"
+    },
+    {
+      "name": "俄罗斯/莫斯科",
+      "type": "place",
+      "context": "Tucker Carlson前往歌颂治安，体现新右翼对美国的矛盾态度",
+      "importance": "low"
+    },
+    {
+      "name": "欧洲",
+      "type": "place",
+      "context": "新右翼主张停止干涉、让欧洲自己保卫自己的地区",
+      "importance": "medium"
+    },
+    {
+      "name": "中东",
+      "type": "place",
+      "context": "新右翼主张撤出资源的战场之一",
+      "importance": "low"
+    },
+    {
+      "name": "乌克兰",
+      "type": "place",
+      "context": "被提及作为新右翼主张听天由命的例子",
+      "importance": "low"
+    },
+    {
+      "name": "西雅图",
+      "type": "place",
+      "context": "被Tucker Carlson用来与莫斯科治安对比的美国城市",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67497f14c3b2a2f33461faf5",
+  "title": "141-美国新右翼革命派为何想要烧毁现存体制？"
+}

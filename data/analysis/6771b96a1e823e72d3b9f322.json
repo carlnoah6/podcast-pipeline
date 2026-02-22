@@ -1,0 +1,117 @@
+{
+  "style": {
+    "opening_pattern": "以日常经验引入（浑身疼痛的HIIT训练经历），建立个人叙事与哲学主题的连接",
+    "structure": "个人经历→症状描述→康德式分析→对比转折→亚里士多德式分析→实践总结→价值升华",
+    "tone": "轻松幽默中带有严肃思考，口语化表达与哲学深度并存，自嘲式分享（如'柏林夜店纵欲过度'）",
+    "catchphrases": [
+      "对吧",
+      "在我心中",
+      "咬牙切齿",
+      "青筋暴露",
+      "一瘸一拐",
+      "钢铁般的意志",
+      "世界可以毁灭但是我的意志必须要执行他的正义",
+      "咚咚咚的敲两下",
+      "力竭",
+      "延迟性肌肉酸痛"
+    ],
+    "closing_pattern": "总结两种方式的平等价值，开放式邀请听众选择自己的方式，呼应开头的行动立场",
+    "narrative_techniques": [
+      "类比（增肌=道德追求、踹门vs敲门）",
+      "对比（康德vs亚里士多德、意志力vs习惯、痛苦vs可持续）",
+      "举例（具体训练动作、心率区间、个人数据）",
+      "反问",
+      "身体隐喻（肉体散架、僵尸、尸体）",
+      "自我暴露（年度运动数据、具体疼痛感受）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "康德（Immanuel Kant）",
+      "type": "person",
+      "context": "作为现代道德哲学的代表，其'道德形而上学'中的意志论被用来比喻高强度、突破极限的增肌方式",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德（Aristotle）",
+      "type": "person",
+      "context": "作为古代道德哲学的代表，其'尼各马可伦理学'中的习惯论被用来比喻日常化、可持续的增肌方式",
+      "importance": "high"
+    },
+    {
+      "name": "《尼各马可伦理学》",
+      "type": "work",
+      "context": "亚里士多德的伦理学著作，被引用来说明古典道德论强调日常习惯而非极端情境",
+      "importance": "medium"
+    },
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "被提及为古典道德论的代表，强调日常行为中的美德践行",
+      "importance": "low"
+    },
+    {
+      "name": "延迟性肌肉酸痛（DOMS）",
+      "type": "concept",
+      "context": "被定义为康德式增肌的核心症状，现代科学无法完全解释其机制，但被视为高强度训练的标志性结果",
+      "importance": "high"
+    },
+    {
+      "name": "HIIT（高强度间歇训练）",
+      "type": "concept",
+      "context": "作者亲身体验的训练方式，作为康德式增肌的具体例子，导致第二天严重肌肉酸痛",
+      "importance": "medium"
+    },
+    {
+      "name": "意志力（will）",
+      "type": "concept",
+      "context": "康德道德哲学和康德式增肌的核心关键词，强调用个人意志压倒身体限制",
+      "importance": "high"
+    },
+    {
+      "name": "习惯（habituation）",
+      "type": "concept",
+      "context": "亚里士多德伦理学和亚里士多德式增肌的核心关键词，强调通过重复建立可持续的实践",
+      "importance": "high"
+    },
+    {
+      "name": "心率区间2-3/3-4",
+      "type": "concept",
+      "context": "用于区分两种增肌方式的强度指标，亚里士多德式保持在有氧-无氧交界，康德式达到接近极限状态",
+      "importance": "medium"
+    },
+    {
+      "name": "自重训练",
+      "type": "concept",
+      "context": "被认为更适合亚里士多德式增肌，因为难以像举铁那样突破身体极限",
+      "importance": "medium"
+    },
+    {
+      "name": "马拉松训练",
+      "type": "concept",
+      "context": "作为亚里士多德式增肌的类比，强调控制心率在特定区间逐步提升速度",
+      "importance": "medium"
+    },
+    {
+      "name": "猫式运动和狗式运动",
+      "type": "concept",
+      "context": "作者在第47期提出的另一套运动分类法，本期提出康德/亚里士多德式作为新的划分维度",
+      "importance": "low"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "作者的健身伙伴，一起进行HIIT训练的对象",
+      "importance": "low"
+    },
+    {
+      "name": "柏林夜店",
+      "type": "place",
+      "context": "被用作夸张比喻形容肌肉酸痛的程度",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6771b96a1e823e72d3b9f322",
+  "title": "156-康德和亚里士多德分别会如何增肌"
+}

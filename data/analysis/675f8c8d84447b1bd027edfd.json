@@ -1,0 +1,116 @@
+{
+  "style": {
+    "opening_pattern": "以日常观察引入，通过对比'力量'与'灵活度/稳定性'在健身文化中的关注度差异，直接提出核心论点",
+    "structure": "概念对比引入→问题阐述（代偿与受伤）→科学机制解释（胶原蛋白、反射环等）→类比论证（汽车、猫）→实用训练讨论→哲学升华（面对混乱与衰老）→商业赞助",
+    "tone": "理性客观且亲切，兼具科学严谨性与个人叙事性，使用大量类比和具象化解释降低专业门槛",
+    "catchphrases": [
+      "肌肉代偿",
+      "对吧？",
+      "巴勒斯坦女壮士",
+      "什么意思？",
+      "我想说的是",
+      "比如说",
+      "灵活度和稳定性",
+      "一具健康的肉体",
+      "扛大旗",
+      "病急乱投医"
+    ],
+    "closing_pattern": "总结观点并升华主题，将身体机能训练上升到面对人生混乱、保持独立尊严的哲学层面，并回归商业感谢",
+    "narrative_techniques": [
+      "类比（汽车发动机与底盘、猫的动态平衡）",
+      "个人经历与对话（与巴勒斯坦女壮士、Katy的交流）",
+      "科学原理解释（胶原蛋白类型、肌节增长、Alpha Gamma反射环）",
+      "反问与设问",
+      "对比（灵活者与僵硬者、中国式训练与西式训练）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Katy Breyer",
+      "type": "person",
+      "context": "主播聘请的英国柔术表演者（contortionist）教练，强调深层肌肉稳定性训练而非单纯追求动作难度",
+      "importance": "high"
+    },
+    {
+      "name": "巴勒斯坦女壮士",
+      "type": "person",
+      "context": "主播在瑜伽课认识的朋友，手臂粗壮、肩背力量极强，与主播讨论肌肉代偿问题",
+      "importance": "high"
+    },
+    {
+      "name": "收音机",
+      "type": "person",
+      "context": "评论区询问颈肌无力如何防止颈椎代偿的网友",
+      "importance": "medium"
+    },
+    {
+      "name": "MoveFree益节",
+      "type": "organization",
+      "context": "本期播客赞助商，主打氨糖软骨素补剂，用于修复软骨、维护关节健康",
+      "importance": "high"
+    },
+    {
+      "name": "Schiff",
+      "type": "organization",
+      "context": "MoveFree益节的母品牌，拥有80多年历史",
+      "importance": "medium"
+    },
+    {
+      "name": "肌肉代偿",
+      "type": "concept",
+      "context": "主播讨论的核心问题之一，指身体在完成动作时过度依赖大肌群而非目标肌群，导致受伤或酸痛",
+      "importance": "high"
+    },
+    {
+      "name": "本体感受",
+      "type": "concept",
+      "context": "Proprioception，指身体感知自身在空间中的位置和运动的能力，是稳定性的核心评判标准",
+      "importance": "high"
+    },
+    {
+      "name": "Alpha Gamma反射环",
+      "type": "concept",
+      "context": "肌肉与脊椎之间的自动反射机制，拉伸时肌肉向脊椎发射信号导致肌肉收缩，长期训练可降低其敏感度",
+      "importance": "medium"
+    },
+    {
+      "name": "氨糖（Glucosamine）",
+      "type": "concept",
+      "context": "关节润滑剂，存在于体内但随年龄流失，可帮助修复软骨，是MoveFree产品的主要成分",
+      "importance": "high"
+    },
+    {
+      "name": "胶原蛋白",
+      "type": "concept",
+      "context": "构成肌腱和韧带的主要成分，分为坚硬的一型和富有弹性的三型，比例决定身体灵活度",
+      "importance": "medium"
+    },
+    {
+      "name": "肌节（Sarcomeres）",
+      "type": "concept",
+      "context": "肌肉纤维的基本收缩单位，由肌动蛋白和肌球蛋白构成，长期拉伸可增加其数量从而增加肌肉长度",
+      "importance": "medium"
+    },
+    {
+      "name": "绿标瓶",
+      "type": "other",
+      "context": "MoveFree的基础款产品，含氨糖软骨素，适合首次使用或基础修复",
+      "importance": "medium"
+    },
+    {
+      "name": "女士七合一多元氨糖",
+      "type": "other",
+      "context": "MoveFree的粉瓶产品，除氨糖外添加钙、维生素D、A、C、E等，针对职场女性",
+      "importance": "medium"
+    },
+    {
+      "name": "中国式马戏团训练",
+      "type": "event",
+      "context": "被描述为极端严苛、容易导致受伤的训练方式，Katy Breyer16岁时在中国接受过此类训练并背部受伤",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "675f8c8d84447b1bd027edfd",
+  "title": "148-一具健康的肉体除了力量为何还需要灵活和平衡？"
+}

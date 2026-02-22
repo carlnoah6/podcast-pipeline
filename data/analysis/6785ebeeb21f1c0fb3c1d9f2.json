@@ -1,0 +1,302 @@
+{
+  "style": {
+    "opening_pattern": "以系列承继引入，直接点明新主题——从《红与黑》过渡到福楼拜，建立文学史脉络",
+    "structure": "历史背景→作家比较→核心概念界定（'微微的戏谑'）→文本细读（三种幻想逐层分析）→人物对比（爱玛vs马蒂尔德）→总结",
+    "tone": "理性客观中带有机智锋芒，学术性与口语化平衡，偶尔带讽刺幽默",
+    "catchphrases": [
+      "微微的戏谑",
+      "中产阶级小市民",
+      "社交媒体",
+      "幻想",
+      "平庸",
+      "无聊",
+      "打破规则",
+      "cosplay贵族",
+      "搞抽象",
+      "OK"
+    ],
+    "closing_pattern": "总结三种幻想并回扣当代，以教育缺失的深层原因收束，预告下期",
+    "narrative_techniques": [
+      "类比（小说=19世纪社交媒体）",
+      "对比（爱玛vs包法利先生，爱玛vs马蒂尔德小姐）",
+      "举例（狗的名字嘉莉、侯爵舞会细节）",
+      "反问",
+      "引用文本细读"
+    ]
+  },
+  "entities": [
+    {
+      "name": "福楼拜（Gustave Flaubert）",
+      "type": "person",
+      "context": "《包法利夫人》的作者，被主播视为斯汤达的接班人，以'微微的戏谑'和精确笔触著称",
+      "importance": "high"
+    },
+    {
+      "name": "斯汤达（Stendhal）",
+      "type": "person",
+      "context": "《红与黑》作者，与福楼拜形成对比，两人都以谨慎笔触和戏谑态度观察社会",
+      "importance": "high"
+    },
+    {
+      "name": "爱玛·包法利（Emma Bovary）",
+      "type": "person",
+      "context": "《包法利夫人》女主角，农场主女儿，沉迷于三种幻想的中产阶级家庭主妇",
+      "importance": "high"
+    },
+    {
+      "name": "包法利先生（Charles Bovary）",
+      "type": "person",
+      "context": "爱玛的丈夫，郊区医生，代表满足于平庸生活的典型中产阶级小市民",
+      "importance": "high"
+    },
+    {
+      "name": "马蒂尔德小姐（Mathilde de la Mole）",
+      "type": "person",
+      "context": "《红与黑》中的贵族女性，与爱玛形成核心对比：贵族的存在主义危机vs中产阶级的琐碎幻想",
+      "importance": "high"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "19世纪上半叶欧洲小说的核心问题，福楼拜的作品终于摆脱了这一阴影",
+      "importance": "medium"
+    },
+    {
+      "name": "伊拉斯谟（Desiderius Erasmus）",
+      "type": "person",
+      "context": "意大利人文主义思想家，《愚人颂》作者，代表'微微的戏谑'的古代传统",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "18世纪哲学家，写出畅销言情小说《新爱洛伊丝》，主张小说取代戏剧成为中产阶级娱乐",
+      "importance": "medium"
+    },
+    {
+      "name": "雨果（Victor Hugo）",
+      "type": "person",
+      "context": "浪漫主义作家，《巴黎圣母院》作者，其作品中吉普赛女郎的山羊名字'嘉莉'被爱玛用于自己的狗",
+      "importance": "medium"
+    },
+    {
+      "name": "陀思妥耶夫斯基（Fyodor Dostoevsky）",
+      "type": "person",
+      "context": "与雨果、托尔斯泰等并列，作品涉及拿破仑崇拜，笔触如瀑布般心潮澎湃",
+      "importance": "low"
+    },
+    {
+      "name": "托尔斯泰（Leo Tolstoy）",
+      "type": "person",
+      "context": "与雨果、陀思妥耶夫斯基等并列，作品涉及拿破仑崇拜",
+      "importance": "low"
+    },
+    {
+      "name": "大仲马（Alexandre Dumas）",
+      "type": "person",
+      "context": "《基督山伯爵》作者，其作品与《巴黎圣母院》《红与黑》共享深夜偷情的浪漫剧情",
+      "importance": "low"
+    },
+    {
+      "name": "阿贝·普雷沃（Abbé Prévost）",
+      "type": "person",
+      "context": "《曼侬·莱斯科》作者，该小说在19世纪非常受欢迎，影响了一代人的爱情想象",
+      "importance": "low"
+    },
+    {
+      "name": "简·奥斯丁（Jane Austen）",
+      "type": "person",
+      "context": "英国小说家，其笔下女性角色与法国小说形成对比：缺乏父亲教育但有道德判断力",
+      "importance": "low"
+    },
+    {
+      "name": "达朗贝尔（Jean le Rond d'Alembert）",
+      "type": "person",
+      "context": "与卢梭讨论戏剧问题的哲学家",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德（Aristotle）",
+      "type": "person",
+      "context": "其'Orthos Logos'（中庸之道）被用来形容福楼拜的态度",
+      "importance": "low"
+    },
+    {
+      "name": "金·卡戴珊（Kim Kardashian）",
+      "type": "person",
+      "context": "当代真人秀明星，被类比为爱玛阅读的时装杂志中的巴黎名媛，代表中产阶级的上层幻想对象",
+      "importance": "low"
+    },
+    {
+      "name": "玛格丽特王后（Margaret of Valois/玛戈王后）",
+      "type": "person",
+      "context": "马蒂尔德小姐的祖先，其'丰功伟业、国破家亡'被马蒂尔德幻想以消解无聊",
+      "importance": "low"
+    },
+    {
+      "name": "《包法利夫人》（Madame Bovary）",
+      "type": "work",
+      "context": "福楼拜1856年的小说，本集分析对象，分为三部分，第一部分聚焦爱玛的三种幻想",
+      "importance": "high"
+    },
+    {
+      "name": "《红与黑》（Le Rouge et le Noir）",
+      "type": "work",
+      "context": "斯汤达1830年的小说，刚结束讲解的系列，与《包法利夫人》形成核心对照",
+      "importance": "high"
+    },
+    {
+      "name": "《愚人颂》（In Praise of Folly / Stultitiae Laus）",
+      "type": "work",
+      "context": "伊拉斯谟的著作，代表'微微的戏谑'的古代人文主义传统",
+      "importance": "medium"
+    },
+    {
+      "name": "《巴黎圣母院》（Notre-Dame de Paris）",
+      "type": "work",
+      "context": "雨果1831年的小说，其中吉普赛女郎艾斯梅拉达的山羊'嘉莉'被爱玛用作狗名",
+      "importance": "medium"
+    },
+    {
+      "name": "《基督山伯爵》（The Count of Monte Cristo）",
+      "type": "work",
+      "context": "大仲马1844年的小说，与《巴黎圣母院》《红与黑》共享深夜浪漫会面的剧情模式",
+      "importance": "low"
+    },
+    {
+      "name": "《曼侬·莱斯科》（Manon Lescaut）",
+      "type": "work",
+      "context": "1731年小说，深受19世纪读者喜爱，《红与黑》中马蒂尔德小姐喜欢的读物",
+      "importance": "low"
+    },
+    {
+      "name": "《新爱洛伊丝》（Julie, or the New Heloise）",
+      "type": "work",
+      "context": "卢梭的畅销言情小说，18世纪最畅销的爱情小说之一",
+      "importance": "low"
+    },
+    {
+      "name": "社交媒体的幻想/小说的幻想",
+      "type": "concept",
+      "context": "爱玛的第一种幻想，将19世纪的小说类比为21世纪的社交媒体，都是虚拟世界的幻境",
+      "importance": "high"
+    },
+    {
+      "name": "上层阶级/贵族生活的幻想",
+      "type": "concept",
+      "context": "爱玛的第二种幻想，通过侯爵舞会和时装杂志构建的对巴黎上流社会的不切实际向往",
+      "importance": "high"
+    },
+    {
+      "name": "打破规则的幻想/不循规蹈矩的幻想",
+      "type": "concept",
+      "context": "爱玛的第三种幻想，渴望在中产阶级按部就班生活中寻找刺激和变化，区别于马蒂尔德的生死极端",
+      "importance": "high"
+    },
+    {
+      "name": "微微的戏谑",
+      "type": "concept",
+      "context": "主播提出的核心概念，介于道德主义狂热与虚无主义戏谑之间的黄金平衡，福楼拜与斯汤达的共同态度",
+      "importance": "high"
+    },
+    {
+      "name": "中产阶级/小市民（bourgeoisie/petite bourgeoisie）",
+      "type": "concept",
+      "context": "福楼拜小说的核心关注对象，区别于19世纪上半叶的拿破仑主题，更加琐碎平庸",
+      "importance": "high"
+    },
+    {
+      "name": "Orthos Logos（中庸之道）",
+      "type": "concept",
+      "context": "亚里士多德的术语，被用来形容'微微的戏谑'是一种中间状态",
+      "importance": "medium"
+    },
+    {
+      "name": "存在主义危机/百无聊赖",
+      "type": "concept",
+      "context": "马蒂尔德小姐作为贵族的体验，与爱玛的小市民空虚形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑问题",
+      "type": "concept",
+      "context": "19世纪上半叶欧洲小说的核心主题，涉及拿破仑称帝、滑铁卢、王朝复辟等对一代人的影响",
+      "importance": "medium"
+    },
+    {
+      "name": "道德主义",
+      "type": "concept",
+      "context": "现代人常见的两种态度之一，表现为义愤填膺的愤怒或热泪盈眶的感动",
+      "importance": "low"
+    },
+    {
+      "name": "虚无主义",
+      "type": "concept",
+      "context": "彻头彻尾的戏谑导致的现代态度，消解一切伟大",
+      "importance": "low"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "19世纪上半叶小说的历史背景，拿破仑时代的起点",
+      "importance": "medium"
+    },
+    {
+      "name": "滑铁卢战役（1815年）",
+      "type": "event",
+      "context": "拿破仑帝国的终结，影响19世纪上半叶欧洲人的集体记忆",
+      "importance": "low"
+    },
+    {
+      "name": "七月革命（1830年）",
+      "type": "event",
+      "context": "波旁王朝复辟后的重要政治事件，构成'拿破仑问题'的历史背景",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "《包法利夫人》的故事发生地，19世纪中叶终于走出大革命和拿破仑记忆的社会",
+      "importance": "high"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "爱玛通过时装杂志幻想的城市，代表上流社会和五光十色的生活",
+      "importance": "medium"
+    },
+    {
+      "name": "诺曼底/法国乡村",
+      "type": "place",
+      "context": "爱玛实际生活的郊区环境，她身体所在但心灵拒绝停留的地方",
+      "importance": "medium"
+    },
+    {
+      "name": "巴厘岛",
+      "type": "place",
+      "context": "主播类比爱玛渴望的'打破规则'的现代场景：冲浪邂逅帅哥",
+      "importance": "low"
+    },
+    {
+      "name": "云南",
+      "type": "place",
+      "context": "主播类比爱玛渴望的'打破规则'的现代场景：青石板街抽烟喝酒",
+      "importance": "low"
+    },
+    {
+      "name": "教会学校",
+      "type": "organization",
+      "context": "爱玛接受失败教育的地方，只给予浪漫感动而缺乏纪律和道德教育",
+      "importance": "medium"
+    },
+    {
+      "name": "波旁王朝",
+      "type": "organization",
+      "context": "法国历史上的王朝，1830年七月革命后复辟",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6785ebeeb21f1c0fb3c1d9f2",
+  "title": "165-中产阶级为何喜欢沉迷于不切实际的幻想？《包法利夫人》1"
+}

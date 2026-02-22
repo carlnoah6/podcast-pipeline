@@ -1,0 +1,182 @@
+{
+  "style": {
+    "opening_pattern": "以片头曲音乐细节引入，详细讲述柴可夫斯基《胡桃夹子》的演奏背景、改编版本及演奏技巧，随后转入普鲁塔克文本讨论",
+    "structure": "音乐介绍→主题引入（如何面对厚颜无耻的烦人精）→核心概念阐释（Dusopia）→文本细读（普鲁塔克的温柔与犀利）→古今对比（古代vs现代道德教会）→结尾感悟",
+    "tone": "理性客观中蕴含深刻共情，对性格软弱者充满温柔关怀，同时保持哲学分析的犀利与深刻，既有学术严谨性又有个人化表达",
+    "catchphrases": [
+      "对吧",
+      "他说",
+      "普鲁塔克说",
+      "厚颜无耻的烦人精",
+      "整顿职场",
+      "我觉得",
+      "杂草",
+      "温柔",
+      "尴尬",
+      "Dusopia"
+    ],
+    "closing_pattern": "以音乐献词结束（《勃拉姆斯》），并预告下期再见",
+    "narrative_techniques": [
+      "类比（农场杂草比喻敏感心灵）",
+      "举例（敬酒文化、鸿门宴、色诺芬尼拒赌）",
+      "对比（性格强硬者vs软弱者、古代vs现代道德教会）",
+      "引用（普鲁塔克原文、柏拉图）",
+      "第一人称代入（分享个人性格反思）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "普鲁塔克（Plutarch）",
+      "type": "person",
+      "context": "古罗马哲学家，本文讨论其《道德论丛》第41章'Peri Dusopias'（拒绝厚颜无耻的烦人精），展现其前所未有的温柔与犀利",
+      "importance": "high"
+    },
+    {
+      "name": "柴可夫斯基（Tchaikovsky）",
+      "type": "person",
+      "context": "《胡桃夹子》原作者，特别标明要用钢片琴演奏，其音乐作为播客片头曲",
+      "importance": "medium"
+    },
+    {
+      "name": "普列特涅夫（Pletnev）",
+      "type": "person",
+      "context": "俄罗斯传奇钢琴家，改造《胡桃夹子》钢琴版本，21岁柴可夫斯基大赛夺冠",
+      "importance": "medium"
+    },
+    {
+      "name": "Alexey Volodin",
+      "type": "person",
+      "context": "钢琴家，脑雾哥参考其版本演奏《胡桃夹子》前奏",
+      "importance": "low"
+    },
+    {
+      "name": "张良",
+      "type": "person",
+      "context": "普鲁塔克举鸿门宴例子，张良劝刘邦别去或做好逃跑准备",
+      "importance": "medium"
+    },
+    {
+      "name": "刘邦",
+      "type": "person",
+      "context": "鸿门宴例子中因不好意思准备逃跑而被杀（普鲁塔克版本）",
+      "importance": "medium"
+    },
+    {
+      "name": "项羽",
+      "type": "person",
+      "context": "鸿门宴设局者，刘邦曾与他为兄弟",
+      "importance": "low"
+    },
+    {
+      "name": "色诺芬尼（Xenophanes）",
+      "type": "person",
+      "context": "古希腊哲学家，被拉去掷骰子赌博时拒绝，自称'懦夫'以坚持自我",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "引用其观点：真正的友谊建立在共同对良善的渴望之上",
+      "importance": "medium"
+    },
+    {
+      "name": "布鲁图斯（Brutus）",
+      "type": "person",
+      "context": "普鲁塔克在《古希腊罗马名人传》布鲁图斯传中提及Dusopia概念",
+      "importance": "low"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "播客'情奴'，负责片头片尾曲演奏，本期谈《胡桃夹子》演奏难点",
+      "importance": "medium"
+    },
+    {
+      "name": "《胡桃夹子》（The Nutcracker）",
+      "type": "work",
+      "context": "柴可夫斯基作品，播客片头曲来源，钢琴改编版演奏技巧复杂",
+      "importance": "medium"
+    },
+    {
+      "name": "《道德论丛》（Moralia）",
+      "type": "work",
+      "context": "普鲁塔克著作，本文讨论第41章'Peri Dusopias'（关于拒绝厚颜无耻的烦人精）",
+      "importance": "high"
+    },
+    {
+      "name": "《古希腊罗马名人传》（Parallel Lives）",
+      "type": "work",
+      "context": "普鲁塔克另一经典作品，其中布鲁图斯传提及Dusopia概念",
+      "importance": "medium"
+    },
+    {
+      "name": "勃拉姆斯（Brahms）作品",
+      "type": "work",
+      "context": "片尾曲，未指定具体曲目",
+      "importance": "low"
+    },
+    {
+      "name": "Dusopia（Δυσωπία）",
+      "type": "concept",
+      "context": "古希腊概念，指接受不合理请求后感到的尴尬与羞耻，英语/中文无对应词汇",
+      "importance": "high"
+    },
+    {
+      "name": "整顿职场",
+      "type": "concept",
+      "context": "现代网络流行语，指强硬对抗职场不合理要求，与普鲁塔克的温柔方式对比",
+      "importance": "medium"
+    },
+    {
+      "name": "PUA",
+      "type": "concept",
+      "context": "现代用语，指通过心理操控手段控制他人，文中用于描述烦人精的抱怨 tactics",
+      "importance": "medium"
+    },
+    {
+      "name": "鸿门宴",
+      "type": "event",
+      "context": "历史事件，普鲁塔克用以举例说明因顺从而丧命的危险",
+      "importance": "medium"
+    },
+    {
+      "name": "柴可夫斯基大赛",
+      "type": "event",
+      "context": "钢琴比赛，普列特涅夫21岁夺冠并演奏《胡桃夹子》",
+      "importance": "low"
+    },
+    {
+      "name": "古希腊",
+      "type": "place",
+      "context": "普鲁塔克所处的文化背景，提及敬酒文化、赌博文化等",
+      "importance": "medium"
+    },
+    {
+      "name": "古罗马",
+      "type": "place",
+      "context": "普鲁塔克生活的帝国时代",
+      "importance": "medium"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "钢片琴从法国搬来",
+      "importance": "low"
+    },
+    {
+      "name": "俄罗斯",
+      "type": "place",
+      "context": "普列特涅夫、柴可夫斯基大赛相关",
+      "importance": "low"
+    },
+    {
+      "name": "钢片琴（Celesta）",
+      "type": "other",
+      "context": "柴可夫斯基《胡桃夹子》原定的演奏乐器，音色特殊",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "676c3be015a5fd520e988e13",
+  "title": "154-如何面对厚颜无耻的烦人精"
+}

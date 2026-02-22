@@ -1,0 +1,284 @@
+{
+  "style": {
+    "opening_pattern": "以立场声明引入，先回应外界对自己'不够反特朗普'的批评，建立'中肯观察者'的人设",
+    "structure": "三点式结构：内部观察（特朗普阵营分裂）→外部观察（西方联盟消亡）→总体观察（民主规范困境），每点采用'现象描述→具体案例→深层分析'的子结构",
+    "tone": "理性客观中带有机智调侃，学术分析与政治八卦并重，频繁使用反问和让步句式",
+    "catchphrases": [
+      "诡异之处在于",
+      "你可以说",
+      "我想说的是",
+      "退一步说",
+      "对吧",
+      "这点我们在之前已经讨论过了",
+      "这意味着什么",
+      "我不知道",
+      "OK",
+      "所以在这里我想说的是"
+    ],
+    "closing_pattern": "总结三点观察并预告结束，简洁收尾",
+    "narrative_techniques": [
+      "类比（将特朗普比作中国宫廷帝王、19世纪重商主义企业家）",
+      "对比（班农vs马斯克、20世纪铁路大亨vs当代科技大佬、党派机器vs个人政治）",
+      "历史回溯（从1968年民主党初选制到200年前伯克创立现代政党）",
+      "具体案例切入（H-1B签证辩论作为阵营分裂的切入点）",
+      "自我指涉（频繁引用自己往期播客作为论据）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "播客核心分析对象，被描述为重组美国政治布局、挑战党派机器的秩序颠覆者",
+      "importance": "high"
+    },
+    {
+      "name": "史蒂夫·班农（Steve Bannon）",
+      "type": "person",
+      "context": "民粹国家主义派代表，反对高级技术移民，与马斯克激烈对立，最反华的特朗普阵营人物",
+      "importance": "high"
+    },
+    {
+      "name": "埃隆·马斯克（Elon Musk）",
+      "type": "person",
+      "context": "科技阵营代表，支持H-1B签证和开放移民，与班农公开骂战，被班农视为必须打倒的目标",
+      "importance": "high"
+    },
+    {
+      "name": "伯尼·桑德斯（Bernie Sanders）",
+      "type": "person",
+      "context": "美国社会民主主义者，在高级技术移民问题上与班农立场一致，体现左右民粹的奇特联盟",
+      "importance": "medium"
+    },
+    {
+      "name": "维韦克·拉马斯瓦米（Vivek Ramaswamy）",
+      "type": "person",
+      "context": "曾与马斯克共同领导DOGE部门，后因内部分歧分道扬镳，一天未坚持就返回俄亥俄州",
+      "importance": "medium"
+    },
+    {
+      "name": "马可·卢比奥（Marco Rubio）",
+      "type": "person",
+      "context": "特朗普阵营中与班农站在一起的国家主义者，对中国保持极高警惕性",
+      "importance": "medium"
+    },
+    {
+      "name": "迈克·沃尔茨（Mike Waltz）",
+      "type": "person",
+      "context": "特朗普阵营中与班农站在一起的国家主义者",
+      "importance": "medium"
+    },
+    {
+      "name": "彼得·蒂尔（Peter Thiel）",
+      "type": "person",
+      "context": "硅谷科技大佬，早早支持特朗普，与乔·朗斯代尔在整顿高等教育上相互较劲",
+      "importance": "medium"
+    },
+    {
+      "name": "乔·朗斯代尔（Joe Lonsdale）",
+      "type": "person",
+      "context": "硅谷科技大佬，创办UATX大学与蒂尔的读书会项目竞争，曾试图拉马斯克入伙",
+      "importance": "medium"
+    },
+    {
+      "name": "杰夫·贝索斯（Jeff Bezos）",
+      "type": "person",
+      "context": "科技大佬，最近才投诚特朗普，与马斯克、扎克伯格三人身家等于美国后50%人口",
+      "importance": "low"
+    },
+    {
+      "name": "马克·扎克伯格（Mark Zuckerberg）",
+      "type": "person",
+      "context": "科技大佬，最近才投诚特朗普，被批评缺乏财富责任感",
+      "importance": "low"
+    },
+    {
+      "name": "汤姆·霍曼（Tom Homan）",
+      "type": "person",
+      "context": "即将上任的边境专员，宣称任何非法入境者都可能成为驱逐目标",
+      "importance": "low"
+    },
+    {
+      "name": "埃德蒙·伯克（Edmund Burke）",
+      "type": "person",
+      "context": "19世纪保守主义之父，创立第一个真正意义上的现代政党，播客结尾历史小课堂的核心人物",
+      "importance": "high"
+    },
+    {
+      "name": "托马斯·杰斐逊（Thomas Jefferson）",
+      "type": "person",
+      "context": "美国国父，美国第一个政党的创造者，支持通过周全实现人民主权",
+      "importance": "medium"
+    },
+    {
+      "name": "安德鲁·卡内基（Andrew Carnegie）",
+      "type": "person",
+      "context": "20世纪初铁路大亨，著有《财富的责任》，代表旧时代资本家的道德情怀与社会责任感",
+      "importance": "medium"
+    },
+    {
+      "name": "约翰·洛克菲勒（John D. Rockefeller）",
+      "type": "person",
+      "context": "20世纪初铁路/石油大亨，与卡内基一同被用来对比当代科技大佬的道德缺失",
+      "importance": "low"
+    },
+    {
+      "name": "希拉里·克林顿（Hillary Clinton）",
+      "type": "person",
+      "context": "2016年民主党候选人，被描述为党派机器推上去的产物，桑德斯未能挑战成功",
+      "importance": "low"
+    },
+    {
+      "name": "维克托·欧尔班（Viktor Orbán）",
+      "type": "person",
+      "context": "匈牙利领袖，被欧洲强国视为需要在俄中美之间寻找平衡的小国政治典范",
+      "importance": "medium"
+    },
+    {
+      "name": "詹姆斯·麦迪逊（James Madison）",
+      "type": "person",
+      "context": "美国国父，《联邦党人文集》作者，其关于小团体相互分裂保障自由的观点被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "Maga运动/Make America Great Again",
+      "type": "concept",
+      "context": "特朗普阵营的核心理念，但内部对'如何让美国再次伟大'存在根本分歧——是封闭排外还是开放进取",
+      "importance": "high"
+    },
+    {
+      "name": "民粹国家主义（Populist Nationalism）",
+      "type": "concept",
+      "context": "特朗普内部第一大阵营，反对移民、强调美国利益至上，代表人物班农",
+      "importance": "high"
+    },
+    {
+      "name": "科技主义/科技阵营（Tech Bro）",
+      "type": "concept",
+      "context": "特朗普内部第二大阵营，支持自由贸易、开放移民、减少管制，代表人物马斯克",
+      "importance": "high"
+    },
+    {
+      "name": "党派机器（Party Machine）",
+      "type": "concept",
+      "context": "20世纪美国政治核心特征，被特朗普崛起所瓦解，播客结尾历史分析的重点",
+      "importance": "high"
+    },
+    {
+      "name": "政治的个人化（Personification of Politics）",
+      "type": "concept",
+      "context": "播客提出的核心论断，指党派政治消亡、个人政治崛起，是民主规范困境的深层体现",
+      "importance": "high"
+    },
+    {
+      "name": "现实政治（Realpolitik）",
+      "type": "concept",
+      "context": "描述西方盟友在特朗普时代必须放弃意识形态依赖、自主进行权力平衡的游戏",
+      "importance": "high"
+    },
+    {
+      "name": "西方联盟/西方同盟",
+      "type": "concept",
+      "context": "二战后美国主导的国际秩序，被特朗普2.0宣告消亡",
+      "importance": "high"
+    },
+    {
+      "name": "民主规范（Democratic Norms）",
+      "type": "concept",
+      "context": "特朗普时代面临的双重困境：拒绝承认败选的具体行为，以及党派制度瓦解的结构性危机",
+      "importance": "high"
+    },
+    {
+      "name": "重商主义（Mercantilism）",
+      "type": "concept",
+      "context": "播客用来形容当代科技大佬的政治经济理念，区别于20世纪自由主义",
+      "importance": "medium"
+    },
+    {
+      "name": "H-1B签证/高级技术移民",
+      "type": "concept",
+      "context": "触发特朗普阵营内部最大公开分裂的具体政策议题，成为分析阵营对立的切入点",
+      "importance": "high"
+    },
+    {
+      "name": "DOGE（Department of Government Efficiency）",
+      "type": "organization",
+      "context": "马斯克与拉马斯瓦米原计划共同领导的减少政府开支部门，因内部分裂而流产",
+      "importance": "medium"
+    },
+    {
+      "name": "UATX（University of Austin, Texas）",
+      "type": "organization",
+      "context": "乔·朗斯代尔创办的反对政治正确的大学，被视为与彼得·蒂尔竞争的产物",
+      "importance": "low"
+    },
+    {
+      "name": "2021年1月6日国会山冲击事件",
+      "type": "event",
+      "context": "特朗普拒绝承认败选的后果，被定义为对美国民主规范最严重的挑战",
+      "importance": "high"
+    },
+    {
+      "name": "2016年大选",
+      "type": "event",
+      "context": "特朗普崛起、挑战共和党党派机器成功的关键节点，也是桑德斯挑战民主党机器失败的年份",
+      "importance": "medium"
+    },
+    {
+      "name": "英国脱欧（Brexit）",
+      "type": "event",
+      "context": "被用来对比2016年与2025年世界格局的巨变，当时英美关系稳固给了英国勇气，如今却面临孤立",
+      "importance": "medium"
+    },
+    {
+      "name": "1968年民主党初选制改革",
+      "type": "event",
+      "context": "党派机器权力衰落的转折点，此前党派长老掌控总统候选人提名",
+      "importance": "medium"
+    },
+    {
+      "name": "美国南部边境紧急状态",
+      "type": "event",
+      "context": "特朗普宣誓后签署的第一个行政命令，派遣军队阻止非法移民",
+      "importance": "low"
+    },
+    {
+      "name": "巴拿马运河",
+      "type": "place",
+      "context": "特朗普宣称要夺取的控制权，象征美国不再充当世界警察、转而追求具体利益的姿态",
+      "importance": "low"
+    },
+    {
+      "name": "墨西哥湾/美利坚湾（Gulf of America）",
+      "type": "place",
+      "context": "特朗普提议更名的海域，同样象征美国优先的单边主义",
+      "importance": "low"
+    },
+    {
+      "name": "布鲁塞尔",
+      "type": "place",
+      "context": "欧盟总部所在地，被批评为剥夺了成员国的政治主权",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿特区",
+      "type": "place",
+      "context": "象征欧洲盟友需要摆脱依赖、将关注重心转移回本国的对照点",
+      "importance": "low"
+    },
+    {
+      "name": "主流媒体/好莱坞/大学校园",
+      "type": "other",
+      "context": "被并称为'三个美国文化霸权最重要的象征'，在特朗普时代受到全方位质疑、失去与民意连结",
+      "importance": "high"
+    },
+    {
+      "name": "印度软件工程师",
+      "type": "other",
+      "context": "H-1B辩论中的核心群体，被班农阵营视为抢美国人工作的廉价劳动力，被科技阵营视为实现美国梦的人才",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "679bd0a2d74435e4a37352de",
+  "title": "173-特朗普2.0会给美国政局带来怎样的变动？"
+}
