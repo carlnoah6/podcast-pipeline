@@ -1,0 +1,39 @@
+name: Re-transcribe Bad Episodes
+
+on:
+  workflow_dispatch:
+
+env:
+  MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
+  MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
+  HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+jobs:
+  retranscribe:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -e . modal huggingface_hub
+
+      - name: Re-transcribe
+        run: python scripts/retranscribe.py 2>&1 | tee /tmp/retranscribe.log
+
+      - name: Commit results
+        run: |
+          if ! git diff --quiet data/transcripts/; then
+            git config user.name "podcast-pipeline[bot]"
+            git config user.email "bot@podcast-pipeline.local"
+            git add data/transcripts/
+            git commit -m "fix: re-transcribe 8 episodes with garbage output"
+            git pull --rebase origin main || true
+            git push origin main
+          fi
