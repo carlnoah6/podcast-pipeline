@@ -1,0 +1,189 @@
+{
+  "style": {
+    "opening_pattern": "以当前新闻事件（哥伦比亚大学抗议活动、2023年10月7日哈马斯袭击以色列）引入，提出巴以问题是否有解的核心问题",
+    "structure": "历史时间线叙事（1948-2023）+ 个人经历穿插（访问巴勒斯坦、学习阿拉伯语）+ 现实观察（美国大学生抗议）+ 政治分析（美国政策转变与民主选举困境）",
+    "tone": "理性客观、深入历史细节、批判性思考、带有个人情感但不失分析性，强调复杂性而拒绝简单道德二元论",
+    "catchphrases": [
+      "振臂高呼",
+      "道德谴责",
+      "好奇心",
+      "看似无解",
+      "露天监狱",
+      "两国方案",
+      "原罪",
+      "沆瀣一气",
+      "安静如鸡",
+      "若即若离"
+    ],
+    "closing_pattern": "总结历史脉络（从1948年到2023年的事件序列）并预告下期内容（讨论美国大学生抗议的深层原因与历史对比）",
+    "narrative_techniques": [
+      "历史时间线叙事",
+      "个人经历穿插（巴勒斯坦访问）",
+      "对比手法（加沙vs西岸、美国大学生vs中东国家、阿拉法特vs哈马斯）",
+      "反问与质疑",
+      "类比（引用五四运动、范曾与沈从文的历史教训）",
+      "设问自答"
+    ]
+  },
+  "entities": [
+    {
+      "name": "哈马斯",
+      "type": "organization",
+      "context": "控制加沙地带的伊斯兰原教旨主义组织，与PLO对立，采用自杀式炸弹袭击等手段",
+      "importance": "high"
+    },
+    {
+      "name": "巴解组织",
+      "type": "organization",
+      "context": "巴勒斯坦解放组织，控制西岸，相对温和，由阿拉法特领导，主张两国方案",
+      "importance": "high"
+    },
+    {
+      "name": "阿拉法特",
+      "type": "person",
+      "context": "PLO领袖，推动奥斯陆和平进程和两国方案，在2000年戴维营谈判中扮演关键角色",
+      "importance": "high"
+    },
+    {
+      "name": "加沙",
+      "type": "place",
+      "context": "巴勒斯坦领土，被以色列包围被称为'露天监狱'，2007年后由哈马斯控制",
+      "importance": "high"
+    },
+    {
+      "name": "西岸",
+      "type": "place",
+      "context": "巴勒斯坦领土，由PLO控制，相对开放温和，与加沙在政治和文化上有差异",
+      "importance": "high"
+    },
+    {
+      "name": "以色列",
+      "type": "place",
+      "context": "与巴勒斯坦冲突的主要一方，1948年建国，1967年占领加沙和西岸",
+      "importance": "high"
+    },
+    {
+      "name": "第一次巴勒斯坦大起义",
+      "type": "event",
+      "context": "1987年爆发于加沙的反抗以色列统治的起义，标志着哈马斯的崛起",
+      "importance": "high"
+    },
+    {
+      "name": "第二次巴勒斯坦大起义",
+      "type": "event",
+      "context": "2000-2005年间的暴力冲突，采用自杀式炸弹袭击，导致和平进程彻底破裂",
+      "importance": "high"
+    },
+    {
+      "name": "两国方案",
+      "type": "concept",
+      "context": "建立独立的巴勒斯坦国与以色列共存的解决方案，90年代奥斯陆进程的核心",
+      "importance": "high"
+    },
+    {
+      "name": "穆斯林兄弟会",
+      "type": "organization",
+      "context": "埃及的伊斯兰组织，哈马斯的前身来源，早期对以色列持非暴力态度",
+      "importance": "medium"
+    },
+    {
+      "name": "沙龙",
+      "type": "person",
+      "context": "以色列总理，2005年决定撤出加沙的犹太人定居点",
+      "importance": "medium"
+    },
+    {
+      "name": "克林顿",
+      "type": "person",
+      "context": "美国总统，2000年主持戴维营谈判试图解决巴以问题",
+      "importance": "medium"
+    },
+    {
+      "name": "戴维营协议",
+      "type": "event",
+      "context": "2000年失败的和平谈判，两国方案接近成功但最终破裂",
+      "importance": "medium"
+    },
+    {
+      "name": "阿巴斯",
+      "type": "person",
+      "context": "阿拉法特之后的PLO领袖，2005年后与以色列和美国合作",
+      "importance": "medium"
+    },
+    {
+      "name": "小布什",
+      "type": "person",
+      "context": "美国总统，推动2006年巴勒斯坦民主选举导致哈马斯获胜",
+      "importance": "medium"
+    },
+    {
+      "name": "六日战争",
+      "type": "event",
+      "context": "1967年以色列占领加沙和西岸的战争",
+      "importance": "medium"
+    },
+    {
+      "name": "纳克巴",
+      "type": "event",
+      "context": "1948年以色列建国导致75万巴勒斯坦人流离失所的灾难",
+      "importance": "medium"
+    },
+    {
+      "name": "伊朗",
+      "type": "place",
+      "context": "哈马斯的主要资助者，提供经济和军事援助",
+      "importance": "medium"
+    },
+    {
+      "name": "埃及",
+      "type": "place",
+      "context": "1967年前控制加沙的邻国，穆斯林兄弟会的发源地",
+      "importance": "medium"
+    },
+    {
+      "name": "铁穹",
+      "type": "concept",
+      "context": "以色列开发的防御系统，用于拦截哈马斯的火箭弹",
+      "importance": "medium"
+    },
+    {
+      "name": "哥伦比亚大学",
+      "type": "organization",
+      "context": "播客开场提及的发生抗议活动的美国高校",
+      "importance": "low"
+    },
+    {
+      "name": "塔利班",
+      "type": "organization",
+      "context": "作为对比提及的阿富汗伊斯兰组织，用于说明哈马斯统治的类似性",
+      "importance": "low"
+    },
+    {
+      "name": "五四运动",
+      "type": "event",
+      "context": "作为对比提及的中国历史事件，用于讨论学生运动与知识好奇心的关系",
+      "importance": "low"
+    },
+    {
+      "name": "范曾",
+      "type": "person",
+      "context": "作为历史例证提及的中国画家，用于说明政治运动中知识分子的选择",
+      "importance": "low"
+    },
+    {
+      "name": "沈从文",
+      "type": "person",
+      "context": "作为历史例证提及的中国作家，与范曾形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "哈迪德家族",
+      "type": "person",
+      "context": "提及的巴勒斯坦裔美国名人家庭（贝拉、吉吉和她们的父亲穆罕默德），说明移民美国的巴勒斯坦人背景",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6633d3f903bcdd73a934c9ad",
+  "title": "56-巴以问题有解吗？"
+}

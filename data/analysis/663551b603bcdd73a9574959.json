@@ -1,0 +1,261 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件引入（加沙巴勒斯坦平民被屠杀的新闻背景）",
+    "structure": "问题提出→历史对比（1968年越战抗议）→理论溯源（联邦党人文集、麦迪逊政治思想）→三种叙事模式分析（种族屠杀/南非隔离/种族问题）→个人经历穿插→案例说明（黑人同学的故事）→历史对比深化→政治后果预测",
+    "tone": "理性客观、学术化分析，带有一定的批判性距离感，试图超越道德情绪进行结构性解读",
+    "catchphrases": [
+      "光荣传统",
+      "No No No",
+      "水乳交融",
+      "振臂高呼",
+      "热泪盈眶",
+      "冲锋陷阵",
+      "安营扎寨",
+      "神奇的美国人",
+      "见怪不怪",
+      "什么货色"
+    ],
+    "closing_pattern": "总结观点+预告下期内容（将分析右派政治运动）",
+    "narrative_techniques": [
+      "类比（与1968年越战抗议对比）",
+      "举例（个人经历、黑人同学的故事、博导父母的故事）",
+      "对比（今昔学生运动对比、美国与阿拉伯世界对比）",
+      "反问",
+      "引用（联邦党人文集、尼克松竞选广告）",
+      "自我暴露（分享自己19岁去巴勒斯坦的经历、知乎发帖历史）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "詹姆斯·麦迪逊",
+      "type": "person",
+      "context": "美国国父，《联邦党人文集》第十篇和第五十一篇作者，提出防止多数派暴政的理论",
+      "importance": "high"
+    },
+    {
+      "name": "联邦党人文集",
+      "type": "work",
+      "context": "被主播反复引用，作为理解美国政治稳定性的理论基础，特别是第十篇和第五十一篇",
+      "importance": "high"
+    },
+    {
+      "name": "林登·约翰逊（Lyndon Johnson）",
+      "type": "person",
+      "context": "1964年以压倒性优势击败戈德华特的民主党总统，其胜利让学生抗议者更大胆",
+      "importance": "medium"
+    },
+    {
+      "name": "理查德·尼克松",
+      "type": "person",
+      "context": "1968年当选总统，以'法律与秩序'为竞选口号，强烈抵制左派学生运动",
+      "importance": "high"
+    },
+    {
+      "name": "乔治·华莱士（George Wallace）",
+      "type": "person",
+      "context": "1968年大选候选人，直接谴责抗议者为'含着银汤匙长大的被宠坏的富家子弟'",
+      "importance": "medium"
+    },
+    {
+      "name": "罗纳德·里根",
+      "type": "person",
+      "context": "1966年加州州长竞选时攻击伯克利左派学生，成为新保守主义代言人",
+      "importance": "high"
+    },
+    {
+      "name": "唐纳德·特朗普",
+      "type": "person",
+      "context": "被主播多次提及，认为他会从学生抗议中获益，2020年曾用'在拜登的美国你不会安全'作为竞选广告",
+      "importance": "high"
+    },
+    {
+      "name": "乔·拜登",
+      "type": "person",
+      "context": "现任总统，被抗议学生在海报上画希特勒小胡子，被称为'国际恐怖主义支持者'",
+      "importance": "medium"
+    },
+    {
+      "name": "罗伯特·皮平（Robert Pippin）",
+      "type": "person",
+      "context": "主播前夫的博导，著名黑格尔学者，1968年因抗议越战被捕入狱数月",
+      "importance": "low"
+    },
+    {
+      "name": "斯大林",
+      "type": "person",
+      "context": "主播博导父母在1939年游行庆祝的对象，与希特勒结盟",
+      "importance": "low"
+    },
+    {
+      "name": "希特勒",
+      "type": "person",
+      "context": "被用于多重语境：纳粹大屠杀的历史参照，以及被画在拜登海报上的形象",
+      "importance": "medium"
+    },
+    {
+      "name": "哈马斯",
+      "type": "organization",
+      "context": "统治加沙的武装组织，10月7日发动恐怖袭击，引发以色列反击",
+      "importance": "medium"
+    },
+    {
+      "name": "BDS运动（抵制、撤资、制裁）",
+      "type": "concept",
+      "context": "受南非反种族隔离运动启发的经济抗议手段，是今年大学生抗议的核心诉求",
+      "importance": "high"
+    },
+    {
+      "name": "种族屠杀（genocide）",
+      "type": "concept",
+      "context": "今年大学生抗议的主流叙事框架，取代'停止战争'成为核心口号",
+      "importance": "high"
+    },
+    {
+      "name": "种族隔离（apartheid）",
+      "type": "concept",
+      "context": "十年前活动家更偏好的叙事模式，但今年大学生较少使用",
+      "importance": "medium"
+    },
+    {
+      "name": "交叉性（intersectionality）",
+      "type": "concept",
+      "context": "解释多种歧视因素叠加的理论，帮助黑命贵运动与巴勒斯坦人权运动挂钩",
+      "importance": "medium"
+    },
+    {
+      "name": "身份认同（identity）",
+      "type": "concept",
+      "context": "新马克思主义取代'阶级斗争'的核心概念",
+      "importance": "high"
+    },
+    {
+      "name": "新马克思主义",
+      "type": "concept",
+      "context": "经后现代学派、法兰克福学派、后殖民主义、批判种族主义重新包装后的理论",
+      "importance": "high"
+    },
+    {
+      "name": "1968年哥伦比亚大学抗议",
+      "type": "event",
+      "context": "主播反复对比的历史事件，学生占据六栋建筑，警察暴力逮捕导致学生终身残疾",
+      "importance": "high"
+    },
+    {
+      "name": "肯特州立大学枪击案",
+      "type": "event",
+      "context": "1970年俄亥俄州国民警卫队杀害四名反战学生的事件",
+      "importance": "medium"
+    },
+    {
+      "name": "2024年美国大学生亲巴勒斯坦游行",
+      "type": "event",
+      "context": "本期播客的核心分析对象，主播认为其组织性和叙事策略值得研究",
+      "importance": "high"
+    },
+    {
+      "name": "阿拉伯之春",
+      "type": "event",
+      "context": "2010年突尼斯自焚事件引发的连锁反应，与美国'吸收暴动能力'形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "黑命贵（Black Lives Matter）",
+      "type": "event",
+      "context": "2020年抗议运动，与今年巴勒斯坦游行的组织者和战术高度重合",
+      "importance": "high"
+    },
+    {
+      "name": "越南战争",
+      "type": "event",
+      "context": "1968年学生抗议的核心议题，主播认为当年学生的危机感更强因为面临征兵",
+      "importance": "high"
+    },
+    {
+      "name": "奥斯陆和平进程",
+      "type": "event",
+      "context": "1990年代失败的中东和平努力，之后欧美对以色列采取放任态度，催生了BDS运动",
+      "importance": "medium"
+    },
+    {
+      "name": "哥伦比亚大学",
+      "type": "place",
+      "context": "2024年和1968年学生抗议的发生地，主播详细对比两次事件中警察执法的差异",
+      "importance": "high"
+    },
+    {
+      "name": "哈佛大学",
+      "type": "place",
+      "context": "主播黑人同学就读的医学院，最近也开始扎营抗议",
+      "importance": "medium"
+    },
+    {
+      "name": "加沙",
+      "type": "place",
+      "context": "本轮巴以冲突的核心地点，以色列反击造成大量平民伤亡",
+      "importance": "high"
+    },
+    {
+      "name": "巴勒斯坦",
+      "type": "place",
+      "context": "主播19岁曾实地考察的地区，也是本次学生抗议声援的对象",
+      "importance": "high"
+    },
+    {
+      "name": "以色列",
+      "type": "place",
+      "context": "被指控对巴勒斯坦人实施种族屠杀的国家，大学生要求学校撤资的对象",
+      "importance": "high"
+    },
+    {
+      "name": "南非",
+      "type": "place",
+      "context": "种族隔离制度（1948-1994）的发生地，BDS运动的灵感来源",
+      "importance": "medium"
+    },
+    {
+      "name": "波音公司",
+      "type": "organization",
+      "context": "大学生要求学校撤资的具体目标之一，生产F15战机和阿帕奇直升机",
+      "importance": "medium"
+    },
+    {
+      "name": "洛克希德·马丁（Lockheed Martin）",
+      "type": "organization",
+      "context": "大学生列出的撤资目标，军火公司",
+      "importance": "low"
+    },
+    {
+      "name": "陶氏化学（Dow Chemicals）",
+      "type": "organization",
+      "context": "1968年学生要求撤资的公司，生产凝固汽油弹",
+      "importance": "medium"
+    },
+    {
+      "name": "ROTC项目",
+      "type": "organization",
+      "context": "美军与大学的合作项目，1968年学生要求取消",
+      "importance": "low"
+    },
+    {
+      "name": "Healthcare Workers for Palestine",
+      "type": "organization",
+      "context": "主播黑人同学在哈佛医学院组织的医学生联盟",
+      "importance": "low"
+    },
+    {
+      "name": "以色列同盟会",
+      "type": "organization",
+      "context": "代表以色列政府利益的游说团体，与BDS运动针锋相对",
+      "importance": "medium"
+    },
+    {
+      "name": "贝都因人",
+      "type": "other",
+      "context": "被以色列拆迁居民区赶走的游牧民族，主播2017年在巴勒斯坦拍摄的对象",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "663551b603bcdd73a9574959",
+  "title": "57-今年美国大学生游行会带来什么后果？"
+}
