@@ -1,8 +1,202 @@
 {
-  "style": {},
-  "entities": [],
-  "parse_error": true,
-  "model": "kimi-k2.5",
+  "style": {
+    "opening_pattern": "直接提出问题，并以一个具体的新闻事件（韩国综艺）和听众私信作为引入契机。",
+    "structure": "问题引入（韩国综艺）→ 历史溯源（马基雅维利、笛卡尔）→ 核心论点一：从参与者到观看者（责任与极端化）→ 核心论点二：从具体事件到抽象理论（虚假全面性与判断扭曲）→ 核心论点三：观点平等化（消解说服可能性）→ 总结与反思。",
+    "tone": "理性客观、批判性、学术思辨、深入分析。",
+    "catchphrases": [
+      "政治娱乐化",
+      "spectacle",
+      "从参与者变成了观看者",
+      "从actor变成了spectator",
+      "抽象的观点",
+      "具体的事件",
+      "高下之分",
+      "说服的可能性",
+      "不是吗？",
+      "难道不是吗？"
+    ],
+    "closing_pattern": "总结本集核心观点（现代政治大趋势），呼吁听众保持清醒认知，并进行常规告别。",
+    "narrative_techniques": [
+      "举例",
+      "引用",
+      "类比",
+      "反问",
+      "对比",
+      "历史回顾",
+      "个人经历"
+    ]
+  },
+  "entities": [
+    {
+      "name": "《独树不成林》",
+      "type": "work",
+      "context": "本播客的名称。",
+      "importance": "high"
+    },
+    {
+      "name": "《思想验证区域》 (Zone of Thought Verification)",
+      "type": "work",
+      "context": "一档韩国政治综艺，是本期播客讨论政治娱乐化的直接契机。",
+      "importance": "high"
+    },
+    {
+      "name": "小木敦",
+      "type": "person",
+      "context": "本播客的主讲人/主持人。",
+      "importance": "high"
+    },
+    {
+      "name": "马基雅维利 (Niccolò Machiavelli)",
+      "type": "person",
+      "context": "现代政治的开创者之一，其《君主论》被引用来说明政治作为奇观的开端。",
+      "importance": "high"
+    },
+    {
+      "name": "《君主论》 (The Prince)",
+      "type": "work",
+      "context": "马基雅维利的著作，被播客引用来阐述政治娱乐化和奇观的早期表现。",
+      "importance": "high"
+    },
+    {
+      "name": "笛卡尔 (René Descartes)",
+      "type": "person",
+      "context": "现代哲学的创始人，其《第一哲学沉思集》被引用来说明现代人从政治参与者变为观看者的趋势。",
+      "importance": "high"
+    },
+    {
+      "name": "《第一哲学沉思集》 (Meditations on First Philosophy)",
+      "type": "work",
+      "context": "笛卡尔的著作，被播客引用来展示其在动荡年代如何抽离自身，以观察者视角反思政治。",
+      "importance": "high"
+    },
+    {
+      "name": "Cesare Borgia",
+      "type": "person",
+      "context": "马基雅维利在《君主论》中提到的暴君，通过公开处决总督来制造政治奇观。",
+      "importance": "medium"
+    },
+    {
+      "name": "Ramiro de Orco",
+      "type": "person",
+      "context": "Cesare Borgia派去镇压罗马尼亚的残暴总督，后被Cesare Borgia处决并示众。",
+      "importance": "low"
+    },
+    {
+      "name": "罗马尼亚 (Romagna)",
+      "type": "place",
+      "context": "Cesare Borgia征服的地区，其刁民被Ramiro de Orco镇压。",
+      "importance": "low"
+    },
+    {
+      "name": "三十年战争 (Thirty Years' War)",
+      "type": "event",
+      "context": "欧洲历史上由宗教分歧引发的重大冲突，是笛卡尔写作《第一哲学沉思集》时的时代背景。",
+      "importance": "medium"
+    },
+    {
+      "name": "MBTI",
+      "type": "concept",
+      "context": "一种心理测试，被播客用来类比韩国综艺如何鼓励年轻人进行政治光谱的自我归类。",
+      "importance": "medium"
+    },
+    {
+      "name": "德国国家社会主义 (German National Socialism)",
+      "type": "concept",
+      "context": "20世纪政治上极端美学化的意识形态之一，被播客用作政治娱乐化的例证。",
+      "importance": "medium"
+    },
+    {
+      "name": "苏联共产主义 (Soviet Communism)",
+      "type": "concept",
+      "context": "20世纪政治上极端美学化的意识形态之一，被播客用作政治娱乐化的例证。",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图 (Plato)",
+      "type": "person",
+      "context": "古代政治思想家，其论述被播客用来与现代政治从抽象理论出发的模式进行对比。",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德 (Aristotle)",
+      "type": "person",
+      "context": "古代政治思想家，其论述被播客用来与现代政治从抽象理论出发的模式进行对比。",
+      "importance": "medium"
+    },
+    {
+      "name": "西塞罗 (Cicero)",
+      "type": "person",
+      "context": "古代政治思想家，其论述被播客用来与现代政治从抽象理论出发的模式进行对比。",
+      "importance": "medium"
+    },
+    {
+      "name": "孔子 (Confucius)",
+      "type": "person",
+      "context": "古代政治思想家，其论述被播客用来与现代政治从抽象理论出发的模式进行对比。",
+      "importance": "medium"
+    },
+    {
+      "name": "小红书",
+      "type": "organization",
+      "context": "中文互联网平台，播客提到在该平台搜索韩国综艺的讨论度。",
+      "importance": "medium"
+    },
+    {
+      "name": "豆瓣",
+      "type": "organization",
+      "context": "中文互联网平台，播客提到在该平台搜索韩国综艺的讨论度。",
+      "importance": "medium"
+    },
+    {
+      "name": "微博",
+      "type": "organization",
+      "context": "中文互联网平台，播客提到在该平台搜索韩国综艺的讨论度。",
+      "importance": "medium"
+    },
+    {
+      "name": "B站",
+      "type": "organization",
+      "context": "中文互联网平台，播客提到在该平台搜索韩国综艺的讨论度。",
+      "importance": "medium"
+    },
+    {
+      "name": "韩国",
+      "type": "place",
+      "context": "《思想验证区域》综艺的制作国家，被播客描述为政治分歧严重、极端化的社会。",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "被播客用作政治两极分化（民主党与共和党）导致判断力扭曲的明显案例。",
+      "importance": "medium"
+    },
+    {
+      "name": "民主党",
+      "type": "organization",
+      "context": "美国两大政党之一，被播客用来说明现代社会中人们如何通过支持特定立场来归类。",
+      "importance": "medium"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "美国两大政党之一，被播客用来说明现代社会中人们如何通过支持特定立场来归类。",
+      "importance": "medium"
+    },
+    {
+      "name": "法兰克福学派",
+      "type": "concept",
+      "context": "被播客提及为一种抽象的理论标签，年轻人可能选择贴在自己身上。",
+      "importance": "low"
+    },
+    {
+      "name": "《搞笑为什么越来越难》",
+      "type": "work",
+      "context": "播客主讲人之前的一期节目，其中也提到了与本期播客相关的观察。",
+      "importance": "low"
+    }
+  ],
+  "model": "gemini-2.5-flash",
   "episode_id": "6701f8f981cdab3a93fbba74",
   "title": "118-政治娱乐化会给现代社会带来怎样的后果？"
 }

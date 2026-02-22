@@ -1,8 +1,135 @@
 {
-  "style": {},
-  "entities": [],
-  "parse_error": true,
-  "model": "kimi-k2.5",
+  "style": {
+    "opening_pattern": "以个人经历和一首歌曲的歌词引入，引出本期播客的核心问题。",
+    "structure": "个人故事引入核心问题 → 澄清问题（“能”与“应”）→ 批判常用思维框架（理想/现实主义）→ 回应潜在批评（自由教育、紧迫性与真理）→ 提出第一个核心观点。",
+    "tone": "理性批判、反思深入、略带个人色彩和挑战性。",
+    "catchphrases": [
+      "独树不成林",
+      "有没有什么应该阻挡你对自由的向往？",
+      "框架",
+      "反思",
+      "紧迫性",
+      "真理",
+      "何不食肉糜",
+      "应该",
+      "自由教育"
+    ],
+    "closing_pattern": "引入第一个核心观点，但文本未完结。",
+    "narrative_techniques": [
+      "个人叙事（童年经历）",
+      "设问与反问",
+      "类比（纯粹理想主义者是小孩，纯粹现实主义者是机器）",
+      "举例（尼采、哈耶克、特斯拉、不交税的自由）",
+      "对比（“能”与“应”、“理想主义”与“现实主义”、“紧迫性”与“真理”）",
+      "预设与回应（预先回应听众可能提出的批评）",
+      "引用（歌曲歌词、名言）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "独树不成林",
+      "type": "work",
+      "context": "本播客节目的名称。",
+      "importance": "high"
+    },
+    {
+      "name": "没有什么能够阻挡我对自由的向往",
+      "type": "work",
+      "context": "主播童年时哼唱的歌词，也是本期播客标题的灵感来源。",
+      "importance": "high"
+    },
+    {
+      "name": "永远年轻，永远热泪盈眶",
+      "type": "concept",
+      "context": "被提及为年轻人向往自由的一种表达。",
+      "importance": "medium"
+    },
+    {
+      "name": "理想主义",
+      "type": "concept",
+      "context": "被主播批评为在思考问题时过于粗暴、阻碍理解的常用框架。",
+      "importance": "high"
+    },
+    {
+      "name": "现实主义",
+      "type": "concept",
+      "context": "被主播批评为在思考问题时过于粗暴、阻碍理解的常用框架。",
+      "importance": "high"
+    },
+    {
+      "name": "唯心主义",
+      "type": "concept",
+      "context": "被主播认为是中文语境中对思考毫无帮助的哲学框架之一。",
+      "importance": "medium"
+    },
+    {
+      "name": "唯物主义",
+      "type": "concept",
+      "context": "被主播认为是中文语境中对思考毫无帮助的哲学框架之一。",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采 (Nietzsche)",
+      "type": "person",
+      "context": "主播在上一期播客中提到不愿意像他一样把网上的傻瓜都当做市场里的苍蝇。",
+      "importance": "medium"
+    },
+    {
+      "name": "哈耶克 (Hayek)",
+      "type": "person",
+      "context": "主播在上一上期播客中批评其政治哲学的起点，认为其无法解释如何让公民拥有文明市场观。",
+      "importance": "medium"
+    },
+    {
+      "name": "第一修正案背后的新左翼如何颠覆并改造了当今美国大学 (105期播客)",
+      "type": "work",
+      "context": "主播提到该期播客评论区中对其反思的批评，认为其与中国现实土壤割裂。",
+      "importance": "medium"
+    },
+    {
+      "name": "DEI (Diversity, Equity, and Inclusion)",
+      "type": "concept",
+      "context": "在105期播客中讨论的“历史渊源”，被一些听众指责不应在中文语境中讨论。",
+      "importance": "medium"
+    },
+    {
+      "name": "孟德斯鸠 (Montesquieu)",
+      "type": "person",
+      "context": "被认为是反思自由限度最深刻的哲学家之一。",
+      "importance": "high"
+    },
+    {
+      "name": "论法的精神 (De l'esprit des lois)",
+      "type": "work",
+      "context": "孟德斯鸠的著作，其中第十二卷被提及为讨论政治自由法律的内容。",
+      "importance": "high"
+    },
+    {
+      "name": "奴隶制社会",
+      "type": "concept",
+      "context": "被提及为能够阻挡人们对自由向往的社会条件。",
+      "importance": "low"
+    },
+    {
+      "name": "特斯拉 (Tesla)",
+      "type": "other",
+      "context": "在假设无限制自由的例子中，作为个人财产的代表。",
+      "importance": "low"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "被提及为“中文语境”和“中国现实土壤”，是听众批评主播反思脱离现实的背景。",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "被提及为“美国大学”和“在美国看到的道德标准的不断让步”的例子。",
+      "importance": "medium"
+    }
+  ],
+  "model": "gemini-2.5-flash",
   "episode_id": "66f0838087a92427761a548e",
   "title": "112-有没有什么应该阻挡你对自由的向往？"
 }

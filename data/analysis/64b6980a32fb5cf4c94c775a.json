@@ -1,8 +1,176 @@
 {
-  "style": {},
-  "entities": [],
-  "parse_error": true,
-  "model": "kimi-k2.5",
+  "style": {
+    "opening_pattern": "以个人经历和媒体报道引入，讲述自己作为秘鲁总统女儿室友的特殊身份，并预告故事的重大转折。",
+    "structure": "个人经历引入（媒体报道、宣誓典礼）→ 提出播客主旨（小人物视角看历史）→ 详细叙述事件经过（高中、秘鲁生活、安保、亚马逊探险、与总统早餐、自我反思）→ 政治事件高潮（弹劾、辞职、软禁）→ 朋友的转变 → 升华主题（政治启蒙、独立思考的意义）→ 总结。",
+    "tone": "真诚、反思、自省、叙事性强、带有哲学思辨，同时不失轻松幽默的个人化表达。",
+    "catchphrases": [
+      "初生牛犊不怕虎",
+      "狮子大开口",
+      "乳臭未干的小丫头",
+      "活在政治脉搏激烈的跳动",
+      "冷冰冰的第三方叙事角度",
+      "上帝视角",
+      "不起眼的小人物",
+      "亲身经历了、目睹了这个事件的旁观者",
+      "眼见他起朱楼、眼见他宴宾客、眼见他楼塌了",
+      "人云亦云",
+      "指点江山",
+      "搬门弄斧、贻笑大方"
+    ],
+    "closing_pattern": "总结个人经历带来的“政治启蒙”核心观点（独立思考的艰难与重要性），并以标准播客结束语收尾。",
+    "narrative_techniques": [
+      "个人叙事",
+      "时间线索",
+      "细节描写",
+      "对比（小人物与大事件、个人视角与第三方视角、年轻时的无知与现在的反思）",
+      "类比（政治生活与美剧、与名人共餐的设想、与贝索斯偶遇的尴尬）",
+      "反问",
+      "举例（陈道明与钱钟书、博士生对学者的评价）",
+      "自我批判与反思",
+      "引用（“眼见他起朱楼……”）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "秘鲁总统",
+      "type": "person",
+      "context": "播客讲述了主持人朋友的父亲从当选秘鲁总统到被弹劾、辞职和软禁的亲身经历。",
+      "importance": "high"
+    },
+    {
+      "name": "刘骁骞",
+      "type": "person",
+      "context": "央视记者，主持人提到他曾在秘鲁报道总统宣誓典礼，并与主持人有过一面之缘。",
+      "importance": "medium"
+    },
+    {
+      "name": "Jeff Bezos",
+      "type": "person",
+      "context": "亚马逊CEO，在主持人前男友在健身房偶遇他的轶事中被提及，用以说明普通人面对偶像的反应。",
+      "importance": "medium"
+    },
+    {
+      "name": "陈道明",
+      "type": "person",
+      "context": "演员，主持人引用他与钱钟书相识的采访，来阐述在学问面前的自惭形秽。",
+      "importance": "medium"
+    },
+    {
+      "name": "钱钟书",
+      "type": "person",
+      "context": "作家，在陈道明的采访中被提及，象征着深厚学识和从容的生活态度。",
+      "importance": "medium"
+    },
+    {
+      "name": "Tom Friedman",
+      "type": "person",
+      "context": "《纽约时报》国际记者，主持人年轻时曾在他认识的总统面前对其报道妄加评论，后感到汗颜。",
+      "importance": "medium"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "作家，被提及作为“值得敬佩的人”的例子，并在五四运动的背景下被引用其作品。",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "古希腊哲学家，被一位哲学博士同学提及，表达了对古希腊思想时代的向往。",
+      "importance": "medium"
+    },
+    {
+      "name": "秘鲁",
+      "type": "place",
+      "context": "故事发生的主要国家，主持人在此亲身经历了总统的兴衰。",
+      "importance": "high"
+    },
+    {
+      "name": "利马",
+      "type": "place",
+      "context": "秘鲁首都，总统府邸所在地，也是主持人大部分时间居住的地方。",
+      "importance": "high"
+    },
+    {
+      "name": "亚马逊丛林",
+      "type": "place",
+      "context": "主持人与总统家人一同探险的地方，发生了被毒蜘蛛咬伤的插曲。",
+      "importance": "medium"
+    },
+    {
+      "name": "南极",
+      "type": "place",
+      "context": "原计划与总统夫人一同前往的目的地，后因弹劾事件取消。",
+      "importance": "medium"
+    },
+    {
+      "name": "世界银行",
+      "type": "organization",
+      "context": "秘鲁总统曾工作30多年的机构，也是他与Tom Friedman相识的背景。",
+      "importance": "medium"
+    },
+    {
+      "name": "秘鲁国会",
+      "type": "organization",
+      "context": "由反对党控制，多次启动针对总统的弹劾程序，最终导致其辞职。",
+      "importance": "high"
+    },
+    {
+      "name": "《纽约时报》",
+      "type": "work",
+      "context": "主持人年轻时阅读的报纸，也是Tom Friedman工作的媒体。",
+      "importance": "medium"
+    },
+    {
+      "name": "Pokemon Go",
+      "type": "work",
+      "context": "一款流行游戏，主持人与朋友在保镖的跟随下玩这款游戏，形成奇特景象。",
+      "importance": "medium"
+    },
+    {
+      "name": "水豚 (Capybara)",
+      "type": "other",
+      "context": "亚马逊丛林的产物，主持人与朋友纹了水豚形状的闺蜜纹身，并提及它最近在网上走红。",
+      "importance": "medium"
+    },
+    {
+      "name": "政治启蒙",
+      "type": "concept",
+      "context": "本期播客的核心主题，主持人将这段经历定义为自己的政治启蒙，因为它让她意识到独立思考和增长见识的重要性。",
+      "importance": "high"
+    },
+    {
+      "name": "弹劾",
+      "type": "concept",
+      "context": "贯穿故事始终的关键政治事件，总统因被指控贪污受贿而面临弹劾。",
+      "importance": "high"
+    },
+    {
+      "name": "软禁",
+      "type": "concept",
+      "context": "前总统目前的状态，因反对党调查案件而无法离开秘鲁，被限制在府邸中。",
+      "importance": "high"
+    },
+    {
+      "name": "人云亦云",
+      "type": "concept",
+      "context": "主持人反思自己年轻时的肤浅，并强调避免人云亦云、拥有独立见解是需要穷尽一生努力的目标。",
+      "importance": "high"
+    },
+    {
+      "name": "五四新文化运动",
+      "type": "event",
+      "context": "被主持人用作历史巨变时代的例子，与法国大革命并列，探讨个体如何感知时代脉搏。",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "被主持人用作历史巨变时代的例子，与五四运动并列，探讨个体如何感知时代脉搏。",
+      "importance": "medium"
+    }
+  ],
+  "model": "gemini-2.5-flash",
   "episode_id": "64b6980a32fb5cf4c94c775a",
   "title": "1-我的政治启蒙：参加秘鲁总统宣誓典礼和亲身经历他的被弹劾、倒台和软禁"
 }

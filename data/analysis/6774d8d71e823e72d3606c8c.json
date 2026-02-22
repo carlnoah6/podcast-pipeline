@@ -1,386 +1,294 @@
 {
   "style": {
-    "opening_pattern": "以片头音乐（莫扎特《费加罗的婚礼》序曲）引入，配合强烈的个人情感宣泄，直接表达对莫扎特的崇拜与对歌剧的热爱",
-    "structure": "时间线叙事结构（1600年巴洛克→古典时期→浪漫主义→20世纪），穿插'历史背景+音乐分析+个人轶事+现场演唱/播放'的模块化段落",
-    "tone": "热情奔放、极具个人化、知识性与幽默感并存，带有强烈的价值判断（如'卢梭的音乐上不了档次'），使用大量口语化表达和自嘲",
+    "opening_pattern": "以播放音乐片段引入，并直接点明音乐来源和本集播客的核心目的（说服听众欣赏歌剧，尤其是莫扎特歌剧）。",
+    "structure": "开篇以个人强烈情感和观点（莫扎特歌剧的伟大）引入，接着提出问题（如何欣赏歌剧），然后按时间线（巴洛克时期、古典时期、浪漫主义时期、20世纪初）梳理歌剧历史，期间穿插歌剧元素解释、重要作曲家及其作品介绍，并辅以个人喜好和趣闻。最后回归开篇的个人情感，以莫扎特歌剧的片段作结。",
+    "tone": "热情洋溢、知识渊博、带有强烈个人色彩和偏好（尤其对莫扎特的推崇和对瓦格纳的“嫌弃”），语言轻松幽默，偶尔穿插口音模仿和自嘲，旨在降低知识门槛，拉近与听众的距离。",
     "catchphrases": [
-      "比飞",
-      "我想说的是",
-      "OK",
-      "我必须要说",
-      "人间不值得",
-      "气死我了",
-      "简而言之",
       "对吧",
-      "等一下"
+      "OK",
+      "我跟你说",
+      "在我心中",
+      "不亚于",
+      "望而却步",
+      "话说回来",
+      "与此同时",
+      "我想要强调的是",
+      "你是不是一听就觉得"
     ],
-    "closing_pattern": "回到个人情感体验（布拉格听《费加罗的婚礼》的经历），以播放具体咏叹调音乐作为结束，呼应开场",
+    "closing_pattern": "总结本集播客的目的，再次强调个人对莫扎特的喜爱，分享与莫扎特相关的个人经历和感悟，并以莫扎特歌剧的咏叹调作为结束。",
     "narrative_techniques": [
-      "类比（如'还珠格格和大明王朝1566的竞争'）",
-      "设问（'什么是歌剧？'）",
-      "对比（瓦格纳vs威尔第、严肃歌剧vs喜歌剧）",
-      "个人轶事（纽约大都会歌剧院退票经历）",
-      "引用（勃拉姆斯、尼采的评价）",
-      "夸张修辞（'像苍蝇一样猥琐的摩擦前肢'）"
+      "个人情感表达",
+      "举例说明",
+      "历史叙述",
+      "概念定义",
+      "类比（如“还珠格格和大明王朝1566”）",
+      "对比（如《费加罗的婚礼》与《唐璜》序曲，瓦格纳与威尔第）",
+      "反问",
+      "幽默与自嘲",
+      "直接呼吁/建议"
     ]
   },
   "entities": [
     {
-      "name": "莫扎特 (Mozart)",
+      "name": "莫扎特 (Wolfgang Amadeus Mozart)",
       "type": "person",
-      "context": "播客核心推崇对象，被称为'世界上最伟大的歌剧家'，其《费加罗的婚礼》《唐璜》《魔笛》《女人心》被反复提及",
+      "context": "播客开篇即表达了对莫扎特及其歌剧的极高推崇，认为他是最伟大的歌剧家，其作品能让人感到人生值得。",
       "importance": "high"
     },
     {
-      "name": "《费加罗的婚礼》 (The Marriage of Figaro)",
+      "name": "《费加罗的婚礼》 (Le nozze di Figaro)",
       "type": "work",
-      "context": "莫扎特歌剧，被主播称为'世界上最伟大的一部歌剧'，片头曲及结尾咏叹调均来自该剧，勃拉姆斯曾高度评价",
-      "importance": "high"
-    },
-    {
-      "name": "瓦格纳 (Richard Wagner)",
-      "type": "person",
-      "context": "德国作曲家，被评价为'比威尔第和比才更重要'，提出'Gesamtkunstwerk'（总体艺术作品）概念，创作《尼伯龙根的指环》《特里斯坦与伊索尔德》",
-      "importance": "high"
-    },
-    {
-      "name": "威尔第 (Giuseppe Verdi)",
-      "type": "person",
-      "context": "意大利作曲家，代表作《弄臣》《阿依达》《茶花女》，与瓦格纳形成对比，关注人类斗争和现实冲突",
-      "importance": "high"
-    },
-    {
-      "name": "宣叙调 (Recitative)",
-      "type": "concept",
-      "context": "歌剧元素，带有歌唱性质的对白部分，用于表现对话和独白，源于佛罗伦萨卡梅拉塔对古希腊戏剧的研究",
-      "importance": "high"
-    },
-    {
-      "name": "咏叹调 (Aria)",
-      "type": "concept",
-      "context": "歌剧元素，类似于歌曲的独唱部分，用来展示歌手的技巧，如《魔笛》中的'夜后咏叹调'",
-      "importance": "high"
-    },
-    {
-      "name": "佛罗伦萨卡梅拉塔 (Florentine Camerata)",
-      "type": "organization",
-      "context": "16世纪晚期佛罗伦萨的团体，在Count Giovanni de' Bardi的客厅聚会，致力于复兴古希腊戏剧，催生了歌剧的诞生",
-      "importance": "high"
-    },
-    {
-      "name": "Claudio Monteverdi",
-      "type": "person",
-      "context": "早期巴洛克作曲家，创作《Orfeo》（1607年），将歌剧从宫廷带入公众视野，在威尼斯建立歌剧院",
-      "importance": "high"
-    },
-    {
-      "name": "巴洛克时期 (Baroque)",
-      "type": "concept",
-      "context": "1600-1750年的音乐时期，歌剧诞生阶段，特征为严肃歌剧(Opera Seria)与喜歌剧(Opera Buffa)的并存",
-      "importance": "high"
-    },
-    {
-      "name": "古典时期 (Classical period)",
-      "type": "concept",
-      "context": "1750-1800年，Gluck进行歌剧改革，莫扎特崛起，歌剧进一步民主化，序曲(Overture)变得重要",
+      "context": "本集播客的片头曲，被主持人认为是世界上最伟大的歌剧，并多次提及其序曲和结尾的和解。",
       "importance": "high"
     },
     {
       "name": "《唐璜》 (Don Giovanni)",
       "type": "work",
-      "context": "莫扎特歌剧，讲述与命运对抗的故事，被称为'尼采式的超人'，序曲风格沉重悲剧",
+      "context": "莫扎特的三部意大利语歌剧之一，其序曲被用来与《费加罗的婚礼》序曲对比，展现不同的基调。",
       "importance": "medium"
     },
     {
-      "name": "《魔笛》 (The Magic Flute/Zauberflöte)",
+      "name": "《女人心》 (Così fan tutte)",
       "type": "work",
-      "context": "莫扎特德语歌剧(Singspiel)，被称为'春晚大串联'，包含'夜后咏叹调'和Papageno/Papagena二重唱",
+      "context": "莫扎特的三部意大利语歌剧之一，在本集中被提及。",
+      "importance": "low"
+    },
+    {
+      "name": "《魔笛》 (Die Zauberflöte)",
+      "type": "work",
+      "context": "莫扎特的德语歌剧，被主持人称为“春晚大串联”，并讨论其作为德语歌剧和为大众创作的特点。",
       "importance": "medium"
     },
     {
-      "name": "尼采 (Nietzsche)",
+      "name": "勃拉姆斯 (Johannes Brahms)",
       "type": "person",
-      "context": "哲学家，提及《悲剧的诞生》，与瓦格纳曾是朋友后决裂，主播将其与莫扎特的歌剧深刻程度比较",
+      "context": "引用了他对《费加罗的婚礼》的评价，称其“每一个乐章都是奇迹”。",
       "importance": "medium"
     },
     {
-      "name": "勃拉姆斯 (Brahms)",
+      "name": "尼采 (Friedrich Nietzsche)",
       "type": "person",
-      "context": "作曲家，曾评价《费加罗的婚礼》'每一个乐章都是奇迹'，认为连贝多芬也无法超越",
+      "context": "被主持人用来与莫扎特的深刻程度进行比较，并提及他的作品《悲剧的诞生》。",
       "importance": "medium"
     },
     {
-      "name": "Christoph Willibald Gluck",
-      "type": "person",
-      "context": "歌剧改革家，反对严肃歌剧和喜歌剧的陈腐，主张减少即兴发挥，让音乐服务于诗意表达，影响莫扎特",
-      "importance": "medium"
-    },
-    {
-      "name": "序曲 (Overture)",
+      "name": "歌剧 (Opera)",
       "type": "concept",
-      "context": "歌剧前奏，古典时期变得重要，如《费加罗的婚礼》序曲充满生命力，《唐璜》序曲沉重悲剧",
+      "context": "本集播客的核心主题，详细解释了其起源、发展、重要元素和不同时期风格。",
+      "importance": "high"
+    },
+    {
+      "name": "文艺复兴 (Renaissance)",
+      "type": "event",
+      "context": "歌剧起源的时代背景，源于当时意大利人复兴古希腊戏剧的愿望。",
       "importance": "medium"
     },
     {
-      "name": "阉人歌手 (Castrati)",
+      "name": "巴洛克时期 (Baroque Period)",
       "type": "concept",
-      "context": "青春期被阉割的男歌手，声音保持纯真，18世纪歌剧明星，如Alessandro Moreschi，现已被女高音(Soprano)或男高音取代",
+      "context": "歌剧发展的第一个阶段（1600-1750年），讨论了其特点和代表人物。",
+      "importance": "high"
+    },
+    {
+      "name": "古典时期 (Classical Period)",
+      "type": "concept",
+      "context": "歌剧发展的第二个阶段（1750-1800年），莫扎特在此时期崛起，歌剧风格发生重要变革。",
+      "importance": "high"
+    },
+    {
+      "name": "佛罗伦萨卡梅拉塔 (Florentine Camerata)",
+      "type": "organization",
+      "context": "一个在佛罗伦萨聚会的团体，被认为是歌剧的起源者，旨在复兴古希腊戏剧。",
+      "importance": "medium"
+    },
+    {
+      "name": "宣叙调 (Recitative)",
+      "type": "concept",
+      "context": "歌剧中的一种带有歌唱性质的对白部分，用于表现对话和独白，与咏叹调相对。",
+      "importance": "high"
+    },
+    {
+      "name": "咏叹调 (Aria)",
+      "type": "concept",
+      "context": "歌剧中的独唱部分，类似于歌曲，用于展示歌手技巧，比宣叙调更具旋律性。",
+      "importance": "high"
+    },
+    {
+      "name": "脚本/歌词 (Libretto)",
+      "type": "concept",
+      "context": "歌剧的脚本或歌词，主持人解释了其重要性以及现代歌剧院如何提供字幕。",
+      "importance": "high"
+    },
+    {
+      "name": "雅各布·佩里 (Jacopo Peri)",
+      "type": "person",
+      "context": "创作了现存最早的歌剧《尤丽狄茜》的佛罗伦萨作曲家，其贡献被蒙特威尔第的光芒所掩盖。",
+      "importance": "medium"
+    },
+    {
+      "name": "《尤丽狄茜》 (Eurydice)",
+      "type": "work",
+      "context": "现存最早的歌剧，由雅各布·佩里创作于1600年，为美第奇公主和亨利四世的婚礼而作。",
+      "importance": "medium"
+    },
+    {
+      "name": "克劳迪奥·蒙特威尔第 (Claudio Monteverdi)",
+      "type": "person",
+      "context": "早期意大利最重要的歌剧作曲家之一，将歌剧提升到全新高度，其作品至今仍在上演。",
+      "importance": "high"
+    },
+    {
+      "name": "《奥菲欧》 (Orfeo)",
+      "type": "work",
+      "context": "蒙特威尔第在1607年的作品，讲述了奥菲欧和尤丽狄茜的故事，被推荐为巴洛克时期歌剧。",
+      "importance": "medium"
+    },
+    {
+      "name": "歌剧院 (Opera House)",
+      "type": "place",
+      "context": "歌剧从宫廷走向公众的标志，威尼斯出现了人类历史上第一个歌剧院。",
       "importance": "medium"
     },
     {
       "name": "喜歌剧 (Opera Buffa)",
       "type": "concept",
-      "context": "与严肃歌剧相对，包含插科打诨和低俗喜剧元素，面向大众，讨论当代问题",
-      "importance": "medium"
+      "context": "一种主要讨论当代问题、包含插科打诨元素的歌剧形式，与严肃歌剧相对。",
+      "importance": "high"
     },
     {
       "name": "严肃歌剧/正歌剧 (Opera Seria)",
       "type": "concept",
-      "context": "以英雄人物、神话角色为主题，传颂道德教育，面向贵族，使用阉人歌手",
+      "context": "一种以英雄人物、神话角色为主题，传颂道德教育的歌剧形式，与喜歌剧相对。",
+      "importance": "high"
+    },
+    {
+      "name": "阉人歌手 (Castrati)",
+      "type": "person_type",
+      "context": "在青春期被阉割以保持童声的男歌手，在18世纪成为歌剧明星，其美声炫技极受欢迎。",
       "importance": "medium"
     },
     {
-      "name": "Gesamtkunstwerk",
-      "type": "concept",
-      "context": "瓦格纳提出的'总体艺术作品'概念，融合音乐、文本、诗歌，创造完整体验",
-      "importance": "medium"
-    },
-    {
-      "name": "Leitmotif",
-      "type": "concept",
-      "context": "主导动机，瓦格纳创作手法，短旋律反复出现代表特定角色或概念，如《尼伯龙根的指环》中的宝剑动机",
-      "importance": "medium"
-    },
-    {
-      "name": "《尼伯龙根的指环》 (Der Ring des Nibelungen)",
-      "type": "work",
-      "context": "瓦格纳代表作，长达15小时，使用主导动机，在拜罗伊特音乐节上演",
-      "importance": "medium"
-    },
-    {
-      "name": "比才 (Bizet)",
+      "name": "亨德尔 (George Frideric Handel)",
       "type": "person",
-      "context": "法国作曲家，创作《卡门》，讲述自由奔放的吉普赛女人与士兵的故事",
+      "context": "德国作曲家，将意大利歌剧带到伦敦并大获成功，其《凯撒在埃及》是典型的严肃歌剧。",
       "importance": "medium"
+    },
+    {
+      "name": "让-菲利普·拉莫 (Jean-Philippe Rameau)",
+      "type": "person",
+      "context": "法国最重要的歌剧音乐家之一，将歌剧发展成在巴黎受欢迎的艺术形式，被主持人多次提及。",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭 (Jean-Jacques Rousseau)",
+      "type": "person",
+      "context": "被主持人称为“小心眼哲学家”，因其音乐水平一般，其作品未能在播客中播放，与拉莫形成对比。",
+      "importance": "medium"
+    },
+    {
+      "name": "克里斯托弗·维利巴尔德·格鲁克 (Christoph Willibald Gluck)",
+      "type": "person",
+      "context": "古典时期重要的作曲家，改革了歌剧，呼吁回归文本和故事的戏剧性表达，影响了莫扎特。",
+      "importance": "high"
+    },
+    {
+      "name": "歌剧序曲 (Overture)",
+      "type": "concept",
+      "context": "歌剧开始前的纯音乐前奏，用于定下歌剧基调，被主持人强调其独立欣赏价值。",
+      "importance": "high"
+    },
+    {
+      "name": "Singspiel (歌唱对白)",
+      "type": "concept",
+      "context": "德语歌唱对白歌剧，被认为是歌剧民主化的体现，莫扎特的《魔笛》即是此类。",
+      "importance": "medium"
+    },
+    {
+      "name": "浪漫主义时期 (Romantic Period)",
+      "type": "concept",
+      "context": "歌剧发展的第三个阶段（1830-1900年），歌剧规模更大、声音更宏大、戏剧性更强。",
+      "importance": "high"
+    },
+    {
+      "name": "美声唱法 (Bel canto)",
+      "type": "concept",
+      "context": "浪漫主义时期意大利的一种华美、装饰性强的人声唱法，被比作“人声版的肖邦”。",
+      "importance": "medium"
+    },
+    {
+      "name": "比才 (Georges Bizet)",
+      "type": "person",
+      "context": "19世纪最著名的法国歌剧作曲家，创作了《卡门》，主持人亲自演唱了其中片段。",
+      "importance": "high"
     },
     {
       "name": "《卡门》 (Carmen)",
       "type": "work",
-      "context": "比才歌剧，浪漫主义作品，旋律朗朗上口，主播亲自演唱选段",
-      "importance": "medium"
+      "context": "比才的浪漫主义作品，讲述自由奔放的吉普赛女人和痴迷士兵的故事，主持人亲自演唱了片段。",
+      "importance": "high"
+    },
+    {
+      "name": "威尔第 (Giuseppe Verdi)",
+      "type": "person",
+      "context": "意大利浪漫主义大师，创作了《弄臣》、《阿依达》、《茶花女》等作品，其歌剧聚焦人类斗争。",
+      "importance": "high"
     },
     {
       "name": "《弄臣》 (Rigoletto)",
       "type": "work",
-      "context": "威尔第歌剧，主播在柏林和纽约观看过，演唱选段",
+      "context": "威尔第的著名作品，主持人亲自演唱了其中片段，并在柏林和纽约大都会剧院观看过。",
       "importance": "medium"
     },
     {
       "name": "《阿依达》 (Aida)",
       "type": "work",
-      "context": "威尔第歌剧，古埃及故事，大都会歌剧院制作有骆驼和马，规模宏大",
+      "context": "威尔第的作品，被认为是19世纪大型歌剧的缩影，以其宏大场面（如骆驼和马登台）著称。",
       "importance": "medium"
     },
     {
-      "name": "Jacopo Peri",
+      "name": "理查德·瓦格纳 (Richard Wagner)",
       "type": "person",
-      "context": "佛罗伦萨作曲家，1600年创作现存最早的歌剧《Eurydice》，为美第奇公主婚礼而作",
-      "importance": "medium"
+      "context": "德国作曲家，被主持人明确表示不喜欢，但承认其在19世纪歌剧史上的重要性，改变了歌剧形式。",
+      "importance": "high"
     },
     {
-      "name": "Eurydice",
+      "name": "整体艺术作品 (Gesamtkunstwerk)",
+      "type": "concept",
+      "context": "瓦格纳的核心理念，指音乐、文本、诗歌等融为一体的完整艺术体验。",
+      "importance": "high"
+    },
+    {
+      "name": "主题动机 (Leitmotif)",
+      "type": "concept",
+      "context": "瓦格纳歌剧中广泛使用的技巧，指不断重复的短旋律，代表特定角色、情感或事物。",
+      "importance": "high"
+    },
+    {
+      "name": "《尼伯龙根的指环》 (Der Ring des Nibelungen)",
       "type": "work",
-      "context": "Jacopo Peri创作，现存最早的歌剧，1600年，讲述Orfeo与Eurydice的故事",
-      "importance": "medium"
-    },
-    {
-      "name": "Orfeo",
-      "type": "work",
-      "context": "Monteverdi1607年作品，提升歌剧艺术高度，讲述Orfeo拯救Eurydice的神话",
-      "importance": "medium"
-    },
-    {
-      "name": "Handel (亨德尔)",
-      "type": "person",
-      "context": "德国作曲家，在意大利学习后把歌剧带到伦敦，创作《凯撒在埃及》",
-      "importance": "medium"
-    },
-    {
-      "name": "Giulio Cesare in Egitto (凯撒在埃及)",
-      "type": "work",
-      "context": "亨德尔创作的严肃歌剧，讲述凯撒大帝在埃及的故事",
-      "importance": "low"
-    },
-    {
-      "name": "Vivaldi (维瓦尔第)",
-      "type": "person",
-      "context": "作曲家，创作《四季》，也创作大量歌剧",
-      "importance": "low"
-    },
-    {
-      "name": "Jean-Baptiste Lully",
-      "type": "person",
-      "context": "法国歌剧重要音乐家，与Rameau同时代",
-      "importance": "low"
-    },
-    {
-      "name": "Jean-Philippe Rameau (拉莫)",
-      "type": "person",
-      "context": "法国歌剧重要音乐家，与卢梭同时代争论",
-      "importance": "low"
-    },
-    {
-      "name": "卢梭 (Rousseau)",
-      "type": "person",
-      "context": "哲学家，与拉莫同时代，试图创作歌剧但水平一般",
-      "importance": "low"
-    },
-    {
-      "name": "威尼斯 (Venice)",
-      "type": "place",
-      "context": "1637年出现人类历史上第一个歌剧院，Monteverdi迁居至此",
-      "importance": "medium"
-    },
-    {
-      "name": "布拉格 (Prague)",
-      "type": "place",
-      "context": "莫扎特最爱的城市，1786年《费加罗的婚礼》在此首演，主播三年前在此观看",
+      "context": "瓦格纳的经典代表作，一部长达15小时的歌剧循环，其中包含宝剑的主题动机。",
       "importance": "medium"
     },
     {
       "name": "拜罗伊特 (Bayreuth)",
       "type": "place",
-      "context": "瓦格纳音乐节所在地，门票需抽签，已排到十年后",
+      "context": "瓦格纳为自己的作品建立音乐节的地点，门票难买，被主持人提及。",
       "importance": "medium"
     },
     {
-      "name": "纽约大都会歌剧院 (Metropolitan Opera)",
-      "type": "organization",
-      "context": "主播在此观看《阿依达》和《弄臣》，曾购买《魔笛》圣诞节家庭版门票因删减内容而生气",
-      "importance": "medium"
-    },
-    {
-      "name": "Alessandro Moreschi",
-      "type": "person",
-      "context": "真实存在的阉人歌手，50多岁时录制录音，是Castrati",
-      "importance": "low"
-    },
-    {
-      "name": "Samuel Mariño",
-      "type": "person",
-      "context": "现代著名男高音，无需阉割自然拥有高音",
-      "importance": "low"
-    },
-    {
-      "name": "Elijah McCormack",
-      "type": "person",
-      "context": "现代著名男高音",
-      "importance": "low"
-    },
-    {
-      "name": "Count Giovanni de' Bardi",
-      "type": "person",
-      "context": "佛罗伦萨伯爵，其客厅中聚集佛罗伦萨卡梅拉塔团体",
-      "importance": "low"
-    },
-    {
-      "name": "Francesco Cavalli",
-      "type": "person",
-      "context": "Monteverdi的学生，将歌剧带入威尼斯歌剧院",
-      "importance": "low"
-    },
-    {
-      "name": "美第奇公主",
-      "type": "person",
-      "context": "1600年与亨利四世婚礼，Peri的《Eurydice》为此而作",
-      "importance": "low"
-    },
-    {
-      "name": "亨利四世 (Henry IV)",
-      "type": "person",
-      "context": "1600年与美第奇公主婚礼",
-      "importance": "low"
-    },
-    {
-      "name": "浪漫主义时期 (Romanticism)",
-      "type": "concept",
-      "context": "1830-1900年，歌剧规模变大，美声唱法(Bel canto)兴起，出现比才、威尔第、瓦格纳",
-      "importance": "high"
-    },
-    {
-      "name": "Singspiel",
-      "type": "concept",
-      "context": "德语歌唱剧，对白与歌唱结合，《魔笛》即属此类，代表歌剧民主化",
-      "importance": "medium"
-    },
-    {
-      "name": "美声唱法 (Bel canto)",
-      "type": "concept",
-      "context": "19世纪意大利风格，想象成人声版肖邦，华美装饰性",
-      "importance": "medium"
-    },
-    {
-      "name": "Libretto",
-      "type": "concept",
-      "context": "歌剧脚本/歌词，现代歌剧院通常有屏幕显示翻译",
-      "importance": "medium"
-    },
-    {
-      "name": "Papageno",
-      "type": "person",
-      "context": "《魔笛》中的角色，与Papagena有著名二重唱，被主播形容为'军训生产小孩'",
-      "importance": "low"
-    },
-    {
-      "name": "Tristan und Isolde",
+      "name": "《罗恩格林》 (Lohengrin)",
       "type": "work",
-      "context": "瓦格纳作品，只有少数演员，展现其Gesamtkunstwerk理念",
+      "context": "瓦格纳的歌剧，主持人唯一从头听到尾的作品，其中包含著名的结婚进行曲。",
       "importance": "medium"
     },
     {
-      "name": "Lohengrin",
-      "type": "work",
-      "context": "瓦格纳歌剧，包含著名的'婚礼进行曲'，主播唯一听完的瓦格纳作品",
-      "importance": "medium"
-    },
-    {
-      "name": "柏林 (Berlin)",
+      "name": "布拉格 (Prague)",
       "type": "place",
-      "context": "主播在此观看《弄臣》和瓦格纳歌剧，提及学生票便宜",
-      "importance": "low"
-    },
-    {
-      "name": "贝多芬 (Beethoven)",
-      "type": "person",
-      "context": "被勃拉姆斯引用，认为连他也创作不出《费加罗的婚礼》这样的作品",
-      "importance": "low"
-    },
-    {
-      "name": "陀思妥耶夫斯基 (Dostoevsky)",
-      "type": "person",
-      "context": "被主播用作比较对象，讨论门槛话题时提及",
-      "importance": "low"
-    },
-    {
-      "name": "黑格尔 (Hegel)",
-      "type": "person",
-      "context": "被主播用作比较对象，讨论歌剧深刻程度时提及",
-      "importance": "low"
-    },
-    {
-      "name": "马克思 (Marx)",
-      "type": "person",
-      "context": "被提及作为人们常讨论但歌剧有门槛的对比例子",
-      "importance": "low"
-    },
-    {
-      "name": "维也纳 (Vienna)",
-      "type": "place",
-      "context": "莫扎特时代的重要城市，1779年主播讨论时的时空背景",
+      "context": "莫扎特生前最爱的城市，1786年《费加罗的婚礼》在此由莫扎特亲自指挥首演，主持人曾在此歌剧院听剧。",
       "importance": "medium"
     }
   ],
-  "model": "kimi-k2.5",
+  "model": "gemini-2.5-flash",
   "episode_id": "6774d8d71e823e72d3606c8c",
   "title": "157-如何欣赏歌剧？"
 }

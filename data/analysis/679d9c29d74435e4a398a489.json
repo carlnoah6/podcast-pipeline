@@ -1,8 +1,233 @@
 {
-  "style": {},
-  "entities": [],
-  "parse_error": true,
-  "model": "kimi-k2.5",
+  "style": {
+    "opening_pattern": "引用流行歌曲歌词引入主题，并概括对其中一部小说的看法，同时预告对另一部小说的概括。",
+    "structure": "以两部文学作品（《悲惨世界》和《罪与罚》）中警察与罪犯的关系为核心，进行对比分析。深入探讨人物背后的哲学思想（卢梭、尼采、柏拉图、苏格拉底），并引入历史文化背景（中国古代忠孝观、1832年巴黎六月起义）进行多维度阐释，最终总结并提出个人反思。",
+    "tone": "理性分析、学术探讨、充满激情，同时带有个人化的反思和批判。",
+    "catchphrases": [
+      "在我心中",
+      "有意思的地方在于",
+      "你可以说",
+      "我们看到的是",
+      "恰恰是",
+      "这是一种",
+      "这很难",
+      "我觉得",
+      "换句话说",
+      "也就是说"
+    ],
+    "closing_pattern": "总结本期播客的对比分析，兑现开场承诺，引用流行歌词概括另一部小说的核心主题，并以标准告别语结束。",
+    "narrative_techniques": [
+      "对比分析",
+      "哲学阐述",
+      "举例论证",
+      "类比（如“高贵的狗”、苏格拉底）",
+      "反问",
+      "个人解读与批判",
+      "预告与呼应",
+      "直接与听众对话"
+    ]
+  },
+  "entities": [
+    {
+      "name": "维克多·雨果 (Victor Hugo)",
+      "type": "person",
+      "context": "《悲惨世界》的作者，其正义观与陀思妥耶夫斯基形成对比。",
+      "importance": "high"
+    },
+    {
+      "name": "费奥多尔·陀思妥耶夫斯基 (Fyodor Dostoevsky)",
+      "type": "person",
+      "context": "《罪与罚》的作者，其正义观与雨果形成对比。",
+      "importance": "high"
+    },
+    {
+      "name": "悲惨世界 (Les Misérables)",
+      "type": "work",
+      "context": "雨果的代表作，本期播客主要分析的两部小说之一。",
+      "importance": "high"
+    },
+    {
+      "name": "罪与罚 (Crime and Punishment)",
+      "type": "work",
+      "context": "陀思妥耶夫斯基的代表作，本期播客主要分析的两部小说之一。",
+      "importance": "high"
+    },
+    {
+      "name": "沙威 (Javert)",
+      "type": "person",
+      "context": "《悲惨世界》中的警察，其世俗正义观和最终的崩溃是分析重点。",
+      "importance": "high"
+    },
+    {
+      "name": "冉阿让 (Jean Valjean)",
+      "type": "person",
+      "context": "《悲惨世界》的男主角，其基于爱与同情的自然正义观是分析重点。",
+      "importance": "high"
+    },
+    {
+      "name": "波尔菲里 (Porfiry Petrovich)",
+      "type": "person",
+      "context": "《罪与罚》中的警察，其审讯技巧和作为拉斯柯尔尼科夫精神导师的角色是分析重点。",
+      "importance": "high"
+    },
+    {
+      "name": "拉斯柯尔尼科夫 (Rodion Raskolnikov)",
+      "type": "person",
+      "context": "《罪与罚》的男主角，其尼采式的“非凡之人”自然正义观是分析重点。",
+      "importance": "high"
+    },
+    {
+      "name": "世俗正义 (Conventional Justice)",
+      "type": "concept",
+      "context": "指社会法律定义的正义，与自然正义形成对比。",
+      "importance": "high"
+    },
+    {
+      "name": "自然正义 (Natural Justice)",
+      "type": "concept",
+      "context": "指超越社会法律、源于人性或更高法则的正义，与世俗正义形成对比。",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭 (Rousseau)",
+      "type": "person",
+      "context": "法国哲学家，其关于同情和人性的观点被用来解释冉阿让的正义观。",
+      "importance": "high"
+    },
+    {
+      "name": "尼采 (Nietzsche)",
+      "type": "person",
+      "context": "德国哲学家，其奴隶道德和主人道德理论被用来解释拉斯柯尔尼科夫的正义观。",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图 (Plato)",
+      "type": "person",
+      "context": "古希腊哲学家，其《理想国》、《高尔吉亚》等对话被用来类比分析警察角色和正义问题。",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底 (Socrates)",
+      "type": "person",
+      "context": "古希腊哲学家，其诘问方式和对灵魂健康的关注被用来与波尔菲里进行类比。",
+      "importance": "high"
+    },
+    {
+      "name": "奴隶道德 (Slave Morality)",
+      "type": "concept",
+      "context": "尼采哲学概念，指基于人人平等的世俗道德，拉斯柯尔尼科夫试图反抗。",
+      "importance": "medium"
+    },
+    {
+      "name": "主人道德 (Master Morality)",
+      "type": "concept",
+      "context": "尼采哲学概念，指基于高贵和非凡的主人阶级的道德，拉斯柯尔尼科夫所追求。",
+      "importance": "medium"
+    },
+    {
+      "name": "理想国 (Republic)",
+      "type": "work",
+      "context": "柏拉图的对话录，其中关于“高贵的狗”和城邦守卫者的讨论被用来分析沙威。",
+      "importance": "medium"
+    },
+    {
+      "name": "高尔吉亚 (Gorgias)",
+      "type": "work",
+      "context": "柏拉图的对话录，其中卡利克勒斯的正义观被用来与拉斯柯尔尼科夫进行比较。",
+      "importance": "medium"
+    },
+    {
+      "name": "忠 (Loyalty)",
+      "type": "concept",
+      "context": "中国古代伦理概念，与孝道形成对比，用于分析沙威的困境。",
+      "importance": "medium"
+    },
+    {
+      "name": "孝 (Filial Piety)",
+      "type": "concept",
+      "context": "中国古代伦理概念，与忠形成对比，用于分析沙威的困境。",
+      "importance": "medium"
+    },
+    {
+      "name": "异化 (Alienation)",
+      "type": "concept",
+      "context": "马克思主义概念，被播客主用来批判雨果对沙威之死的解释。",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑 (Napoleon)",
+      "type": "person",
+      "context": "历史人物，被拉斯柯尔尼科夫视为“非凡之人”的象征，也被波尔菲里用来讽刺他。",
+      "importance": "medium"
+    },
+    {
+      "name": "1832年巴黎六月起义",
+      "type": "event",
+      "context": "《悲惨世界》高潮部分的背景事件，沙威在此事件中被冉阿让所救。",
+      "importance": "medium"
+    },
+    {
+      "name": "论犯罪 (On Crime)",
+      "type": "work",
+      "context": "拉斯柯尔尼科夫发表的论文，其中阐述了他的“非凡之人有权犯罪”的理论。",
+      "importance": "medium"
+    },
+    {
+      "name": "高贵的狗 (Noble Dog)",
+      "type": "concept",
+      "context": "柏拉图在《理想国》中用来比喻城邦守卫者的形象，被用来分析沙威的角色。",
+      "importance": "medium"
+    },
+    {
+      "name": "孔子",
+      "type": "person",
+      "context": "中国古代思想家，其关于忠孝的论述被引用来对比沙威的正义观。",
+      "importance": "medium"
+    },
+    {
+      "name": "卡利克勒斯 (Callicles)",
+      "type": "person",
+      "context": "柏拉图《高尔吉亚》中的人物，其“强者应当统治”的正义观与拉斯柯尔尼科夫相似。",
+      "importance": "medium"
+    },
+    {
+      "name": "芳汀 (Fantine)",
+      "type": "person",
+      "context": "《悲惨世界》中的角色，其悲剧性死亡被冉阿让归咎于沙威的残忍正义。",
+      "importance": "low"
+    },
+    {
+      "name": "珂赛特 (Cosette)",
+      "type": "person",
+      "context": "《悲惨世界》中的角色，芳汀的女儿，冉阿让的养女。",
+      "importance": "low"
+    },
+    {
+      "name": "拉祖米欣 (Razumikhin)",
+      "type": "person",
+      "context": "《罪与罚》中拉斯柯尔尼科夫的朋友，对波尔菲里警官的性格有所描述。",
+      "importance": "low"
+    },
+    {
+      "name": "毛不易",
+      "type": "person",
+      "context": "中国歌手，其歌曲《消愁》的歌词被用来概括《罪与罚》的主题。",
+      "importance": "low"
+    },
+    {
+      "name": "消愁",
+      "type": "work",
+      "context": "毛不易的歌曲，其歌词“清醒的人最荒唐”被用来概括《罪与罚》中现代人的迷茫。",
+      "importance": "low"
+    },
+    {
+      "name": "爱的奉献",
+      "type": "work",
+      "context": "流行歌曲，其歌词“只要人人都献出一点爱”被用来概括《悲惨世界》的主题。",
+      "importance": "low"
+    }
+  ],
+  "model": "gemini-2.5-flash",
   "episode_id": "679d9c29d74435e4a398a489",
   "title": "174-陀思妥耶夫斯基和雨果的正义观有何不同"
 }

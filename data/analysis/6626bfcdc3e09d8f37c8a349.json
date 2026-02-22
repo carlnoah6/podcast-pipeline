@@ -2,7 +2,7 @@
   "style": {},
   "entities": [],
   "parse_error": true,
-  "model": "kimi-k2.5",
+  "model": "gemini-2.5-flash",
   "episode_id": "6626bfcdc3e09d8f37c8a349",
   "title": "54-如何面对父母的死亡"
 }

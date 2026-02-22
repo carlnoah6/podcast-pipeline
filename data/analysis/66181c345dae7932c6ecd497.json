@@ -1,8 +1,286 @@
 {
-  "style": {},
-  "entities": [],
-  "parse_error": true,
-  "model": "kimi-k2.5",
+  "style": {
+    "opening_pattern": "直接提出问题并界定讨论范围（即不讨论社会层面，而聚焦个体层面）",
+    "structure": "问题引入→批判互联网模式→引入哲学思想（卢梭的婴儿愤怒、苏格拉底的知识即美德）→结合个人经历与社会现象（朋友经历、童年公交、瑜伽老师）→深入探讨历史与学术冒犯（古人作品、林肯辩论）→批判历史主义→总结教育的意义与“被冒犯的勇气”",
+    "tone": "理性客观、思辨深刻、批判性",
+    "catchphrases": [
+      "语言上的冒犯",
+      "烧书",
+      "逻辑不自洽",
+      "阿基特里式的愤怒",
+      "知识就是美德",
+      "历史主义",
+      "被冒犯的勇气",
+      "弱小",
+      "小雪花政治正确",
+      "老白男"
+    ],
+    "closing_pattern": "总结核心观点（教育带来温情的理解，超越婴儿式愤怒）并进行常规道别",
+    "narrative_techniques": [
+      "举例",
+      "类比",
+      "引用",
+      "反问",
+      "对比",
+      "批判性分析",
+      "个人叙事"
+    ]
+  },
+  "entities": [
+    {
+      "name": "明镜与点点",
+      "type": "work",
+      "context": "播客开场提到“点赞 订阅 转发 打赏支持明镜与点点栏目”。",
+      "importance": "high"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "播客中提到朋友二妹因在办公环境中错误使用同事的性别代名词而被投诉。",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭 (Rousseau)",
+      "type": "person",
+      "context": "播客引入日内瓦哲学家卢梭，讨论其在《艾米尔》中对婴儿愤怒的观察。",
+      "importance": "high"
+    },
+    {
+      "name": "艾米尔 (Emile)",
+      "type": "work",
+      "context": "卢梭的著作，播客中引用其对婴儿哭闹和愤怒的描绘。",
+      "importance": "high"
+    },
+    {
+      "name": "阿基特里 (Achilles)",
+      "type": "person",
+      "context": "古希腊英雄，卢梭用“阿基特里式的愤怒”来形容儿童对自然暴力的反应。",
+      "importance": "medium"
+    },
+    {
+      "name": "河马 (Homer)",
+      "type": "person",
+      "context": "罗马史诗中描绘阿基特里愤怒的诗人。",
+      "importance": "low"
+    },
+    {
+      "name": "苏格拉底 (Socrates)",
+      "type": "person",
+      "context": "播客引入苏格拉底的观点，认为所有邪恶都源于无知，并以此来面对不公。",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图 (Plato)",
+      "type": "person",
+      "context": "播客中提到通过柏拉图的对话来了解苏格拉底。",
+      "importance": "low"
+    },
+    {
+      "name": "Harvey Mansfield (曼斯菲尔德教授)",
+      "type": "person",
+      "context": "播客中提到哈佛政治系教授，他定义了真正的绅士风度是拥有强大力量却选择不去使用。",
+      "importance": "medium"
+    },
+    {
+      "name": "林肯 (Lincoln)",
+      "type": "person",
+      "context": "播客中以林肯在1858年与道格拉斯的辩论为例，讨论历史人物的言论在现代语境下的冒犯性。",
+      "importance": "high"
+    },
+    {
+      "name": "道格拉斯 (Douglas)",
+      "type": "person",
+      "context": "1858年与林肯进行辩论的民主党候选人。",
+      "importance": "medium"
+    },
+    {
+      "name": "黑格尔 (Hegel)",
+      "type": "person",
+      "context": "播客中提到黑格尔在《法哲学》中关于女性不应从政的观点，作为历史局限性的例子。",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采 (Nietzsche)",
+      "type": "person",
+      "context": "播客中提到尼采被一些人认为是“歧视女性的老白男”。",
+      "importance": "low"
+    },
+    {
+      "name": "莫言",
+      "type": "person",
+      "context": "播客中提到莫言被一些人认为是“爱国不绝对就是绝对不爱国的小说家”。",
+      "importance": "low"
+    },
+    {
+      "name": "包容性",
+      "type": "concept",
+      "context": "播客讨论社会以包容性为目标时，应如何处理语言冒犯。",
+      "importance": "medium"
+    },
+    {
+      "name": "公序良俗",
+      "type": "concept",
+      "context": "播客提到社会可以通过建立公序良俗来改善冒犯性群体和习惯。",
+      "importance": "medium"
+    },
+    {
+      "name": "乳腺堵塞",
+      "type": "concept",
+      "context": "播客中用“乳腺堵塞”来形容互联网上观众因未伸张正义而感到的不满。",
+      "importance": "low"
+    },
+    {
+      "name": "微冒犯 (Microaggression)",
+      "type": "concept",
+      "context": "播客讨论美国社会将微冒犯归为暴力的一种，并举例说明。",
+      "importance": "high"
+    },
+    {
+      "name": "性别代名词 (Preferred gender pronouns)",
+      "type": "concept",
+      "context": "播客以朋友二妹因错误使用性别代名词而引发的投诉为例。",
+      "importance": "high"
+    },
+    {
+      "name": "白左",
+      "type": "concept",
+      "context": "播客中提到一些人认为性别代名词是“美国白左搞出来的一套小雪花政治正确”。",
+      "importance": "low"
+    },
+    {
+      "name": "小雪花政治正确",
+      "type": "concept",
+      "context": "播客中提到一些人认为性别代名词是“美国白左搞出来的一套小雪花政治正确”。",
+      "importance": "low"
+    },
+    {
+      "name": "阿基特里式的愤怒 (Achillean Anger)",
+      "type": "concept",
+      "context": "卢梭提出的概念，指儿童对自然暴力产生的道德愤怒。",
+      "importance": "high"
+    },
+    {
+      "name": "你人式的教育",
+      "type": "concept",
+      "context": "卢梭认为不应将椅子拟人化进行道德谴责的教育方式。",
+      "importance": "medium"
+    },
+    {
+      "name": "你物式的教育",
+      "type": "concept",
+      "context": "卢梭认为应将人当做椅子，克制道德愤怒的教育方式。",
+      "importance": "medium"
+    },
+    {
+      "name": "为老不尊",
+      "type": "concept",
+      "context": "播客中提到小学生时期对公交车上某些老年人行为的认知。",
+      "importance": "low"
+    },
+    {
+      "name": "知识就是美德 (Virtue is knowledge)",
+      "type": "concept",
+      "context": "苏格拉底的核心观点，播客以此解释所有邪恶都源于无知。",
+      "importance": "high"
+    },
+    {
+      "name": "历史主义 (Historicism)",
+      "type": "concept",
+      "context": "播客批判的一种学术观点，认为每个时代的人都被其历史局限性所限制。",
+      "importance": "high"
+    },
+    {
+      "name": "逻辑不自洽 (Logical inconsistency)",
+      "type": "concept",
+      "context": "播客用此概念批判历史主义者无法将理论应用到自身。",
+      "importance": "high"
+    },
+    {
+      "name": "被冒犯的勇气",
+      "type": "concept",
+      "context": "播客总结的核心观点，认为教育需要这种勇气才能真正进步。",
+      "importance": "high"
+    },
+    {
+      "name": "Inconsistency is the refuge of the mentally weak",
+      "type": "concept",
+      "context": "播客中引用的一句话，意指逻辑不自洽是思想上懦弱之人的避难所。",
+      "importance": "medium"
+    },
+    {
+      "name": "林肯-道格拉斯辩论 (Lincoln-Douglas Debates)",
+      "type": "event",
+      "context": "1858年林肯与道格拉斯之间关于奴隶制废除的七场辩论。",
+      "importance": "high"
+    },
+    {
+      "name": "美国 (United States)",
+      "type": "place",
+      "context": "播客中多次以美国社会、美国语境为例讨论语言冒犯和政治正确。",
+      "importance": "high"
+    },
+    {
+      "name": "普鲁士帝国 (Prussian Empire)",
+      "type": "place",
+      "context": "黑格尔活跃的时代背景，被认为是歧视女性的男权主义社会。",
+      "importance": "low"
+    },
+    {
+      "name": "哈佛 (Harvard)",
+      "type": "organization",
+      "context": "播客中提到Harvey Mansfield教授在哈佛政治系任教60年。",
+      "importance": "medium"
+    },
+    {
+      "name": "共和党 (Republican Party)",
+      "type": "organization",
+      "context": "1858年林肯所属的政党。",
+      "importance": "medium"
+    },
+    {
+      "name": "民主党 (Democratic Party)",
+      "type": "organization",
+      "context": "1858年道格拉斯所属的政党。",
+      "importance": "medium"
+    },
+    {
+      "name": "哈佛政治系 (Harvard Political Science Department)",
+      "type": "organization",
+      "context": "Harvey Mansfield教授任教的系。",
+      "importance": "medium"
+    },
+    {
+      "name": "N字头 (N-word)",
+      "type": "other",
+      "context": "播客中提到20世纪美国主流社会对黑人的称呼，现在已被禁止。",
+      "importance": "high"
+    },
+    {
+      "name": "黑鬼 (N-word)",
+      "type": "other",
+      "context": "播客中提到这个词代表语言上的压迫，对美国黑人造成伤害。",
+      "importance": "high"
+    },
+    {
+      "name": "小红书 (Xiaohongshu)",
+      "type": "organization",
+      "context": "播客中提到在小红书上看到一个关于女权主义者无法正视旧书的帖子。",
+      "importance": "low"
+    },
+    {
+      "name": "瑜伽馆",
+      "type": "organization",
+      "context": "播客中提到作者在瑜伽馆做清洁工的经历，以及与年轻瑜伽老师的互动。",
+      "importance": "medium"
+    },
+    {
+      "name": "法哲学 (Philosophy of Right)",
+      "type": "work",
+      "context": "黑格尔的著作，其中包含关于女性不应从政的思想。",
+      "importance": "medium"
+    }
+  ],
+  "model": "gemini-2.5-flash",
   "episode_id": "66181c345dae7932c6ecd497",
   "title": "48-如何面对语言上的冒犯？"
 }

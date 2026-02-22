@@ -1,8 +1,154 @@
 {
-  "style": {},
-  "entities": [],
-  "parse_error": true,
-  "model": "kimi-k2.5",
+  "style": {
+    "opening_pattern": "直接提出核心问题并引入作品，即“真正的精英有资格鄙视人民吗？”并点明本集将解析莎士比亚的《大将军寇流兰》。",
+    "structure": "提出核心问题→阐释莎士比亚批评的深刻性→对比现实中“假精英”的傲慢→详细讲述《大将军寇流兰》的剧情与人物分析（Coriolanus、人民、保民官）→深入探讨Coriolanus傲慢的本质与其独立性的矛盾→总结观点并对比古今社会中精英傲慢与舆论力量的差异。",
+    "tone": "激情洋溢、深度分析、批判性、哲学思辨，同时带有口语化的表达和强烈的个人观点。",
+    "catchphrases": [
+      "真正的精英",
+      "人民群众",
+      "傲慢",
+      "莎士比亚",
+      "护民官/保民官",
+      "逻辑自洽",
+      "I banish you",
+      "虚伪",
+      "纯粹的傲慢",
+      "惊天地泣鬼神"
+    ],
+    "closing_pattern": "总结核心观点，强调莎士比亚对傲慢的深刻批评，对比Coriolanus与现代精英的差异及古今舆论力量的不同，最后以常规的播客告别语结束。",
+    "narrative_techniques": [
+      "举例",
+      "对比",
+      "反问",
+      "设问",
+      "故事讲述",
+      "引用",
+      "类比"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Coriolanus (寇流兰)",
+      "type": "person",
+      "context": "莎士比亚戏剧《大将军寇流兰》的中心人物，一位英勇但极度傲慢的罗马将军。",
+      "importance": "high"
+    },
+    {
+      "name": "莎士比亚 (William Shakespeare)",
+      "type": "person",
+      "context": "英国著名剧作家，本集分析其作品《大将军寇流兰》及其对精英傲慢的深刻批评。",
+      "importance": "high"
+    },
+    {
+      "name": "《大将军寇流兰》 (Coriolanus)",
+      "type": "work",
+      "context": "本集播客主要分析的莎士比亚戏剧，探讨精英傲慢与人民群众之间的冲突。",
+      "importance": "high"
+    },
+    {
+      "name": "罗马 (Rome)",
+      "type": "place",
+      "context": "《大将军寇流兰》的故事背景地，一个面临内外冲突的共和国。",
+      "importance": "high"
+    },
+    {
+      "name": "人民群众 (Plebeians)",
+      "type": "concept",
+      "context": "罗马社会中的平民阶层，与贵族和Coriolanus形成对立，是Coriolanus鄙视的对象。",
+      "importance": "high"
+    },
+    {
+      "name": "贵族 (Patricians)",
+      "type": "concept",
+      "context": "罗马社会中的上层阶级，Coriolanus所属的阶层，与人民群众存在深刻矛盾。",
+      "importance": "high"
+    },
+    {
+      "name": "保民官 (Tribunes)",
+      "type": "concept",
+      "context": "古罗马由平民选举产生的官职，剧中被描绘为狡诈精明、煽动人民的政客。",
+      "importance": "high"
+    },
+    {
+      "name": "罗马共和国 (Roman Republic)",
+      "type": "organization",
+      "context": "《大将军寇流兰》的政治背景，其存亡与Coriolanus的行动息息相关。",
+      "importance": "high"
+    },
+    {
+      "name": "邻国 (Volscians)",
+      "type": "group",
+      "context": "罗马的死敌，Coriolanus在被驱逐后投奔并带领其军队反攻罗马。",
+      "importance": "medium"
+    },
+    {
+      "name": "执政官 (Consul)",
+      "type": "concept",
+      "context": "罗马共和国的最高政治头衔，Coriolanus因拒绝向人民申请而未能获得。",
+      "importance": "medium"
+    },
+    {
+      "name": "Menenius (墨涅尼乌斯)",
+      "type": "person",
+      "context": "Coriolanus的贵族朋友，试图用比喻安抚饥饿的人民，但效果不佳。",
+      "importance": "medium"
+    },
+    {
+      "name": "Hubris (傲慢)",
+      "type": "concept",
+      "context": "播客中用来指代Coriolanus的致命缺点，也是莎士比亚作品的核心批判对象。",
+      "importance": "medium"
+    },
+    {
+      "name": "《凯撒大帝》 (Julius Caesar)",
+      "type": "work",
+      "context": "莎士比亚另一部以古罗马为背景的戏剧，被提及与《大将军寇流兰》进行历史背景对比。",
+      "importance": "low"
+    },
+    {
+      "name": "《安东尼与克里奥佩特拉》 (Antony and Cleopatra)",
+      "type": "work",
+      "context": "莎士比亚另一部以古罗马为背景的戏剧，被提及与《大将军寇流兰》进行历史背景对比。",
+      "importance": "low"
+    },
+    {
+      "name": "古希腊 (Ancient Greece)",
+      "type": "place",
+      "context": "西方政治史的起点，被提及作为国王、贵族、人民三股势力斗争的背景。",
+      "importance": "low"
+    },
+    {
+      "name": "法国大革命 (French Revolution)",
+      "type": "event",
+      "context": "被提及以引用托克维尔的观点，说明国王联合人民削弱贵族权力可能导致暴政。",
+      "importance": "low"
+    },
+    {
+      "name": "托克维尔 (Alexis de Tocqueville)",
+      "type": "person",
+      "context": "法国历史学家和政治思想家，其关于法国大革命的观点被引用。",
+      "importance": "low"
+    },
+    {
+      "name": "丘吉尔 (Winston Churchill)",
+      "type": "person",
+      "context": "英国政治家，被提及作为拥有高超政治技巧的例子，与Coriolanus的政治能力形成对比。",
+      "importance": "low"
+    },
+    {
+      "name": "码农 (Coder/Programmer)",
+      "type": "concept",
+      "context": "在现代社会中被用作“假精英”的例子，指代对学习“无用学科”的人表示傲慢的群体。",
+      "importance": "low"
+    },
+    {
+      "name": "徐汇区老上海人 (Old Shanghainese from Xuhui District)",
+      "type": "concept",
+      "context": "在现代社会中被用作“假精英”的例子，指代对“外地人”表示傲慢的群体。",
+      "importance": "low"
+    }
+  ],
+  "model": "gemini-2.5-flash",
   "episode_id": "6609916e2d9eae5d0a36ad1d",
   "title": "43-真正的精英有资格鄙视人民吗？莎士比亚《大将军寇流兰》解析"
 }

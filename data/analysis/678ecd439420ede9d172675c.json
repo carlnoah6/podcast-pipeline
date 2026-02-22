@@ -1,8 +1,294 @@
 {
-  "style": {},
-  "entities": [],
-  "parse_error": true,
-  "model": "kimi-k2.5",
+  "style": {
+    "opening_pattern": "以个人经历和生活观察引入，提出普遍存在的问题，随后介绍本集将讨论的经典文本和作者。",
+    "structure": "个人经历引入 -> 概念解释与词源分析 -> 普鲁塔克对唠叨本质的论述（问题、悲剧、应对） -> 历史与哲学案例支撑 -> 主持人结合现代教育的个人反思 -> 普鲁塔克对具体场景的实践建议 -> 普鲁塔克对唠叨深层原因的剖析 -> 总结与自我反思的升华。",
+    "tone": "理性分析、轻松幽默、引人深思、自我反省。",
+    "catchphrases": [
+      "絮絮叨叨",
+      "唠唠叨叨",
+      "喋喋不休",
+      "普鲁塔克说",
+      "最大的悲剧",
+      "用脚面对",
+      "精准简洁而有力",
+      "自我背叛",
+      "会心一笑",
+      "独树不成林"
+    ],
+    "closing_pattern": "总结普鲁塔克文章的最终目的（自我反思），引用名言，并以播客的常规结束语作结。",
+    "narrative_techniques": [
+      "个人轶事",
+      "词源学分析",
+      "类比",
+      "历史典故",
+      "哲学引用",
+      "反问",
+      "对比",
+      "举例说明",
+      "自我反思"
+    ]
+  },
+  "entities": [
+    {
+      "name": "普鲁塔克 (Plutarch)",
+      "type": "person",
+      "context": "本集播客主要围绕普鲁塔克在《道德论丛》中关于唠叨的讨论展开。",
+      "importance": "high"
+    },
+    {
+      "name": "《道德论丛》 (Moralia)",
+      "type": "work",
+      "context": "普鲁塔克的著作，本集具体讨论了其中第38章《有关唠叨》。",
+      "importance": "high"
+    },
+    {
+      "name": "唠叨 (Adoleskias / Garrulitas)",
+      "type": "concept",
+      "context": "本集的核心主题，探讨其本质、问题、悲剧和应对方式。",
+      "importance": "high"
+    },
+    {
+      "name": "理性 (Reason)",
+      "type": "concept",
+      "context": "普鲁塔克认为理性是哲学家治疗唠叨的“手术刀”，也是控制言语的关键。",
+      "importance": "high"
+    },
+    {
+      "name": "自省 (Self-reflection)",
+      "type": "concept",
+      "context": "普鲁塔克文章的最终目的，也是主持人强调的提升自我控制力的关键。",
+      "importance": "high"
+    },
+    {
+      "name": "言辞简洁 (Concise speech)",
+      "type": "concept",
+      "context": "与唠叨相对的理想沟通方式，被柏拉图和斯巴达文化所推崇。",
+      "importance": "high"
+    },
+    {
+      "name": "自我背叛 (Self-betrayal)",
+      "type": "concept",
+      "context": "普鲁塔克认为唠叨者首先背叛的是自己，因为他们失去了对自己言语的控制。",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德 (Aristotle)",
+      "type": "person",
+      "context": "普鲁塔克引用亚里士多德的例子，说明他如何机智地应对唠叨者。",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图 (Plato)",
+      "type": "person",
+      "context": "柏拉图评价雅典人因语言受重罚，并称赞言辞简洁的人。",
+      "importance": "medium"
+    },
+    {
+      "name": "苏格拉底 (Socrates)",
+      "type": "person",
+      "context": "苏格拉底被提及作为通过提问开启对话而非寻求答案的典范，也劝告人们不要在没有需求时说话。",
+      "importance": "medium"
+    },
+    {
+      "name": "奥德修斯 (Odysseus)",
+      "type": "person",
+      "context": "荷马史诗中的英雄，被描绘成最有口才且最能克制言语的人，是自制力的典范。",
+      "importance": "medium"
+    },
+    {
+      "name": "西蒙尼德斯 (Simonides)",
+      "type": "person",
+      "context": "古希腊诗人，其名言“我曾多次后悔我说出来的话，但我从来没有后悔保持沉默”被引用作为结尾。",
+      "importance": "medium"
+    },
+    {
+      "name": "Peri Adoleskias",
+      "type": "concept",
+      "context": "古希腊语，意为“有关唠叨”，是普鲁塔克文章标题的原文。",
+      "importance": "medium"
+    },
+    {
+      "name": "De Garrulitate",
+      "type": "concept",
+      "context": "拉丁语，意为“有关唠叨”，是普鲁塔克文章标题的拉丁语翻译，也是英文单词Garrulus的词根。",
+      "importance": "medium"
+    },
+    {
+      "name": "Garrulus",
+      "type": "concept",
+      "context": "现代英语中形容多嘴多舌的高级词汇，源自拉丁词根Garrulitate。",
+      "importance": "medium"
+    },
+    {
+      "name": "苏拉 (Sulla)",
+      "type": "person",
+      "context": "罗马帝王，因雅典人多嘴多舌而对他们感到愤怒。",
+      "importance": "medium"
+    },
+    {
+      "name": "雅典 (Athens)",
+      "type": "place",
+      "context": "古希腊城邦，被普鲁塔克和柏拉图描述为因多嘴多舌而遭受惩罚的例子。",
+      "importance": "medium"
+    },
+    {
+      "name": "芝诺 (Zeno)",
+      "type": "person",
+      "context": "哲学家，在受刑时咬断舌头以保守秘密，展现了极强的自制力。",
+      "importance": "medium"
+    },
+    {
+      "name": "李安娜 (Leana)",
+      "type": "person",
+      "context": "参与反暴君阴谋的女性，为保守秘密咬断舌头，被雅典人竖无舌铜狮赞美。",
+      "importance": "medium"
+    },
+    {
+      "name": "荷马 (Homer)",
+      "type": "person",
+      "context": "古希腊诗人，其作品《奥德赛》中的奥德修斯被用作克制言语的典范。",
+      "importance": "medium"
+    },
+    {
+      "name": "《奥德赛》 (Odyssey)",
+      "type": "work",
+      "context": "荷马史诗，其中奥德修斯的故事被用来阐述言语自制的重要性。",
+      "importance": "medium"
+    },
+    {
+      "name": "莱克尔格斯 (Lycurgus)",
+      "type": "person",
+      "context": "斯巴达的建国者，通过从小培养沉默习惯，使斯巴达人习得言辞简洁。",
+      "importance": "medium"
+    },
+    {
+      "name": "斯巴达 (Sparta)",
+      "type": "place",
+      "context": "古希腊城邦，以其公民言辞简洁、精准有力而闻名。",
+      "importance": "medium"
+    },
+    {
+      "name": "迪奥尼修斯 (Dionysius)",
+      "type": "person",
+      "context": "暴君，因理发师多嘴多舌而将其钉上十字架。",
+      "importance": "medium"
+    },
+    {
+      "name": "阿尔基雷奥斯 (Archileos)",
+      "type": "person",
+      "context": "智慧的斯巴达国王，在理发店以“安静的理”回应理发师的提问，强调沉默。",
+      "importance": "medium"
+    },
+    {
+      "name": "修昔底德 (Thucydides)",
+      "type": "person",
+      "context": "古希腊历史学家，其《伯罗奔尼撒战争史》被安提玛科斯作为滔滔不绝的例子。",
+      "importance": "medium"
+    },
+    {
+      "name": "《伯罗奔尼撒战争史》 (History of the Peloponnesian War)",
+      "type": "work",
+      "context": "修昔底德的著作，被用作安提玛科斯滔滔不绝背诵的例子。",
+      "importance": "medium"
+    },
+    {
+      "name": "安提玛科斯 (Antimachus)",
+      "type": "person",
+      "context": "古希腊诗人，被普鲁塔克实名吐槽为极端唠叨、滔滔不绝的典型。",
+      "importance": "medium"
+    },
+    {
+      "name": "卡涅阿德斯 (Carneades)",
+      "type": "person",
+      "context": "柏拉图学院的哲学家，因辩论声音太大被管理员提醒，管理员的回答成为约束言语的例子。",
+      "importance": "medium"
+    },
+    {
+      "name": "希罗多德 (Herodotus)",
+      "type": "person",
+      "context": "古希腊历史学家，主持人的老乡因只读他的三本书并反复提及而被戏称为“希罗多德复读机”。",
+      "importance": "medium"
+    },
+    {
+      "name": "御权之术 (Art of governance)",
+      "type": "concept",
+      "context": "普鲁塔克指出王室继承人教育中，首先要学会的是保持沉默，这是一种“闭嘴的艺术”。",
+      "importance": "medium"
+    },
+    {
+      "name": "脑雾格",
+      "type": "person",
+      "context": "播客前奏的弹奏者，被主持人用作自己因其散漫性格而变得唠叨的例子。",
+      "importance": "low"
+    },
+    {
+      "name": "奥林匹亚 (Olympia)",
+      "type": "place",
+      "context": "古希腊的圣地，其中“七声七个回音的柱廊”被普鲁塔克用来类比唠叨者的多话症。",
+      "importance": "low"
+    },
+    {
+      "name": "七声七个回音的柱廊 (Portico of Seven Echoes)",
+      "type": "other",
+      "context": "奥林匹亚的一座柱廊，其回音效果被普鲁塔克用来比喻唠叨者对简单话语的过度反应。",
+      "importance": "low"
+    },
+    {
+      "name": "独眼巨人 (Cyclops)",
+      "type": "other",
+      "context": "荷马史诗《奥德赛》中的怪物，奥德修斯伙伴们在被其拖拽时仍保守秘密，展现了忠诚。",
+      "importance": "low"
+    },
+    {
+      "name": "阿波罗神庙 (Temple of Apollo)",
+      "type": "place",
+      "context": "古希腊最神圣的殿堂，刻有三句简洁真言，象征言辞的紧凑和智慧。",
+      "importance": "low"
+    },
+    {
+      "name": "《伊利亚特》 (Iliad)",
+      "type": "work",
+      "context": "荷马史诗，被提及与品达的颂歌一起，作为长篇大论的例子，与阿波罗神庙的简洁真言形成对比。",
+      "importance": "low"
+    },
+    {
+      "name": "斐德罗 (Phaedrus)",
+      "type": "person",
+      "context": "苏格拉底对话中的年轻人，被提及苏格拉底与他们对话的目的并非为了获得答案。",
+      "importance": "low"
+    },
+    {
+      "name": "卡尔米德 (Charmides)",
+      "type": "person",
+      "context": "苏格拉底对话中的年轻人，被提及苏格拉底与他们对话的目的并非为了获得答案。",
+      "importance": "low"
+    },
+    {
+      "name": "阿尔喀比亚德 (Alcibiades)",
+      "type": "person",
+      "context": "雅典政治家，在安提玛科斯滔滔不绝的例子中被提及，作为其冗长叙述的一部分。",
+      "importance": "low"
+    },
+    {
+      "name": "提萨弗涅斯 (Tissaphernes)",
+      "type": "person",
+      "context": "波斯总督，在安提玛科斯滔滔不绝的例子中被提及。",
+      "importance": "low"
+    },
+    {
+      "name": "Miletus",
+      "type": "place",
+      "context": "古希腊小城镇，在安提玛科斯滔滔不绝的例子中被提及，普鲁塔克开玩笑说在他闭嘴前Miletus都能打完一场战争。",
+      "importance": "low"
+    },
+    {
+      "name": "希罗多德复读机 (Herodotus Repeater)",
+      "type": "other",
+      "context": "主持人给只读希罗多德三本书并反复提及的老乡起的绰号，形象地说明了唠叨的特点。",
+      "importance": "low"
+    }
+  ],
+  "model": "gemini-2.5-flash",
   "episode_id": "678ecd439420ede9d172675c",
   "title": "169-唠唠叨叨的人如何闭嘴？"
 }
