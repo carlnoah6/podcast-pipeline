@@ -7,6 +7,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -73,7 +74,15 @@ def main() -> None:
         }
         for i, future in enumerate(as_completed(futures), 1):
             episode_id, entity_count, error = future.result()
-            if error:
+            if error == "skipped":
+                # Write marker so we don't retry forever
+                marker = args.output_dir / f"{episode_id}.json"
+                if not marker.exists():
+                    with open(marker, "w") as f:
+                        json.dump({"episode_id": episode_id, "skipped": True, "reason": "text too short"}, f)
+                success += 1
+                logger.warning("[%d/%d] %s: skipped (text too short)", i, len(batch), episode_id)
+            elif error:
                 logger.warning("[%d/%d] %s: %s", i, len(batch), episode_id, error)
             else:
                 success += 1
