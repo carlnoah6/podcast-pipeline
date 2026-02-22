@@ -66,8 +66,11 @@ jobs:
             git add data/analysis/
             COUNT=$(git diff --cached --name-only | wc -l)
             git commit -m "analyze: $COUNT files [auto]"
-            git pull --rebase origin main || true
-            git push origin main
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin main && break
+              echo "Push attempt $i failed, retrying..."
+              sleep 3
+            done
           fi
 
       - name: Trigger next batch
