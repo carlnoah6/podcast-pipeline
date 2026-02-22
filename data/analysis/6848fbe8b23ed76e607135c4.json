@@ -1,0 +1,243 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件/个人动态引入（翻译新书下印预告），迅速转入主题",
+    "structure": "个人经历→核心文本介绍→对话逐层展开→五种问题系统分析→总结升华，穿插现代类比与历史呼应",
+    "tone": "知性幽默、学术性与通俗性交织、带有自嘲和反讽",
+    "catchphrases": [
+      "脱口秀大王",
+      "嘴贱",
+      "厚颜无耻的自吹自擂",
+      "缺德的朋友榜眼哥",
+      "呕吐物",
+      "东施效颦",
+      "带刺的玫瑰",
+      "人人都能讲五分钟的脱口秀",
+      "借力打力"
+    ],
+    "closing_pattern": "自我解构式结尾（承认媒介局限）+开放式邀请（鼓励阅读原文）+轻松告别",
+    "narrative_techniques": [
+      "古今对比（西塞罗与现代脱口秀演员）",
+      "自我调侃",
+      "层层设问",
+      "引用原文对话模拟场景",
+      "伏笔呼应（马克·安东尼祖孙关系）",
+      "打断式补充说明"
+    ]
+  },
+  "entities": [
+    {
+      "name": "西塞罗（Cicero）",
+      "type": "person",
+      "context": "古罗马政治家、演说家，被称为'脱口秀大王'，本文核心讨论对象，其著作《论演讲》是分析的主要文本",
+      "importance": "high"
+    },
+    {
+      "name": "普鲁塔克（Plutarch）",
+      "type": "person",
+      "context": "古希腊作家，其《道德论丛》被主播从古希腊语翻译，对西塞罗的幽默有敏锐观察，认为其'嘴贱'导致丧命",
+      "importance": "high"
+    },
+    {
+      "name": "马克·安东尼（Mark Antony）",
+      "type": "person",
+      "context": "西塞罗政敌，《论演讲》对话中的角色之一，其孙子后来派人暗杀西塞罗",
+      "importance": "high"
+    },
+    {
+      "name": "凯撒（Julius Caesar Strabo）",
+      "type": "person",
+      "context": "《论演讲》对话中的角色，非征服高卢的凯撒，以风趣搞笑著称，被西塞罗借来阐述幽默理论",
+      "importance": "high"
+    },
+    {
+      "name": "克拉苏（Lucius Licinius Crassus）",
+      "type": "person",
+      "context": "《论演讲》对话中的角色，著名罗马演说家，被赞为兼具持续性搞笑与即兴回击能力",
+      "importance": "high"
+    },
+    {
+      "name": "德谟克利特（Democritus）",
+      "type": "person",
+      "context": "古希腊哲学家，被称为'笑者'，西塞罗借凯撒之口将'什么是笑声'的问题推给他",
+      "importance": "medium"
+    },
+    {
+      "name": "赫拉克利特（Heraclitus）",
+      "type": "person",
+      "context": "古希腊哲学家，被称为'哭着的哲学家'，与德谟克利特形成对照",
+      "importance": "low"
+    },
+    {
+      "name": "马尔库斯·布鲁图斯（Marcus Brutus）",
+      "type": "person",
+      "context": "被克拉苏在法庭上双管齐下讽刺挖苦的对象",
+      "importance": "low"
+    },
+    {
+      "name": "Memmius",
+      "type": "person",
+      "context": "克拉苏在法庭辩论中调侃的对象，被夸张描述为咬下他人手臂吞下",
+      "importance": "low"
+    },
+    {
+      "name": "Cornelius",
+      "type": "person",
+      "context": "西塞罗举例中的贪婪骁勇人物，与Fabricius有政治互动",
+      "importance": "low"
+    },
+    {
+      "name": "Fabricius",
+      "type": "person",
+      "context": "以暗示性幽默回应Cornelius的罗马政治家",
+      "importance": "low"
+    },
+    {
+      "name": "苏格拉底（Socrates）",
+      "type": "person",
+      "context": "古希腊哲学家，被举为讽刺艺术的极致典范",
+      "importance": "medium"
+    },
+    {
+      "name": "徐志胜",
+      "type": "person",
+      "context": "中国现代脱口秀演员，被用作'天赋型搞笑'的例子",
+      "importance": "low"
+    },
+    {
+      "name": "何广志",
+      "type": "person",
+      "context": "中国现代脱口秀演员，'带刺的玫瑰'自嘲案例",
+      "importance": "low"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "主播的朋友，多次被提及，讨论罗马史、评论主播翻译工作，因评论罗马人'奸淫良家妇女'被骂",
+      "importance": "medium"
+    },
+    {
+      "name": "明镜",
+      "type": "person",
+      "context": "播客主播之一，与榜眼哥讨论过罗马史",
+      "importance": "low"
+    },
+    {
+      "name": "Quintilian",
+      "type": "person",
+      "context": "古罗马修辞学家，著有公开演讲权威教科书，其幽默论述被收录于《How to tell a joke》下半部",
+      "importance": "medium"
+    },
+    {
+      "name": "拉斐尔（Raphael）",
+      "type": "person",
+      "context": "文艺复兴画家，其画作《雅典学院》中德谟克利特形象被提及",
+      "importance": "low"
+    },
+    {
+      "name": "埃及艳后克里奥帕特拉（Cleopatra）",
+      "type": "person",
+      "context": "被用来区分两个马克·安东尼（祖父与孙子）",
+      "importance": "low"
+    },
+    {
+      "name": "《道德论丛》（Moralia）",
+      "type": "work",
+      "context": "普鲁塔克著作，主播从古希腊语翻译，即将下印",
+      "importance": "high"
+    },
+    {
+      "name": "《希腊罗马名人传》（Parallel Lives）",
+      "type": "work",
+      "context": "普鲁塔克著作，至今无完整古希腊语原文中文译本",
+      "importance": "medium"
+    },
+    {
+      "name": "De Oratore《论演讲》/《论雄辩》",
+      "type": "work",
+      "context": "西塞罗代表作，系统性讨论公共演讲艺术，本文分析的核心文本（第二卷第216-290节）",
+      "importance": "high"
+    },
+    {
+      "name": "Philippics《反腓力辞》",
+      "type": "work",
+      "context": "西塞罗政治演讲，其中痛骂马克·安东尼",
+      "importance": "medium"
+    },
+    {
+      "name": "《如何讲笑话》（How to tell a joke）",
+      "type": "work",
+      "context": "普林斯顿大学出版社出版的英拉对照读本，收录本文分析的文本及Quintilian论述",
+      "importance": "high"
+    },
+    {
+      "name": "Consularis Scurra",
+      "type": "concept",
+      "type_override": "concept",
+      "context": "西塞罗对手给他的绰号，意为'执政官小丑/脱口秀大王'，含贬义",
+      "importance": "high"
+    },
+    {
+      "name": "res（内容型幽默）",
+      "type": "concept",
+      "context": "西塞罗/凯撒划分的幽默两大类型之一，依赖情景、事实、故事本身",
+      "importance": "high"
+    },
+    {
+      "name": "dictum（措辞型幽默）",
+      "type": "concept",
+      "context": "西塞罗/凯撒划分的幽默两大类型之一，依赖巧妙的言语表达",
+      "importance": "high"
+    },
+    {
+      "name": "one liner",
+      "type": "concept",
+      "context": "被归为措辞型幽默的一种，即机智的单句俏皮话",
+      "importance": "medium"
+    },
+    {
+      "name": "non sequitur",
+      "type": "concept",
+      "context": "内容型幽默技法之一，指不符合逻辑的回复方式",
+      "importance": "low"
+    },
+    {
+      "name": "同盟者战争（Social War）",
+      "type": "event",
+      "context": "公元前91年爆发的罗马内战，《论演讲》对话设定的历史背景",
+      "importance": "medium"
+    },
+    {
+      "name": "西塞罗被暗杀",
+      "type": "event",
+      "context": "公元前43年，马克·安东尼的孙子派人将西塞罗斩首示众，标志罗马共和衰亡",
+      "importance": "high"
+    },
+    {
+      "name": "罗马共和国向帝制转变",
+      "type": "event",
+      "context": "西塞罗死后罗马政治体制的重大转型，言论自由空间收缩",
+      "importance": "medium"
+    },
+    {
+      "name": "北京书展线上直播",
+      "type": "event",
+      "context": "主播预告的活动，6月19日与普林斯顿大学出版社对话，主题为'古希腊人如何谈恋爱'",
+      "importance": "low"
+    },
+    {
+      "name": "罗马广场",
+      "type": "place",
+      "context": "西塞罗被斩首后，头颅和双手被悬挂示众的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "普林斯顿大学出版社",
+      "type": "organization",
+      "context": "出版《How to tell a joke》并邀请主播进行线上活动的机构",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6848fbe8b23ed76e607135c4",
+  "title": "224-古罗马脱口秀大王如何搞笑？"
+}

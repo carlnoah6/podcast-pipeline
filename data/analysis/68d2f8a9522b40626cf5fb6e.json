@@ -1,0 +1,447 @@
+{
+  "style": {
+    "opening_pattern": "以方法论批判引入，强调研究政治话题时'体感'的重要性，批判学术界缺乏对其他文明体感的局限性",
+    "structure": "问题→历史→教义→政治创新→结论的层进式结构：先建立方法论基础（体感与局限性），再梳理波斯-阿拉伯历史区分，接着分析什叶派教义核心（殉难、隐遁、少数派心态），最后揭示1979革命带来的教义颠覆（教士治国、泛伊斯兰主义、马克思主义融合）",
+    "tone": "学术批判性与口语化个人风格结合，理性但带有强烈主观判断，使用讽刺性比喻（如'战狼''倒反天罡'），兼具历史纵深感和现实针对性",
+    "catchphrases": [
+      "体感",
+      "倒反天罡",
+      "战狼",
+      "我想说的是",
+      "对吧",
+      "叽里咕噜",
+      "Taqiya",
+      "隐遁",
+      "少数派",
+      "OK"
+    ],
+    "closing_pattern": "总结式收束，回顾历史线索，指出当代伊朗是'全新的现代政治宗教样式'，强调理解历史需要'脉络、感知、体感'，最后标准告别",
+    "narrative_techniques": [
+      "对比（波斯vs阿拉伯、什叶派vs逊尼派、少数派vs多数派、阿拉伯什叶派vs波斯什叶派）",
+      "历史纵深（从古代波斯帝国到1979革命的长时段叙述）",
+      "概念解构（拆解'什叶派''伊斯兰共和国'等概念的传统与颠覆）",
+      "个人经历穿插（在中东北非的工作生活体验）",
+      "类比（学者缺乏体感比作中国学生研究美国政治）",
+      "引用转述（引用阿拉伯什叶派朋友的观点）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "霍梅尼",
+      "type": "person",
+      "context": "1979年伊斯兰革命领袖，提出'教士治国'(Velayat-e Faqih)理论，推翻巴列维王朝建立伊斯兰共和国",
+      "importance": "high"
+    },
+    {
+      "name": "哈梅内伊",
+      "type": "person",
+      "context": "现任伊朗最高领袖，1989年继任至今，翻译赛义德·库特卜著作，将泛伊斯兰主义思想注入什叶派",
+      "importance": "high"
+    },
+    {
+      "name": "阿里",
+      "type": "person",
+      "context": "穆罕默德的堂弟兼女婿，什叶派认为的唯一合法继承人，第四任哈里发，被暗杀后其子侯赛因成为殉难象征",
+      "importance": "high"
+    },
+    {
+      "name": "侯赛因",
+      "type": "person",
+      "context": "阿里的儿子，公元680年在卡尔巴拉战役中被杀害，其殉难形成什叶派'殉难神学'的核心事件",
+      "importance": "high"
+    },
+    {
+      "name": "赛义德·库特卜",
+      "type": "person",
+      "context": "穆斯林兄弟会最重要的神学家，著有《路标》，提出通过政治革命建立完整伊斯兰社会，其思想被霍梅尼和哈梅内伊借鉴",
+      "importance": "high"
+    },
+    {
+      "name": "哈桑·班纳",
+      "type": "person",
+      "context": "穆斯林兄弟会创始人，提出回归七世纪阿拉伯帝国辉煌的复兴口号",
+      "importance": "medium"
+    },
+    {
+      "name": "穆罕默德",
+      "type": "person",
+      "context": "伊斯兰教先知，公元632年去世后引发继承危机，导致逊尼派和什叶派分裂",
+      "importance": "high"
+    },
+    {
+      "name": "阿布·伯克尔",
+      "type": "person",
+      "context": "穆罕默德的岳父，被逊尼派推举为第一任哈里发，代表社群协商推举的传统",
+      "importance": "medium"
+    },
+    {
+      "name": "什叶派",
+      "type": "concept",
+      "context": "伊斯兰教少数派(占10-15%)，强调先知家族血脉继承，有殉难神学和隐遁教义，历史上作为少数派被迫害，1979年后在伊朗成为掌权多数派",
+      "importance": "high"
+    },
+    {
+      "name": "逊尼派",
+      "type": "concept",
+      "context": "伊斯兰教主流派别(占85-90%)，强调社群协商推举哈里发，历史上掌握政权，代表伊斯兰世界建制派",
+      "importance": "high"
+    },
+    {
+      "name": "教士治国/法学家监护",
+      "type": "concept",
+      "context": "霍梅尼提出的突破性教义(Velayat-e Faqih)，主张教法学家作为伊玛目代理人管理国家，颠覆了什叶派传统中等待救世主的被动立场",
+      "importance": "high"
+    },
+    {
+      "name": "隐遁",
+      "type": "concept",
+      "context": "什叶派教义中第十二位伊玛目马赫迪进入隐遁状态，将在末日归来建立正义秩序，这是什叶派历史上拒绝掌权的神学基础",
+      "importance": "high"
+    },
+    {
+      "name": "Taqiya/塔基亚",
+      "type": "concept",
+      "context": "什叶派在被迫害时允许隐藏真实信仰以保全生命的教义，体现少数派生存策略，与掌权后的'战狼'心态形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "泛伊斯兰主义",
+      "type": "concept",
+      "context": "20世纪产生于埃及逊尼派世界的意识形态(穆斯林兄弟会)，主张回归七世纪辉煌、反西方反现代、建立伊斯兰政府，被霍梅尼借鉴注入什叶派",
+      "importance": "high"
+    },
+    {
+      "name": "殉难神学",
+      "type": "concept",
+      "context": "围绕侯赛因在卡尔巴拉殉难形成的什叶派核心神学，强调受难、牺牲和等待救赎，区别于掌权的政治神学",
+      "importance": "high"
+    },
+    {
+      "name": "马赫迪/救世主",
+      "type": "concept",
+      "context": "什叶派信仰中将在末日归来的第十二位伊玛目，建立正义秩序，是什叶派历史上拒绝世俗掌权的末世论基础",
+      "importance": "high"
+    },
+    {
+      "name": "1979年伊斯兰革命",
+      "type": "event",
+      "context": "霍梅尼推翻巴列维王朝，建立伊斯兰共和国，标志着什叶派从被动等待救世主转向主动掌权的颠覆性转变",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔巴拉战役",
+      "type": "event",
+      "context": "公元680年侯赛因及其追随者在伊拉克卡尔巴拉被杀害的事件，成为什叶派殉难神学的核心事件和集体记忆",
+      "importance": "high"
+    },
+    {
+      "name": "萨法维王朝建立/1501年",
+      "type": "event",
+      "context": "萨法维王朝于1501年建立，将什叶派伊斯兰教定为波斯国教，标志着波斯从逊尼派转向什叶派的关键转折点",
+      "importance": "high"
+    },
+    {
+      "name": "伊朗/波斯",
+      "type": "place",
+      "context": "主体讨论对象，1979年后成为什叶派掌权的伊斯兰共和国，历史上是波斯帝国、萨法维王朝等文明载体",
+      "importance": "high"
+    },
+    {
+      "name": "阿拉伯半岛",
+      "type": "place",
+      "context": "阿拉伯人发源地，伊斯兰教诞生地，与波斯/伊朗形成文明对比，代表逊尼派主流和阿拉伯语神圣性",
+      "importance": "high"
+    },
+    {
+      "name": "伊拉克",
+      "type": "place",
+      "context": "什叶派圣地所在地（卡尔巴拉、纳杰夫等），阿拉伯什叶派集中地，与伊朗什叶派存在深刻分歧",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔巴拉",
+      "type": "place",
+      "context": "伊拉克城市，什叶派第一圣地，侯赛因殉难地，象征什叶派受难和牺牲精神",
+      "importance": "high"
+    },
+    {
+      "name": "黎巴嫩",
+      "type": "place",
+      "context": "阿拉伯什叶派聚集地，伊朗通过支持真主党介入该地区，体现阿拉伯什叶派对伊朗什叶派的反感",
+      "importance": "high"
+    },
+    {
+      "name": "埃及",
+      "type": "place",
+      "context": "泛伊斯兰主义（穆斯林兄弟会）诞生地，代表逊尼派现代政治伊斯兰思想源头",
+      "importance": "high"
+    },
+    {
+      "name": "沙特阿拉伯",
+      "type": "place",
+      "context": "逊尼派瓦哈比主义中心，与伊朗敌对但愿意与以色列合作（区别于伊朗必欲除之而后快）",
+      "importance": "high"
+    },
+    {
+      "name": "耶路撒冷",
+      "type": "place",
+      "context": "对逊尼派、犹太教、基督教重要，但对什叶派传统教义不重要，伊朗对其强调源于泛伊斯兰主义而非什叶派传统",
+      "importance": "medium"
+    },
+    {
+      "name": "穆斯林兄弟会",
+      "type": "organization",
+      "context": "埃及诞生的逊尼派泛伊斯兰主义组织，赛义德·库特卜和哈桑·班纳为其代表，其思想被霍梅尼借鉴",
+      "importance": "high"
+    },
+    {
+      "name": "真主党",
+      "type": "organization",
+      "context": "黎巴嫩什叶派武装组织，受伊朗支持，体现伊朗输出革命和阿拉伯什叶派对波斯什叶派的矛盾",
+      "importance": "medium"
+    },
+    {
+      "name": "巴列维王朝",
+      "type": "organization",
+      "context": "1979年被霍梅尼推翻的伊朗世俗君主制政权，代表亲西方世俗化路线",
+      "importance": "high"
+    },
+    {
+      "name": "萨法维王朝",
+      "type": "organization",
+      "context": "1501年建立，将什叶派定为波斯国教，标志着波斯从逊尼派转向什叶派的关键王朝",
+      "importance": "high"
+    },
+    {
+      "name": "卡扎尔王朝",
+      "type": "organization",
+      "context": "萨法维王朝之后的波斯王朝，巴列维王朝之前",
+      "importance": "low"
+    },
+    {
+      "name": "奥斯曼帝国",
+      "type": "organization",
+      "context": "逊尼派帝国，与萨法维王朝长期敌对，代表逊尼派建制力量",
+      "importance": "medium"
+    },
+    {
+      "name": "伊斯兰共和国",
+      "type": "organization",
+      "context": "1979年后霍梅尼建立的伊朗政体，结合什叶派、泛伊斯兰主义和马克思主义的现代神权共和国",
+      "importance": "high"
+    },
+    {
+      "name": "古兰经",
+      "type": "work",
+      "context": "伊斯兰教圣典，阿拉伯人认为其语言神圣，波斯人则视为外来宗教经典",
+      "importance": "high"
+    },
+    {
+      "name": "列王纪/沙纳玛",
+      "type": "work",
+      "context": "菲尔多西创作的波斯史诗，代表波斯前伊斯兰文明传统，与阿拉伯宗教艺术区别明显",
+      "importance": "high"
+    },
+    {
+      "name": "路标",
+      "type": "work",
+      "context": "赛义德·库特卜著作，阐述泛伊斯兰主义革命思想，被哈梅内伊翻译引入伊朗",
+      "importance": "high"
+    },
+    {
+      "name": "论法的精神",
+      "type": "work",
+      "context": "孟德斯鸠著作，提到其写作年代对应萨法维王朝时期",
+      "importance": "low"
+    },
+    {
+      "name": "阿拉伯语",
+      "type": "other",
+      "context": "阿拉伯人身份认同核心，被认为是神圣语言（真主的语言），与波斯语形成文明对比",
+      "importance": "high"
+    },
+    {
+      "name": "波斯语",
+      "type": "other",
+      "context": "波斯人文化载体，使用阿拉伯字母但属印欧语系，其文学传统（如《列王纪》）非宗教性",
+      "importance": "high"
+    },
+    {
+      "name": "楔形文字",
+      "type": "other",
+      "context": "古波斯语使用的文字系统，后转为阿拉伯字母体系",
+      "importance": "low"
+    },
+    {
+      "name": "德鲁兹人",
+      "type": "concept",
+      "context": "中东少数宗教群体，历史上常需伪装成穆斯林（Taqiya）以保命，与什叶派处境类似但更为边缘",
+      "importance": "medium"
+    },
+    {
+      "name": "阿拉维人",
+      "type": "concept",
+      "context": "叙利亚等地少数群体，常被误归为什叶派但实际非穆斯林，历史上需使用Taqiya伪装",
+      "importance": "medium"
+    },
+    {
+      "name": "伊斯玛仪派",
+      "type": "concept",
+      "context": "什叶派分支（七伊玛目派），与十二伊玛目派（主流什叶派）不同，属少数中的少数",
+      "importance": "medium"
+    },
+    {
+      "name": "马赫迪",
+      "type": "concept",
+      "context": "什叶派信仰中第十二位伊玛目，处于隐遁状态，将在末日归来建立正义秩序，是什叶派拒绝世俗掌权的神学基础",
+      "importance": "high"
+    },
+    {
+      "name": "Taqiya/塔基亚",
+      "type": "concept",
+      "context": "什叶派教义允许在被迫害时隐藏真实信仰以保全生命，体现少数派生存策略，与掌权后的'战狼'心态形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "隐遁",
+      "type": "concept",
+      "context": "指第十二伊玛目马赫迪在公元九世纪进入隐遁状态，仍在世但不可见，是什叶派拒绝建立世俗政权的神学基础",
+      "importance": "high"
+    },
+    {
+      "name": "殉难神学",
+      "type": "concept",
+      "context": "围绕侯赛因在卡尔巴拉殉难形成的什叶派核心神学，强调受难、牺牲和等待救赎，区别于掌权的政治神学",
+      "importance": "high"
+    },
+    {
+      "name": "教士治国/法学家监护",
+      "type": "concept",
+      "context": "霍梅尼提出的Velayat-e Faqih理论，主张教法学家作为隐遁伊玛目的代理人管理国家，颠覆什叶派传统",
+      "importance": "high"
+    },
+    {
+      "name": "泛伊斯兰主义",
+      "type": "concept",
+      "context": "20世纪产生于埃及（穆斯林兄弟会）的逊尼派现代意识形态，主张回归七世纪辉煌、反西方反现代，被霍梅尼借鉴注入什叶派",
+      "importance": "high"
+    },
+    {
+      "name": "Jahiliyya/蒙昧时代",
+      "type": "concept",
+      "context": "库特卜使用的概念，指现代穆斯林社会已重新陷入愚昧黑暗时代，必须通过革命净化",
+      "importance": "medium"
+    },
+    {
+      "name": "1979年伊斯兰革命",
+      "type": "event",
+      "context": "霍梅尼推翻巴列维王朝建立伊斯兰共和国，标志什叶派从被动等待转向主动掌权的颠覆性转变",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔巴拉战役",
+      "type": "event",
+      "context": "公元680年侯赛因在伊拉克卡尔巴拉被杀害，成为什叶派殉难神学的核心事件和集体记忆",
+      "importance": "high"
+    },
+    {
+      "name": "萨法维王朝建立/1501年",
+      "type": "event",
+      "context": "萨法维王朝将什叶派定为波斯国教，标志波斯从逊尼派转向什叶派，是伊朗什叶派历史的起点",
+      "importance": "high"
+    },
+    {
+      "name": "伊朗/波斯",
+      "type": "place",
+      "context": "主体讨论对象，1979年后成为什叶派掌权的伊斯兰共和国，历史上是波斯帝国、萨法维王朝等文明载体",
+      "importance": "high"
+    },
+    {
+      "name": "伊拉克",
+      "type": "place",
+      "context": "什叶派圣地所在地（卡尔巴拉、纳杰夫），阿拉伯什叶派集中地，与伊朗什叶派存在深刻分歧",
+      "importance": "high"
+    },
+    {
+      "name": "黎巴嫩",
+      "type": "place",
+      "context": "阿拉伯什叶派聚集地，伊朗通过支持真主党介入该地区，体现阿拉伯什叶派对波斯什叶派的反感",
+      "importance": "high"
+    },
+    {
+      "name": "埃及",
+      "type": "place",
+      "context": "泛伊斯兰主义（穆斯林兄弟会）诞生地，代表逊尼派现代政治伊斯兰思想源头",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔巴拉",
+      "type": "place",
+      "context": "伊拉克城市，什叶派第一圣地，侯赛因殉难地，象征什叶派受难和牺牲精神",
+      "importance": "high"
+    },
+    {
+      "name": "穆斯林兄弟会",
+      "type": "organization",
+      "context": "埃及诞生的逊尼派泛伊斯兰主义组织，赛义德·库特卜和哈桑·班纳为其代表，其思想被霍梅尼借鉴",
+      "importance": "high"
+    },
+    {
+      "name": "真主党",
+      "type": "organization",
+      "context": "黎巴嫩什叶派武装组织，受伊朗支持，体现伊朗输出革命和阿拉伯什叶派对波斯什叶派的矛盾",
+      "importance": "medium"
+    },
+    {
+      "name": "巴列维王朝",
+      "type": "organization",
+      "context": "1979年被霍梅尼推翻的伊朗世俗君主制政权，代表亲西方世俗化路线",
+      "importance": "high"
+    },
+    {
+      "name": "萨法维王朝",
+      "type": "organization",
+      "context": "1501年建立，将什叶派定为波斯国教，标志着波斯从逊尼派转向什叶派的关键王朝",
+      "importance": "high"
+    },
+    {
+      "name": "伊斯兰共和国",
+      "type": "organization",
+      "context": "1979年后霍梅尼建立的伊朗政体，结合什叶派、泛伊斯兰主义和马克思主义的现代神权共和国",
+      "importance": "high"
+    },
+    {
+      "name": "古兰经",
+      "type": "work",
+      "context": "伊斯兰教圣典，阿拉伯人认为其语言神圣，波斯人则视为外来宗教经典",
+      "importance": "high"
+    },
+    {
+      "name": "列王纪/沙纳玛",
+      "type": "work",
+      "context": "菲尔多西创作的波斯史诗，代表波斯前伊斯兰文明传统，与阿拉伯宗教艺术区别明显",
+      "importance": "high"
+    },
+    {
+      "name": "路标",
+      "type": "work",
+      "context": "赛义德·库特卜著作，阐述泛伊斯兰主义革命思想，被哈梅内伊翻译引入伊朗",
+      "importance": "high"
+    },
+    {
+      "name": "阿拉伯语",
+      "type": "other",
+      "context": "阿拉伯人身份认同核心，被认为是神圣语言（真主的语言），与波斯语形成文明对比",
+      "importance": "high"
+    },
+    {
+      "name": "波斯语",
+      "type": "other",
+      "context": "波斯人文化载体，使用阿拉伯字母但属印欧语系，其文学传统（如《列王纪》）非宗教性",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68d2f8a9522b40626cf5fb6e",
+  "title": "257-当代伊朗如何颠覆什叶派伊斯兰？"
+}

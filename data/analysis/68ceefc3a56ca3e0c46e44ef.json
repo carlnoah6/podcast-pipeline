@@ -1,0 +1,254 @@
+{
+  "style": {
+    "opening_pattern": "以核心概念直接切入，先抛出预制菜的两个维度（人与时间、人与空间的关系），再逐步展开论述",
+    "structure": "概念引入→个人经历铺垫→对比分析（海民/山民）→细节描绘→哲学升华→开放式结尾",
+    "tone": "亲切自省、理性中带感性，既有学术思考的深度，又有生活化的坦诚",
+    "catchphrases": [
+      "对吧",
+      "我想说的是",
+      "也就是说",
+      "这意味着",
+      "我妈跟我说",
+      "我那个纳西族管家跟我说",
+      "太爽了",
+      "求求你了",
+      "拜拜拜拜"
+    ],
+    "closing_pattern": "总结核心观点后开放式收尾，不强行给出结论，承认现代性的必然与生活方式消逝的无奈",
+    "narrative_techniques": [
+      "类比（海民与山民的并置对照）",
+      "举例（大量个人旅行细节、母亲的故事、管家和司机的对话）",
+      "对比（预制菜逻辑 vs 采菌子逻辑，自然状态 vs 社会契约）",
+      "引用（霍布斯《利维坦》、亚当·斯密《国富论》）",
+      "自我暴露（坦诚自己的懒惰、自私、娇生惯养）",
+      "场景还原（用感官细节描绘进山采菌子的艰辛）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "松赞",
+      "type": "organization",
+      "context": "滇川藏区的精品酒店品牌，提供全程包吃住行配管家司机的旅行线路，主播带母亲体验了云南西北部香格里拉环线",
+      "importance": "high"
+    },
+    {
+      "name": "预制菜",
+      "type": "concept",
+      "context": "主播用以对比的核心概念，代表压缩时间与空间、将人与自然关系变为消费者与商品关系的现代食品工业逻辑",
+      "importance": "high"
+    },
+    {
+      "name": "亚当·斯密",
+      "type": "person",
+      "context": "被引用来讨论从农耕文明走向工业文明的现代化路径，主播假设若他是海边人或山里人则写不出《国富论》",
+      "importance": "medium"
+    },
+    {
+      "name": "《国富论》",
+      "type": "work",
+      "context": "亚当·斯密的著作，第二卷描绘人民从农耕文明走向工业文明的过程",
+      "importance": "medium"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "被引用来描述采菌子的社会性，《利维坦》中描绘的自然状态被用来比喻山民之间的竞争与提防关系",
+      "importance": "medium"
+    },
+    {
+      "name": "《利维坦》",
+      "type": "work",
+      "context": "霍布斯的著作，主播用其'自然状态'概念来描述传统采菌活动中人与人紧张的社会性",
+      "importance": "medium"
+    },
+    {
+      "name": "松茸",
+      "type": "other",
+      "context": "云南高原与冷杉共生的珍贵菌类，雨季七八月盛产，价格从最初的一两千一斤跌到最多时的两三百",
+      "importance": "high"
+    },
+    {
+      "name": "鸡枞",
+      "type": "other",
+      "context": "与白蚁巢共生的菌类，雨季初期最旺盛，主播八月底去时已过季",
+      "importance": "medium"
+    },
+    {
+      "name": "牛肝菌",
+      "type": "other",
+      "context": "野生菌的一种，采摘后需尽快处理否则会发黑变质，主播在山路上见过但未采摘",
+      "importance": "low"
+    },
+    {
+      "name": "奶浆菌",
+      "type": "other",
+      "context": "一种会留下乳状液体的菌子，主播在转山过程中由管家指认",
+      "importance": "low"
+    },
+    {
+      "name": "猫哆哩",
+      "type": "other",
+      "context": "云南特产酸角糕糖果，被主播称为'云南人的大白兔奶糖'",
+      "importance": "low"
+    },
+    {
+      "name": "香格里拉啤酒",
+      "type": "other",
+      "context": "主播在酒店菜单上无意间点到，惊为天人，认为风味浓郁像德国啤酒",
+      "importance": "low"
+    },
+    {
+      "name": "胖卓玛",
+      "type": "other",
+      "context": "香格里拉啤酒的一种，主播天天喝并推荐给大家",
+      "importance": "low"
+    },
+    {
+      "name": "松嘎",
+      "type": "other",
+      "context": "香格里拉啤酒的一种，主播天天喝并推荐给大家",
+      "importance": "low"
+    },
+    {
+      "name": "普鲁斯特",
+      "type": "person",
+      "context": "法国作家，主播为其新书做了17场活动，是此次旅行的前因",
+      "importance": "low"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "福州人，为播客弹奏前奏，六月份在波士顿海滩挖到五十多个贵妃蚌，九月初带主播赶海却一无所获",
+      "importance": "medium"
+    },
+    {
+      "name": "梭子蟹",
+      "type": "other",
+      "context": "东海海鲜，开海季节价格波动大，主播母亲作为'抠门海明'不让女儿在贵的时候吃",
+      "importance": "medium"
+    },
+    {
+      "name": "贵妃蚌",
+      "type": "other",
+      "context": "波士顿海滩的贝类，六月份遍地都是，九月初已完全过季",
+      "importance": "low"
+    },
+    {
+      "name": "野生黄鱼",
+      "type": "other",
+      "context": "主播外婆怀孕时穷得只能吃得起的食物，当时两毛钱一斤，曾是穷人吃的",
+      "importance": "medium"
+    },
+    {
+      "name": "虫草",
+      "type": "other",
+      "context": "比采菌子更辛苦的采集对象，生长海拔更高，采集时需顶着冰雹几乎趴在地上蠕动",
+      "importance": "medium"
+    },
+    {
+      "name": "天宝雪山",
+      "type": "place",
+      "context": "管家父亲采菌子迷路后意外走到的地方，半夜才终于回家",
+      "importance": "low"
+    },
+    {
+      "name": "丽江",
+      "type": "place",
+      "context": "松赞环线的起点，主播在此吃菌子、绕湖骑自行车",
+      "importance": "medium"
+    },
+    {
+      "name": "塔城",
+      "type": "place",
+      "context": "松赞环线途经地，继续吃菌子",
+      "importance": "low"
+    },
+    {
+      "name": "香格里拉",
+      "type": "place",
+      "context": "云南西北部高原地区，松赞环线终点，松茸产区，三四十年前村里还来黑熊",
+      "importance": "high"
+    },
+    {
+      "name": "普洱",
+      "type": "place",
+      "context": "云南低海拔热带地区，主播小时候喜欢那里的酸醋米线，但暑假闷热不愿去",
+      "importance": "medium"
+    },
+    {
+      "name": "西双版纳",
+      "type": "place",
+      "context": "云南南部热带雨林地区，菌子季更长，适合冬天去玩",
+      "importance": "medium"
+    },
+    {
+      "name": "大理",
+      "type": "place",
+      "context": "云南北部高原地区，冷凉森林，松茸产地",
+      "importance": "low"
+    },
+    {
+      "name": "东海",
+      "type": "place",
+      "context": "主播家乡的海边，滩涂曾极其丰饶，现已因过度采集和养殖基地而衰败",
+      "importance": "high"
+    },
+    {
+      "name": "波士顿",
+      "type": "place",
+      "context": "脑雾哥六月在此海滩挖贵妃蚌，九月带主播赶海失败",
+      "importance": "low"
+    },
+    {
+      "name": "纳西族",
+      "type": "organization",
+      "context": "云南西北部少数民族，主播的管家是纳西族人，住在大山里，十岁时村里打死过黑熊",
+      "importance": "medium"
+    },
+    {
+      "name": "藏族",
+      "type": "organization",
+      "context": "云南西北部少数民族，主播的司机是康巴汉子，松赞员工多为本地藏族村民",
+      "importance": "medium"
+    },
+    {
+      "name": "盒马超市",
+      "type": "organization",
+      "context": "主播在上海做新书活动时在此吃到今年第一口梭子蟹",
+      "importance": "low"
+    },
+    {
+      "name": "人和时间的关系",
+      "type": "concept",
+      "context": "主播提出的核心分析维度之一，预制菜压缩此关系，而采菌子/赶海强调对季节和日常节律的服从",
+      "importance": "high"
+    },
+    {
+      "name": "人和空间的关系",
+      "type": "concept",
+      "context": "主播提出的核心分析维度之二，预制菜让人远离食物源泉走向超市冷柜，采菌子需要进入无路的野山",
+      "importance": "high"
+    },
+    {
+      "name": "人和自然的关系",
+      "type": "concept",
+      "context": "主播提出的终极维度，预制菜将自然变为可操控的对象，而山民/海民的生活方式是对自然的依附而非征服",
+      "importance": "high"
+    },
+    {
+      "name": "自然状态",
+      "type": "concept",
+      "context": "借用霍布斯的概念，描述传统采菌活动中人与人之间紧张、竞争、孤独的社会性",
+      "importance": "medium"
+    },
+    {
+      "name": "社会契约",
+      "type": "concept",
+      "context": "与'自然状态'相对，描述游客付费体验采菌子时形成的金钱-体验交换关系",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68ceefc3a56ca3e0c46e44ef",
+  "title": "255-进山采菌子如何帮我反思预制菜？"
+}

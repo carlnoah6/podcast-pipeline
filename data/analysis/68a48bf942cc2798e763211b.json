@@ -1,0 +1,170 @@
+{
+  "style": {
+    "opening_pattern": "以自我标榜的独特性开场（\"大言不惭地说，这是一期可能全中国乃至于全世界只有我能做的闲聊播客\"），通过强调个人付出（800小时练习、雕塑般的身体）建立权威性，并解释为什么只有她能做这个选题",
+    "structure": "理论铺垫（现代人vs古代人的方法论）→ 范围界定（什么是瑜伽天花板）→ 地理分布（美国西海岸vs中国南方）→ 核心对比（\"装\"vs\"卷\"）→ 具体表现（身体能力、教学风格、文化氛围）→ 个人反思与结论",
+    "tone": "理性犀利但带有强烈的个人色彩，自嘲（\"我也不是什么好鸟\"、\"能力很强的坏学生\"），兼具学术训练（引用亚里士多德、柏拉图）与通俗表达（使用\"卷\"\"装\"等网络热词），坦诚直接（\"攻击性爆发\"）",
+    "catchphrases": [
+      "大言不惭",
+      "独树不成林",
+      "天花板",
+      "装",
+      "卷",
+      "人上人",
+      "又装又卷",
+      "嗷嗷叫",
+      "扎针啊",
+      "瑜伽丽人"
+    ],
+    "closing_pattern": "个人身份认同的总结（\"能力很强的坏学生\"、\"又装又卷\"）→ 对中美瑜伽老师的致谢 → 对听众的告别（\"拜拜\"）",
+    "narrative_techniques": [
+      "类比（将瑜伽练习对比高等教育，将现代/古代方法论对比中美文化）",
+      "对比（中美瑜伽馆的身体观、教学风格、练习目标）",
+      "个人轶事（上海瑜伽课被称\"外国来的力气大\"、成都小韩老师的火箭流、巴勒斯坦女壮士的例子）",
+      "反讽（批判美国\"装松弛\"文化、揭露表面接纳自我与私下拼命努力的矛盾）",
+      "自我民族志（将自身身体作为\"尺\"来丈量两种文化）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "在讨论古代人的方法论时被引用，认为'最卓越的人才是人的代表'",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "与亚里士多德一同被引用，代表古代人对'什么是人'的理解",
+      "importance": "medium"
+    },
+    {
+      "name": "小韩",
+      "type": "person",
+      "context": "成都来树下书店活动中的瑜伽老师，怀孕时每天跑步15公里听播客，邀请主播体验火箭流",
+      "importance": "high"
+    },
+    {
+      "name": "David Swenson",
+      "type": "person",
+      "context": "阿斯汤加瑜伽世界级大师，美国德州人，在其工作坊讨论美国瑜伽文化中'不被纠正'的现象",
+      "importance": "high"
+    },
+    {
+      "name": "Laruga",
+      "type": "person",
+      "context": "与David Swenson齐名的阿斯汤加大师，被提及作为美国顶级瑜伽大师的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "主播的朋友，大学攀岩队队长，被深圳瑜伽老师无故批评身材和骨盆问题",
+      "importance": "medium"
+    },
+    {
+      "name": "小花",
+      "type": "person",
+      "context": "主播的白人女性朋友，表面宣扬身体包容，私下极度自律，代表美国'装'文化",
+      "importance": "medium"
+    },
+    {
+      "name": "巴勒斯坦女壮士",
+      "type": "person",
+      "context": "主播的运动搭子，身体素质极强，能水中慢起手倒立，但私下也有身材焦虑",
+      "importance": "high"
+    },
+    {
+      "name": "普鲁塔克《论关切心灵安宁》",
+      "type": "work",
+      "context": "主播翻译的著作，由上海文艺出版社出版，是此次中国多城市新书分享会的缘由",
+      "importance": "high"
+    },
+    {
+      "name": "来树下书店",
+      "type": "work",
+      "context": "成都独立书店，主播第一场新书活动举办地",
+      "importance": "medium"
+    },
+    {
+      "name": "阿斯汤加",
+      "type": "concept",
+      "context": "一种严格的瑜伽流派，在讨论瑜伽天花板时频繁提及，强调早起练习和固定序列",
+      "importance": "high"
+    },
+    {
+      "name": "火箭流",
+      "type": "concept",
+      "context": "一种高强度的瑜伽流派，小韩老师教授，让主播累到虚脱",
+      "importance": "medium"
+    },
+    {
+      "name": "四柱俯卧撑",
+      "type": "concept",
+      "context": "瑜伽基础动作，主播观察到许多中国练习者在这个动作上偷懒，力量不足",
+      "importance": "high"
+    },
+    {
+      "name": "乌鸦式",
+      "type": "concept",
+      "context": "基础手平衡体式，在美国是中级体式起点，在中国很多能做倒立的人却做不了这个",
+      "importance": "high"
+    },
+    {
+      "name": "兔子跳",
+      "type": "concept",
+      "context": "手倒立准备动作，上海瑜伽馆常让学生反复做，导致很多人受伤",
+      "importance": "high"
+    },
+    {
+      "name": "装",
+      "type": "concept",
+      "context": "主播概括美国瑜伽文化问题的关键词，指表面倡导接纳自我、私下拼命努力的文化",
+      "importance": "high"
+    },
+    {
+      "name": "卷",
+      "type": "concept",
+      "context": "主播概括中国瑜伽文化问题的关键词，指为了成为人上人而拼命努力、忽视基础和安全",
+      "importance": "high"
+    },
+    {
+      "name": "Money",
+      "type": "organization",
+      "context": "上海最卷的瑜伽馆之一，以40-50岁有钱有闲的大姐高手著称",
+      "importance": "medium"
+    },
+    {
+      "name": "热浪",
+      "type": "organization",
+      "context": "上海最卷的瑜伽馆之一，与Money、Pure、红门并列，黄浦热浪被特别提及",
+      "importance": "medium"
+    },
+    {
+      "name": "Pure",
+      "type": "organization",
+      "context": "上海瑜伽馆，以白领都市丽人为主，相对其他几个馆没那么卷",
+      "importance": "medium"
+    },
+    {
+      "name": "红门",
+      "type": "organization",
+      "context": "上海瑜伽馆，以追求变态高级体式著称，起步就是手倒立和后弯",
+      "importance": "medium"
+    },
+    {
+      "name": "田纳西州",
+      "type": "place",
+      "context": "主播出差去的美国南部州，用来对比沿海城市，描述那里医学定义肥胖率极高",
+      "importance": "medium"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "中国瑜伽天花板所在地，被描述为全国最卷，Money、Pure等馆所在地",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68a48bf942cc2798e763211b",
+  "title": "244-中美瑜伽天花板有何区别？"
+}

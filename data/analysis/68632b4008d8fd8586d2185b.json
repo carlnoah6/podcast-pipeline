@@ -1,0 +1,333 @@
+{
+  "style": {
+    "opening_pattern": "以时间节点引入（美国建国日）+ 直接提出核心问题",
+    "structure": "历史背景→三个核心辩论逐层展开（小共和国vs大共和国、美德vs利益、权利法案之争）+ 意外延伸的第四个辩论→总结升华",
+    "tone": "理性客观中带个人反思，学术性与口语化并存，偶尔自嘲",
+    "catchphrases": [
+      "OK",
+      "对吧",
+      "也就是说",
+      "我在这里想强调的是/我再次强调",
+      "如果我们考虑一下",
+      "这才是",
+      "这不是...吗",
+      "这恰恰是",
+      "这很反常识不是吗",
+      "拜拜拜拜"
+    ],
+    "closing_pattern": "开放式总结+重申核心论点（如果另一方获胜会怎样）+简短告别",
+    "narrative_techniques": [
+      "类比（普鲁塔克敌人论）",
+      "反问",
+      "举例（课堂测试、汉密尔顿的具体论证）",
+      "对比（两派观点对照）",
+      "重复强调（关键句多次重复）",
+      "场景化叙事（田纳西州录播客的开场坦白）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "汉密尔顿",
+      "type": "person",
+      "context": "联邦党人核心人物，主张强中央政府、反对权利法案，撰写《联邦党人文集》第15、23、48、84篇",
+      "importance": "high"
+    },
+    {
+      "name": "麦迪逊",
+      "type": "person",
+      "context": "联邦党人核心人物，《联邦党人文集》第10篇、第51篇作者，提出'扩展共和国范围'和'野心对抗野心'理论",
+      "importance": "high"
+    },
+    {
+      "name": "约翰·杰伊",
+      "type": "person",
+      "context": "与汉密尔顿、麦迪逊共同撰写《联邦党人文集》的三人之一",
+      "importance": "medium"
+    },
+    {
+      "name": "杰斐逊",
+      "type": "person",
+      "context": "提出宪法应每19年重新制定的激进观点，被麦迪逊反驳，被称为'国父中的法锤'",
+      "importance": "high"
+    },
+    {
+      "name": "华盛顿",
+      "type": "person",
+      "context": "作为理想政治家的象征，被第一版宪法假设为永远存在",
+      "importance": "medium"
+    },
+    {
+      "name": "林肯",
+      "type": "person",
+      "context": "其Lyceum Address演讲被引用，讨论如何防止拿破仑式人物崛起",
+      "importance": "medium"
+    },
+    {
+      "name": "沃伦大法官",
+      "type": "person",
+      "context": "20世纪60年代裁定烧国旗属于言论自由",
+      "importance": "low"
+    },
+    {
+      "name": "Brutus",
+      "type": "person",
+      "context": "反联邦党人文集作者，主张小共和国才能培养公民美德",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "被引为支持小共和国美德论的传统政治思想家",
+      "importance": "low"
+    },
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "《论法的精神》作者，被引为支持小共和国美德论的传统政治思想家",
+      "importance": "medium"
+    },
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "其著作《如何从敌人身上获益》被用作分析框架，强调敌人定义自我",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "作为野心家/独裁者的象征，被用来讨论宪法如何防止此类人物崛起",
+      "importance": "low"
+    },
+    {
+      "name": "亚历山大大帝",
+      "type": "person",
+      "context": "作为野心家/征服者的象征，与拿破仑并列",
+      "importance": "low"
+    },
+    {
+      "name": "成吉思汗",
+      "type": "person",
+      "context": "作为比美国总统更高职位的例子，美国人不会想象追求",
+      "importance": "low"
+    },
+    {
+      "name": "马斯克",
+      "type": "person",
+      "context": "作为经济野心的现代例子，说明美国人政治野心转向经济领域",
+      "importance": "low"
+    },
+    {
+      "name": "贝索斯",
+      "type": "person",
+      "context": "作为经济野心的现代例子",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "汉密尔顿引用以对比：宪法不是伦理学著作",
+      "importance": "low"
+    },
+    {
+      "name": "阿伦特",
+      "type": "person",
+      "context": "主播提到正在写的书关于阿伦特",
+      "importance": "low"
+    },
+    {
+      "name": "《联邦党人文集》",
+      "type": "work",
+      "context": "美国建国核心文献，第10篇、第15篇、第23篇、第48篇、第51篇、第84篇被重点讨论",
+      "importance": "high"
+    },
+    {
+      "name": "《反联邦党人文集》",
+      "type": "work",
+      "context": "与联邦党人对立的建国文献，主张小共和国和美德",
+      "importance": "medium"
+    },
+    {
+      "name": "邦联条例（Articles of Confederation）",
+      "type": "work",
+      "context": "美国第一部宪法（1777年），被1787年宪法取代，确立州主权、无总统、无三权分立",
+      "importance": "high"
+    },
+    {
+      "name": "美国宪法",
+      "type": "work",
+      "context": "1787年费城制宪会议制定、1789年生效的现行宪法，确立大共和国、强中央政府、三权分立",
+      "importance": "high"
+    },
+    {
+      "name": "权利法案（Bill of Rights）",
+      "type": "work",
+      "context": "1791年对宪法的补充，前十条修正案，包括第一修正案（言论宗教自由）、第二修正案（持枪自由）等",
+      "importance": "high"
+    },
+    {
+      "name": "《独立宣言》",
+      "type": "work",
+      "context": "1776年7月4日大陆会议通过，标志美国正式独立",
+      "importance": "medium"
+    },
+    {
+      "name": "《普鲁塔克的古典共和》/《如何从敌人身上获益》",
+      "type": "work",
+      "context": "主播最近出版的书，普鲁塔克的文章标题被用作分析框架",
+      "importance": "medium"
+    },
+    {
+      "name": "《论法的精神》",
+      "type": "work",
+      "context": "孟德斯鸠著作，支持小共和国美德论",
+      "importance": "low"
+    },
+    {
+      "name": "Lyceum Address",
+      "type": "work",
+      "context": "林肯著名演讲，讨论如何确保政体延续、防止野心家崛起",
+      "importance": "medium"
+    },
+    {
+      "name": "第14修正案",
+      "type": "work",
+      "context": "权利法案的一部分，理论上终结奴隶制，但100年后才真正落实",
+      "importance": "medium"
+    },
+    {
+      "name": "1964年民权法",
+      "type": "work",
+      "context": "结束南方种族隔离制度，距离第14修正案通过约100年",
+      "importance": "medium"
+    },
+    {
+      "name": "小共和国",
+      "type": "concept",
+      "context": "反联邦党人主张的政体形式，以州为单位的主权联盟，依赖公民美德",
+      "importance": "high"
+    },
+    {
+      "name": "大共和国",
+      "type": "concept",
+      "context": "联邦党人主张的政体形式，强中央政府，通过利益制衡而非美德维系",
+      "importance": "high"
+    },
+    {
+      "name": "公民美德",
+      "type": "concept",
+      "context": "反联邦党人认为共和国凝聚力的基础，需在小共和国中通过教育和直接参政培养",
+      "importance": "high"
+    },
+    {
+      "name": "利益/自私自利",
+      "type": "concept",
+      "context": "联邦党人提出的替代美德的共和国基础，'人性中最可靠的部分'",
+      "importance": "high"
+    },
+    {
+      "name": "三权分立",
+      "type": "concept",
+      "context": "立法、行政、司法分立的制度设计，在第二版宪法中确立，第一版宪法中没有",
+      "importance": "high"
+    },
+    {
+      "name": "虚拟代表（Virtual representation）",
+      "type": "concept",
+      "context": "英国对殖民地的代表制度，美国人不满此制度而要求真正代表",
+      "importance": "medium"
+    },
+    {
+      "name": "无代表不纳税（No representation, no taxation）",
+      "type": "concept",
+      "context": "美国独立战争的核心口号",
+      "importance": "medium"
+    },
+    {
+      "name": "联邦党人",
+      "type": "organization",
+      "context": "主张强中央政府、大共和国、利益制衡的政治派别，主要人物为汉密尔顿、麦迪逊、杰伊",
+      "importance": "high"
+    },
+    {
+      "name": "反联邦党人",
+      "type": "organization",
+      "context": "主张州主权、小共和国、公民美德、权利法案的政治派别",
+      "importance": "high"
+    },
+    {
+      "name": "大陆会议",
+      "type": "organization",
+      "context": "1776年通过《独立宣言》的机构",
+      "importance": "medium"
+    },
+    {
+      "name": "费城制宪会议",
+      "type": "event",
+      "context": "1787年制定现行美国宪法的会议",
+      "importance": "high"
+    },
+    {
+      "name": "列克星顿和康科德战役",
+      "type": "event",
+      "context": "1775年马萨诸塞州战役，独立战争开端",
+      "importance": "medium"
+    },
+    {
+      "name": "美国独立战争",
+      "type": "event",
+      "context": "1775-1783年，美国脱离英国殖民统治的战争",
+      "importance": "medium"
+    },
+    {
+      "name": "美国内战",
+      "type": "event",
+      "context": "林肯领导的战争，之后设立第14修正案",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "杰斐逊热爱的革命，主播曾在第205期播客讨论其如何从自由走向恐怖",
+      "importance": "medium"
+    },
+    {
+      "name": "越战期间烧国旗案",
+      "type": "event",
+      "context": "20世纪60年代沃伦大法官裁定烧国旗属于言论自由",
+      "importance": "low"
+    },
+    {
+      "name": "马萨诸塞州",
+      "type": "place",
+      "context": "独立战争重要州，与康涅狄格州的争执被用作国会仲裁的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "康涅狄格州（康州）",
+      "type": "place",
+      "context": "与马萨诸塞州争执的例子",
+      "importance": "low"
+    },
+    {
+      "name": "田纳西州",
+      "type": "place",
+      "context": "主播录制本期播客的地点",
+      "importance": "low"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "美国的前殖民宗主国，拥有'全世界最强的海军力量'",
+      "importance": "medium"
+    },
+    {
+      "name": "最高法院",
+      "type": "organization",
+      "context": "美国司法机构，九名大法官成为唯一能够'修改'宪法的人，被批评为精英化",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68632b4008d8fd8586d2185b",
+  "title": "231-美国建国还能建成什么样？"
+}

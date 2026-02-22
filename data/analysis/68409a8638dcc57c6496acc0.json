@@ -1,0 +1,140 @@
+{
+  "style": {
+    "opening_pattern": "以第一人称描述自身身体状态引入（'明镜与点点栏目下面长了一个彭于晏的身体'），结合自嘲与自信",
+    "structure": "个人状态描述→强调维持难度→赞助商环节→双重澄清（日常状态误区与健康本质）→引入亚里士多德'黄金平衡点'哲学→实践方法（饮食、训练、态度）→总结升华",
+    "tone": "理性诚恳带有强烈个人色彩，严肃深沉中穿插自我调侃（'臭屁话题'、'像一头猪一样'），兼具哲学深度与生活化表达",
+    "catchphrases": [
+      "雕塑一般的好身材",
+      "黄金平衡点",
+      "Orthos Logos",
+      "像供奉神殿一样",
+      "因为我就是这样的人",
+      "一坨一坨的",
+      "从零到一",
+      "维持在一",
+      "脂肪是我的朋友",
+      "把身体当作神庙"
+    ],
+    "closing_pattern": "总结核心观点（承担责任与接受常态）→感谢赞助→告别语",
+    "narrative_techniques": [
+      "类比（身体如神殿、雕塑与石料）",
+      "对比（日常放松状态 vs 训练充血状态、过瘦 vs 过胖、自然健身 vs 药物健身）",
+      "引用哲学（亚里士多德《尼各马可伦理学》）",
+      "个人经历叙事（离婚体重骤降、与老吴哥聚餐）",
+      "反问与设问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "彭于晏",
+      "type": "person",
+      "context": "作为主播形容自己身材对比的参照（'明镜与点点栏目下面长了一个彭于晏的身体'）",
+      "importance": "medium"
+    },
+    {
+      "name": "米开朗基罗",
+      "type": "person",
+      "context": "提及他的雕塑作品《大卫》作为'雕塑一般的好身材'的古典标准",
+      "importance": "high"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "引用其《尼各马可伦理学》中的'黄金平衡点'（Orthos Logos）概念作为维持身材的健康哲学基础",
+      "importance": "high"
+    },
+    {
+      "name": "金·卡戴珊",
+      "type": "person",
+      "context": "作为现代'以大为美'的身材标准反面例子（'金·卡戴珊式的丰乳肥臀'）",
+      "importance": "medium"
+    },
+    {
+      "name": "老吴哥",
+      "type": "person",
+      "context": "提及给主播做福州菜的朋友，作为聚餐时放纵饮食的例子",
+      "importance": "low"
+    },
+    {
+      "name": "《尼各马可伦理学》",
+      "type": "work",
+      "context": "亚里士多德的伦理学著作，主播引用其中的'黄金平衡点'概念",
+      "importance": "high"
+    },
+    {
+      "name": "大卫（雕塑）",
+      "type": "work",
+      "context": "米开朗基罗的雕塑作品，主播用它作为古典好身材标准的比喻",
+      "importance": "high"
+    },
+    {
+      "name": "黄金平衡点/Orthos Logos",
+      "type": "concept",
+      "context": "来自亚里士多德伦理学的概念，主播用它来描述健康作为一种需要不断维护的动态平衡，而非静态平台",
+      "importance": "high"
+    },
+    {
+      "name": "体脂率",
+      "type": "concept",
+      "context": "讨论维持身材时强调不应追求过低体脂，尤其是女性需要更高体脂维持健康",
+      "importance": "high"
+    },
+    {
+      "name": "类固醇",
+      "type": "concept",
+      "context": "批评美国健身文化中滥用类固醇（'Gym Bros'文化）以追求肌肉维度的现象",
+      "importance": "medium"
+    },
+    {
+      "name": "自然健身/NATURAL",
+      "type": "concept",
+      "context": "指不依赖药物的自然健身方式，在美国健身圈反而成为稀缺品",
+      "importance": "medium"
+    },
+    {
+      "name": "从零到一",
+      "type": "concept",
+      "context": "借用创业术语描述从完全不运动到建立健身习惯的过程",
+      "importance": "medium"
+    },
+    {
+      "name": "钙吸收/维生素D3/K2",
+      "type": "concept",
+      "context": "赞助商环节详细讲解的骨骼健康知识，涉及钙、维生素D3和K2的协同作用",
+      "importance": "medium"
+    },
+    {
+      "name": "2024年1月发现前夫出轨",
+      "type": "event",
+      "context": "主播提及的个人经历，因情绪打击导致体重骤降至100斤，反而身体变得虚弱易生病",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "主播提及自己在美国经历的健身文化，特别是类固醇滥用问题",
+      "importance": "medium"
+    },
+    {
+      "name": "福州",
+      "type": "place",
+      "context": "提及老吴哥做的福州菜",
+      "importance": "low"
+    },
+    {
+      "name": "Schiff Nutrition/旭福",
+      "type": "organization",
+      "context": "本期播客的赞助商，美国专业营养补充剂品牌，主打钙维生素D维生素K软胶囊",
+      "importance": "high"
+    },
+    {
+      "name": "Gym Bros",
+      "type": "other",
+      "context": "指美国健身文化中追求肌肉维度、常使用类固醇的健身群体",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68409a8638dcc57c6496acc0",
+  "title": "221-如何长期维持雕塑一般的好身材"
+}

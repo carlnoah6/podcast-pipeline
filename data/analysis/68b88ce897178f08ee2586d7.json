@@ -1,0 +1,140 @@
+{
+  "style": {
+    "opening_pattern": "以与前几期（247期、119期）的关联引入，建立'姐妹片'概念，然后直接点明主题：卢梭支持审查制度这一看似反常的立场。",
+    "structure": "采用'破题-立论-历史语境-深入论证-哲学升华-当代映射'的螺旋式结构，层层递进，从历史具体到哲学抽象。",
+    "tone": "理性犀利但不失学术严谨，带有课堂讲授式的节奏感，善用反问和设问引发思考，立场鲜明但保持分析深度。",
+    "catchphrases": [
+      "对吧",
+      "换句话说",
+      "你可以说",
+      "这意味着",
+      "在这个意义上",
+      "恰恰",
+      "问题在于",
+      "姐妹片",
+      "OK",
+      "拜拜"
+    ],
+    "closing_pattern": "以开放式总结收束，提及'我们下期再见'后突然使用口语化的'拜拜'营造亲切感。",
+    "narrative_techniques": [
+      "对比（日内瓦vs巴黎，古代vs现代）",
+      "类比（好莱坞vs吴京，新冠疫情专家vs公民）",
+      "历史重构",
+      "反讽",
+      "设问与反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "本集核心讨论对象，被描述为支持审查制度的哲学家，与启蒙运动决裂，以'日内瓦公民'身份写作。",
+      "importance": "high"
+    },
+    {
+      "name": "达朗贝尔",
+      "type": "person",
+      "context": "《百科全书》编辑，卢梭《致达朗贝尔的信》的收信人，代表启蒙派支持在日内瓦设立剧院。",
+      "importance": "high"
+    },
+    {
+      "name": "伏尔泰",
+      "type": "person",
+      "context": "被描述为'启蒙运动的化身'，实际与卢梭论战的对手，因被流放至日内瓦而试图推动当地剧院建设。",
+      "importance": "high"
+    },
+    {
+      "name": "审查制度",
+      "type": "concept",
+      "context": "本集核心议题，卢梭主张对艺术、科学和哲学著作进行政治审查，认为其破坏社会道德基础。",
+      "importance": "high"
+    },
+    {
+      "name": "日内瓦",
+      "type": "place",
+      "context": "卢梭的出生地，被描述为虔诚保守的'现代斯巴达'，与腐败的巴黎形成对比，维持着剧院禁令。",
+      "importance": "high"
+    },
+    {
+      "name": "致达朗贝尔的信",
+      "type": "work",
+      "context": "卢梭1758年的著作，本集分析的核心文本，阐述其对审查制度和剧院禁令的支持。",
+      "importance": "high"
+    },
+    {
+      "name": "百科全书派",
+      "type": "organization",
+      "context": "以达朗贝尔、狄德罗、伏尔泰为代表的启蒙哲学家团体，主张科学进步和开放，被卢梭反对。",
+      "importance": "high"
+    },
+    {
+      "name": "狄德罗",
+      "type": "person",
+      "context": "百科全书派代表人物，与达朗贝尔、伏尔泰并列，代表卢梭所反对的启蒙立场。",
+      "importance": "medium"
+    },
+    {
+      "name": "斯巴达",
+      "type": "place",
+      "context": "被卢梭 idealized 的古代城邦，代表公民美德、简朴生活和严格自律，与堕落的现代巴黎对比。",
+      "importance": "medium"
+    },
+    {
+      "name": "社会契约论",
+      "type": "work",
+      "context": "卢梭更著名的政治著作，被提及其中也歌颂罗马的道德检察官制度。",
+      "importance": "medium"
+    },
+    {
+      "name": "爱弥儿",
+      "type": "work",
+      "context": "卢梭关于教育的著作，被提及支持在儿童教育中进行内容审核。",
+      "importance": "medium"
+    },
+    {
+      "name": "进步主义",
+      "type": "concept",
+      "context": "19世纪后形成的观念，认为历史会不断进步，被主播认为是阻碍理解卢梭的现代偏见之一。",
+      "importance": "medium"
+    },
+    {
+      "name": "自由主义",
+      "type": "concept",
+      "context": "现代政治哲学立场，主张个人自由选择，被卢梭批评为推脱政治责任。",
+      "importance": "medium"
+    },
+    {
+      "name": "莫里哀",
+      "type": "person",
+      "context": "法国喜剧作家，被卢梭列为应该被审查的'体面'艺术家代表，其作品被批评为嘲笑老实人。",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "古希腊哲学家，其《理想国》中关于诗人是否应该被驱逐的问题被提及为卢梭思想的古典源头。",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "1789年发生的历史事件，被用来界定'左右之分'的起源，说明卢梭时代尚无此划分。",
+      "importance": "medium"
+    },
+    {
+      "name": "吴京",
+      "type": "person",
+      "context": "被用作不恰当的当代类比，代表与'好莱坞'（伏尔泰/启蒙派）相对的本土价值立场。",
+      "importance": "low"
+    },
+    {
+      "name": "萨特",
+      "type": "person",
+      "context": "被听众评论提及对比卢梭，主播认为这种对比是时代错置。",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68b88ce897178f08ee2586d7",
+  "title": "248-卢梭为何维护审查制度？"
+}

@@ -1,0 +1,159 @@
+{
+  "style": {
+    "opening_pattern": "以反问和质疑互联网叙事开场，通过提问'为什么很少看到讨论如何面对退步'引入主题，对比网络上常见的'摆脱退步'和'摆烂'两种极端叙事",
+    "structure": "问题提出→虚拟现实与真实对比→案例分析（费德勒演讲）→个人经历（睡眠不足与运动表现）→案例分析（小花/国家级运动员）→总结升华（恢复即生活）",
+    "tone": "理性深刻、自省式、略带自嘲但严肃探讨本质，在分析中融入个人化的身体经验与反思",
+    "catchphrases": [
+      "虚拟现实",
+      "退步是现实的一部分",
+      "稳如老狗",
+      "恢复",
+      "摆烂",
+      "东山再起",
+      "戏剧性",
+      "真实",
+      "国家级运动员",
+      "退阶训练"
+    ],
+    "closing_pattern": "总结观点并升华至生活方式层面，强调退步是常态、恢复即生活本质，并以赞助商感谢结束",
+    "narrative_techniques": [
+      "对比（虚拟现实vs真实，进步vs退步，戏剧性vs平淡）",
+      "举例（费德勒演讲、小花的故事、超级猩猩课程）",
+      "引用（费德勒关于失败和心态的言论）",
+      "自我剖析（以自身睡眠不足和训练退步为例）",
+      "反问（多次使用'为什么'引发思考）",
+      "类比（将退阶训练比作神经系统学习，将恢复比作生活方式）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "小花",
+      "type": "person",
+      "context": "作者的高中室友，国家级运动员，曾是美国大学曲棍球、冰球校队成员，向作者介绍专业运动员的恢复理念",
+      "importance": "high"
+    },
+    {
+      "name": "罗杰·费德勒（Roger Federer）",
+      "type": "person",
+      "context": "网球运动员，被引用其在达特茅斯学院的演讲，强调努力的重要性和面对失败的心态",
+      "importance": "high"
+    },
+    {
+      "name": "郭启齐",
+      "type": "person",
+      "context": "作者的律师朋友，带作者去上超级猩猩的打拳课",
+      "importance": "medium"
+    },
+    {
+      "name": "麦当娜（Madonna）",
+      "type": "person",
+      "context": "提及她的蹲起跳动作作为健身动作的例子",
+      "importance": "low"
+    },
+    {
+      "name": "费德勒达特茅斯演讲",
+      "type": "work",
+      "context": "费德勒在达特茅斯学院毕业典礼上的演讲，被作者详细引用讨论effortless success和努力与心态的关系",
+      "importance": "high"
+    },
+    {
+      "name": "超级猩猩（SUPERMONKEY）",
+      "type": "organization",
+      "context": "健身品牌，作者在此上打拳课并经历肌肉恢复缓慢的情况",
+      "importance": "medium"
+    },
+    {
+      "name": "Jolly（小酌礼）",
+      "type": "organization",
+      "context": "RTD鸡尾酒品牌，本期播客的赞助商，被详细描述其三款产品",
+      "importance": "medium"
+    },
+    {
+      "name": "退步",
+      "type": "concept",
+      "context": "核心讨论概念，指运动能力或状态的下降，作者强调其作为现实常态而非异常",
+      "importance": "high"
+    },
+    {
+      "name": "退阶训练（regression training）",
+      "type": "concept",
+      "context": "主动降低训练难度以专注于动作准确性和防止代偿的训练方法，被作者视为一种进步",
+      "importance": "high"
+    },
+    {
+      "name": "恢复（recovery）",
+      "type": "concept",
+      "context": "指训练后的身体修复过程，被小花定义为训练的另一半，作者将其等同于好好生活",
+      "importance": "high"
+    },
+    {
+      "name": "虚拟现实",
+      "type": "concept",
+      "context": "作者用来指代互联网的术语，强调其偏好戏剧性而扭曲真实现实的特性",
+      "importance": "high"
+    },
+    {
+      "name": "摆烂",
+      "type": "concept",
+      "context": "网络上重新定义退步为积极反抗的一种价值颠倒策略",
+      "importance": "medium"
+    },
+    {
+      "name": "代偿",
+      "type": "concept",
+      "context": "指训练时错误地用其他肌肉（如斜方肌）代替目标肌肉发力，是退阶训练想要避免的情况",
+      "importance": "medium"
+    },
+    {
+      "name": "东山再起",
+      "type": "concept",
+      "context": "网络上常见的将退步包装成逆袭故事的叙事模式",
+      "importance": "low"
+    },
+    {
+      "name": "effortless success",
+      "type": "concept",
+      "context": "费德勒演讲中提到的外界对他'毫不费力的成功'的误解",
+      "importance": "medium"
+    },
+    {
+      "name": "乳酸堆积",
+      "type": "concept",
+      "context": "作者提及睡眠不足会导致运动后乳酸堆积恢复时间变长",
+      "importance": "low"
+    },
+    {
+      "name": "激素分泌周期",
+      "type": "concept",
+      "context": "作者提及女性每月激素周期导致身体有进有退的例子",
+      "importance": "low"
+    },
+    {
+      "name": "达特茅斯学院（Dartmouth College）",
+      "type": "place",
+      "context": "费德勒发表演讲的地点，位于美国",
+      "importance": "medium"
+    },
+    {
+      "name": "东海岸（美国）",
+      "type": "place",
+      "context": "提及曲棍球作为东海岸精英小众运动的地理背景",
+      "importance": "low"
+    },
+    {
+      "name": "从上海飞往美国的航班",
+      "type": "event",
+      "context": "作者经历肌肉恢复缓慢的具体旅行事件，涉及在超级猩猩上课后长途飞行",
+      "importance": "low"
+    },
+    {
+      "name": "斜方肌",
+      "type": "other",
+      "context": "作为肌肉代偿例子中经常被错误发力的肌肉，被用来解释代偿概念",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68d057d52c82c9dcca84b72b",
+  "title": "256-如何退步?"
+}

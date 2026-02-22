@@ -1,0 +1,426 @@
+{
+  "style": {
+    "opening_pattern": "以历史溯源方式引入，先确立讨论起点（19世纪中叶欧洲），再逐步推进到核心问题",
+    "structure": "概念辨析→历史演变→关键人物/事件分析→美国本土发展→衰落原因→结论回应标题",
+    "tone": "理性客观、知识密集、带有个人学术立场声明的温和叙述",
+    "catchphrases": [
+      "OK",
+      "对吧",
+      "所以说",
+      "在这里我还想要再强调一下",
+      "我想要再补充一点",
+      "话说到",
+      "所以话回这里",
+      "听到这里你可能会想说"
+    ],
+    "closing_pattern": "总结核心观点回应标题，并预告下期内容",
+    "narrative_techniques": [
+      "类比（将德布斯比作100年前的桑德斯）",
+      "对比（美欧社会条件对比、马克思主义与社会主义对比）",
+      "具体案例支撑（蒙大拿县全由共产党员担任公职）",
+      "反讽（马克思主义者称罗斯福为法西斯主义者）",
+      "引用转述（苏联专家的观点、美国共产党历史学会会长的对话）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "马克思主义创始人，其科学历史观被阐述为区别于一般社会主义的核心特征",
+      "importance": "high"
+    },
+    {
+      "name": "恩格斯",
+      "type": "person",
+      "context": "与马克思共同发表《共产党宣言》",
+      "importance": "medium"
+    },
+    {
+      "name": "尤金·德布斯（Eugene Debs）",
+      "type": "person",
+      "context": "美国社会主义政党领袖，主张通过内部改革实现社会主义，五次参选总统",
+      "importance": "high"
+    },
+    {
+      "name": "列宁",
+      "type": "person",
+      "context": "领导十月革命，创建共产国际，其新经济政策后被斯大林改变",
+      "importance": "high"
+    },
+    {
+      "name": "托洛茨基",
+      "type": "person",
+      "context": "约翰·里德在《震撼世界的十天》中描绘多于列宁的人物",
+      "importance": "medium"
+    },
+    {
+      "name": "斯大林",
+      "type": "person",
+      "context": "改变苏联方针，先后称民主党人为'社会法西斯主义者'后又改口支持罗斯福，其政策变化深刻影响美国马克思主义运动",
+      "importance": "high"
+    },
+    {
+      "name": "约翰·里德（John Reed）",
+      "type": "person",
+      "context": "战地记者，美国共产党成立的重要元老，著有《震撼世界的十天》",
+      "importance": "high"
+    },
+    {
+      "name": "艾拉·里夫·布卢尔（Ella Reeve Bloor/Mother Bloor）",
+      "type": "person",
+      "context": "美国早期女权主义者和马克思主义者，倡导生育控制和财富重新分配",
+      "importance": "medium"
+    },
+    {
+      "name": "杰伊·洛夫斯通（Jay Lovestone）",
+      "type": "person",
+      "context": "1928年向斯大林反映美国马克思主义困境的美共高层领导人",
+      "importance": "medium"
+    },
+    {
+      "name": "罗伯特·拉福莱特（Robert La Follette）",
+      "type": "person",
+      "context": "1923年马克思主义者试图推选的农民劳动党总统候选人",
+      "importance": "low"
+    },
+    {
+      "name": "威廉·福斯特（William Foster）",
+      "type": "person",
+      "context": "1930年代美国共产党推出的总统候选人，出现在48个州选票上",
+      "importance": "medium"
+    },
+    {
+      "name": "富兰克林·德拉诺·罗斯福（Franklin Delano Roosevelt）",
+      "type": "person",
+      "context": "被称为'摧毁美国马克思主义运动的男人'，其新政被论证为遏制马克思主义发展的关键",
+      "importance": "high"
+    },
+    {
+      "name": "赫鲁晓夫",
+      "type": "person",
+      "context": "其时期美国共产党已被尽数摧毁",
+      "importance": "low"
+    },
+    {
+      "name": "孔德",
+      "type": "person",
+      "context": "19世纪中叶思考工业革命社会问题的思想家之一",
+      "importance": "low"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "观察到美国社会流动性高于欧洲的法国思想家，《论美国的民主》作者",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "其《理想国》被一些社会主义者视为最早有关社会主义的讨论",
+      "importance": "low"
+    },
+    {
+      "name": "哈耶克",
+      "type": "person",
+      "context": "播客主在其学术会议上遇到美国共产党历史学会会长",
+      "importance": "low"
+    },
+    {
+      "name": "米塞斯",
+      "type": "person",
+      "context": "同上，政治经济学术会议名称来源",
+      "importance": "low"
+    },
+    {
+      "name": "《共产党宣言》",
+      "type": "work",
+      "context": "1848年马克思恩格斯发表，背靠工业革命后左翼政治历史背景",
+      "importance": "high"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "托克维尔1820年左右观察美国社会的著作",
+      "importance": "medium"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "被一些社会主义者认为包含最早社会主义讨论的柏拉图著作",
+      "importance": "low"
+    },
+    {
+      "name": "《震撼世界的十天》（10 Days That Shook the World）",
+      "type": "work",
+      "context": "约翰·里德记录十月革命的著作，出版过程与美国共产党建立过程交织",
+      "importance": "high"
+    },
+    {
+      "name": "马克思主义",
+      "type": "concept",
+      "context": "在社会主义之上添加科学历史观，主张推翻现有制度，被认为历史规律决定资本主义倒台不可避免",
+      "importance": "high"
+    },
+    {
+      "name": "社会主义",
+      "type": "concept",
+      "context": "有关集体主义社会的理想，财产资源属于社会而非个人，存在于人类思想史中",
+      "importance": "high"
+    },
+    {
+      "name": "布尔什维克",
+      "type": "organization",
+      "context": "俄罗斯社会民主工党的激进派别，发动十月革命，激发全球包括美国的社会主义政党分裂",
+      "importance": "high"
+    },
+    {
+      "name": "共产国际（Communist International/第三国际）",
+      "type": "organization",
+      "context": "列宁1919年创建，旨在团结全球马克思主义运动，要求各国只能有一个共产党",
+      "importance": "high"
+    },
+    {
+      "name": "美国社会主义党（Socialist Party of America）",
+      "type": "organization",
+      "context": "1901年成立，1919年分裂出共产党和无政府主义分支",
+      "importance": "high"
+    },
+    {
+      "name": "美国共产党（The Communist Party of America）",
+      "type": "organization",
+      "context": "1919年从社会主义党分裂出的两个共产党之一，后与另一合并",
+      "importance": "high"
+    },
+    {
+      "name": "美国共产主义劳动党（The Communist Labor Party of America）",
+      "type": "organization",
+      "context": "约翰·里德成立的另一个1919年共产党，后被迫合并",
+      "importance": "medium"
+    },
+    {
+      "name": "世界产业工人组织（Industrial Workers of the World/Wobblies）",
+      "type": "organization",
+      "context": "从社会主义党分裂出的无政府主义分支，比共产党更激进，主张暴力破坏",
+      "importance": "medium"
+    },
+    {
+      "name": "失业委员会",
+      "type": "organization",
+      "context": "大萧条初期美国马克思主义者成立，招募失业者并组织游行示威",
+      "importance": "medium"
+    },
+    {
+      "name": "农民劳动党（Farmer Labor Party）",
+      "type": "organization",
+      "context": "1923年美国马克思主义者试图联手参加全国选举的党派",
+      "importance": "low"
+    },
+    {
+      "name": "美国共产党历史学会",
+      "type": "organization",
+      "context": "其会长向播客主透露当今美国约有5000名共产党员",
+      "importance": "low"
+    },
+    {
+      "name": "工业革命",
+      "type": "event",
+      "context": "19世纪中叶发展到中期的历史背景，导致社会问题浮现和左右派重组",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "1789年爆发，1792年左右议会座位安排产生政治光谱左右之分",
+      "importance": "high"
+    },
+    {
+      "name": "十月革命",
+      "type": "event",
+      "context": "1917年俄国布尔什维克革命，分裂美国社会主义政党，激发全球马克思主义运动",
+      "importance": "high"
+    },
+    {
+      "name": "第一次世界大战",
+      "type": "event",
+      "context": "推动马克思主义在美国进程，被美国社会主义党批评为帝国主义战争",
+      "importance": "high"
+    },
+    {
+      "name": "帕尔默突袭",
+      "type": "event",
+      "context": "1920年2月美国联邦政府逮捕超过3000名共产党员的事件",
+      "importance": "medium"
+    },
+    {
+      "name": "大萧条",
+      "type": "event",
+      "context": "1929年后世界经济崩溃，美国马克思主义者的'春天'，党员人数激增",
+      "importance": "high"
+    },
+    {
+      "name": "第二次世界大战",
+      "type": "event",
+      "context": "导致斯大林改变政策支持罗斯福，美国马克思主义者进入主流文化的巅峰期",
+      "importance": "high"
+    },
+    {
+      "name": "冷战",
+      "type": "event",
+      "context": "50年代红色恐慌的背景，美国对苏联的恐惧折射为对内恐慌",
+      "importance": "high"
+    },
+    {
+      "name": "朝鲜战争",
+      "type": "event",
+      "context": "加剧50年代美国政府恐慌的国际因素之一",
+      "importance": "medium"
+    },
+    {
+      "name": "苏联解体",
+      "type": "event",
+      "context": "1989年发生，对美国马克思主义者是'毁灭性打击'，他们至今未能调整过来",
+      "importance": "high"
+    },
+    {
+      "name": "芝加哥干草市场爆炸案",
+      "type": "event",
+      "context": "1886年无政府主义者制造的事件，导致8人被判死刑",
+      "importance": "medium"
+    },
+    {
+      "name": "中国革命",
+      "type": "event",
+      "context": "加剧50年代美国政府恐慌的国际因素之一",
+      "importance": "medium"
+    },
+    {
+      "name": "新政",
+      "type": "concept",
+      "context": "罗斯福的改革措施，被论证为遏制美国马克思主义发展的关键，包括农村基建、社会保障、养老金等",
+      "importance": "high"
+    },
+    {
+      "name": "国家工业复兴法",
+      "type": "concept",
+      "context": "罗斯福新政法案，赋予联邦政府控制美国经济的权利",
+      "importance": "medium"
+    },
+    {
+      "name": "农业调整法",
+      "type": "concept",
+      "context": "罗斯福新政法案，通过联邦政府调整农作物价格",
+      "importance": "medium"
+    },
+    {
+      "name": "瓦格纳法案",
+      "type": "concept",
+      "context": "罗斯福新政法案，给予美国工人组织权和与管理阶层谈判的权利",
+      "importance": "medium"
+    },
+    {
+      "name": "红色恐慌",
+      "type": "concept",
+      "context": "50年代美国反共运动，被分析为针对苏联的国际政治反应而非针对国内马克思主义者",
+      "importance": "high"
+    },
+    {
+      "name": "社会法西斯主义（Social Fascists）",
+      "type": "concept",
+      "context": "斯大林1928年指示美国马克思主义者对民主党人和其他左翼政党的称呼",
+      "importance": "medium"
+    },
+    {
+      "name": "人民阵线",
+      "type": "concept",
+      "context": "二战期间美国马克思主义者以支持政府立场活动的形式",
+      "importance": "medium"
+    },
+    {
+      "name": "第三时期",
+      "type": "concept",
+      "context": "斯大林的政策，对欧洲马克思主义者有益但对美国人无益",
+      "importance": "low"
+    },
+    {
+      "name": "科学历史观",
+      "type": "concept",
+      "context": "马克思主义区别于社会主义的核心特征，视历史为不断革命的抗争过程",
+      "importance": "high"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "政治光谱左右之分起源地，1789年大革命发生地",
+      "importance": "medium"
+    },
+    {
+      "name": "欧洲",
+      "type": "place",
+      "context": "19世纪社会主义运动如火如荼的地区，与美国形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "本集核心讨论对象，分析其为何未成为马克思主义国家",
+      "importance": "high"
+    },
+    {
+      "name": "俄罗斯/苏联",
+      "type": "place",
+      "context": "十月革命发生地，共产国际所在地，对美国马克思主义运动有决定性影响",
+      "importance": "high"
+    },
+    {
+      "name": "莫斯科",
+      "type": "place",
+      "context": "美国两个共产党派代表前往寻求苏联认可真正接班人之地",
+      "importance": "medium"
+    },
+    {
+      "name": "芝加哥",
+      "type": "place",
+      "context": "1919年被开除的激进派重新聚会并成立两个共产党之地，也是干草市场爆炸案发生地",
+      "importance": "medium"
+    },
+    {
+      "name": "明尼苏达州",
+      "type": "place",
+      "context": "1930年代选出马克思主义市长的小镇所在州",
+      "importance": "low"
+    },
+    {
+      "name": "蒙大拿州",
+      "type": "place",
+      "context": "1930年代东部一县从县长到警长均为共产党员的州",
+      "importance": "low"
+    },
+    {
+      "name": "墨西哥",
+      "type": "place",
+      "context": "约翰·里德因报道其革命而在美国新闻界展露头角",
+      "importance": "low"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "革命发生加剧50年代美国政府恐慌",
+      "importance": "medium"
+    },
+    {
+      "name": "朝鲜",
+      "type": "place",
+      "context": "战争爆发加剧50年代美国政府恐慌",
+      "importance": "medium"
+    },
+    {
+      "name": "斯巴达",
+      "type": "place",
+      "context": "被一些社会主义者视为社会主义贵族制政权的古希腊城邦",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "673eb4a111045e78e5bca9d8",
+  "title": "137-美国为什么没有成为一个马克思主义国家？"
+}

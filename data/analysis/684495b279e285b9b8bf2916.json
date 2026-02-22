@@ -1,0 +1,567 @@
+{
+  "style": {
+    "opening_pattern": "承接往期内容/回顾历史（从第147期播客未竟的话题引入，提出对罗莎·卢森堡人物深度分析的缺失）",
+    "structure": "问题引入→历史背景（德国马克思主义失败的三点原因）→人物特质总论（非正统马克思主义者）→身份政治分析（女性、波兰人、犹太人）→核心理论深度解析（《资本积累论》与第三人理论）→革命实践与分歧（1905年与1914年事件、与列宁的对比）→文化背景溯源（19世纪欧洲犹太知识分子圈子）→音乐结尾",
+    "tone": "理性学术与强烈主观情感交织，充满智性激情；对罗莎·卢森堡充满深切的敬意与同情，对列宁、斯大林、德国社民党及官僚化组织持批判态度；口语化表达中夹杂学术术语，常有括号内的即兴评述",
+    "catchphrases": [
+      "我们可以...",
+      "我想说的是...",
+      "这一点...",
+      "换句话说",
+      "也就是说",
+      "对吧",
+      "等等",
+      "这是一个...",
+      "所谓",
+      "恰恰"
+    ],
+    "closing_pattern": "以文化/艺术推荐结尾（推荐斯克里亚宾第五钢琴奏鸣曲，介绍演奏者脑雾歌及音乐背景）",
+    "narrative_techniques": [
+      "对比（卢森堡与列宁、卢森堡与德国社民党、卢森堡与女权主义者）",
+      "类比（用'高考语文题'类比分析框架）",
+      "设问（'罗莎卢森堡是一个怎样的马克思主义者？'）",
+      "引用（引用阿伦特、梅林、列宁、尼采等人的评价）",
+      "细节描写（卢森堡被捕时家人筹款等细节）",
+      "反讽（对'正统马克思主义'的讽刺）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "罗莎·卢森堡",
+      "type": "person",
+      "context": "本集核心人物，被分析其作为非正统马克思主义者、波兰犹太女性革命者的身份与思想",
+      "importance": "high"
+    },
+    {
+      "name": "爱德华·伯恩斯坦",
+      "type": "person",
+      "context": "德国马克思主义者，提出修正主义，认为工人已在资本主义中得到解放，主张改革而非革命",
+      "importance": "high"
+    },
+    {
+      "name": "列宁",
+      "type": "person",
+      "context": "俄国革命领袖，与卢森堡在革命策略、组织方式上有尖锐分歧，但对卢森堡有微妙欣赏",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔·李卜克内西",
+      "type": "person",
+      "context": "德共前身奠基者，与卢森堡一同于1919年1月15日被自由军团谋杀",
+      "importance": "high"
+    },
+    {
+      "name": "弗朗茨·梅林",
+      "type": "person",
+      "context": "德国社民党左翼领袖，高度评价卢森堡《资本积累论》为马克思逝世以来无与伦比的成就",
+      "importance": "medium"
+    },
+    {
+      "name": "奥古斯特·倍倍尔",
+      "type": "person",
+      "context": "德国社民党老祖父，代表卢森堡所认同的社民党旧日精神",
+      "importance": "medium"
+    },
+    {
+      "name": "约吉希斯",
+      "type": "person",
+      "context": "卢森堡的情人，波兰社会主义运动领袖，卢森堡欣赏其作为'男人中的男人'",
+      "importance": "medium"
+    },
+    {
+      "name": "汉娜·阿伦特",
+      "type": "person",
+      "context": "政治哲学家，对卢森堡的成长背景、道德准则及'波澜壮阔的绝对孤立'有深刻观察",
+      "importance": "high"
+    },
+    {
+      "name": "普列汉诺夫",
+      "type": "person",
+      "context": "俄国马克思主义之父，评价斯克里亚宾音乐为唯心论神秘论者对革命时代的反应",
+      "importance": "low"
+    },
+    {
+      "name": "鲁特·费舍",
+      "type": "person",
+      "context": "维也纳青年党员，恶毒攻击卢森堡对马克思主义的影响是'一颗梅毒'",
+      "importance": "medium"
+    },
+    {
+      "name": "施克莱",
+      "type": "person",
+      "context": "Judith Shklar，播客主讲者的师祖，波兰出身犹太政治哲学家，哈佛政治系首位终身教职女教授",
+      "importance": "low"
+    },
+    {
+      "name": "以赛亚·伯林",
+      "type": "person",
+      "context": "哲学家，与施克莱同为波兰出身犹太人，被提及为20世纪重要思想家",
+      "importance": "low"
+    },
+    {
+      "name": "施特劳斯",
+      "type": "person",
+      "context": "哲学家，被提及为20世纪重要思想家",
+      "importance": "low"
+    },
+    {
+      "name": "约纳斯",
+      "type": "person",
+      "context": "哲学家，被提及为20世纪重要思想家",
+      "importance": "low"
+    },
+    {
+      "name": "弗朗茨·罗森茨维格",
+      "type": "person",
+      "context": "Franz Rosenzweig，被提及为20世纪重要思想家",
+      "importance": "low"
+    },
+    {
+      "name": "本雅明",
+      "type": "person",
+      "context": "哲学家，被提及为20世纪重要思想家，后自杀",
+      "importance": "low"
+    },
+    {
+      "name": "茨威格",
+      "type": "person",
+      "context": "作家，后自杀",
+      "importance": "low"
+    },
+    {
+      "name": "尤利安·马尔赫列夫斯基",
+      "type": "person",
+      "context": "早期布尔什维克党员，与卢森堡共享独特道德准则",
+      "importance": "low"
+    },
+    {
+      "name": "费利克斯·捷尔任斯基",
+      "type": "person",
+      "context": "早期布尔什维克党员，契卡创始人，列宁认为其有道德不会被权力腐蚀",
+      "importance": "low"
+    },
+    {
+      "name": "亚历山大·斯克里亚宾",
+      "type": "person",
+      "context": "俄罗斯作曲家，其第五钢琴奏鸣曲在播客结尾演奏",
+      "importance": "medium"
+    },
+    {
+      "name": "肖邦",
+      "type": "person",
+      "context": "作曲家，斯克里亚宾早期继承其风格",
+      "importance": "low"
+    },
+    {
+      "name": "李斯特",
+      "type": "person",
+      "context": "作曲家，脑雾歌参加李斯特大赛",
+      "importance": "low"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "哲学家，斯克里亚宾受其影响，也用于描述犹太人文化氛围",
+      "importance": "medium"
+    },
+    {
+      "name": "叔本华",
+      "type": "person",
+      "context": "哲学家，影响斯克里亚宾",
+      "importance": "low"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "马克思主义创始人，卢森堡对其著作持批判性态度",
+      "importance": "high"
+    },
+    {
+      "name": "俾斯麦",
+      "type": "person",
+      "context": "建立德意志帝国，倍倍尔时期主导政治",
+      "importance": "low"
+    },
+    {
+      "name": "斯托雷平",
+      "type": "person",
+      "context": "俄国政治家，大肆屠戮",
+      "importance": "low"
+    },
+    {
+      "name": "朗朗",
+      "type": "person",
+      "context": "钢琴家，脑雾歌的师兄",
+      "importance": "low"
+    },
+    {
+      "name": "王羽佳",
+      "type": "person",
+      "context": "钢琴家，脑雾歌的师姐",
+      "importance": "low"
+    },
+    {
+      "name": "脑雾歌",
+      "type": "person",
+      "context": "播客音乐总监，演奏斯克里亚宾第五奏鸣曲者",
+      "importance": "medium"
+    },
+    {
+      "name": "波波头小老太",
+      "type": "person",
+      "context": "播客主讲者的博导，提及施克莱的故事",
+      "importance": "low"
+    },
+    {
+      "name": "《资本积累论》",
+      "type": "work",
+      "context": "卢森堡1913年著作，提出'第三人理论'，被梅林高度评价",
+      "importance": "high"
+    },
+    {
+      "name": "《资本论》",
+      "type": "work",
+      "context": "马克思著作，卢森堡对其观点持批判性态度",
+      "importance": "high"
+    },
+    {
+      "name": "《波兰工业发展》",
+      "type": "work",
+      "context": "卢森堡博士论文，获一等荣誉，论证波兰经济依赖俄国",
+      "importance": "high"
+    },
+    {
+      "name": "《狂喜之诗》",
+      "type": "work",
+      "context": "斯克里亚宾音诗，得知革命后饱含激情创作",
+      "importance": "low"
+    },
+    {
+      "name": "斯克里亚宾第五钢琴奏鸣曲",
+      "type": "work",
+      "context": "播客结尾演奏的曲目，由脑雾歌演奏",
+      "importance": "medium"
+    },
+    {
+      "name": "修正主义",
+      "type": "concept",
+      "context": "伯恩斯坦提出，主张改革不要革命，认为工人已在资本主义中得到解放",
+      "importance": "high"
+    },
+    {
+      "name": "马克思主义",
+      "type": "concept",
+      "context": "本集核心讨论的理论体系，卢森堡对其持批判性态度",
+      "importance": "high"
+    },
+    {
+      "name": "帝国主义",
+      "type": "concept",
+      "context": "卢森堡著作标题中的概念，与资本积累相关",
+      "importance": "high"
+    },
+    {
+      "name": "资本积累",
+      "type": "concept",
+      "context": "卢森堡《资本积累论》核心概念，指资本主义通过吞噬外部世界维持运行",
+      "importance": "high"
+    },
+    {
+      "name": "第三人理论",
+      "type": "concept",
+      "context": "卢森堡提出，认为资本主义发展依赖吞噬尚未资本化的外部领域",
+      "importance": "high"
+    },
+    {
+      "name": "资本原始积累",
+      "type": "concept",
+      "context": "马克思概念，卢森堡认为其不是一次性事件而是必须重复进行",
+      "importance": "medium"
+    },
+    {
+      "name": "无产阶级革命",
+      "type": "concept",
+      "context": "马克思主义核心概念，伯恩斯坦认为不需要，卢森堡坚持革命",
+      "importance": "high"
+    },
+    {
+      "name": "正统马克思主义",
+      "type": "concept",
+      "context": "卢森堡被批判为非正统，她对正统缺乏信仰式忠诚",
+      "importance": "high"
+    },
+    {
+      "name": "乌托邦式马克思主义",
+      "type": "concept",
+      "context": "形容卢森堡及第一代马克思主义者的特质，区别于后来的布尔什维克",
+      "importance": "high"
+    },
+    {
+      "name": "国际主义",
+      "type": "concept",
+      "context": "马克思主义口号，卢森堡作为波兰犹太人在德国革命体现此精神",
+      "importance": "high"
+    },
+    {
+      "name": "民族主义",
+      "type": "concept",
+      "context": "卢森堡批判波兰民族主义，认为其违背经济发展事实；20世纪民族主义崛起她未能理解",
+      "importance": "high"
+    },
+    {
+      "name": "社会主义",
+      "type": "concept",
+      "context": "卢森堡及社民党、德共的意识形态目标",
+      "importance": "high"
+    },
+    {
+      "name": "神秘主义",
+      "type": "concept",
+      "context": "斯克里亚宾接受的思潮，以神秘直观为中心的通神论",
+      "importance": "low"
+    },
+    {
+      "name": "通神论",
+      "type": "concept",
+      "context": "斯克里亚宾接受的神秘主义思潮",
+      "importance": "low"
+    },
+    {
+      "name": "唯我论",
+      "type": "concept",
+      "context": "斯克里亚宾信奉的尼采哲学观念",
+      "importance": "low"
+    },
+    {
+      "name": "唯意志论",
+      "type": "concept",
+      "context": "影响斯克里亚宾的哲学思想",
+      "importance": "low"
+    },
+    {
+      "name": "权力意志",
+      "type": "concept",
+      "context": "叔本华和尼采的哲学概念，影响斯克里亚宾",
+      "importance": "low"
+    },
+    {
+      "name": "超人哲学",
+      "type": "concept",
+      "context": "尼采哲学，影响斯克里亚宾",
+      "importance": "low"
+    },
+    {
+      "name": "语言壁垒",
+      "type": "concept",
+      "context": "第一代革命者掌握多国语言与工人阶级之间的隔阂",
+      "importance": "medium"
+    },
+    {
+      "name": "黄金时代",
+      "type": "concept",
+      "context": "指19世纪末欧洲文化的黄金时代，卢森堡的精神家园",
+      "importance": "medium"
+    },
+    {
+      "name": "1919年1月15日",
+      "type": "event",
+      "context": "卢森堡和李卜克内西在柏林被自由军团谋杀的日子，德国历史的分水岭",
+      "importance": "high"
+    },
+    {
+      "name": "1905年俄国革命",
+      "type": "event",
+      "context": "卢森堡前往华沙观摩的革命，给她带来第一次致命打击，发现德国社民党缺乏革命意志",
+      "importance": "high"
+    },
+    {
+      "name": "1914年一战爆发",
+      "type": "event",
+      "context": "德国社民党投票支持参战，给卢森堡带来第二次致命打击，几乎逼她自杀",
+      "importance": "high"
+    },
+    {
+      "name": "1918年第二次俄国革命",
+      "type": "event",
+      "context": "十月革命后卢森堡对列宁的组织策略提出批评",
+      "importance": "high"
+    },
+    {
+      "name": "日俄战争",
+      "type": "event",
+      "context": "引发1905年俄国革命的契机，军事灾难引发政治崩塌",
+      "importance": "medium"
+    },
+    {
+      "name": "纳粹大屠杀",
+      "type": "event",
+      "context": "遮蔽了之前犹太人在欧洲处境的讨论，与卢森堡时代背景相关",
+      "importance": "medium"
+    },
+    {
+      "name": "一战",
+      "type": "event",
+      "context": "1914-1918年的战争，导致欧洲社会主义分裂",
+      "importance": "high"
+    },
+    {
+      "name": "二战",
+      "type": "event",
+      "context": "提及施克莱流亡及卢森堡全集在波兰出版背景",
+      "importance": "low"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "卢森堡从事革命活动的主要国家，社民党和德共所在地",
+      "importance": "high"
+    },
+    {
+      "name": "波兰",
+      "type": "place",
+      "context": "卢森堡的祖国，她的博士论文研究对象，东欧犹太人文化圈",
+      "importance": "high"
+    },
+    {
+      "name": "俄国/苏联",
+      "type": "place",
+      "context": "1905年和1917年革命发生地，列宁领导的国家，卢森堡批判对象",
+      "importance": "high"
+    },
+    {
+      "name": "柏林",
+      "type": "place",
+      "context": "卢森堡被谋杀的城市，德国政治中心",
+      "importance": "high"
+    },
+    {
+      "name": "苏黎世",
+      "type": "place",
+      "context": "卢森堡攻读博士学位的城市",
+      "importance": "medium"
+    },
+    {
+      "name": "华沙",
+      "type": "place",
+      "context": "1905年卢森堡参与革命的城市，她的故乡",
+      "importance": "medium"
+    },
+    {
+      "name": "东德省份",
+      "type": "place",
+      "context": "社民党派卢森堡去管理波兰人口宣传工作的地区",
+      "importance": "low"
+    },
+    {
+      "name": "波恩",
+      "type": "place",
+      "context": "当时德国政府所在地，默许谋杀卢森堡",
+      "importance": "medium"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "欧洲文化城市，卢森堡圈子文化辐射范围",
+      "importance": "low"
+    },
+    {
+      "name": "伦敦",
+      "type": "place",
+      "context": "欧洲文化城市，卢森堡圈子文化辐射范围",
+      "importance": "low"
+    },
+    {
+      "name": "维也纳",
+      "type": "place",
+      "context": "鲁特·费舍来自此地，欧洲文化圈",
+      "importance": "low"
+    },
+    {
+      "name": "莫斯科",
+      "type": "place",
+      "context": "苏联首都，布尔什维克中心",
+      "importance": "medium"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "施克莱二战期间流亡地",
+      "importance": "low"
+    },
+    {
+      "name": "哈佛",
+      "type": "place",
+      "context": "施克莱任教地，播客主讲者学术渊源",
+      "importance": "low"
+    },
+    {
+      "name": "匈牙利",
+      "type": "place",
+      "context": "脑雾歌参加李斯特大赛地点",
+      "importance": "low"
+    },
+    {
+      "name": "福州",
+      "type": "place",
+      "context": "脑雾歌做福州海鲜",
+      "importance": "low"
+    },
+    {
+      "name": "德国社民党（SPD）",
+      "type": "organization",
+      "context": "卢森堡加入的政党，后因其支持一战而决裂，被批判为官僚化、缺乏革命意志",
+      "importance": "high"
+    },
+    {
+      "name": "德共（德国共产党）",
+      "type": "organization",
+      "context": "卢森堡参与创立，被认为太软、官僚化，前身为斯巴达克同盟",
+      "importance": "high"
+    },
+    {
+      "name": "斯巴达克同盟",
+      "type": "organization",
+      "context": "德国共产党前身，卢森堡和李卜克内西领导的左翼激进组织",
+      "importance": "high"
+    },
+    {
+      "name": "自由军团（Freikorps）",
+      "type": "organization",
+      "context": "极右翼极端民族主义准军事组织，当街谋杀卢森堡和李卜克内西",
+      "importance": "high"
+    },
+    {
+      "name": "布尔什维克党",
+      "type": "organization",
+      "context": "列宁领导的政党，与卢森堡在革命策略上有根本分歧",
+      "importance": "high"
+    },
+    {
+      "name": "苏共（苏联共产党）",
+      "type": "organization",
+      "context": "列宁之后的苏共对卢森堡思想进行全面封杀和批判",
+      "importance": "medium"
+    },
+    {
+      "name": "中央音乐学院",
+      "type": "organization",
+      "context": "脑雾歌九岁考入的学校",
+      "importance": "low"
+    },
+    {
+      "name": "高考语文题",
+      "type": "other",
+      "context": "播客主讲者用此类比分析'德国为什么没有成为马克思主义国家'的三点回答",
+      "importance": "low"
+    },
+    {
+      "name": "琴奴",
+      "type": "other",
+      "context": "播客主讲者对音乐总监脑雾歌的戏称",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "684495b279e285b9b8bf2916",
+  "title": "222-罗莎卢森堡是一个怎样的马克思主义者"
+}

@@ -1,0 +1,369 @@
+{
+  "style": {
+    "opening_pattern": "以一段个人奇遇经历引入，通过类比（奶茶店朋友多给小料）建立亲切感，再揭示真实事件（在河马超市教挑梭子蟹），形成反差幽默",
+    "structure": "个人故事→哲学概念解释（亚里士多德五种智慧）→螃蟹知识详解→实践困境反思→具体挑蟹方法→哲学升华→结尾致谢",
+    "tone": "轻松幽默、自嘲式真诚、知识性与生活化结合，带有明显的个人特色和口语化表达",
+    "catchphrases": [
+      "东海海王",
+      "黄浦军校Money Yoga",
+      "嘚啵嘚啵",
+      "舌战群儒",
+      "怕怕的",
+      "冻病熬夜学习",
+      "屁股翘的就是肥的",
+      "空气中弥漫着欢乐的氛围",
+      "嘴贱",
+      "挪用公款"
+    ],
+    "closing_pattern": "总结对比（书展几千人vs超市阿姨的紧张程度）+ 赞助商致谢 + 开放式祝福（希望开到波士顿）+ 播客推荐",
+    "narrative_techniques": [
+      "类比（奶茶店小料/下巴倒立/骑自行车/写古希腊语）",
+      "对比（成都vs杭州vs上海vs北京的城市气质）",
+      "自嘲（知识分子不会挑螃蟹）",
+      "细节描写（四倍速提问、鸟写成四个点）",
+      "引用升华（柏拉图《理想国》katabaino）",
+      "反复（\"具体处境中的判断\"重复三遍）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "提出五种智慧分类（技艺、科学、理智直觉、哲学智慧、实践智慧）的哲学家，本集核心讨论对象",
+      "importance": "high"
+    },
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "古罗马作家，其著作《如何从敌人身上获益》被作为活动奖品发放，也是主播翻译的对象",
+      "importance": "high"
+    },
+    {
+      "name": "牟宗三",
+      "type": "person",
+      "context": "将nous译为\"智\"的中国哲学家，被提及作为术语翻译参考",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "在成都活动中被听众质疑为\"抛妻弃子的渣男\"，主播曾为其辩护",
+      "importance": "low"
+    },
+    {
+      "name": "洛克",
+      "type": "person",
+      "context": "在北京读书会讨论其《政府论》下篇中关于婚姻的论述",
+      "importance": "low"
+    },
+    {
+      "name": "希特勒",
+      "type": "person",
+      "context": "作为历史背景提及，曾收走主播大学室友家的宫殿作为德军基地",
+      "importance": "low"
+    },
+    {
+      "name": "斯大林",
+      "type": "person",
+      "context": "作为历史背景提及，在希特勒之后再次收走同一宫殿",
+      "importance": "low"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "《理想国》作者，其开篇词katabaino（向下走）被引用作为实践智慧的哲学依据",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "被描述为需要离开哲学殿堂走到码头上才能讨论好人生",
+      "importance": "medium"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "播客前奏演奏者，曾截图询问东北小表弟的朋友是否单身",
+      "importance": "low"
+    },
+    {
+      "name": "宝眼哥徐卉小开",
+      "type": "person",
+      "context": "主播朋友，转述其母亲对主播教上海阿姨挑蟹资格的质疑",
+      "importance": "low"
+    },
+    {
+      "name": "实践智慧（Phronesis）",
+      "type": "concept",
+      "context": "本集核心哲学概念，指在具体处境中做出良好判断的能力，区别于理论知识",
+      "importance": "high"
+    },
+    {
+      "name": "技艺/技能（Techne）",
+      "type": "concept",
+      "context": "亚里士多德五种智慧之一，指生产作品的能力如木匠做椅子",
+      "importance": "medium"
+    },
+    {
+      "name": "科学知识（Episteme）",
+      "type": "concept",
+      "context": "亚里士多德五种智慧之一，指具有必然性和普遍性的可证明知识",
+      "importance": "medium"
+    },
+    {
+      "name": "理智直觉（Nous）",
+      "type": "concept",
+      "context": "亚里士多德五种智慧之一，指分辨对错的第一原理直觉能力",
+      "importance": "medium"
+    },
+    {
+      "name": "哲学智慧（Sophia）",
+      "type": "concept",
+      "context": "亚里士多德五种智慧之一，理论最高智慧，由直觉和科学知识结合而成",
+      "importance": "medium"
+    },
+    {
+      "name": "梭子蟹",
+      "type": "other",
+      "context": "东海主要海蟹品种，本集实践智慧的具体案例，主播被邀请教授挑选方法",
+      "importance": "high"
+    },
+    {
+      "name": "大闸蟹",
+      "type": "other",
+      "context": "河蟹代表，与梭子蟹对比，吃蟹黄蟹膏为主，烹饪方式不同",
+      "importance": "medium"
+    },
+    {
+      "name": "青蟹",
+      "type": "other",
+      "context": "温暖海域海蟹，三门青蟹最有名，常与丝瓜烧面或做汤",
+      "importance": "medium"
+    },
+    {
+      "name": "小娘蟹",
+      "type": "other",
+      "context": "未成熟雌梭子蟹，体型最小，肉质鲜甜但无蟹黄，价格最便宜",
+      "importance": "medium"
+    },
+    {
+      "name": "帝王蟹",
+      "type": "other",
+      "context": "北方寒冷海域生猛海鲜代表，主播出国后才知晓",
+      "importance": "low"
+    },
+    {
+      "name": "松叶蟹",
+      "type": "other",
+      "context": "日本北海道等地生猛海鲜，与帝王蟹、红毛蟹并列",
+      "importance": "low"
+    },
+    {
+      "name": "红毛蟹",
+      "type": "other",
+      "context": "北太平洋寒冷海域生猛海鲜，蟹壳极硬",
+      "importance": "low"
+    },
+    {
+      "name": "花蟹",
+      "type": "other",
+      "context": "温暖地区螃蟹，东南亚饮食中常用",
+      "importance": "low"
+    },
+    {
+      "name": "舟山渔场",
+      "type": "place",
+      "context": "中国最重要梭子蟹产区，位于东海",
+      "importance": "medium"
+    },
+    {
+      "name": "东海",
+      "type": "place",
+      "context": "主播自称\"东海海王\"的海域范围，从长江口到台湾海峡",
+      "importance": "high"
+    },
+    {
+      "name": "渤海",
+      "type": "place",
+      "context": "东北小表弟自称\"渤海卖海鲜\"的海域，主播计划前往切磋",
+      "importance": "medium"
+    },
+    {
+      "name": "黄海",
+      "type": "place",
+      "context": "北方梭子蟹也有分布的海域",
+      "importance": "low"
+    },
+    {
+      "name": "南海",
+      "type": "place",
+      "context": "青蟹分布的温暖海域",
+      "importance": "low"
+    },
+    {
+      "name": "三门",
+      "type": "place",
+      "context": "浙江台州，以三门青蟹闻名，主播家乡附近",
+      "importance": "low"
+    },
+    {
+      "name": "阿拉斯加",
+      "type": "place",
+      "context": "帝王蟹等生猛海鲜产地",
+      "importance": "low"
+    },
+    {
+      "name": "北海道",
+      "type": "place",
+      "context": "日本松叶蟹等海鲜产地",
+      "importance": "low"
+    },
+    {
+      "name": "北太平洋",
+      "type": "place",
+      "context": "红毛蟹等生猛海鲜生活的寒冷海域",
+      "importance": "low"
+    },
+    {
+      "name": "苏州",
+      "type": "place",
+      "context": "蟹黄面做法来源地之一",
+      "importance": "low"
+    },
+    {
+      "name": "扬州",
+      "type": "place",
+      "context": "蟹黄面做法来源地之一",
+      "importance": "low"
+    },
+    {
+      "name": "卡塔尔艺术博物馆",
+      "type": "place",
+      "context": "主播曾打工的地方，作为奇遇类比例举",
+      "importance": "low"
+    },
+    {
+      "name": "秘鲁",
+      "type": "place",
+      "context": "主播曾参加总统登基典礼的地方，作为奇遇类比例举",
+      "importance": "low"
+    },
+    {
+      "name": "上海浦东金桥国际广场",
+      "type": "place",
+      "context": "河马先生门店所在地，活动举办地点",
+      "importance": "high"
+    },
+    {
+      "name": "上海书展",
+      "type": "place",
+      "context": "主播当晚要对着几千人演讲的活动场地",
+      "importance": "medium"
+    },
+    {
+      "name": "中信书店",
+      "type": "place",
+      "context": "主播在上海常去的文化场所",
+      "importance": "low"
+    },
+    {
+      "name": "思南公馆",
+      "type": "place",
+      "context": "主播在上海常去的文化场所，用于对谈外国作家",
+      "importance": "low"
+    },
+    {
+      "name": "成都",
+      "type": "place",
+      "context": "全国巡演第一站，以尖锐问题和战斗精神著称",
+      "importance": "medium"
+    },
+    {
+      "name": "莱树下书店",
+      "type": "place",
+      "context": "成都独立书店，举办第一场活动",
+      "importance": "low"
+    },
+    {
+      "name": "野梨树书店",
+      "type": "place",
+      "context": "成都独立书店，举办第二场活动",
+      "importance": "low"
+    },
+    {
+      "name": "杭州",
+      "type": "place",
+      "context": "全国巡演城市，以大厂牛马和温柔礼貌气质著称",
+      "importance": "medium"
+    },
+    {
+      "name": "北京",
+      "type": "place",
+      "context": "全国巡演城市，以高校老师和文化中心气质著称",
+      "importance": "medium"
+    },
+    {
+      "name": "看理想",
+      "type": "organization",
+      "context": "邀请主播到北京做读书会的机构",
+      "importance": "low"
+    },
+    {
+      "name": "河马先生/盒马",
+      "type": "organization",
+      "context": "本期赞助商，新零售生鲜超市，十周年生日会主办方",
+      "importance": "high"
+    },
+    {
+      "name": "教育部",
+      "type": "organization",
+      "context": "北京一位美女听众的工作单位",
+      "importance": "low"
+    },
+    {
+      "name": "Lululemon",
+      "type": "organization",
+      "context": "上海听众穿着的品牌，体现都市丽人气质",
+      "importance": "low"
+    },
+    {
+      "name": "《如何从敌人身上获益》",
+      "type": "work",
+      "context": "主播翻译的普鲁塔克著作，作为活动奖品发放100本",
+      "importance": "high"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图著作，开篇词katabaino被引用说明实践智慧需要\"向下走\"",
+      "importance": "high"
+    },
+    {
+      "name": "《政府论》下篇",
+      "type": "work",
+      "context": "洛克著作，在北京读书会讨论其中关于婚姻的论述",
+      "importance": "low"
+    },
+    {
+      "name": "《河马啵啵啵》",
+      "type": "work",
+      "context": "河马先生的官方播客，片尾推荐订阅",
+      "importance": "medium"
+    },
+    {
+      "name": "818大嘴节/鲜美生活节",
+      "type": "event",
+      "context": "河马先生十周年主题活动，往年叫大嘴节，今年改为鲜美生活节",
+      "importance": "medium"
+    },
+    {
+      "name": "开海",
+      "type": "event",
+      "context": "东海休渔期结束，梭子蟹大量上市的时间节点，主播担任\"开海大使\"",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68af36e25faf368659bd3bcc",
+  "title": "246-教上海阿姨挑梭子蟹如何帮我反思实践智慧"
+}

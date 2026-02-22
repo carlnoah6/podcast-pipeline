@@ -1,0 +1,194 @@
+{
+  "style": {
+    "opening_pattern": "以亲身经历和身份背景引入，通过对比城乡教育资源差异建立个人叙事起点",
+    "structure": "个人经历→核心观察（傲慢/歧视/民粹保守三个维度）→具体案例→总结升华，采用'提出概念—生活实例—理论反思'的循环结构",
+    "tone": "坦诚直率、带有自嘲和反讽的理性剖析，兼具情感温度与批判锋芒",
+    "catchphrases": [
+      "道不同不相为谋",
+      "你没文化你不懂",
+      "港都",
+      "爹位",
+      "乡巴佬",
+      "温室",
+      "And that's OK",
+      "真的没事",
+      "叽里咕噜",
+      "撒泡尿照一照自己"
+    ],
+    "closing_pattern": "以具体家庭场景收束，回归个人情感体验，用英文短语作结形成松弛感",
+    "narrative_techniques": [
+      "对比（城乡/精英与平民/理论与经验）",
+      "自我暴露与自嘲",
+      "具体场景还原（爷爷催婚、亲戚劝穿衣）",
+      "反问与归谬",
+      "概念重构（重新定义'开放''包容'）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "汉娜·阿伦特（Hannah Arendt）",
+      "type": "person",
+      "context": "主播研究阿伦特时发现其'有教养的中产阶级'出身背景，以此对照自身县城出身的差异",
+      "importance": "high"
+    },
+    {
+      "name": "里尔克",
+      "type": "person",
+      "context": "作为阿伦特成长环境中预设的文化常识被提及，代表有教养中产阶级的阅读谱系",
+      "importance": "medium"
+    },
+    {
+      "name": "歌德",
+      "type": "person",
+      "context": "同上，作为德国教养中产阶级的核心文化符号",
+      "importance": "medium"
+    },
+    {
+      "name": "莎士比亚",
+      "type": "person",
+      "context": "同上，主播强调在阿伦特的环境中'知道莎士比亚是谁'是被预设的常识",
+      "importance": "medium"
+    },
+    {
+      "name": "托尔斯泰",
+      "type": "person",
+      "context": "主播用以说明县城与城市对'文艺'认知差异的例子——在县城托尔斯泰与韩寒无区别",
+      "importance": "medium"
+    },
+    {
+      "name": "韩寒",
+      "type": "person",
+      "context": "与托尔斯泰并置，说明县城缺乏文艺等级共识",
+      "importance": "low"
+    },
+    {
+      "name": "刘瑜",
+      "type": "person",
+      "context": "主播提醒她关于Black Lives Matter翻译注意事项的朋友，同为公共知识分子",
+      "importance": "medium"
+    },
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "2024年美国大选的核心人物，主播因分析其选民基础而被攻击为民粹支持者",
+      "importance": "high"
+    },
+    {
+      "name": "波伏娃（Simone de Beauvoir）",
+      "type": "person",
+      "context": "作为城市知识分子预设的共同阅读经验被提及，与县城环境形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "《红与黑》",
+      "type": "work",
+      "context": "主播用以论证需要为知识价值辩护的极端假设场景——与野生大黄鱼比较",
+      "importance": "medium"
+    },
+    {
+      "name": "《什么塑造了阿伦特》",
+      "type": "work",
+      "context": "主播自己的上一期播客节目，编号247",
+      "importance": "medium"
+    },
+    {
+      "name": "《特朗普选民都是什么人》",
+      "type": "work",
+      "context": "主播的第64期播客，标志其开始系统讨论美国时政的起点",
+      "importance": "high"
+    },
+    {
+      "name": "有教养的中产阶级（gebildete Bürgertum）",
+      "type": "concept",
+      "context": "德语概念，阿伦特的成长背景，主播用以分析尊重知识的阶级性来源",
+      "importance": "high"
+    },
+    {
+      "name": "Black Lives Matter",
+      "type": "concept",
+      "context": "美国社会运动，主播因使用'黑命贵'而非'黑人的命也是命'的翻译被质疑歧视",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙主义",
+      "type": "concept",
+      "context": "主播批判其思想家试图改变'绝大多数人不思考不读书'的事实",
+      "importance": "medium"
+    },
+    {
+      "name": "全球主义",
+      "type": "concept",
+      "context": "县城/民粹选民憎恨的对象，主播用以解释保守派立场",
+      "importance": "medium"
+    },
+    {
+      "name": "民粹主义",
+      "type": "concept",
+      "context": "主播被攻击的标签，但她主张这是对保守选民的同情理解而非认同",
+      "importance": "high"
+    },
+    {
+      "name": "2024年美国大选",
+      "type": "event",
+      "context": "主播人生的转折点，订阅量暴涨、获得出版合同、开始系统讨论时政的契机",
+      "importance": "high"
+    },
+    {
+      "name": "杭州",
+      "type": "place",
+      "context": "主播唯一生活过的中国城市，寄宿初中所在地，但强调'等于没有城市生活经验'",
+      "importance": "medium"
+    },
+    {
+      "name": "西湖大学",
+      "type": "organization",
+      "context": "主播奶奶误以为她能去教英语的地方，体现代际认知鸿沟",
+      "importance": "low"
+    },
+    {
+      "name": "小宇宙",
+      "type": "organization",
+      "context": "播客平台，主播订阅从一两万涨到40万，6万条评论成为新认知来源",
+      "importance": "high"
+    },
+    {
+      "name": "看理想",
+      "type": "organization",
+      "context": "主播开课的平台，与出书、播客增长共同构成2024年的职业突破",
+      "importance": "medium"
+    },
+    {
+      "name": "小红书",
+      "type": "organization",
+      "context": "主播提到的社交媒体之一，也是其小学同学成为网红的平台",
+      "importance": "low"
+    },
+    {
+      "name": "抖音",
+      "type": "organization",
+      "context": "县城另一位'名人'拍摄农村婆媳短剧的平台，200多万粉丝",
+      "importance": "low"
+    },
+    {
+      "name": "虎扑",
+      "type": "organization",
+      "context": "主播对比小宇宙用户敏感性时提到的平台，暗示其氛围更粗放",
+      "importance": "low"
+    },
+    {
+      "name": "纽约时报",
+      "type": "organization",
+      "context": "主播讽刺某些知识分子仅通过该报了解美国的信息来源",
+      "importance": "low"
+    },
+    {
+      "name": "南宁",
+      "type": "other",
+      "context": "主播口误或方言谐音，实际想说的是'爹味/爹位'，被用来嘲笑亲戚没见过世面",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6881aceaa12f9ff06ac181be",
+  "title": "241-小县城出身如何塑造我的思考"
+}

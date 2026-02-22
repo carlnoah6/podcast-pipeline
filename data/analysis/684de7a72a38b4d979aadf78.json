@@ -1,0 +1,139 @@
+{
+  "style": {
+    "opening_pattern": "以历史决定性时刻引入，直接点明具体日期（2025年6月13日）并定义其历史重要性，建立紧迫感",
+    "structure": "时间线事实陈述（48小时内发生什么）→ 历史与战略背景分析 → 多视角深入剖析（以色列内部、伊朗视角、美国MAGA阵营）→ 战略误判分析 → 哲学式结尾",
+    "tone": "理性客观、严肃深沉，带有强烈的现实政治（realpolitik）分析色彩，兼具学术深度与新闻紧迫感，偶尔出现反讽（如'Let the adults back into politics'）",
+    "catchphrases": [
+      "对吧",
+      "也就是说",
+      "我们可以看到",
+      "实际上",
+      "我想说的是",
+      "从...的视角来看",
+      "事实上",
+      "长期以来的共识是",
+      "历史重演"
+    ],
+    "closing_pattern": "引用黑格尔名言（密涅瓦的猫头鹰在黄昏时起飞）进行哲学升华，明确表示不做预测，以开放式姿态结束",
+    "narrique_techniques": [
+      "多视角切换（以色列/伊朗/美国MAGA三方视角）",
+      "历史类比（1967年六日战争与当下对比）",
+      "详细事实罗列与密集信息轰炸",
+      "反事实推理（如果伊朗获得核武器会怎样）",
+      "引用多方权威观点进行互证"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Hossein Salami（侯赛因·萨拉米）",
+      "type": "person",
+      "context": "伊朗伊斯兰革命卫队总司令，在6月13日以色列袭击中身亡的三名最高级别将领之一",
+      "importance": "high"
+    },
+    {
+      "name": "Mohamed Bagheri（穆罕默德·巴盖里）",
+      "type": "person",
+      "context": "伊朗武装部队总参谋长，在以色列袭击中丧生",
+      "importance": "high"
+    },
+    {
+      "name": "Donald Trump（唐纳德·特朗普）",
+      "type": "person",
+      "context": "美国总统，其内部阵营（MAGA）在是否支持以色列打击伊朗问题上出现严重分裂",
+      "importance": "high"
+    },
+    {
+      "name": "Benjamin Netanyahu（本雅明·内塔尼亚胡）",
+      "type": "person",
+      "context": "以色列总理，将此次行动命名为'雄狮行动'，并向伊朗人民喊话称'摆脱暴政的日子比以往任何时候都更加接近'",
+      "importance": "high"
+    },
+    {
+      "name": "Ali Khamenei（阿里·哈梅内伊）",
+      "type": "person",
+      "context": "伊朗最高领袖，宣称以色列将面临'痛苦而苦涩的命运'，并在袭击前误判美国不会支持以色列行动",
+      "importance": "high"
+    },
+    {
+      "name": "Tucker Carlson（塔克·卡尔森）",
+      "type": "person",
+      "context": "美国保守派媒体人，代表MAGA阵营中的'克制派'，主张'让以色列自己打自己的战争'，警告这可能引发第三次世界大战",
+      "importance": "medium"
+    },
+    {
+      "name": "Mohammed bin Salman（穆罕默德·本·萨勒曼）",
+      "type": "person",
+      "context": "沙特王储，与以色列一道视伊朗为生存威胁，虽然未正式加入亚伯拉罕协议但与以色列有非正式安全合作",
+      "importance": "medium"
+    },
+    {
+      "name": "Operation Rising Lion（雄狮行动）",
+      "type": "event",
+      "context": "以色列于2025年6月13日对伊朗发动的军事打击代号，旨在摧毁伊朗核设施及高层军事指挥官",
+      "importance": "high"
+    },
+    {
+      "name": "1967年六日战争",
+      "type": "event",
+      "context": "被用作历史类比，说明以色列此次袭击与当年突袭埃及空军一样具有突然性和决定性",
+      "importance": "medium"
+    },
+    {
+      "name": "亚伯拉罕协议（Abraham Accords）",
+      "type": "event",
+      "context": "2020年以色列与阿联酋、巴林等国签署的外交关系正常化协议，改变了中东战略格局",
+      "importance": "medium"
+    },
+    {
+      "name": "纳坦兹（Natanz）",
+      "type": "place",
+      "context": "伊朗最重要的核设施所在地，以色列此次袭击的主要目标之一，浓缩厂冒出滚滚浓烟",
+      "importance": "high"
+    },
+    {
+      "name": "德黑兰（Tehran）",
+      "type": "place",
+      "context": "伊朗首都，以色列在此进行针对高级军官和核科学家的定点清除行动",
+      "importance": "high"
+    },
+    {
+      "name": "真主党（Hezbollah）",
+      "type": "organization",
+      "context": "伊朗在黎巴嫩的最强代理人组织，已在2024年遭到以色列重创，削弱了伊朗的威慑能力",
+      "importance": "medium"
+    },
+    {
+      "name": "伊斯兰革命卫队（IRGC）",
+      "type": "organization",
+      "context": "伊朗精锐军事力量，其总司令萨拉米等高层在袭击中被击毙",
+      "importance": "high"
+    },
+    {
+      "name": "国际原子能机构（IAEA）",
+      "type": "organization",
+      "context": "联合国核监督机构，在袭击前夕正式裁定伊朗未能履行核义务，为以色列行动提供了法理依据",
+      "importance": "medium"
+    },
+    {
+      "name": "JCPOA（联合全面行动计划/伊核协议）",
+      "type": "concept",
+      "context": "2015年奥巴马政府签署的伊朗核协议，特朗普政府于2018年退出，此次袭击标志着通过外交解决伊朗核问题的努力彻底失败",
+      "importance": "high"
+    },
+    {
+      "name": "现实政治（Realpolitik）",
+      "type": "concept",
+      "context": "播客主强调的分析框架，指以色列此次行动无关民主推广或政权更迭，纯粹基于国家安全利益的理性计算",
+      "importance": "medium"
+    },
+    {
+      "name": "MAGA（让美国再次伟大）",
+      "type": "concept",
+      "context": "特朗普政治运动，内部在是否支持以色列打击伊朗问题上出现严重分裂，分为支持干预的建制派和主张克制的民粹派",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "684de7a72a38b4d979aadf78",
+  "title": "226-以色列为何要攻击伊朗？"
+}

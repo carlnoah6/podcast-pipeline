@@ -1,0 +1,535 @@
+{
+  "style": {
+    "opening_pattern": "以回顾往期节目+引出主题的方式开场，提及之前讨论过的断头台、左右派概念等，建立系列连贯性",
+    "structure": "三部分递进结构：第一部分为历史脉络梳理（1789-1794年大革命鸟瞰），第二部分为理论对比分析（法国普遍主义自由vs英美经验主义自由），第三部分为人物深度剖析（罗伯斯庇尔的转变与恐怖统治）；整体呈'历史叙事→理论阐释→人物特写'的逻辑链条",
+    "tone": "严肃深沉的理性批判风格，兼具学术深度与叙事张力，带有强烈的历史反思意识和政治哲学分析色彩",
+    "catchphrases": [
+      "我们可以看到",
+      "我们可以说",
+      "这也是为什么",
+      "对吧",
+      "独树不成林",
+      "自由舞步曲",
+      "萨图恩吞噬自己的孩子",
+      "恐怖与美德",
+      "没有恐怖的美德是软弱的"
+    ],
+    "closing_pattern": "以具体历史场景（最高存在节）作为收束，升华至对革命暴力与自由关系的哲学反思，以开放式提问结束（如何避免自由理想沦为暴政口号）",
+    "narrative_techniques": [
+      "类比隐喻（萨图恩吞噬孩子、自由舞步曲、剧场）",
+      "历史对比（法美革命对比、罗伯斯庇尔与其他革命家对比）",
+      "时间线叙事（清晰的时间标记1789-1794）",
+      "心理刻画（罗伯斯庇尔的内心世界与转变）",
+      "互文引用（卢梭、哈耶克、19世纪小说）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "罗伯斯庇尔",
+      "type": "person",
+      "context": "恐怖统治的主要领导者，从律师转变为革命领袖，提出'美德与恐怖'理论，最终被送上断头台",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "启蒙思想家，其《爱弥儿》和《社会契约论》深刻影响罗伯斯庇尔，被罗伯斯庇尔塑造为革命哲学家",
+      "importance": "high"
+    },
+    {
+      "name": "路易十六",
+      "type": "person",
+      "context": "法国国王，1793年被处决，其逃亡瓦雷纳事件削弱了民众对王权的信任",
+      "importance": "high"
+    },
+    {
+      "name": "圣茹斯特",
+      "type": "person",
+      "context": "罗伯斯庇尔的亲密盟友，提出'国王必须死亡'的逻辑，以极端道德主义著称",
+      "importance": "high"
+    },
+    {
+      "name": "丹东",
+      "type": "person",
+      "context": "革命家，罗伯斯庇尔的好友，后因被指控背离革命而被罗伯斯庇尔送上断头台",
+      "importance": "medium"
+    },
+    {
+      "name": "德穆兰",
+      "type": "person",
+      "context": "革命家，罗伯斯庇尔的朋友和孩子的教父，同样被罗伯斯庇尔处决",
+      "importance": "medium"
+    },
+    {
+      "name": "西埃士",
+      "type": "person",
+      "context": "革命知识分子，专注宪法设计，后期退出雅各宾俱乐部，与罗伯斯庇尔政治路线不同",
+      "importance": "medium"
+    },
+    {
+      "name": "孔多塞",
+      "type": "person",
+      "context": "革命知识分子，参与雅各宾俱乐部讨论后退出，后被捕或死去",
+      "importance": "medium"
+    },
+    {
+      "name": "托马斯·潘恩",
+      "type": "person",
+      "context": "美国革命家，与西埃士讨论政治制度设计，充满文字魅力",
+      "importance": "low"
+    },
+    {
+      "name": "马拉",
+      "type": "person",
+      "context": "革命家，擅长煽动性宣传，像通俗小报式的病毒传播",
+      "importance": "low"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "1799年通过政变上台，结束革命，建立军事独裁",
+      "importance": "medium"
+    },
+    {
+      "name": "哈耶克",
+      "type": "person",
+      "context": "20世纪奥地利经济学家，批评法国理性主义传统，推崇苏格兰启蒙和英美自由传统",
+      "importance": "medium"
+    },
+    {
+      "name": "雅克-路易·大卫",
+      "type": "person",
+      "context": "画家，为最高存在节设计庆典装饰",
+      "importance": "low"
+    },
+    {
+      "name": "斯汤达",
+      "type": "person",
+      "context": "19世纪法国作家，《红与黑》作者",
+      "importance": "low"
+    },
+    {
+      "name": "雨果",
+      "type": "person",
+      "context": "19世纪法国作家",
+      "importance": "low"
+    },
+    {
+      "name": "福楼拜",
+      "type": "person",
+      "context": "19世纪法国作家",
+      "importance": "low"
+    },
+    {
+      "name": "巴尔扎克",
+      "type": "person",
+      "context": "19世纪法国作家",
+      "importance": "low"
+    },
+    {
+      "name": "于连",
+      "type": "person",
+      "context": "《红与黑》主人公，19世纪小说中的虚构人物",
+      "importance": "low"
+    },
+    {
+      "name": "托洛茨基",
+      "type": "person",
+      "context": "俄国革命家，被斯大林清除，作为'革命吞噬孩子'的例子",
+      "importance": "low"
+    },
+    {
+      "name": "斯大林",
+      "type": "person",
+      "context": "苏联领导人，清除托洛茨基",
+      "importance": "low"
+    },
+    {
+      "name": "笛卡尔",
+      "type": "person",
+      "context": "哲学家，法国个人主义传统的源头",
+      "importance": "low"
+    },
+    {
+      "name": "亚当·斯密",
+      "type": "person",
+      "context": "苏格兰启蒙思想家，代表英美自由传统",
+      "importance": "low"
+    },
+    {
+      "name": "密尔",
+      "type": "person",
+      "context": "哲学家，代表英美自由传统",
+      "importance": "low"
+    },
+    {
+      "name": "宙斯",
+      "type": "person",
+      "context": "神话人物，推翻萨图恩",
+      "importance": "low"
+    },
+    {
+      "name": "萨图恩/克洛诺斯",
+      "type": "person",
+      "context": "神话人物，吞噬孩子的隐喻来源",
+      "importance": "medium"
+    },
+    {
+      "name": "戈雅",
+      "type": "person",
+      "context": "西班牙画家，画作《萨图恩吞噬其子》",
+      "importance": "low"
+    },
+    {
+      "name": "《爱弥儿》",
+      "type": "work",
+      "context": "卢梭的教育小说，对罗伯斯庇尔影响最深，强调人性本善",
+      "importance": "high"
+    },
+    {
+      "name": "《社会契约论》",
+      "type": "work",
+      "context": "卢梭的政治哲学著作，常被误认为恐怖统治的理论根源",
+      "importance": "medium"
+    },
+    {
+      "name": "《新爱洛伊丝》",
+      "type": "work",
+      "context": "卢梭的言情小说，与《爱弥儿》同为畅销书",
+      "importance": "low"
+    },
+    {
+      "name": "《论人类不平等的起源和基础》",
+      "type": "work",
+      "context": "卢梭的著作（一论二论）",
+      "importance": "low"
+    },
+    {
+      "name": "《红与黑》",
+      "type": "work",
+      "context": "斯汤达的小说，背景为波旁王朝复辟时期",
+      "importance": "low"
+    },
+    {
+      "name": "《萨图恩吞噬其子》",
+      "type": "work",
+      "context": "戈雅的画作，象征革命吞噬自己的孩子",
+      "importance": "medium"
+    },
+    {
+      "name": "《两种个人主义》",
+      "type": "work",
+      "context": "哈耶克的文章，对比法国和英美个人主义传统",
+      "importance": "medium"
+    },
+    {
+      "name": "《人权与公民权宣言》",
+      "type": "work",
+      "context": "1789年法国大革命的纲领性文件",
+      "importance": "high"
+    },
+    {
+      "name": "恐怖统治",
+      "type": "concept",
+      "context": "1793-1794年法国大革命的血腥时期，以大规模处决为特征",
+      "importance": "high"
+    },
+    {
+      "name": "雅各宾派",
+      "type": "concept",
+      "context": "激进的革命政治团体，罗伯斯庇尔的权力基础",
+      "importance": "high"
+    },
+    {
+      "name": "左派/右派",
+      "type": "concept",
+      "context": "政治光谱概念，起源于法国大革命时期的座位安排",
+      "importance": "medium"
+    },
+    {
+      "name": "普遍主义自由",
+      "type": "concept",
+      "context": "法国大革命的自由观，强调抽象理性和普世性",
+      "importance": "high"
+    },
+    {
+      "name": "经验主义自由",
+      "type": "concept",
+      "context": "英美传统自由观，强调历史经验和渐进改良",
+      "importance": "high"
+    },
+    {
+      "name": "人民主权",
+      "type": "concept",
+      "context": "卢梭提出的政治概念，主权在民",
+      "importance": "medium"
+    },
+    {
+      "name": "公共意志",
+      "type": "concept",
+      "context": "卢梭哲学中的概念，罗伯斯庇尔将其与美德结合",
+      "importance": "high"
+    },
+    {
+      "name": "美德",
+      "type": "concept",
+      "context": "罗伯斯庇尔政治哲学的核心，与恐怖手段结合",
+      "importance": "high"
+    },
+    {
+      "name": "最高存在",
+      "type": "concept",
+      "context": "罗伯斯庇尔试图建立的理性信仰，取代天主教",
+      "importance": "medium"
+    },
+    {
+      "name": "断头台",
+      "type": "concept",
+      "context": "象征平等和民主的处刑工具，代表'人人死而平等'",
+      "importance": "medium"
+    },
+    {
+      "name": "资产阶级/布尔乔亚",
+      "type": "concept",
+      "context": "法国大革命的主要推动阶级，最早的左派",
+      "importance": "medium"
+    },
+    {
+      "name": "第三等级",
+      "type": "concept",
+      "context": "法国社会等级，罗伯斯庇尔作为其代表进入三级会议",
+      "importance": "medium"
+    },
+    {
+      "name": "反法联盟",
+      "type": "concept",
+      "context": "欧洲君主国组成的联盟，对抗法国革命",
+      "importance": "medium"
+    },
+    {
+      "name": "君权神授",
+      "type": "concept",
+      "context": "旧制度的合法性基础，被革命反对",
+      "importance": "low"
+    },
+    {
+      "name": "萨图恩吞噬其子",
+      "type": "concept",
+      "context": "隐喻革命政权清除自己的创造者和同志",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "1789年爆发的革命，现代政治革命的起点，从追求自由走向恐怖统治",
+      "importance": "high"
+    },
+    {
+      "name": "路易十六逃亡瓦雷纳",
+      "type": "event",
+      "context": "1791年路易十六试图逃离法国被抓，削弱了民众对王权的信任",
+      "importance": "medium"
+    },
+    {
+      "name": "九月大屠杀",
+      "type": "event",
+      "context": "1792年9月巴黎暴民屠杀监狱囚犯，拉开革命暴力序幕",
+      "importance": "high"
+    },
+    {
+      "name": "处决路易十六",
+      "type": "event",
+      "context": "1793年路易十六被送上断头台，象征王权彻底终结",
+      "importance": "high"
+    },
+    {
+      "name": "热月政变",
+      "type": "event",
+      "context": "1794年7月27日（热月九日），罗伯斯庇尔倒台，恐怖统治告终",
+      "importance": "high"
+    },
+    {
+      "name": "最高存在节",
+      "type": "event",
+      "context": "1794年6月8日罗伯斯庇尔主持的理性信仰庆典，标志其政治巅峰和终点",
+      "importance": "medium"
+    },
+    {
+      "name": "第一次反法联盟战争",
+      "type": "event",
+      "context": "1792年奥地利和普鲁士对法宣战，后续多国加入，形成对法包围",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑政变",
+      "type": "event",
+      "context": "1799年拿破仑通过政变上台，结束革命，建立军事独裁",
+      "importance": "medium"
+    },
+    {
+      "name": "光荣革命",
+      "type": "event",
+      "context": "1688年英国的光荣革命，作为英美渐进自由传统的典范被提及",
+      "importance": "low"
+    },
+    {
+      "name": "十月革命",
+      "type": "event",
+      "context": "1917年俄国革命，作为'革命吞噬孩子'的又一例证",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "法国大革命的发生地，从君主专制走向共和",
+      "importance": "high"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "革命中心，街头政治和恐怖统治的发生地，战神广场所在地",
+      "importance": "high"
+    },
+    {
+      "name": "比利时",
+      "type": "place",
+      "context": "法国军事进攻和输出革命的对象",
+      "importance": "low"
+    },
+    {
+      "name": "意大利",
+      "type": "place",
+      "context": "法国军事进攻和输出革命的对象",
+      "importance": "low"
+    },
+    {
+      "name": "奥地利",
+      "type": "place",
+      "context": "反法联盟核心成员，神圣罗马帝国核心",
+      "importance": "medium"
+    },
+    {
+      "name": "普鲁士",
+      "type": "place",
+      "context": "反法联盟核心成员，率先对法宣战",
+      "importance": "medium"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "反法联盟成员，光荣革命发生地，代表渐进自由传统",
+      "importance": "medium"
+    },
+    {
+      "name": "西班牙",
+      "type": "place",
+      "context": "反法联盟成员",
+      "importance": "low"
+    },
+    {
+      "name": "荷兰",
+      "type": "place",
+      "context": "反法联盟成员，低地国家",
+      "importance": "low"
+    },
+    {
+      "name": "匈牙利",
+      "type": "place",
+      "context": "奥地利统治下的地区，民族矛盾复杂",
+      "importance": "low"
+    },
+    {
+      "name": "波西米亚",
+      "type": "place",
+      "context": "奥地利统治下的地区",
+      "importance": "low"
+    },
+    {
+      "name": "俄国",
+      "type": "place",
+      "context": "提及十月革命和托洛茨基被清除",
+      "importance": "low"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "提及德国小说和政治背景",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "提及美国革命和权利法案，作者身处美国学界",
+      "importance": "medium"
+    },
+    {
+      "name": "雅各宾俱乐部",
+      "type": "organization",
+      "context": "从政治沙龙转变为罗伯斯庇尔的权力基础，经历了从温和到激进的转变",
+      "importance": "high"
+    },
+    {
+      "name": "国民公会",
+      "type": "organization",
+      "context": "法国革命政府的立法机构，罗伯斯庇尔在此掌权并最终被推翻",
+      "importance": "high"
+    },
+    {
+      "name": "公安委员会",
+      "type": "organization",
+      "context": "恐怖统治时期的执行机构，负责实施清洗和处决",
+      "importance": "high"
+    },
+    {
+      "name": "第三等级",
+      "type": "organization",
+      "context": "法国社会等级之一，罗伯斯庇尔作为其代表进入三级会议",
+      "importance": "medium"
+    },
+    {
+      "name": "反法联盟",
+      "type": "organization",
+      "context": "由奥地利、普鲁士、英国等欧洲君主国组成的反法军事同盟",
+      "importance": "medium"
+    },
+    {
+      "name": "神圣罗马帝国",
+      "type": "organization",
+      "context": "以奥地利和普鲁士为核心的欧洲封建体系",
+      "importance": "low"
+    },
+    {
+      "name": "天主教会",
+      "type": "organization",
+      "context": "被法国大革命反对的宗教势力，代表旧制度的意识形态",
+      "importance": "medium"
+    },
+    {
+      "name": "断头台",
+      "type": "other",
+      "context": "象征平等和民主的处刑工具，代表'人人死而平等'的革命理念",
+      "importance": "medium"
+    },
+    {
+      "name": "战神广场",
+      "type": "other",
+      "context": "巴黎的广场，最高存在节的举办地，罗伯斯庇尔政治巅峰的象征",
+      "importance": "medium"
+    },
+    {
+      "name": "理性",
+      "type": "other",
+      "context": "启蒙运动的核心概念，法国大革命自由观的基础",
+      "importance": "medium"
+    },
+    {
+      "name": "启蒙运动",
+      "type": "other",
+      "context": "18世纪的思想运动，为法国大革命提供了思想基础",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67ffe1771f1db84a56bcd274",
+  "title": "205-法国大革命如何从追求自由走向血腥恐怖统治？"
+}

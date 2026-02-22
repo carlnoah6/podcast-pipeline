@@ -1,0 +1,170 @@
+{
+  "style": {
+    "opening_pattern": "以突发新闻事件引入（查理·柯克遭枪杀身亡），并立即点明其政治重要性",
+    "structure": "新闻事件→人物身份与影响→历史溯源（2012年茶党起源）→组织运作机制（TPUSA校园策略）→政治哲学分析（与巴克利对比）→与特朗普的双向绑定关系→对未来影响的开放式结论",
+    "tone": "理性客观但深刻犀利，学术化分析中带有批判性观察，兼具历史纵深感和现实敏锐度",
+    "catchphrases": [
+      "owning the libs（收拾自由派）",
+      "恶作剧式的挑衅",
+      "政治的娱乐化",
+      "文化战争",
+      "转折点（TPUSA）",
+      "草根民粹",
+      "双向奔赴/双赢",
+      "搅屎棍",
+      "病毒式传播",
+      "算法驱动"
+    ],
+    "closing_pattern": "总结性回答标题问题后，以开放式提问结尾（震荡具体会以什么方式呈现今天的我们还不知道）",
+    "narrative_techniques": [
+      "倒叙与顺叙交织（从2025年死亡回溯至2012年起源）",
+      "对比（将柯克与威廉·巴克利、罗姆尼与特朗普对比）",
+      "具体案例举证（平权烘焙义卖、安全空间活动、标语牌内容）",
+      "引用多方观点（纽约时报、马克·库班、杰西·沃特斯等）",
+      "隐喻（政治的娱乐化、搅屎棍、文化战争将军等）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "查理·柯克（Charlie Kirk）",
+      "type": "person",
+      "context": "当今美国右翼保守派领军人物，TPUSA创始人，2025年9月10日被枪杀，被视为未来美国总统候选人",
+      "importance": "high"
+    },
+    {
+      "name": "唐纳德·特朗普（Donald Trump）",
+      "type": "person",
+      "context": "美国前总统，查理·柯克的紧密盟友，称柯克为其当选的关键助力，亲自宣布柯克死讯并下令全国半旗",
+      "importance": "high"
+    },
+    {
+      "name": "威廉·蒙哥马利（William Montgomery）",
+      "type": "person",
+      "context": "芝加哥茶党活动家，72岁房地产商，2012年发掘18岁的查理·柯克并资助其创办TPUSA",
+      "importance": "high"
+    },
+    {
+      "name": "小唐纳德·特朗普（Donald Trump Jr.）",
+      "type": "person",
+      "context": "特朗普长子，与查理·柯克是密友，曾公开称没有柯克其父不会当选，原计划在柯克被杀前与其合著书籍",
+      "importance": "high"
+    },
+    {
+      "name": "坎迪斯·欧文斯（Candace Owens）",
+      "type": "person",
+      "context": "保守派媒体人，原为TPUSA宣传总监，后独立成为知名评论员，被视为柯克培养出的右翼明星案例",
+      "importance": "medium"
+    },
+    {
+      "name": "本尼·约翰逊（Benny Johnson）",
+      "type": "person",
+      "context": "保守派媒体人，曾在柯克组织中工作，后成为独立媒体人，在柯克死后发帖称其本可成为美国总统",
+      "importance": "medium"
+    },
+    {
+      "name": "尼克·富恩特斯（Nick Fuentes）",
+      "type": "person",
+      "context": "白人民族主义者，极右翼媒体人，曾发起针对柯克的Groyper War，批评柯克在移民问题上不够右",
+      "importance": "medium"
+    },
+    {
+      "name": "威廉·F·巴克利（William F. Buckley Jr.）",
+      "type": "person",
+      "context": "20世纪新保守主义运动奠基人，柯克所代表的民粹保守主义被认为取代了巴克利代表的新保守主义",
+      "importance": "high"
+    },
+    {
+      "name": "Turning Point USA（转折点美国，TPUSA）",
+      "type": "organization",
+      "context": "查理·柯克于2012年创立的非盈利组织，旨在校园中推广保守主义，取代CPAC成为新右翼年度核心活动组织者",
+      "importance": "high"
+    },
+    {
+      "name": "茶党（Tea Party）",
+      "type": "organization",
+      "context": "2009年兴起的右翼民粹运动，反对奥巴马政府，查理·柯克被茶党活动家威廉·蒙哥马利发掘",
+      "importance": "high"
+    },
+    {
+      "name": "CPAC（Conservative Political Action Conference）",
+      "type": "event",
+      "context": "传统保守派年度大会，被TPUSA逐步取代中心地位，象征旧式建制派保守主义被新右翼取代",
+      "importance": "medium"
+    },
+    {
+      "name": "2024年美国总统大选",
+      "type": "event",
+      "context": "特朗普胜选，被视为查理科克校园动员策略成功的标志，柯克在摇摆州大学校园密集拉票",
+      "importance": "high"
+    },
+    {
+      "name": "2016年美国总统大选",
+      "type": "event",
+      "context": "特朗普首次当选，柯克起初支持斯科特·沃克和克鲁兹，后转为特朗普坚定支持者",
+      "importance": "high"
+    },
+    {
+      "name": "平权烘焙义卖（Affirmative Action Bake Sale）",
+      "type": "event",
+      "context": "2017年TPUSA在新墨西哥州大学举办的活动，按不同种族定价烘焙品以嘲讽平权政策",
+      "importance": "medium"
+    },
+    {
+      "name": "安全空间模拟活动",
+      "type": "event",
+      "context": "2017年TPUSA在肯特州立大学举办的活动，成员穿纸尿裤模拟安全空间以嘲讽进步派",
+      "importance": "medium"
+    },
+    {
+      "name": "民粹保守主义（Populist Conservatism）",
+      "type": "concept",
+      "context": "柯克代表的政治哲学，区别于新保守主义，强调草根动员、文化战争和反建制",
+      "importance": "high"
+    },
+    {
+      "name": "新保守主义（Neoconservatism）",
+      "type": "concept",
+      "context": "以威廉·巴克利为代表的旧保守主义运动，被柯克的民粹保守主义取代",
+      "importance": "high"
+    },
+    {
+      "name": "文化战争（Culture War）",
+      "type": "concept",
+      "context": "柯克政治动员的核心话语，将政治视为拯救西方文明的文化战争",
+      "importance": "high"
+    },
+    {
+      "name": "Owning the Libs（收拾自由派）",
+      "type": "concept",
+      "context": "柯克运动的核心策略，通过挑衅和恶作剧激怒自由派而非真正对话",
+      "importance": "high"
+    },
+    {
+      "name": "政治娱乐化",
+      "type": "concept",
+      "context": "播客分析指出的柯克现象本质，将政治转化为社交媒体算法驱动的娱乐内容",
+      "importance": "high"
+    },
+    {
+      "name": "犹他谷大学（Utah Valley University）",
+      "type": "place",
+      "context": "查理·柯克遇刺的地点，2025年9月10日在此举办活动时胸部中弹身亡",
+      "importance": "high"
+    },
+    {
+      "name": "芝加哥（Chicago）",
+      "type": "place",
+      "context": "威廉·蒙哥马利发掘查理·柯克的地点，茶党活动活跃区域",
+      "importance": "medium"
+    },
+    {
+      "name": "贝勒大学（Baylor University）",
+      "type": "place",
+      "context": "查理·柯克原本准备入读的大学，后被蒙哥马利劝说辍学创办TPUSA",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68c32c912c82c9dccaec36dd",
+  "title": "252-查理·柯克的谋杀为何对当今美国右翼意义非凡？"
+}

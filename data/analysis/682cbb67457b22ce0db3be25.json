@@ -1,0 +1,225 @@
+{
+  "style": {
+    "opening_pattern": "以学术概念引入，从康德哲学和法国大革命的历史切入，提出核心问题",
+    "structure": "理论框架→个人童年故事三维度展开（判断力/尊重平等/财产意识）→具体案例叙事→结尾总结回归主题",
+    "tone": "轻松幽默中带思辨深度，自嘲式回忆与严肃政治哲学分析交织",
+    "catchphrases": [
+      "娘希匹",
+      "不正经",
+      "嘹亮的",
+      "细皮嫩肉",
+      "画图纸的",
+      "小女鲁莽",
+      "天真无知",
+      "道德败坏",
+      "古典英雄",
+      "奴隶道德"
+    ],
+    "closing_pattern": "总结观点并回应开头，以告别语结束",
+    "narrative_techniques": [
+      "类比（爷爷=抖音快手糟粕）",
+      "对比（儿童vs公民、古典vs现代）",
+      "举例（大量个人童年轶事）",
+      "引用（亚里士多德、笛卡尔、尼采、洛克）",
+      "自我反讽",
+      "场景还原（对话、动作细节）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "十八世纪哲学家，其作品中将小孩、女人和疯子作为公民权利的例外",
+      "importance": "high"
+    },
+    {
+      "name": "巴尔扎克",
+      "type": "person",
+      "context": "法国小说家，其作品描绘了法国社会中女性掌握的社会权力",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "被引用来论证人天生是社会性动物，自然会被他人的赞誉和认可影响行为",
+      "importance": "medium"
+    },
+    {
+      "name": "笛卡尔",
+      "type": "person",
+      "context": "其理论中的抽象绝对个体存在被用来对比人的社会性本质",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "被引用来批判现代社会对傲慢的道德化谴责，称之为'奴隶道德翻身做主人'",
+      "importance": "high"
+    },
+    {
+      "name": "约翰·洛克",
+      "type": "person",
+      "context": "《政府论》作者，其财产理论被视为现代社会的基础",
+      "importance": "high"
+    },
+    {
+      "name": "诸葛亮",
+      "type": "person",
+      "context": "《三国演义》人物，讲述者童年时将自己想象成运筹帷幄的军师",
+      "importance": "medium"
+    },
+    {
+      "name": "穆桂英",
+      "type": "person",
+      "context": "《杨家将》人物，讲述者童年时将自己想象成冲锋上阵的女将军",
+      "importance": "medium"
+    },
+    {
+      "name": "阿喀琉斯",
+      "type": "person",
+      "context": "《伊利亚特》中的英雄，被用来说明哭泣可以是英雄气概的体现",
+      "importance": "medium"
+    },
+    {
+      "name": "荷马",
+      "type": "person",
+      "context": "史诗作者，其作品中的英雄形象被用来对比现代人对哭泣的态度",
+      "importance": "low"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "其散文集是讲述者童年阅读的书籍之一",
+      "importance": "low"
+    },
+    {
+      "name": "老舍",
+      "type": "person",
+      "context": "其散文集是讲述者童年阅读的书籍之一",
+      "importance": "low"
+    },
+    {
+      "name": "三毛",
+      "type": "person",
+      "context": "作家，讲述者童年时曾把自己想象成她",
+      "importance": "low"
+    },
+    {
+      "name": "张爱玲",
+      "type": "person",
+      "context": "作家，讲述者童年阅读其作品的时期",
+      "importance": "low"
+    },
+    {
+      "name": "杨红樱",
+      "type": "person",
+      "context": "儿童文学作家，讲述者童年阅读的'正道'文学代表",
+      "importance": "low"
+    },
+    {
+      "name": "郑渊洁",
+      "type": "person",
+      "context": "儿童文学作家，讲述者童年阅读的'正道'文学代表",
+      "importance": "low"
+    },
+    {
+      "name": "《政府论》下篇",
+      "type": "work",
+      "context": "洛克的政治哲学著作，其中财产理论被视为现代社会的基础",
+      "importance": "high"
+    },
+    {
+      "name": "《三国演义》",
+      "type": "work",
+      "context": "讲述者童年与父亲共读的小人书，塑造了其早期的知识体系",
+      "importance": "medium"
+    },
+    {
+      "name": "《杨家将》",
+      "type": "work",
+      "context": "讲述者童年与父亲共读的小人书",
+      "importance": "medium"
+    },
+    {
+      "name": "《水浒传》",
+      "type": "work",
+      "context": "讲述者童年与父亲共读的小人书",
+      "importance": "medium"
+    },
+    {
+      "name": "《伯罗奔尼撒战争史》",
+      "type": "work",
+      "context": "在第97期播客中与《三国演义》对比讨论",
+      "importance": "low"
+    },
+    {
+      "name": "《伊利亚特》",
+      "type": "work",
+      "context": "荷马史诗，其中阿喀琉斯的哭泣被引用为古典英雄态度的例证",
+      "importance": "medium"
+    },
+    {
+      "name": "《故事会》",
+      "type": "work",
+      "context": "讲述者童年偷钱购买的'低俗文学'和'歪道'读物",
+      "importance": "low"
+    },
+    {
+      "name": "公民权利",
+      "type": "concept",
+      "context": "核心讨论概念，指政治权利而非社会地位，历史上排除了小孩、女人和疯子",
+      "importance": "high"
+    },
+    {
+      "name": "判断力",
+      "type": "concept",
+      "context": "儿童缺乏的第一种公民特质，导致无法控制欲望和模仿不当行为",
+      "importance": "high"
+    },
+    {
+      "name": "尊重与平等意识",
+      "type": "concept",
+      "context": "儿童缺乏的第二种公民特质，需要后天习得的社会规范",
+      "importance": "high"
+    },
+    {
+      "name": "财产意识",
+      "type": "concept",
+      "context": "儿童缺乏的第三种公民特质，现代社会建立在对其尊重之上",
+      "importance": "high"
+    },
+    {
+      "name": "奴隶道德",
+      "type": "concept",
+      "context": "尼采的概念，被用来批判现代社会对傲慢的一棍子打死式的道德谴责",
+      "importance": "high"
+    },
+    {
+      "name": "第一波女权运动",
+      "type": "event",
+      "context": "1910-1920年代美国争取女性投票权的运动，最终修正宪法",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "作为开放社会的起点，但女性获得真正公民权利仍延迟到十九世纪末二十世纪初",
+      "importance": "medium"
+    },
+    {
+      "name": "雅昌",
+      "type": "organization",
+      "context": "著名书画论坛，讲述者的父亲曾是其书画版版主",
+      "importance": "low"
+    },
+    {
+      "name": "西泠印社",
+      "type": "organization",
+      "context": "中国书画研究社团，其研究员是讲述者父亲的朋友",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "682cbb67457b22ce0db3be25",
+  "title": "215-小孩为什么不是公民"
+}

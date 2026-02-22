@@ -1,0 +1,391 @@
+{
+  "style": {
+    "opening_pattern": "以具体新闻事件引入（特朗普与泽连斯基白宫冲突），借契机展开深层分析",
+    "structure": "事件描述→第一层分析（谁在表演/设局）→第二层分析（对俄态度分歧）→第三层分析（史观/战略范式分歧）→总结",
+    "tone": "理性客观、深入学术化但保持口语化、带有历史纵深感",
+    "catchphrases": [
+      "播客",
+      "说实话",
+      "退一步说",
+      "OK",
+      "扯头花",
+      "瓦特",
+      "归谬",
+      "小巫见大巫",
+      "再撑一撑",
+      "挖洞"
+    ],
+    "closing_pattern": "总结三个核心观察点+预告下期",
+    "narrative_techniques": [
+      "类比（哈士奇越狱、一战史比当今政治有趣）",
+      "对比（二战/冷战史观 vs 一战史观）",
+      "反问",
+      "举例（内塔尼亚胡与奥巴马案例）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "与泽连斯基在白宫爆发激烈冲突，其外交政策立场是讨论核心",
+      "importance": "high"
+    },
+    {
+      "name": "泽连斯基",
+      "type": "person",
+      "context": "乌克兰总统，在白宫会晤中与特朗普、万斯发生公开争吵后被驱逐",
+      "importance": "high"
+    },
+    {
+      "name": "万斯",
+      "type": "person",
+      "context": "美国副总统，在会晤中扮演挑衅者角色，指责泽连斯基不懂感恩",
+      "importance": "high"
+    },
+    {
+      "name": "普京",
+      "type": "person",
+      "context": "俄罗斯总统，特朗普阵营对其态度存在分歧，被梅德韦杰夫等人用来嘲讽泽连斯基",
+      "importance": "high"
+    },
+    {
+      "name": "拜登",
+      "type": "person",
+      "context": "美国前总统，被特朗普抨击为糟糕总统，其援乌政策被泽连斯基辩护",
+      "importance": "medium"
+    },
+    {
+      "name": "斯科特·贝森特",
+      "type": "person",
+      "context": "财政部长，此前在乌克兰敲定矿产协议细节",
+      "importance": "medium"
+    },
+    {
+      "name": "林赛·格雷厄姆",
+      "type": "person",
+      "context": "共和党参议员，曾暗示泽连斯基可能需要考虑辞职",
+      "importance": "medium"
+    },
+    {
+      "name": "迈克·约翰逊",
+      "type": "person",
+      "context": "众议院议长，明确表示乌克兰领导层可能需要进行调整",
+      "importance": "medium"
+    },
+    {
+      "name": "克里斯·墨菲",
+      "type": "person",
+      "context": "康涅狄格州参议员，批评白宫已成为克里姆林宫的分支机构",
+      "importance": "medium"
+    },
+    {
+      "name": "德米特里·梅德韦杰夫",
+      "type": "person",
+      "context": "俄罗斯前总统，在社交平台发文嘲讽泽连斯基是傲慢的猪",
+      "importance": "medium"
+    },
+    {
+      "name": "彼得·蒂尔",
+      "type": "person",
+      "context": "特朗普支持者，提出美国人习惯用最近的一场战争来理解所有时局",
+      "importance": "medium"
+    },
+    {
+      "name": "希特勒",
+      "type": "person",
+      "context": "被用作类比，讨论绥靖政策与普京的对比，以及'归谬法'的批评对象",
+      "importance": "medium"
+    },
+    {
+      "name": "本雅明·内塔尼亚胡",
+      "type": "person",
+      "context": "以色列总理，被举例说明如何在奥巴马面前犯错后学会应对",
+      "importance": "low"
+    },
+    {
+      "name": "蒂姆·沃尔兹",
+      "type": "person",
+      "context": "被提及在副总统辩论中与万斯对抗",
+      "importance": "low"
+    },
+    {
+      "name": "希拉里·克林顿",
+      "type": "person",
+      "context": "被提及在2016年大选时将俄罗斯塑造为幕后黑手",
+      "importance": "low"
+    },
+    {
+      "name": "小布什",
+      "type": "person",
+      "context": "被提及从未将俄罗斯视为主要对手",
+      "importance": "low"
+    },
+    {
+      "name": "奥巴马",
+      "type": "person",
+      "context": "被提及从未将俄罗斯视为主要对手，以及内塔尼亚胡曾批评他",
+      "importance": "low"
+    },
+    {
+      "name": "亨特·拜登",
+      "type": "person",
+      "context": "被提及特朗普曾试图让泽连斯基调查其商业贸易信息",
+      "importance": "low"
+    },
+    {
+      "name": "列宁",
+      "type": "person",
+      "context": "被提及在苏联内部创建半自治共和国",
+      "importance": "low"
+    },
+    {
+      "name": "俄乌战争",
+      "type": "event",
+      "context": "特朗普与泽连斯基冲突的背景，已持续三年多的战争",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普与泽连斯基白宫冲突",
+      "type": "event",
+      "context": "上周五在椭圆办公室爆发的激烈外交冲突，导致矿产协议流产",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普第一次弹劾案",
+      "type": "event",
+      "context": "与特朗普试图让泽连斯基调查亨特·拜登有关",
+      "importance": "medium"
+    },
+    {
+      "name": "2016年美国大选",
+      "type": "event",
+      "context": "希拉里·克林顿将俄罗斯塑造为特朗普当选的幕后黑手",
+      "importance": "medium"
+    },
+    {
+      "name": "二战",
+      "type": "event",
+      "context": "作为史观对比的参照，道德战争善恶对决的范本",
+      "importance": "medium"
+    },
+    {
+      "name": "冷战",
+      "type": "event",
+      "context": "作为史观对比的参照，包含多米诺骨牌理论",
+      "importance": "medium"
+    },
+    {
+      "name": "一战",
+      "type": "event",
+      "context": "作为史观对比的参照，代表不确定时代和权力平衡",
+      "importance": "medium"
+    },
+    {
+      "name": "苏联解体",
+      "type": "event",
+      "context": "乌克兰独立的历史背景",
+      "importance": "low"
+    },
+    {
+      "name": "北约东扩",
+      "type": "event",
+      "context": "被提及为俄罗斯眼中的安全威胁",
+      "importance": "medium"
+    },
+    {
+      "name": "南斯拉夫解体/巴尔干战争",
+      "type": "event",
+      "context": "被用来与乌克兰情况对比",
+      "importance": "low"
+    },
+    {
+      "name": "绥靖政策",
+      "type": "concept",
+      "context": "被用来质疑对普京的姑息态度，类比二战前的政策",
+      "importance": "medium"
+    },
+    {
+      "name": "美国优先",
+      "type": "concept",
+      "context": "特朗普外交政策核心，存在两种理解方式：霸权主义 vs 孤立主义",
+      "importance": "high"
+    },
+    {
+      "name": "冷战史观",
+      "type": "concept",
+      "context": "美国代表自由民主灯塔，外交政策有道德核心，敌人代表邪恶",
+      "importance": "high"
+    },
+    {
+      "name": "二战史观",
+      "type": "concept",
+      "context": "与冷战史观类似，美国代表善对抗法西斯恶",
+      "importance": "medium"
+    },
+    {
+      "name": "一战史观",
+      "type": "concept",
+      "context": "世界由多国组成无道德核心，美国只是较强国家，目标是权力平衡而非霸权",
+      "importance": "high"
+    },
+    {
+      "name": "十九世纪史观",
+      "type": "concept",
+      "context": "类似一战史观，强调现实主义权力政治",
+      "importance": "medium"
+    },
+    {
+      "name": "多米诺骨牌理论",
+      "type": "concept",
+      "context": "冷战期间理论，认为一国倒下会引发连锁反应",
+      "importance": "medium"
+    },
+    {
+      "name": "特朗普战术",
+      "type": "concept",
+      "context": "无视规则条框和传统，以小博大，直接闯入场合说想说的话",
+      "importance": "high"
+    },
+    {
+      "name": "Reductio ad Hitlerum",
+      "type": "concept",
+      "context": "归谬法，把不喜欢的人与希特勒划等号以抹黑对方",
+      "importance": "medium"
+    },
+    {
+      "name": "矿产协议",
+      "type": "concept",
+      "context": "美国与乌克兰拟签署的数十亿美元协议，因冲突流产",
+      "importance": "high"
+    },
+    {
+      "name": "白宫",
+      "type": "place",
+      "context": "冲突发生地点，椭圆办公室",
+      "importance": "high"
+    },
+    {
+      "name": "乌克兰",
+      "type": "place",
+      "context": "战争当事国，泽连斯基代表的国家",
+      "importance": "high"
+    },
+    {
+      "name": "俄罗斯",
+      "type": "place",
+      "context": "战争另一方，普京代表的国家，特朗普阵营对其态度有分歧",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "特朗普代表的国家，外交政策讨论的核心",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "被特朗普阵营视为头号对手，外交政策最终聚焦点",
+      "importance": "high"
+    },
+    {
+      "name": "欧洲",
+      "type": "place",
+      "context": "在冲突后表态支持乌克兰，对特朗普态度不满",
+      "importance": "medium"
+    },
+    {
+      "name": "台湾",
+      "type": "place",
+      "context": "被提及作为观察美国对华信号的参照",
+      "importance": "low"
+    },
+    {
+      "name": "巴尔干",
+      "type": "place",
+      "context": "被提及与乌克兰历史对比的地区",
+      "importance": "low"
+    },
+    {
+      "name": "塞尔维亚",
+      "type": "place",
+      "context": "被提及与一战史、黑手党相关",
+      "importance": "low"
+    },
+    {
+      "name": "马其顿",
+      "type": "place",
+      "context": "被提及为知识盲点",
+      "importance": "low"
+    },
+    {
+      "name": "科索沃",
+      "type": "place",
+      "context": "被提及与巴尔干历史相关",
+      "importance": "low"
+    },
+    {
+      "name": "捷克",
+      "type": "place",
+      "context": "提及捷克语陌生感",
+      "importance": "low"
+    },
+    {
+      "name": "克里米亚",
+      "type": "place",
+      "context": "被提及战略位置重要",
+      "importance": "medium"
+    },
+    {
+      "name": "波兰",
+      "type": "place",
+      "context": "多米诺骨牌理论中提及",
+      "importance": "low"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "多米诺骨牌理论中提及",
+      "importance": "low"
+    },
+    {
+      "name": "北约",
+      "type": "organization",
+      "context": "被提及为对俄罗斯的安全威胁，泽连斯基寻求其级别安全保障",
+      "importance": "high"
+    },
+    {
+      "name": "欧盟",
+      "type": "organization",
+      "context": "表态支持乌克兰，外交政策负责人表示要让自由世界找新领导者",
+      "importance": "medium"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "大体支持特朗普对乌立场",
+      "importance": "medium"
+    },
+    {
+      "name": "民主党",
+      "type": "organization",
+      "context": "谴责特朗普，支持泽连斯基",
+      "importance": "medium"
+    },
+    {
+      "name": "福克斯新闻",
+      "type": "organization",
+      "context": "泽连斯基在其平台发表讲话",
+      "importance": "low"
+    },
+    {
+      "name": "塞尔维亚黑手党",
+      "type": "organization",
+      "context": "被提及与一战阴谋论相关",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "67c7c56543c75d16d63315d6",
+  "title": "189-特朗普阵营外交政策有什么内在分歧？"
+}

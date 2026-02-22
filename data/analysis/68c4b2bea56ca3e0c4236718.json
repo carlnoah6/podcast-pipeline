@@ -1,0 +1,207 @@
+{
+  "style": {
+    "opening_pattern": "以真实场景引入（上海图书馆被妈妈追问教育经验）",
+    "structure": "场景引入→母亲职业背景介绍→三个核心论点展开（反内卷/平等尊重/直言不讳）→个人成长案例穿插→结尾升华",
+    "tone": "轻松幽默、真诚坦率、带有自嘲和反讽",
+    "catchphrases": [
+      "有一说一",
+      "厚颜无耻",
+      "大言不惭",
+      "嗷嗷待哺",
+      "火急火燎",
+      "鸡脚嘎啦",
+      "土",
+      "卷",
+      "舔着个大脸",
+      "yes and"
+    ],
+    "closing_pattern": "温情收尾（观察母亲变老）+开放式告别",
+    "narrative_techniques": [
+      "对比（自己与'别人家的孩子'）",
+      "举例（大量个人成长故事）",
+      "类比（卖菜大姨与大学教授的尊严等同）",
+      "自嘲",
+      "对话还原",
+      "反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "我妈/小木敦的母亲",
+      "type": "person",
+      "context": "县城儿科医生，主播的教育者，贯穿全集的核心人物，以反内卷、平等尊重、直言不讳的教育方式著称",
+      "importance": "high"
+    },
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "主播在上海图书馆与榜眼哥讨论的人物，作为活动背景提及",
+      "importance": "low"
+    },
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "主播与母亲聊天时提到的哲学家，母亲将其观点与大姨想打工的事情类比",
+      "importance": "medium"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "主播与母亲侃侃而谈时提到的哲学家，体现母亲对主播学术讨论的平常态度",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "主播与母亲聊天时提到的哲学家，与法国大革命一起被提及",
+      "importance": "low"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "主播在上海图书馆一起做访谈的对象",
+      "importance": "low"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "work",
+      "context": "主播请求听众支持的栏目名称",
+      "importance": "low"
+    },
+    {
+      "name": "《独树不成林》",
+      "type": "work",
+      "context": "本播客节目本身，主播提及节目内容常被听众认为'没头没脑'",
+      "importance": "medium"
+    },
+    {
+      "name": "新浪播客",
+      "type": "work",
+      "context": "主播10-15岁时发表诗歌散文和国旗下讲话演讲内容的平台，曾有小几万关注者",
+      "importance": "medium"
+    },
+    {
+      "name": "知乎",
+      "type": "work",
+      "context": "主播大学和高中期间写作的平台，曾有近十万关注者后因评论区外貌打分而离开",
+      "importance": "medium"
+    },
+    {
+      "name": "小红书",
+      "type": "work",
+      "context": "主播做播客前已有几十万关注者的平台，之前还有过六万关注后注销的账号",
+      "importance": "medium"
+    },
+    {
+      "name": "看理想",
+      "type": "organization",
+      "context": "主播第二天要去北京做读书会的合作方",
+      "importance": "low"
+    },
+    {
+      "name": "上海文艺出版社",
+      "type": "organization",
+      "context": "主播的图书编辑所在的出版社，编辑像经纪人一样拉走主播",
+      "importance": "low"
+    },
+    {
+      "name": "松赞（酒店）",
+      "type": "organization",
+      "context": "云南塔城的贵价酒店，提供乡村生活体验项目，被母亲嘲讽",
+      "importance": "medium"
+    },
+    {
+      "name": "Lululemon",
+      "type": "organization",
+      "context": "主播留学第一年模仿美国女孩穿搭时穿的紧身裤品牌，被母亲说'土'",
+      "importance": "low"
+    },
+    {
+      "name": "非典",
+      "type": "event",
+      "context": "母亲作为前线医生的时期之一，当时没有防护服和N95口罩",
+      "importance": "medium"
+    },
+    {
+      "name": "新冠疫情",
+      "type": "event",
+      "context": "母亲作为前线医生的另一时期",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "主播与母亲聊天时提及的历史事件",
+      "importance": "low"
+    },
+    {
+      "name": "上海图书馆",
+      "type": "place",
+      "context": "主播做访谈后被妈妈追问教育经验的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "云南/丽江古城/塔城",
+      "type": "place",
+      "context": "主播带母亲旅游的地方，母亲对当地花卉和酒店项目有强烈反应",
+      "importance": "medium"
+    },
+    {
+      "name": "杭州",
+      "type": "place",
+      "context": "主播要做新书分享活动的城市，与母亲的赶海计划冲突",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "主播留学的国家，母亲对其教育方式完全不焦虑也不模仿其他留学生家长",
+      "importance": "medium"
+    },
+    {
+      "name": "反内卷教育",
+      "type": "concept",
+      "context": "母亲最核心的教育理念，鄙视竞争制度、课外辅导、提前学习、包装申请等",
+      "importance": "high"
+    },
+    {
+      "name": "厚颜无耻的自吹自擂",
+      "type": "concept",
+      "context": "主播形容自己争取荣誉的方式，认为接近美国文化，源于母亲的鼓励",
+      "importance": "medium"
+    },
+    {
+      "name": "内核稳定",
+      "type": "concept",
+      "context": "主播用来形容母亲的特质，指不被外界眼光冲击内心标准",
+      "importance": "high"
+    },
+    {
+      "name": "热爱劳动/尊重劳动",
+      "type": "concept",
+      "context": "母亲衡量人的核心标准，比成绩更重要，影响主播克服洁癖学会做家务",
+      "importance": "high"
+    },
+    {
+      "name": "羞耻心/社会习俗",
+      "type": "concept",
+      "context": "母亲缺乏而被主播认为帮助自己快速走出离婚困境的特质，坚定认为离婚不是失败",
+      "importance": "high"
+    },
+    {
+      "name": "肥胖儿童公益讲座",
+      "type": "other",
+      "context": "母亲退休后从事的公益活动，宣传健康饮食",
+      "importance": "medium"
+    },
+    {
+      "name": "老年大学",
+      "type": "other",
+      "context": "母亲退休后教授西医基础常识的场所，学生多为重复听课的老年人",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68c4b2bea56ca3e0c4236718",
+  "title": "253-我的妈如何防止我走向变态？"
+}

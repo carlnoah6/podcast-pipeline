@@ -1,0 +1,265 @@
+{
+  "style": {
+    "opening_pattern": "以日常生活观察引入，从个人不点外卖、坚持在家做家常菜的习惯谈起，建立个人经验与听众的连接",
+    "structure": "个人生活经历→具体文化实践（康德式晚宴）→哲学理论引入（柏克保守主义）→概念深度阐释→应用到核心议题（预制菜与功夫菜的对立）→总结反思",
+    "tone": "轻松幽默但思想深刻，理性客观中带有强烈的个人温情与文化乡愁，善用口语化表达和自嘲",
+    "catchphrases": [
+      "山猪吃不了细糠",
+      "灵机一动",
+      "第二天性",
+      "盈盈的绿光",
+      "肉是死的",
+      "功夫菜",
+      "焯水",
+      "去腥",
+      "上劲",
+      "偏见"
+    ],
+    "closing_pattern": "总结观点并保留开放式反思，承认预制菜的现实便利性，但强调超越理性的情感空间不可替代",
+    "narrative_techniques": [
+      "类比（将做饭与政治哲学、保守主义与理性主义直接类比）",
+      "举例（白切鸡、空心菜、笋干老鸭汤、拌肉馅等具体烹饪案例）",
+      "对比（预制菜的工业化逻辑与功夫菜的经验传承）",
+      "引用（康德《实用人类学》、柏克《对法国大革命的反思》）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "埃德蒙·柏克（Edmund Burke）",
+      "type": "person",
+      "context": "被称为现代保守主义之父，其著作《对法国大革命的反思》中的思想被用来分析做饭传统与预制菜的对立",
+      "importance": "high"
+    },
+    {
+      "name": "康德（Immanuel Kant）",
+      "type": "person",
+      "context": "德国哲学家，其《实用人类学》中提出的晚餐规矩被播主博导用来举办'康德式晚宴'",
+      "importance": "high"
+    },
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "被提及作为播主在看待老年人问题上观点接近的哲学家",
+      "importance": "medium"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "被提及与曼德威尔一起，播主认为自己在运动上是'霍布斯曼德威尔主义者'",
+      "importance": "low"
+    },
+    {
+      "name": "曼德威尔",
+      "type": "person",
+      "context": "荷兰哲学家，与霍布斯一起被提及",
+      "importance": "low"
+    },
+    {
+      "name": "谷爱凌",
+      "type": "person",
+      "context": "被作为例子提及，用来说明理性主义者对身份的理解（会说中文就是中国人）",
+      "importance": "low"
+    },
+    {
+      "name": "播主母亲",
+      "type": "person",
+      "context": "作为播主学习做饭的权威和传统来源，教会播主观察做饭、调味的方式",
+      "importance": "high"
+    },
+    {
+      "name": "播主博导",
+      "type": "person",
+      "context": "在每学期举办康德式晚宴，后来让播主掌勺，并因播主做饭而改变了丈夫对晚宴的态度",
+      "importance": "medium"
+    },
+    {
+      "name": "博导丈夫",
+      "type": "person",
+      "context": "英语文学教授，因播主掌勺后才开始参加康德式晚宴",
+      "importance": "low"
+    },
+    {
+      "name": "系主任",
+      "type": "person",
+      "context": "听说播主做饭后，邀请播主为新生欢迎派对做饭",
+      "importance": "low"
+    },
+    {
+      "name": "老乡哥",
+      "type": "person",
+      "context": "浙江朋友，与播主讨论从家乡背笋干到美国的事情",
+      "importance": "medium"
+    },
+    {
+      "name": "陕西朋友",
+      "type": "person",
+      "context": "与播主讨论油泼辣子的层次和不同辣椒的混合，强调地域性",
+      "importance": "medium"
+    },
+    {
+      "name": "00后小表妹",
+      "type": "person",
+      "context": "被播主用来举例说明新手需要遵循权威（菜谱），无法理解经验背后的逻辑",
+      "importance": "medium"
+    },
+    {
+      "name": "最杭州饭店老板娘",
+      "type": "person",
+      "context": "波士顿饭店老板，告诉播主她家的笋干老鸭汤好喝是因为笋干是从杭州背过来的",
+      "importance": "medium"
+    },
+    {
+      "name": "《对法国大革命的反思》",
+      "type": "work",
+      "context": "柏克的著作，核心思想是'传统高于理性'，被用来分析做饭传统",
+      "importance": "high"
+    },
+    {
+      "name": "《实用人类学》",
+      "type": "work",
+      "context": "康德的著作，其中立下了关于如何举行晚宴的详细规矩",
+      "importance": "medium"
+    },
+    {
+      "name": "保守主义",
+      "type": "concept",
+      "context": "柏克代表的哲学思想，强调传统、经验、偏见（prejudice）的价值，与预制菜代表的理性主义工业化逻辑对立",
+      "importance": "high"
+    },
+    {
+      "name": "理性主义",
+      "type": "concept",
+      "context": "启蒙时代思想，强调抽象、普世、标准化的逻辑，被用来对比预制菜的工业化思维",
+      "importance": "high"
+    },
+    {
+      "name": "预制菜",
+      "type": "concept",
+      "context": "播客核心讨论对象，代表工业化、标准化、理性主义的做菜逻辑，与功夫菜/家常菜代表的经验传统对立",
+      "importance": "high"
+    },
+    {
+      "name": "功夫菜",
+      "type": "concept",
+      "context": "与预制菜对立的概念，代表需要经验、判断、天时地利的传统做菜方式",
+      "importance": "high"
+    },
+    {
+      "name": "第二天性",
+      "type": "concept",
+      "context": "柏克哲学概念，指人在特定时间、社会、空间中形成的具体本性，被用来解释家乡菜的地域性和个人烹饪习惯的养成",
+      "importance": "high"
+    },
+    {
+      "name": "偏见（Prejudice）",
+      "type": "concept",
+      "context": "柏克维护的概念，指经验积累形成的、难以用理性清晰表达但具有实践智慧的'偏见'，如厨师的直觉判断",
+      "importance": "high"
+    },
+    {
+      "name": "康德式晚宴",
+      "type": "event",
+      "context": "播主博导每学期举办的学术晚宴，遵守康德在《实用人类学》中定下的规则，强调社交、时政交流和禁止沉默",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "柏克写作《对法国大革命的反思》的历史背景，被用来对比启蒙理性主义与传统保守主义",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "柏克的祖国，作为保守主义思想形成的地理和文化背景",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "被描述为工业化社会，做菜体系中大量使用预制菜，与拥有美食传统的国家对比",
+      "importance": "medium"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "被提及为拥有深厚美食传统的国家",
+      "importance": "low"
+    },
+    {
+      "name": "意大利",
+      "type": "place",
+      "context": "被提及为拥有深厚美食传统的国家",
+      "importance": "low"
+    },
+    {
+      "name": "日本",
+      "type": "place",
+      "context": "被提及为拥有深厚美食传统的国家",
+      "importance": "low"
+    },
+    {
+      "name": "秘鲁",
+      "type": "place",
+      "context": "被提及为拥有深厚美食传统的国家",
+      "importance": "low"
+    },
+    {
+      "name": "杭州",
+      "type": "place",
+      "context": "播主家乡，笋干老鸭汤等家乡菜的代表地，强调地域性食材",
+      "importance": "high"
+    },
+    {
+      "name": "潮汕",
+      "type": "place",
+      "context": "以牛肉火锅闻名，强调牛肉新鲜程度对烹饪方式的影响",
+      "importance": "medium"
+    },
+    {
+      "name": "云南",
+      "type": "place",
+      "context": "以菌子闻名，强调对蘑菇细微差别的辨识需要经验",
+      "importance": "medium"
+    },
+    {
+      "name": "甘肃/内蒙古",
+      "type": "place",
+      "context": "以羊肉、牛肉品质著称，强调对好肉的经验性辨识",
+      "importance": "medium"
+    },
+    {
+      "name": "陕西",
+      "type": "place",
+      "context": "以油泼辣子闻名，强调辣椒层次和地域性",
+      "importance": "medium"
+    },
+    {
+      "name": "河北",
+      "type": "place",
+      "context": "以驴肉火烧为代表菜",
+      "importance": "low"
+    },
+    {
+      "name": "吉林",
+      "type": "place",
+      "context": "以小鸡炖蘑菇为代表菜",
+      "importance": "low"
+    },
+    {
+      "name": "波士顿",
+      "type": "place",
+      "context": "播主所在城市，有'最杭州饭店'",
+      "importance": "medium"
+    },
+    {
+      "name": "四旧",
+      "type": "other",
+      "context": "文化大革命概念，被用来对比20世纪中国对传统的态度与柏克式保守主义",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6723c4cdcbe0e69c8b3425cc",
+  "title": "127-保守主义之父柏克会如何评价预制菜"
+}

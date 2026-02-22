@@ -1,0 +1,338 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件/个人经历引入 - 从书籍出版后的媒体采访谈起，引出施密特与普鲁塔克的对照问题",
+    "structure": "问题→历史/哲学分析→对比→现实应用：先详细阐述施密特的敌我之分理论，再讨论普鲁塔克/古代视角的批评，最后回到互联网时代的现实应用",
+    "tone": "理性客观但带有鲜明立场，学术深度与通俗表达结合，批判性强，偶尔带讽刺（如称某些自由派为'爹味自由派'）",
+    "catchphrases": [
+      "对吧",
+      "也就是说",
+      "在这个意义上",
+      "我们可以看到",
+      "施密特会说",
+      "对于...来说",
+      "抽象化",
+      "自由主义",
+      "敌人",
+      "例外状态"
+    ],
+    "closing_pattern": "总结观点+呼吁 - 强调保留'理解敌人'能力的重要性，回到书籍主题'如何从敌人身上获益'，以友好道别结束",
+    "narrative_techniques": [
+      "类比（将政治理论与神学比较）",
+      "对比（施密特vs普鲁塔克/古代，自由主义vs施密特）",
+      "举例（雅典与斯巴达、波斯的关系，美国内战）",
+      "反问（'为什么今天我们会觉得越来越难以跟人讨论？'）",
+      "引用（修昔底德、霍布斯、洛克、阿伦特等）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "卡尔·施密特 (Carl Schmitt)",
+      "type": "person",
+      "context": "德国法学家、政治思想家，提出'敌我之分'理论，本文核心分析对象，曾加入纳粹党",
+      "importance": "high"
+    },
+    {
+      "name": "普鲁塔克 (Plutarch)",
+      "type": "person",
+      "context": "古希腊作家、哲学家，本文作为对抗施密特视角的古代思想代表，强调从实践而非抽象理论理解敌人",
+      "importance": "high"
+    },
+    {
+      "name": "汉娜·阿伦特 (Hannah Arendt)",
+      "type": "person",
+      "context": "20世纪政治思想家，被提及同意施密特关于现代社会政治瓦解的诊断",
+      "importance": "medium"
+    },
+    {
+      "name": "托马斯·霍布斯 (Thomas Hobbes)",
+      "type": "person",
+      "context": "英国哲学家，《利维坦》作者，被施密特视为自由主义之父之一，主张现代政府目的是和平",
+      "importance": "medium"
+    },
+    {
+      "name": "约翰·洛克 (John Locke)",
+      "type": "person",
+      "context": "英国哲学家，《政府论》作者，被视为自由主义奠基人，主张政府目的是和平",
+      "importance": "medium"
+    },
+    {
+      "name": "亚当·斯密 (Adam Smith)",
+      "type": "person",
+      "context": "英国经济学家，《国富论》作者，被批评将人定义为交换利益的动物",
+      "importance": "medium"
+    },
+    {
+      "name": "列奥·施特劳斯 (Leo Strauss)",
+      "type": "person",
+      "context": "政治哲学家，与施密特、阿伦特一同批评亚当·斯密对人的定义",
+      "importance": "medium"
+    },
+    {
+      "name": "约翰·斯图亚特·密尔/穆勒 (John Stuart Mill)",
+      "type": "person",
+      "context": "自由主义哲学家，被提及在施密特批评中面对敌人时只会说'你怎么这么没有礼貌'",
+      "importance": "low"
+    },
+    {
+      "name": "弗里德里希·哈耶克 (Friedrich Hayek)",
+      "type": "person",
+      "context": "奥地利经济学家，被提及与密尔有同样的问题，面对敌人不知如何防御",
+      "importance": "low"
+    },
+    {
+      "name": "弗里德里希·尼采 (Friedrich Nietzsche)",
+      "type": "person",
+      "context": "德国哲学家，提及'末人'概念，被施密特用来描述自由主义的最终后果",
+      "importance": "medium"
+    },
+    {
+      "name": "修昔底德 (Thucydides)",
+      "type": "person",
+      "context": "古希腊历史学家，《伯罗奔尼撒战争史》作者，被用作与施密特对比的古代政治思维代表",
+      "importance": "medium"
+    },
+    {
+      "name": "色诺芬 (Xenophon)",
+      "type": "person",
+      "context": "古希腊历史学家、哲学家，被提及与普鲁塔克、修昔底德、亚里士多德同属古代实践智慧传统",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德 (Aristotle)",
+      "type": "person",
+      "context": "古希腊哲学家，被提及与普鲁塔克等同属从实践角度而非抽象理论角度讨论问题的传统",
+      "importance": "medium"
+    },
+    {
+      "name": "希特勒 (Adolf Hitler)",
+      "type": "person",
+      "context": "纳粹德国领导人，提及施密特在其上台后几个月加入纳粹党",
+      "importance": "low"
+    },
+    {
+      "name": "苏珊·奈曼 (Susan Neiman)",
+      "type": "person",
+      "context": "当代哲学家，2023年出版《左派不是觉醒派》，从左翼视角批判施密特主义在身份政治中的复兴",
+      "importance": "low"
+    },
+    {
+      "name": "柯蒂斯·雅文 (Curtis Yarvin)",
+      "type": "person",
+      "context": "美国右翼评论员，被提及经常宣传施密特思想，代表互联网上右翼对施密特的推崇",
+      "importance": "low"
+    },
+    {
+      "name": "塞缪尔·亨廷顿 (Samuel Huntington)",
+      "type": "person",
+      "context": "美国政治学家，《文明的冲突》作者，被提及是许多人接触施密特前的'入门'思想家",
+      "importance": "low"
+    },
+    {
+      "name": "敌我之分/敌友之分 (Friend-Enemy Distinction)",
+      "type": "concept",
+      "context": "施密特政治哲学的核心概念，认为政治的本质在于区分朋友与敌人，关乎共同体的生死存亡",
+      "importance": "high"
+    },
+    {
+      "name": "政治的概念 (The Concept of the Political)",
+      "type": "work",
+      "context": "施密特1927年出版的著作，系统阐述敌我之分理论，是本文分析的核心文本",
+      "importance": "high"
+    },
+    {
+      "name": "自由主义 (Liberalism)",
+      "type": "concept",
+      "context": "施密特批评的主要对象，被指控通过中立化、去政治化瓦解了政治领域，导致人的尊严丧失",
+      "importance": "high"
+    },
+    {
+      "name": "例外状态 (State of Exception/Ausnahmezustand)",
+      "type": "concept",
+      "context": "施密特政治神学中的核心概念，指紧急状态下主权者超越法律行使权力的状态，是定义敌人的关键时刻",
+      "importance": "high"
+    },
+    {
+      "name": "决断主义 (Decisionism)",
+      "type": "concept",
+      "context": "施密特的政治理论，强调主权者在例外状态下做出决断的能力，被批评为只强调做决定而非做好决定",
+      "importance": "medium"
+    },
+    {
+      "name": "现代性 (Modernity)",
+      "type": "concept",
+      "context": "施密特诊断的危机所在，表现为政治领域的瓦解、中立化、去政治化，以及人的尊严的丧失",
+      "importance": "medium"
+    },
+    {
+      "name": "中立化 (Neutralization)",
+      "type": "concept",
+      "context": "施密特指控自由主义通过科学、市场、法律等中立领域取代政治，导致政治失去其存在性特质",
+      "importance": "medium"
+    },
+    {
+      "name": "去政治化 (Depoliticization)",
+      "type": "concept",
+      "context": "现代社会的主要趋势，政治被消解、逐出公共生活，转化为管理、效率和技术问题",
+      "importance": "medium"
+    },
+    {
+      "name": "永久和平 (Perpetual Peace)",
+      "type": "concept",
+      "context": "自由主义/康德式的理想，被施密特批评为试图消除战争、瓦解政治，最终导致人性灭绝",
+      "importance": "medium"
+    },
+    {
+      "name": "末人/最后的人 (Last Man)",
+      "type": "concept",
+      "context": "尼采概念，被施密特用来描述自由主义最终创造的只追求舒适安全的平庸存在，失去政治激情",
+      "importance": "low"
+    },
+    {
+      "name": "实践智慧/实践理性 (Practical Wisdom/Phronesis)",
+      "type": "concept",
+      "context": "古希腊传统（普鲁塔克、亚里士多德等）强调从具体实践而非抽象理论出发理解政治和敌人",
+      "importance": "high"
+    },
+    {
+      "name": "修昔底德陷阱/修昔底德名言",
+      "type": "concept",
+      "context": "被引用的名言'和平是一场战争和下一场战争之间的这段间隔'，描述自由主义的永恒防御状态",
+      "importance": "low"
+    },
+    {
+      "name": "父权制 (Patriarchy)",
+      "type": "concept",
+      "context": "在讨论女权主义与敌我区分关系时提及，描述某些女权主义者感受到的生存威胁状态",
+      "importance": "low"
+    },
+    {
+      "name": "身份政治 (Identity Politics)",
+      "type": "concept",
+      "context": "Susan Neiman从左翼视角批评当代觉醒运动中的施密特主义倾向时涉及",
+      "importance": "low"
+    },
+    {
+      "name": "纳粹党 (Nazi Party)",
+      "type": "organization",
+      "context": "施密特于1933年5月1日加入的政党，被提及作为对施密特思想进行道德谴责的依据",
+      "importance": "medium"
+    },
+    {
+      "name": "联合国 (United Nations)",
+      "type": "organization",
+      "context": "被施密特批评为试图通过制度、文书解决政治冲突，代表政治的消解",
+      "importance": "low"
+    },
+    {
+      "name": "ISIS/伊斯兰国",
+      "type": "organization",
+      "context": "被'爹味自由派'举例为实施敌我之分的极端组织，与纳粹并列作为被联合打击的对象",
+      "importance": "low"
+    },
+    {
+      "name": "《新京报》",
+      "type": "organization",
+      "context": "提及报道播客主书籍出版的媒体之一",
+      "importance": "low"
+    },
+    {
+      "name": "《南方人物周刊》",
+      "type": "organization",
+      "context": "提及报道播客主书籍出版的媒体之一",
+      "importance": "low"
+    },
+    {
+      "name": "《上海书评》",
+      "type": "organization",
+      "context": "提及报道播客主书籍出版的媒体之一",
+      "importance": "low"
+    },
+    {
+      "name": "《澎湃》",
+      "type": "organization",
+      "context": "提及报道播客主书籍出版的媒体之一",
+      "importance": "low"
+    },
+    {
+      "name": "《周末画报》",
+      "type": "organization",
+      "context": "播客主接受采访的媒体",
+      "importance": "low"
+    },
+    {
+      "name": "雅典 (Athens)",
+      "type": "place",
+      "context": "古希腊城邦，被用作与施密特抽象敌我区分对比的具体政治实践例子，与斯巴达、波斯等为敌",
+      "importance": "medium"
+    },
+    {
+      "name": "斯巴达 (Sparta)",
+      "type": "place",
+      "context": "古希腊城邦，雅典的敌人，被描述为保守贵族制、全民军事化的城邦，与抽象的'敌人'概念形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "波斯帝国 (Persian Empire)",
+      "type": "place",
+      "context": "古代帝国，雅典的敌人，被描述为庞大、腐败、享乐主义、中央集权的帝国，与斯巴达本质不同",
+      "importance": "medium"
+    },
+    {
+      "name": "底比斯 (Thebes)",
+      "type": "place",
+      "context": "古希腊城邦，修昔底德记载的雅典敌人之一",
+      "importance": "low"
+    },
+    {
+      "name": "科林斯 (Corinth)",
+      "type": "place",
+      "context": "古希腊城邦，修昔底德记载的雅典敌人之一",
+      "importance": "low"
+    },
+    {
+      "name": "佛西斯 (Phocis)",
+      "type": "place",
+      "context": "古希腊地区，修昔底德记载的雅典敌人之一",
+      "importance": "low"
+    },
+    {
+      "name": "美国 (United States)",
+      "type": "place",
+      "context": "被施密特及播客主分析为缺乏真正政治共同体的例子，因为很少遇到例外状态",
+      "importance": "medium"
+    },
+    {
+      "name": "朝鲜 (North Korea)",
+      "type": "place",
+      "context": "被某些国内施密特主义者认为比美国更像政治共同体，因为处于持续例外状态",
+      "importance": "low"
+    },
+    {
+      "name": "中国 (China)",
+      "type": "place",
+      "context": "提及中国网民和学界对施密特的推崇，以及成都的女权主义书店",
+      "importance": "low"
+    },
+    {
+      "name": "成都 (Chengdu)",
+      "type": "place",
+      "context": "播客主与女权主义书店老板朋友交流的城市",
+      "importance": "low"
+    },
+    {
+      "name": "如何从敌人身上获益",
+      "type": "work",
+      "context": "播客主翻译/撰写的关于普鲁塔克的书，是本期播客的核心文本基础",
+      "importance": "high"
+    },
+    {
+      "name": "《伯罗奔尼撒战争史》",
+      "type": "work",
+      "context": "修昔底德的著作，被用作展示古代具体政治思维与施密特抽象理论对比的核心文本",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68db71dfae9d1455fbabb275",
+  "title": "258-普鲁塔克会如何反驳施密特的敌友之分？"
+}

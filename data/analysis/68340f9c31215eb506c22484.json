@@ -1,0 +1,176 @@
+{
+  "style": {
+    "opening_pattern": "以具体生活场景引入（奶奶的同温层）→ 提出核心悖论（精英的自我批判）",
+    "structure": "个人故事→概念辨析（同温层vs公共空间）→历史哲学分析（斯多葛主义、阿伦特）→性别观察（男人/女人同温层的对比）→自我辩护与总结",
+    "tone": "犀利自省、知识密集、带有挑衅性的真诚",
+    "catchphrases": [
+      "对吧",
+      "换句话说",
+      "平心而论",
+      "在我看来",
+      "我们说的是",
+      "这意味着",
+      "我想说的是",
+      "这就是为什么",
+      "对于我来说",
+      "OK"
+    ],
+    "closing_pattern": "总结核心立场（公共空间的承诺）→ 开放式告别",
+    "narrative_techniques": [
+      "类比（尿得远、孵蛋）",
+      "对比（男人同温层vs女人同温层）",
+      "自我暴露式举例（奶奶、学术场合的尴尬）",
+      "反问",
+      "引用（阿伦特、雅斯贝尔斯、亚里士多德）",
+      "归谬法（追问'真正的声音'的不可能性）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "汉娜·阿伦特",
+      "type": "person",
+      "context": "被引用来论述公共空间与对话的理论，特别是关于友谊的政治意义和'世界成为谈话对象时才获得人性'的观点",
+      "importance": "high"
+    },
+    {
+      "name": "莱辛",
+      "type": "person",
+      "context": "德国启蒙时代哲学家，阿伦特曾为其撰写传记，被用来对比卢梭的亲密关系观念",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "作为现代个体疏离公共世界的代表，其友谊观被用来与莱辛/亚里士多德的公共友谊观对比",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "其'公民之间的友谊(philia)是健全政治共同体的基本条件'的观点被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "卡尔·雅斯贝尔斯",
+      "type": "person",
+      "context": "德国哲学家，被引用'走入公共领域的冒险'这一表述",
+      "importance": "medium"
+    },
+    {
+      "name": "斯多葛主义者",
+      "type": "person",
+      "context": "作为'完全退出公共生活、遁入私人空间'的历史典范被讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "播客中提到的人物，曾被抱怨学术场合互称'兄'的现象",
+      "importance": "low"
+    },
+    {
+      "name": "《莱辛》",
+      "type": "work",
+      "context": "汉娜·阿伦特的著作，其中关于友谊的论述被翻译引用，提及将于2026年出版",
+      "importance": "medium"
+    },
+    {
+      "name": "同温层",
+      "type": "concept",
+      "context": "核心讨论概念，指信息茧房式的封闭社群，与'公共空间'形成对立",
+      "importance": "high"
+    },
+    {
+      "name": "公共空间/Öffentlichkeit",
+      "type": "concept",
+      "context": "德语公共领域概念，被定义为'真理显现的地方'、'个体以个体方式出现'的场所",
+      "importance": "high"
+    },
+    {
+      "name": "Humanitas",
+      "type": "concept",
+      "context": "拉丁文人文精神，被描述为'被理性创造、被自由统治'的古典意义上的国度",
+      "importance": "medium"
+    },
+    {
+      "name": "philia",
+      "type": "concept",
+      "context": "古希腊语'友谊'，亚里士多德用以描述公民之间的政治联结",
+      "importance": "medium"
+    },
+    {
+      "name": "Echte Stimme",
+      "type": "concept",
+      "context": "德语'真正的声音'，被用来描述同温层中缺失的东西",
+      "importance": "medium"
+    },
+    {
+      "name": "父权制",
+      "type": "concept",
+      "context": "被讨论为女权主义的攻击对象，但作者认为男性同温层并不认可这一攻击前提",
+      "importance": "medium"
+    },
+    {
+      "name": "小宇宙",
+      "type": "organization",
+      "type_2": "platform",
+      "context": "播客平台，被批评有'中产精英味'，听众数据82%为女性",
+      "importance": "medium"
+    },
+    {
+      "name": "知乎",
+      "type": "organization",
+      "type_2": "platform",
+      "context": "被用来说明男性同温层中'引用数据=专业=客观'的规则",
+      "importance": "low"
+    },
+    {
+      "name": "豆瓣",
+      "type": "organization",
+      "type_2": "platform",
+      "context": "被提及有长达四五页关于主播'背刺女人'的论述",
+      "importance": "low"
+    },
+    {
+      "name": "小红书",
+      "type": "organization",
+      "type_2": "platform",
+      "context": "被提及常见对小宇宙的批评'有没有非精英主义的播客推荐'",
+      "importance": "low"
+    },
+    {
+      "name": "吴语区",
+      "type": "place",
+      "context": "主播因台州话水平差被'开除出吴语区'的自嘲",
+      "importance": "low"
+    },
+    {
+      "name": "台州",
+      "type": "place",
+      "context": "主播奶奶的方言背景，主播的家乡",
+      "importance": "low"
+    },
+    {
+      "name": "美国民主党",
+      "type": "organization",
+      "type_2": "political_party",
+      "context": "被描述为作者身份上所属但实际不认同的同温层立场之一",
+      "importance": "low"
+    },
+    {
+      "name": "第一次世界大战",
+      "type": "event",
+      "context": "与二战并提，作为公共空间崩溃、同温层大量涌现的历史时期",
+      "importance": "low"
+    },
+    {
+      "name": "第二次世界大战",
+      "type": "event",
+      "context": "与一战并提，作为公共空间崩溃、同温层大量涌现的历史时期",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68340f9c31215eb506c22484",
+  "title": "217-如何逃离同温层"
+}

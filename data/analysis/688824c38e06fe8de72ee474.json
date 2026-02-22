@@ -1,0 +1,555 @@
+{
+  "style": {
+    "opening_pattern": "以回顾前序播客内容（234期彼得大帝、239期俄罗斯文学性）建立知识连续性，然后提出核心命题（托尔斯泰是否是俄罗斯的柏拉图，《战争与和平》是否是俄罗斯的《理想国》）",
+    "structure": "多层嵌套论证结构：时代哲学背景（黑格尔主义）→ 个人阅读史（卢梭、柏拉图）→ 文本分析（《安娜·卡列尼娜》的三个柏拉图时刻）→ 哲学立场总结（反体系化、道德优先）",
+    "tone": "学术深度分析、理性思辨、带有强烈个人见解（'在我看来'、'我认为'）、偶尔口语化、知识密集",
+    "catchphrases": [
+      "对吧",
+      "比如说",
+      "也就是说",
+      "我想说的是",
+      "简单来说",
+      "在我看来",
+      "从这个角度",
+      "我们可以说",
+      "从这个意义",
+      "OK"
+    ],
+    "closing_pattern": "总结核心论点（托尔斯泰结合卢梭和柏拉图），提出后续讨论可能性，标准播客结束语（'OK今天我们就说到这里吧我们下期再见拜拜'）",
+    "narrative_techniques": [
+      "类比（树叶与树根）",
+      "引用（卢梭、柏拉图原文）",
+      "对比（托尔斯泰与黑格尔时代、卢梭与启蒙哲学）",
+      "层层递进论证",
+      "文本细读（安娜卡列尼娜的三个柏拉图时刻）",
+      "历史语境化"
+    ]
+  },
+  "entities": [
+    {
+      "name": "托尔斯泰",
+      "type": "person",
+      "context": "本集核心讨论对象，探讨其如何结合柏拉图和卢梭的哲学对抗黑格尔时代精神",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "托尔斯泰19岁开始阅读其对话录，尤其钟爱《会饮篇》和《斐多篇》，影响其小说结构",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "对托尔斯泰影响最深的思想家，托尔斯泰19岁读完全部作品，其反启蒙思想深刻塑造托尔斯泰的哲学立场",
+      "importance": "high"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "托尔斯泰所处时代的 dominant 哲学，代表体系化、辩证法的哲学潮流，托尔斯泰通过柏拉图和卢梭对抗之",
+      "importance": "high"
+    },
+    {
+      "name": "车尔尼雪夫斯基",
+      "type": "person",
+      "context": "俄国批评家，1856年提出'心灵辩证法'概念解释托尔斯泰艺术，代表唯物主义对黑格尔的批判",
+      "importance": "high"
+    },
+    {
+      "name": "别林斯基",
+      "type": "person",
+      "context": "俄国文学批评奠基人，确立黑格尔式批评标准，影响托尔斯泰时代的文学批评语境",
+      "importance": "high"
+    },
+    {
+      "name": "彼得大帝",
+      "type": "person",
+      "context": "被提及为播客第234期内容，建立俄罗斯国家意识和自我意识的历史前提",
+      "importance": "medium"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "被对比提及，其《卡拉马佐夫兄弟》中的'宗教大法官'也在回应卢梭，但借用福音书而非柏拉图",
+      "importance": "medium"
+    },
+    {
+      "name": "斯特拉霍夫",
+      "type": "person",
+      "context": "托尔斯泰的好友，托尔斯泰曾写信给他讨论柏拉图，称其为真正的哲学家之一",
+      "importance": "medium"
+    },
+    {
+      "name": "列夫·尼古拉耶维奇·托尔斯泰",
+      "type": "person",
+      "context": "即托尔斯泰，在全集中以其全名或列文（其小说中的化身）被讨论",
+      "importance": "high"
+    },
+    {
+      "name": "亚历山大·巴甫洛维奇·斯卡托夫",
+      "type": "person",
+      "context": "苏联文学评论家，提出托尔斯泰在《战争与和平》创作时期思想发展中黑格尔地位的问题",
+      "importance": "medium"
+    },
+    {
+      "name": "伊凡·基列耶夫斯基",
+      "type": "person",
+      "context": "1850年代评论者，指出当时俄国几百个黑格尔主义者中只有三人真正读过黑格尔原著",
+      "importance": "medium"
+    },
+    {
+      "name": "别尔嘉耶夫",
+      "type": "person",
+      "context": "提及俄国人早在黑格尔之前就倾向于追求综合",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "被提及与车尔尼雪夫斯基同为'精神法国人'，影响俄国哲学文化但不如黑格尔根本",
+      "importance": "medium"
+    },
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "托尔斯泰19岁时阅读《论法的精神》并写评论",
+      "importance": "low"
+    },
+    {
+      "name": "叶卡捷琳娜大帝",
+      "type": "person",
+      "context": "托尔斯泰19岁阅读其《训谕》并写读后感",
+      "importance": "low"
+    },
+    {
+      "name": "洛克",
+      "type": "person",
+      "context": "卢梭通过阅读其著作进行自我教育，后被卢梭批评",
+      "importance": "low"
+    },
+    {
+      "name": "笛卡尔",
+      "type": "person",
+      "context": "同上，被卢梭阅读后批评",
+      "importance": "low"
+    },
+    {
+      "name": "莱布尼茨",
+      "type": "person",
+      "context": "同上，被卢梭阅读后批评",
+      "importance": "low"
+    },
+    {
+      "name": "歌德",
+      "type": "person",
+      "context": "卢梭开启的'诗人时代'的代表，托尔斯泰作为其忠实学生",
+      "importance": "low"
+    },
+    {
+      "name": "狄更斯",
+      "type": "person",
+      "context": "托尔斯泰阅读其《荒凉山庄》（法语译本）",
+      "importance": "low"
+    },
+    {
+      "name": "阿里斯托芬",
+      "type": "person",
+      "context": "在《会饮篇》中讲述爱的神话的喜剧诗人",
+      "importance": "low"
+    },
+    {
+      "name": "迪奥提玛",
+      "type": "person",
+      "context": "《会饮篇》中的女性先知，提出爱是对美的追求",
+      "importance": "low"
+    },
+    {
+      "name": "莫扎特",
+      "type": "person",
+      "context": "托尔斯泰终身热爱的作曲家，与播客主持有共鸣",
+      "importance": "low"
+    },
+    {
+      "name": "海顿",
+      "type": "person",
+      "context": "托尔斯泰喜爱的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "舒伯特",
+      "type": "person",
+      "context": "托尔斯泰喜爱的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "巴赫",
+      "type": "person",
+      "context": "托尔斯泰喜爱的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "肖邦",
+      "type": "person",
+      "context": "托尔斯泰喜爱的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "贝多芬",
+      "type": "person",
+      "context": "托尔斯泰早年喜爱的作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "格林卡",
+      "type": "person",
+      "context": "托尔斯泰最初喜欢的俄罗斯作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "柴可夫斯基",
+      "type": "person",
+      "context": "托尔斯泰后来喜欢的俄罗斯作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "斯蒂瓦",
+      "type": "person",
+      "context": "《安娜·卡列尼娜》中列文的好友，在饭馆晚宴中与列文讨论爱情",
+      "importance": "medium"
+    },
+    {
+      "name": "列文",
+      "type": "person",
+      "context": "《安娜·卡列尼娜》的主角之一，托尔斯泰的化身，经历精神危机和道德觉醒",
+      "importance": "high"
+    },
+    {
+      "name": "吉娣",
+      "type": "person",
+      "context": "《安娜·卡列尼娜》中列文的爱人和妻子",
+      "importance": "medium"
+    },
+    {
+      "name": "安娜",
+      "type": "person",
+      "context": "《安娜·卡列尼娜》的女主角，与沃伦斯基的爱情悲剧",
+      "importance": "medium"
+    },
+    {
+      "name": "沃伦斯基",
+      "type": "person",
+      "context": "《安娜·卡列尼娜》中安娜的情人",
+      "importance": "medium"
+    },
+    {
+      "name": "普拉东",
+      "type": "person",
+      "context": "《安娜·卡列尼娜》中的农民，名字与柏拉图同音，其生活方式启发列文",
+      "importance": "high"
+    },
+    {
+      "name": "尼古拉·斯特拉霍夫",
+      "type": "person",
+      "context": "托尔斯泰的朋友，写过有关达尔文的文章，托尔斯泰赞赏其文章但认为艺术才能打动人",
+      "importance": "medium"
+    },
+    {
+      "name": "萨瓦神父",
+      "type": "person",
+      "context": "卢梭《爱弥儿》第四卷中的人物，其信仰告白深刻影响托尔斯泰和陀思妥耶夫斯基",
+      "importance": "medium"
+    },
+    {
+      "name": "格里戈里耶夫",
+      "type": "person",
+      "context": "右派批评家，相信辩证法与艺术中理想和现实的互动",
+      "importance": "low"
+    },
+    {
+      "name": "屠格涅夫",
+      "type": "person",
+      "context": "托尔斯泰进入文坛后认识的对话者，对其影响大",
+      "importance": "medium"
+    },
+    {
+      "name": "彼得",
+      "type": "person",
+      "context": "即彼得大帝",
+      "importance": "low"
+    },
+    {
+      "name": "战争与和平",
+      "type": "work",
+      "context": "托尔斯泰的代表作，被讨论是否是俄罗斯的《理想国》，体现古典与现代的融合",
+      "importance": "high"
+    },
+    {
+      "name": "安娜·卡列尼娜",
+      "type": "work",
+      "context": "本集重点分析的文本，被视为哲学戏剧，借鉴《会饮篇》结构，体现托尔斯泰反哲学立场",
+      "importance": "high"
+    },
+    {
+      "name": "理想国",
+      "type": "work",
+      "context": "柏拉图对话录，播客标题和讨论中将其与《战争与和平》类比",
+      "importance": "high"
+    },
+    {
+      "name": "会饮篇",
+      "type": "work",
+      "context": "柏拉图对话录，托尔斯泰最喜欢的作品，深刻影响《安娜·卡列尼娜》的结构和爱情观",
+      "importance": "high"
+    },
+    {
+      "name": "斐多篇",
+      "type": "work",
+      "context": "柏拉图对话录，托尔斯泰多次重读",
+      "importance": "medium"
+    },
+    {
+      "name": "爱弥儿",
+      "type": "work",
+      "context": "卢梭的哲学小说，其中第四卷萨瓦神父的信仰告白对托尔斯泰宗教观影响极深",
+      "importance": "high"
+    },
+    {
+      "name": "忏悔录",
+      "type": "work",
+      "context": "卢梭的自传，托尔斯泰从中学习反启蒙思想",
+      "importance": "medium"
+    },
+    {
+      "name": "论科学与艺术",
+      "type": "work",
+      "context": "卢梭的第一篇论文（一论），托尔斯泰19岁时阅读并评论，其中关于良知和美德的思想深刻影响托尔斯泰",
+      "importance": "high"
+    },
+    {
+      "name": "论人类不平等的起源和基础",
+      "type": "work",
+      "context": "卢梭的第二篇论文（二论），托尔斯泰19岁时阅读并评论",
+      "importance": "medium"
+    },
+    {
+      "name": "那么我们该怎么办",
+      "type": "work",
+      "context": "托尔斯泰晚年1880年代作品，其中提到年轻时黑格尔影响无处不在",
+      "importance": "medium"
+    },
+    {
+      "name": "童年",
+      "type": "work",
+      "context": "托尔斯泰1850年代进入文坛的早期作品，与《少年》《青年》构成三部曲",
+      "importance": "medium"
+    },
+    {
+      "name": "少年",
+      "type": "work",
+      "context": "托尔斯泰早期作品",
+      "importance": "low"
+    },
+    {
+      "name": "青年",
+      "type": "work",
+      "context": "托尔斯泰早期作品，文本中称为'习机'（疑为'青年'的误识或简称）",
+      "importance": "low"
+    },
+    {
+      "name": "袭击",
+      "type": "work",
+      "context": "托尔斯泰早期作品，体现对柏拉图对话体的借鉴",
+      "importance": "medium"
+    },
+    {
+      "name": "卡拉马佐夫兄弟",
+      "type": "work",
+      "context": "陀思妥耶夫斯基作品，其中宗教大法官章节也在回应卢梭的萨瓦神父信仰告白",
+      "importance": "medium"
+    },
+    {
+      "name": "荒凉山庄",
+      "type": "work",
+      "context": "狄更斯的小说，托尔斯泰阅读法语译本",
+      "importance": "low"
+    },
+    {
+      "name": "叶卡捷琳娜大帝训谕",
+      "type": "work",
+      "context": "托尔斯泰19岁阅读并写评论",
+      "importance": "low"
+    },
+    {
+      "name": "论法的精神",
+      "type": "work",
+      "context": "孟德斯鸠著作，托尔斯泰19岁阅读",
+      "importance": "low"
+    },
+    {
+      "name": "心灵辩证法",
+      "type": "concept",
+      "context": "车尔尼雪夫斯基1856年提出的概念，描述托尔斯泰艺术中过去与现在感受在心灵中的互动",
+      "importance": "high"
+    },
+    {
+      "name": "有机艺术作品",
+      "type": "concept",
+      "context": "别林斯基确立的黑格尔式批评标准，认为作品是理念的实现，艺术细节应构成有机体承载原创理念",
+      "importance": "high"
+    },
+    {
+      "name": "综合",
+      "type": "concept",
+      "context": "黑格尔哲学核心概念之一，俄国哲学文化中追求的目标，与辩证法、具体性相关，托尔斯泰也在寻找能提供道德指引的综合",
+      "importance": "high"
+    },
+    {
+      "name": "萨瓦神父的信仰告白",
+      "type": "concept",
+      "context": "卢梭《爱弥儿》第四卷中最深刻章节，深刻影响托尔斯泰和陀思妥耶夫斯基的宗教观",
+      "importance": "high"
+    },
+    {
+      "name": "反哲学",
+      "type": "concept",
+      "context": "卢梭和托尔斯泰的立场，反对体系化、逻辑化的现代理性主义哲学，主张从个体经验和良知出发",
+      "importance": "high"
+    },
+    {
+      "name": "哲学戏剧",
+      "type": "concept",
+      "context": "播客作者对托尔斯泰小说体裁的概括，认为《安娜·卡列尼娜》是哲学戏剧，借鉴柏拉图对话体，不同于现代哲学论著",
+      "importance": "high"
+    },
+    {
+      "name": "卡洛斯",
+      "type": "concept",
+      "context": "古希腊语中真善美的三重含义，柏拉图《会饮篇》中爱是对美本身的追求，美即卡洛斯",
+      "importance": "medium"
+    },
+    {
+      "name": "良知",
+      "type": "concept",
+      "context": "卢梭和托尔斯泰哲学核心，超越理性的道德指南针，transcendental reason，铭刻在心灵之中",
+      "importance": "high"
+    },
+    {
+      "name": "辩证法",
+      "type": "concept",
+      "context": "黑格尔哲学核心，当时俄国思想界主流方法，车尔尼雪夫斯基和格里戈里耶夫都相信辩证法",
+      "importance": "medium"
+    },
+    {
+      "name": "分析和综合",
+      "type": "concept",
+      "context": "别尔嘉耶夫提及的达成真理的两种方法，分析是解剖现实，综合是按理想标准重新整合，来自黑格尔传统",
+      "importance": "medium"
+    },
+    {
+      "name": "现代性",
+      "type": "concept",
+      "context": "卢梭和托尔斯泰共同面对的危机，卢梭提出对现代性的挑战，陀思妥耶夫斯基和托尔斯泰都用小说回应",
+      "importance": "high"
+    },
+    {
+      "name": "个体经验",
+      "type": "concept",
+      "context": "托尔斯泰和卢梭哲学基础，与启蒙理性相对，通过身体感官而非灵魂与读者建立联系",
+      "importance": "high"
+    },
+    {
+      "name": "真理是现实与理想的统一体",
+      "type": "concept",
+      "context": "黑格尔核心理念，当时俄国思想界核心追求，托尔斯泰也在寻找能提供道德指引的综合",
+      "importance": "medium"
+    },
+    {
+      "name": "彼得大帝改革",
+      "type": "event",
+      "context": "播客第234期内容，讨论彼得大帝如何让俄罗斯成为国家并给予俄罗斯人自我意识",
+      "importance": "medium"
+    },
+    {
+      "name": "19世纪俄国文学兴起",
+      "type": "event",
+      "context": "在彼得大帝建立的自我意识之上出现，本集作为讨论托尔斯泰的铺垫背景",
+      "importance": "medium"
+    },
+    {
+      "name": "托尔斯泰19岁阅读卢梭和柏拉图",
+      "type": "event",
+      "context": "1847年左右，托尔斯泰阅读卢梭全部作品和柏拉图对话录（法语译本），深刻影响其思想形成",
+      "importance": "high"
+    },
+    {
+      "name": "车尔尼雪夫斯基1856年提出心灵辩证法",
+      "type": "event",
+      "context": "在《当代人》杂志发表文章，首次用'心灵辩证法'描述托尔斯泰艺术",
+      "importance": "high"
+    },
+    {
+      "name": "俄罗斯",
+      "type": "place",
+      "context": "核心讨论地域，19世纪中上段的俄罗斯是托尔斯泰生活的时代背景，黑格尔主义盛行的文化氛围",
+      "importance": "high"
+    },
+    {
+      "name": "圣彼得堡",
+      "type": "place",
+      "context": "托尔斯泰20岁出头搬到圣彼得堡进入上流社会，后在此进入文坛",
+      "importance": "medium"
+    },
+    {
+      "name": "莫斯科",
+      "type": "place",
+      "context": "托尔斯泰20岁出头从庄园搬到莫斯科，后在此社交频繁",
+      "importance": "medium"
+    },
+    {
+      "name": "庄园",
+      "type": "place",
+      "context": "托尔斯泰出身贵族，在亚斯纳亚·波利亚纳庄园长大，19岁退学回到庄园进行农民改良活动",
+      "importance": "medium"
+    },
+    {
+      "name": "西伯利亚",
+      "type": "place",
+      "context": "陀思妥耶夫斯基流放地，在那里阅读福音书",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "卢梭的祖国，托尔斯泰阅读柏拉图译本和狄更斯均通过法语",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "黑格尔的祖国，其哲学在19世纪俄国影响深远",
+      "importance": "medium"
+    },
+    {
+      "name": "当代人杂志",
+      "type": "organization",
+      "context": "车尔尼雪夫斯基1856年发表提出'心灵辩证法'文章的刊物",
+      "importance": "medium"
+    },
+    {
+      "name": "看理想",
+      "type": "organization",
+      "context": "播客提到的音频节目平台，第120期关于卢梭的节目将在该平台上线",
+      "importance": "low"
+    },
+    {
+      "name": "普林斯顿大学出版社",
+      "type": "organization",
+      "context": "播客作者上个月为其做直播讨论《会饮篇》和古希腊恋爱观",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "688824c38e06fe8de72ee474",
+  "title": "242-托尔斯泰如何结合柏拉图和卢梭对抗黑格尔？"
+}

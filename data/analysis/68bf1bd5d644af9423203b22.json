@@ -1,0 +1,608 @@
+{
+  "style": {
+    "opening_pattern": "回顾之前内容→指出空白→引出主题。主播先回顾了之前讨论过的左派和右派总统，指出对美国右翼的追溯不够，从而引出今天要讨论50年代新保守主义运动的主题。",
+    "structure": "倒叙与顺叙结合：从特朗普时代新保守主义的'死亡'现状切入（2016-2024），倒叙回50年代起源，顺叙讲述威廉·巴克利的生平、耶鲁时期、支持麦卡锡、创办《国家评论》、支持戈德华特、尼克松时代、里根巅峰，最后回到现状总结。",
+    "tone": "知识型口语化，理性客观但带有鲜明的个人立场和批判性，使用大量口语化表达（'对吧'、'老娘'、'死翘翘'），兼具学术深度与播客的轻松感。",
+    "catchphrases": [
+      "对吧",
+      "老娘",
+      "死翘翘",
+      "反动派",
+      "新保",
+      "追本溯源",
+      "超纲了",
+      "下课拜拜",
+      "特朗普现象",
+      "建构/建立"
+    ],
+    "closing_pattern": "总结+告别式。以'这已经不是美国高中历史小课堂了超纲了超纲了不管怎么样今天我们就讲到这里吧下课拜拜'结束，带有轻松幽默的课堂结束感。",
+    "narrative_techniques": [
+      "类比（将巴克利比作'站在历史洪流中大喊停的人'，将新保守主义比作'被特朗普一脚踩灭的火焰'）",
+      "引用（大量引用巴克利原话、基辛格悼词）",
+      "对比（50年代新保守主义与特朗普时代右翼的对比，巴克利的优雅与今日右翼的粗俗对比）",
+      "讲故事（详细讲述巴克利生平轶事、与里根的友谊、驱逐极端分子的细节）",
+      "倒叙与插叙（从2016年倒叙回1950年代，中间穿插个人阅读传记的感想）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "威廉·F·巴克利（William F. Buckley Jr.）",
+      "type": "person",
+      "context": "美国新保守主义运动的奠基人，创办《国家评论》杂志，耶鲁毕业生，保守主义革命的核心人物",
+      "importance": "high"
+    },
+    {
+      "name": "唐纳德·特朗普（Donald Trump）",
+      "type": "person",
+      "context": "被描述为新保守主义的终结者，2016年大选代表民粹主义击败了共和党建制派和新保守主义",
+      "importance": "high"
+    },
+    {
+      "name": "罗纳德·里根（Ronald Reagan）",
+      "type": "person",
+      "context": "新保守主义运动的巅峰代表，1984年大胜连任，实现新保守主义革命目标，与巴克利是好友",
+      "importance": "high"
+    },
+    {
+      "name": "乔·麦卡锡（Joseph McCarthy）",
+      "type": "person",
+      "context": "威斯康星州参议员，麦卡锡主义代表人物，巴克利曾为其辩护，后因其极端行为被巴克利抛弃",
+      "importance": "high"
+    },
+    {
+      "name": "巴里·戈德华特（Barry Goldwater）",
+      "type": "person",
+      "context": "1964年共和党总统候选人，巴克利支持的首位候选人，真正的种族主义者，败给约翰逊",
+      "importance": "medium"
+    },
+    {
+      "name": "理查德·尼克松（Richard Nixon）",
+      "type": "person",
+      "context": "美国总统，1968年当选，巴克利首次在白宫拥有影响力，但巴克利不认同其对华开放政策",
+      "importance": "medium"
+    },
+    {
+      "name": "亨利·基辛格（Henry Kissinger）",
+      "type": "person",
+      "context": "尼克松的国家安全顾问，与巴克利保持40年友谊，在巴克利葬礼上致悼词",
+      "importance": "medium"
+    },
+    {
+      "name": "山姆·塔纳豪斯（Sam Tanenhaus）",
+      "type": "person",
+      "context": "巴克利传记《Buckley》的作者，被巴克利生前指定，拥有查看个人档案的自由",
+      "importance": "medium"
+    },
+    {
+      "name": "罗伯特·韦尔奇（Robert Welch）",
+      "type": "person",
+      "context": "约翰·伯奇协会领导人，因极端指控（称艾森豪威尔是共产特工）被巴克利公开驱逐出新保守主义运动",
+      "importance": "medium"
+    },
+    {
+      "name": "乔恩·戈德堡（Jonah Goldberg）",
+      "type": "person",
+      "context": "当代新保守主义作家，流落在非主流保守杂志中批评特朗普",
+      "importance": "low"
+    },
+    {
+      "name": "约翰·波德霍雷茨（John Podhoretz）",
+      "type": "person",
+      "context": "当代新保守主义作家，流落在非主流保守杂志中",
+      "importance": "low"
+    },
+    {
+      "name": "比尔·克里斯托（Bill Kristol）",
+      "type": "person",
+      "context": "当代新保守主义作家，整天写文章骂特朗普",
+      "importance": "low"
+    },
+    {
+      "name": "约翰·卡尔霍恩（John C. Calhoun）",
+      "type": "person",
+      "context": "南卡罗来纳州参议员，其宪法理论被巴克利推崇，主张各州有权废除联邦法律",
+      "importance": "medium"
+    },
+    {
+      "name": "雷蒙德·肯尼迪（Raymond Kennedy）",
+      "type": "person",
+      "context": "耶鲁社会学教授，被巴克利在耶鲁日报上点名批评嘲讽天主教",
+      "importance": "low"
+    },
+    {
+      "name": "约瑟夫·韦尔奇（Joseph Welch）",
+      "type": "person",
+      "context": "陆军首席法律顾问，在电视听证会上揭露麦卡锡的荒谬指控",
+      "importance": "low"
+    },
+    {
+      "name": "伍德罗·威尔逊（Woodrow Wilson）",
+      "type": "person",
+      "context": "被提及作为左派/世界主义代表",
+      "importance": "low"
+    },
+    {
+      "name": "富兰克林·D·罗斯福（Franklin D. Roosevelt）",
+      "type": "person",
+      "context": "被提及作为左派/新政代表",
+      "importance": "low"
+    },
+    {
+      "name": "林登·B·约翰逊（Lyndon B. Johnson）",
+      "type": "person",
+      "context": "被提及作为左派/伟大社会代表",
+      "importance": "low"
+    },
+    {
+      "name": "比尔·克林顿（Bill Clinton）",
+      "type": "person",
+      "context": "被提及作为左派代表",
+      "importance": "low"
+    },
+    {
+      "name": "德怀特·D·艾森豪威尔（Dwight D. Eisenhower）",
+      "type": "person",
+      "context": "总统，被约翰·伯奇协会指控为共产特工",
+      "importance": "low"
+    },
+    {
+      "name": "厄尔·沃伦（Earl Warren）",
+      "type": "person",
+      "context": "首席大法官，被伯奇协会要求弹劾",
+      "importance": "low"
+    },
+    {
+      "name": "JD·万斯（JD Vance）",
+      "type": "person",
+      "context": "被提及也在批评法官",
+      "importance": "low"
+    },
+    {
+      "name": "汤姆·科顿（Tom Cotton）",
+      "type": "person",
+      "context": "共和党参议员，其文章导致纽约时报编辑辞职",
+      "importance": "low"
+    },
+    {
+      "name": "巴里·韦斯（Bari Weiss）",
+      "type": "person",
+      "context": "记者，因纽约时报事件辞职",
+      "importance": "low"
+    },
+    {
+      "name": "穆罕默德·阿里（Muhammad Ali）",
+      "type": "person",
+      "context": "拳王，巴克利曾与其对话",
+      "importance": "low"
+    },
+    {
+      "name": "弗兰克·迈耶（Frank Meyer）",
+      "type": "person",
+      "context": "前共产党员，《国家评论》编辑",
+      "importance": "low"
+    },
+    {
+      "name": "惠特克·钱伯斯（Whittaker Chambers）",
+      "type": "person",
+      "context": "《国家评论》编辑",
+      "importance": "low"
+    },
+    {
+      "name": "詹姆斯·伯纳姆（James Burnham）",
+      "type": "person",
+      "context": "《国家评论》编辑",
+      "importance": "low"
+    },
+    {
+      "name": "威廉·凯西（William Casey）",
+      "type": "person",
+      "context": "中情局局长，杂志早期投资者",
+      "importance": "low"
+    },
+    {
+      "name": "罗素·柯克（Russell Kirk）",
+      "type": "person",
+      "context": "为《国家评论》开设专栏",
+      "importance": "low"
+    },
+    {
+      "name": "《耶鲁校园里的上帝和人》（God and Man at Yale）",
+      "type": "work",
+      "context": "巴克利26岁出版的成名作，抨击耶鲁教育",
+      "importance": "high"
+    },
+    {
+      "name": "《乔·麦卡锡与他的敌人》（McCarthy and His Enemies）",
+      "type": "work",
+      "context": "巴克利与妹夫合著的为麦卡锡辩护的书",
+      "importance": "high"
+    },
+    {
+      "name": "《国家评论》（National Review）",
+      "type": "work",
+      "context": "巴克利于1955年创办的杂志，美国右翼意识形态的'最高法院'",
+      "importance": "high"
+    },
+    {
+      "name": "巴克利传记（Buckley: The Life and the Revolution That Changed the World）",
+      "type": "work",
+      "context": "山姆·塔纳豪斯撰写的巴克利传记，两个月前出版",
+      "importance": "medium"
+    },
+    {
+      "name": "《为什么南方必须被保留》（Why the South Must Prevail）",
+      "type": "work",
+      "context": "巴克利1957年发表的文章，支持南方种族隔离，被视为声誉污点",
+      "importance": "medium"
+    },
+    {
+      "name": "新保守主义（Neoconservatism/新保）",
+      "type": "concept",
+      "context": "50年代兴起的美国保守主义运动，强调限制政府权力、个人自由、反共干预主义",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普现象",
+      "type": "concept",
+      "context": "2016年以来特朗普代表的民粹主义崛起，被视为新保守主义的终结者",
+      "importance": "high"
+    },
+    {
+      "name": "麦卡锡主义",
+      "type": "concept",
+      "context": "50年代初期的反共猎巫运动，巴克利曾为其辩护后抛弃",
+      "importance": "high"
+    },
+    {
+      "name": "新政（New Deal）",
+      "type": "concept",
+      "context": "小罗斯福30年代开始的福利国家建设，被新保守主义反对",
+      "importance": "medium"
+    },
+    {
+      "name": "伟大社会（Great Society）",
+      "type": "concept",
+      "context": "约翰逊总统的福利政府扩张计划",
+      "importance": "medium"
+    },
+    {
+      "name": "孤立主义",
+      "type": "concept",
+      "context": "二战前美国右翼的外交倾向，被新保守主义的干预主义取代",
+      "importance": "medium"
+    },
+    {
+      "name": "州权（States' Rights）",
+      "type": "concept",
+      "context": "新保守主义支持南方州权，包括维护种族隔离的权利",
+      "importance": "medium"
+    },
+    {
+      "name": "种族隔离",
+      "type": "concept",
+      "context": "美国南方实行的种族隔离制度，巴克利50年代曾支持维护",
+      "importance": "medium"
+    },
+    {
+      "name": "反动派（Reactionary）",
+      "type": "concept",
+      "context": "政治术语，指反对变革的保守倾向，巴克利被描述为'真正的反动派'",
+      "importance": "medium"
+    },
+    {
+      "name": "学术自由",
+      "type": "concept",
+      "context": "巴克利批判耶鲁以学术自由为名灌输进步主义意识形态",
+      "importance": "low"
+    },
+    {
+      "name": "个人主义",
+      "type": "concept",
+      "context": "新保守主义强调的核心价值，反对集体主义",
+      "importance": "low"
+    },
+    {
+      "name": "冷战",
+      "type": "concept",
+      "context": "二战后美苏对抗时期，新保守主义在此背景下兴起",
+      "importance": "medium"
+    },
+    {
+      "name": "2016年美国总统大选",
+      "type": "event",
+      "context": "特朗普崛起，标志着新保守主义在共和党内的失势",
+      "importance": "high"
+    },
+    {
+      "name": "1984年美国总统大选",
+      "type": "event",
+      "context": "里根以压倒性优势连任，新保守主义达到巅峰",
+      "importance": "high"
+    },
+    {
+      "name": "1936年美国总统大选",
+      "type": "event",
+      "context": "小罗斯福以压倒性优势连任，与里根1984年类比",
+      "importance": "low"
+    },
+    {
+      "name": "1964年美国总统大选",
+      "type": "event",
+      "context": "戈德华特败给约翰逊，但标志着新保守主义进入主流政治",
+      "importance": "medium"
+    },
+    {
+      "name": "1968年美国总统大选",
+      "type": "event",
+      "context": "尼克松当选，巴克利首次获得白宫影响力",
+      "importance": "medium"
+    },
+    {
+      "name": "法国大革命（1789年）",
+      "type": "event",
+      "context": "左右翼政治区分的起源",
+      "importance": "low"
+    },
+    {
+      "name": "第二次世界大战",
+      "type": "event",
+      "context": "改变了美国右翼的孤立主义倾向，促使新保守主义转向干预主义",
+      "importance": "high"
+    },
+    {
+      "name": "珍珠港事件",
+      "type": "event",
+      "context": "促使美国放弃孤立主义介入二战",
+      "importance": "low"
+    },
+    {
+      "name": "中国革命/中华人民共和国成立（1949年）",
+      "type": "event",
+      "context": "改变了冷战格局，促使美国右翼转变外交政策",
+      "importance": "medium"
+    },
+    {
+      "name": "苏联原子弹间谍案（1949年）",
+      "type": "event",
+      "context": "证实苏联窃取美国原子弹设计，为麦卡锡主义提供依据",
+      "importance": "medium"
+    },
+    {
+      "name": "1954年陆军-麦卡锡听证会",
+      "type": "event",
+      "context": "麦卡锡在电视听证会上被韦尔奇揭露，导致其声誉破产",
+      "importance": "high"
+    },
+    {
+      "name": "民权运动",
+      "type": "event",
+      "context": "60年代美国黑人争取权利的运动，巴克利对此态度逐渐改变",
+      "importance": "medium"
+    },
+    {
+      "name": "尼克松访华（1972年）",
+      "type": "event",
+      "context": "巴克利随团访华但反对开放策略",
+      "importance": "low"
+    },
+    {
+      "name": "苏联解体（1991年）",
+      "type": "event",
+      "context": "里根坚持军备竞赛导致苏联崩溃，新保守主义达到目标",
+      "importance": "high"
+    },
+    {
+      "name": "2024年洛杉矶抗议/特朗普派遣国民警卫队",
+      "type": "event",
+      "context": "被用来对比巴克利时代与今日右翼的不同",
+      "importance": "medium"
+    },
+    {
+      "name": "美国（United States）",
+      "type": "place",
+      "context": "新保守主义运动的发生地，政治舞台",
+      "importance": "high"
+    },
+    {
+      "name": "苏联/苏联帝国（Soviet Union）",
+      "type": "place",
+      "context": "冷战对手，新保守主义外交政策针对的主要威胁",
+      "importance": "high"
+    },
+    {
+      "name": "中国（China）",
+      "type": "place",
+      "context": "1949年革命改变冷战格局，尼克松访华时巴克利随行",
+      "importance": "medium"
+    },
+    {
+      "name": "欧洲（Europe）",
+      "type": "place",
+      "context": "二战前后美国右翼对欧政策从孤立主义转向干预主义的焦点",
+      "importance": "medium"
+    },
+    {
+      "name": "英国（Britain/UK）",
+      "type": "place",
+      "context": "二战时遭纳粹轰炸，巴克利家族曾反对援助",
+      "importance": "low"
+    },
+    {
+      "name": "康涅狄格州（Connecticut）",
+      "type": "place",
+      "context": "巴克利成长的东海岸贵族所在地",
+      "importance": "medium"
+    },
+    {
+      "name": "南卡罗来纳州（South Carolina）",
+      "type": "place",
+      "context": "巴克利父母的家乡，南方保守主义背景",
+      "importance": "medium"
+    },
+    {
+      "name": "北卡罗来纳州（North Carolina）",
+      "type": "place",
+      "context": "巴克利父母实际来自的州（主播纠正）",
+      "importance": "low"
+    },
+    {
+      "name": "纽约（New York）",
+      "type": "place",
+      "context": "巴克利举办葬礼的地点，美国知识分子聚集地",
+      "importance": "low"
+    },
+    {
+      "name": "曼哈顿（Manhattan）",
+      "type": "place",
+      "context": "巴克利家族拥有公寓的地点",
+      "importance": "low"
+    },
+    {
+      "name": "耶鲁大学（Yale University）",
+      "type": "place",
+      "context": "巴克利本科就读学校，保守主义思想成形地",
+      "importance": "high"
+    },
+    {
+      "name": "哈佛大学（Harvard University）",
+      "type": "place",
+      "context": "被提及为精英大学代表",
+      "importance": "low"
+    },
+    {
+      "name": "底特律（Detroit）",
+      "type": "place",
+      "context": "巴克利与里根讨论种族骚乱假想的地点",
+      "importance": "low"
+    },
+    {
+      "name": "洛杉矶（Los Angeles）",
+      "type": "place",
+      "context": "2024年特朗普派遣国民警卫队进入的城市",
+      "importance": "low"
+    },
+    {
+      "name": "加州（California）",
+      "type": "place",
+      "context": "州长反对特朗普派遣国民警卫队的州",
+      "importance": "low"
+    },
+    {
+      "name": "亚利桑那州（Arizona）",
+      "type": "place",
+      "context": "黑人空军中尉驻扎并遭遇住房歧视的州",
+      "importance": "low"
+    },
+    {
+      "name": "瑞士（Switzerland）",
+      "type": "place",
+      "context": "巴克利童年在欧洲寄宿学校及滑雪地",
+      "importance": "low"
+    },
+    {
+      "name": "墨西哥（Mexico）",
+      "type": "place",
+      "context": "巴克利毕业后为中情局秘密工作地",
+      "importance": "low"
+    },
+    {
+      "name": "秘鲁（Peru）",
+      "type": "place",
+      "context": "巴克利在中情局帮忙编辑回忆录的秘鲁前共产党员的祖国",
+      "importance": "low"
+    },
+    {
+      "name": "越南（Vietnam）",
+      "type": "place",
+      "context": "沃伦大法官决定烧国旗自由的背景（越战）",
+      "importance": "low"
+    },
+    {
+      "name": "东欧（Eastern Europe）",
+      "type": "place",
+      "context": "二战后苏联扩张的地区",
+      "importance": "low"
+    },
+    {
+      "name": "东亚（East Asia）",
+      "type": "place",
+      "context": "中国大陆革命成功改变冷战争霸格局的地区",
+      "importance": "low"
+    },
+    {
+      "name": "共和党（Republican Party/GOP）",
+      "type": "organization",
+      "context": "新保守主义运动逐渐掌控并改造的政治党派，从建制派到被特朗普民粹接管",
+      "importance": "high"
+    },
+    {
+      "name": "民主党（Democratic Party）",
+      "type": "organization",
+      "context": "代表左派/自由主义，与新保守主义对立",
+      "importance": "medium"
+    },
+    {
+      "name": "中情局（CIA）",
+      "type": "organization",
+      "context": "巴克利毕业后秘密工作一年的机构，威廉·凯西曾任局长",
+      "importance": "medium"
+    },
+    {
+      "name": "美国陆军（U.S. Army）",
+      "type": "organization",
+      "context": "1954年麦卡锡指控的对象，导致其声誉破产",
+      "importance": "medium"
+    },
+    {
+      "name": "美国新闻署（U.S. Information Agency）",
+      "type": "organization",
+      "context": "尼克松时期巴克利加入董事会的机构",
+      "importance": "low"
+    },
+    {
+      "name": "约翰·伯奇协会（John Birch Society）",
+      "type": "organization",
+      "context": "极端右翼组织，其领导人罗伯特·韦尔奇被巴克利公开驱逐出新保守主义运动",
+      "importance": "medium"
+    },
+    {
+      "name": "骷髅会（Skull and Bones）",
+      "type": "organization",
+      "context": "耶鲁精英秘密社团，巴克利曾被选入",
+      "importance": "low"
+    },
+    {
+      "name": "纽约时报（The New York Times）",
+      "type": "organization",
+      "context": "被用来对比巴克利开放态度的现代媒体例子，因刊登汤姆·科顿文章引发记者抗议",
+      "importance": "low"
+    },
+    {
+      "name": "耶鲁日报（Yale Daily News）",
+      "type": "organization",
+      "context": "巴克利曾任主编，利用该报抨击耶鲁教授和进步主义教育",
+      "importance": "medium"
+    },
+    {
+      "name": "宪章派（Chartists）",
+      "type": "organization",
+      "context": "英国激进改革团体，在美国被视为保守派因为美国已拥有他们争取的权利",
+      "importance": "low"
+    },
+    {
+      "name": "羽管键琴（Harpsichord）",
+      "type": "other",
+      "context": "巴克利作为贵族子弟的兴趣爱好之一",
+      "importance": "low"
+    },
+    {
+      "name": "英语语言（English language）",
+      "type": "other",
+      "context": "里根引用巴克利关于'我来自政府我是来帮忙的'是最可怕的九个词",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68bf1bd5d644af9423203b22",
+  "title": "251-谁开启了美国新保守主义运动？"
+}

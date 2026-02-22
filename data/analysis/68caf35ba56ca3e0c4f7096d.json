@@ -1,0 +1,392 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件引入（2025年9月9日以色列对卡塔尔首都多哈的空袭）",
+    "structure": "问题→历史→分析→现实（先提出美国是否知情的问题，再分析以色列动机，接着深入卡塔尔历史与意识形态，最后讨论对土耳其、埃及等国的地缘政治影响）",
+    "tone": "理性客观但带有个人立场，严肃深沉，知识密集，学术化但易懂",
+    "catchphrases": [
+      "唱红脸和白脸",
+      "山高皇帝远",
+      "鸟不拉屎的小国家",
+      "走狗",
+      "睡在一个被窝里",
+      "战狼",
+      "穷人乍富",
+      "老大哥",
+      "大腿是不是抱不住了",
+      "毁灭以色列的伊斯兰圣战"
+    ],
+    "closing_pattern": "总结观点（总结以色列袭击卡塔尔如何改变中东地缘秩序，强调这不仅是战术行动，而是标志着中东秩序正在被重新塑造）",
+    "narrative_techniques": [
+      "类比",
+      "反问",
+      "举例",
+      "对比",
+      "历史追溯"
+    ]
+  },
+  "entities": [
+    {
+      "name": "哈利勒·海亚",
+      "type": "person",
+      "context": "哈马斯高级人物，首席谈判代表，在以色列空袭多哈时是主要目标之一，因外出祷告而幸免",
+      "importance": "high"
+    },
+    {
+      "name": "唐纳德·特朗普",
+      "type": "person",
+      "context": "美国总统，被分析是否事先知道以色列袭击卡塔尔，以及他在以伊战争中的调停角色",
+      "importance": "high"
+    },
+    {
+      "name": "本雅明·内塔尼亚胡",
+      "type": "person",
+      "context": "以色列总理，下令发动对卡塔尔的空袭，被左翼以色列人厌恶",
+      "importance": "high"
+    },
+    {
+      "name": "哈马德·本·哈利法·阿勒萨尼",
+      "type": "person",
+      "context": "卡塔尔前国王，1995年通过政变推翻父亲上台，深受穆斯林兄弟会影响，塑造了卡塔尔的激进伊斯兰主义意识形态",
+      "importance": "high"
+    },
+    {
+      "name": "马可·卢比奥",
+      "type": "person",
+      "context": "美国国务卿，曾宣布以色列对伊朗采取单边行动",
+      "importance": "medium"
+    },
+    {
+      "name": "穆罕默德·穆尔西",
+      "type": "person",
+      "context": "埃及前总统，穆斯林兄弟会成员，2013年被塞西领导的军队推翻",
+      "importance": "medium"
+    },
+    {
+      "name": "阿卜杜勒-法塔赫·塞西",
+      "type": "person",
+      "context": "埃及现任总统，领导军队推翻穆尔西政府，反对穆斯林兄弟会",
+      "importance": "high"
+    },
+    {
+      "name": "雷杰普·塔伊普·埃尔多安",
+      "type": "person",
+      "context": "土耳其总统，所在政党与穆斯林兄弟会紧密连结",
+      "importance": "medium"
+    },
+    {
+      "name": "优素福·盖尔达维",
+      "type": "person",
+      "context": "穆斯林兄弟会神学家，曾在半岛电视台开设节目《伊斯兰法和生活》",
+      "importance": "medium"
+    },
+    {
+      "name": "以色列国防军",
+      "type": "organization",
+      "context": "发动对卡塔尔多哈空袭的军队",
+      "importance": "high"
+    },
+    {
+      "name": "辛贝特",
+      "type": "organization",
+      "context": "以色列安全局，评估空袭未成功暗杀哈马斯领导人",
+      "importance": "medium"
+    },
+    {
+      "name": "哈马斯",
+      "type": "organization",
+      "context": "巴勒斯坦伊斯兰抵抗运动，目标是在加沙和卡塔尔活动的该组织领导层，穆斯林兄弟会的加沙分支",
+      "importance": "high"
+    },
+    {
+      "name": "穆斯林兄弟会",
+      "type": "organization",
+      "context": "1928年始于埃及的伊斯兰主义组织，深刻影响卡塔尔和哈马斯",
+      "importance": "high"
+    },
+    {
+      "name": "半岛电视台",
+      "type": "organization",
+      "context": "卡塔尔创建的媒体，给激进伊斯兰主义者发声平台，在阿拉伯之春中发挥重要作用",
+      "importance": "high"
+    },
+    {
+      "name": "北约",
+      "type": "organization",
+      "context": "土耳其是其成员国，但土耳其与美国关系复杂",
+      "importance": "medium"
+    },
+    {
+      "name": "欧盟",
+      "type": "organization",
+      "context": "土耳其试图加入的联盟",
+      "importance": "low"
+    },
+    {
+      "name": "真主党",
+      "type": "organization",
+      "context": "黎巴嫩什叶派伊斯兰政治和军事组织，被提及作为哈马斯可能效仿的模式",
+      "importance": "medium"
+    },
+    {
+      "name": "法塔赫",
+      "type": "organization",
+      "context": "巴勒斯坦民族解放运动，代表巴勒斯坦精英，被哈马斯反对",
+      "importance": "medium"
+    },
+    {
+      "name": "BDS运动",
+      "type": "organization",
+      "context": "抵制、撤资、制裁以色列的运动，创始人在耶路撒冷被提及",
+      "importance": "low"
+    },
+    {
+      "name": "阿勒萨尼家族",
+      "type": "organization",
+      "context": "卡塔尔的统治家族",
+      "importance": "high"
+    },
+    {
+      "name": "协商委员会",
+      "type": "organization",
+      "context": "哈马斯在多哈的机构，被以色列空袭",
+      "importance": "medium"
+    },
+    {
+      "name": "激进伊斯兰主义",
+      "type": "concept",
+      "context": "与保守穆斯林对立，卡塔尔和哈马斯所属的意识形态阵营",
+      "importance": "high"
+    },
+    {
+      "name": "保守穆斯林",
+      "type": "concept",
+      "context": "以沙特为代表的另一阵营，与激进伊斯兰主义者对立",
+      "importance": "high"
+    },
+    {
+      "name": "两国方案",
+      "type": "concept",
+      "context": "巴以和平方案，被认为行不通",
+      "importance": "medium"
+    },
+    {
+      "name": "逊尼派",
+      "type": "concept",
+      "context": "伊斯兰教主要派别，涉及沙特、卡塔尔、土耳其等国",
+      "importance": "high"
+    },
+    {
+      "name": "阿拉伯之春",
+      "type": "event",
+      "context": "2011年革命浪潮，半岛电视台在其中发挥宣传作用",
+      "importance": "high"
+    },
+    {
+      "name": "2023年10月7日袭击",
+      "type": "event",
+      "context": "哈马斯对以色列南部的袭击",
+      "importance": "high"
+    },
+    {
+      "name": "1995年卡塔尔政变",
+      "type": "event",
+      "context": "哈马德推翻父亲上台，改变卡塔尔意识形态",
+      "importance": "high"
+    },
+    {
+      "name": "2013年埃及政变",
+      "type": "event",
+      "context": "塞西推翻穆尔西，打击穆斯林兄弟会",
+      "importance": "high"
+    },
+    {
+      "name": "2025年6月13日以色列打击伊朗",
+      "type": "event",
+      "context": "以伊战争，与卡塔尔袭击对比",
+      "importance": "high"
+    },
+    {
+      "name": "2025年9月8日耶路撒冷恐怖袭击",
+      "type": "event",
+      "context": "触发以色列袭击卡塔尔的直接原因",
+      "importance": "high"
+    },
+    {
+      "name": "1987年巴勒斯坦大起义",
+      "type": "event",
+      "context": "哈马斯成立的历史背景",
+      "importance": "medium"
+    },
+    {
+      "name": "2017-2021年卡塔尔外交危机",
+      "type": "event",
+      "context": "沙特等国封锁卡塔尔",
+      "importance": "medium"
+    },
+    {
+      "name": "卡塔尔",
+      "type": "place",
+      "context": "遭以色列空袭的国家，哈马斯领导人居住地",
+      "importance": "high"
+    },
+    {
+      "name": "多哈",
+      "type": "place",
+      "context": "卡塔尔首都，遭空袭地点",
+      "importance": "high"
+    },
+    {
+      "name": "以色列",
+      "type": "place",
+      "context": "发动空袭的国家",
+      "importance": "high"
+    },
+    {
+      "name": "加沙",
+      "type": "place",
+      "context": "哈马斯活动的主要地区",
+      "importance": "high"
+    },
+    {
+      "name": "巴勒斯坦",
+      "type": "place",
+      "context": "涉及巴以冲突的地区",
+      "importance": "high"
+    },
+    {
+      "name": "沙特阿拉伯",
+      "type": "place",
+      "context": "保守派穆斯林代表，曾与卡塔尔断交",
+      "importance": "high"
+    },
+    {
+      "name": "土耳其",
+      "type": "place",
+      "context": "与穆斯林兄弟会关系紧密的国家，可能成为哈马斯新庇护所",
+      "importance": "high"
+    },
+    {
+      "name": "埃及",
+      "type": "place",
+      "context": "可能成为新的调解者，反对穆斯林兄弟会",
+      "importance": "high"
+    },
+    {
+      "name": "伊朗",
+      "type": "place",
+      "context": "与卡塔尔、哈马斯关系密切，曾被以色列袭击",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "在卡塔尔有军事基地，被质疑是否事先知情袭击",
+      "importance": "high"
+    },
+    {
+      "name": "叙利亚",
+      "type": "place",
+      "context": "以色列战机可能飞越其领空",
+      "importance": "low"
+    },
+    {
+      "name": "伊拉克",
+      "type": "place",
+      "context": "以色列战机可能飞越其领空",
+      "importance": "low"
+    },
+    {
+      "name": "科威特",
+      "type": "place",
+      "context": "以色列战机可能飞越其领空，曾参与封锁卡塔尔",
+      "importance": "medium"
+    },
+    {
+      "name": "巴林",
+      "type": "place",
+      "context": "美国第五舰队总部所在地，逊尼派国家",
+      "importance": "medium"
+    },
+    {
+      "name": "黎巴嫩",
+      "type": "place",
+      "context": "真主党所在国家，被作为哈马斯可能效仿的模式",
+      "importance": "medium"
+    },
+    {
+      "name": "约旦",
+      "type": "place",
+      "context": "保守派国家，谴责以色列袭击",
+      "importance": "medium"
+    },
+    {
+      "name": "摩洛哥",
+      "type": "place",
+      "context": "保守派国家",
+      "importance": "low"
+    },
+    {
+      "name": "突尼斯",
+      "type": "place",
+      "context": "阿拉伯之春涉及国家",
+      "importance": "low"
+    },
+    {
+      "name": "哈萨克斯坦",
+      "type": "place",
+      "context": "接受卡塔尔投资，谴责以色列袭击",
+      "importance": "low"
+    },
+    {
+      "name": "耶路撒冷",
+      "type": "place",
+      "context": "以色列城市，发生恐怖袭击的地点",
+      "importance": "high"
+    },
+    {
+      "name": "拉马拉",
+      "type": "place",
+      "context": "巴勒斯坦城市，作者曾居住",
+      "importance": "medium"
+    },
+    {
+      "name": "西岸",
+      "type": "place",
+      "context": "巴勒斯坦地区",
+      "importance": "medium"
+    },
+    {
+      "name": "欧洲",
+      "type": "place",
+      "context": "土耳其试图加入的地区",
+      "importance": "low"
+    },
+    {
+      "name": "北非",
+      "type": "place",
+      "context": "作者做过研究的地区",
+      "importance": "low"
+    },
+    {
+      "name": "中东",
+      "type": "place",
+      "context": "讨论的核心地区",
+      "importance": "high"
+    },
+    {
+      "name": "石油湾",
+      "type": "place",
+      "context": "卡塔尔所在地区，逊尼派国家聚集区",
+      "importance": "high"
+    },
+    {
+      "name": "奥斯曼帝国",
+      "type": "place",
+      "context": "历史上统治卡塔尔的帝国",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68caf35ba56ca3e0c4f7096d",
+  "title": "254-以色列袭击卡塔尔如何改变中东地缘秩序？"
+}

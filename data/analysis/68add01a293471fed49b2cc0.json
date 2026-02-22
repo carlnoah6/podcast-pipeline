@@ -1,0 +1,318 @@
+{
+  "style": {
+    "opening_pattern": "以缺席两个月后回归的个人经历解释开场，说明断更原因（回国、海关审查顾虑），随后引入主题",
+    "structure": "现象提出→历史背景对比→左翼案例分析（马姆达尼）→右翼概念解析（觉醒右翼）→深层原因分析（社交媒体、注意力经济、代际焦虑）→总结对称极端现象",
+    "tone": "理性分析中带有口语化自嘲，学术观察与个人体感交织，保持知识分子的批判距离但不讳主观判断",
+    "catchphrases": [
+      "对吧",
+      "也就是说",
+      "换句话说",
+      "说白了",
+      "妈呀",
+      "OK",
+      "一整个",
+      "咋"
+    ],
+    "closing_pattern": "总结左右翼相互模仿的对称极端现象，并延伸至中美年轻一代的共性焦虑，以预告下期结束",
+    "narrative_techniques": [
+      "类比（特朗普与马姆达尼的手法对比）",
+      "具体案例深描（马姆达尼选举）",
+      "引用论证（Rod Dreher文章）",
+      "对称结构（左右翼觉醒/民粹的镜像分析）",
+      "代际叙事（00后成长史）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Zohran Mamdani（佐赫兰·马姆达尼）",
+      "type": "person",
+      "context": "自称社会主义者的纽约市长候选人，以冻结房租、免费公交等极左政策击败科莫，被主播视为左翼民粹的代表人物",
+      "importance": "high"
+    },
+    {
+      "name": "Andrew Cuomo（安德鲁·科莫）",
+      "type": "person",
+      "context": "前纽约州州长，在2025年民主党初选中败给马姆达尼，代表传统建制派",
+      "importance": "medium"
+    },
+    {
+      "name": "Donald Trump（唐纳德·特朗普）",
+      "type": "person",
+      "context": "被多次对比，主播认为马姆达尼在民粹手法、社交媒体运用上与特朗普相似，是'左翼版特朗普'",
+      "importance": "high"
+    },
+    {
+      "name": "Bernie Sanders（伯尼·桑德斯）",
+      "type": "person",
+      "context": "佛蒙特州参议员，与AOC、马姆达尼并列，代表民主党激进派，被主播指出其执政的佛蒙特州并非工人阶级州",
+      "importance": "medium"
+    },
+    {
+      "name": "AOC（Alexandria Ocasio-Cortez）",
+      "type": "person",
+      "context": "民主党激进派众议员，与桑德斯、马姆达尼同属左翼民粹阵营",
+      "importance": "medium"
+    },
+    {
+      "name": "Rod Dreher",
+      "type": "person",
+      "context": "《美国保守派》特约编辑，发表《激进右翼正在带坏你们的儿子》一文，主播引用其观点说明年轻男性被右翼身份政治吸引",
+      "importance": "medium"
+    },
+    {
+      "name": "Thomas Achord",
+      "type": "person",
+      "context": "路易斯安那州古典基督教学校校长，被Dreher文章提及，表面体面实则长期发表极端种族主义言论，象征右翼觉醒的隐蔽性",
+      "importance": "low"
+    },
+    {
+      "name": "Andrew Tate",
+      "type": "person",
+      "context": "男权影响者，被提及作为年轻男孩从反政治正确滑向厌女论调的典型",
+      "importance": "low"
+    },
+    {
+      "name": "Hannah Arendt（汉娜·阿伦特）",
+      "type": "person",
+      "context": "哲学家，被引用其关于极权主义起源的警告，说明成年人袖手旁观年轻人摧毁文明支柱的危险",
+      "importance": "low"
+    },
+    {
+      "name": "Alasdair MacIntyre",
+      "type": "person",
+      "context": "道德哲学家，其著作《追寻美德》被引用，说明失去共同道德基础后政治争论退化为情绪",
+      "importance": "low"
+    },
+    {
+      "name": "Jackie Robinson",
+      "type": "person",
+      "context": "黑人棒球选手，国防部删除其服兵役描述因被认为DEI色彩太浓，作为右翼觉醒与左翼觉醒对称行为的例子",
+      "importance": "low"
+    },
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "古希腊哲学家，主播提及自己为其《道德论》做新书分享会，作为开场个人经历的一部分",
+      "importance": "low"
+    },
+    {
+      "name": "Mahmood Mamdani（马姆达尼父亲）",
+      "type": "person",
+      "context": "乌干达印度学者，马姆达尼的父亲，提及以说明马姆达尼的全球化精英家庭背景",
+      "importance": "low"
+    },
+    {
+      "name": "Mira Nair（米拉·奈尔）",
+      "type": "person",
+      "context": "电影导演，马姆达尼的母亲，同样用以说明其精英家庭背景",
+      "importance": "low"
+    },
+    {
+      "name": "民粹主义（Populism）",
+      "type": "concept",
+      "context": "核心概念，主播强调其字面含义是'以人民为中心'，用于描述左翼（马姆达尼）和右翼（特朗普）共同的政治手法",
+      "importance": "high"
+    },
+    {
+      "name": "觉醒主义（Woke/Wokeism）",
+      "type": "concept",
+      "context": "核心概念，原指左翼对压迫性制度的觉醒，主播提出'觉醒右翼'（Woke Right）概念，指右翼对政治正确压迫的觉醒",
+      "importance": "high"
+    },
+    {
+      "name": "社会主义（Socialism）",
+      "type": "concept",
+      "context": "马姆达尼自称社会主义者，主播区分了经典社会主义与美国左翼提出的社会民主主义式福利政策",
+      "importance": "high"
+    },
+    {
+      "name": "身份政治（Identity Politics）",
+      "type": "concept",
+      "context": "主播指出左翼以种族性别性取向为身份，右翼则创造出白人基督徒男性为受压迫群体的对称身份政治",
+      "importance": "high"
+    },
+    {
+      "name": "注意力经济（Attention Economy）",
+      "type": "concept",
+      "context": "主播用以解释特朗普和马姆达尼成功的共同机制，社交媒体算法偏好极端内容，推动民粹主义传播",
+      "importance": "medium"
+    },
+    {
+      "name": "香槟社会主义者（Champagne Socialists）",
+      "type": "concept",
+      "context": "指支持马姆达尼的年轻高学历富裕群体，非真正工人阶级，被主播用来分析左翼民粹的支持者构成",
+      "importance": "medium"
+    },
+    {
+      "name": "红丸（Red Pill）",
+      "type": "concept",
+      "context": "男权主义术语，Dreher文章提及学校老师向男生灌输此概念，象征右翼觉醒的激进化",
+      "importance": "low"
+    },
+    {
+      "name": "白人民族主义（White Nationalism）",
+      "type": "concept",
+      "context": "被主播列为觉醒右翼重新引入公共话语的极端边缘思想之一",
+      "importance": "medium"
+    },
+    {
+      "name": "大屠杀修正论（Holocaust Revisionism）",
+      "type": "concept",
+      "context": "同样被主播列为觉醒右翼挑衅性姿态的极端议题",
+      "importance": "low"
+    },
+    {
+      "name": "DEI（多元、平等、包容）",
+      "type": "concept",
+      "context": "主播提及国防部删除Jackie Robinson描述因其DEI色彩太浓，作为右翼反觉醒的例证",
+      "importance": "low"
+    },
+    {
+      "name": "2025年6月24日纽约市长民主党初选",
+      "type": "event",
+      "context": "标志性事件，马姆达尼击败科莫，被主播作为左翼走向民粹的关键案例",
+      "importance": "high"
+    },
+    {
+      "name": "911事件",
+      "type": "event",
+      "context": "主播列举的塑造00后消极世界观的重大事件之一",
+      "importance": "medium"
+    },
+    {
+      "name": "伊拉克战争",
+      "type": "event",
+      "context": "同上，塑造年轻一代悲观情绪的连环危机之一",
+      "importance": "medium"
+    },
+    {
+      "name": "2008年金融危机",
+      "type": "event",
+      "context": "同上，主播用以解释年轻人对现有体系不信任的历史背景",
+      "importance": "medium"
+    },
+    {
+      "name": "新冠疫情",
+      "type": "event",
+      "context": "同上，最新一轮塑造Z世代消极社会氛围的危机",
+      "importance": "medium"
+    },
+    {
+      "name": "2024年美国大选",
+      "type": "event",
+      "context": "主播提及的右翼民粹成为主流的时间节点",
+      "importance": "medium"
+    },
+    {
+      "name": "纽约市",
+      "type": "place",
+      "context": "马姆达尼竞选市长所在地，左翼民粹现象的地理中心",
+      "importance": "high"
+    },
+    {
+      "name": "佛蒙特州",
+      "type": "place",
+      "context": "桑德斯执政多年的州，被主播用来分析社会主义者在富裕白左州的执政现实",
+      "importance": "medium"
+    },
+    {
+      "name": "柏林",
+      "type": "place",
+      "context": "主播提及冻结房租政策导致租房环境恶劣的实证案例",
+      "importance": "low"
+    },
+    {
+      "name": "布朗克斯",
+      "type": "place",
+      "context": "马姆达尼就读的科学高中所在地",
+      "importance": "low"
+    },
+    {
+      "name": "康涅狄格州（康州）",
+      "type": "place",
+      "context": "主播提及的深蓝富裕州，私立高中校长透露三分之一男生看红丸内容",
+      "importance": "low"
+    },
+    {
+      "name": "马萨诸塞州（麻省）",
+      "type": "place",
+      "context": "同上，与康州并列的深蓝富裕州",
+      "importance": "low"
+    },
+    {
+      "name": "墨西哥湾/美国湾",
+      "type": "place",
+      "context": "主播用左右翼对称改名事件说明觉醒右翼模仿左翼策略",
+      "importance": "low"
+    },
+    {
+      "name": "卡托研究所（Cato Institute）",
+      "type": "organization",
+      "context": "其民调显示62%美国年轻人对社会主义持正面态度",
+      "importance": "medium"
+    },
+    {
+      "name": "艾默生调查（Emerson Survey）",
+      "type": "organization",
+      "context": "其调查显示马姆达尼在45岁以下人群中支持率远高于科莫",
+      "importance": "medium"
+    },
+    {
+      "name": "史密森学会（Smithsonian Institution）",
+      "type": "organization",
+      "context": "白宫审查其展览以确保符合美国理想，主播用以对比左翼DEI政策",
+      "importance": "low"
+    },
+    {
+      "name": "国防部",
+      "type": "organization",
+      "context": "删除Jackie Robinson服兵役描述因被认为DEI色彩太浓",
+      "importance": "low"
+    },
+    {
+      "name": "美联社（AP）",
+      "type": "organization",
+      "context": "因拒绝使用美国湾称谓而被特朗普政府禁止进入白宫新闻发布室",
+      "importance": "low"
+    },
+    {
+      "name": "TikTok/抖音",
+      "type": "organization",
+      "context": "马姆达尼竞选的主要阵地，象征注意力经济下的新型民粹传播",
+      "importance": "medium"
+    },
+    {
+      "name": "《美国保守派》（The American Conservative）",
+      "type": "work",
+      "context": "Rod Dreher发表关于右翼觉醒文章的平台",
+      "importance": "low"
+    },
+    {
+      "name": "《道德论》",
+      "type": "work",
+      "context": "普鲁塔克著作，主播提及自己为其做新书分享会",
+      "importance": "low"
+    },
+    {
+      "name": "After Virtue《追寻美德》",
+      "type": "work",
+      "context": "Alasdair MacIntyre著作，被引用来解释政治争论退化为情绪的现象",
+      "importance": "low"
+    },
+    {
+      "name": "鲍登学院（Bowdoin College）",
+      "type": "organization",
+      "context": "马姆达尼就读的文理学院",
+      "importance": "low"
+    },
+    {
+      "name": "布朗克斯科学高中",
+      "type": "organization",
+      "context": "马姆达尼就读的精英高中",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68add01a293471fed49b2cc0",
+  "title": "245-美国左翼咋开始走向民粹、右翼走向觉醒？"
+}
