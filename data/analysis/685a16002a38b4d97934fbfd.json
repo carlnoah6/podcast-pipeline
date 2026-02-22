@@ -1,0 +1,442 @@
+{
+  "style": {
+    "opening_pattern": "以新书出版预告和系列播客回顾引入，建立与听众的长期关系",
+    "structure": "个人翻译工作分享→语言与翻译理论探讨→普鲁塔克接受史（古典时代→中世纪→文艺复兴→启蒙运动）→三位核心人物（蒙田、莎士比亚、卢梭）的分层论述→结尾升华",
+    "tone": "轻松幽默、自信坦诚、知识密集但口语化，带有强烈的个人色彩和学术热情",
+    "catchphrases": [
+      "我算个屁",
+      "你猜怎么着",
+      "对吧",
+      "OK",
+      "我在这里想要说一点",
+      "唠唠叨叨",
+      "抄袭我自己",
+      "古罗马老头",
+      "死忠粉",
+      "癫狂"
+    ],
+    "closing_pattern": "开放式邀请——将普鲁塔克作为打开其他思想家的钥匙，强调跨越时空的共同阅读体验",
+    "narrative_techniques": [
+      "类比（翻译如传声）",
+      "反问",
+      "举例（大量历史细节）",
+      "对比（译本vs原著、古典vs现代）",
+      "自我调侃",
+      "引用原文",
+      "数字列举（763处、83次等）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "普鲁塔克（Plutarch）",
+      "type": "person",
+      "context": "本集核心人物，公元1世纪希腊哲学家、传记作家，其《道德论丛》和《希腊罗马名人传》影响了后世1900年",
+      "importance": "high"
+    },
+    {
+      "name": "蒙田（Michel de Montaigne）",
+      "type": "person",
+      "context": "16世纪法国散文家，随笔文体开创者，称普鲁塔克为'我们的经书'，作品中借用普鲁塔克多达763处",
+      "importance": "high"
+    },
+    {
+      "name": "莎士比亚（William Shakespeare）",
+      "type": "person",
+      "context": "英国剧作家，其罗马剧（《尤利乌斯·凯撒》《安东尼与克莉奥佩特拉》《科里奥兰纳斯》）素材几乎全部来自普鲁塔克《名人传》",
+      "importance": "high"
+    },
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "18世纪瑞士-法国哲学家，7岁起痴迷普鲁塔克，称其为'最钟爱的作家'，《爱弥儿》的教育观深受普鲁塔克影响",
+      "importance": "high"
+    },
+    {
+      "name": "阿米欧（Jacques Amyot）",
+      "type": "person",
+      "context": "16世纪法国翻译家，1572年从古希腊语直译《道德论丛》为法语，确立法语文学语言地位，成为蒙田、莎士比亚阅读的母本",
+      "importance": "high"
+    },
+    {
+      "name": "Thomas North",
+      "type": "person",
+      "context": "1579年将阿米欧的法译本转译为英文，成为莎士比亚罗马剧的素材来源",
+      "importance": "medium"
+    },
+    {
+      "name": "Manuel Chrysoloras",
+      "type": "person",
+      "context": "拜占庭外交官，1397-1400年在佛罗伦萨教授古希腊语，推动普鲁塔克从希腊语译入拉丁语",
+      "importance": "medium"
+    },
+    {
+      "name": "Robert Bartlett",
+      "type": "person",
+      "context": "播主在波士顿学院的亚里士多德老师，芝加哥大学出版社权威亚里士多德伦理学英译者，课上仍不断修订自己的译本",
+      "importance": "medium"
+    },
+    {
+      "name": "汉娜·阿伦特（Hannah Arendt）",
+      "type": "person",
+      "context": "20世纪政治哲学家，被引用来论证诗人决定语言词汇重量的观点",
+      "importance": "low"
+    },
+    {
+      "name": "尼采（Friedrich Nietzsche）",
+      "type": "person",
+      "context": "被提及为普鲁塔克的另一位重要粉丝，但不如卢梭'癫狂'",
+      "importance": "low"
+    },
+    {
+      "name": "孟德斯鸠（Montesquieu）",
+      "type": "person",
+      "context": "启蒙时代罕见推崇普鲁塔克的例外",
+      "importance": "low"
+    },
+    {
+      "name": "皮埃尔·贝尔（Pierre Bayle）",
+      "type": "person",
+      "context": "启蒙时代另一位推崇普鲁塔克的例外",
+      "importance": "low"
+    },
+    {
+      "name": "拉辛（Racine）",
+      "type": "person",
+      "context": "法国文坛巨匠，阅读过阿米欧译本",
+      "importance": "low"
+    },
+    {
+      "name": "费奈隆（Fénelon）",
+      "type": "person",
+      "context": "法国文坛巨匠，阅读过阿米欧译本",
+      "importance": "low"
+    },
+    {
+      "name": "拉布里耶尔（La Bruyère）",
+      "type": "person",
+      "context": "法国文坛巨匠，阅读过阿米欧译本",
+      "importance": "low"
+    },
+    {
+      "name": "笛卡尔（Descartes）",
+      "type": "person",
+      "context": "被用来说明17世纪拉丁语与俗语（法语）的写作分野",
+      "importance": "low"
+    },
+    {
+      "name": "斯宾诺莎（Spinoza）",
+      "type": "person",
+      "context": "其1670年《神学政治论》被称为最后一部拉丁语哲学鸿篇巨著",
+      "importance": "low"
+    },
+    {
+      "name": "荷马（Homer）",
+      "type": "person",
+      "context": "普鲁塔克原文中常引用的古希腊诗人",
+      "importance": "low"
+    },
+    {
+      "name": "李维（Livy）",
+      "type": "person",
+      "context": "古罗马历史学家，被蒙田对比提及",
+      "importance": "low"
+    },
+    {
+      "name": "塞涅卡（Seneca）",
+      "type": "person",
+      "context": "与普鲁塔克并列，蒙田曾写《为塞涅卡与普鲁塔克辩护》",
+      "importance": "low"
+    },
+    {
+      "name": "凯撒（Julius Caesar）",
+      "type": "person",
+      "context": "普鲁塔克《名人传》人物，莎士比亚《尤利乌斯·凯撒》主角",
+      "importance": "medium"
+    },
+    {
+      "name": "布鲁图斯（Brutus）",
+      "type": "person",
+      "context": "刺杀凯撒的共和派，普鲁塔克和莎士比亚都描绘其与凯撒的复杂情感",
+      "importance": "medium"
+    },
+    {
+      "name": "安东尼（Mark Antony）",
+      "type": "person",
+      "context": "普鲁塔克《安东尼传》主角，莎士比亚《安东尼与克莉奥佩特拉》主角",
+      "importance": "medium"
+    },
+    {
+      "name": "克莉奥佩特拉（Cleopatra）",
+      "type": "person",
+      "context": "埃及艳后，与安东尼的故事被普鲁塔克记载、莎士比亚戏剧化",
+      "importance": "medium"
+    },
+    {
+      "name": "科里奥兰纳斯（Coriolanus）",
+      "type": "person",
+      "context": "罗马英雄，普鲁塔克和莎士比亚都以他为主题",
+      "importance": "medium"
+    },
+    {
+      "name": "鲁滨逊（Robinson Crusoe）",
+      "type": "person",
+      "context": "卢梭《爱弥儿》中让儿童模仿的具体人物典范",
+      "importance": "low"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "播主的'敌人'，被调侃要在书评中挑刺",
+      "importance": "low"
+    },
+    {
+      "name": "《道德论丛》（Moralia）",
+      "type": "work",
+      "context": "播主翻译的普鲁塔克散文集，包含《如何从敌人身上获益》等篇目，是本书核心内容",
+      "importance": "high"
+    },
+    {
+      "name": "《希腊罗马名人传》（Parallel Lives）",
+      "type": "work",
+      "context": "普鲁塔克的传记作品，莎士比亚罗马剧的主要素材来源",
+      "importance": "high"
+    },
+    {
+      "name": "《随笔集》（Essais）",
+      "type": "work",
+      "context": "蒙田的代表作，开创随笔文体，深受普鲁塔克影响",
+      "importance": "high"
+    },
+    {
+      "name": "《尤利乌斯·凯撒》（Julius Caesar）",
+      "type": "work",
+      "context": "莎士比亚罗马剧，基于普鲁塔克《凯撒传》《布鲁图斯传》",
+      "importance": "high"
+    },
+    {
+      "name": "《安东尼与克莉奥佩特拉》（Antony and Cleopatra）",
+      "type": "work",
+      "context": "莎士比亚罗马剧，基本完全以普鲁塔克《安东尼传》为基础",
+      "importance": "high"
+    },
+    {
+      "name": "《科里奥兰纳斯》（Coriolanus）",
+      "type": "work",
+      "context": "莎士比亚罗马剧，细致利用普鲁塔克《科里奥兰纳斯传》",
+      "importance": "high"
+    },
+    {
+      "name": "《忏悔录》（Confessions）",
+      "type": "work",
+      "context": "卢梭自传，记载7岁起阅读普鲁塔克的经历",
+      "importance": "medium"
+    },
+    {
+      "name": "《爱弥儿》（Émile）",
+      "type": "work",
+      "context": "卢梭教育哲学著作，其核心观点——通过典范进行道德教育——源自普鲁塔克",
+      "importance": "high"
+    },
+    {
+      "name": "《新爱洛依丝》（Julie, ou la nouvelle Héloïse）",
+      "type": "work",
+      "context": "卢梭言情小说，18世纪全欧洲最畅销小说，表达通过典范理解道德的观点",
+      "importance": "medium"
+    },
+    {
+      "name": "《孤独漫步者的遐想》（Les Rêveries du promeneur solitaire）",
+      "type": "work",
+      "context": "卢梭晚年作品，第四次漫步开头引用普鲁塔克《如何从敌人身上获益》",
+      "importance": "high"
+    },
+    {
+      "name": "《鲁滨逊漂流记》（Robinson Crusoe）",
+      "type": "work",
+      "context": "卢梭《爱弥儿》中指定的第一本儿童读物，作为模仿的典范",
+      "importance": "low"
+    },
+    {
+      "name": "《第一哲学沉思》（Meditationes de Prima Philosophia）",
+      "type": "work",
+      "context": "笛卡尔用拉丁语写的严肃哲学著作",
+      "importance": "low"
+    },
+    {
+      "name": "《方法论》（Discours de la méthode）",
+      "type": "work",
+      "context": "笛卡尔用法语写的'给普通老百姓看'的著作",
+      "importance": "low"
+    },
+    {
+      "name": "《神学政治论》（Tractatus Theologico-Politicus）",
+      "type": "work",
+      "context": "斯宾诺莎1670年著作，被称为最后一部拉丁语哲学鸿篇巨著",
+      "importance": "low"
+    },
+    {
+      "name": "《利维坦》（Leviathan）",
+      "type": "work",
+      "context": "霍布斯用英语写的政治哲学著作，代表俗语写作时代",
+      "importance": "low"
+    },
+    {
+      "name": "《政府二论》（Two Treatises of Government）",
+      "type": "work",
+      "context": "洛克用英语写的政治哲学著作",
+      "importance": "low"
+    },
+    {
+      "name": "《论法的精神》（De l'esprit des lois）",
+      "type": "work",
+      "context": "孟德斯鸠用法语写的政治哲学著作",
+      "importance": "low"
+    },
+    {
+      "name": "King James Bible（钦定版圣经）",
+      "type": "work",
+      "context": "1611年出版，与莎士比亚共同奠定现代英文语法和规范",
+      "importance": "medium"
+    },
+    {
+      "name": "《伯罗奔尼撒战争史》",
+      "type": "work",
+      "context": "修昔底德著作，播主认为翻译口气应与普鲁塔克不同",
+      "importance": "low"
+    },
+    {
+      "name": "《政治学》",
+      "type": "work",
+      "context": "亚里士多德著作，播主认为翻译口气应与普鲁塔克不同",
+      "importance": "low"
+    },
+    {
+      "name": "《为塞涅卡与普鲁塔克辩护》",
+      "type": "work",
+      "context": "蒙田随笔集中的一篇",
+      "importance": "medium"
+    },
+    {
+      "name": "《论儿童教育》",
+      "type": "work",
+      "context": "蒙田随笔集中的一篇，高度评价普鲁塔克的教育思想",
+      "importance": "medium"
+    },
+    {
+      "name": "《论虚空》",
+      "type": "work",
+      "context": "蒙田随笔集中的一篇，评价普鲁塔克的写作手法并承认自己的继承",
+      "importance": "medium"
+    },
+    {
+      "name": "《如何从敌人身上获益》",
+      "type": "work",
+      "context": "普鲁塔克《道德论丛》中的一篇，也是播主译著的书名，被卢梭晚年引用",
+      "importance": "high"
+    },
+    {
+      "name": "古今之争（Querelle des Anciens et des Modernes）",
+      "type": "concept",
+      "context": "17-18世纪法国思想界核心辩论：古代文明是否优于现代理性科学成就",
+      "importance": "medium"
+    },
+    {
+      "name": "随笔/散文（essay）",
+      "type": "concept",
+      "context": "蒙田开创的文体，但播主指出普鲁塔克的《道德论丛》本身就是随笔",
+      "importance": "high"
+    },
+    {
+      "name": "俗语（vernaculars）",
+      "type": "concept",
+      "context": "现代民族语言（法语、英语等），在文艺复兴前不被视为严肃写作语言",
+      "importance": "medium"
+    },
+    {
+      "name": "lingua franca",
+      "type": "concept",
+      "context": "通用语，16世纪前指拉丁语，是天主教会和学术的官方语言",
+      "importance": "medium"
+    },
+    {
+      "name": "世俗化",
+      "type": "concept",
+      "context": "现代的直观展现之一：思考不再依赖神学基础，而使用民族语言",
+      "importance": "medium"
+    },
+    {
+      "name": "道德教育",
+      "type": "concept",
+      "context": "普鲁塔克《道德论丛》和卢梭《爱弥儿》的核心论点：通过典范而非抽象理论达成",
+      "importance": "high"
+    },
+    {
+      "name": "典范/范式",
+      "type": "concept",
+      "context": "卢梭从普鲁塔克继承的教育方法：通过模仿具体历史人物理解善恶",
+      "importance": "high"
+    },
+    {
+      "name": "Gunai Kodes（富人的柔弱）",
+      "type": "concept",
+      "context": "普鲁塔克使用的古希腊词汇，播主用以说明翻译需克制个人偏见",
+      "importance": "low"
+    },
+    {
+      "name": "文艺复兴",
+      "type": "event",
+      "context": "14世纪意大利兴起的人文主义运动，使普鲁塔克在被遗忘500年后重新受到关注",
+      "importance": "medium"
+    },
+    {
+      "name": "Aetas Plutarchiana（普鲁塔克时代）",
+      "type": "event",
+      "context": "15世纪意大利人文主义顶峰时期，普鲁塔克著作被大量翻译和研究",
+      "importance": "medium"
+    },
+    {
+      "name": "美第奇家族",
+      "type": "organization",
+      "context": "资助15世纪中叶普鲁塔克《希腊罗马名人传》希腊语到拉丁语全译本的佛罗伦萨贵族家族",
+      "importance": "medium"
+    },
+    {
+      "name": "米兰图书馆",
+      "type": "place",
+      "context": "收藏中世纪拜占庭学者抄写的普鲁塔克手稿的地方",
+      "importance": "low"
+    },
+    {
+      "name": "巴黎国家图书馆",
+      "type": "place",
+      "context": "收藏中世纪拜占庭学者抄写的普鲁塔克手稿的地方",
+      "importance": "low"
+    },
+    {
+      "name": "美第奇图书馆",
+      "type": "place",
+      "context": "收藏15世纪拉丁语全译本《希腊罗马名人传》的佛罗伦萨图书馆",
+      "importance": "low"
+    },
+    {
+      "name": "佛罗伦萨",
+      "type": "place",
+      "context": "意大利文艺复兴中心，Chrysoloras教授古希腊语之地",
+      "importance": "low"
+    },
+    {
+      "name": "东罗马/拜占庭帝国",
+      "type": "place",
+      "context": "中世纪时保存普鲁塔克传统的地区，与拉丁西方形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "芝加哥大学出版社",
+      "type": "organization",
+      "context": "出版Robert Bartlett权威亚里士多德伦理学英译本的机构",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "685a16002a38b4d97934fbfd",
+  "title": "228-莎士比亚、蒙田、卢梭为啥这么喜欢普鲁塔克?"
+}
