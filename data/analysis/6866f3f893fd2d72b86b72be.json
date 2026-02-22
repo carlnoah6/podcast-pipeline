@@ -1,0 +1,213 @@
+{
+  "style": {
+    "opening_pattern": "以场景切换引入——突然告知听众自己换了录音地点（华盛顿某建筑物的玻璃房），制造即兴感和真实感，随后直接抛出核心议题",
+    "structure": "个人经验分享→核心前提（积极阅读）→三种组织方式→常见错误批判→总结价值→结尾推销",
+    "tone": "口语化、热情直率、略带自嘲的精英主义，时而严厉批判（称某些人为'傻帽'），时而真诚分享，整体是'知识型朋友聊天'的语气",
+    "catchphrases": [
+      "傻帽",
+      "关你屁事/跟你有什么关系",
+      "鸡同鸭讲",
+      "光滑的大脑皮层",
+      "nobody cares",
+      "脸红脖子粗",
+      "流连忘返",
+      "如坐针毡",
+      "我这种货色的人",
+      "最基础的前提"
+    ],
+    "closing_pattern": "三重价值总结+个人愿景（希望听众组织自己的共读小组而非只听播客）+具体回忆（与农民大哥的友谊故事）+开放式告别",
+    "narrative_techniques": [
+      "自我贬低式幽默（批判'我这种货色'）",
+      "对比（动物vs人类感受、学者vs普通人、成功vs失败读书会）",
+      "具体案例（与小表妹读司汤达、榜眼哥的北大卢梭读书会、农民大哥的故事）",
+      "反问（'然后呢？你为什么要来告诉我'）",
+      "重复强调（多次重复'这是一个讨论框架'等关键句）",
+      "类比（将读书会比作狼人杀、打麻将等社交活动）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "主播引用其《伦理学》中关于理想友谊的论述，认为共读建立的友谊接近亚里士多德描绘的基于真善美共同追求的完美友谊",
+      "importance": "high"
+    },
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "作为例子被引用，其观点'敌人比朋友更了解你'被主播用来演示如何在共读中将信息转化为见解",
+      "importance": "medium"
+    },
+    {
+      "name": "阿伦特",
+      "type": "person",
+      "context": "主播用读阿伦特传记的例子对比肤浅读者（只关注与海德格尔的八卦）和深刻读者的不同",
+      "importance": "low"
+    },
+    {
+      "name": "海德格尔",
+      "type": "person",
+      "context": "作为阿伦特传记中的八卦对象被提及",
+      "importance": "low"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "被引用为通过共同读书培养判断力的典范，色诺芬记载其与朋友共读的方式",
+      "importance": "medium"
+    },
+    {
+      "name": "色诺芬",
+      "type": "person",
+      "context": "其《苏格拉底回忆录》被引用，记载苏格拉底与朋友共同读书的消磨时间方式",
+      "importance": "medium"
+    },
+    {
+      "name": "司汤达",
+      "type": "person",
+      "context": "主播用自己读司汤达时引用卢梭的例子，说明平等共读需要参与者有相似的阅读背景",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "主播读司汤达时会随口引用；榜眼哥在北大组织的读书会主题；《社会契约论》被预设为共读者的共同阅读背景",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "作为学术训练者做文献综述时引用的对象，被主播批评为炫耀学识而非分享见解",
+      "importance": "low"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "主播提到自己讲过的'康德式晚宴'，有听众据此在家中实践，这是主播最开心的反馈",
+      "importance": "medium"
+    },
+    {
+      "name": "拉斯柯尔尼科夫",
+      "type": "person",
+      "context": "《罪与罚》的主人公，被用作共读后友谊可以持续引用的共享符号",
+      "importance": "low"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "主播的朋友，在北大本科时组织卢梭读书会，采用轮流总结的方式",
+      "importance": "medium"
+    },
+    {
+      "name": "美国采石工人农村大哥",
+      "type": "person",
+      "context": "主播6年前在读书会结识的朋友，因共同吐槽一位做45分钟文本考究的学者而建立深厚友谊",
+      "importance": "high"
+    },
+    {
+      "name": "金正恩",
+      "type": "person",
+      "context": "被主播讽刺性地列入可能给'傻帽'总结论文的人之一，与AI、柏拉图、大学生并列",
+      "importance": "low"
+    },
+    {
+      "name": "斯多葛主义",
+      "type": "concept",
+      "context": "被引用为完全压制感受的极端哲学观点，主播用以对比说明思考需要暂时克服感受",
+      "importance": "medium"
+    },
+    {
+      "name": "伦理学（亚里士多德）",
+      "type": "work",
+      "context": "主播多次领导没有学术背景的成年人共读此书，并设计讨论框架",
+      "importance": "high"
+    },
+    {
+      "name": "社会契约论",
+      "type": "work",
+      "context": "主播预设共读伙伴都读过此书，可以无需铺垫地引用",
+      "importance": "low"
+    },
+    {
+      "name": "罪与罚",
+      "type": "work",
+      "context": "被用作共读后友谊可以获得持久共享经验的例子",
+      "importance": "low"
+    },
+    {
+      "name": "苏格拉底回忆录（色诺芬）",
+      "type": "work",
+      "context": "被引用证明自古至今共同读书是培养判断力的方式",
+      "importance": "medium"
+    },
+    {
+      "name": "积极的阅读",
+      "type": "concept",
+      "context": "主播强调的核心前提，与被动收听相对，要求读者进行判断、筛选信息、形成见解",
+      "importance": "high"
+    },
+    {
+      "name": "理想友谊",
+      "type": "concept",
+      "context": "亚里士多德提出的概念，基于对真善美的共同追求，超出两个朋友本身；主播认为共读建立的友谊接近此",
+      "importance": "high"
+    },
+    {
+      "name": "判断力",
+      "type": "concept",
+      "context": "主播认为读书尤其是共读唯一重要的目标，是将信息转化为见解的能力",
+      "importance": "high"
+    },
+    {
+      "name": "见解 vs 感受",
+      "type": "concept",
+      "context": "主播严格区分的两个层次，认为共读必须提出见解而非仅分享感受，后者'毫无价值'",
+      "importance": "high"
+    },
+    {
+      "name": "文本考究",
+      "type": "concept",
+      "context": "主播批判的学者恶习，指过度关注翻译准确性、引用二手文献而非分享个人见解",
+      "importance": "medium"
+    },
+    {
+      "name": "文献综述",
+      "type": "concept",
+      "context": "主播批判的学术训练产物，指引用各种学者观点而不给出自己判断的行为",
+      "importance": "medium"
+    },
+    {
+      "name": "康德式晚宴",
+      "type": "concept",
+      "context": "主播在第三期播客中介绍的概念，有听众实践后在小红书分享，成为主播最开心的反馈",
+      "importance": "medium"
+    },
+    {
+      "name": "华盛顿",
+      "type": "place",
+      "context": "主播本期播客的录音地点，在一个建筑物的玻璃房里",
+      "importance": "low"
+    },
+    {
+      "name": "叙利亚",
+      "type": "place",
+      "context": "普鲁塔克某篇文章的献词对象所在地，一位位高权重的王子",
+      "importance": "low"
+    },
+    {
+      "name": "北大",
+      "type": "organization",
+      "context": "榜眼哥本科就读并组织卢梭读书会的地方",
+      "importance": "low"
+    },
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "主播请求听众支持打赏的栏目名称，在开头和结尾重复出现",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6866f3f893fd2d72b86b72be",
+  "title": "233-如何共读一本书？"
+}

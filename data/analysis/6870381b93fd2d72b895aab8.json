@@ -1,0 +1,447 @@
+{
+  "style": {
+    "opening_pattern": "以当下个人生活场景引入（'今天不想工作'的慵懒状态与制作播客的动机）",
+    "structure": "个人动机→澄清误解（回应电影《阿玛德乌斯》）→人格特质分析（粗俗幽默、Joie de vivre，对比巴赫与贝多芬）→核心歌剧作品深度解读（《费加罗的婚礼》《唐璜》）→生平关键事件澄清（与父亲、与大主教的冲突及死亡真相）→以宗教音乐播放作结",
+    "tone": "热情、个人化、感性而深刻的学者随笔风格，兼具学术深度与生命情感的沉浸式讲述",
+    "catchphrases": [
+      "今天不想工作",
+      "屎尿屁",
+      "粗俗",
+      "Joie de vivre",
+      "萨尔茨堡",
+      "众所周知",
+      "换句话说",
+      "说白了",
+      "对不对",
+      "Fiat amor et pereat mundus"
+    ],
+    "closing_pattern": "以播放特定音乐作品（《圣体颂》）并配以诗意解读与生命总结结束",
+    "narrative_techniques": [
+      "对比（莫扎特与巴赫、贝多芬、康德的系统性对比）",
+      "个人经历穿插（与父亲的关系、工作状态）",
+      "具体场景描写（《唐璜》墓地场景、《费加罗的婚礼》政治讽刺细节）",
+      "引用（阿伦特、Maynard Solomon、尼采等）",
+      "音乐播放与解说结合（对《费加罗的婚礼》《唐璜》序曲等的播放指引）",
+      "类比（将巴赫比作终身教授，将莫扎特比作Lady Gaga式的明星）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "莫扎特",
+      "type": "person",
+      "context": "本集核心人物，作为一个人（而非仅仅是音乐家）被深入探讨，强调其粗俗幽默与对生命的喜悦",
+      "importance": "high"
+    },
+    {
+      "name": "贝多芬",
+      "type": "person",
+      "context": "与莫扎特对比，被描述为唯我主义者、关心普世人性而非具体的人，音乐追求情感透明与宇宙性",
+      "importance": "high"
+    },
+    {
+      "name": "巴赫",
+      "type": "person",
+      "context": "与莫扎特对比，被描述为公务员式的学院派，极度自律但枯燥，非明星式的工匠",
+      "importance": "high"
+    },
+    {
+      "name": "利奥波德·莫扎特",
+      "type": "person",
+      "context": "莫扎特控制欲极强的父亲，萨尔茨堡大主教的小提琴手，将儿子视为神童工具",
+      "importance": "high"
+    },
+    {
+      "name": "科罗雷多伯爵",
+      "type": "person",
+      "context": "萨尔茨堡大主教的继任者，严厉讲规矩，将莫扎特视为普通员工而非天才，最终将其踢出房间",
+      "importance": "high"
+    },
+    {
+      "name": "萨列里",
+      "type": "person",
+      "context": "被电影《阿玛德乌斯》塑造为嫉妒毒杀莫扎特的凶手，播主澄清此为误解",
+      "importance": "high"
+    },
+    {
+      "name": "汉娜·阿伦特",
+      "type": "person",
+      "context": "被引用评价莫扎特的《魔笛》与莱辛的《智者纳坦》，强调'人之为人'的主题",
+      "importance": "high"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "与莫扎特对比其道德哲学，康德主张'即便世界毁灭也要伸张正义'，莫扎特则主张'即便世界毁灭也要去爱'",
+      "importance": "high"
+    },
+    {
+      "name": "博马舍",
+      "type": "person",
+      "context": "《费加罗的婚礼》原作作者，法国作家，其剧作被视为引爆法国大革命的导火索之一",
+      "importance": "medium"
+    },
+    {
+      "name": "Da Ponte",
+      "type": "person",
+      "context": "莫扎特的剧作搭档，合作创作了《费加罗的婚礼》《唐璜》《魔笛》等",
+      "importance": "medium"
+    },
+    {
+      "name": "Maynard Solomon",
+      "type": "person",
+      "context": "莫扎特传记作者，播主引用其关于莫扎特手稿创作过程的观察",
+      "importance": "medium"
+    },
+    {
+      "name": "Christian Bezuidenhout",
+      "type": "person",
+      "context": "古钢琴家，与播主讨论现代人听莫扎特的耳朵被贝多芬训练的问题",
+      "importance": "low"
+    },
+    {
+      "name": "Lady Gaga",
+      "type": "person",
+      "context": "播主自称唯一的狂热粉丝只有莫扎特和Lady Gaga，作为类比",
+      "importance": "low"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "播主的朋友，第53期嘉宾，古典钢琴演奏者，提供弹奏莫扎特的视角",
+      "importance": "low"
+    },
+    {
+      "name": "郎朗",
+      "type": "person",
+      "context": "提到其父亲与利奥波德·莫扎特的控制欲对比",
+      "importance": "low"
+    },
+    {
+      "name": "约瑟夫皇帝",
+      "type": "person",
+      "context": "对莫扎特说'你写了太多音符了'",
+      "importance": "low"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "引用其哲学中对《唐璜》结尾的引用",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "与巴赫对比，作为学院派哲学家的例子",
+      "importance": "low"
+    },
+    {
+      "name": "莎士比亚",
+      "type": "person",
+      "context": "播主认为其成就高于康德",
+      "importance": "low"
+    },
+    {
+      "name": "瓦格纳",
+      "type": "person",
+      "context": "其连续剧场音乐被视为莫扎特在《费加罗的婚礼》中开创的先驱",
+      "importance": "low"
+    },
+    {
+      "name": "亨德尔",
+      "type": "person",
+      "context": "莫扎特想要效仿的自由作曲家",
+      "importance": "low"
+    },
+    {
+      "name": "蒙田",
+      "type": "person",
+      "context": "与播主的'反智倾向'对比",
+      "importance": "low"
+    },
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "与蒙田一起提到",
+      "importance": "low"
+    },
+    {
+      "name": "莱辛",
+      "type": "person",
+      "context": "其戏剧《智者纳坦》被阿伦特与《魔笛》对比",
+      "importance": "low"
+    },
+    {
+      "name": "唐璜",
+      "type": "person",
+      "context": "歌剧人物，作为浪荡子的代表，也是欲望与拒绝忏悔的象征",
+      "importance": "high"
+    },
+    {
+      "name": "费加罗",
+      "type": "person",
+      "context": "《费加罗的婚礼》主角，作为仆人的尊严象征",
+      "importance": "high"
+    },
+    {
+      "name": "苏珊娜",
+      "type": "person",
+      "context": "《费加罗的婚礼》中的角色，聪明的女性",
+      "importance": "medium"
+    },
+    {
+      "name": "伯爵",
+      "type": "person",
+      "context": "《费加罗的婚礼》中的反派，想行使初夜权",
+      "importance": "medium"
+    },
+    {
+      "name": "莱波雷洛",
+      "type": "person",
+      "context": "《唐璜》中的仆人，小丑形象",
+      "importance": "medium"
+    },
+    {
+      "name": "骑士长",
+      "type": "person",
+      "context": "《唐璜》中被杀的父亲，石像",
+      "importance": "medium"
+    },
+    {
+      "name": "《费加罗的婚礼》",
+      "type": "work",
+      "context": "莫扎特歌剧杰作，被视为对贵族体制的音乐清算，体现讽刺的喜悦",
+      "importance": "high"
+    },
+    {
+      "name": "《唐璜》",
+      "type": "work",
+      "context": "莫扎特最阴郁复杂的歌剧，关于欲望、拒绝忏悔和地狱降临",
+      "importance": "high"
+    },
+    {
+      "name": "《魔笛》",
+      "type": "work",
+      "context": "莫扎特晚期歌剧，被阿伦特评价主题为'人之为人'",
+      "importance": "high"
+    },
+    {
+      "name": "《阿玛德乌斯》",
+      "type": "work",
+      "context": "电影《莫扎特传》，播主澄清其塑造的萨列里毒杀莫扎特为误解",
+      "importance": "high"
+    },
+    {
+      "name": "《圣体颂》",
+      "type": "work",
+      "context": "莫扎特临终前创作的宗教音乐，被播主选为结尾曲",
+      "importance": "high"
+    },
+    {
+      "name": "《智者纳坦》",
+      "type": "work",
+      "context": "莱辛的戏剧，被阿伦特与《魔笛》对比",
+      "importance": "medium"
+    },
+    {
+      "name": "《米特里达特》",
+      "type": "work",
+      "context": "莫扎特14岁时在米兰创作的歌剧",
+      "importance": "medium"
+    },
+    {
+      "name": "第21号钢琴协奏曲",
+      "type": "work",
+      "context": "被提及慢板乐章体现莫扎特不诉诸情绪暴力的细腻",
+      "importance": "medium"
+    },
+    {
+      "name": "A小调小提琴奏鸣曲",
+      "type": "work",
+      "context": "莫扎特母亲去世后创作的哀伤作品",
+      "importance": "medium"
+    },
+    {
+      "name": "《单簧管协奏曲》",
+      "type": "work",
+      "context": "莫扎特临终前六个月完成",
+      "importance": "medium"
+    },
+    {
+      "name": "《提图斯的人质》",
+      "type": "work",
+      "context": "莫扎特临终前六个月完成",
+      "importance": "medium"
+    },
+    {
+      "name": "第53期《谈好莫扎特和读懂柏拉图有什么相似之处》",
+      "type": "work",
+      "context": "播客往期节目，提及脑雾哥视角",
+      "importance": "low"
+    },
+    {
+      "name": "第157期《如何欣赏歌剧》",
+      "type": "work",
+      "context": "播客往期节目，梳理歌剧史",
+      "importance": "low"
+    },
+    {
+      "name": "第162期《如何欣赏古典音乐》",
+      "type": "work",
+      "context": "播客往期节目，梳理古典音乐史",
+      "importance": "low"
+    },
+    {
+      "name": "Joie de vivre",
+      "type": "concept",
+      "context": "法语概念，意为'对于生命的喜悦'，播主认为这是莫扎特最核心的特质",
+      "importance": "high"
+    },
+    {
+      "name": "屎尿屁幽默",
+      "type": "concept",
+      "context": "播主强调莫扎特粗俗的萨尔茨堡式幽默，与高雅音乐并存",
+      "importance": "high"
+    },
+    {
+      "name": "Fiat justitia et pereat mundus",
+      "type": "concept",
+      "context": "康德的拉丁语格言'即便世界毁灭也要伸张正义'",
+      "importance": "high"
+    },
+    {
+      "name": "Fiat amor et pereat mundus",
+      "type": "concept",
+      "context": "播主改写的拉丁语，代表莫扎特精神'即便世界毁灭也要去爱/做爱'",
+      "importance": "high"
+    },
+    {
+      "name": "人文主义",
+      "type": "concept",
+      "context": "播主区分了莫扎特的人文主义与现代哲学中无底线的人道主义",
+      "importance": "high"
+    },
+    {
+      "name": "Amor Mundi",
+      "type": "concept",
+      "context": "拉丁语'对世界的爱'，播主用以描述莫扎特对世界的态度",
+      "importance": "medium"
+    },
+    {
+      "name": "神童",
+      "type": "concept",
+      "context": "莫扎特早期的标签，6岁开始巡演，但13岁后需转型为作曲家",
+      "importance": "medium"
+    },
+    {
+      "name": "自由作曲家",
+      "type": "concept",
+      "context": "莫扎特脱离萨尔茨堡体制后的身份，与宫廷仆人相对",
+      "importance": "medium"
+    },
+    {
+      "name": "连续剧场",
+      "type": "concept",
+      "context": "瓦格纳的音乐戏剧形式，播主认为莫扎特在《费加罗的婚礼》中已开创先河",
+      "importance": "medium"
+    },
+    {
+      "name": "萨尔茨堡口音/幽默",
+      "type": "concept",
+      "context": "莫扎特粗俗幽默的地域文化根源",
+      "importance": "medium"
+    },
+    {
+      "name": "反智倾向",
+      "type": "concept",
+      "context": "播主提到的与蒙田、普鲁塔克类似的倾向，认为艺术高于逻辑",
+      "importance": "low"
+    },
+    {
+      "name": "莫扎特童年欧洲巡演",
+      "type": "event",
+      "context": "6岁起在巴黎、伦敦、凡尔赛等地巡演，13岁后需转型",
+      "importance": "high"
+    },
+    {
+      "name": "莫扎特与科罗雷多伯爵冲突",
+      "type": "event",
+      "context": "1781年莫扎特拒绝做表演猴子，被大主教管家踢出房间，脱离体制",
+      "importance": "high"
+    },
+    {
+      "name": "莫扎特母亲在巴黎去世",
+      "type": "event",
+      "context": "1778年，莫扎特写下A小调小提琴奏鸣曲",
+      "importance": "high"
+    },
+    {
+      "name": "莫扎特与父亲决裂",
+      "type": "event",
+      "context": "20多岁时因结婚和独立谋生问题与利奥波德关系破裂",
+      "importance": "high"
+    },
+    {
+      "name": "莫扎特之死",
+      "type": "event",
+      "context": "1791年，播主澄清并非萨列里毒杀，而是风湿热与过劳死",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命爆发",
+      "type": "event",
+      "context": "1789年，与博马舍《费加罗的婚礼》原作有关联",
+      "importance": "medium"
+    },
+    {
+      "name": "萨尔茨堡",
+      "type": "place",
+      "context": "莫扎特的故乡，德语区，其粗俗幽默的根源地",
+      "importance": "high"
+    },
+    {
+      "name": "维也纳",
+      "type": "place",
+      "context": "莫扎特作为自由作曲家的主要创作地，维也纳王公曾对他无兴趣",
+      "importance": "high"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "莫扎特巡演地，母亲在此去世，莫扎特恨透巴黎",
+      "importance": "medium"
+    },
+    {
+      "name": "米兰",
+      "type": "place",
+      "context": "意大利歌剧大本营，莫扎特14岁在此创作《米特里达特》征服意大利听众",
+      "importance": "medium"
+    },
+    {
+      "name": "曼海姆",
+      "type": "place",
+      "context": "德国城市，莫扎特离家出走后去此地'泡妞'",
+      "importance": "low"
+    },
+    {
+      "name": "萨尔茨堡大主教宫廷",
+      "type": "organization",
+      "context": "莫扎特的雇主，利奥波德的主人，科罗雷多伯爵掌权后成为莫扎特的压迫者",
+      "importance": "high"
+    },
+    {
+      "name": "米兰歌剧院",
+      "type": "organization",
+      "context": "意大利歌剧大本营，莫扎特14岁在此惊艳全场",
+      "importance": "medium"
+    },
+    {
+      "name": "圣斯特凡大教堂",
+      "type": "organization",
+      "context": "维也纳大教堂，莫扎特生命最后被任命为乐长",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6870381b93fd2d72b895aab8",
+  "title": "236-我为何如此喜爱莫扎特？"
+}

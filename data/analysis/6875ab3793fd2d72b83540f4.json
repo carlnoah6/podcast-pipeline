@@ -1,0 +1,141 @@
+{
+  "style": {
+    "opening_pattern": "以直接挑衅和威胁式语言引入，用'你要挨骂了''你完蛋了'等刺激性话语瞬间抓住听众注意力",
+    "structure": "激情动员→哲学分析（理性vs意志）→个人经验分享→具体方法论→身体哲学（上限与下限）→认知重构（我不行的双重含义）→激昂结尾",
+    "tone": "狂放不羁、激情澎湃、带有攻击性的激励风格，混合自嘲与自夸，时而粗俗时而引用哲学",
+    "catchphrases": [
+      "纯粹激情批判",
+      "屁股离开椅子",
+      "精神氮泵",
+      "大耳瓜子抡在你的脸上",
+      "从零到一",
+      "老娘的身体就是尺",
+      "意志力压倒理性",
+      "花里胡哨",
+      "艳压群芳的猥琐的小心态",
+      "斩钉截铁"
+    ],
+    "closing_pattern": "以反讽式总结收尾——承认听众若仍未行动也是一种'扭曲的意志力'，然后 abrupt 结束",
+    "narrative_techniques": [
+      "现场演示（突然做俯卧撑）",
+      "类比（小朋友尖叫、地铁耍宝者）",
+      "极端对比（成熟vs不成熟、高级理性vs低级理性）",
+      "自我暴露（颜面尽失、气喘吁吁）",
+      "直接对听众发号施令（'给我去做一个平板支撑'）",
+      "故事穿插（出差受伤、姜思达马拉松、外公摔倒）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "被提及为讨论理性与意志关系的现代哲学核心人物，其道德哲学围绕reason和will的关系展开",
+      "importance": "high"
+    },
+    {
+      "name": "普鲁塔克",
+      "type": "person",
+      "context": "被引用批评斯多葛派试图完全消灭激情的观点，主张控制和利用激情而非消灭",
+      "importance": "medium"
+    },
+    {
+      "name": "姜思达",
+      "type": "person",
+      "context": "作为马拉松破三跑者的例子，讲述其在波士顿马拉松因起跑分组问题未能发挥最佳成绩的经历",
+      "importance": "medium"
+    },
+    {
+      "name": "普希金",
+      "type": "person",
+      "context": "播客主在华盛顿暴走时收听其诗歌，并思考其作为俄罗斯文学史上第一个真正文人挑战沙皇荣光的地位",
+      "importance": "low"
+    },
+    {
+      "name": "彼得大帝",
+      "type": "person",
+      "context": "与普希金一起被提及，作为俄罗斯现代文明崛起的代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "被共和党律师提及，关于关税政策可能影响独立日烟花供应的政治背景",
+      "importance": "low"
+    },
+    {
+      "name": "金·凯瑞",
+      "type": "person",
+      "context": "被用来形容播客主撞门后上嘴唇肿大的样子",
+      "importance": "low"
+    },
+    {
+      "name": "彭于晏",
+      "type": "person",
+      "context": "播客主自比身材时的参照对象",
+      "importance": "low"
+    },
+    {
+      "name": "曼德维尔悖论",
+      "type": "concept",
+      "context": "在第37期播客中讨论的主题，关于私人恶德与公共利益的关系，此处指利用虚荣心等非理性动机促进锻炼",
+      "importance": "medium"
+    },
+    {
+      "name": "斯多葛主义",
+      "type": "concept",
+      "context": "被描述为追求理性与意志完美结合、消除低等激情的哲学流派，受到普鲁塔克批评",
+      "importance": "medium"
+    },
+    {
+      "name": "logos",
+      "type": "concept",
+      "context": "古希腊语中语言和理性是同一个词，用来说明用语言描述非理性决定的困难",
+      "importance": "medium"
+    },
+    {
+      "name": "reason/ratio",
+      "type": "concept",
+      "context": "与will/voluntas对立，构成现代哲学最难懂的形而上学问题之一",
+      "importance": "high"
+    },
+    {
+      "name": "will/voluntas",
+      "type": "concept",
+      "context": "与reason对立，被认为是下决心出门锻炼的关键，需要压倒理性",
+      "importance": "high"
+    },
+    {
+      "name": "纯粹理性批判",
+      "type": "work",
+      "context": "康德著作，被戏仿为'纯粹激情批判'",
+      "importance": "low"
+    },
+    {
+      "name": "波士顿马拉松",
+      "type": "event",
+      "context": "世界五大马拉松中历史最悠久、最难进的赛事，姜思达参赛并吐槽起跑分组问题",
+      "importance": "low"
+    },
+    {
+      "name": "美国独立日",
+      "type": "event",
+      "context": "7月4日，播客主在华盛顿纪念碑下看烟花，后因封路暴走7公里回酒店",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿",
+      "type": "place",
+      "context": "播客主出差地点，独立日当晚因封路被迫从纪念碑暴走回酒店",
+      "importance": "low"
+    },
+    {
+      "name": "阿尔卑斯山",
+      "type": "place",
+      "context": "被提及作为无法负担的滑雪地点，与骑自行车形成对比",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6875ab3793fd2d72b83540f4",
+  "title": "238-咋下决心每天出门去锻炼？"
+}

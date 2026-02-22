@@ -1,0 +1,231 @@
+{
+  "style": {
+    "opening_pattern": "以听众画像引入，通过分享线下活动中遇到的大学老师群体，建立话题与听众的关联，再提出核心问题",
+    "structure": "现象描述→案例论证→本质分析→历史纵深→现实威胁→哲学升华，层层递进，从具体观察到抽象思辨",
+    "tone": "严肃深沉、忧思恳切，带有知识分子的忧患意识和启蒙情怀，偶尔有尖锐批评但不失理性",
+    "catchphrases": [
+      "仅此而已，没了",
+      "我相信你不会说",
+      "事实就是",
+      "我想说的是",
+      "这就是为什么在我看来",
+      "用你的心去阅读",
+      "人上人",
+      "自动选择",
+      "自古以来",
+      "关我屁事"
+    ],
+    "closing_pattern": "引用对立观点后拒绝呼吁行动，以存在主义式的自由选择作结，强调自由与尊严的哲学命题",
+    "narrative_techniques": [
+      "对比（中美教授/古今社会/工具性与内在价值）",
+      "类比（健身举铁/身体强壮）",
+      "反问（为什么亚当·斯密这么啰嗦）",
+      "举例（普林斯顿与清华教授的具体课堂实验）",
+      "引用权威（尼采、柏拉图、亚里士多德传统）",
+      "归谬法（功利主义的无限递进）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "亚当·斯密",
+      "type": "person",
+      "context": "清华教授在课堂上教授《国富论》，学生抱怨其写作啰嗦，主播以此说明读书应追问'为什么'而非停留于表面反应",
+      "importance": "high"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "作为未留下文字作品的哲学家被提及，说明文字发明本身也曾被视为对认知能力的威胁",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "记录苏格拉底对话的人，同时被认为警惕文字发明会削弱人的记忆能力",
+      "importance": "medium"
+    },
+    {
+      "name": "莎士比亚",
+      "type": "person",
+      "context": "被用作例子说明伟大作品不应被像数据一样拆解分析，其隐喻重复不应被视为懒惰",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "其对功利主义的批评'目的的无限递进'被引用，说明功利主义导致虚无主义",
+      "importance": "high"
+    },
+    {
+      "name": "泰勒·斯威夫特",
+      "type": "person",
+      "context": "与莎士比亚对比，说明不追问'为什么'的读者无法区分流行爱情叙事与经典文学在深度上的差异",
+      "importance": "low"
+    },
+    {
+      "name": "Anastasia Burke",
+      "type": "person",
+      "context": "加州大学欧文分校哲学教授，在《纽约时报》发表文章《哪怕是最基础的人工智能的使用对学生也是有害的》",
+      "importance": "medium"
+    },
+    {
+      "name": "Glenn Burnett",
+      "type": "person",
+      "context": "普林斯顿大学科学史系教授，认为实质能力是历史的异常现象，人工智能将使其回归少数精英特权",
+      "importance": "medium"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "中国大学教授布置作业让学生用AI模拟霍布斯态度提问，主播以此说明AI在中国课堂的政治正确地位",
+      "importance": "low"
+    },
+    {
+      "name": "《国富论》",
+      "type": "work",
+      "context": "清华学生本学期第一次从头到尾读完的书，主播借此讨论读书应超越'啰嗦'的表层反应",
+      "importance": "high"
+    },
+    {
+      "name": "《罗密欧与朱丽叶》",
+      "type": "work",
+      "context": "与泰勒·斯威夫特的爱情故事对比，说明经典与流行文化在深度上的真实差异",
+      "importance": "low"
+    },
+    {
+      "name": "《道德问题：人类生命的价值》",
+      "type": "work",
+      "context": "Burke教授开设的课程，讽刺的是超过一半学生在期末考试中使用AI代写",
+      "importance": "medium"
+    },
+    {
+      "name": "《纽约时报》",
+      "type": "work",
+      "context": "刊登Burke教授关于AI对教育危害的文章的媒体",
+      "importance": "low"
+    },
+    {
+      "name": "第262期《过度自由和过度纪律如何正在让大学教育沦为笑话》",
+      "type": "work",
+      "context": "主播此前制作的播客单集，本期多次引用作为延续讨论的基础",
+      "importance": "medium"
+    },
+    {
+      "name": "功利主义",
+      "type": "concept",
+      "context": "被批判的核心价值观，认为一切价值来自'有用'，导致目的无限递进和最终虚无",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙运动",
+      "type": "concept",
+      "context": "被认为正在崩塌的历史遗产，曾将理性思考能力带给更广泛人群，但其科技成果（AI）正在反噬这一成果",
+      "importance": "high"
+    },
+    {
+      "name": "人文学科的科学化",
+      "type": "concept",
+      "context": "普林斯顿教授批评的倾向，指人文研究被要求像自然科学一样运作，导致学生像处理数据一样拆解文本",
+      "importance": "high"
+    },
+    {
+      "name": "独立思考",
+      "type": "concept",
+      "context": "被定义为在最初反应之上继续追问'为什么'的能力，是读书的核心目的",
+      "importance": "high"
+    },
+    {
+      "name": "自我治理",
+      "type": "concept",
+      "context": "与阅读能力相关的政治能力，被认为是文明社会公共生活的基础",
+      "importance": "high"
+    },
+    {
+      "name": "黑暗启蒙",
+      "type": "concept",
+      "context": "硅谷部分群体信奉的思想，认为实质能力应回归少数精英，与Burnett教授观点相关",
+      "importance": "medium"
+    },
+    {
+      "name": "人工智能/AI",
+      "type": "concept",
+      "context": "被认定为2025年威胁读书能力的最大因素，在中国具有政治正确地位，在美国也有广泛渗透",
+      "importance": "high"
+    },
+    {
+      "name": "印刷术",
+      "type": "concept",
+      "context": "与纸张、小说一起被提及，曾使阅读习惯在18世纪进入中产阶级",
+      "importance": "low"
+    },
+    {
+      "name": "形而上学",
+      "type": "concept",
+      "context": "关注人能否不通过语言进行思考的问题，主播认为答案是目前不能",
+      "importance": "low"
+    },
+    {
+      "name": "高考/中考/SAT",
+      "type": "event",
+      "context": "被批评的考试制度，将阅读变成机器拆解零件的过程，不追问书为何美",
+      "importance": "medium"
+    },
+    {
+      "name": "疫情之后",
+      "type": "event",
+      "context": "主播界定问题加剧的时间节点，大学老师普遍感触学生阅读能力下降的时期",
+      "importance": "medium"
+    },
+    {
+      "name": "普林斯顿大学",
+      "type": "organization",
+      "context": "美国顶尖学府，其教授在课堂上发现大二学生无人完整读过一本书",
+      "importance": "high"
+    },
+    {
+      "name": "清华大学",
+      "type": "organization",
+      "context": "中国顶尖学府，其教授同样发现学生无完整阅读经历，本学期首次要求读《国富论》",
+      "importance": "high"
+    },
+    {
+      "name": "北京",
+      "type": "place",
+      "context": "主播此前与看理想做活动的地点，现场大量听众为大学老师",
+      "importance": "low"
+    },
+    {
+      "name": "看理想",
+      "type": "organization",
+      "context": "主播此前合作举办活动的文化品牌",
+      "importance": "low"
+    },
+    {
+      "name": "复旦大学",
+      "type": "organization",
+      "context": "主播朋友所在学校，该朋友建议用AI写书以应对非升即走压力",
+      "importance": "low"
+    },
+    {
+      "name": "加州大学欧文分校",
+      "type": "organization",
+      "context": "Burke教授所在的大学",
+      "importance": "low"
+    },
+    {
+      "name": "硅谷",
+      "type": "place",
+      "context": "黑暗启蒙等思想较为流行的地区",
+      "importance": "low"
+    },
+    {
+      "name": "小宇宙",
+      "type": "organization",
+      "context": "播客平台，其自带AI总结功能被主播用作例子说明理解能力的丧失",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "690675da48dbe0eb56f3f4f4",
+  "title": "272-最优秀的学生为何失去了读书的能力？"
+}

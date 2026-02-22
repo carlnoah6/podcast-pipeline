@@ -1,0 +1,352 @@
+{
+  "style": {
+    "opening_pattern": "以当代美国政治乱象引入，通过类比过渡到历史事件",
+    "structure": "当代引入→历史背景→冤案经过→三个深层现象分析→平反过程→政治后果→反讽结局",
+    "tone": "理性批判、历史厚重、犀利反讽，兼具知识分子的疏离感与道德关切",
+    "catchphrases": [
+      "境外势力",
+      "日光底下无新事",
+      "阴谋论",
+      "讽刺",
+      "悲剧",
+      "包了一桶饺子",
+      "战狼",
+      "润了",
+      "一地鸡毛",
+      "欢天喜地"
+    ],
+    "closing_pattern": "以历史反讽收尾（一战爆发，鉴定官战死），呼应开头的现实与童话之辨，留下哲学性叹息",
+    "narrative_techniques": [
+      "类比（当代美国vs历史法国）",
+      "反问",
+      "对比（忠诚vs背叛，左派vs右派反应）",
+      "讽刺反讽",
+      "上帝视角",
+      "细节描写",
+      "直接引用"
+    ]
+  },
+  "entities": [
+    {
+      "name": "阿尔弗雷德·德雷福斯 (Alfred Dreyfus)",
+      "type": "person",
+      "context": "被冤枉的犹太裔法国军官，德雷福斯事件的核心受害者，被流放魔鬼岛",
+      "importance": "high"
+    },
+    {
+      "name": "埃米尔·左拉 (Émile Zola)",
+      "type": "person",
+      "context": "法国自然主义作家，发表公开信《我控诉》为德雷福斯辩护，被视为现代知识分子介入政治的典范",
+      "importance": "high"
+    },
+    {
+      "name": "费迪南·埃斯特哈齐 (Ferdinand Esterhazy)",
+      "type": "person",
+      "context": "真正的叛徒，匈牙利贵族出身的军官，其笔迹与泄密纸条完全吻合但曾被军方包庇",
+      "importance": "high"
+    },
+    {
+      "name": "乔治·皮卡尔上校 (Colonel Georges Picquart)",
+      "type": "person",
+      "context": "法国情报局局长，最早发现埃斯特哈齐是真凶并试图为德雷福斯平反，反遭军方打压",
+      "importance": "high"
+    },
+    {
+      "name": "乔治·克列孟梭 (Georges Clemenceau)",
+      "type": "person",
+      "context": "法国政治家，德雷福斯派领袖，后成为法国总理，推动德雷福斯最终平反和军队改革",
+      "importance": "high"
+    },
+    {
+      "name": "西奥多·赫茨尔 (Theodor Herzl)",
+      "type": "person",
+      "context": "犹太复国主义创始人，作为记者旁听德雷福斯审判后转变为犹太独立建国思想",
+      "importance": "high"
+    },
+    {
+      "name": "大卫翁",
+      "type": "person",
+      "context": "播客《猪楼宴宾客》主播，哥伦比亚大学新闻学院访问学者，与主播讨论新闻业危机",
+      "importance": "medium"
+    },
+    {
+      "name": "施瓦茨科彭 (Schwarzkopf)",
+      "type": "person",
+      "context": "德国驻巴黎武官，与泄密纸条有关，知道真凶身份但享有外交豁免权拒绝作证",
+      "importance": "medium"
+    },
+    {
+      "name": "玛丽·巴斯蒂安 (Marie Bastian)",
+      "type": "person",
+      "context": "为法国情报局工作的清洁工，在德国大使馆垃圾桶中发现泄密纸条引发整个事件",
+      "importance": "medium"
+    },
+    {
+      "name": "雷蒙·阿隆 (Raymond Aron)",
+      "type": "person",
+      "context": "法国哲学家，被提及为20世纪少数不激进对抗政府的法国知识分子，曾言马克思主义是知识分子的鸦片",
+      "importance": "low"
+    },
+    {
+      "name": "福柯 (Foucault)",
+      "type": "person",
+      "context": "被提及的20世纪法国激进左翼知识分子代表",
+      "importance": "low"
+    },
+    {
+      "name": "萨特 (Sartre)",
+      "type": "person",
+      "context": "被提及的20世纪法国激进左翼知识分子，曾访华并赞扬中国革命",
+      "importance": "low"
+    },
+    {
+      "name": "波伏娃 (Beauvoir)",
+      "type": "person",
+      "context": "被提及的20世纪法国激进左翼知识分子，萨特伴侣",
+      "importance": "low"
+    },
+    {
+      "name": "《我控诉》(J'Accuse)",
+      "type": "work",
+      "context": "左拉发表于1898年的公开信，控诉法国政府反犹主义和司法不公，成为知识分子介入政治的标志性文本",
+      "importance": "high"
+    },
+    {
+      "name": "《猪楼宴宾客》",
+      "type": "work",
+      "context": "大卫翁主持的播客节目",
+      "importance": "medium"
+    },
+    {
+      "name": "《纽约时报》",
+      "type": "work",
+      "context": "被提及的美国权威主流媒体，代表传统新闻业",
+      "importance": "low"
+    },
+    {
+      "name": "《华盛顿邮报》",
+      "type": "work",
+      "context": "被提及的美国权威主流媒体（文本中称为华盛顿日报）",
+      "importance": "low"
+    },
+    {
+      "name": "德雷福斯事件 (Dreyfus Affair)",
+      "type": "concept",
+      "context": "1894-1906年法国政治社会危机，犹太军官被冤枉为间谍，彻底洗牌法国政治，成为现代知识分子政治介入和阴谋论历史的标志性事件",
+      "importance": "high"
+    },
+    {
+      "name": "阴谋论",
+      "type": "concept",
+      "context": "贯穿全篇的核心概念，指缺乏证据的系统性解释框架，在德雷福斯事件中左右派互相指责对方阴谋，与当代美国政治类比",
+      "importance": "high"
+    },
+    {
+      "name": "犹太复国主义",
+      "type": "concept",
+      "context": "以色列建国的思想基础，文本中强调德雷福斯事件促使赫茨尔从融入欧洲转向独立建国思想",
+      "importance": "high"
+    },
+    {
+      "name": "知识分子 (Public Intellectual)",
+      "type": "concept",
+      "context": "现代意义上的公共知识分子诞生标志，以左拉为代表，介入政治司法事务，与人民大众对立",
+      "importance": "high"
+    },
+    {
+      "name": "深层政府 (Deep State)",
+      "type": "concept",
+      "context": "被提及的阴谋论概念，法国右派相信国家被犹太人、共济会等境外势力控制的深层政府",
+      "importance": "medium"
+    },
+    {
+      "name": "境外势力",
+      "type": "concept",
+      "context": "讽刺性高频词，指当时法国社会寻找的替罪羊（犹太人、阿尔萨斯人），与当代政治语言类比",
+      "importance": "high"
+    },
+    {
+      "name": "反犹主义 (Anti-Semitism)",
+      "type": "concept",
+      "context": "贯穿事件的核心意识形态，导致德雷福斯被冤枉的社会偏见",
+      "importance": "high"
+    },
+    {
+      "name": "军国主义",
+      "type": "concept",
+      "context": "与共和主义对立的概念，克列孟梭清除军方势力的目标",
+      "importance": "medium"
+    },
+    {
+      "name": "共和主义",
+      "type": "concept",
+      "context": "法国第三共和国的政治理念，与军队、教会势力对立",
+      "importance": "medium"
+    },
+    {
+      "name": "普法战争 (1870-1871)",
+      "type": "event",
+      "context": "德法历史冲突，导致阿尔萨斯-洛林被德国吞并，为德雷福斯事件提供民族紧张和间谍恐慌背景",
+      "importance": "high"
+    },
+    {
+      "name": "德雷福斯第一次审判 (1894)",
+      "type": "event",
+      "context": "秘密军事法庭基于伪造证据和笔记鉴定定罪，判处公开羞辱和流放魔鬼岛",
+      "importance": "high"
+    },
+    {
+      "name": "左拉诽谤案 (1898)",
+      "type": "event",
+      "context": "左拉因发表《我控诉》被军方起诉诽谤，成为德雷福斯事件转折点，法国社会彻底撕裂为两派",
+      "importance": "high"
+    },
+    {
+      "name": "德雷福斯第二次审判/重审 (1899)",
+      "type": "event",
+      "context": "德雷福斯从魔鬼岛押回法国重审，尽管证据崩溃仍再次被判有罪（减刑），最终由总统赦免",
+      "importance": "high"
+    },
+    {
+      "name": "德雷福斯最终平反 (1906)",
+      "type": "event",
+      "context": "克列孟梭任总理后推动，法国最高法院撤销原判，德雷福斯正式平反并晋升",
+      "importance": "high"
+    },
+    {
+      "name": "第一次世界大战 (1914)",
+      "type": "event",
+      "context": "文本结尾提到的历史反讽，德雷福斯与笔记鉴定官均被征召，鉴定官战死",
+      "importance": "medium"
+    },
+    {
+      "name": "法国/法兰西 (France)",
+      "type": "place",
+      "context": "事件发生地，第三共和国时期，社会撕裂为德雷福斯派与反德雷福斯派",
+      "importance": "high"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "法国首都，德国大使馆所在地，发现泄密纸条的地点，审判发生地",
+      "importance": "high"
+    },
+    {
+      "name": "魔鬼岛 (Devil's Island)",
+      "type": "place",
+      "context": "德雷福斯流放地，位于法属圭亚那的隔离监狱，象征冤案的残酷",
+      "importance": "high"
+    },
+    {
+      "name": "阿尔萨斯-洛林 (Alsace-Lorraine)",
+      "type": "place",
+      "context": "普法战争后被德国吞并的法国领土，德雷福斯出身地，成为其被怀疑为'境外势力'的原因",
+      "importance": "high"
+    },
+    {
+      "name": "德国/普鲁士 (Germany/Prussia)",
+      "type": "place",
+      "context": "法国宿敌，普法战争胜利者，德雷福斯被指控为其间谍的对象",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "播客开场类比的对象，当代政治绝望和阴谋论盛行的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "波士顿",
+      "type": "place",
+      "context": "主播与大卫翁见面的地点",
+      "importance": "low"
+    },
+    {
+      "name": "哥伦比亚大学/哥大 (Columbia University)",
+      "type": "place",
+      "context": "大卫翁做访问学者的地方，其新闻学院面临存在危机",
+      "importance": "medium"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "左拉被判有罪后逃亡的目的地",
+      "importance": "medium"
+    },
+    {
+      "name": "凡尔赛宫",
+      "type": "place",
+      "context": "德意志帝国成立地点，法国耻辱的象征",
+      "importance": "medium"
+    },
+    {
+      "name": "以色列/巴勒斯坦 (Israel/Palestine)",
+      "type": "place",
+      "context": "赫茨尔主张犹太人建国之地，德雷福斯事件促使其思想转变",
+      "importance": "medium"
+    },
+    {
+      "name": "法国军队/军方 (French Army)",
+      "type": "organization",
+      "context": "冤案的制造者和加害者，为维护荣誉伪造证据阻挠平反，最终被清洗",
+      "importance": "high"
+    },
+    {
+      "name": "法国情报局 (French Intelligence)",
+      "type": "organization",
+      "context": "发现泄密纸条并负责调查的机构，参与伪造证据",
+      "importance": "high"
+    },
+    {
+      "name": "德国大使馆 (German Embassy)",
+      "type": "organization",
+      "context": "位于巴黎，清洁工发现泄密纸条的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "哥伦比亚大学新闻学院 (Columbia Journalism School)",
+      "type": "organization",
+      "context": "面临存在危机，传统新闻教育模式受到播客和自媒体冲击",
+      "importance": "medium"
+    },
+    {
+      "name": "共济会 (Freemasonry)",
+      "type": "organization",
+      "context": "被法国右派阴谋论指控为深层政府组成部分",
+      "importance": "medium"
+    },
+    {
+      "name": "耶稣会 (Jesuits)",
+      "type": "organization",
+      "context": "被德雷福斯派指控参与阴谋，最终被驱逐出军政体系",
+      "importance": "medium"
+    },
+    {
+      "name": "天主教会 (Catholic Church)",
+      "type": "organization",
+      "context": "法国社会主流宗教，多持反德雷福斯立场",
+      "importance": "medium"
+    },
+    {
+      "name": "笔记/笔迹鉴定 (Handwriting Analysis)",
+      "type": "other",
+      "context": "军方指控德雷福斯的关键伪证，后被证明与埃斯特哈齐笔迹吻合",
+      "importance": "high"
+    },
+    {
+      "name": "秘密档案 (Secret Dossier)",
+      "type": "other",
+      "context": "军事法庭未向辩方展示的秘密证据，内含伪造文件，是司法不公的关键证据",
+      "importance": "high"
+    },
+    {
+      "name": "魔鬼岛囚禁条件 (Devil's Island Imprisonment)",
+      "type": "other",
+      "context": "德雷福斯被单独监禁、锁在床上的残酷待遇，象征冤案的残酷性",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6901219c740634ca477a8ec0",
+  "title": "271-一场世纪大冤案如何重新洗牌法国政治？"
+}

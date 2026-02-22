@@ -1,0 +1,307 @@
+{
+  "style": {
+    "opening_pattern": "以两篇对比性新闻报道引入，形成讽刺张力",
+    "structure": "对比报道→美国问题分析→中国问题分析→个人经历穿插→深层原因剖析→三种改革趋势介绍→哲学总结",
+    "tone": "理性批判中带个人亲历感，既有学术分析的深度，又有口语化的直接",
+    "catchphrases": [
+      "我没办法说这些话",
+      "这不是问题",
+      "你永远都要相信我有能力能够让你更绝望",
+      "打引号的效率",
+      "纯恨国",
+      "网络Alpha男的气质",
+      "一切好的东西都有可能会结束"
+    ],
+    "closing_pattern": "历史哲学式总结，强调个体责任与适度期望",
+    "narrative_techniques": [
+      "对比",
+      "举例",
+      "类比",
+      "反问",
+      "个人亲历叙事",
+      "引用转述",
+      "层层递进"
+    ]
+  },
+  "entities": [
+    {
+      "name": "曼斯菲尔德教授（Harvey Mansfield）",
+      "type": "person",
+      "context": "哈佛政治系教授，因给学生打两个成绩（表面A和真实C）而闻名，被用来例证成绩膨胀问题",
+      "importance": "medium"
+    },
+    {
+      "name": "JK罗琳（J.K. Rowling）",
+      "type": "person",
+      "context": "作为女权主义立场的参照点，主播请来的智库知识分子观点接近她",
+      "importance": "low"
+    },
+    {
+      "name": "熊炳奇",
+      "type": "person",
+      "context": "二十一世纪教育学院院长，其评论被引用分析大学管理中学化的深层原因",
+      "importance": "medium"
+    },
+    {
+      "name": "Niall Ferguson",
+      "type": "person",
+      "context": "历史学家，UATX大学的创办参与者之一",
+      "importance": "low"
+    },
+    {
+      "name": "Bari Weiss",
+      "type": "person",
+      "context": "记者，UATX大学的创办参与者之一",
+      "importance": "low"
+    },
+    {
+      "name": "Joe Lonsdale",
+      "type": "person",
+      "context": "硅谷亿万富翁，UATX大学的牵头创办者",
+      "importance": "medium"
+    },
+    {
+      "name": "Peter Thiel",
+      "type": "person",
+      "context": "硅谷亿万富翁，对大学教育持更悲观态度，选择办读书会和创业资助而非建大学",
+      "importance": "medium"
+    },
+    {
+      "name": "马斯克（Elon Musk）",
+      "type": "person",
+      "context": "曾被传想在德州办大学，但最终选择投入政治而非教育改革",
+      "importance": "low"
+    },
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "被提及曾跟杜威学习，用来说明美国文科左倾的历史渊源",
+      "importance": "low"
+    },
+    {
+      "name": "杜威（John Dewey）",
+      "type": "person",
+      "context": "美国哲学家，胡适的老师，被用来追溯美国文科激进化的历史",
+      "importance": "low"
+    },
+    {
+      "name": "洪堡（Wilhelm von Humboldt）",
+      "type": "person",
+      "context": "德国教育家，其理念被提及作为德式研究型大学的思想源头",
+      "importance": "low"
+    },
+    {
+      "name": "《纽约时报》",
+      "type": "work",
+      "context": "10月6日报道《Harvard students skip class and still get high grades》，讨论哈佛学生逃课与成绩膨胀问题",
+      "importance": "high"
+    },
+    {
+      "name": "《南方人物周刊》",
+      "type": "work",
+      "context": "10月10日报道《上课必须抬头的大学里没有人快乐》，讨论中国大学过度纪律化管理问题",
+      "importance": "high"
+    },
+    {
+      "name": "经济学原理入门（Principles of Economics）",
+      "type": "work",
+      "context": "哈佛最受欢迎的课程，760人选修，设置无设备区但无人使用，被用作课堂问题的典型案例",
+      "importance": "medium"
+    },
+    {
+      "name": "声东击西",
+      "type": "work",
+      "context": "主播做客的另一档播客，其中两期讨论美国大选的内容基于她与奖学金学生的对话经历",
+      "importance": "low"
+    },
+    {
+      "name": "Center for American Civic（美国公民教育中心）",
+      "type": "organization",
+      "context": "亚利桑那州立大学设立的第一个公民教育中心，开启Civic Center Movement",
+      "importance": "medium"
+    },
+    {
+      "name": "杰弗逊中心（Jefferson Center）",
+      "type": "organization",
+      "context": "德州奥斯汀大学的公民教育中心，名称不同但结构类似",
+      "importance": "low"
+    },
+    {
+      "name": "汉密尔顿中心（Hamilton Center）",
+      "type": "organization",
+      "context": "佛罗里达州立大学的公民教育中心，名称不同但结构类似",
+      "importance": "low"
+    },
+    {
+      "name": "American Enterprise Institute（AEI）",
+      "type": "organization",
+      "context": "共和党最大的建制派智库，主播参加其研讨会了解美国大学改革的保守派逻辑",
+      "importance": "medium"
+    },
+    {
+      "name": "Brookings Institution",
+      "type": "organization",
+      "context": "民主党最大建制派智库，被提及作为AEI的地理位置对照",
+      "importance": "low"
+    },
+    {
+      "name": "UATX（University of Austin）",
+      "type": "organization",
+      "context": "疫情期间由硅谷资金新建的大学，以言论自由为宗旨，前两年人文后两年创业教育",
+      "importance": "high"
+    },
+    {
+      "name": "约翰霍普金斯大学（Johns Hopkins University）",
+      "type": "organization",
+      "context": "美国第一所德式研究型大学，标志美国大学进入第二阶段",
+      "importance": "medium"
+    },
+    {
+      "name": "哈佛大学（Harvard University）",
+      "type": "organization",
+      "context": "精英大学问题的典型代表，成绩膨胀、逃课、课堂参与率低等问题集中体现",
+      "importance": "high"
+    },
+    {
+      "name": "耶鲁大学（Yale University）",
+      "type": "organization",
+      "context": "与哈佛并列提及，平均绩点达A-，成绩膨胀严重",
+      "importance": "medium"
+    },
+    {
+      "name": "西北政法大学",
+      "type": "organization",
+      "context": "朋友提及该校新书记整顿教学质量，搞三率（到课率、前排就坐率、抬头率）",
+      "importance": "low"
+    },
+    {
+      "name": "湖南大学",
+      "type": "organization",
+      "context": "湖南省内少数不用上早晚自习的985高校之一",
+      "importance": "low"
+    },
+    {
+      "name": "中南大学",
+      "type": "organization",
+      "context": "湖南省内少数不用上早晚自习的985高校之一",
+      "importance": "low"
+    },
+    {
+      "name": "北京大学（北大）",
+      "type": "organization",
+      "context": "朋友提及做辅导员时约40%学生有心理问题，包括严重案例",
+      "importance": "medium"
+    },
+    {
+      "name": "普林斯顿大学（Princeton University）",
+      "type": "organization",
+      "context": "被提及在私下筹备公民教育相关专业以扭转进步意识形态统治",
+      "importance": "low"
+    },
+    {
+      "name": "成绩膨胀（grade inflation）",
+      "type": "concept",
+      "context": "核心概念，指精英大学学生普遍获得高分（哈佛耶鲁平均A-），导致努力与成绩脱钩",
+      "importance": "high"
+    },
+    {
+      "name": "Civic Center Movement（公民教育中心运动）",
+      "type": "concept",
+      "context": "主播观察到的美国大学第一种改革趋势，州政府资助、独立于大学的公民教育机构",
+      "importance": "high"
+    },
+    {
+      "name": "德式研究型大学",
+      "type": "concept",
+      "context": "美国大学第二阶段的核心模式，以研究为导向、规模扩张、政府资助科研",
+      "importance": "high"
+    },
+    {
+      "name": "三率",
+      "type": "concept",
+      "context": "中国部分高校考核指标：到课率、前排就坐率、抬头率",
+      "importance": "medium"
+    },
+    {
+      "name": "清华成功学",
+      "type": "concept",
+      "context": "指学生一入学就被指导如何选水课拿高GPA的策略文化",
+      "importance": "medium"
+    },
+    {
+      "name": "取消文化（cancel culture）",
+      "type": "concept",
+      "context": "美国学生害怕因言论被批斗、被孤立的社会氛围，导致不敢表达真实观点",
+      "importance": "high"
+    },
+    {
+      "name": "意识形态泡沫",
+      "type": "concept",
+      "context": "美国大学生困于同质观点环境，不愿接受挑战性观点的现象",
+      "importance": "medium"
+    },
+    {
+      "name": "无限责任主体",
+      "type": "concept",
+      "context": "熊炳奇分析大学管理中学化的原因，学校需对学生安全、学业等承担无限责任",
+      "importance": "medium"
+    },
+    {
+      "name": "新冠疫情",
+      "type": "event",
+      "context": "被中美教授共同认为是教育转折点的催化剂，网课习惯延续、心理管理强化均源于此",
+      "importance": "high"
+    },
+    {
+      "name": "2024年美国大选",
+      "type": "event",
+      "context": "主播与学生讨论时发现无人敢表达支持特朗普的观点，尽管明知有支持者存在",
+      "importance": "medium"
+    },
+    {
+      "name": "冷战/二战",
+      "type": "event",
+      "context": "被提及为美国政府大量资助大学科研的历史背景",
+      "importance": "low"
+    },
+    {
+      "name": "浙江小县城",
+      "type": "place",
+      "context": "主播家乡，南方人物周刊记者在此采访她四小时",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿",
+      "type": "place",
+      "context": "主播参加AEI研讨会的地点，宾州大道上有AEI和布鲁金斯学会",
+      "importance": "low"
+    },
+    {
+      "name": "德州（Texas）",
+      "type": "place",
+      "context": "UATX大学和马斯克设想中的大学所在地，保守派教育改革的实验场",
+      "importance": "medium"
+    },
+    {
+      "name": "迈阿密",
+      "type": "place",
+      "context": "Peter Thiel豪宅所在地，他在此举办私人读书会",
+      "importance": "low"
+    },
+    {
+      "name": "自律会",
+      "type": "other",
+      "context": "中国高校中监督学生晚自习出勤的学生组织，缺席会被上报影响学分",
+      "importance": "medium"
+    },
+    {
+      "name": "打卡机",
+      "type": "other",
+      "context": "中国高校用于监控学生晚间在校情况的设备，不打卡视为晚归",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68e94528525f51df38af01d6",
+  "title": "262-过度自由和过度纪律如何正在让大学教育沦为笑话？"
+}

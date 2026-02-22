@@ -1,0 +1,213 @@
+{
+  "style": {
+    "opening_pattern": "以播客自身历史内容引入，建立连续性（提及第170期关于《爱弥儿》的分析），然后直接提出核心论点——卢梭是现代流量黑红手段的祖师爷",
+    "structure": "铺垫→核心论点提出→文本细读分析（忏悔录的两个目的）→概念辨析（美德vs良善）→历史语境还原（1771年的惊世骇俗程度）→现代对照（普信男、真小人、互联网人设）→思想史定位（与普鲁塔克、奥古斯丁的对话）→回到标题问题（舆论操控的具体机制）→结尾收束",
+    "tone": "犀利戏谑、知识密度高、带有强烈个人立场，大量使用当代网络流行语解构经典（如\"普信男\"\"苏北人\"\"310身份证\"），同时保持学术分析的深度",
+    "catchphrases": [
+      "对吧",
+      "卢梭说",
+      "我们可以",
+      "在这个意义上",
+      "我们生活在卢梭的时代",
+      "我纹身抽烟喝酒说脏话但我是好女孩",
+      "普信男",
+      "端起碗吃肉放下筷子骂娘",
+      "家人们",
+      "掏心窝子"
+    ],
+    "closing_pattern": "回到播客标题进行正面回答，以现代艺人常用语\"请大家不要关注我的私生活多多关注我的作品\"作为点题收尾，确认卢梭是此说法的鼻祖",
+    "narrative_techniques": [
+      "类比（将卢梭比作苏北人拍《上海人的野蛮与落后》获白玉兰奖）",
+      "对比（卢梭vs普鲁塔克的典范标准、卢梭vs奥古斯丁的原罪论）",
+      "反问",
+      "举例（米歇尔·奥巴马、特朗普的传记写法）",
+      "引用文本细读（忏悔录具体卷次页码）",
+      "自我指涉（提及自己出版的普鲁塔克译著及导读策略）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "本集核心分析对象，《忏悔录》作者，被定位为现代流量黑红手段的祖师爷、第一位\"普信男\"",
+      "importance": "high"
+    },
+    {
+      "name": "《忏悔录》（Confessions）",
+      "type": "work",
+      "context": "卢梭59岁写的最后一部巨著，被认为是开创现代自我暴露写作的先河，本集主要解读文本",
+      "importance": "high"
+    },
+    {
+      "name": "《爱弥儿》（Émile）",
+      "type": "work",
+      "context": "卢梭关于教育的著作，播客第170期曾分析，本集中作为《忏悔录》的\"颠倒版\"或互补性叙述被提及",
+      "importance": "high"
+    },
+    {
+      "name": "普鲁塔克（Plutarch）",
+      "type": "person",
+      "context": "卢梭最钟爱的作家，其《道德论集》强调古代典范（理性、美德、丰功伟绩），与卢梭形成根本对立又存在复杂关联",
+      "importance": "high"
+    },
+    {
+      "name": "奥古斯丁（Augustine）",
+      "type": "person",
+      "context": "《忏悔录》的另一重要对话对象，卢梭拒绝其原罪论和基督教传统对邪恶的诠释",
+      "importance": "high"
+    },
+    {
+      "name": "美德（Virtue/Vertu）",
+      "type": "concept",
+      "context": "卢梭哲学中与\"良善\"相对的核心概念，古典衡量人的标准，卢梭明确否认自己拥有",
+      "importance": "high"
+    },
+    {
+      "name": "良善（Goodness/Bonté）",
+      "type": "concept",
+      "context": "卢梭用以自我辩护的核心概念，与\"邪恶\"相对，主张堕落的人也可以是好人",
+      "importance": "high"
+    },
+    {
+      "name": "原罪论",
+      "type": "concept",
+      "context": "基督教传统解释人犯罪原因的理论，被卢梭在《爱弥儿》《论人类不平等的起源与基础》中系统驳斥",
+      "importance": "medium"
+    },
+    {
+      "name": "《论科学与艺术》（Discourse on the Sciences and Arts）",
+      "type": "work",
+      "context": "卢梭1751年获第戎学院奖的论文，使其一夜爆红，打响反启蒙第一炮",
+      "importance": "high"
+    },
+    {
+      "name": "狄德罗（Diderot）",
+      "type": "person",
+      "context": "卢梭曾经的好友，百科全书派代表，后被卢梭宣称因嫉妒而参与迫害阴谋",
+      "importance": "medium"
+    },
+    {
+      "name": "格林（Grimm）",
+      "type": "person",
+      "context": "被卢梭在《忏悔录》第八卷及其脚注中指认为\"本书中最邪恶的一个人\"，阴谋论的核心对象",
+      "importance": "medium"
+    },
+    {
+      "name": "伏尔泰（Voltaire）",
+      "type": "person",
+      "context": "与狄德罗一起被提及为攻击卢梭的名流之一",
+      "importance": "low"
+    },
+    {
+      "name": "孔狄亚克（Condillac）",
+      "type": "person",
+      "context": "百科全书派成员，卢梭曾经的同辈知识分子",
+      "importance": "low"
+    },
+    {
+      "name": "《科西嘉宪法草案》",
+      "type": "work",
+      "context": "卢梭写完《忏悔录》后的晚期作品之一",
+      "importance": "low"
+    },
+    {
+      "name": "《论波兰政府》",
+      "type": "work",
+      "context": "卢梭晚期政治著作",
+      "importance": "low"
+    },
+    {
+      "name": "《论语言的起源》",
+      "type": "work",
+      "context": "卢梭晚期语言学著作",
+      "importance": "low"
+    },
+    {
+      "name": "《卢梭评判让-雅克》（Rousseau juge de Jean-Jacques）",
+      "type": "work",
+      "context": "卢梭更晚的作品，其中阴谋论被更加放大",
+      "importance": "medium"
+    },
+    {
+      "name": "《一个孤独散步者的遐想》（Reveries of the Solitary Walker）",
+      "type": "work",
+      "context": "卢梭死后出版的最后一部作品，通篇充满被迫害妄想",
+      "importance": "medium"
+    },
+    {
+      "name": "《人性论》（A Treatise of Human Nature）",
+      "type": "work",
+      "context": "休谟的哲学论著，作为卢梭之前哲学家通过论著探讨人性的代表被提及",
+      "importance": "low"
+    },
+    {
+      "name": "《人类理解论》（An Essay Concerning Human Understanding）",
+      "type": "work",
+      "context": "洛克的哲学论著，同样作为论著体探讨人性的代表",
+      "importance": "low"
+    },
+    {
+      "name": "《利维坦》（Leviathan）",
+      "type": "work",
+      "context": "霍布斯的政治哲学论著，作为论著体的代表",
+      "importance": "low"
+    },
+    {
+      "name": "《道德论集》",
+      "type": "work",
+      "context": "普鲁塔克著作，播客主讲人新近出版的译著，41页导读中讨论了卢梭与普鲁塔克的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "乔伊斯（James Joyce）",
+      "type": "person",
+      "context": "被提及为继承卢梭主题的现代文学代表（录音中多次重复\"乔伊斯\"似为口误或强调）",
+      "importance": "low"
+    },
+    {
+      "name": "玛丽安（Marion）",
+      "type": "person",
+      "context": "卢梭在《忏悔录》第二卷中承认诬告的对象",
+      "importance": "low"
+    },
+    {
+      "name": "巴黎",
+      "type": "place",
+      "context": "18世纪欧洲文明中心，卢梭成名后拒绝定居于此，选择回到\"县城\"/郊区居住",
+      "importance": "medium"
+    },
+    {
+      "name": "第戎学院",
+      "type": "organization",
+      "context": "举办作文大赛的机构，卢梭凭《论科学与艺术》获一等奖",
+      "importance": "low"
+    },
+    {
+      "name": "百科全书派",
+      "type": "organization",
+      "context": "法国启蒙运动主流知识分子群体，以狄德罗为代表，卢梭曾与之交好后来决裂",
+      "importance": "medium"
+    },
+    {
+      "name": "内在生活/情感",
+      "type": "concept",
+      "context": "卢梭《忏悔录》开启的现代性转向，主张以感受的深度和性质而非理性美德来衡量人",
+      "importance": "high"
+    },
+    {
+      "name": "黑红流量",
+      "type": "concept",
+      "context": "当代网络现象，主播用以类比卢梭自我曝光丑闻、立人设操控舆论的策略",
+      "importance": "medium"
+    },
+    {
+      "name": "普信男",
+      "type": "concept",
+      "context": "网络流行语，主播用以概括卢梭的核心姿态：看似普通但自信，感受比成功人士更具独特性",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68b435065faf3686594b5c8e",
+  "title": "247-卢梭为何是靠人设和丑闻玩转舆论的流量鼻祖？"
+}

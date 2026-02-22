@@ -1,0 +1,110 @@
+{
+  "style": {
+    "opening_pattern": "以家庭故事引入，通过讲述外婆被车撞飞三次的荒诞经历吸引听众注意",
+    "structure": "个人故事→母亲形象刻画→哲学升华→生活智慧总结→产品植入→边界感讨论→结尾祝福",
+    "tone": "轻松幽默中带有人生感悟，口语化表达，自嘲与赞美母亲并存",
+    "catchphrases": [
+      "问题父母",
+      "不是一盏省油的灯",
+      "有福的中年人",
+      "接受偶然性",
+      "兵来将挡水来土掩",
+      "眼不见心不烦",
+      "尊重她的命运",
+      "摆花弄草",
+      "地铁老人脸",
+      "Death by a thousand paper cuts"
+    ],
+    "closing_pattern": "产品信息重复+节日祝福+下期预告",
+    "narrative_techniques": [
+      "对比（自己与母亲、年轻人与中年人、哲学家与生活智慧）",
+      "举例（外婆三次车祸、直播抢货、保健品囤积）",
+      "类比（Death by a thousand paper cuts）",
+      "引用（尼采哲学）",
+      "自我贬低反衬母亲"
+    ]
+  },
+  "entities": [
+    {
+      "name": "我妈/杨医生",
+      "type": "person",
+      "context": "播客主播的母亲，县城儿科医生，作为'有福的中年人'的典范被详细描述其面对父母重病和女儿离婚时的从容态度",
+      "importance": "high"
+    },
+    {
+      "name": "我外婆",
+      "type": "person",
+      "context": "主播的外婆，两年内被车撞飞三次、住院期间仍坚持直播抢货的老年人，代表'过于有生命力'的问题长辈",
+      "importance": "high"
+    },
+    {
+      "name": "我外公",
+      "type": "person",
+      "context": "主播的外公，在外婆车祸后得了两次不同癌症住院，与外婆一起代表需要照顾的老年父母",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "被引用来阐述'真理不利于生命'的哲学观点，用以对比母亲的生活智慧",
+      "importance": "medium"
+    },
+    {
+      "name": "贝多芬",
+      "type": "person",
+      "context": "被用作对比，代表'向命运挥拳'的反抗姿态，与母亲的接受态度形成对照",
+      "importance": "low"
+    },
+    {
+      "name": "《善恶的彼岸》",
+      "type": "work",
+      "context": "尼采的著作，被引用来说明'如果真理会让生命衰竭，为什么要选择真理'的观点",
+      "importance": "medium"
+    },
+    {
+      "name": "接受偶然性",
+      "type": "concept",
+      "context": "本集核心概念，指母亲面对生活荒诞和意外时不追问'为什么'、只问'怎么办'的生活智慧",
+      "importance": "high"
+    },
+    {
+      "name": "边界感",
+      "type": "concept",
+      "context": "本集另一核心概念，指母亲既不介入父母生活、也不允许父母介入自己生活的双向边界",
+      "importance": "high"
+    },
+    {
+      "name": "向上管理",
+      "type": "concept",
+      "context": "标题中的职场术语被借用到家庭语境，指中年人对老年父母的管理和相处之道",
+      "importance": "medium"
+    },
+    {
+      "name": "西门子洗碗机",
+      "type": "product",
+      "context": "本期赞助商，被作为改善老年人生活、减少家务负担的具体解决方案反复提及",
+      "importance": "medium"
+    },
+    {
+      "name": "亮碟",
+      "type": "product",
+      "context": "洗碗机洗涤剂品牌，本期联合赞助商，1953年创立的全球销售额第一洗碗机洗涤剂品牌",
+      "importance": "medium"
+    },
+    {
+      "name": "ICU",
+      "type": "place",
+      "context": "重症监护室，外婆三次车祸后入住的地方，护士长对其'身残志坚'刷手机印象深刻",
+      "importance": "low"
+    },
+    {
+      "name": "中国和美国",
+      "type": "place",
+      "context": "主播打离婚官司的两个地点，用以说明当时处境的复杂和艰难",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "697832a20c314a9fed77cfe7",
+  "title": "294-一个聪明的中年人如何向上管理长辈？"
+}

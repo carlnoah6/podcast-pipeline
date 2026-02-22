@@ -1,0 +1,364 @@
+{
+  "style": {
+    "opening_pattern": "以节目互动请求引入，随后快速建立学术语境，引用往期播客内容作为知识铺垫",
+    "structure": "历史背景→理论框架（卢梭儿童观）→对比分析（托尔斯泰vs陀思妥耶夫斯基）→具体文本细读→文学影响溯源（狄更斯）→综合比较→结论升华",
+    "tone": "理性客观中带有个人激情，学术严谨但不失口语化表达，频繁自我指涉和直接对听众说话",
+    "catchphrases": [
+      "我们可以说",
+      "你应该听得出来",
+      "在我看来",
+      "让我总结一下",
+      "OK话说回来",
+      "欢迎大家去收听",
+      "就像我经常在播客里说",
+      "这也不是我脑子里面想象出的",
+      "这种就是只能在大学里面腐烂嘛"
+    ],
+    "closing_pattern": "开放式总结后突然补充重要分析对象，再以友谊主题升华，最后简短告别",
+    "narrative_techniques": [
+      "类比",
+      "反问",
+      "举例",
+      "对比",
+      "自我指涉",
+      "引用日记/书信等一手材料",
+      "跨文本互证",
+      "历史语境还原"
+    ]
+  },
+  "entities": [
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "本集核心理论来源，其儿童观和自然教育思想是分析托尔斯泰与陀思妥耶夫斯基的基准框架",
+      "importance": "high"
+    },
+    {
+      "name": "列夫·托尔斯泰（Leo Tolstoy）",
+      "type": "person",
+      "context": "与陀思妥耶夫斯基并列分析的俄国作家，被认为更接近卢梭的自然善传统，代表作《童年》《少年》《青年》三部曲、《战争与和平》《安娜·卡列尼娜》",
+      "importance": "high"
+    },
+    {
+      "name": "费奥多尔·陀思妥耶夫斯基（Fyodor Dostoevsky）",
+      "type": "person",
+      "context": "与托尔斯泰对比分析的俄国作家，强调童年之善的神圣性和超越性，后期作品超越狄更斯影响",
+      "importance": "high"
+    },
+    {
+      "name": "查尔斯·狄更斯（Charles Dickens）",
+      "type": "person",
+      "context": "被揭示为本集'隐藏的主角'，其儿童描写对俄国两位作家有深远影响，《雾都孤儿》《老古玩店》《董贝父子》《大卫·科波菲尔》在19世纪俄国广受欢迎",
+      "importance": "high"
+    },
+    {
+      "name": "彼得大帝",
+      "type": "person",
+      "context": "作为俄罗斯现代化路径的象征，其'拔苗助长'的现代化方式被认为是俄国文学特殊气质的历史根源",
+      "importance": "medium"
+    },
+    {
+      "name": "尼古拉·别尔嘉耶夫（Nikolai Berdyaev）",
+      "type": "person",
+      "context": "20世纪俄罗斯政治哲学家，其关于'俄罗斯人不是布尔乔亚'的论断被引用来区分俄国与西方的自我观念",
+      "importance": "medium"
+    },
+    {
+      "name": "亚历山大·赫尔岑（Alexander Herzen）",
+      "type": "person",
+      "context": "被举为最接近个人主义的俄国文学家，但仍将集体生活置于个人契约之上",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "在第242期播客中被讨论，与托尔斯泰阅读黑格尔、卢梭的思想资源相关",
+      "importance": "medium"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "19世纪俄国知识分子广泛阅读的德国哲学家，托尔斯泰在日记中记录对其的反感",
+      "importance": "medium"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "被提及作为与卢梭'人生而为善'相对照的'人生而为恶'观点代表",
+      "importance": "low"
+    },
+    {
+      "name": "孟子",
+      "type": "person",
+      "context": "被批评性地提及，有学者将其与卢梭比较性善论，但播主认为这种比较平庸，因缺乏卢梭的发展式历史哲学观",
+      "importance": "low"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "被提及作为超越善恶的代表，陀思妥耶夫斯基虽受其影响但不会如此极端",
+      "importance": "low"
+    },
+    {
+      "name": "屠格涅夫",
+      "type": "person",
+      "context": "俄国作家，对儿童的关注不如托陀二人，更多聚焦农民与自然的关系，代表作《初恋》《白净草原》",
+      "importance": "medium"
+    },
+    {
+      "name": "丹尼尔·笛福",
+      "type": "person",
+      "context": "《鲁滨逊漂流记》作者，该小说在19世纪俄国极受欢迎，但俄国人从未产生与之相当的独立自主幻想",
+      "importance": "low"
+    },
+    {
+      "name": "拉莫（Jean-Philippe Rameau）",
+      "type": "person",
+      "context": "法国作曲家，卢梭的论战对手，播主调侃卢梭作曲水平不如拉莫",
+      "importance": "low"
+    },
+    {
+      "name": "斯特拉霍夫",
+      "type": "person",
+      "context": "托尔斯泰致信对象，信中托尔斯泰称陀思妥耶夫斯基为'最亲近最可爱最必要的朋友'",
+      "importance": "low"
+    },
+    {
+      "name": "马伊科夫",
+      "type": "person",
+      "context": "陀思妥耶夫斯基流放期间致信的文学通信者，曾询问托尔斯泰《少年》的匿名作者是谁",
+      "importance": "low"
+    },
+    {
+      "name": "M.M. Bletterly",
+      "type": "person",
+      "context": "托尔斯泰1891年致信的朋友，信中承认狄更斯《大卫·科波菲尔》对其青年时代影响巨大",
+      "importance": "low"
+    },
+    {
+      "name": "葛纳",
+      "type": "person",
+      "context": "被批评的美国学者，从事卢梭与孟子的比较政治哲学研究",
+      "importance": "low"
+    },
+    {
+      "name": "《爱弥儿》（Émile）",
+      "type": "work",
+      "context": "卢梭教育哲学代表作，第177期播客详细分析过第一卷，本集核心理论文本，提出自然教育和儿童作为独立存在阶段的观念",
+      "importance": "high"
+    },
+    {
+      "name": "《童年》《少年》《青年》",
+      "type": "work",
+      "context": "托尔斯泰自传体三部曲，主题是从童年到成年的发展历程，1852-1856年间发表，引起文坛轰动",
+      "importance": "high"
+    },
+    {
+      "name": "《战争与和平》",
+      "type": "work",
+      "context": "托尔斯泰最伟大的作品，试图展现幸福与人格圆满如何通过顺应自然节律而结合",
+      "importance": "high"
+    },
+    {
+      "name": "《安娜·卡列尼娜》",
+      "type": "work",
+      "context": "托尔斯泰代表作，与《包法利夫人》对比分析自我意识问题，第239期播客讨论过",
+      "importance": "high"
+    },
+    {
+      "name": "《卡拉马佐夫兄弟》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基晚年巨著，第十卷描写伊柳沙与狗的故事，科利亚·克拉索特金是'对于儿童的终结'式肖像",
+      "importance": "high"
+    },
+    {
+      "name": "《穷人》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基1846年处女作，女主人公瓦尔瓦拉有赞美童年的独白",
+      "importance": "medium"
+    },
+    {
+      "name": "《圣诞树与婚礼》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基1848年作品，讲述好色老男人觊觎纯真女继承人的故事",
+      "importance": "medium"
+    },
+    {
+      "name": "《涅托奇卡·涅兹万诺娃》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基1849年未完成小说，描写著名歌唱家的不幸童年，纯洁灵魂因排他的爱而虐待母亲",
+      "importance": "medium"
+    },
+    {
+      "name": "《小英雄》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基1849年狱中创作，描绘11岁男孩对美丽女士毫无自觉的爱慕",
+      "importance": "medium"
+    },
+    {
+      "name": "《被侮辱与被损害的人》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基1861年小说，首次直接提及托尔斯泰三部曲，塑造阿廖沙形象作为对尼古拉的回应与批评",
+      "importance": "high"
+    },
+    {
+      "name": "《群魔》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基1870年代小说，斯塔夫罗金和彼得·维尔霍文斯基等角色体现被宠坏或腐败教育下的堕落",
+      "importance": "medium"
+    },
+    {
+      "name": "《少年》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基1875年小说，被视为对托尔斯泰身世体叙事的回应",
+      "importance": "medium"
+    },
+    {
+      "name": "《昨日之村》",
+      "type": "work",
+      "context": "托尔斯泰1851年23岁时未正式发表的作品，提出'善永远存在于灵魂之中'的卢梭式命题",
+      "importance": "medium"
+    },
+    {
+      "name": "《雾都孤儿》（Oliver Twist）",
+      "type": "work",
+      "context": "狄更斯1838年小说，1839年译成俄语，首次将儿童置于成人小说中心，奥利弗始终天真无邪",
+      "importance": "medium"
+    },
+    {
+      "name": "《老古玩店》（The Old Curiosity Shop）",
+      "type": "work",
+      "context": "狄更斯1840年小说，1843年发表于俄国最畅销文学杂志，小内尔纯洁到让批评家反感",
+      "importance": "medium"
+    },
+    {
+      "name": "《董贝父子》（Dombey and Son）",
+      "type": "work",
+      "context": "狄更斯1847-1848年小说，在俄国文坛引起轰动，同时刊登于《现代人》和《祖国纪事》，弗洛伦斯因父亲冷漠而孤独成长",
+      "importance": "medium"
+    },
+    {
+      "name": "《大卫·科波菲尔》（David Copperfield）",
+      "type": "work",
+      "context": "狄更斯1850年小说，1851年左右开始在俄国连载，托尔斯泰1891年承认对其青年时代影响巨大，可能是尼古拉的心理模本",
+      "importance": "high"
+    },
+    {
+      "name": "《忏悔录》（Confessions）",
+      "type": "work",
+      "context": "卢梭自传作品，第247期播客讨论过，阿廖沙'我很真诚但是我很软弱'让人联想到此书",
+      "importance": "medium"
+    },
+    {
+      "name": "《鲁滨逊漂流记》",
+      "type": "work",
+      "context": "笛福小说，19世纪俄国极受欢迎，但俄国人从未产生与之相当的独立自主幻想",
+      "importance": "low"
+    },
+    {
+      "name": "《一论》《二论》",
+      "type": "work",
+      "context": "卢梭《论科学与艺术》《论人类不平等的起源和基础》，托尔斯泰19岁日记中开始评价",
+      "importance": "medium"
+    },
+    {
+      "name": "《音乐词典》",
+      "type": "work",
+      "context": "卢梭所著，连播主都没读过，但托尔斯泰读过，包括卢梭'没有人读的音乐笔记'",
+      "importance": "low"
+    },
+    {
+      "name": "《初恋》",
+      "type": "work",
+      "context": "屠格涅夫小说，天真少年目睹无法理解的父亲与邻居的恋情",
+      "importance": "low"
+    },
+    {
+      "name": "《白净草原》",
+      "type": "work",
+      "context": "屠格涅夫小说，描绘儿童灵魂的纯净",
+      "importance": "low"
+    },
+    {
+      "name": "《包法利夫人》",
+      "type": "work",
+      "context": "福楼拜小说，与《安娜·卡列尼娜》对比分析自我意识问题",
+      "importance": "low"
+    },
+    {
+      "name": "自然教育",
+      "type": "concept",
+      "context": "卢梭在《爱弥儿》中提出的核心观念，主张尊重儿童天性和发展规律，不以成人标准塑造儿童",
+      "importance": "high"
+    },
+    {
+      "name": "人生而为善",
+      "type": "concept",
+      "context": "卢梭核心命题，区别于霍布斯的'人生而为恶'，但播主强调其建立在全新的儿童观和发展式历史哲学之上",
+      "importance": "high"
+    },
+    {
+      "name": "自我意识",
+      "type": "concept",
+      "context": "彼得大帝从西方引入的概念，俄国小说翻来覆去讨论的核心问题，但与笛卡尔式个人主义自我不同",
+      "importance": "high"
+    },
+    {
+      "name": "自爱（amour-propre）",
+      "type": "concept",
+      "context": "卢梭哲学核心概念，源自自我意识，接近虚荣，给成年人打开虚伪的可能性，是现代人腐败的根源",
+      "importance": "high"
+    },
+    {
+      "name": "布尔乔亚",
+      "type": "concept",
+      "context": "别尔嘉耶夫论断'俄罗斯人不是布尔乔亚'，俄国文学主角的欲望不是布尔乔亚式的",
+      "importance": "medium"
+    },
+    {
+      "name": "席勒式理想主义",
+      "type": "concept",
+      "context": "在《被侮辱与被损害的人》中被王子讥讽，陀思妥耶夫斯基似乎也予以否定",
+      "importance": "medium"
+    },
+    {
+      "name": "身世体（Bildungsroman）",
+      "type": "concept",
+      "context": "成长小说体裁，托尔斯泰三部曲属于此传统，陀思妥耶夫斯基的《少年》是对这一传统的回应",
+      "importance": "medium"
+    },
+    {
+      "name": "彼得大帝改革",
+      "type": "event",
+      "context": "俄罗斯独特的'拔苗助长'现代化过程，变相催生19世纪俄国文学的崛起及其特殊气质",
+      "importance": "medium"
+    },
+    {
+      "name": "西伯利亚流放",
+      "type": "event",
+      "context": "陀思妥耶夫斯基1849年后经历，期间读到托尔斯泰《少年》并深受触动",
+      "importance": "medium"
+    },
+    {
+      "name": "俄国",
+      "type": "place",
+      "context": "本集讨论的地理和文化空间，其独特的现代化路径和文学传统是分析背景",
+      "importance": "high"
+    },
+    {
+      "name": "《现代人》",
+      "type": "organization",
+      "context": "19世纪俄国流行文学期刊，曾同时刊登《董贝父子》",
+      "importance": "low"
+    },
+    {
+      "name": "《祖国纪事》",
+      "type": "organization",
+      "context": "19世纪俄国流行文学期刊，曾同时刊登《董贝父子》",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "68f8536c456ffec65ef0663d",
+  "title": "266-陀思妥耶夫斯基和托尔斯泰如何继承卢梭的儿童？"
+}

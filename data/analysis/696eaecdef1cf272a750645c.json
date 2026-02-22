@@ -1,0 +1,411 @@
+{
+  "style": {
+    "opening_pattern": "以新闻事件引入（沙特与阿联酋在也门冲突）+ 个人经历铺垫（2017年卡塔尔实习经历）",
+    "structure": "个人经历→具体事件（沙特阿联酋决裂）→宏观分析（美国霸权消退）→复杂化修正（三个考量因素）→对比总结（五国比较优势）→结论",
+    "tone": "理性客观中带个人色彩，学术分析与口语化表达结合，强调复杂性拒绝简化",
+    "catchphrases": [
+      "OK",
+      "你去看一下",
+      "说白了",
+      "我想说的是",
+      "驴唇不对马嘴",
+      "睡在一个被窝里",
+      "礼崩乐坏",
+      "鼻屎一样",
+      "弄脏了",
+      "一团乱麻"
+    ],
+    "closing_pattern": "开放式总结+自我解构（强调理论局限性）+告别",
+    "narrative_techniques": [
+      "类比（国家比作鼻屎、走廊）",
+      "对比（沙特vs阿联酋vs卡塔尔vs土耳其vs以色列）",
+      "举例（沙特同学的故事）",
+      "反问",
+      "个人亲历叙事",
+      "概念重构（如'负秩序'）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "沙特阿拉伯/沙特",
+      "type": "country",
+      "context": "与阿联酋决裂的石油湾大国，拥有麦加麦地那圣地，正重新启用穆斯林兄弟会对抗阿联酋",
+      "importance": "high"
+    },
+    {
+      "name": "阿联酋/UAE",
+      "type": "country",
+      "context": "由五个酋长国组成的国家，以走廊战略和物流控制为地区权力基础，与沙特在也门开战",
+      "importance": "high"
+    },
+    {
+      "name": "卡塔尔",
+      "type": "country",
+      "context": "2017年被沙特制裁，现与沙特在叙利亚问题上态度一致，以叙事生产和媒体影响力见长",
+      "importance": "high"
+    },
+    {
+      "name": "伊朗",
+      "type": "country",
+      "context": "阿拉伯海湾共同敌人，现国内动荡，沙特不希望其政权更迭也不希望其正常化",
+      "importance": "high"
+    },
+    {
+      "name": "以色列",
+      "type": "country",
+      "context": "与阿联酋关系密切，被沙特指控为阴谋通道，承认索马里兰主权",
+      "importance": "high"
+    },
+    {
+      "name": "土耳其",
+      "type": "country",
+      "context": "北约军事大国，与海湾国家竞争地区影响力，在叙利亚有扩张意图",
+      "importance": "high"
+    },
+    {
+      "name": "科威特",
+      "type": "country",
+      "context": "萨巴赫家族统治，2017年参与制裁卡塔尔，社会相对法治开放",
+      "importance": "medium"
+    },
+    {
+      "name": "巴林",
+      "type": "country",
+      "context": "石油湾小国，2017年参与制裁卡塔尔，相对开放的娱乐目的地",
+      "importance": "medium"
+    },
+    {
+      "name": "埃及",
+      "type": "country",
+      "context": "2017年参与制裁卡塔尔，穆斯林兄弟会被驱逐后的目的地之一",
+      "importance": "medium"
+    },
+    {
+      "name": "也门",
+      "type": "country",
+      "context": "沙特与阿联酋决裂的战场地点，阿联酋支持的武装力量向沙特推进遭空袭",
+      "importance": "high"
+    },
+    {
+      "name": "叙利亚",
+      "type": "country",
+      "context": "阿萨德倒台后，沙特积极巩固新逊尼派政府，与卡塔尔合作抗衡土耳其影响",
+      "importance": "high"
+    },
+    {
+      "name": "苏丹",
+      "type": "country",
+      "context": "阿联酋寻求影响力口袋的冲突地带之一",
+      "importance": "low"
+    },
+    {
+      "name": "索马里兰",
+      "type": "country",
+      "context": "非洲穆斯林地区，获以色列承认和阿联酋默认，引发沙特和索马里敌对",
+      "importance": "medium"
+    },
+    {
+      "name": "索马里",
+      "type": "country",
+      "context": "因索马里兰问题与沙特共同敌对阿联酋",
+      "importance": "low"
+    },
+    {
+      "name": "委内瑞拉",
+      "type": "country",
+      "context": "石油产量受制裁压制，若恢复正常将威胁沙特市场份额",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "country",
+      "context": "自由主义规则霸权在中东消退，转向交易化外交，特朗普政策影响地区格局",
+      "importance": "high"
+    },
+    {
+      "name": "俄罗斯",
+      "type": "country",
+      "context": "土耳其周旋的对象之一",
+      "importance": "low"
+    },
+    {
+      "name": "印度",
+      "type": "country",
+      "context": "作为分散伙伴关系的例子，游走于华盛顿和莫斯科之间",
+      "importance": "low"
+    },
+    {
+      "name": "巴西",
+      "type": "country",
+      "context": "拒绝在乌克兰问题上站队的例子",
+      "importance": "low"
+    },
+    {
+      "name": "南非",
+      "type": "country",
+      "context": "拒绝在乌克兰问题上站队的例子",
+      "importance": "low"
+    },
+    {
+      "name": "Mohamed Bin Salman/穆罕默德·本·萨勒曼",
+      "type": "person",
+      "context": "沙特王储，2030愿景推动者，近期召回流亡的穆斯林兄弟会成员",
+      "importance": "high"
+    },
+    {
+      "name": "艾哈迈德·沙拉/阿尔沙拉",
+      "type": "person",
+      "context": "叙利亚实际领导人，被沙特带到利雅得与特朗普握手",
+      "importance": "medium"
+    },
+    {
+      "name": "叶海亚·辛瓦尔",
+      "type": "person",
+      "context": "哈马斯领导人，代表哈马斯在加沙战争中被以色列系统性削弱",
+      "importance": "medium"
+    },
+    {
+      "name": "马杜罗",
+      "type": "person",
+      "context": "委内瑞拉领导人，其执政导致石油产量崩塌",
+      "importance": "low"
+    },
+    {
+      "name": "阿萨德",
+      "type": "person",
+      "context": "叙利亚前领导人，已倒台",
+      "importance": "medium"
+    },
+    {
+      "name": "阿维罗伊",
+      "type": "person",
+      "context": "伊斯兰政治哲学家，沙特留学生被禁止学习的课程作者",
+      "importance": "low"
+    },
+    {
+      "name": "阿法拉比",
+      "type": "person",
+      "context": "伊斯兰政治哲学家，沙特留学生被禁止学习的课程作者",
+      "importance": "low"
+    },
+    {
+      "name": "萨巴赫家族",
+      "type": "organization",
+      "context": "科威特统治家族，接待播客主进行学术访问",
+      "importance": "medium"
+    },
+    {
+      "name": "纳赫扬家族",
+      "type": "organization",
+      "context": "阿布扎比统治家族，长期出任阿联酋总统",
+      "importance": "medium"
+    },
+    {
+      "name": "穆斯林兄弟会",
+      "type": "organization",
+      "context": "极端伊斯兰主义组织，曾被沙特驱逐，现被王储召回用于煽动反阿联酋叙事",
+      "importance": "high"
+    },
+    {
+      "name": "哈马斯",
+      "type": "organization",
+      "context": "巴勒斯坦武装组织，遭以色列重创，受卡塔尔深度资助",
+      "importance": "medium"
+    },
+    {
+      "name": "真主党",
+      "type": "organization",
+      "context": "黎巴嫩什叶派武装，抵抗轴心组成部分",
+      "importance": "medium"
+    },
+    {
+      "name": "OPEC/石油输出国组织",
+      "type": "organization",
+      "context": "石油联盟，过去20年权力因美国增产而下降",
+      "importance": "medium"
+    },
+    {
+      "name": "半岛电视台/Al Jazeera",
+      "type": "work",
+      "context": "卡塔尔拥有的跨国阿拉伯语媒体平台，在西方左派中有公信力",
+      "importance": "high"
+    },
+    {
+      "name": "Vogue Arabia",
+      "type": "work",
+      "context": "时尚杂志阿拉伯版，总部在阿联酋，沙特开放时期西方明星受邀拍摄",
+      "importance": "low"
+    },
+    {
+      "name": "2030愿景/Vision 2030",
+      "type": "concept",
+      "context": "沙特经济多元化计划，减少对石油依赖，发展旅游业",
+      "importance": "high"
+    },
+    {
+      "name": "亚伯拉罕协议/Abraham Accords",
+      "type": "event",
+      "context": "2020年签署的以阿关系正常化协议，标志温和阿拉伯政治轴心高峰",
+      "importance": "high"
+    },
+    {
+      "name": "阿拉伯之春",
+      "type": "event",
+      "context": "2011年后沙特阿联酋共同支持反革命",
+      "importance": "medium"
+    },
+    {
+      "name": "2017年卡塔尔外交危机",
+      "type": "event",
+      "context": "沙特联合多国制裁卡塔尔，播客主当时在多哈实习",
+      "importance": "high"
+    },
+    {
+      "name": "加沙战争",
+      "type": "event",
+      "context": "过去两年削弱抵抗轴心的军事行动",
+      "importance": "high"
+    },
+    {
+      "name": "抵抗轴心/Axis of Resistance",
+      "type": "concept",
+      "context": "连接伊朗、真主党、叙利亚、巴勒斯坦民兵的非国家武装网络，已被大幅削弱",
+      "importance": "high"
+    },
+    {
+      "name": "影响力口袋/Pocket of Influence",
+      "type": "concept",
+      "context": "阿联酋在冲突地带寻求的局部控制点，用于优化物流走廊",
+      "importance": "medium"
+    },
+    {
+      "name": "走廊战略",
+      "type": "concept",
+      "context": "阿联酋地区权力基础，通过控制供应链、物流、投资流向获得影响力",
+      "importance": "high"
+    },
+    {
+      "name": "象征资本",
+      "type": "concept",
+      "context": "沙特凭借麦加麦地那圣地获得的宗教话语权和道德裁判权",
+      "importance": "high"
+    },
+    {
+      "name": "自由主义国际秩序",
+      "type": "concept",
+      "context": "冷战后美国主导的规则体系，正在中东消退",
+      "importance": "high"
+    },
+    {
+      "name": "后自由主义国际秩序",
+      "type": "concept",
+      "context": "当前现实运行环境，不再给予自由主义式合理化",
+      "importance": "high"
+    },
+    {
+      "name": "中等强国竞争",
+      "type": "concept",
+      "context": "播客主预测的未来中东格局，各国以比较优势角逐地区霸权",
+      "importance": "high"
+    },
+    {
+      "name": "多哈",
+      "type": "place",
+      "context": "卡塔尔首都，播客主2017年实习地点，伊斯兰艺术博物馆所在地",
+      "importance": "medium"
+    },
+    {
+      "name": "利雅得",
+      "type": "place",
+      "context": "沙特首都，叙利亚领导人被带去与特朗普握手之地",
+      "importance": "medium"
+    },
+    {
+      "name": "迪拜",
+      "type": "place",
+      "context": "阿联酋第二大酋长国，无自然资源，以高端旅游和金融吸引西方资本",
+      "importance": "medium"
+    },
+    {
+      "name": "阿布扎比",
+      "type": "place",
+      "context": "阿联酋最大酋长国，真正政治和资源中心，纳赫扬家族统治",
+      "importance": "medium"
+    },
+    {
+      "name": "沙迦",
+      "type": "place",
+      "context": "阿联酋第三大酋长国，宗教保守，与迪拜开放风格截然不同",
+      "importance": "medium"
+    },
+    {
+      "name": "麦加/Mecca",
+      "type": "place",
+      "context": "伊斯兰教第一圣地，沙特象征资本核心来源",
+      "importance": "high"
+    },
+    {
+      "name": "麦地那/Medina",
+      "type": "place",
+      "context": "伊斯兰教第二圣地，沙特象征资本核心来源",
+      "importance": "high"
+    },
+    {
+      "name": "伊斯兰艺术博物馆",
+      "type": "organization",
+      "context": "播客主2017年在多哈实习工作的机构",
+      "importance": "low"
+    },
+    {
+      "name": "四季酒店",
+      "type": "organization",
+      "context": "沙特权贵之子留学生在美国租住的高档酒店",
+      "importance": "low"
+    },
+    {
+      "name": "乔治城大学",
+      "type": "organization",
+      "context": "卡塔尔投资开设分校的美国精英大学之一",
+      "importance": "low"
+    },
+    {
+      "name": "康奈尔大学",
+      "type": "organization",
+      "context": "卡塔尔投资开设分校的美国精英大学之一",
+      "importance": "low"
+    },
+    {
+      "name": "牛津大学",
+      "type": "organization",
+      "context": "卡塔尔投资的英国精英大学",
+      "importance": "low"
+    },
+    {
+      "name": "国王学院",
+      "type": "organization",
+      "context": "卡塔尔投资的英国精英大学",
+      "importance": "low"
+    },
+    {
+      "name": "沙特留基委",
+      "type": "organization",
+      "context": "管理沙特留学生的政府机构，对课表审批严格",
+      "importance": "medium"
+    },
+    {
+      "name": "USAID",
+      "type": "organization",
+      "context": "美国国际开发署，被特朗普政府宣布退出",
+      "importance": "low"
+    },
+    {
+      "name": "北约",
+      "type": "organization",
+      "context": "土耳其所属军事联盟，土耳其在其与俄罗斯之间周旋",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "696eaecdef1cf272a750645c",
+  "title": "292-阿拉伯海湾局势发生了怎样的变动？"
+}

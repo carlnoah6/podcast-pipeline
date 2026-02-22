@@ -1,0 +1,333 @@
+{
+  "style": {
+    "opening_pattern": "以行业内部人的身份切入，通过个人经历（收到编辑邮件、与编辑交往）建立可信度，然后抛出核心观点——中美出版业都是'难兄难弟'",
+    "structure": "个人经历引入→数据对比（中美vs德意市场）→美国出版业二元结构（大众/学术）→学术出版社的衰落史→敏感审核员现象的兴起→具体案例分析（赵文事件、Goodreads现象）→中国对照案例（巴特勒中译本）→作家培养机制变化→经典案例（哈利波特、搏击俱乐部）的命运反转→哲学升华结尾",
+    "tone": "理性批判中带有机智反讽，知识密度高但口语化，既有学院派的分析深度又有播客的轻松感，频繁使用'对吧''嘛''说白了'等口语缓冲词",
+    "catchphrases": [
+      "对吧",
+      "嘛",
+      "说白了",
+      "难兄难弟",
+      "草台班子",
+      "圣徒社会",
+      "比烂",
+      "爱卷的牛马",
+      "拾美国人的牙慧",
+      "美白化奴隶制"
+    ],
+    "closing_pattern": "引用尼采、本雅明、柏拉图的历史命运作结，以'文明的火光'隐喻收束，形成从具体行业分析到文明哲思的升华",
+    "narrative_techniques": [
+      "类比（中美编辑为'难兄难弟'、印尼语编辑的极端对比）",
+      "反问（'美国不是一个自由国家吗'）",
+      "举例（博导50年前的编辑vs现在的印度电话客服）",
+      "对比（哈利波特被左右两翼先后抵制、搏击俱乐部的命运反转）",
+      "引用权威（涂尔干的'圣徒社会'）",
+      "自我克制式转折（'OK我必须要自我克制'）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "刘擎",
+      "type": "person",
+      "context": "作为在中国能卖出学术书的'特别有名的学者'例子，与福山、桑德尔、帕特南并列",
+      "importance": "low"
+    },
+    {
+      "name": "李猛",
+      "type": "person",
+      "context": "作为在中国能卖出学术书的'特别有名的学者'例子",
+      "importance": "low"
+    },
+    {
+      "name": "福山（Francis Fukuyama）",
+      "type": "person",
+      "context": "作为国际知名学者，其书能被普通读者购买阅读的例子",
+      "importance": "low"
+    },
+    {
+      "name": "桑德尔（Michael Sandel）",
+      "type": "person",
+      "context": "作为国际知名学者，其书能被普通读者购买阅读的例子",
+      "importance": "low"
+    },
+    {
+      "name": "帕特南（Robert Putnam）",
+      "type": "person",
+      "context": "作为国际知名学者，其书能被普通读者购买阅读的例子",
+      "importance": "low"
+    },
+    {
+      "name": "普鲁塔克（Plutarch）",
+      "type": "work",
+      "context": "播主翻译的古希腊语到中文的译著，三个月卖了25000册，远超学术书销量",
+      "importance": "medium"
+    },
+    {
+      "name": "阿里斯托芬（Aristophanes）",
+      "type": "person",
+      "context": "古希腊喜剧作家，系里讲座教授研究其学术书籍只赚了不到500美元",
+      "importance": "low"
+    },
+    {
+      "name": "尼采（Friedrich Nietzsche）",
+      "type": "person",
+      "context": "作为例子说明书的价值与销量无关，在世时《曙光》只卖40多本；被德国古典学界驱逐；结尾处作为文明火种的象征",
+      "importance": "high"
+    },
+    {
+      "name": "《曙光》（Morgenröte/Daybreak）",
+      "type": "work",
+      "context": "尼采中期作品，在世期间仅售出40多本，但价值极高",
+      "importance": "medium"
+    },
+    {
+      "name": "企鹅兰登（Penguin Random House）",
+      "type": "organization",
+      "context": "美国五大出版社之一，垄断市场最重要最盈利的书籍出版",
+      "importance": "medium"
+    },
+    {
+      "name": "HarperCollins",
+      "type": "organization",
+      "context": "美国五大出版社之一",
+      "importance": "low"
+    },
+    {
+      "name": "Simon & Schuster",
+      "type": "organization",
+      "context": "美国五大出版社之一",
+      "importance": "low"
+    },
+    {
+      "name": "Hachette",
+      "type": "organization",
+      "context": "美国五大出版社之一（原文拼写为Hatchet有误）",
+      "importance": "low"
+    },
+    {
+      "name": "Macmillan",
+      "type": "organization",
+      "context": "美国五大出版社之一",
+      "importance": "low"
+    },
+    {
+      "name": "牛津大学出版社（Oxford University Press）",
+      "type": "organization",
+      "context": "西方学术出版社第一梯队，能自负盈亏",
+      "importance": "medium"
+    },
+    {
+      "name": "剑桥大学出版社（Cambridge University Press）",
+      "type": "organization",
+      "context": "西方学术出版社第一梯队",
+      "importance": "medium"
+    },
+    {
+      "name": "普林斯顿大学出版社（Princeton University Press）",
+      "type": "organization",
+      "context": "西方学术出版社第一梯队",
+      "importance": "medium"
+    },
+    {
+      "name": "哈佛大学出版社（Harvard University Press）",
+      "type": "organization",
+      "context": "西方学术出版社第一梯队，编辑不再会德语无法修订康德书稿",
+      "importance": "high"
+    },
+    {
+      "name": "芝加哥大学出版社（University of Chicago Press）",
+      "type": "organization",
+      "context": "学术出版社第二梯队",
+      "importance": "low"
+    },
+    {
+      "name": "麻省理工出版社（MIT Press）",
+      "type": "organization",
+      "context": "学术出版社第二梯队",
+      "importance": "low"
+    },
+    {
+      "name": "耶鲁大学出版社（Yale University Press）",
+      "type": "organization",
+      "context": "学术出版社第二梯队",
+      "importance": "low"
+    },
+    {
+      "name": "多伦多大学出版社（University of Toronto Press）",
+      "type": "organization",
+      "context": "播主博导50年前出版第一本书的地方，当时编辑学富五车",
+      "importance": "medium"
+    },
+    {
+      "name": "浙江大学",
+      "type": "organization",
+      "context": "政治系要求教师在英美四大学术出版社出专著，要求比哈佛拿终身教职更高",
+      "importance": "medium"
+    },
+    {
+      "name": "海德格尔（Martin Heidegger）",
+      "type": "person",
+      "context": "写出《存在与时间》后仍是临时讲师，若未因二战流亡在德国找不到工作",
+      "importance": "medium"
+    },
+    {
+      "name": "《存在与时间》（Sein und Zeit/Being and Time）",
+      "type": "work",
+      "context": "海德格尔的代表作，但未能帮助他在德国学界获得稳定职位",
+      "importance": "medium"
+    },
+    {
+      "name": "本雅明（Walter Benjamin）",
+      "type": "person",
+      "context": "博士论文被骂'这是什么鬼'，拿不到博士学位，若未流亡在德国找不到工作；结尾作为文明火种象征",
+      "importance": "medium"
+    },
+    {
+      "name": "阿伦特（Hannah Arendt）",
+      "type": "person",
+      "context": "若纳粹未上台将其赶出，在德国找不到教职",
+      "importance": "medium"
+    },
+    {
+      "name": "弗洛伊德事件（George Floyd protests）",
+      "type": "event",
+      "context": "2020年前后，敏感审核员职业急剧责任化的社会背景",
+      "importance": "medium"
+    },
+    {
+      "name": "敏感审核员（sensitivity readers）",
+      "type": "concept",
+      "context": "2010年代初出现、2020年后急剧责任化的新兴职业，负责审核手稿删除冒犯性内容",
+      "importance": "high"
+    },
+    {
+      "name": "Adam Stella",
+      "type": "person",
+      "context": "康奈尔英文系博士，2025年8月出版《That Book Is Dangerous》研究美国出版业变动",
+      "importance": "high"
+    },
+    {
+      "name": "《That Book Is Dangerous》（那本书有点危险）",
+      "type": "work",
+      "context": "Adam Stella的新书，采访五大出版社人员及敏感审核员讨论出版业变动",
+      "importance": "high"
+    },
+    {
+      "name": "赵文（Emily Wen Zhao）",
+      "type": "person",
+      "context": "华裔青年女作家，2019年《Blood Air》因描绘与肤色无关的奴隶制被指控'美白化奴隶制'，出版计划被取消",
+      "importance": "high"
+    },
+    {
+      "name": "《Blood Air》（雪记者）",
+      "type": "work",
+      "context": "赵文的奇幻小说，因简介中'与肤色无关的奴隶制'设定引发争议，经敏感审核员修改后才上市",
+      "importance": "high"
+    },
+    {
+      "name": "契约劳工制度",
+      "type": "concept",
+      "context": "赵文实际想写的中国历史制度，与美国奴隶制无关但被误读为挪用黑人经验",
+      "importance": "medium"
+    },
+    {
+      "name": "Goodreads（美国豆瓣）",
+      "type": "organization",
+      "context": "社交媒体平台，用户可在书未出版前打分评论，成为'评论炸弹'（review bomb）的发源地",
+      "importance": "high"
+    },
+    {
+      "name": "评论炸弹（review bomb）",
+      "type": "concept",
+      "context": "进步极左网友在Goodreads上联合给书打一星，导致书籍被取消出版的现象",
+      "importance": "high"
+    },
+    {
+      "name": "《American Dirt》",
+      "type": "work",
+      "context": "因争议被取消出版的案例，作者受到死亡威胁",
+      "importance": "medium"
+    },
+    {
+      "name": "Judith Butler（朱迪斯·巴特勒）",
+      "type": "person",
+      "context": "著名酷儿研究者，《谁在害怕性别》中文版译者因性别代称问题被豆瓣网友攻击",
+      "importance": "medium"
+    },
+    {
+      "name": "《谁在害怕性别》（Who's Afraid of Gender?）",
+      "type": "work",
+      "context": "巴特勒著作，中文版未上市就在豆瓣被铺天盖地打一星，因出版社简介用错性别代称",
+      "importance": "medium"
+    },
+    {
+      "name": "涂尔干/杜尔凯姆（Émile Durkheim）",
+      "type": "person",
+      "context": "二十世纪社会学家，其'圣徒社会'（society of saints）概念被用来形容当代网络环境",
+      "importance": "medium"
+    },
+    {
+      "name": "圣徒社会（society of saints）",
+      "type": "concept",
+      "context": "涂尔干的概念，指圣徒们捕猎不够纯洁的人，比喻当代进步派内部的相互清算",
+      "importance": "high"
+    },
+    {
+      "name": "创意写作MFA（Master of Fine Arts in Creative Writing）",
+      "type": "concept",
+      "context": "当代美国作家更常见的培养路径，通过大学文学杂志发表进入作家圈",
+      "importance": "medium"
+    },
+    {
+      "name": "The Point",
+      "type": "work",
+      "context": "芝加哥的文学杂志，发文章的都是同一类学术轨道生产出来的人",
+      "importance": "low"
+    },
+    {
+      "name": "The Yale Review",
+      "type": "work",
+      "context": "耶鲁的文学杂志，发文章的都是同一类学术轨道生产出来的人",
+      "importance": "low"
+    },
+    {
+      "name": "《哈利波特》（Harry Potter）",
+      "type": "work",
+      "context": "2003年前后被基督教保守派抵制焚烧，近十年因JK罗琳跨性别言论被进步派烧书，命运180度反转的案例",
+      "importance": "high"
+    },
+    {
+      "name": "JK罗琳（J.K. Rowling）",
+      "type": "person",
+      "context": "因跨性别言论被曾经的粉丝和电影演员割席，其书被两个完全相反的群体先后抵制",
+      "importance": "high"
+    },
+    {
+      "name": "《搏击俱乐部》（Fight Club）",
+      "type": "work",
+      "context": "出版时被左翼青年奉为反资本主义偶像之书，近年被标签为另类右翼经典、有毒男性气质证据，命运与哈利波特相反的案例",
+      "importance": "high"
+    },
+    {
+      "name": "西雅图反全球化抗议",
+      "type": "event",
+      "context": "1999年左右的左翼运动浪潮，《搏击俱乐部》当时被理解为对系统的反抗",
+      "importance": "medium"
+    },
+    {
+      "name": "有毒男性气质（toxic masculinity）",
+      "type": "concept",
+      "context": "2020年后觉醒左翼对《搏击俱乐部》男性气质的批评标签",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图（Plato）",
+      "type": "person",
+      "context": "结尾作为文明火种在漫长中世纪仍未熄灭的象征",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "6915363ccbba038b424b3a38",
+  "title": "276-美国出版界如何审核书籍？"
+}
