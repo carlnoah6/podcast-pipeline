@@ -1,0 +1,350 @@
+{
+  "style": {
+    "opening_pattern": "以时事介入声明开场，先说明自己通常不讨论时事，但因中文语境中'不着调的声音太多'而不得不介入",
+    "structure": "核心结论前置→历史背景铺垫（特朗普与建制派的斗争）→人物介绍（万斯）→世界观逐层展开（经济哲学→科技批判→外交政策→内政预测）→内部张力提示（宗教分歧）→结尾",
+    "tone": "理性客观中带个人权威感，强调第一手观察（'我认识''我聊过'），对主流分析持批评态度（'皮毛''不着调'）",
+    "catchphrases": [
+      "我跟大家坦白一下",
+      "我们可以这么说吧",
+      "我觉得",
+      "对吧",
+      "大家知道",
+      "我们去看",
+      "我想说的是",
+      "从这个角度来看",
+      "我刚才说的",
+      "OK"
+    ],
+    "closing_pattern": "场景化收尾（透露自己正在开会、喝酒谈笑间录制），制造即兴感和亲密感",
+    "narrative_techniques": [
+      "对比（新右派vs老右派/特朗普本人）",
+      "引用直接对话（'他们会跟我说'）",
+      "自我指涉（多次引用自己往期播客）",
+      "具体案例切入（万斯《乡下人悲歌》出版时机）",
+      "设问自答"
+    ]
+  },
+  "entities": [
+    {
+      "name": "J.D. Vance（万斯）",
+      "type": "person",
+      "context": "特朗普2024年副总统人选，新右派代表人物，《乡下人悲歌》作者，被主播视为'智识上的特朗普主义'的核心载体",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普/Donald Trump",
+      "type": "person",
+      "context": "新右派借助其完成政治转变的人物，但主播强调新右派有独立于特朗普的完整世界观，特朗普本人'不信奉什么特朗普主义'",
+      "importance": "high"
+    },
+    {
+      "name": "《乡下人悲歌》（Hillbilly Elegy）",
+      "type": "work",
+      "context": "万斯2016年出版的回忆录，描绘美国白穷人困境，主播强调其出版于特朗普崛起之前，证明万斯的感知独立于特朗普",
+      "importance": "high"
+    },
+    {
+      "name": "新右派/New Right",
+      "type": "concept",
+      "context": "主播核心分析对象，又称'智识上的特朗普主义'，主张保护主义、反科技垄断、工人阶级优先，与老右派自由贸易立场针锋相对",
+      "importance": "high"
+    },
+    {
+      "name": "老右派/建制派共和党/Establishment Republicans",
+      "type": "organization",
+      "context": "传统共和党势力，支持自由贸易、减税、关注资本阶级，代表人物包括布什家族、罗姆尼等，已被新右派取代主流地位",
+      "importance": "high"
+    },
+    {
+      "name": "American Compass（美国指南针）",
+      "type": "organization",
+      "context": "新右派智库，万斯曾工作于此，专注于培养实现新右派世界观的人才",
+      "importance": "medium"
+    },
+    {
+      "name": "Bill Kristol（比尔·克里斯托）",
+      "type": "person",
+      "context": "共和党建制派著名人物，激烈反对新右派，称支持万斯的人为'不折不扣的法西斯主义者'",
+      "importance": "medium"
+    },
+    {
+      "name": "Liz Cheney（莉兹·切尼）",
+      "type": "person",
+      "context": "国会内反对特朗普最鲜明的共和党人，谴责1月6日事件，称万斯比彭斯更危险，认为新右派'不相信宪法'",
+      "importance": "medium"
+    },
+    {
+      "name": "彭斯/Mike Pence",
+      "type": "person",
+      "context": "特朗普2016年副总统，代表老右派/建制派，与万斯形成新旧对比",
+      "importance": "medium"
+    },
+    {
+      "name": "罗姆尼/Mitt Romney",
+      "type": "person",
+      "context": "老右派精英代表，主张与中国自由贸易，被主播用作与万斯平民视角对比的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "Amy Chua（蔡美儿/虎妈）",
+      "type": "person",
+      "context": "万斯在耶鲁法学院时的导师，'亚洲虎妈'，侧面说明万斯的精英教育背景",
+      "importance": "low"
+    },
+    {
+      "name": "George McGovern",
+      "type": "person",
+      "context": "1968年后推动民主党初选民主化的关键人物，主播用此解释为何2016年共和党精英无法阻止特朗普出线",
+      "importance": "low"
+    },
+    {
+      "name": "Tucker Carlson（塔克·卡尔森）",
+      "type": "person",
+      "context": "被Bill Kristol点名的新右派媒体人物，支持万斯",
+      "importance": "low"
+    },
+    {
+      "name": "马斯克/Elon Musk",
+      "type": "person",
+      "context": "被Bill Kristol列为支持万斯的'法西斯主义者'之一，代表科技资本与新右派的复杂关系",
+      "importance": "low"
+    },
+    {
+      "name": "Peter Thiel（蒂尔）",
+      "type": "person",
+      "context": "硅谷投资人，被Bill Kristol点名的新右派支持者",
+      "importance": "low"
+    },
+    {
+      "name": "David Sacks",
+      "type": "person",
+      "context": "被Bill Kristol点名的新右派支持者",
+      "importance": "low"
+    },
+    {
+      "name": "Doug Burgum",
+      "type": "person",
+      "context": "北卡罗来纳州州长，主播提及的新右派政客代表",
+      "importance": "low"
+    },
+    {
+      "name": "史蒂夫·班农/Steve Bannon",
+      "type": "person",
+      "context": "与万斯一起做播客，万斯在其节目中发表'不关心乌克兰'的争议言论",
+      "importance": "low"
+    },
+    {
+      "name": "肖恩·欧布莱恩/Sean O'Brien",
+      "type": "person",
+      "context": "卡车司机工会主席，被特朗普邀请在共和党全国代表大会闭幕，体现新右派对劳工的重视",
+      "importance": "low"
+    },
+    {
+      "name": "林肯/Abraham Lincoln",
+      "type": "person",
+      "context": "新右派援引的历史先例，证明共和党传统上是保护主义者而非自由贸易者",
+      "importance": "low"
+    },
+    {
+      "name": "泰迪·罗斯福/Theodore Roosevelt",
+      "type": "person",
+      "context": "新右派援引的历史先例，作为美国国内工业保护主义者",
+      "importance": "low"
+    },
+    {
+      "name": "艾森豪威尔/Dwight D. Eisenhower",
+      "type": "person",
+      "context": "新右派援引的历史先例",
+      "importance": "low"
+    },
+    {
+      "name": "里根/Ronald Reagan",
+      "type": "person",
+      "context": "被新老右派共同争夺的历史符号，新右派强调其保护主义一面，Liz Cheney则强调其代表'伟大的共和党'",
+      "importance": "low"
+    },
+    {
+      "name": "奥巴马/Barack Obama",
+      "type": "person",
+      "context": "作为中间偏左代表，被新右派批评为天真相信科技行业'双赢'",
+      "importance": "low"
+    },
+    {
+      "name": "克林顿/Bill Clinton",
+      "type": "person",
+      "context": "作为中间偏左代表，被新右派批评",
+      "importance": "low"
+    },
+    {
+      "name": "希拉里/Hillary Clinton",
+      "type": "person",
+      "context": "被主播用作对比——'笑眯眯来北京宣传女权主义的希拉里'，暗示新右派外交风格将截然不同",
+      "importance": "low"
+    },
+    {
+      "name": "基督教民族主义/Christian nationalism",
+      "type": "concept",
+      "context": "新右派内部存在激烈辩论的分歧点，万斯等虔诚天主教徒与社会保守主义者 vs 纯粹民粹主义者",
+      "importance": "medium"
+    },
+    {
+      "name": "保护主义/Protectionism",
+      "type": "concept",
+      "context": "新右派经济核心主张，包括增加关税、维护美国工业基础、平衡贸易",
+      "importance": "high"
+    },
+    {
+      "name": "孤立主义/Isolationism",
+      "type": "concept",
+      "context": "欧洲人对新右派外交政策的担忧标签，但主播认为更准确说是'战略收缩'或'利益优先排序'",
+      "importance": "medium"
+    },
+    {
+      "name": "阿片类药物危机",
+      "type": "event",
+      "context": "2012-2016年间美国社会问题之一，被主播作为新右派敏锐捕捉到的美国'出错'迹象",
+      "importance": "medium"
+    },
+    {
+      "name": "2016年大选",
+      "type": "event",
+      "context": "特朗普崛起、万斯出书的关键时间节点，标志美国社会情绪转变",
+      "importance": "medium"
+    },
+    {
+      "name": "1968年民主党改革",
+      "type": "event",
+      "context": "McGovern推动初选民主化，主播用此解释为何2016年共和党精英无法阻止特朗普",
+      "importance": "low"
+    },
+    {
+      "name": "2021年1月6日国会山事件",
+      "type": "event",
+      "context": "Liz Cheney据此谴责特朗普，成为她反对新右派的标志性立场",
+      "importance": "low"
+    },
+    {
+      "name": "俄亥俄州",
+      "type": "place",
+      "context": "万斯童年所在地，'铁锈带'代表，美国白穷人困境的象征",
+      "importance": "medium"
+    },
+    {
+      "name": "硅谷/Silicon Valley",
+      "type": "place",
+      "context": "万斯曾工作的风险投资之地，现为新右派批判的'虚拟繁荣'和'社会害虫'来源地",
+      "importance": "medium"
+    },
+    {
+      "name": "华尔街",
+      "type": "place",
+      "context": "新右派批判的金融投机中心，与实体经济对立",
+      "importance": "low"
+    },
+    {
+      "name": "乌克兰",
+      "type": "place",
+      "context": "新右派希望减少投入的地区，万斯'不关心乌克兰'言论引发争议",
+      "importance": "medium"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "新右派认定的美国最大战略威胁，敌意增加但主播认为不等于战争不可避免",
+      "importance": "high"
+    },
+    {
+      "name": "北约/NATO",
+      "type": "organization",
+      "context": "新右派批评盟国'搭便车'，主张明确责任界定，减少无条件承诺",
+      "importance": "medium"
+    },
+    {
+      "name": "脸书/Facebook（Meta）",
+      "type": "organization",
+      "context": "新右派批判的科技巨头代表，被指平台垄断、制造上瘾产品、与实体经济脱节",
+      "importance": "medium"
+    },
+    {
+      "name": "谷歌/Google",
+      "type": "organization",
+      "context": "新右派批判的科技巨头代表，被指垄断广告市场获取巨额租金",
+      "importance": "medium"
+    },
+    {
+      "name": "亚马逊/Amazon",
+      "type": "organization",
+      "context": "被新右派列为标普500增长掩盖经济问题的几大巨头之一",
+      "importance": "low"
+    },
+    {
+      "name": "英伟达/NVIDIA",
+      "type": "organization",
+      "context": "被新右派列为标普500增长掩盖经济问题的几大巨头之一",
+      "importance": "low"
+    },
+    {
+      "name": "特斯拉/Tesla",
+      "type": "organization",
+      "context": "被新右派列为标普500增长掩盖经济问题的几大巨头之一",
+      "importance": "low"
+    },
+    {
+      "name": "卡车司机工会",
+      "type": "organization",
+      "context": "其主席被特朗普邀请在共和党大会发言，体现新右派对有组织劳工的态度转变",
+      "importance": "low"
+    },
+    {
+      "name": "耶鲁法学院",
+      "type": "organization",
+      "context": "万斯摆脱贫困后的教育经历，证明其'知识精英'身份",
+      "importance": "low"
+    },
+    {
+      "name": "Never Trumper（永不特朗普派）",
+      "type": "organization",
+      "context": "共和党建制派中的反特朗普势力，已被边缘化",
+      "importance": "low"
+    },
+    {
+      "name": "自由主义/Liberalism",
+      "type": "concept",
+      "context": "新右派明确反对的意识形态，包括经济自由主义和全球化自由主义",
+      "importance": "medium"
+    },
+    {
+      "name": "民粹主义/Populism",
+      "type": "concept",
+      "context": "新右派从知识分子转向的身份，但与特朗普的'没头没脑'不同，强调有明确哲学理念",
+      "importance": "medium"
+    },
+    {
+      "name": "反垄断法",
+      "type": "concept",
+      "context": "新右派主张用于监管科技巨头的工具，目标是创造真正竞争",
+      "importance": "medium"
+    },
+    {
+      "name": "平衡贸易/Balanced trade",
+      "type": "concept",
+      "context": "新右派贸易政策核心，关注进出口比例平衡而非自由贸易",
+      "importance": "medium"
+    },
+    {
+      "name": "最低工资",
+      "type": "concept",
+      "context": "新右派积极倡导提高，与传统共和党议程相反",
+      "importance": "medium"
+    },
+    {
+      "name": "S&P 500（标普500指数）",
+      "type": "other",
+      "context": "新右派批判的经济指标，认为其增长由少数科技巨头驱动，掩盖普通工人未受益的真相",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "669ad1a337236c546e64ef7a",
+  "title": "87-美国新右派的政治诉求是什么？"
+}

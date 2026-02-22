@@ -1,0 +1,139 @@
+{
+  "style": {
+    "opening_pattern": "以方法论自白引入，先解释自己上一集使用的'远距离调侃'策略，再突然转折揭示本集将采用完全相反的'近距离引爆'策略",
+    "structure": "方法论铺垫→两个典型案例详细描绘（Gamergate事件+ContraPoints网暴事件）→三个核心观察层层递进（受害者心态→inaction vs action→狂热的循环）",
+    "tone": "高度自我意识的智识冒险，兼具挑衅性与反思性，在危险边缘跳舞的紧张感与哲学分析的冷静交织",
+    "catchphrases": [
+      "把纵轴拉远 横轴拉宽",
+      "充满了氢气的气球",
+      "跳梁小丑",
+      "地雷区疯狂的起舞",
+      "乌烟瘴气",
+      "回音室",
+      "食尸狼和蟑螂",
+      "粪便大赛",
+      "You are what you do"
+    ],
+    "closing_pattern": "引用名言式收束（\"Don't let your hatred of fanaticism become a new kind of fanaticism\"），并以复仇主题的历史普遍性作结，开放式留白",
+    "narrative_techniques": [
+      "自我指涉的元叙事（不断解释自己在做什么）",
+      "类比（氢气球、食尸狼、粪便大赛）",
+      "历史对照（2014年美国vs当下中国）",
+      "极端案例选取（两个'不可理喻'的网暴事件）",
+      "反讽自嘲（主动认领'跳梁小丑''智障'标签）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Gamergate",
+      "type": "event",
+      "context": "2014年10月美国爆发的第一场大规模互联网文化战争，电子游戏玩家针对女权主义者的有组织网暴，被视为当代互联网骚扰现象的鼻祖",
+      "importance": "high"
+    },
+    {
+      "name": "Zoe Quinn",
+      "type": "person",
+      "context": "独立游戏设计师，因制作《Depression Quest》被前男友曝光私生活后成为Gamergate主要攻击目标，个人信息和裸照被黑客公布",
+      "importance": "medium"
+    },
+    {
+      "name": "Anita Sarkeesian",
+      "type": "person",
+      "context": "女权主义媒体评论员，因批评电子游戏中女性角色刻板印象而遭到Gamergate参与者的大规模骚扰和死亡威胁",
+      "importance": "medium"
+    },
+    {
+      "name": "Depression Quest",
+      "type": "work",
+      "context": "Zoe Quinn制作的关于年轻人抑郁症的免费游戏，被游戏评论员称赞后引发争议，成为Gamergate导火索之一",
+      "importance": "medium"
+    },
+    {
+      "name": "Adam Baldwin",
+      "type": "person",
+      "context": "保守派演员，在极右翼杂志Breitbart发表文章《Feminist Bullies Tearing The Video Game Industry Apart》，推动Gamergate进入公众视野",
+      "importance": "low"
+    },
+    {
+      "name": "Breitbart",
+      "type": "organization",
+      "context": "极右翼杂志，Adam Baldwin发表支持Gamergate文章的媒体平台",
+      "importance": "low"
+    },
+    {
+      "name": "ContraPoints",
+      "type": "person",
+      "context": "西北大学哲学博士、YouTube哲学网红，跨性别女性，因使用代词时的尴尬态度和对transmedicalism的立场被进步阵营内部网暴",
+      "importance": "high"
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez (AOC)",
+      "type": "person",
+      "context": "美国国会最左翼众议员之一，ContraPoints投票支持的政治人物，用以说明其进步立场之绝对",
+      "importance": "low"
+    },
+    {
+      "name": "Ron DeSantis",
+      "type": "person",
+      "context": "佛罗里达州州长，2024年共和党初选中试图讨好alt-right游戏玩家群体而在推特发抽象表情包，结果沦为笑柄且未获选票增长",
+      "importance": "medium"
+    },
+    {
+      "name": "埃隆·马斯克 (Elon Musk)",
+      "type": "person",
+      "context": "被描述为当代互联网游戏玩家/alt-right群体真正的偶像，其发推风格（黑话、阴阳怪气）代表该群体的审美",
+      "importance": "medium"
+    },
+    {
+      "name": "另类右翼/alt-right",
+      "type": "concept",
+      "context": "2014年左右崛起的全新右翼势力，无确定政治理念，反对多元文化和政治正确，支持特朗普，以互联网为主要活动场域",
+      "importance": "high"
+    },
+    {
+      "name": "新右翼/New Right",
+      "type": "concept",
+      "context": "以万斯为代表的右翼势力，主要来自经济欠发达地区蓝领工人，关注移民和经济议题，与alt-right游戏玩家群体形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "transmedicalism",
+      "type": "concept",
+      "context": "认为必须通过手术改变身体才能称为跨性别者的观点，在当代西方跨性别群体中被视为'恐跨'思想，是ContraPoints被攻击的核心议题",
+      "importance": "medium"
+    },
+    {
+      "name": "婚驴",
+      "type": "concept",
+      "context": "中文激进女权对已婚女性的侮辱性称呼，与'岁静人''宝妈''冷脸洗内裤'等并列为攻击不够激进进步人士的话术",
+      "importance": "medium"
+    },
+    {
+      "name": "回音室/echo chamber",
+      "type": "concept",
+      "context": "互联网政治的核心特征，群体在浓度越来越高的封闭空间中聚集，切断与外部世界的连接能力，导致狂热化",
+      "importance": "high"
+    },
+    {
+      "name": "受害者心态",
+      "type": "concept",
+      "context": "互联网政治参与者的共同心理特征：在具体伤害发生前已将自己想象为被抽象系统/文化压迫的绝对受害者，从而获得攻击他人的道德正当性",
+      "importance": "high"
+    },
+    {
+      "name": "inaction vs action",
+      "type": "concept",
+      "context": "互联网政治与传统政治的根本区别：前者通向不行动，无法带来妥协；后者通向具体政治行动，必然产生妥协",
+      "importance": "high"
+    },
+    {
+      "name": "Revenge/复仇",
+      "type": "concept",
+      "context": "用历史普遍性框架解释互联网狂热现象——对狂热观点的健康厌恶可能转化为新的盲目狂热，占据生活的复仇欲望使人面目全非",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "671a7a1cd68949d1b89a69a1",
+  "title": "125-互联网政治现象和传统政治有什么不同"
+}

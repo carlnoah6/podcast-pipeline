@@ -1,0 +1,296 @@
+{
+  "style": {
+    "opening_pattern": "直接提出问题，以核心议题'中国人的左右之分为何如此乱七八糟'开场，并立即描绘当代中文语境中两种普遍的混乱态度",
+    "structure": "问题引入→现象描述（两种态度）→历史溯源（西方左右起源）→中国特殊性分析（三股左派思潮）→中西对比→总结观点",
+    "tone": "理性客观、学术化论述中带有口语化表达，兼具批判性与自省意识，使用大量反问与类比",
+    "catchphrases": [
+      "乱七八糟",
+      "语境",
+      "保守主义",
+      "左派/右派",
+      "严谨",
+      "传统",
+      "现代性",
+      "封建",
+      "对吧",
+      "OK"
+    ],
+    "closing_pattern": "总结核心观点（中国左右混乱源于缺乏真正的保守主义传统），回应可能的批评（标签化 vs 严谨使用概念），并预告下期内容",
+    "narrative_techniques": [
+      "历史对比（中西现代化进程对比）",
+      "类比（'跳梁小丑'与'芭蕾舞者'）",
+      "反问（'谁关心啊'）",
+      "举例（胡适、鲁迅、伯克、潘恩等）",
+      "引用（毛泽东、雷蒙·阿隆、姚国华等）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "毛泽东",
+      "type": "person",
+      "context": "被引用《反对本本主义》中关于教条主义的批评，并作为新文化运动时期青年代表被提及",
+      "importance": "high"
+    },
+    {
+      "name": "埃德蒙·伯克（Edmund Burke）",
+      "type": "person",
+      "context": "英美保守主义代表人物，与潘恩辩论，强调传统与渐进改革，被多次引用作为真正的保守主义对照",
+      "importance": "high"
+    },
+    {
+      "name": "托马斯·潘恩（Thomas Paine）",
+      "type": "person",
+      "context": "英美左派代表人物，支持美国独立与法国大革命，与伯克形成左右意识形态对立",
+      "importance": "high"
+    },
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "新文化运动代表人物，师从杜威，将美国进步主义引入中国，被作为第一股左派思潮的代表",
+      "importance": "high"
+    },
+    {
+      "name": "杜威（John Dewey）",
+      "type": "person",
+      "context": "美国进步主义教育学家，胡适的老师，主张'教育即生活'，反对传统灌输式教育",
+      "importance": "high"
+    },
+    {
+      "name": "鲁迅",
+      "type": "person",
+      "context": "新文化运动代表人物，被描述为始终如一的进步左派，反对封建传统",
+      "importance": "medium"
+    },
+    {
+      "name": "雷蒙·阿隆（Raymond Aron）",
+      "type": "person",
+      "context": "法国思想家，被引用描述法国大革命后当时法国人对革命血腥性的认识",
+      "importance": "medium"
+    },
+    {
+      "name": "姚国华",
+      "type": "person",
+      "context": "被提及为少数关注学衡派等文化保守主义的中国学者",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭（Rousseau）",
+      "type": "person",
+      "context": "被提及为法国大革命前的启蒙思想家",
+      "importance": "low"
+    },
+    {
+      "name": "伏尔泰（Voltaire）",
+      "type": "person",
+      "context": "被提及为法国大革命前的启蒙思想家",
+      "importance": "low"
+    },
+    {
+      "name": "梁启超",
+      "type": "person",
+      "context": "被列举为新文化运动时期的自由主义知识分子",
+      "importance": "low"
+    },
+    {
+      "name": "陈独秀",
+      "type": "person",
+      "context": "被列举为新文化运动时期的自由主义知识分子",
+      "importance": "low"
+    },
+    {
+      "name": "蔡元培",
+      "type": "person",
+      "context": "被列举为新文化运动时期的自由主义知识分子",
+      "importance": "low"
+    },
+    {
+      "name": "李大钊",
+      "type": "person",
+      "context": "被列举为新文化运动时期的自由主义知识分子",
+      "importance": "low"
+    },
+    {
+      "name": "尤瓦尔·莱文（Yuval Levin）",
+      "type": "person",
+      "context": "《大辩论》作者，被推荐为解释英美左右派起源的最佳作者",
+      "importance": "low"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "被描述为左右派起源的划时代事件，1789年爆发，代表现代社会的开端",
+      "importance": "high"
+    },
+    {
+      "name": "新文化运动",
+      "type": "event",
+      "context": "被描述为第一股左派思潮，1910年代开始，由留美留日知识分子主导的思想启蒙运动",
+      "importance": "high"
+    },
+    {
+      "name": "文化大革命",
+      "type": "event",
+      "context": "被描述为第二股左派思潮，20世纪中期的政治运动，将第一股思潮推到'右边'",
+      "importance": "high"
+    },
+    {
+      "name": "美国独立革命",
+      "type": "event",
+      "context": "被提及作为伯克和潘恩共同支持但对其意义有不同解读的革命",
+      "importance": "medium"
+    },
+    {
+      "name": "攻占巴士底狱",
+      "type": "event",
+      "context": "1789年7月14日，法国大革命的标志性事件",
+      "importance": "low"
+    },
+    {
+      "name": "长征",
+      "type": "event",
+      "context": "被提及作为毛泽东接受斯诺采访的时间背景",
+      "importance": "low"
+    },
+    {
+      "name": "保守主义",
+      "type": "concept",
+      "context": "核心讨论概念，被描述为中国现代化进程中缺失的传统维护思想，与伯克关联",
+      "importance": "high"
+    },
+    {
+      "name": "自由主义",
+      "type": "concept",
+      "context": "被描述为新文化运动时期传入中国的西方思想，也是美国建国基础，与潘恩关联",
+      "importance": "high"
+    },
+    {
+      "name": "左派/右派",
+      "type": "concept",
+      "context": "核心分析对象，被追溯至法国大革命座位安排，在中国语境中定义混乱",
+      "importance": "high"
+    },
+    {
+      "name": "封建/封建主义",
+      "type": "concept",
+      "context": "被分析为在中文语境中完全负面化的概念，与feudalism对应，被新文化运动批判",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙主义",
+      "type": "concept",
+      "context": "被描述为第一股左派思潮（新文化运动）的核心思想，强调理性、科学、民主",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思主义",
+      "type": "concept",
+      "context": "被描述为20世纪日本和中国影响巨大的思想，与第二股左派思潮相关",
+      "importance": "medium"
+    },
+    {
+      "name": "后现代主义",
+      "type": "concept",
+      "context": "被描述为第三股左派思潮，当代最新传入中国的西方进步思想",
+      "importance": "medium"
+    },
+    {
+      "name": "进步主义",
+      "type": "concept",
+      "context": "被描述为杜威代表的美国教育思想，胡适引入中国，强调'教育即生活'",
+      "importance": "medium"
+    },
+    {
+      "name": "民粹主义",
+      "type": "concept",
+      "context": "被提及为近年西方政治现象，被认为与左右之分平行而非瓦解左右之分",
+      "importance": "low"
+    },
+    {
+      "name": "布尔乔亚/中产阶级",
+      "type": "concept",
+      "context": "被描述为法国大革命时期左派代表的社会阶级，反对王权和神权",
+      "importance": "low"
+    },
+    {
+      "name": "学衡派",
+      "type": "organization",
+      "context": "被描述为与胡适、鲁迅针锋相对的文化保守主义学术流派，主张捍卫中国文化和文言，但影响力有限",
+      "importance": "medium"
+    },
+    {
+      "name": "第三等级",
+      "type": "organization",
+      "context": "法国大革命中代表平民百姓的阶层，攻占巴士底狱的主体",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "左右派起源地，1789年大革命爆发地，与英美传统对比的欧陆代表",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "被描述为左右之分也乱七八糟的特例，建国基于自由主义而非传统，与潘恩、伯克关联",
+      "importance": "high"
+    },
+    {
+      "name": "英国/英格兰",
+      "type": "place",
+      "context": "与欧陆不同的保守主义传统发源地，伯克所属国家",
+      "importance": "medium"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "分析对象，被描述为左右之分乱七八糟，现代化进程中缺乏真正保守主义",
+      "importance": "high"
+    },
+    {
+      "name": "日本",
+      "type": "place",
+      "context": "被提及为20世纪初中国留学生目的地，当时也被马克思主义传统统治",
+      "importance": "low"
+    },
+    {
+      "name": "巴士底监狱",
+      "type": "place",
+      "context": "1789年7月14日被攻占，法国大革命标志性地点",
+      "importance": "low"
+    },
+    {
+      "name": "《大辩论：左派与右派的起源》（The Great Debate）",
+      "type": "work",
+      "context": "Yuval Levin所著，被推荐为解释伯克与潘恩辩论的最佳书籍",
+      "importance": "low"
+    },
+    {
+      "name": "《反对本本主义》",
+      "type": "work",
+      "context": "毛泽东1930年著作，被引用讨论教条主义问题",
+      "importance": "low"
+    },
+    {
+      "name": "《人权和公民权宣言》",
+      "type": "work",
+      "context": "法国大革命时期颁布，宣布自由、财产等权利",
+      "importance": "low"
+    },
+    {
+      "name": "白话文",
+      "type": "other",
+      "context": "被描述为100年来中国语言体系，缺乏保守主义传统",
+      "importance": "medium"
+    },
+    {
+      "name": "文言文",
+      "type": "other",
+      "context": "被学衡派主张捍卫的传统书写方式",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66837714cdd230b23b9d0812",
+  "title": "81-中国人的左右之分为何如此乱七八糟？"
+}

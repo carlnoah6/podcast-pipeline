@@ -1,0 +1,198 @@
+{
+  "style": {
+    "opening_pattern": "以理论批判引入，直接点明要挑战的流行思维框架（个人主义vs集体主义的对立），并建立与前几期播客的连续性",
+    "structure": "批判流行框架→提出核心问题→引入亚当·斯密作为思想资源→分述《国富论》和《道德情操论》→核心文本细读（穷人孩子的段落）→总结回应开篇问题",
+    "tone": "理性思辨、学术化但口语化、带有明确的批判性和建设性意图",
+    "catchphrases": [
+      "这就是我所说的",
+      "我觉得",
+      "我想说的是",
+      "原封不动地给大家读一下",
+      "so what",
+      "OK",
+      "拜拜"
+    ],
+    "closing_pattern": "简短总结核心观点后直接结束，没有开放式提问或引用名言",
+    "narrative_techniques": [
+      "类比（熊掌兼得）",
+      "举例（屠夫酿酒师面包师）",
+      "对比（亚当·斯密vs哈耶克vs马克思）",
+      "反问",
+      "文本细读/引用",
+      "历史情境还原"
+    ]
+  },
+  "entities": [
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "作为经济集体主义的代表，其框架被主播批判为狭隘的思考模式",
+      "importance": "high"
+    },
+    {
+      "name": "亚当·斯密",
+      "type": "person",
+      "context": "本期核心讨论对象，被称为'资本主义之父'，主播借其思想重新理解自私自利与责任的关系",
+      "importance": "high"
+    },
+    {
+      "name": "阿尔法拉比",
+      "type": "person",
+      "context": "中世纪阿拉伯哲学家，被用来说明历史主义框架的问题——他不会认为自己生活在'宗法集体主义'中",
+      "importance": "medium"
+    },
+    {
+      "name": "阿奎纳",
+      "type": "person",
+      "context": "中世纪欧洲神学家哲学家，同样被用来说明历史主义对前现代社会的误读",
+      "importance": "medium"
+    },
+    {
+      "name": "哈耶克",
+      "type": "person",
+      "context": "受亚当·斯密影响的后世经济学家，主张市场可以解决一切，但被主播认为放弃了斯密对尊严的思考",
+      "importance": "medium"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "被提及为受亚当·斯密影响的自由主义思想家",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "被提及为受亚当·斯密影响的支持大政府的思想家",
+      "importance": "low"
+    },
+    {
+      "name": "杜威",
+      "type": "person",
+      "context": "胡适崇拜的哲学家，主播在第95期批评他维护的不是真正的平等",
+      "importance": "low"
+    },
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "被提及为崇拜杜威的人",
+      "importance": "low"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "其'压制'概念被用来对比亚当·斯密的'同情'机制",
+      "importance": "low"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "其道德标准被提及作为对比，说明商人诚信并非出于康德式义务",
+      "importance": "low"
+    },
+    {
+      "name": "《国富论》",
+      "type": "work",
+      "context": "亚当·斯密1776年的著作，主播分析其第一卷如何为财富积累奠定道德基础",
+      "importance": "high"
+    },
+    {
+      "name": "《道德情操论》",
+      "type": "work",
+      "context": "亚当·斯密的另一部核心著作，主题是'同情'，主播重点分析其中'穷人的孩子'段落",
+      "importance": "high"
+    },
+    {
+      "name": "Wealth of Nations",
+      "type": "work",
+      "context": "《国富论》的英文名，主播在提到时同时给出中文名和外文名",
+      "importance": "medium"
+    },
+    {
+      "name": "The Theory of Moral Sentiments",
+      "type": "work",
+      "context": "《道德情操论》的英文名",
+      "importance": "medium"
+    },
+    {
+      "name": "唯物主义/唯心主义",
+      "type": "concept",
+      "context": "主播之前批判过的另一个无帮助的思考框架，本期用来类比个人主义/集体主义的问题",
+      "importance": "medium"
+    },
+    {
+      "name": "理想主义/现实主义",
+      "type": "concept",
+      "context": "主播在第112期讨论过的标签，认为也是无意义的二分",
+      "importance": "medium"
+    },
+    {
+      "name": "个人主义",
+      "type": "concept",
+      "context": "本期核心批判对象之一，主播认为这个标签被滥用且误导思考",
+      "importance": "high"
+    },
+    {
+      "name": "集体主义",
+      "type": "concept",
+      "context": "本期核心批判对象之二，年轻人普遍厌恶，但主播认为对立框架本身有问题",
+      "importance": "high"
+    },
+    {
+      "name": "历史主义",
+      "type": "concept",
+      "context": "主播批判的一种思维方式，即用当代价值观去'修正'理解历史社会",
+      "importance": "high"
+    },
+    {
+      "name": "同情",
+      "type": "concept",
+      "context": "亚当·斯密政治哲学的核心概念，贯穿《国富论》和《道德情操论》，商业交易的基础",
+      "importance": "high"
+    },
+    {
+      "name": "自私自利",
+      "type": "concept",
+      "context": "本期核心讨论的概念，主播通过亚当·斯密重新阐释其与责任承担的非矛盾关系",
+      "importance": "high"
+    },
+    {
+      "name": "穷人的孩子（Poor Man's Son）",
+      "type": "concept",
+      "context": "《道德情操论》第四卷的核心意象，代表市场经济中追名逐利者的精神困境",
+      "importance": "high"
+    },
+    {
+      "name": "原始社会",
+      "type": "event/period",
+      "context": "被教科书贴上'原始群体主义'标签，主播质疑这种历史主义解读",
+      "importance": "low"
+    },
+    {
+      "name": "封建社会",
+      "type": "event/period",
+      "context": "被教科书贴上'宗法集体主义'标签，主播质疑这种解读对当时人自我理解的忽视",
+      "importance": "low"
+    },
+    {
+      "name": "社会主义社会",
+      "type": "event/period",
+      "context": "被描述为发明了'最科学最真实的集体主义'，主播质疑这种历史叙事",
+      "importance": "low"
+    },
+    {
+      "name": "苏格兰社会",
+      "type": "place",
+      "context": "亚当·斯密观察到的贫穷社会，穷到'会吃人'，成为他为财富积累辩护的经验基础",
+      "importance": "medium"
+    },
+    {
+      "name": "爱丁堡大学",
+      "type": "organization",
+      "context": "亚当·斯密所在的大学，其城外郊区爱尔兰农民的贫困状况被提及",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66f9a63881cdab3a93fd9318",
+  "title": "115-自私自利和承担责任之间有什么矛盾吗？"
+}

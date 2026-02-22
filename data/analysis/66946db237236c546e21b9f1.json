@@ -1,0 +1,651 @@
+{
+  "style": {
+    "opening_pattern": "以悬念和模糊描述引入，先详细描绘一位符合特朗普特征的总统形象（高龄、共和党、让美国伟大口号、遇刺等），在长篇叙述后才揭示这实际上是里根，形成强烈反差和悬念",
+    "structure": "悬念引入→身份揭示→历史回顾（里根生平：童年、好莱坞、工会、州长）→政策分析（经济、外交）→对比分析（里根vs特朗普）→结论（本质不同）",
+    "tone": "理性客观但带有个人见解，知识分子式的严肃分析，穿插幽默（如'川建国'），时而深沉反思，保持批判性距离",
+    "catchphrases": [
+      "让美国重回世界第一",
+      "美国太伟大了",
+      "迷之自信",
+      "读者文摘",
+      "邪恶帝国",
+      "川建国",
+      "铁锈地带",
+      "阳光地带",
+      "抉择时刻",
+      "局外人"
+    ],
+    "closing_pattern": "明确总结观点（里根与特朗普本质不同在于对政治体系的尊重），引用权威学者观点佐证，最后预告下期",
+    "narrative_techniques": [
+      "悬念与身份错位",
+      "历史类比",
+      "对比（里根vs特朗普，里根vs撒切尔，里根vs卡特）",
+      "引用（Tip O'Neill、尼克松、政治学者等）",
+      "时间线叙述",
+      "场景描写（与榜眼哥在露台吃饭讨论）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "唐纳德·特朗普",
+      "type": "person",
+      "context": "与里根对比的核心人物，被描述为可能肤浅、不尊重政治体系、民粹主义领袖",
+      "importance": "high"
+    },
+    {
+      "name": "罗纳德·里根",
+      "type": "person",
+      "context": "本集核心人物，共和党最受欢迎的总统，与特朗普对比展现尊重政治体系的特质",
+      "importance": "high"
+    },
+    {
+      "name": "简·怀曼",
+      "type": "person",
+      "context": "里根的第二任妻子，好莱坞明星，因受不了里根引用读者文摘而离婚",
+      "importance": "medium"
+    },
+    {
+      "name": "巴里·戈德华特",
+      "type": "person",
+      "context": "1964年共和党候选人，里根在为他助选时发表'抉择时刻'演讲一举成名",
+      "importance": "medium"
+    },
+    {
+      "name": "林登·约翰逊",
+      "type": "person",
+      "context": "肯尼迪遇刺后的总统，戈德华特的竞选对手",
+      "importance": "low"
+    },
+    {
+      "name": "理查德·尼克松",
+      "type": "person",
+      "context": "与基辛格一起被里根批评搞缓和政策，曾评价里根'肤浅'",
+      "importance": "medium"
+    },
+    {
+      "name": "亨利·基辛格",
+      "type": "person",
+      "context": "与尼克松一起被里根攻击搞缓和政策",
+      "importance": "medium"
+    },
+    {
+      "name": "吉米·卡特",
+      "type": "person",
+      "context": "1980年里根的竞选对手，因伊朗人质危机和经济问题败选",
+      "importance": "medium"
+    },
+    {
+      "name": "杰拉尔德·福特",
+      "type": "person",
+      "context": "1976年里根挑战的现任总统，里根初选失败",
+      "importance": "medium"
+    },
+    {
+      "name": "德怀特·艾森豪威尔",
+      "type": "person",
+      "context": "里根1952年第一次投票支持的共和党人，唯一真正带兵打仗的美国总统",
+      "importance": "low"
+    },
+    {
+      "name": "富兰克林·德拉诺·罗斯福",
+      "type": "person",
+      "context": "民主党最受欢迎的总统，与里根对比，都尊重政治体系",
+      "importance": "high"
+    },
+    {
+      "name": "玛格丽特·撒切尔",
+      "type": "person",
+      "context": "英国首相，与里根被视为新保守主义呼应，但播主指出两人智识兴趣不同",
+      "importance": "medium"
+    },
+    {
+      "name": "蒂普·奥尼尔",
+      "type": "person",
+      "context": "民主党众议院议长，里根的政敌，但在里根遇刺后祈祷，称赞里根像立宪君主",
+      "importance": "medium"
+    },
+    {
+      "name": "约翰·肯尼迪",
+      "type": "person",
+      "context": "被里根批评为马克思主义者",
+      "importance": "low"
+    },
+    {
+      "name": "纳尔逊·洛克菲勒",
+      "type": "person",
+      "context": "东海岸共和党人，不喜欢戈德华特",
+      "importance": "low"
+    },
+    {
+      "name": "沃尔特·迪士尼",
+      "type": "person",
+      "context": "反对工会，将罢工与共产主义联系起来",
+      "importance": "low"
+    },
+    {
+      "name": "加文·纽森",
+      "type": "person",
+      "context": "现任加州州长，与里根对比",
+      "importance": "low"
+    },
+    {
+      "name": "戈尔巴乔夫",
+      "type": "person",
+      "context": "苏联领导人，结束冷战的关键人物",
+      "importance": "medium"
+    },
+    {
+      "name": "保罗·克鲁格曼",
+      "type": "person",
+      "context": "反对里根的自由派经济学家",
+      "importance": "low"
+    },
+    {
+      "name": "萨特",
+      "type": "person",
+      "context": "法国知识分子，支持苏联",
+      "importance": "low"
+    },
+    {
+      "name": "波伏娃",
+      "type": "person",
+      "context": "法国知识分子，支持苏联",
+      "importance": "low"
+    },
+    {
+      "name": "埃德蒙·伯克",
+      "type": "person",
+      "context": "保守主义思想家，里根未读过",
+      "importance": "low"
+    },
+    {
+      "name": "哈耶克",
+      "type": "person",
+      "context": "经济学家，撒切尔引用，里根不读",
+      "importance": "low"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "作家，撒蒂尔引用",
+      "importance": "low"
+    },
+    {
+      "name": "卡尔·马克思",
+      "type": "person",
+      "context": "毛主席读其著作",
+      "importance": "low"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "毛主席读其著作",
+      "importance": "low"
+    },
+    {
+      "name": "毛泽东",
+      "type": "person",
+      "context": "提到读书",
+      "importance": "low"
+    },
+    {
+      "name": "乔·拜登",
+      "type": "person",
+      "context": "提到2024年大选",
+      "importance": "medium"
+    },
+    {
+      "name": "梅根",
+      "type": "person",
+      "context": "嫁给英国皇室，与里根演艺地位对比",
+      "importance": "low"
+    },
+    {
+      "name": "榜眼哥",
+      "type": "person",
+      "context": "播主的朋友，与播主讨论特朗普与里根",
+      "importance": "low"
+    },
+    {
+      "name": "明镜",
+      "type": "person",
+      "context": "播客赞助方",
+      "importance": "low"
+    },
+    {
+      "name": "点点",
+      "type": "person",
+      "context": "播客赞助方",
+      "importance": "low"
+    },
+    {
+      "name": "读者文摘",
+      "type": "work",
+      "context": "里根非常喜欢阅读的杂志，常引用其中的内容",
+      "importance": "high"
+    },
+    {
+      "name": "乱世佳人",
+      "type": "work",
+      "context": "被海报模仿，里根和撒切尔的海报模仿此电影",
+      "importance": "low"
+    },
+    {
+      "name": "河殇",
+      "type": "work",
+      "context": "80年代中国纪录片，被批评为狭隘理解西方",
+      "importance": "low"
+    },
+    {
+      "name": "抉择时刻",
+      "type": "work",
+      "context": "里根1964年为戈德华特助选发表的演讲，一举成名",
+      "importance": "high"
+    },
+    {
+      "name": "美国的早晨",
+      "type": "work",
+      "context": "里根1984年竞选广告，美国历史上最著名的政治广告之一",
+      "importance": "medium"
+    },
+    {
+      "name": "里根经济学",
+      "type": "concept",
+      "context": "里根的经济政策，主张减税、放松管制、供应面经济学",
+      "importance": "high"
+    },
+    {
+      "name": "供应面经济学",
+      "type": "concept",
+      "context": "里根经济学的理论基础，认为减税能促进经济增长",
+      "importance": "medium"
+    },
+    {
+      "name": "新保守主义",
+      "type": "concept",
+      "context": "里根开启的政治时代，与撒切尔呼应，强调自由市场和强硬外交",
+      "importance": "high"
+    },
+    {
+      "name": "保守主义",
+      "type": "concept",
+      "context": "里根代表的政治哲学，强调信仰上帝、传统家庭、民族主义",
+      "importance": "medium"
+    },
+    {
+      "name": "古典自由主义",
+      "type": "concept",
+      "context": "戈德华特代表的思想，支持同性恋、堕胎、毒品自由化，反对政府干预",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思主义",
+      "type": "concept",
+      "context": "里根批评肯尼迪为马克思主义者，里根坚决反对共产主义",
+      "importance": "low"
+    },
+    {
+      "name": "共产主义",
+      "type": "concept",
+      "context": "里根坚决反对的意识形态，称苏联为邪恶帝国",
+      "importance": "medium"
+    },
+    {
+      "name": "反共",
+      "type": "concept",
+      "context": "里根政治理念两大支柱之一，贯穿其政治生涯",
+      "importance": "high"
+    },
+    {
+      "name": "民粹主义",
+      "type": "concept",
+      "context": "描述特朗普和里根都使用的修辞方式，但两人本质不同",
+      "importance": "medium"
+    },
+    {
+      "name": "铁锈地带",
+      "type": "concept",
+      "context": "Rustbelt，70年代共和党基本盘转移前的工业地带",
+      "importance": "low"
+    },
+    {
+      "name": "阳光地带",
+      "type": "concept",
+      "context": "Sunbelt，70年代后共和党新兴基本盘所在的美南和西南部",
+      "importance": "low"
+    },
+    {
+      "name": "星球大战计划",
+      "type": "concept",
+      "context": "战略防御倡议（SDI），里根提出的导弹防御系统",
+      "importance": "medium"
+    },
+    {
+      "name": "邪恶帝国",
+      "type": "concept",
+      "context": "Evil Empire，里根对苏联的称呼",
+      "importance": "high"
+    },
+    {
+      "name": "缓和政策",
+      "type": "concept",
+      "context": "Détente，尼克松和基辛格的对苏政策，被里根批评",
+      "importance": "medium"
+    },
+    {
+      "name": "福音派",
+      "type": "concept",
+      "context": "Evangelical，里根和特朗普都获得的基督教保守派支持",
+      "importance": "medium"
+    },
+    {
+      "name": "公民自豪感",
+      "type": "concept",
+      "context": "Civic Pride，里根代表的美国小镇文化特质",
+      "importance": "medium"
+    },
+    {
+      "name": "美国梦",
+      "type": "concept",
+      "context": "American Dream，里根代表的理想",
+      "importance": "low"
+    },
+    {
+      "name": "时代情绪",
+      "type": "concept",
+      "context": "Zeitgeist，播主讨论政治家是否能创造或只是迎合时代情绪",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普宾州枪击事件",
+      "type": "event",
+      "context": "2024年7月13日，播主录制前12小时发生，成为引发本期对比的契机",
+      "importance": "high"
+    },
+    {
+      "name": "里根遇刺事件",
+      "type": "event",
+      "context": "1981年3月30日，里根上任不久后被枪击，与特朗普枪击事件形成对照",
+      "importance": "high"
+    },
+    {
+      "name": "水门事件",
+      "type": "event",
+      "context": "Watergate，导致尼克松下台，影响70年代共和党形象",
+      "importance": "medium"
+    },
+    {
+      "name": "越南战争",
+      "type": "event",
+      "context": "Vietnam War，在卡特任内结束，影响美国社会情绪",
+      "importance": "medium"
+    },
+    {
+      "name": "伊朗革命",
+      "type": "event",
+      "context": "Iranian Revolution，导致人质危机",
+      "importance": "medium"
+    },
+    {
+      "name": "伊朗人质危机",
+      "type": "event",
+      "context": "Iran Hostage Crisis，卡特总统任内的外交灾难",
+      "importance": "medium"
+    },
+    {
+      "name": "石油危机",
+      "type": "event",
+      "context": "Oil Crisis，1973年，导致美国经济衰退",
+      "importance": "low"
+    },
+    {
+      "name": "冷战",
+      "type": "event",
+      "context": "Cold War，里根外交政策的核心背景",
+      "importance": "high"
+    },
+    {
+      "name": "苏联入侵阿富汗",
+      "type": "event",
+      "context": "Soviet invasion of Afghanistan，1979年，加剧冷战紧张",
+      "importance": "low"
+    },
+    {
+      "name": "1968年美国总统大选",
+      "type": "event",
+      "context": "与2024年大选对比，约翰逊放弃参选",
+      "importance": "low"
+    },
+    {
+      "name": "2024年美国总统大选",
+      "type": "event",
+      "context": "当前政治背景，特朗普vs拜登",
+      "importance": "high"
+    },
+    {
+      "name": "1月6日国会山事件",
+      "type": "event",
+      "context": "January 6 Capitol Attack，特朗普挑战选举结果，播主认为这是不尊重体制的表现",
+      "importance": "high"
+    },
+    {
+      "name": "肯尼迪遇刺",
+      "type": "event",
+      "context": "JFK Assassination，导致约翰逊成为总统",
+      "importance": "low"
+    },
+    {
+      "name": "艾滋病危机",
+      "type": "event",
+      "context": "AIDS Crisis，里根任内的流行病，与特朗普经历新冠对比",
+      "importance": "medium"
+    },
+    {
+      "name": "二战",
+      "type": "event",
+      "context": "World War II，里根在好莱坞拍摄战争宣传片",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "核心讨论对象，两位总统的国家",
+      "importance": "high"
+    },
+    {
+      "name": "伊利诺伊州",
+      "type": "place",
+      "context": "里根出生地，中西部小镇",
+      "importance": "low"
+    },
+    {
+      "name": "加州/加利福尼亚州",
+      "type": "place",
+      "context": "里根担任州长的地方，也是嬉皮士运动中心",
+      "importance": "high"
+    },
+    {
+      "name": "中西部",
+      "type": "place",
+      "context": "Midwest，里根成长的地方，代表美国小镇文化",
+      "importance": "medium"
+    },
+    {
+      "name": "亚利桑那州",
+      "type": "place",
+      "context": "戈德华特来自的地方",
+      "importance": "low"
+    },
+    {
+      "name": "佛罗里达州",
+      "type": "place",
+      "context": "里根在此开发巴拿马运河话术",
+      "importance": "low"
+    },
+    {
+      "name": "东海岸",
+      "type": "place",
+      "context": "East Coast，代表老派共和党精英，不喜欢戈德华特",
+      "importance": "medium"
+    },
+    {
+      "name": "纽约",
+      "type": "place",
+      "context": "东海岸政治中心",
+      "importance": "low"
+    },
+    {
+      "name": "南部",
+      "type": "place",
+      "context": "South，里根获得大量选票的地区",
+      "importance": "medium"
+    },
+    {
+      "name": "西南部",
+      "type": "place",
+      "context": "Southwest，阳光地带一部分",
+      "importance": "low"
+    },
+    {
+      "name": "宾夕法尼亚州",
+      "type": "place",
+      "context": "Trump枪击事件发生地",
+      "importance": "high"
+    },
+    {
+      "name": "奥兰治县",
+      "type": "place",
+      "context": "Orange County，洛杉矶郊外的保守派社区",
+      "importance": "low"
+    },
+    {
+      "name": "旧金山",
+      "type": "place",
+      "context": "嬉皮士运动中心，举办爱之夏",
+      "importance": "low"
+    },
+    {
+      "name": "好莱坞",
+      "type": "place",
+      "context": "里根演艺生涯所在地",
+      "importance": "medium"
+    },
+    {
+      "name": "苏联",
+      "type": "place",
+      "context": "里根称为邪恶帝国的对手",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "作为外国观察者视角提及",
+      "importance": "medium"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "里根和特朗普所属的政党，里根成为其历史上最受欢迎的总统",
+      "importance": "high"
+    },
+    {
+      "name": "民主党",
+      "type": "organization",
+      "context": "与共和党对立，里根早年属于此党",
+      "importance": "high"
+    },
+    {
+      "name": "NAACP",
+      "type": "organization",
+      "context": "全国有色人种协进会，戈德华特是其成员",
+      "importance": "low"
+    },
+    {
+      "name": "美联储",
+      "type": "organization",
+      "context": "在卡特任内提高利率至20%",
+      "importance": "low"
+    },
+    {
+      "name": "读者文摘",
+      "type": "work",
+      "context": "里根非常喜欢阅读的杂志，常引用其中的轶事",
+      "importance": "high"
+    },
+    {
+      "name": "乱世佳人",
+      "type": "work",
+      "context": "海报模仿此电影，里根和撒切尔的海报",
+      "importance": "low"
+    },
+    {
+      "name": "河殇",
+      "type": "work",
+      "context": "80年代中国纪录片，被批评为狭隘理解西方",
+      "importance": "low"
+    },
+    {
+      "name": "抉择时刻",
+      "type": "work",
+      "context": "里根1964年为戈德华特助选发表的演讲，一举成名",
+      "importance": "high"
+    },
+    {
+      "name": "美国的早晨",
+      "type": "work",
+      "context": "里根1984年竞选广告，美国历史上最著名的政治广告之一",
+      "importance": "medium"
+    },
+    {
+      "name": "里根经济学",
+      "type": "concept",
+      "context": "里根的经济政策，主张减税、放松管制、供应面经济学",
+      "importance": "high"
+    },
+    {
+      "name": "时代情绪",
+      "type": "concept",
+      "context": "播主讨论政治家是否能创造或只是迎合时代情绪（Zeitgeist）",
+      "importance": "high"
+    },
+    {
+      "name": "邪恶帝国",
+      "type": "concept",
+      "context": "Evil Empire，里根对苏联的称呼",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普宾州枪击事件",
+      "type": "event",
+      "context": "2024年7月13日，播主录制前12小时发生，成为引发本期对比的契机",
+      "importance": "high"
+    },
+    {
+      "name": "里根遇刺事件",
+      "type": "event",
+      "context": "1981年3月30日，里根上任不久后被枪击，与特朗普枪击事件形成对照",
+      "importance": "high"
+    },
+    {
+      "name": "1月6日国会山事件",
+      "type": "event",
+      "context": "January 6 Capitol Attack，特朗普挑战选举结果，播主认为这是不尊重体制的表现",
+      "importance": "high"
+    },
+    {
+      "name": "宾夕法尼亚州",
+      "type": "place",
+      "context": "Trump枪击事件发生地",
+      "importance": "high"
+    },
+    {
+      "name": "加州/加利福尼亚州",
+      "type": "place",
+      "context": "里根担任州长的地方，也是嬉皮士运动中心",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66946db237236c546e21b9f1",
+  "title": "86-特朗普会成为下一个里根吗？"
+}

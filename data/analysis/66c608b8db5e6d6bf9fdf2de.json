@@ -1,0 +1,524 @@
+{
+  "style": {
+    "opening_pattern": "直接介绍主题并交代历史背景，同时结合个人成长经历（父亲对书画的热爱）作为情感切入点，建立学术讨论与个人叙事的连接。",
+    "structure": "个人背景交代→核心概念澄清（海派非地域概念）→历史政治背景（上海开埠、太平天国、租界）→艺术观念转变（文人到画家）→哲学思想影响（康德、蔡元培）→市场审美变迁（贵族到市民）→具体案例分析→结尾收束于文化现象的本质。",
+    "tone": "理性客观但带有温情回忆，学术性强但力求通俗化，具有批判性思考（对'海派'概念的重新解读），穿插口语化表达（'No No No'）调节严肃氛围。",
+    "catchphrases": [
+      "No No No",
+      "也就是说",
+      "换句话说",
+      "在这个礼乐崩坏的时代",
+      "釜底抽薪",
+      "水乳交融",
+      "直白说",
+      "我们要问的是",
+      "海派无派",
+      "寓公寓的寓"
+    ],
+    "closing_pattern": "文本在讨论京沪之争处中断，但前文结尾部分重点总结海派作为文化现象的本质——现代文明对中国古典书画的改变，收束于'艺术'概念取代'文化载体'这一核心论点。",
+    "narrative_techniques": [
+      "类比（鉴定书画如尝鱼肉的新鲜度）",
+      "对比（任伯年的鸟与八大山人的鸟，贵族审美与市民审美）",
+      "举例（齐白石画粪桶扫帚，城隍庙画家的题材）",
+      "设问（提出'为什么会发生这个改变'等引导性问题）",
+      "个人叙事（父亲老穆敦的故事贯穿全篇作为情感锚点）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "老穆敦",
+      "type": "person",
+      "context": "主播的父亲，工程师出身，狂热的书画鉴定爱好者，雅昌论坛版主，培养了主播对书画的认知框架",
+      "importance": "high"
+    },
+    {
+      "name": "任伯年",
+      "type": "person",
+      "context": "海派早期扛把子，画风生动活泼，画鸟栩栩如生，代表市民审美与市场导向的艺术",
+      "importance": "high"
+    },
+    {
+      "name": "蔡元培",
+      "type": "person",
+      "context": "在德国莱比锡大学学习哲学和美学，将康德美学引入中国，建立国立杭州艺专（中国美院），倡导'以美育代宗教'",
+      "importance": "high"
+    },
+    {
+      "name": "林风眠",
+      "type": "person",
+      "context": "留学法国，将法国现代派画法引入中国，属于海派中引入西方技法的代表",
+      "importance": "high"
+    },
+    {
+      "name": "齐白石",
+      "type": "person",
+      "context": "唯一以民间俗物（竹篮、扫帚、粪桶）入画的大画家，早期为乡亲画祖宗像，后被授予'人民艺术家'称号",
+      "importance": "high"
+    },
+    {
+      "name": "黄宾虹",
+      "type": "person",
+      "context": "老举人，晚年提出'艺术救国'，将艺术与特效药、现代医学相提并论，代表传统文人向现代艺术观念的转变",
+      "importance": "high"
+    },
+    {
+      "name": "董其昌",
+      "type": "person",
+      "context": "明代书画家，提出南北宗论，代表传统古典书画的审美标准，其模式在清末被釜底抽薪",
+      "importance": "high"
+    },
+    {
+      "name": "吴昌硕",
+      "type": "person",
+      "context": "第二代海派大师，虽用文人笔墨但迎合商业市场，画石榴、桃子等喜庆题材用于销售",
+      "importance": "high"
+    },
+    {
+      "name": "谢之光",
+      "type": "person",
+      "context": "海派画家，若被称为海派会生气，说明当时画家不自称海派",
+      "importance": "medium"
+    },
+    {
+      "name": "钱惠安",
+      "type": "person",
+      "context": "早期海派大师，与任伯年同时期，代表城隍庙画家的商业路线",
+      "importance": "medium"
+    },
+    {
+      "name": "八大山人",
+      "type": "person",
+      "context": "明末清初画家，画翻白眼的鸟，与任伯年形成对比，代表传统文人画的审美",
+      "importance": "medium"
+    },
+    {
+      "name": "沈从文",
+      "type": "person",
+      "context": "作家，参与1930年代京沪之争，文本在此处中断",
+      "importance": "medium"
+    },
+    {
+      "name": "沈周",
+      "type": "person",
+      "context": "吴门画派代表，与海派形成对比，代表传统画派的统一性",
+      "importance": "low"
+    },
+    {
+      "name": "文徵明",
+      "type": "person",
+      "context": "吴门画派代表，与海派对比",
+      "importance": "low"
+    },
+    {
+      "name": "唐伯虎",
+      "type": "person",
+      "context": "唐寅，吴门画派代表，与海派对比",
+      "importance": "low"
+    },
+    {
+      "name": "高剑父",
+      "type": "person",
+      "context": "岭南画派代表，与海派同时期但有明确艺术主张，与海派形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "高奇峰",
+      "type": "person",
+      "context": "岭南画派代表",
+      "importance": "low"
+    },
+    {
+      "name": "陈树人",
+      "type": "person",
+      "context": "岭南画派代表",
+      "importance": "low"
+    },
+    {
+      "name": "戴熙",
+      "type": "person",
+      "context": "清末文人士大夫，书画家，老穆敦正在专门研究其鉴定",
+      "importance": "low"
+    },
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "提到其崇拜杜威实验主义",
+      "importance": "low"
+    },
+    {
+      "name": "杜威",
+      "type": "person",
+      "context": "实验主义哲学家，胡适受其影响",
+      "importance": "low"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "德国哲学家，《判断力批判》作者，其美学理论通过蔡元培传入中国",
+      "importance": "high"
+    },
+    {
+      "name": "荷马",
+      "type": "person",
+      "context": "古希腊诗人，康德用《伊利亚特》作为美学教育例子",
+      "importance": "low"
+    },
+    {
+      "name": "简·奥斯汀",
+      "type": "person",
+      "context": "作家，主播用其作为美学争辩的例子",
+      "importance": "low"
+    },
+    {
+      "name": "海派/海上画派",
+      "type": "concept",
+      "context": "1840-1949年间长三角地区的文化现象，不是地域概念也不是绘画流派，而是传统书画面对现代文明冲撞时的自我调整",
+      "importance": "high"
+    },
+    {
+      "name": "海派画家",
+      "type": "concept",
+      "context": "参与海派文化现象的画家群体，包括传统国画画家到引入西方技法的现代画家",
+      "importance": "high"
+    },
+    {
+      "name": "京派",
+      "type": "concept",
+      "context": "与海派对立的北方画派，传统立场更浓厚，曾用'海派'作为贬义词",
+      "importance": "medium"
+    },
+    {
+      "name": "现代文明",
+      "type": "concept",
+      "context": "1840年后从欧洲传入的文明形态，改变了中国古典书画的存在方式",
+      "importance": "high"
+    },
+    {
+      "name": "政治哲学",
+      "type": "concept",
+      "context": "主播审视近现代中国美术史的主要视角",
+      "importance": "high"
+    },
+    {
+      "name": "文人画",
+      "type": "concept",
+      "context": "传统中国书画形式，强调文化修养和道德品格，不是单纯的技艺",
+      "importance": "high"
+    },
+    {
+      "name": "画家/艺术家",
+      "type": "concept",
+      "context": "现代职业身份，与文人相对，强调技艺和艺术创作",
+      "importance": "high"
+    },
+    {
+      "name": "艺术",
+      "type": "concept",
+      "context": "来自欧洲的美学概念，取代了传统书画作为文化载体的观念",
+      "importance": "high"
+    },
+    {
+      "name": "美学",
+      "type": "concept",
+      "context": "来自欧洲的学科概念，康德美学通过蔡元培传入中国",
+      "importance": "high"
+    },
+    {
+      "name": "审美教育",
+      "type": "concept",
+      "context": "蔡元培提倡的概念，主张用美育代替宗教",
+      "importance": "high"
+    },
+    {
+      "name": "市场审美/小市民审美",
+      "type": "concept",
+      "context": "商业化带来的审美标准，强调吉利、生动、通俗，与贵族审美相对",
+      "importance": "high"
+    },
+    {
+      "name": "贵族审美",
+      "type": "concept",
+      "context": "传统精英审美，强调品格、格调、气韵、笔墨趣味",
+      "importance": "high"
+    },
+    {
+      "name": "南北宗",
+      "type": "concept",
+      "context": "董其昌提出的画论，代表传统古典绘画的审美体系",
+      "importance": "medium"
+    },
+    {
+      "name": "明四家",
+      "type": "concept",
+      "context": "明代四位代表性画家，主播在童年被父亲考察过",
+      "importance": "low"
+    },
+    {
+      "name": "实验主义/实用主义",
+      "type": "concept",
+      "context": "杜威的哲学思想，胡适受其影响",
+      "importance": "low"
+    },
+    {
+      "name": "现代性",
+      "type": "concept",
+      "context": "现代文明的特征，与传统相对",
+      "importance": "medium"
+    },
+    {
+      "name": "租界",
+      "type": "concept",
+      "context": "上海的特殊政治区域，为艺术家提供避乱场所",
+      "importance": "medium"
+    },
+    {
+      "name": "寓公",
+      "type": "concept",
+      "context": "民国初年特殊社会阶层，失势的达官显贵寄居上海",
+      "importance": "medium"
+    },
+    {
+      "name": "华洋杂处",
+      "type": "concept",
+      "context": "上海的社会特征，中西文化交融",
+      "importance": "low"
+    },
+    {
+      "name": "笔墨趣味",
+      "type": "concept",
+      "context": "传统文人画追求的审美标准",
+      "importance": "medium"
+    },
+    {
+      "name": "气韵",
+      "type": "concept",
+      "context": "传统书画评价标准，与品格格调相关",
+      "importance": "medium"
+    },
+    {
+      "name": "品格",
+      "type": "concept",
+      "context": "传统文人的道德审美标准",
+      "importance": "medium"
+    },
+    {
+      "name": "格调",
+      "type": "concept",
+      "context": "传统贵族审美标准",
+      "importance": "medium"
+    },
+    {
+      "name": "艺术救国",
+      "type": "concept",
+      "context": "三四十年代提出的概念，认为艺术如特效药能救国",
+      "importance": "medium"
+    },
+    {
+      "name": "人民艺术家",
+      "type": "concept",
+      "context": "授予齐白石的称号，代表民间艺术地位的提升",
+      "importance": "low"
+    },
+    {
+      "name": "扬州画派/扬州八怪",
+      "type": "concept",
+      "context": "清中期的画派，与海派形成对比，有统一艺术观念",
+      "importance": "low"
+    },
+    {
+      "name": "岭南画派",
+      "type": "concept",
+      "context": "与海派同时期的画派，有高剑父、高奇峰、陈树人等，有明确艺术主张",
+      "importance": "low"
+    },
+    {
+      "name": "吴门画派",
+      "type": "concept",
+      "context": "明代画派，有沈周、文徵明、唐伯虎，艺术观念统一",
+      "importance": "low"
+    },
+    {
+      "name": "京沪之争",
+      "type": "event",
+      "context": "二三十年代文坛的著名争论，沈从文参与，体现京派与海派的对立",
+      "importance": "medium"
+    },
+    {
+      "name": "鸦片战争/1840年",
+      "type": "event",
+      "context": "现代文明冲击中国的开端，海派文化现象的时间起点",
+      "importance": "high"
+    },
+    {
+      "name": "上海开埠/1842年",
+      "type": "event",
+      "context": "根据《南京条约》上海成为通商口岸，吸引画家聚集，形成海派",
+      "importance": "high"
+    },
+    {
+      "name": "太平天国运动",
+      "type": "event",
+      "context": "清末农民起义导致战乱，迫使江浙画家流亡上海寻求租界庇护",
+      "importance": "high"
+    },
+    {
+      "name": "清朝灭亡/1911年",
+      "type": "event",
+      "context": "导致达官显贵成为寓公，携带家产逃往上海，推动艺术市场发展",
+      "importance": "high"
+    },
+    {
+      "name": "军阀混战/1920年代",
+      "type": "event",
+      "context": "民国初年的战乱背景，加强了上海作为避风港的地位",
+      "importance": "medium"
+    },
+    {
+      "name": "新文化运动",
+      "type": "event",
+      "context": "挑战传统文化，摧毁了传统作为信仰的生命力，改变书画观念",
+      "importance": "high"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "海派艺术的中心，1842年开埠后成为华洋杂处的繁华都市，吸引全国画家",
+      "importance": "high"
+    },
+    {
+      "name": "江苏",
+      "type": "place",
+      "context": "长三角地区，海派画家的重要来源地，与上海、浙江、安徽共同构成海派地理范围",
+      "importance": "high"
+    },
+    {
+      "name": "浙江",
+      "type": "place",
+      "context": "长三角地区，海派画家来源地，杭州有中国美院",
+      "importance": "high"
+    },
+    {
+      "name": "安徽",
+      "type": "place",
+      "context": "长三角地区，与江苏、浙江、上海共同构成海派文化圈",
+      "importance": "medium"
+    },
+    {
+      "name": "长三角",
+      "type": "place",
+      "context": "海派艺术的地理范围，江浙沪皖综合体，1840-1949年中国艺术的中心",
+      "importance": "high"
+    },
+    {
+      "name": "松江府",
+      "type": "place",
+      "context": "上海在1840年之前的行政区划名称，属江苏省",
+      "importance": "low"
+    },
+    {
+      "name": "华亭县",
+      "type": "place",
+      "context": "上海在1840年之前的县级行政区划",
+      "importance": "low"
+    },
+    {
+      "name": "金山县",
+      "type": "place",
+      "context": "上海在1840年之前的县级行政区划",
+      "importance": "low"
+    },
+    {
+      "name": "城隍庙",
+      "type": "place",
+      "context": "上海开埠早期商业画家聚集地，代表纯商业画路线",
+      "importance": "medium"
+    },
+    {
+      "name": "北京/北平",
+      "type": "place",
+      "context": "京派所在地，与海派对立，传统立场更浓厚",
+      "importance": "medium"
+    },
+    {
+      "name": "天津",
+      "type": "place",
+      "context": "部分北京达官显贵流亡地，与上海同为寓公聚集地",
+      "importance": "low"
+    },
+    {
+      "name": "杭州",
+      "type": "place",
+      "context": "中国美院所在地，蔡元培南下后建立艺术学校之地",
+      "importance": "medium"
+    },
+    {
+      "name": "西泠印社",
+      "type": "place",
+      "context": "著名书画金石研究机构，老穆敦有朋友在此做研究员",
+      "importance": "low"
+    },
+    {
+      "name": "朵云轩",
+      "type": "place",
+      "context": "著名书画拍卖行，老穆敦有朋友在此鉴定明清书画",
+      "importance": "low"
+    },
+    {
+      "name": "欧洲",
+      "type": "place",
+      "context": "现代文明和美学概念的来源地",
+      "importance": "high"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "林风眠留学地，现代绘画技巧的来源国",
+      "importance": "medium"
+    },
+    {
+      "name": "德国/莱比锡",
+      "type": "place",
+      "context": "蔡元培留学地，学习康德哲学和美学的地方",
+      "importance": "medium"
+    },
+    {
+      "name": "雅昌论坛",
+      "type": "organization",
+      "context": "著名书画讨论平台，老穆敦曾任书画版版主",
+      "importance": "low"
+    },
+    {
+      "name": "北平艺专",
+      "type": "organization",
+      "context": "蔡元培、林风眠、齐白石等人在北京创办的艺术学校，后南迁",
+      "importance": "medium"
+    },
+    {
+      "name": "中国美院/国立杭州艺术专科学校",
+      "type": "organization",
+      "context": "蔡元培南下后在杭州建立，引入西方美学教育",
+      "importance": "medium"
+    },
+    {
+      "name": "申报",
+      "type": "organization",
+      "context": "民国时期上海著名报纸，刊登画家作品价位，体现市场化",
+      "importance": "medium"
+    },
+    {
+      "name": "《康德第三批判》",
+      "type": "work",
+      "context": "康德《判断力批判》，蔡元培将其美学思想引入中国，认为美学可替代宗教作为伦理典范",
+      "importance": "high"
+    },
+    {
+      "name": "伊利亚特",
+      "type": "work",
+      "context": "荷马史诗，康德用作美学教育的例子，主播也提及",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66c608b8db5e6d6bf9fdf2de",
+  "title": "99-现代文明如何改变了中国古典书画？"
+}

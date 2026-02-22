@@ -1,0 +1,43 @@
+{
+  "style": {
+    "opening_pattern": "重复性广告口播轰炸（文本仅为机械重复的支持请求语）",
+    "structure": "无法确定有效内容结构（输入文本仅为重复的广告语，无正文论述）",
+    "tone": "机械重复、请求式、运营导向",
+    "catchphrases": [
+      "请不吝点赞",
+      "订阅",
+      "转发",
+      "打赏支持",
+      "明镜与点点栏目"
+    ],
+    "closing_pattern": "同开场，无明确结尾过渡",
+    "narrative_techniques": [
+      "重复",
+      "排比",
+      "机械循环"
+    ]
+  },
+  "entities": [
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "被重复提及的播客栏目或合作方名称，可能是该节目的出品方或联合品牌",
+      "importance": "high"
+    },
+    {
+      "name": "点赞/订阅/转发/打赏",
+      "type": "concept",
+      "context": "播客运营中请求听众支持的标准互动行为，体现了内容付费与社群运营逻辑",
+      "importance": "medium"
+    },
+    {
+      "name": "独树不成林",
+      "type": "work",
+      "context": "播客节目的名称（根据任务描述），本集为第75期，主题为严肃敏感的年轻人与死亡思考",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "666e44afb6a8412729082638",
+  "title": "75-严肃敏感的年轻人为何终日思考死亡？"
+}

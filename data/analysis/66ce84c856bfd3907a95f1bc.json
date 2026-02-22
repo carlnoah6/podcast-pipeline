@@ -1,0 +1,277 @@
+{
+  "style": {
+    "opening_pattern": "以历史高光时刻引入（90年代初柏林墙倒塌、福山《历史的终结》），营造'自由主义胜利'的历史氛围，随后提出反常识核心问题：为何赢了冷战的自由主义迅速变成'人人嫌的过街老鼠'",
+    "structure": "历史背景（冷战胜利与90年代共识）→核心论点提出（自由主义的'自我阉割'）→分论进步派批评（结构性压迫）→分论保守派批评（缺乏国家与道德维度）→总结（消极定义的困境）",
+    "tone": "学术批判性，理性客观但带有强烈价值判断，使用尖锐比喻（如'太监''阉割''空壳'），保持知识密度同时兼顾通俗解释",
+    "catchphrases": [
+      "自我阉割",
+      "消极的定义",
+      "我不是什么",
+      "太监",
+      "过街老鼠",
+      "耀武扬威",
+      "夹着尾巴",
+      "性感/时髦的观点",
+      "断子绝孙",
+      "空壳"
+    ],
+    "closing_pattern": "总结性论述（强调冷战自由主义因放弃定义权而被左右夹击的困境）+简短告别（'我们下期再见吧，拜拜'）",
+    "narrative_techniques": [
+      "类比（将冷战自由主义比作'太监'、将保守女性反对进步主义类比自由主义的消极定义）",
+      "历史对比（90年代自由主义的高光时刻与当下的'过街老鼠'处境对比）",
+      "概念解构（重新定义'自由主义''左右派''普世价值'等概念）",
+      "反问（频繁使用'为什么''怎么办'引导听众思考）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "福山",
+      "type": "person",
+      "context": "因1989年发表《历史的终结》被视为自由主义胜利的象征，但播客指出福山本人并无'豪气万丈'的自豪感",
+      "importance": "high"
+    },
+    {
+      "name": "《历史的终结》",
+      "type": "work",
+      "context": "福山1989年发表的文章，被西方自由主义者视为'光荣的徽章'，象征历史终结于自由主义",
+      "importance": "high"
+    },
+    {
+      "name": "冷战自由主义",
+      "type": "concept",
+      "context": "播客核心批判对象，指20世纪为对抗极权主义而'自我阉割'、采取消极定义的自由主义形态",
+      "importance": "high"
+    },
+    {
+      "name": "柏林墙倒塌",
+      "type": "event",
+      "context": "90年代初的历史事件，被视为自由主义'最耀武扬威的时刻'和冷战胜利的象征",
+      "importance": "high"
+    },
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "作为18世纪启蒙思想家代表，其思想代表了自由主义原有的'理想图景'和进步历史观",
+      "importance": "medium"
+    },
+    {
+      "name": "亚当斯密",
+      "type": "person",
+      "context": "同上，代表自由主义原初的丰富哲学框架，后被冷战自由主义抛弃",
+      "importance": "medium"
+    },
+    {
+      "name": "伏尔泰",
+      "type": "person",
+      "context": "同上，作为启蒙运动代表人物，象征自由主义原有的解放承诺",
+      "importance": "medium"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "同上，其哲学代表了自由主义原有的深度，与冷战自由主义的'扁平化'形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "被提及在杜威手下学习自由主义，但播客认为其接触的已是'阉割版'或不够深刻的自由传统",
+      "importance": "low"
+    },
+    {
+      "name": "杜威",
+      "type": "person",
+      "context": "胡适的老师，实用主义哲学家，代表美国自由主义传统",
+      "importance": "low"
+    },
+    {
+      "name": "吴飞",
+      "type": "person",
+      "context": "北大老师，被举为知识上深刻的儒家保守主义者代表，从'神道设教'角度批判自由主义",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思主义",
+      "type": "concept",
+      "context": "冷战自由主义的主要对立面之一，代表极权意识形态，拥有进步历史观和解放承诺",
+      "importance": "high"
+    },
+    {
+      "name": "列宁马克思主义",
+      "type": "concept",
+      "context": "苏联的意识形态，与纳粹主义一起构成冷战自由主义定义的'敌人'，被自由主义在冷战中'干倒'",
+      "importance": "high"
+    },
+    {
+      "name": "纳粹主义",
+      "type": "concept",
+      "context": "即国家社会主义，二战中被自由主义击败，与苏联一起构成冷战自由主义的对立面",
+      "importance": "high"
+    },
+    {
+      "name": "国家社会主义",
+      "type": "concept",
+      "context": "纳粹德国的意识形态，与列宁主义一起成为冷战自由主义定义自身的'反面'",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙运动",
+      "type": "concept",
+      "context": "18世纪思想革命，代表自由主义原有的丰富哲学传统，后被冷战自由主义抛弃",
+      "importance": "medium"
+    },
+    {
+      "name": "普世价值",
+      "type": "concept",
+      "context": "播客中定义为左派（包括自由主义）的核心特征，与右派的'传统价值'相对",
+      "importance": "high"
+    },
+    {
+      "name": "进步主义",
+      "type": "concept",
+      "context": "当代西方意识形态，被用作类比说明'消极定义'的问题，与女权主义等一起构成对自由主义的批评",
+      "importance": "medium"
+    },
+    {
+      "name": "保守主义",
+      "type": "concept",
+      "context": "从右翼批评自由主义的主要立场，包括民粹国家主义和宗教/儒家传统主义",
+      "importance": "high"
+    },
+    {
+      "name": "民粹主义",
+      "type": "concept",
+      "context": "美国保守主义批评自由主义的视角之一，强调国家主权和民众意志",
+      "importance": "medium"
+    },
+    {
+      "name": "国家主义",
+      "type": "concept",
+      "context": "中美保守派批评自由主义的共同角度，认为自由主义无法维护国家概念",
+      "importance": "medium"
+    },
+    {
+      "name": "儒家保守主义",
+      "type": "concept",
+      "context": "中国特有的保守主义形态，从'神道设教''教化传统'角度批判自由主义缺乏超越性",
+      "importance": "medium"
+    },
+    {
+      "name": "女权主义",
+      "type": "concept",
+      "context": "包括自由女权和激进女权，后者从马克思主义角度批判自由主义与父权制的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "奥地利经济学派",
+      "type": "concept",
+      "context": "90年代曾与北大合作讨论资本主义思想在中国的起源，代表当时的自由主义共识",
+      "importance": "low"
+    },
+    {
+      "name": "批判理论",
+      "type": "concept",
+      "context": "新马克思主义者的理论工具，用于批判自由主义的结构性压迫",
+      "importance": "medium"
+    },
+    {
+      "name": "极权主义",
+      "type": "concept",
+      "context": "20世纪自由主义面临的主要威胁，包括纳粹和苏联体制，塑造了冷战自由主义的防御性特征",
+      "importance": "high"
+    },
+    {
+      "name": "柏林墙",
+      "type": "event",
+      "context": "1989/1990年倒塌，象征冷战结束和自由主义胜利的历史时刻",
+      "importance": "high"
+    },
+    {
+      "name": "二战",
+      "type": "event",
+      "context": "自由主义击败纳粹主义的历史节点，确立其对抗极权的合法性",
+      "importance": "high"
+    },
+    {
+      "name": "冷战",
+      "type": "event",
+      "context": "自由主义与苏联对抗的时期，塑造了'冷战自由主义'的防御性和消极特征",
+      "importance": "high"
+    },
+    {
+      "name": "苏联解体",
+      "type": "event",
+      "context": "冷战结束的标志，此后自由主义失去外部敌人而陷入理论危机",
+      "importance": "high"
+    },
+    {
+      "name": "一战",
+      "type": "event",
+      "context": "20世纪初的历史背景，极权意识形态崛起的起点",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "自由主义的代表国家，冷战胜利者，如今自由主义在中美都面临批评",
+      "importance": "high"
+    },
+    {
+      "name": "苏联",
+      "type": "place",
+      "context": "冷战自由主义的主要敌人，代表极权主义的威胁",
+      "importance": "high"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "纳粹主义发源地，被自由主义在二战中击败",
+      "importance": "medium"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "播客讨论的重要语境，90年代曾认为自由主义将成为主流，如今自由主义在此面临左右夹击",
+      "importance": "high"
+    },
+    {
+      "name": "欧洲",
+      "type": "place",
+      "context": "一战后反动派胜利、极权主义崛起的地区",
+      "importance": "low"
+    },
+    {
+      "name": "北大",
+      "type": "organization",
+      "context": "北京大学，90年代曾与奥地利经济学派合作，代表当时自由主义在知识界的传播",
+      "importance": "medium"
+    },
+    {
+      "name": "市场经济",
+      "type": "other",
+      "context": "冷战自由主义强调的经济形式，被视为中央计划经济的反面，但被认为空洞化",
+      "importance": "high"
+    },
+    {
+      "name": "资本主义",
+      "type": "other",
+      "context": "与自由主义相关的经济体系，90年代被认为将随市场改革进入中国",
+      "importance": "medium"
+    },
+    {
+      "name": "个人自由",
+      "type": "other",
+      "context": "自由主义的核心价值，但在冷战自由主义中被狭隘化为经济自由，失去定义能力",
+      "importance": "high"
+    },
+    {
+      "name": "中央集权管理经济",
+      "type": "other",
+      "context": "苏联模式，市场经济和冷战自由主义的对立面",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66ce84c856bfd3907a95f1bc",
+  "title": "102-自由主义咋在赢了冷战后迅速变成了人人嫌的过街老鼠？"
+}

@@ -1,0 +1,314 @@
+{
+  "style": {
+    "opening_pattern": "以日常用语/常识引入（'经济基础决定上层建筑'和'存在即合理'），指出其背后有复杂的哲学体系（马克思和黑格尔），但已被简化为日常用语",
+    "structure": "提出现象→分析日常用法→对比马克思原意→深度批判（质疑二元论和决定论）→具体案例分析（武汉出租车、审美品位）→引入对比（亚里士多德vs马克思）→总结观点",
+    "tone": "理性客观但带有批判性，深入分析但不失通俗，使用第一人称拉近距离，论述层层递进且严谨",
+    "catchphrases": [
+      "经济基础决定上层建筑",
+      "存在即合理",
+      "水乳交融",
+      "早上打猎下午搞哲学",
+      "是不是一听就很马克思",
+      "对吧？",
+      "叽里呱啦",
+      "先把腿长出来",
+      "OK",
+      "拜拜好"
+    ],
+    "closing_pattern": "总结核心观点（经济问题本质上是政治问题，'经济基础决定上层建筑'解释力有限），简洁收束",
+    "narrative_techniques": [
+      "类比（如'先把腿长出来再跑步'、'猪下水vs和牛'）",
+      "具体举例（武汉无人驾驶出租车、老乡哥与京剧、法国香槟哥）",
+      "对比（马克思vs亚里士多德、经济决定论vs政治优先论、日常用法vs学术原意）",
+      "反问（大量使用'对吧？'、'是不是？'引导听众思考）",
+      "引用（马克思《德意志意识形态》《资本论》、黑格尔《法哲学原理》、亚里士多德《政治学》）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "本集核心讨论对象，其著作《资本论》《德意志意识形态》中提出的'经济基础决定上层建筑'被日常化使用，但其原意是关于生产关系、阶级斗争和共产主义",
+      "importance": "high"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "其命题'存在即合理'（来自《法哲学原理》）被与马克思的命题并列讨论，作为被简化的哲学命题例子",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "其《政治学》被引用作为对比，主张阶级斗争是政治/荣誉斗争而非经济斗争，比马克思的经济解释更深入",
+      "importance": "high"
+    },
+    {
+      "name": "列宁",
+      "type": "person",
+      "context": "被提及作为实践马克思理论的人物，暗示马克思理论需要列宁才能实现",
+      "importance": "low"
+    },
+    {
+      "name": "老乡哥",
+      "type": "person",
+      "context": "播客中提到的朋友，留守儿童，喜欢京剧昆曲，被用作例子说明审美品位不能仅由经济条件决定",
+      "importance": "medium"
+    },
+    {
+      "name": "法国香槟哥",
+      "type": "person",
+      "context": "播客中提到的朋友，香槟地区农民，用其故事说明可口可乐打开中国市场如何影响香槟销售",
+      "importance": "medium"
+    },
+    {
+      "name": "《资本论》",
+      "type": "work",
+      "context": "马克思著作，'经济基础决定上层建筑'的出处，讨论生产关系和工人异化",
+      "importance": "high"
+    },
+    {
+      "name": "《法哲学原理》",
+      "type": "work",
+      "context": "黑格尔著作，'存在即合理'的出处",
+      "importance": "medium"
+    },
+    {
+      "name": "《德意志意识形态》",
+      "type": "work",
+      "context": "马克思著作，描述共产主义社会中人的全面发展（上午打猎下午搞哲学）",
+      "importance": "high"
+    },
+    {
+      "name": "《政治学》",
+      "type": "work",
+      "context": "亚里士多德著作，第3书第7-9章讨论阶级斗争作为政治/荣誉斗争",
+      "importance": "high"
+    },
+    {
+      "name": "京剧电影《野猪林》",
+      "type": "work",
+      "context": "老乡哥推荐的电影，用于说明京剧审美",
+      "importance": "low"
+    },
+    {
+      "name": "京剧电影《群英会》",
+      "type": "work",
+      "context": "老乡哥推荐的电影",
+      "importance": "low"
+    },
+    {
+      "name": "昆曲电影《牡丹亭》",
+      "type": "work",
+      "context": "老乡哥推荐的电影",
+      "importance": "low"
+    },
+    {
+      "name": "乐剧电影《良祝》",
+      "type": "work",
+      "context": "老乡哥推荐的电影（可能是《梁祝》）",
+      "importance": "low"
+    },
+    {
+      "name": "经济基础决定上层建筑",
+      "type": "concept",
+      "context": "本集核心讨论的概念，分析其在日常语境中与马克思原意的差异，质疑其二元论和决定论",
+      "importance": "high"
+    },
+    {
+      "name": "存在即合理",
+      "type": "concept",
+      "context": "与'经济基础决定上层建筑'并列讨论的另一句日常用语，来自黑格尔",
+      "importance": "medium"
+    },
+    {
+      "name": "生产关系",
+      "type": "concept",
+      "context": "马克思理论中的概念，包括所有制、分配、协作方式等",
+      "importance": "medium"
+    },
+    {
+      "name": "生产力",
+      "type": "concept",
+      "context": "马克思理论中与生产关系对应的概念",
+      "importance": "low"
+    },
+    {
+      "name": "阶级斗争",
+      "type": "concept",
+      "context": "马克思理论的核心概念，被亚里士多德解释为政治/荣誉斗争而非经济斗争",
+      "importance": "high"
+    },
+    {
+      "name": "异化",
+      "type": "concept",
+      "context": "马克思理论中工人在资本主义社会中的状态，无法成为完整的人",
+      "importance": "medium"
+    },
+    {
+      "name": "共产主义",
+      "type": "concept",
+      "context": "马克思设想的理想社会，人人自由全面发展",
+      "importance": "medium"
+    },
+    {
+      "name": "政治自由",
+      "type": "concept",
+      "context": "与'经济自由'对立讨论的概念，被认为在马克思理论中未被充分回答",
+      "importance": "high"
+    },
+    {
+      "name": "经济自由",
+      "type": "concept",
+      "context": "日常语境中常被认为应优先于政治自由的基础",
+      "importance": "high"
+    },
+    {
+      "name": "科学最优解",
+      "type": "concept",
+      "context": "批判'经济基础决定上层建筑'时提出的概念，认为经济问题被预设为有唯一科学答案",
+      "importance": "medium"
+    },
+    {
+      "name": "阶级意识",
+      "type": "concept",
+      "context": "亚里士多德《政治学》中提到的概念，与阶级斗争相关",
+      "importance": "medium"
+    },
+    {
+      "name": "荣誉",
+      "type": "concept",
+      "context": "亚里士多德解释阶级斗争时的核心概念，认为是争夺荣誉而非经济利益的斗争",
+      "importance": "high"
+    },
+    {
+      "name": "武汉引进无人驾驶出租车",
+      "type": "event",
+      "context": "作为具体案例讨论经济问题（效率）与政治问题（失业司机、垄断等）的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "可口可乐打开中国市场",
+      "type": "event",
+      "context": "法国香槟哥提及的历史事件，用来说明文化习惯如何影响经济（香槟销量与可乐普及相关）",
+      "importance": "low"
+    },
+    {
+      "name": "无产阶级革命",
+      "type": "event",
+      "context": "马克思理论中的历史事件，作为实现共产主义的手段",
+      "importance": "low"
+    },
+    {
+      "name": "武汉",
+      "type": "place",
+      "context": "无人驾驶出租车试点的城市，用于讨论效率与公平的政治问题",
+      "importance": "medium"
+    },
+    {
+      "name": "上海",
+      "type": "place",
+      "context": "播客主提到小时候第一次在这里看到哈根达斯开店",
+      "importance": "low"
+    },
+    {
+      "name": "法国香槟地区",
+      "type": "place",
+      "context": "法国香槟哥的家乡，香槟酒产区",
+      "importance": "low"
+    },
+    {
+      "name": "意大利",
+      "type": "place",
+      "context": "提到意大利歌剧作为高雅艺术形式的例子",
+      "importance": "low"
+    },
+    {
+      "name": "中国/中国市场",
+      "type": "place",
+      "context": "多次提及作为讨论语境，如可乐打开中国市场、日常用语语境等",
+      "importance": "high"
+    },
+    {
+      "name": "科技公司",
+      "type": "organization",
+      "context": "指提供无人驾驶出租车服务的公司，被讨论为可能造成垄断",
+      "importance": "low"
+    },
+    {
+      "name": "武汉政府",
+      "type": "organization",
+      "context": "制定无人驾驶出租车政策的主体，被讨论是否应牺牲出租车司机利益",
+      "importance": "low"
+    },
+    {
+      "name": "九年制义务教育",
+      "type": "other",
+      "context": "播客主提到接受过该教育的中国人都听过'经济基础决定上层建筑'",
+      "importance": "low"
+    },
+    {
+      "name": "出租车/出租车司机",
+      "type": "other",
+      "context": "武汉无人驾驶出租车案例中的利益受损群体",
+      "importance": "medium"
+    },
+    {
+      "name": "网约车/无人驾驶出租车",
+      "type": "other",
+      "context": "作为新技术代表，引发效率与公平的政治讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "哈根达斯",
+      "type": "other",
+      "context": "播客主小时候在上海看到的昂贵冰淇淋，作为经济决定审美/欲望的例子",
+      "importance": "low"
+    },
+    {
+      "name": "可口可乐",
+      "type": "other",
+      "context": "作为改变中国人饮食习惯（喝带气饮料）的产品，影响香槟销售",
+      "importance": "low"
+    },
+    {
+      "name": "香槟",
+      "type": "other",
+      "context": "法国香槟哥家乡的特产，作为文化经济关系的例子",
+      "importance": "low"
+    },
+    {
+      "name": "和牛",
+      "type": "other",
+      "context": "与猪下水对比，讨论经济条件是否决定食欲品位",
+      "importance": "low"
+    },
+    {
+      "name": "猪下水/猪杂汤",
+      "type": "other",
+      "context": "播客主喜爱的食物，用于反驳经济决定审美/品位",
+      "importance": "low"
+    },
+    {
+      "name": "双酱和牛/鱼子酱",
+      "type": "other",
+      "context": "作为所谓'高级'食物的代表，被质疑是否只有有钱人喜欢",
+      "importance": "low"
+    },
+    {
+      "name": "京剧/昆曲/乐剧",
+      "type": "other",
+      "context": "老乡哥喜欢的艺术形式，用于讨论文化背景vs经济条件对审美的影响",
+      "importance": "low"
+    },
+    {
+      "name": "意大利歌剧",
+      "type": "other",
+      "context": "作为所谓高雅艺术，被用来与京剧对比讨论审美阶级性",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66df70e2bfd7110df4770d73",
+  "title": "106-“经济基础决定上层建筑”是什么意思啊？"
+}

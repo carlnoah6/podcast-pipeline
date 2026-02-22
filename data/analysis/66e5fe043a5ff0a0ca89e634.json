@@ -1,0 +1,494 @@
+{
+  "style": {
+    "opening_pattern": "以理想主义媒体观的回溯引入，先描绘政治媒体应有的科学理性、客观性与进步主义理想，随即转折至2016年后美国政治媒体客观性理想的崩塌",
+    "structure": "历史回溯与对比结构：现状描述（特朗普时代媒体极化）→历史溯源（19世纪党派新闻时代）→转变分析（20世纪初商业化与学术化导致客观性兴起）→现实反思（客观性标准崩溃，回归党派媒体本质）",
+    "tone": "理性沉稳的学术反思语调，兼具历史纵深与现实批判，大量使用历史类比与文献引用，在客观描述中隐含对当下媒体极化现象的忧虑",
+    "catchphrases": [
+      "从我的角度来说",
+      "在我的观察中",
+      "很有意思",
+      "19世纪",
+      "客观性",
+      "进步主义",
+      "党派媒体",
+      "科学理性",
+      "特朗普",
+      "我们下期再见"
+    ],
+    "closing_pattern": "引用托克维尔《论美国的民主》中关于19世纪美国新闻自由的经典描述，以开放式历史反思结尾，不给出确定结论，邀请听众思考",
+    "narrative_techniques": [
+      "历史类比（将2016年后的媒体生态与19世纪党派新闻时代对比）",
+      "典型案例（塔克·卡尔森、1964年戈德华特选举、亨特·拜登笔记本事件等）",
+      "权威引用（托克维尔、理查德·卡普兰、霍夫施塔特、林肯·斯蒂芬斯等）",
+      "对比论证（进步媒体vs保守媒体，19世纪vs20世纪vs21世纪的媒体伦理）",
+      "设问引导（多次使用'为什么'、'是否'引发听众思考）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "2016年后美国政治媒体变化的关键人物，其崛起打破了媒体客观性理想，代表了民粹主义世界观",
+      "importance": "high"
+    },
+    {
+      "name": "塔克·卡尔森（Tucker Carlson）",
+      "type": "person",
+      "context": "保守派媒体人，福克斯新闻前主持人，后转至X平台，代表放弃客观性、拥抱党派立场的全新媒体人",
+      "importance": "high"
+    },
+    {
+      "name": "托克维尔（Tocqueville）",
+      "type": "person",
+      "context": "法国思想家，《论美国的民主》作者，被引用来描述19世纪美国新闻自由的暴躁与偏见特性",
+      "importance": "high"
+    },
+    {
+      "name": "老罗斯福（Theodore Roosevelt）",
+      "type": "person",
+      "context": "美国总统，进步主义时代代表人物，与新一代专业记者深度合作，建立白宫新闻室传统",
+      "importance": "high"
+    },
+    {
+      "name": "巴里·戈德华特（Barry Goldwater）",
+      "type": "person",
+      "context": "1964年共和党总统候选人，其选举中主流媒体放弃客观性进行攻击，成为历史类比案例",
+      "importance": "medium"
+    },
+    {
+      "name": "尼克松（Richard Nixon）",
+      "type": "person",
+      "context": "1968年当选总统，抨击媒体偏向激进抗议者，其顾问罗杰·艾尔斯后来创立福克斯新闻",
+      "importance": "medium"
+    },
+    {
+      "name": "林肯·斯蒂芬斯（Lincoln Steffens）",
+      "type": "person",
+      "context": "进步时代著名揭黑记者，老罗斯福最喜欢的记者，获白宫全通行证",
+      "importance": "medium"
+    },
+    {
+      "name": "理查德·卡普兰（Richard Kaplan）",
+      "type": "person",
+      "context": "历史学家，《政治与美国媒体：客观性的崛起1865到1920》作者，被引用阐述新闻业客观化历史",
+      "importance": "medium"
+    },
+    {
+      "name": "霍夫施塔特（Hofstadter）",
+      "type": "person",
+      "context": "历史学家，《进步历史学家》作者，被引用描述进步主义与新闻业的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "哈里斯（Kamala Harris）",
+      "type": "person",
+      "context": "2024年大选民主党候选人，与特朗普辩论后被进步媒体赞扬",
+      "importance": "medium"
+    },
+    {
+      "name": "希拉里（Hillary Clinton）",
+      "type": "person",
+      "context": "2016年大选候选人，被主流媒体预测胜率极高但败选",
+      "importance": "low"
+    },
+    {
+      "name": "亨特·拜登（Hunter Biden）",
+      "type": "person",
+      "context": "拜登之子，其笔记本事件被主流媒体称为俄罗斯虚假信息",
+      "importance": "medium"
+    },
+    {
+      "name": "埃隆·马斯克（Elon Musk）",
+      "type": "person",
+      "context": "X平台拥有者，塔克·卡尔森在其平台开播新节目",
+      "importance": "medium"
+    },
+    {
+      "name": "扎克伯格（Mark Zuckerberg）",
+      "type": "person",
+      "context": "承认在新冠疫情期间受白宫压力封杀保守派账号",
+      "importance": "medium"
+    },
+    {
+      "name": "玛乔丽·泰勒·格林（Marjorie Taylor Greene）",
+      "type": "person",
+      "context": "共和党激进女议员，被塔克·卡尔森采访",
+      "importance": "low"
+    },
+    {
+      "name": "迈克尔·约翰逊（Michael Johnson）",
+      "type": "person",
+      "context": "众议院议长，被格林声称遭勒索",
+      "importance": "low"
+    },
+    {
+      "name": "罗杰·艾尔斯（Roger Ailes）",
+      "type": "person",
+      "context": "尼克松前电视顾问，90年代初创立福克斯新闻",
+      "importance": "medium"
+    },
+    {
+      "name": "蕾切尔·玛多（Rachel Maddow）",
+      "type": "person",
+      "context": "MSNBC主持人，进步派评论员",
+      "importance": "medium"
+    },
+    {
+      "name": "梅根·凯利（Megyn Kelly）",
+      "type": "person",
+      "context": "前福克斯主持人，共和党评论员",
+      "importance": "medium"
+    },
+    {
+      "name": "吉姆·鲁滕伯格（Jim Rutenberg）",
+      "type": "person",
+      "context": "《纽约时报》记者，曾撰文号召记者以对立方式报道特朗普",
+      "importance": "medium"
+    },
+    {
+      "name": "威廉·艾伦·怀特（William Allen White）",
+      "type": "person",
+      "context": "进步运动领军人物，曾感慨生活在'杂志主宰的政府'",
+      "importance": "medium"
+    },
+    {
+      "name": "安德鲁·杰克逊（Andrew Jackson）",
+      "type": "person",
+      "context": "美国总统，被19世纪报纸激烈批评",
+      "importance": "medium"
+    },
+    {
+      "name": "格罗弗·克利夫兰（Grover Cleveland）",
+      "type": "person",
+      "context": "1884年当选总统，共和党报纸曾拒绝报道其胜选",
+      "importance": "medium"
+    },
+    {
+      "name": "林肯（Abraham Lincoln）",
+      "type": "person",
+      "context": "与道格拉斯进行1858年辩论",
+      "importance": "low"
+    },
+    {
+      "name": "道格拉斯（Stephen Douglas）",
+      "type": "person",
+      "context": "与林肯辩论的参议员",
+      "importance": "low"
+    },
+    {
+      "name": "林登·约翰逊（Lyndon Johnson）",
+      "type": "person",
+      "context": "1964年总统，利用媒体对戈德华特的攻击",
+      "importance": "medium"
+    },
+    {
+      "name": "《论美国的民主》（Democracy in America）",
+      "type": "work",
+      "context": "托克维尔著作，被引用来描述19世纪美国新闻自由",
+      "importance": "high"
+    },
+    {
+      "name": "《政治与美国媒体：客观性的崛起1865到1920》（Politics and the American Press: The Rise of Objectivity, 1865 to 1920）",
+      "type": "work",
+      "context": "理查德·卡普兰著作，分析新闻业客观化历史",
+      "importance": "high"
+    },
+    {
+      "name": "《进步历史学家》（Progressive Historians）",
+      "type": "work",
+      "context": "霍夫施塔特著作，描述进步主义与新闻业关系",
+      "importance": "medium"
+    },
+    {
+      "name": "《纽约邮报》（New York Post）",
+      "type": "work",
+      "context": "披露亨特·拜登笔记本的报纸",
+      "importance": "medium"
+    },
+    {
+      "name": "《纽约时报》（The New York Times）",
+      "type": "work",
+      "context": "主流媒体代表，被特朗普称为'人民公敌'",
+      "importance": "medium"
+    },
+    {
+      "name": "《洛杉矶时报》（Los Angeles Times）",
+      "type": "work",
+      "context": "1884年曾拒绝报道克利夫兰胜选的共和党报纸",
+      "importance": "medium"
+    },
+    {
+      "name": "《事实杂志》（Fact Magazine）",
+      "type": "work",
+      "context": "1964年发表精神病学家攻击戈德华特的文章",
+      "importance": "medium"
+    },
+    {
+      "name": "《白宫风云》（The West Wing）",
+      "type": "work",
+      "context": "美剧，名称源自白宫西翼",
+      "importance": "low"
+    },
+    {
+      "name": "普利策奖（Pulitzer Prize）",
+      "type": "work",
+      "context": "由哥伦比亚大学新闻学院颁发，赞助人为约瑟夫·普利策",
+      "importance": "medium"
+    },
+    {
+      "name": "客观性（Objectivity）",
+      "type": "concept",
+      "context": "20世纪新闻业的核心道德标准，现被视为崩溃的价值观",
+      "importance": "high"
+    },
+    {
+      "name": "进步主义（Progressivism）",
+      "type": "concept",
+      "context": "20世纪初政治运动，与新闻业专业化同步兴起",
+      "importance": "high"
+    },
+    {
+      "name": "党派新闻时代（Party Press Era）",
+      "type": "concept",
+      "context": "19世纪美国媒体形态，以公开党派偏见为特征",
+      "importance": "high"
+    },
+    {
+      "name": "科学理性主义",
+      "type": "concept",
+      "context": "与进步主义结合的认识论，主张通过科学方法报道新闻",
+      "importance": "medium"
+    },
+    {
+      "name": "专业精神/专业主义（Professionalism）",
+      "type": "concept",
+      "context": "20世纪新闻业的职业伦理，强调专家身份和技术标准",
+      "importance": "medium"
+    },
+    {
+      "name": "民粹主义（Populism）",
+      "type": "concept",
+      "context": "特朗普代表的政治风格，与精英媒体世界观对立",
+      "importance": "medium"
+    },
+    {
+      "name": "文化战争（Culture War）",
+      "type": "concept",
+      "context": "当代美国政治冲突形式，涉及身份政治和价值观对立",
+      "importance": "medium"
+    },
+    {
+      "name": "政治正确（Political Correctness）",
+      "type": "concept",
+      "context": "被保守派拒绝的社会规范，被认为忽视特定阶层",
+      "importance": "low"
+    },
+    {
+      "name": "批判性种族理论（Critical Race Theory）",
+      "type": "concept",
+      "context": "学术理论，成为教育领域争议焦点",
+      "importance": "low"
+    },
+    {
+      "name": "阴谋论",
+      "type": "concept",
+      "context": "塔克·卡尔森节目中传播的不实信息形式",
+      "importance": "medium"
+    },
+    {
+      "name": "道德相对主义",
+      "type": "concept",
+      "context": "保守媒体对外国暴君的暧昧态度体现的伦理立场",
+      "importance": "medium"
+    },
+    {
+      "name": "新闻自由",
+      "type": "concept",
+      "context": "托克维尔讨论的核心议题，与民主制度相关",
+      "importance": "high"
+    },
+    {
+      "name": "人民主权",
+      "type": "concept",
+      "context": "托克维尔理论中新闻自由暴躁偏见的政治基础",
+      "importance": "medium"
+    },
+    {
+      "name": "2016年美国总统大选",
+      "type": "event",
+      "context": "特朗普胜选，标志美国政治媒体客观性理想崩溃的关键节点",
+      "importance": "high"
+    },
+    {
+      "name": "2020年美国总统大选",
+      "type": "event",
+      "context": "特朗普败选，期间发生亨特·拜登笔记本争议和社交媒体封杀事件",
+      "importance": "medium"
+    },
+    {
+      "name": "2024年美国总统大选",
+      "type": "event",
+      "context": "特朗普与哈里斯辩论，体现媒体极化现状的近期事件",
+      "importance": "high"
+    },
+    {
+      "name": "1964年美国总统大选",
+      "type": "event",
+      "context": "约翰逊 vs 戈德华特，主流媒体首次大规模放弃客观性攻击候选人",
+      "importance": "high"
+    },
+    {
+      "name": "1968年美国总统大选",
+      "type": "event",
+      "context": "尼克松胜选，抨击媒体偏向激进抗议者",
+      "importance": "medium"
+    },
+    {
+      "name": "1884年美国总统大选",
+      "type": "event",
+      "context": "克利夫兰当选，共和党报纸拒绝报道结果的极端党派偏见案例",
+      "importance": "medium"
+    },
+    {
+      "name": "林肯-道格拉斯辩论（1858）",
+      "type": "event",
+      "context": "1858年伊利诺伊州参议员竞选辩论，体现当时党派媒体报道偏见",
+      "importance": "medium"
+    },
+    {
+      "name": "亨特·拜登笔记本事件",
+      "type": "event",
+      "context": "2020年大选期间被主流媒体称为俄罗斯虚假信息后被证实真实",
+      "importance": "medium"
+    },
+    {
+      "name": "2020年乔治·弗洛伊德抗议",
+      "type": "event",
+      "context": "被塔克·卡尔森等保守派媒体人描述为'mostly peaceful'的争议事件",
+      "importance": "low"
+    },
+    {
+      "name": "特朗普与哈里斯首次辩论（2024年9月）",
+      "type": "event",
+      "context": "播客中详细分析的近期事件，体现进步与保守媒体截然相反的解读",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "播客讨论的核心国家，涉及其政治媒体历史与现状",
+      "importance": "high"
+    },
+    {
+      "name": "莫斯科（俄罗斯）",
+      "type": "place",
+      "context": "塔克·卡尔森采访普京的地点，被描述为'井井有条'与西雅图对比",
+      "importance": "medium"
+    },
+    {
+      "name": "西雅图",
+      "type": "place",
+      "context": "被塔克·卡尔森拿来与莫斯科对比的美国城市，代表'无序'的进步城市",
+      "importance": "medium"
+    },
+    {
+      "name": "墨西哥边境",
+      "type": "place",
+      "context": "涉及移民问题和阴谋论（中国间谍论）的地理区域",
+      "importance": "low"
+    },
+    {
+      "name": "芝加哥",
+      "type": "place",
+      "context": "1968年民主党全国代表大会期间发生抗议和暴力事件的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "华盛顿特区/白宫",
+      "type": "place",
+      "context": "美国政治中心，老罗斯福建立白宫新闻室传统的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "福克斯新闻（Fox News）",
+      "type": "organization",
+      "context": "90年代初创立的第一个保守派主流媒体，塔克·卡尔森曾任职于此",
+      "importance": "high"
+    },
+    {
+      "name": "MSNBC",
+      "type": "organization",
+      "context": "进步派媒体代表，主持人蕾切尔·玛多赞扬哈里斯辩论表现",
+      "importance": "medium"
+    },
+    {
+      "name": "美联社（Associated Press）",
+      "type": "organization",
+      "context": "通讯社，老罗斯福曾邀请其进入白宫进行访谈",
+      "importance": "medium"
+    },
+    {
+      "name": "《纽约太阳报》（New York Sun）",
+      "type": "organization",
+      "context": "历史报纸，被老罗斯福邀请进入白宫",
+      "importance": "low"
+    },
+    {
+      "name": "密苏里大学",
+      "type": "organization",
+      "context": "1879年开设美国第一个新闻专业，1908年成为第一所新闻学校",
+      "importance": "high"
+    },
+    {
+      "name": "哥伦比亚大学",
+      "type": "organization",
+      "context": "1912年开设新闻学研究课程，由普利策赞助",
+      "importance": "high"
+    },
+    {
+      "name": "X平台（原推特）",
+      "type": "organization",
+      "context": "马斯克拥有的社交媒体平台，塔克·卡尔森被福克斯开除后在此开播",
+      "importance": "medium"
+    },
+    {
+      "name": "脸书/Meta（Facebook）",
+      "type": "organization",
+      "context": "社交媒体，扎克伯格承认受白宫压力封杀保守派账号",
+      "importance": "medium"
+    },
+    {
+      "name": "推特（Twitter）",
+      "type": "organization",
+      "context": "现X平台，曾暗中封杀保守派账号",
+      "importance": "medium"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "美国保守派政党，与进步媒体对立",
+      "importance": "high"
+    },
+    {
+      "name": "民主党",
+      "type": "organization",
+      "context": "美国进步派政党，与主流媒体关系密切",
+      "importance": "high"
+    },
+    {
+      "name": "普利策奖",
+      "type": "other",
+      "context": "由哥伦比亚大学新闻学院颁发，赞助人为约瑟夫·普利策",
+      "importance": "medium"
+    },
+    {
+      "name": "白宫新闻室",
+      "type": "other",
+      "context": "1902年由老罗斯福在白宫西翼设立，延续至今的传统",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66e5fe043a5ff0a0ca89e634",
+  "title": "108-政治媒体能否、应否保持客观？"
+}

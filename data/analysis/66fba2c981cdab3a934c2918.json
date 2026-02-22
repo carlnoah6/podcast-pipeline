@@ -1,0 +1,320 @@
+{
+  "style": {
+    "opening_pattern": "以创作意图说明引入，解释为何要先讨论陀思妥耶夫斯基的整体思想再进入具体作品分析",
+    "structure": "提出三个核心论点→逐一展开论述（科学真理观→经济基础论→人性自私论）→穿插与托尔斯泰的对比→个人阅读体验与时代关联的反思→结尾回归创作初衷",
+    "tone": "理性思辨中带个人情感投入，既有学术分析的深度，又有播客主播的亲切感，偶尔使用口语化表达",
+    "catchphrases": [
+      "NO NO NO NO NO",
+      "我耳朵都快听出茧子了",
+      "这个老哥",
+      "哇哦",
+      "拜拜拜拜",
+      "我觉得",
+      "对于我来说",
+      "我们可以看到",
+      "也就是说"
+    ],
+    "closing_pattern": "回归创作初衷，表达个人成长中与作家的精神共鸣，以文学与哲学的互通性作结，自然道别",
+    "narrative_techniques": [
+      "类比（将水晶宫比作羊圈/巴比伦）",
+      "对比（陀思妥耶夫斯基与托尔斯泰、与弗洛伊德）",
+      "举例（大量引用小说情节）",
+      "反问",
+      "引用（书信、游记原文）",
+      "设问自答"
+    ]
+  },
+  "entities": [
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "本集核心讨论对象，19世纪俄国作家，其全部作品被视为对三种现代真理的反驳",
+      "importance": "high"
+    },
+    {
+      "name": "《罪与罚》",
+      "type": "work",
+      "context": "主播原计划直接解析的作品，因需先铺垫整体思想而延后讨论",
+      "importance": "high"
+    },
+    {
+      "name": "《卡拉马佐夫兄弟》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基最后一部小说，被用来探讨现代科学能否满足人类内心最高渴望",
+      "importance": "high"
+    },
+    {
+      "name": "《地下室手记》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基处理现代科学话题的核心作品之一，主角对'2乘2等于4'发起攻击",
+      "importance": "high"
+    },
+    {
+      "name": "《群魔》",
+      "type": "work",
+      "context": "与《罪与罚》《卡拉马佐夫兄弟》并列提及，作为背景陌生的陀氏代表作",
+      "importance": "medium"
+    },
+    {
+      "name": "《赌徒》",
+      "type": "work",
+      "context": "被引用说明金钱主题在陀思妥耶夫斯基作品中的核心地位",
+      "importance": "medium"
+    },
+    {
+      "name": "《少年》",
+      "type": "work",
+      "context": "其中老农民伊万诺维奇关于'金钱是半个上帝'的台词被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "《作家日记》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基的散文作品，其中关于金钱力量的论述被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "《冬天记的夏天印象》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基1862年访英游记，记录了对水晶宫的深刻不安",
+      "importance": "high"
+    },
+    {
+      "name": "托尔斯泰",
+      "type": "person",
+      "context": "与陀思妥耶夫斯基对比的俄国作家，被批评为提供'俄罗斯生活幻影'，相信稳定与永恒",
+      "importance": "high"
+    },
+    {
+      "name": "屠格涅夫",
+      "type": "person",
+      "context": "与陀思妥耶夫斯基、托尔斯泰并列的俄国作家，其人物被认为不如陀氏人物贴近当代读者",
+      "importance": "low"
+    },
+    {
+      "name": "《战争与和平》",
+      "type": "work",
+      "context": "托尔斯泰代表作，被用来说明其笔下'深藏不变的永恒'主题",
+      "importance": "medium"
+    },
+    {
+      "name": "《安娜·卡列尼娜》",
+      "type": "work",
+      "context": "托尔斯泰代表作，奥布隆斯基夫妇的生活被用来说明'重新粘合'的主题",
+      "importance": "medium"
+    },
+    {
+      "name": "拉斯柯尔尼科夫",
+      "type": "person",
+      "context": "《罪与罚》主角，被贫穷困住的人，与钱的关系主宰了其命运",
+      "importance": "high"
+    },
+    {
+      "name": "伊凡·卡拉马佐夫",
+      "type": "person",
+      "context": "《卡拉马佐夫兄弟》主角之一，信奉自然科学的无神论者，最终精神崩溃",
+      "importance": "high"
+    },
+    {
+      "name": "阿廖沙",
+      "type": "person",
+      "context": "《卡拉马佐夫兄弟》主角之一，与伊凡讨论上帝存在和世界的公平问题",
+      "importance": "medium"
+    },
+    {
+      "name": "德米特里",
+      "type": "person",
+      "context": "《卡拉马佐夫兄弟》中说出'没有金钱你寸步难行'的角色",
+      "importance": "low"
+    },
+    {
+      "name": "老卡拉马佐夫（费奥多尔）",
+      "type": "person",
+      "context": "《卡拉马佐夫兄弟》中的父亲形象，拥有十万卢布财富使读者对其印象180度转变",
+      "importance": "medium"
+    },
+    {
+      "name": "弗洛伊德",
+      "type": "person",
+      "context": "与陀思妥耶夫斯基对比的心理学家，其前意识理论与陀氏的道德性前意识形成对照",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "其'经济基础决定上层建筑'理论被作为第二种'中国人奉为圭臬的真理'进行讨论",
+      "importance": "high"
+    },
+    {
+      "name": "毕达哥拉斯定律",
+      "type": "concept",
+      "context": "被用作马克思主义者所理解的'普世真理'的例子——在任何地方任何时间都正确的抽象认知",
+      "importance": "medium"
+    },
+    {
+      "name": "欧几里得",
+      "type": "person",
+      "context": "伊凡·卡拉马佐夫引用其最新数学发现来讨论上帝存在的问题",
+      "importance": "low"
+    },
+    {
+      "name": "约伯问题",
+      "type": "concept",
+      "context": "世界是否公平的经典神学问题，伊凡与阿廖沙讨论的核心议题",
+      "importance": "medium"
+    },
+    {
+      "name": "实证主义",
+      "type": "concept",
+      "context": "19世纪科学思想之一，《地下室手记》主角与之辩论的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "进化论",
+      "type": "concept",
+      "context": "19世纪科学思想之一，被纳入《地下室手记》中的科学对话者声音",
+      "importance": "medium"
+    },
+    {
+      "name": "乌托邦社会主义",
+      "type": "concept",
+      "context": "19世纪政治思想，与地下室人的非理性立场形成对立",
+      "importance": "medium"
+    },
+    {
+      "name": "功利主义",
+      "type": "concept",
+      "context": "19世纪伦理思想，被纳入《地下室手记》的科学思想阵营",
+      "importance": "medium"
+    },
+    {
+      "name": "经验主义",
+      "type": "concept",
+      "context": "19世纪认识论思想，地下室人辩论的对手之一",
+      "importance": "medium"
+    },
+    {
+      "name": "理性利己主义",
+      "type": "concept",
+      "context": "19世纪伦理思想，与陀思妥耶夫斯基笔下非理性的核心角色形成对照",
+      "importance": "medium"
+    },
+    {
+      "name": "社会达尔文主义",
+      "type": "concept",
+      "context": "19世纪社会理论，《地下室手记》中科学对话者的思想武器之一",
+      "importance": "medium"
+    },
+    {
+      "name": "唯物主义",
+      "type": "concept",
+      "context": "与现代科学兴起相关的哲学立场，为决定论铺路的理论基础",
+      "importance": "high"
+    },
+    {
+      "name": "决定论",
+      "type": "concept",
+      "context": "现代科学带来的世界观，认为自然法则可以预测和计算人类行为，被陀思妥耶夫斯基批判",
+      "importance": "high"
+    },
+    {
+      "name": "物化",
+      "type": "concept",
+      "context": "现代科学作为信仰带来的结果，人被当作物体研究，失去主体性",
+      "importance": "high"
+    },
+    {
+      "name": "分析哲学",
+      "type": "concept",
+      "context": "被描述为'哲学数学化'的方向，用数学逻辑理解哲学以获得普世公理",
+      "importance": "medium"
+    },
+    {
+      "name": "工业革命",
+      "type": "event",
+      "context": "19世纪中期带来全新社会秩序的历史变动，使传统社会结构崩溃",
+      "importance": "high"
+    },
+    {
+      "name": "水晶宫世博会",
+      "type": "event",
+      "context": "1862年伦敦世博会，工业革命的象征，引发陀思妥耶夫斯基深刻不安",
+      "importance": "high"
+    },
+    {
+      "name": "维多利亚时代",
+      "type": "event",
+      "context": "英国工业和技术发展巅峰时期，科学崇拜蔓延至全社会的年代",
+      "importance": "medium"
+    },
+    {
+      "name": "西伯利亚流放",
+      "type": "event",
+      "context": "陀思妥耶夫斯基的经历，1854年写信给朋友描述自己为'时代的孩子'",
+      "importance": "medium"
+    },
+    {
+      "name": "1860年",
+      "type": "event",
+      "context": "《地下室手记》设定的年代，俄罗斯知识分子开始拒绝宗教传统的转折点",
+      "importance": "medium"
+    },
+    {
+      "name": "圣彼得堡",
+      "type": "place",
+      "context": "被地下室人描述为'全球最抽象最深刻的城市'",
+      "importance": "medium"
+    },
+    {
+      "name": "英国/伦敦",
+      "type": "place",
+      "context": "1862年陀思妥耶夫斯基访问之地，水晶宫所在地，科学崇拜的中心",
+      "importance": "medium"
+    },
+    {
+      "name": "俄罗斯/俄国",
+      "type": "place",
+      "context": "陀思妥耶夫斯基的祖国，当时落后但视西方为榜样，面临现代性冲击",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "《卡拉马佐夫兄弟》中伊万计划花钱让弟弟逃往的目的地",
+      "importance": "low"
+    },
+    {
+      "name": "罗斯托夫家族",
+      "type": "other",
+      "context": "《战争与和平》中的贵族家族，体现托尔斯泰笔下的'永恒'",
+      "importance": "low"
+    },
+    {
+      "name": "奥布隆斯基夫妇",
+      "type": "other",
+      "context": "《安娜·卡列尼娜》中的角色，生活最终会'重新粘合'的代表",
+      "importance": "low"
+    },
+    {
+      "name": "浪漫主义艺术运动",
+      "type": "concept",
+      "context": "19世纪中期在俄罗斯年轻人中流行的西方文化产品",
+      "importance": "low"
+    },
+    {
+      "name": "新现实主义",
+      "type": "concept",
+      "context": "陀思妥耶夫斯基对自己写作风格的称呼之一，旨在捕捉俄罗斯的迷茫与不确定性",
+      "importance": "medium"
+    },
+    {
+      "name": "能够预见事实的理想主义",
+      "type": "concept",
+      "context": "陀思妥耶夫斯基对自己写作风格的另一称呼",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66fba2c981cdab3a934c2918",
+  "title": "116-陀思妥耶夫斯基如何反驳中国人最奉为圭臬的真理？"
+}

@@ -1,0 +1,201 @@
+{
+  "style": {
+    "opening_pattern": "承接往期内容+提出新问题，先回顾第90期讨论的'贻笑大方的态度'（拧巴、迂腐、戏谑），再引出本期主题'知识分子吵架的下三滥套路'",
+    "structure": "问题意识引入（公共辩论的理想与现实）→ 批判两种不良对话模式（人身攻击式骂战 vs 伪科学方法论争辩）→ 详细分析三个下三滥套路（质疑动机/立场、攻击精英视角、假装客观中立）→ 提出积极建议（善意、谦逊、为真理而辩）",
+    "tone": "理性犀利兼具口语化，学术深度与个人立场鲜明，带有强烈的批判性和情感投入（如'重拳出击'、'下三滥'），但论证严谨，保持知识分子的自省与诚实",
+    "catchphrases": [
+      "下三滥的套路",
+      "拧巴、迂腐和戏谑",
+      "成分",
+      "黑五类",
+      "讲人话",
+      "固步自封",
+      "潘多拉魔盒",
+      "so what",
+      "狭路相逢智者胜",
+      "精英的视角"
+    ],
+    "closing_pattern": "引用他人观点（夏令营校长的三个准则：善意、谦逊、为真理而辩）+ 逐一阐释对应 + 总结升华 + 告别",
+    "narrative_techniques": [
+      "历史类比（修昔底德《伯罗奔尼撒战争史》中Cleon与Diodotus的辩论）",
+      "文学引用（莎士比亚《科利奥兰纳斯》）",
+      "个人经历/故事（与博士女同学的讨论、老乡哥的例子、夏令营经历）",
+      "假设情景（病毒封控的推演）",
+      "对比分析（两种攻击女同学方式的对比、两种不良对话模式的对比）",
+      "反问与归谬"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Cleon（克里昂）",
+      "type": "person",
+      "context": "修昔底德《伯罗奔尼撒战争史》中的雅典政治家，被描述为使用下三滥套路质疑对手动机的民粹领袖",
+      "importance": "high"
+    },
+    {
+      "name": "Diodotus（狄奥多图斯）",
+      "type": "person",
+      "context": "修昔底德笔下反对Cleon的雅典政治家，主张不应质疑对手动机以维持公共辩论的可能性",
+      "importance": "high"
+    },
+    {
+      "name": "修昔底德",
+      "type": "person",
+      "context": "古希腊历史学家，其著作《伯罗奔尼撒战争史》被用作分析知识分子辩论套路的历史例证",
+      "importance": "high"
+    },
+    {
+      "name": "莎士比亚",
+      "type": "person",
+      "context": "剧作家，其戏剧《科利奥兰纳斯》被引用说明民粹主义领袖的历史渊源",
+      "importance": "medium"
+    },
+    {
+      "name": "老乡哥",
+      "type": "person",
+      "context": "播客中多次提到的朋友，留守儿童、农村子弟出身，被用来说明即使农村出身也只能代表个人视角而非'农民视角'",
+      "importance": "medium"
+    },
+    {
+      "name": "林垚（播客主）",
+      "type": "person",
+      "context": "播客《独树不成林》的主播，以第一人称'我'贯穿全文，提出并论证关于知识分子辩论套路的观点",
+      "importance": "high"
+    },
+    {
+      "name": "王某某/张某某",
+      "type": "person",
+      "context": "虚构的学者名字，用于讽刺那些用学术论文和方法论来讨论公共问题的知识分子",
+      "importance": "low"
+    },
+    {
+      "name": "《伯罗奔尼撒战争史》",
+      "type": "work",
+      "context": "修昔底德的历史著作，其中密提林辩论被详细引用作为分析知识分子辩论套路的古典例证",
+      "importance": "high"
+    },
+    {
+      "name": "《科利奥兰纳斯》",
+      "type": "work",
+      "context": "莎士比亚的罗马悲剧，被用来分析民粹主义领袖（保民官）如何通过代表人民攻击精英来获取权力",
+      "importance": "high"
+    },
+    {
+      "name": "《如何面对人生的不公》",
+      "type": "work",
+      "context": "播客往期节目，其中关于两个博士女同学对不公理解的轻飘例子被本期再次引用",
+      "importance": "medium"
+    },
+    {
+      "name": "质疑动机/立场攻击",
+      "type": "concept",
+      "context": "第一种下三滥套路：通过质疑对手的成分、立场不纯来否定其观点，如历史上的黑五类划分",
+      "importance": "high"
+    },
+    {
+      "name": "精英视角攻击",
+      "type": "concept",
+      "context": "第二种下三滥套路：知识分子之间互相攻击对方代表精英利益，实则通常是精英伪装代表人民（民粹主义）",
+      "importance": "high"
+    },
+    {
+      "name": "假装客观中立",
+      "type": "concept",
+      "context": "第三种下三滥套路：用科学话语（science talk）或权利话语（rights talk）将价值辩论伪装成客观事实，关闭辩论空间",
+      "importance": "high"
+    },
+    {
+      "name": "黑五类",
+      "type": "concept",
+      "context": "地主、富农、反革命分子、坏分子、右派，被用作历史上通过身份/成分否定发言权的极端例子",
+      "importance": "medium"
+    },
+    {
+      "name": "民粹主义",
+      "type": "concept",
+      "context": "Populism，被分析为一种政治运作模式：精英伪装代表大众利益攻击其他精英以获取权力",
+      "importance": "high"
+    },
+    {
+      "name": "密提林辩论",
+      "type": "event",
+      "context": "伯罗奔尼撒战争期间雅典人就如何处理叛变的密提林城进行的辩论，Cleon与Diodotus的对决",
+      "importance": "high"
+    },
+    {
+      "name": "文化大革命",
+      "type": "event",
+      "context": "提到黑五类时期的历史背景，作为通过成分划分剥夺话语权的极端例子",
+      "importance": "medium"
+    },
+    {
+      "name": "罗斯福新政",
+      "type": "event",
+      "context": "1930年代，被提及作为美国人权利观念变化的起点，福利开始被视为权利",
+      "importance": "medium"
+    },
+    {
+      "name": "约翰逊伟大社会改革",
+      "type": "event",
+      "context": "1960年代，将老年人医疗补助等福利明确划为权利，被用作权利话语扩张的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "新冠疫情/封控",
+      "type": "event",
+      "context": "被用作假设例子说明'科学客观'（封城控制病毒）进入社会后成为主观价值选择（忽视经济生计）",
+      "importance": "high"
+    },
+    {
+      "name": "雅典",
+      "type": "place",
+      "context": "古希腊城邦，密提林辩论的发生地，作为古典民主政治辩论的典范场景",
+      "importance": "high"
+    },
+    {
+      "name": "罗马",
+      "type": "place",
+      "context": "古罗马，莎士比亚《科利奥兰纳斯》的背景，保民官与贵族冲突的发生地",
+      "importance": "medium"
+    },
+    {
+      "name": "浙江农村",
+      "type": "place",
+      "context": "老乡哥的出身地，被用来讨论是否存在统一的'农民视角'",
+      "importance": "low"
+    },
+    {
+      "name": "Roman Tribune（罗马保民官）",
+      "type": "organization",
+      "context": "古罗马政治职位，在《科利奥兰纳斯》中代表人民利益攻击贵族的精英群体，被用作民粹主义的历史原型",
+      "importance": "high"
+    },
+    {
+      "name": "美国联邦政府/州政府",
+      "type": "organization",
+      "context": "在讨论医疗补助和权利话语时被提及，作为资源配置和联邦补贴的决策机构",
+      "importance": "medium"
+    },
+    {
+      "name": "泼妇",
+      "type": "other",
+      "context": "被用作言论自由界限讨论的例子（泼妇骂街是否算言论自由）",
+      "importance": "low"
+    },
+    {
+      "name": "蛋糕",
+      "type": "other",
+      "context": "博士女同学用来举例不公的例子（弟弟吃完蛋糕）",
+      "importance": "low"
+    },
+    {
+      "name": "病毒",
+      "type": "other",
+      "context": "封控例子中的核心对象，代表科学客观性进入社会后变成主观价值选择的案例",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66abe67c7349f7a5572a79d7",
+  "title": "91-知识分子吵架喜欢使用什么下三滥的套路？"
+}

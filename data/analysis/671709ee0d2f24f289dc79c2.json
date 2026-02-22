@@ -1,0 +1,123 @@
+{
+  "style": {
+    "opening_pattern": "以播客系列回归引入，对比上一期与本期状态差异（亢奋vs平静），并说明创作场景（瑜伽后）",
+    "structure": "个人经验→抽象提炼→政治类比→总结升华，采用'运动习惯中的具体体验→政治真理的对应映射'的双层结构",
+    "tone": "理性平和、娓娓道来，带有自省式的温和批判，避免说教感",
+    "catchphrases": [
+      "图啥呀",
+      "惨痛的真理",
+      "象牙塔",
+      "顺其自然",
+      "关关难过关关过",
+      "真的吗？我不信",
+      "包饺子",
+      "牵一发而动全身",
+      "实践智慧",
+      "悬浮的理想"
+    ],
+    "closing_pattern": "引用鲁豫名言作结，形成幽默而有力的收束，同时回扣主题",
+    "narrative_techniques": [
+      "类比",
+      "举例",
+      "对比",
+      "自我暴露",
+      "对话式叙述",
+      "层层递进"
+    ]
+  },
+  "entities": [
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "引用其中期著作《人性，太人性的》中关于友谊的观点，用以说明运动带来的自我连结",
+      "importance": "medium"
+    },
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "被引用来批评18世纪法国哲学家缺乏政治经验，导致大革命的激进变革",
+      "importance": "high"
+    },
+    {
+      "name": "彭于晏",
+      "type": "person",
+      "context": "作为健身理想身材的符号化代表，用来说明普通人常有的不切实际幻想",
+      "importance": "low"
+    },
+    {
+      "name": "鲁豫",
+      "type": "person",
+      "context": "结尾引用其标志性口头禅'真的吗？我不信'，作为实践智慧的象征",
+      "importance": "medium"
+    },
+    {
+      "name": "《人性，太人性的》",
+      "type": "work",
+      "context": "尼采中期格言集，被用来阐释运动带来的自我友谊",
+      "importance": "medium"
+    },
+    {
+      "name": "APSR（American Political Science Review）",
+      "type": "work",
+      "context": "美国政治学最权威期刊，被批评刊登脱离现实的理论畅想",
+      "importance": "medium"
+    },
+    {
+      "name": "财产权/Property Rights",
+      "type": "concept",
+      "context": "苏联专家认为阻止美国共产主义化的核心因素，拥有财产的经验让人警惕失去",
+      "importance": "high"
+    },
+    {
+      "name": "实践智慧",
+      "type": "concept",
+      "context": "贯穿全篇的核心概念，指通过日常实践获得的、难以通过理论反思得到的真知",
+      "importance": "high"
+    },
+    {
+      "name": "经济大萧条",
+      "type": "event",
+      "context": "1930年代美国经济危机，被认为是美国最接近共产主义的历史时刻",
+      "importance": "high"
+    },
+    {
+      "name": "法国大革命",
+      "type": "event",
+      "context": "1789年革命，被托克维尔用来分析缺乏政治经验的哲学家的危险",
+      "importance": "medium"
+    },
+    {
+      "name": "越战",
+      "type": "event",
+      "context": "1960年代美国反战运动的背景，但被认为当时的抗议者不会真正选择共产主义",
+      "importance": "low"
+    },
+    {
+      "name": "旧金山/西雅图/纽约/洛杉矶",
+      "type": "place",
+      "context": "美国大城市，租房者聚集、社会主义思想较易传播的地区",
+      "importance": "medium"
+    },
+    {
+      "name": "北京",
+      "type": "place",
+      "context": "被某环保教授羡慕能'一夜之间'从煤气转电气，作为对比美国的例子",
+      "importance": "low"
+    },
+    {
+      "name": "卡塔尔/塞内加尔/巴厘岛",
+      "type": "place",
+      "context": "主播过往播客中讨论过的地点，作为'实践照亮思想'的例子",
+      "importance": "low"
+    },
+    {
+      "name": "socialist communes",
+      "type": "organization",
+      "context": "1930年代美国大城市中出现的社会主义社群，实行集体主义实验",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "671709ee0d2f24f289dc79c2",
+  "title": "124-每天运动如何帮我反思政治上的真理？"
+}

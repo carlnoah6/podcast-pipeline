@@ -1,0 +1,26 @@
+{
+  "style": {
+    "opening_pattern": "无法判断（文本仅包含重复的支持语，无实际内容）",
+    "structure": "无法判断（文本仅包含重复的支持语，无实际内容）",
+    "tone": "无法判断（文本仅包含重复的支持语，无实际内容）",
+    "catchphrases": [
+      "请不吝点赞",
+      "订阅",
+      "转发",
+      "打赏支持明镜与点点栏目"
+    ],
+    "closing_pattern": "无法判断（文本仅包含重复的支持语，无实际内容）",
+    "narrative_techniques": []
+  },
+  "entities": [
+    {
+      "name": "明镜与点点栏目",
+      "type": "organization",
+      "context": "播客节目中请求听众支持的对象，可能是制作团队或关联栏目",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "668c072cae8e21859a6e9c9e",
+  "title": "85-男知识分子容易出现什么贻笑大方的态度？"
+}

@@ -1,0 +1,243 @@
+{
+  "style": {
+    "opening_pattern": "以争议性话题直接切入，先抛出'你们才厌女'的反问，再说明要呈现双方最有道理的论点",
+    "structure": "个人反思与立场声明→左派观点（娇妻文化、堕胎权、Katie Britt案例）→右派观点（无法定义女性、语言去性别化、跨性别议题对女性空间的挤压）→结论（政治博弈而非理论问题）",
+    "tone": "理性犀利、带有防御性的战斗姿态、学术诚实但情绪饱满、对教条主义强烈批判",
+    "catchphrases": [
+      "智识上的谦卑和好奇心",
+      "训练有素的恶狗",
+      "教条主义",
+      "带节奏",
+      "压迫者共同体",
+      "觉醒的人",
+      "被审判",
+      "知识上的闭塞",
+      "政治批斗",
+      "智识上的诚实"
+    ],
+    "closing_pattern": "自我调侃式总结（'惹恼了战斗力最强的所有群体'），回归观察事实的谦逊姿态，开放式告别",
+    "narrative_techniques": [
+      "对比（英美政治语境差异、左右派互指厌女）",
+      "举例（Katie Britt演讲、Ketanji Brown Jackson听证、Riley Gaines案例）",
+      "类比（60年代中国、2020年美国经历）",
+      "反问",
+      "自我民族志（以自身播客经历为证据）",
+      "引用（联邦党人文集第十篇、拜登国情咨文、参议员Blackburn发言）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "拜登",
+      "type": "person",
+      "context": "美国总统，在2024年国情咨文中感谢副总统哈里斯捍卫生育自由，承诺恢复罗伊诉韦德案",
+      "importance": "high"
+    },
+    {
+      "name": "Kamala Harris/卡玛拉·哈里斯",
+      "type": "person",
+      "context": "美国副总统，被拜登称为'捍卫生育自由的杰出领袖'",
+      "importance": "medium"
+    },
+    {
+      "name": "Katie Britt",
+      "type": "person",
+      "context": "阿拉巴马州共和党参议员，因用'魅惑气音'在厨房回应国情咨文而被左派批评表演传统女性角色",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "context": "前总统，被提及婚内性关系、'lock her up'口号、福音派支持者等",
+      "importance": "medium"
+    },
+    {
+      "name": "希拉里·克林顿",
+      "type": "person",
+      "context": "2016年与特朗普竞选，主张保护妇女权利，被特朗普支持者要求'关起来'",
+      "importance": "medium"
+    },
+    {
+      "name": "Ketanji Brown Jackson",
+      "type": "person",
+      "context": "美国最高法院大法官，在确认听证会上以'我不是生物学家'回避定义女性",
+      "importance": "high"
+    },
+    {
+      "name": "Marsha Blackburn",
+      "type": "person",
+      "context": "田纳西州共和党女参议员，在听证会上质问Jackson'女人是什么'",
+      "importance": "medium"
+    },
+    {
+      "name": "Meghan Kelly",
+      "type": "person",
+      "context": "前福克斯主持人，反对变性人进入女性空间的保守派代表",
+      "importance": "medium"
+    },
+    {
+      "name": "Riley Gaines",
+      "type": "person",
+      "context": "肯塔基大学游泳运动员，被跨性别者Lia Thomas击败后成为反跨性别参赛的活动家",
+      "importance": "high"
+    },
+    {
+      "name": "Lia Thomas",
+      "type": "person",
+      "context": "跨性别游泳运动员，出生时为男性，以女性身份参加NCAA锦标赛并击败Riley Gaines",
+      "importance": "medium"
+    },
+    {
+      "name": "J.K.罗琳",
+      "type": "person",
+      "context": "因反对将女性称为'有子宫的人'而被左派攻击为仇恨言论",
+      "importance": "medium"
+    },
+    {
+      "name": "Michael Powell",
+      "type": "person",
+      "context": "纽约时报记者，报道进步组织在堕胎讨论中避免使用'woman'一词的现象",
+      "importance": "medium"
+    },
+    {
+      "name": "罗伊诉韦德案/Roe v. Wade",
+      "type": "event",
+      "context": "1973年确立堕胎权的最高法院判例，2022年6月被推翻，成为左右派争论核心",
+      "importance": "high"
+    },
+    {
+      "name": "2024年国情咨文/State of the Union Address",
+      "type": "event",
+      "context": "拜登发表演讲承诺恢复堕胎权，共和党派Katie Britt回应引发争议",
+      "importance": "high"
+    },
+    {
+      "name": "2016年总统大选",
+      "type": "event",
+      "context": "特朗普与希拉里竞争，体现左右派对女性角色的不同态度",
+      "importance": "medium"
+    },
+    {
+      "name": "联邦党人文集第十篇",
+      "type": "work",
+      "context": "被引用说明美国国父设计制度时认为'结党是人的天性'，党派越多越好",
+      "importance": "medium"
+    },
+    {
+      "name": "Mumsnet",
+      "type": "organization",
+      "context": "英国育儿论坛，左派女权主义者在此发起反对变性人入侵女性空间的运动",
+      "importance": "high"
+    },
+    {
+      "name": "Planned Parenthood/计划生育协会",
+      "type": "organization",
+      "context": "美国主流进步组织，被指出在讨论堕胎时减少使用'woman'一词",
+      "importance": "medium"
+    },
+    {
+      "name": "NARAL Pro-Choice America",
+      "type": "organization",
+      "context": "支持堕胎选择的进步组织，同样采用性别中立语言",
+      "importance": "medium"
+    },
+    {
+      "name": "美国医学协会",
+      "type": "organization",
+      "context": "被右派批评在医疗语言中去性别化，如建议'有宫颈的人'而非'女人'筛查宫颈癌",
+      "importance": "medium"
+    },
+    {
+      "name": "《柳叶刀》",
+      "type": "work",
+      "context": "医学期刊，封面文章将来月经者称为'有阴道的身体'而非'女性'",
+      "importance": "medium"
+    },
+    {
+      "name": "Reduxx数据库",
+      "type": "work",
+      "context": "保守女权主义者建立的数据库，记录男性利用跨性别身份侵犯女性空间的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "A Vanishing Word in Abortion Debate: Women",
+      "type": "work",
+      "context": "Michael Powell的纽约时报文章标题，记录'woman'一词在堕胎讨论中的消失",
+      "importance": "medium"
+    },
+    {
+      "name": "internalized misogyny/内化厌女",
+      "type": "concept",
+      "context": "中文女权主义者用来解释48%女性投票给共和党的理论，被主播批评为高高在上的标签",
+      "importance": "high"
+    },
+    {
+      "name": "教条主义/Doctrinarism",
+      "type": "concept",
+      "context": "主播核心批判对象，指不容质疑、非黑即白的意识形态态度，类比60年代中国",
+      "importance": "high"
+    },
+    {
+      "name": "娇妻文化/trad wife",
+      "type": "concept",
+      "context": "互联网上模仿50年代传统家庭主妇的文化现象，被左派视为厌女行为",
+      "importance": "high"
+    },
+    {
+      "name": "生育自由/reproductive freedom",
+      "type": "concept",
+      "context": "左派核心诉求，围绕堕胎权的政治斗争焦点",
+      "importance": "high"
+    },
+    {
+      "name": "性别中立语言/gender-neutral language",
+      "type": "concept",
+      "context": "左派进步实践，用'pregnant people''chest-feeder'等替代'woman'，被右派批评为抹杀女性",
+      "importance": "high"
+    },
+    {
+      "name": "女性空间/women's space",
+      "type": "concept",
+      "context": "右派女权核心关切，包括厕所、更衣室、庇护所、体育赛事等排他性空间",
+      "importance": "high"
+    },
+    {
+      "name": "hate speech/仇恨言论",
+      "type": "concept",
+      "context": "左派活动家用来攻击质疑者的标签，被主播认为压制了公开讨论的空间",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "讨论的核心政治语境，主播强调不能将中国语境套用于美国政治光谱",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "与美国对比，说明相同议题（反对变性人入侵女性空间）在不同国家可被归为左派或右派",
+      "importance": "high"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "主播所处的传播语境，中文互联网女权主义被批评为教条主义和术语堆砌",
+      "importance": "high"
+    },
+    {
+      "name": "键政圈",
+      "type": "other",
+      "context": "被主播与女权主义圈子并列，批评为黑话最多、最具攻击性、最缺乏开放性的中文互联网圈子",
+      "importance": "medium"
+    },
+    {
+      "name": "自由派/liberal",
+      "type": "concept",
+      "context": "被批评为中文键政圈和女权圈误解最深的标签，主播在第52期专门讨论其在美国语境的含义",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "666238c494977a26efbd55db",
+  "title": "71-美国左派右派谁更厌女？"
+}

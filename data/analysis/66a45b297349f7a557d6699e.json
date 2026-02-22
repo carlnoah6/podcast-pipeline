@@ -1,0 +1,193 @@
+{
+  "style": {
+    "opening_pattern": "以提问和自嘲开场，直接点题'00后抽象文化如何影响美国政治'，并用'韦恩图'(Venn Diagram)比喻自己的知识交叉背景",
+    "structure": "引入主题→解释中文互联网抽象文化概念→过渡到美国政治事件(拜登退选)→核心案例分析(哈里斯被抽象化的现象)→深层讨论(政治娱乐化与幼稚化)→总结反思",
+    "tone": "理性分析中带有鲜明的个人视角，自嘲'老土'，严肃学术讨论与通俗文化解释并存，对时政保持批判距离感",
+    "catchphrases": [
+      "小众知识含量",
+      "饼",
+      "静盈",
+      "整活",
+      "老鼠",
+      "神丑",
+      "唧唧咕噜",
+      "太阳底下无新事",
+      "老太龙钟",
+      "坎普风"
+    ],
+    "closing_pattern": "总结观察并提出批判性反思，表达对'直接讨论时政'的保留态度，以'下期再见'结束",
+    "narrative_techniques": [
+      "类比(用中文抽象文化类比美国政治现象)",
+      "对比(哈里斯/万斯与里根时代的政客形象对比)",
+      "举例(椰子树梗、Brat专辑封面、Pokemon Go事件等)",
+      "设问与反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "哈里斯 (Kamala Harris)",
+      "type": "person",
+      "context": "美国副总统，拜登退选后成为民主党总统候选人，其形象被TikTok用户通过'椰子树梗'和'Brat文化'进行抽象化重构",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普 (Donald Trump)",
+      "type": "person",
+      "context": "前总统，被描述为'娱乐大师'，擅长通过戏剧化方式取悦选民，与拜登形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "拜登 (Joe Biden)",
+      "type": "person",
+      "context": "现任总统，在7月21日通过推特/X宣布退出2024大选，因新冠感染和辩论表现不佳而选择不录制视频退选声明",
+      "importance": "high"
+    },
+    {
+      "name": "抽象文化",
+      "type": "concept",
+      "context": "源自中文互联网(如孙笑川直播间)的反逻辑、反严肃、反主流的亚文化，后被用来类比美国TikTok上的00后文化现象",
+      "importance": "high"
+    },
+    {
+      "name": "《Brat》",
+      "type": "work",
+      "context": "歌手Charli XCX的专辑，封面为黄绿色(Acid Green)极简设计，代表一种'酷女孩/小混蛋'的反主流生活方式，被用来重新包装哈里斯形象",
+      "importance": "high"
+    },
+    {
+      "name": "Charli XCX",
+      "type": "person",
+      "context": "英国歌手，其专辑《Brat》成为2024年夏日美国流行文化现象，她公开称'Harris is Brat'",
+      "importance": "high"
+    },
+    {
+      "name": "椰子树梗 (Coconut Tree)",
+      "type": "concept",
+      "context": "源自哈里斯2023年5月演讲中提到母亲说的'you just fell out of a coconut tree'，被TikTok用户剪辑成病毒式抽象梗，成为支持哈里斯的符号",
+      "importance": "high"
+    },
+    {
+      "name": "万斯 (J.D. Vance)",
+      "type": "person",
+      "context": "特朗普的副手，被描述为同样具有'政治幼稚化'特质，沉迷推特表情包群组(Groupers)，与里根时代的成熟政客形象形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "里根 (Ronald Reagan)",
+      "type": "person",
+      "context": "美国前总统，被作为对比案例，代表70年代获得年轻人支持的'风度翩翩、温文尔雅'的成熟政治家形象，与当代政客形成反差",
+      "importance": "high"
+    },
+    {
+      "name": "孙笑川",
+      "type": "person",
+      "context": "被提及为中文互联网抽象文化的典型代表人物，网络游戏主播，'抽象'讲话方式的代表",
+      "importance": "medium"
+    },
+    {
+      "name": "Ron DeSantis",
+      "type": "person",
+      "context": "佛罗里达州州长，两年前在推特/X上宣布参加共和党初选，其竞选团队通过发布抽象梗图(memes)讨好极右男性网民",
+      "importance": "medium"
+    },
+    {
+      "name": "希拉里 (Hillary Clinton)",
+      "type": "person",
+      "context": "2016年总统候选人，被提及曾在竞选中使用'Pokemon Go to the polls'的拙劣双关语试图讨好年轻选民，成为抽象文化中的反面教材",
+      "importance": "medium"
+    },
+    {
+      "name": "维恩图梗 (Venn Diagram)",
+      "type": "concept",
+      "context": "源自哈里斯演讲中说'I love Venn diagrams'，与椰子树梗一起成为TikTok上恶搞剪辑的素材",
+      "importance": "medium"
+    },
+    {
+      "name": "Pokemon Go",
+      "type": "work",
+      "context": "2016年流行的手机游戏，希拉里曾试图利用该游戏热度进行竞选活动",
+      "importance": "medium"
+    },
+    {
+      "name": "Brian Schatz",
+      "type": "person",
+      "context": "夏威夷参议员，在推特上发布自己爬椰子树的照片，参与'椰子树梗'文化以示对哈里斯的支持",
+      "importance": "medium"
+    },
+    {
+      "name": "Jared Polis",
+      "type": "person",
+      "context": "科罗拉多州州长，在推特上使用椰子、棕榈树和美国国旗的表情符号参与哈里斯梗文化",
+      "importance": "medium"
+    },
+    {
+      "name": "Nancy Pelosi",
+      "type": "person",
+      "context": "前众议院议长，被提及曾建议拜登退选",
+      "importance": "low"
+    },
+    {
+      "name": "奥巴马 (Barack Obama)",
+      "type": "person",
+      "context": "前总统，被提及曾参与劝说拜登退选",
+      "importance": "low"
+    },
+    {
+      "name": "Mazie Hirono",
+      "type": "person",
+      "context": "参议员，发布了使用《Brat》专辑黄绿色滤镜处理的哈里斯照片",
+      "importance": "medium"
+    },
+    {
+      "name": "马斯克 (Elon Musk)",
+      "type": "person",
+      "context": "被提及作为'不正常的榜样'，患有阿斯伯格症的天才代表",
+      "importance": "low"
+    },
+    {
+      "name": "扎克伯格 (Mark Zuckerberg)",
+      "type": "person",
+      "context": "被提及作为'不正常的榜样'，有自闭症特征",
+      "importance": "low"
+    },
+    {
+      "name": "TikTok",
+      "type": "organization",
+      "context": "美国抖音，00后抽象文化的主要传播平台，哈里斯梗病毒式传播的场所",
+      "importance": "high"
+    },
+    {
+      "name": "民主党 (Democratic Party)",
+      "type": "organization",
+      "context": "美国主要政党，哈里斯所属政党，其政客在尝试适应00后抽象文化",
+      "importance": "high"
+    },
+    {
+      "name": "共和党 (Republican Party)",
+      "type": "organization",
+      "context": "美国主要政党，特朗普和万斯所属政党，其支持者更早开始使用抽象梗文化",
+      "importance": "medium"
+    },
+    {
+      "name": "X/Twitter",
+      "type": "organization",
+      "context": "社交媒体平台，拜登宣布退选的平台，也是抽象梗文化的重要传播地",
+      "importance": "medium"
+    },
+    {
+      "name": "CNN",
+      "type": "organization",
+      "context": "美国主流媒体，被提及尝试解释'Brat'概念但显得笨拙",
+      "importance": "low"
+    },
+    {
+      "name": "白宫 (White House)",
+      "type": "place",
+      "context": "美国总统办公地点，通常用于正式退选演讲，但拜登选择发推特而非在此录制视频",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66a45b297349f7a557d6699e",
+  "title": "89-零零后抽象文化如何影响美国政治？"
+}

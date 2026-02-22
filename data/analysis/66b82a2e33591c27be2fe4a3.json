@@ -1,0 +1,44 @@
+{
+  "style": {
+    "opening_pattern": "无法判断（文本仅包含重复的支持语，无实际内容）",
+    "structure": "无法判断（文本仅包含重复的支持语，无实际内容）",
+    "tone": "无法判断（文本仅包含重复的支持语，无实际内容）",
+    "catchphrases": [
+      "请不吝点赞",
+      "订阅",
+      "转发",
+      "打赏支持明镜与点点栏目"
+    ],
+    "closing_pattern": "无法判断（文本仅包含重复的支持语，无实际内容）",
+    "narrative_techniques": []
+  },
+  "entities": [
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "标题中提到胡适崇拜杜威的实验主义",
+      "importance": "high"
+    },
+    {
+      "name": "杜威",
+      "type": "person",
+      "context": "标题中作为实验主义的代表人物被提及",
+      "importance": "high"
+    },
+    {
+      "name": "实验主义",
+      "type": "concept",
+      "context": "标题中的核心概念，被指为屠杀美国古典人文教育的原因",
+      "importance": "high"
+    },
+    {
+      "name": "古典人文教育",
+      "type": "concept",
+      "context": "标题中被实验主义所'屠杀'的教育传统",
+      "importance": "high"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66b82a2e33591c27be2fe4a3",
+  "title": "95-胡适崇拜的杜威实验主义如何屠杀了当代美国的古典人文教育？"
+}

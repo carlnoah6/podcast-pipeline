@@ -1,0 +1,440 @@
+{
+  "style": {
+    "opening_pattern": "以批判性立场引入，先表明对知识分子套用西方理论的反感态度，再提出核心问题",
+    "structure": "历史溯源→理论分析→制度演变→当代影响→个人立场总结",
+    "tone": "理性批判、学术化但带有鲜明个人立场、层层递进的论证语气",
+    "catchphrases": [
+      "我不是说...但是我就是...",
+      "让我们开始吧",
+      "说到这的时候大家应该猜得到",
+      "所以让我们话收回",
+      "从我的角度观察",
+      "OK",
+      "我们今天要讨论的概念是",
+      "这一点你可以说我是一个坚定的黑格尔信徒"
+    ],
+    "closing_pattern": "引用名言作结，以个人教育经历回应开篇问题，形成首尾呼应",
+    "narrative_techniques": [
+      "历史倒叙",
+      "概念溯源",
+      "具体数据支撑",
+      "人物传记串联",
+      "类比（长征/苏联政治宣传）",
+      "引用原文",
+      "设问自答"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Herbert Marcuse（马尔库塞）",
+      "type": "person",
+      "context": "DEI意识形态的精神鼻祖，法兰克福学派成员，提出'大拒绝'和'机构长征'理论",
+      "importance": "high"
+    },
+    {
+      "name": "Erica Sherover-Marcuse",
+      "type": "person",
+      "context": "马尔库塞的第三任妻子，设计了80年代校园培训计划，成为美国大学DEI的原型",
+      "importance": "high"
+    },
+    {
+      "name": "霍克海默",
+      "type": "person",
+      "context": "与马尔库塞同在法兰克福学派研究所研究社会批判理论",
+      "importance": "medium"
+    },
+    {
+      "name": "阿多诺",
+      "type": "person",
+      "context": "与马尔库塞同在法兰克福学派研究所研究社会批判理论",
+      "importance": "medium"
+    },
+    {
+      "name": "列宁",
+      "type": "person",
+      "context": "被用来与马尔库塞对比，两人都对正统马克思主义进行了改变，主张暂时独裁统治",
+      "importance": "medium"
+    },
+    {
+      "name": "马丁·路德·金",
+      "type": "person",
+      "context": "其名言被Gordon Klein教授引用，成为2020年争议事件的焦点",
+      "importance": "medium"
+    },
+    {
+      "name": "Gordon Klein",
+      "type": "person",
+      "context": "加州大学洛杉矶分校会计学教授，因回应学生邮件而被停职",
+      "importance": "medium"
+    },
+    {
+      "name": "尼克松",
+      "type": "person",
+      "context": "1968年以压倒性优势当选总统，代表对新左翼革命的强烈反弹",
+      "importance": "medium"
+    },
+    {
+      "name": "里根",
+      "type": "person",
+      "context": "承诺解决暴动大学生而当选加州州长，代表新保守主义崛起",
+      "importance": "medium"
+    },
+    {
+      "name": "Rudi Dutschke",
+      "type": "person",
+      "context": "德国学生运动领袖，马尔库塞1971年写信给他提出'机构长征'",
+      "importance": "medium"
+    },
+    {
+      "name": "Bernardine Dohrn",
+      "type": "person",
+      "context": "Weatherman Underground成员，后成为西北大学法学教授",
+      "importance": "medium"
+    },
+    {
+      "name": "Bill Ayers",
+      "type": "person",
+      "context": "Weatherman Underground成员，曾在五角大楼放置炸弹，后成为伊利诺伊大学教育学教授",
+      "importance": "medium"
+    },
+    {
+      "name": "Kathy Boudin",
+      "type": "person",
+      "context": "Weatherman Underground成员，参与装甲车抢劫案入狱，后成为哥伦比亚大学教授",
+      "importance": "medium"
+    },
+    {
+      "name": "Paul Berman",
+      "type": "person",
+      "context": "布朗大学教授，著有《美国马克思主义》，研究60年代激进分子的去向",
+      "importance": "medium"
+    },
+    {
+      "name": "Bruce Bawer",
+      "type": "person",
+      "context": "2023年出版《受害者革命》的作者，总结美国大学人文社科的转变",
+      "importance": "medium"
+    },
+    {
+      "name": "Michael Vanyukov",
+      "type": "person",
+      "context": "匹兹堡大学药学教授，苏联出生，批评DEI计划像苏联政治宣传",
+      "importance": "medium"
+    },
+    {
+      "name": "Peter Thiel",
+      "type": "person",
+      "context": "硅谷富豪，资助在德州奥斯汀建立以言论自由为宗旨的新大学",
+      "importance": "low"
+    },
+    {
+      "name": "Elon Musk",
+      "type": "person",
+      "context": "与Peter Thiel一起被提及为看不惯政治正确的硅谷富豪",
+      "importance": "low"
+    },
+    {
+      "name": "Bari Weiss",
+      "type": "person",
+      "context": "偏左记者，从纽约时报辞职成立反对DEI的独立新媒体",
+      "importance": "low"
+    },
+    {
+      "name": "Nellie Bowles",
+      "type": "person",
+      "context": "偏左记者，从纽约时报辞职成立反对DEI的独立新媒体",
+      "importance": "low"
+    },
+    {
+      "name": "William Johnson Cory",
+      "type": "person",
+      "context": "其对教育的定义被播客结尾引用",
+      "importance": "low"
+    },
+    {
+      "name": "乔治·弗洛伊德",
+      "type": "person",
+      "context": "2020年被杀害，引发Black Lives Matter运动，成为DEI争议背景",
+      "importance": "low"
+    },
+    {
+      "name": "单向度的人",
+      "type": "work",
+      "context": "马尔库塞60年代的超级畅销书，热销十万册",
+      "importance": "high"
+    },
+    {
+      "name": "纯粹宽容批判（A Critique of Pure Tolerance）",
+      "type": "work",
+      "context": "马尔库塞著作，提出'解放性宽容'概念，主张不宽容右派、宽容左派",
+      "importance": "high"
+    },
+    {
+      "name": "解放论（An Essay on Liberation）",
+      "type": "work",
+      "context": "马尔库塞著作，主张教育应转化为示威、对抗和反叛",
+      "importance": "high"
+    },
+    {
+      "name": "反革命与反抗",
+      "type": "work",
+      "context": "马尔库塞最后一本政治著作，提出将关注从战争转到价值观战争",
+      "importance": "high"
+    },
+    {
+      "name": "草原之火（Prairie Fire）",
+      "type": "work",
+      "context": "1974年Weatherman Underground改组后出版的小册子，推广制度化种族主义等概念",
+      "importance": "high"
+    },
+    {
+      "name": "美国马克思主义（American Marxism）",
+      "type": "work",
+      "context": "Paul Berman所著，回答60年代激进分子去向的问题",
+      "importance": "medium"
+    },
+    {
+      "name": "受害者革命（The Victims' Revolution）",
+      "type": "work",
+      "context": "Bruce Bawer 2023年出版，总结美国大学人文社科从关注真善美到关注压迫的转变",
+      "importance": "medium"
+    },
+    {
+      "name": "DEI（Diversity, Equity, Inclusion）",
+      "type": "concept",
+      "context": "多元化、平等和包容，从60年代进入美国校园，成为高等教育核心原则",
+      "importance": "high"
+    },
+    {
+      "name": "西方马克思主义/新马克思主义/批判马克思主义",
+      "type": "concept",
+      "context": "马尔库塞代表的理论流派，认为工人阶级已失去革命潜力",
+      "importance": "high"
+    },
+    {
+      "name": "大拒绝（Great Refusal）",
+      "type": "concept",
+      "context": "马尔库塞提出的解决方案，主张彻底瓦解现有西方社会",
+      "importance": "high"
+    },
+    {
+      "name": "机构长征（Long March Through the Institutions）",
+      "type": "concept",
+      "context": "马尔库塞1971年提出的战略，主张从内部改革大学等机构",
+      "importance": "high"
+    },
+    {
+      "name": "解放性宽容（Liberating Tolerance）",
+      "type": "concept",
+      "context": "马尔库塞主张的不宽容右派、宽容左派，延伸到行动和宣传",
+      "importance": "high"
+    },
+    {
+      "name": "身份冲突",
+      "type": "concept",
+      "context": "由种族冲突扩展而来，成为新的革命轴心",
+      "importance": "high"
+    },
+    {
+      "name": "制度化种族主义（institutionalized racism）",
+      "type": "concept",
+      "context": "1974年《草原之火》中首次出现，后成为DEI核心概念",
+      "importance": "medium"
+    },
+    {
+      "name": "白人至上（white supremacy）",
+      "type": "concept",
+      "context": "1974年《草原之火》中首次出现，后成为DEI核心概念",
+      "importance": "medium"
+    },
+    {
+      "name": "白人特权（white privilege）",
+      "type": "concept",
+      "context": "1974年《草原之火》中首次出现，后成为DEI核心概念",
+      "importance": "medium"
+    },
+    {
+      "name": "微歧视/微压迫",
+      "type": "concept",
+      "context": "Erica Marcuse在80-90年代发明的更微妙的压迫形式",
+      "importance": "medium"
+    },
+    {
+      "name": "觉醒（Woke/Wokeness）",
+      "type": "concept",
+      "context": "DEI意识形态在美国社会的别名之一",
+      "importance": "low"
+    },
+    {
+      "name": "反种族主义",
+      "type": "concept",
+      "context": "DEI意识形态在美国社会的别名之一",
+      "importance": "low"
+    },
+    {
+      "name": "进步主义",
+      "type": "concept",
+      "context": "DEI意识形态在美国社会的别名之一",
+      "importance": "low"
+    },
+    {
+      "name": "安全主义",
+      "type": "concept",
+      "context": "DEI意识形态在美国社会的别名之一",
+      "importance": "low"
+    },
+    {
+      "name": "批判社会正义",
+      "type": "concept",
+      "context": "DEI意识形态在美国社会的别名之一",
+      "importance": "low"
+    },
+    {
+      "name": "身份马克思主义",
+      "type": "concept",
+      "context": "DEI意识形态在美国社会的别名之一",
+      "importance": "low"
+    },
+    {
+      "name": "批判研究",
+      "type": "concept",
+      "context": "马尔库塞社会批判理论催生的新学科之一",
+      "importance": "low"
+    },
+    {
+      "name": "批判种族研究",
+      "type": "concept",
+      "context": "马尔库塞社会批判理论催生的新学科之一",
+      "importance": "low"
+    },
+    {
+      "name": "性别研究",
+      "type": "concept",
+      "context": "马尔库塞社会批判理论催生的新学科之一",
+      "importance": "low"
+    },
+    {
+      "name": "酷儿研究",
+      "type": "concept",
+      "context": "马尔库塞社会批判理论催生的新学科之一",
+      "importance": "low"
+    },
+    {
+      "name": "Black Lives Matter",
+      "type": "event",
+      "context": "2020年席卷全美的黑人民权运动，导致越来越多教授因DEI受到惩罚",
+      "importance": "high"
+    },
+    {
+      "name": "1968年美国民运",
+      "type": "event",
+      "context": "美国大学生占领常春藤校园、烧毁图书馆、霸占校长办公室的暴动",
+      "importance": "high"
+    },
+    {
+      "name": "1968年美国大选",
+      "type": "event",
+      "context": "尼克松以49州压倒性优势获胜，代表对新左翼的强烈反弹",
+      "importance": "medium"
+    },
+    {
+      "name": "法兰克福学派",
+      "type": "organization",
+      "context": "马尔库塞、霍克海默、阿多诺所属的研究社会批判理论的智库",
+      "importance": "high"
+    },
+    {
+      "name": "Weatherman Underground（气象员组织）",
+      "type": "organization",
+      "context": "60年代通过暴力袭击警察闹革命的新马克思主义激进组织，1974年改组为Prairie Fire",
+      "importance": "high"
+    },
+    {
+      "name": "普林斯顿大学",
+      "type": "organization",
+      "context": "雇佣了70多名DEI管理人员",
+      "importance": "low"
+    },
+    {
+      "name": "俄亥俄州大学",
+      "type": "organization",
+      "context": "雇佣了132名DEI人员",
+      "importance": "low"
+    },
+    {
+      "name": "加州大学伯克利分校",
+      "type": "organization",
+      "context": "工程学院招聘简介将DEI卓越与研究教学卓越并列；DEI办公室有400名员工，预算2500万美元",
+      "importance": "low"
+    },
+    {
+      "name": "Mount Sinai Hospital医学院",
+      "type": "organization",
+      "context": "院长称消除种族主义和偏见是医学教育最优先事项",
+      "importance": "low"
+    },
+    {
+      "name": "加州大学洛杉矶分校",
+      "type": "organization",
+      "context": "Gordon Klein教授因DEI争议被停职的学校",
+      "importance": "low"
+    },
+    {
+      "name": "匹兹堡大学",
+      "type": "organization",
+      "context": "DEI办公室设立大量种族相关项目和培训，被苏联出生的教授批评像苏联政治宣传",
+      "importance": "low"
+    },
+    {
+      "name": "密歇根大学",
+      "type": "organization",
+      "context": "DEI项目有163名员工，年度预算超过1400万美元",
+      "importance": "low"
+    },
+    {
+      "name": "Civic Centers",
+      "type": "organization",
+      "context": "九个摇摆州在公立大学建立的以言论自由为准则、独立于DEI官僚机构的院校",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "DEI政策的发源地和主要实施地，也是播客分析的核心对象",
+      "importance": "high"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "马尔库塞1934年逃离的国家，法兰克福学派起源地",
+      "importance": "medium"
+    },
+    {
+      "name": "苏联",
+      "type": "place",
+      "context": "被用来与DEI政策类比，Michael Vanyukov成长的背景",
+      "importance": "medium"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "播客主播关心的核心问题：DEI是否适合中国社会",
+      "importance": "high"
+    },
+    {
+      "name": "德州奥斯汀",
+      "type": "place",
+      "context": "Peter Thiel等硅谷富豪筹备三亿美金建立新大学的地点",
+      "importance": "low"
+    },
+    {
+      "name": "知乎",
+      "type": "other",
+      "context": "主播2017年回答读书意义问题的平台",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66d7608b5a91beebb39ad6d4",
+  "title": "105-DEI理论背后的新左翼如何颠覆并改造了当今美国大学？"
+}

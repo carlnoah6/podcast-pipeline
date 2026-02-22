@@ -1,0 +1,314 @@
+{
+  "style": {
+    "opening_pattern": "以生活场景引入（小孩与父母顶嘴说'这是我的权利'），通过日常对话过渡到政治哲学中关于权利（Rights）与权力（Power）的区分",
+    "structure": "引入（权利概念界定）→ 历史背景（美国建国时的权利观念与宪法精神）→ 案例研究1：罗斯福新政（1930年代）——分析符合与违背宪法精神的政策→ 案例研究2：约翰逊伟大社会（1960年代）——民权法案、医疗保险、平权行动等→ 结论（权利扩张导致的财政危机、大政府悖论与民主控制丧失）",
+    "tone": "理性客观但带有明确的保守主义批判倾向，学术化但保持口语化表达，通过详细历史案例分析支撑论点，语气严肃深沉但不失幽默（如自嘲'boring的细节'）",
+    "catchphrases": [
+      "这是我的权利",
+      "很性感的问题",
+      "非常boring的细节",
+      "大政府时代",
+      "天上掉馅饼",
+      "包装成权利",
+      "财政上的不负责任",
+      "宪法精神",
+      "计划经济",
+      "三权分立"
+    ],
+    "closing_pattern": "总结核心观点（权利扩张将政治问题转变为管理问题，导致政府财政不负责任），呼应开头（回到小孩顶嘴的权利比喻），提出对美国政治趋势的深层担忧（从governing到administering的转变）",
+    "narrative_techniques": [
+      "类比（将美国公民与政府的关系类比为小孩与父母的顶嘴）",
+      "对比（建国时 vs 现代的权利观念，罗斯福 vs 约翰逊，符合宪法 vs 违背宪法的政策）",
+      "举例（田纳西河流域管理局、社会保障、医疗保险、平权行动等具体政策）",
+      "反问（'保障老年人收入有问题吗？'）",
+      "引用（约翰逊演讲、独立宣言、最高法院判决）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "小罗斯福/富兰克林·罗斯福（Franklin D. Roosevelt）",
+      "type": "person",
+      "context": "1930年代新政总统，通过社会保障、工业复兴法等政策重新界定政府与权利的关系，是美国进步主义最重要的总统",
+      "importance": "high"
+    },
+    {
+      "name": "林登·约翰逊（Lyndon B. Johnson）",
+      "type": "person",
+      "context": "1960年代伟大社会总统，提出向贫困宣战、医疗保险、平权行动，继续扩张权利定义和大政府",
+      "importance": "high"
+    },
+    {
+      "name": "托马斯·杰斐逊（Thomas Jefferson）",
+      "type": "person",
+      "context": "独立宣言作者，其关于'追求幸福'的原意被约翰逊重新诠释，代表早期有限政府观念",
+      "importance": "medium"
+    },
+    {
+      "name": "伍德罗·威尔逊（Woodrow Wilson）",
+      "type": "person",
+      "context": "进步主义传统开启者，在播客系列中作为美国左派演变的重要节点被提及",
+      "importance": "medium"
+    },
+    {
+      "name": "阿尔文·汉森（Alvin Hansen）",
+      "type": "person",
+      "context": "哈佛经济学家，提出'停滞论'（Stagnation Thesis），为罗斯福新政的计划经济提供理论支撑，后被证明错误",
+      "importance": "medium"
+    },
+    {
+      "name": "雷克斯福德·特格韦尔（Rexford Tugwell）",
+      "type": "person",
+      "context": "罗斯福新政初期最重要的政策顾问，信奉国家工业复兴法的计划经济理念",
+      "importance": "low"
+    },
+    {
+      "name": "哈耶克（Friedrich Hayek）",
+      "type": "person",
+      "context": "被提及攻击计划经济思维，认为政府管理人员无法拥有做出明智行政决策所需的信息",
+      "importance": "low"
+    },
+    {
+      "name": "权利法案（Bill of Rights）",
+      "type": "work",
+      "context": "美国宪法前十个修正案，定义了美国建国时对权利的理解（言论自由、宗教自由等），与后来的福利权利形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "独立宣言（Declaration of Independence）",
+      "type": "work",
+      "context": "被约翰逊在密歇根大学演讲中重新诠释'追求幸福'的含义，从政府不干涉转变为政府保障",
+      "importance": "high"
+    },
+    {
+      "name": "联邦党人文集（Federalist Papers）",
+      "type": "work",
+      "context": "被提及记录美国建国元勋关于联邦政府权力界限的辩论",
+      "importance": "medium"
+    },
+    {
+      "name": "国家工业复兴法（National Industrial Recovery Act, NIRA）",
+      "type": "work",
+      "context": "罗斯福新政最标志性的违宪政策，试图建立中央计划经济，1935年被最高法院宣布违宪",
+      "importance": "high"
+    },
+    {
+      "name": "农业调整法（Agricultural Adjustment Act）",
+      "type": "work",
+      "context": "1933年通过的计划经济政策，要求农民减少耕种面积，1936年被最高法院拒绝",
+      "importance": "medium"
+    },
+    {
+      "name": "社会保障法（Social Security Act）",
+      "type": "work",
+      "context": "罗斯福建立的养老金计划，将老年人收入保障重新定义为权利，被批评为财政不稳定",
+      "importance": "high"
+    },
+    {
+      "name": "瓦格纳法案/国家劳工关系法（Wagner Act/NLRA）",
+      "type": "work",
+      "context": "建立国家劳工关系委员会，赋予行政机构裁决劳资纠纷的权力，扩张行政权",
+      "importance": "medium"
+    },
+    {
+      "name": "民权法案（Civil Rights Act of 1964）",
+      "type": "work",
+      "context": "约翰逊时期通过，禁止基于种族、性别、宗教和国籍的歧视，被认为符合宪法精神",
+      "importance": "high"
+    },
+    {
+      "name": "投票权法案（Voting Rights Act of 1965）",
+      "type": "work",
+      "context": "约翰逊时期通过，为反奴隶制修正案注入新活力",
+      "importance": "medium"
+    },
+    {
+      "name": "第11246号行政命令（Executive Order 11246）",
+      "type": "work",
+      "context": "约翰逊签署，要求联邦承包商采取平权行动，被视为平权行动的真正起源",
+      "importance": "high"
+    },
+    {
+      "name": "中小学教育法案（Elementary and Secondary Education Act）",
+      "type": "work",
+      "context": "约翰逊向贫困宣战的一部分，给最贫困学区送钱",
+      "importance": "medium"
+    },
+    {
+      "name": "权利（Rights）",
+      "type": "concept",
+      "context": "播客核心概念，从美国建国时的消极权利（政府不干涉）转变为罗斯福-约翰逊时期的积极权利（政府提供福利）",
+      "importance": "high"
+    },
+    {
+      "name": "权力（Power）",
+      "type": "concept",
+      "context": "与权利区分，指政府或家长的强制力量，与个人的权利（rights）形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "新政（New Deal）",
+      "type": "concept",
+      "context": "罗斯福1930年代改革，核心是救济、复兴、改革，开启大政府时代",
+      "importance": "high"
+    },
+    {
+      "name": "伟大社会（Great Society）",
+      "type": "concept",
+      "context": "约翰逊1960年代改革，包括向贫困宣战、医疗保险、平权行动，继续扩张权利定义",
+      "importance": "high"
+    },
+    {
+      "name": "进步主义（Progressivism）",
+      "type": "concept",
+      "context": "美国政治传统，从威尔逊到罗斯福到约翰逊，主张用政府促进社会进步",
+      "importance": "high"
+    },
+    {
+      "name": "宪法精神（Spirit of the Constitution）",
+      "type": "concept",
+      "context": "播客反复使用的评判标准，指美国建国元勋对联邦权力界限的原意",
+      "importance": "high"
+    },
+    {
+      "name": "三权分立（Separation of Powers）",
+      "type": "concept",
+      "context": "美国政治基础，罗斯福试图增加最高法院法官数量被批评违背此原则",
+      "importance": "high"
+    },
+    {
+      "name": "计划经济（Planned Economy/Central Planning）",
+      "type": "concept",
+      "context": "罗斯福国家工业复兴法试图建立的体制，被哈耶克批评，与社会主义计划经济区分",
+      "importance": "high"
+    },
+    {
+      "name": "停滞论（Stagnation Thesis）",
+      "type": "concept",
+      "context": "哈佛经济学家汉森提出，预测美国经济将停滞，为政府干预提供理由，后被证明错误",
+      "importance": "medium"
+    },
+    {
+      "name": "平权行动（Affirmative Action）",
+      "type": "concept",
+      "context": "起源于约翰逊第11246号行政命令，要求积极采取措施促进平等就业，被批评传播受害者文化",
+      "importance": "high"
+    },
+    {
+      "name": "向贫困宣战（War on Poverty）",
+      "type": "concept",
+      "context": "约翰逊政策，包括食品券、医疗补助、教育拨款，开启总统向抽象概念宣战先河",
+      "importance": "medium"
+    },
+    {
+      "name": "大政府（Big Government）",
+      "type": "concept",
+      "context": "播客批判的核心对象，指罗斯福-约翰逊改革后扩张的联邦政府，特点是行政机构膨胀",
+      "importance": "high"
+    },
+    {
+      "name": "经济大萧条（Great Depression）",
+      "type": "event",
+      "context": "1930年代美国经济危机，罗斯福新政试图解决的问题背景",
+      "importance": "high"
+    },
+    {
+      "name": "民权运动（Civil Rights Movement）",
+      "type": "event",
+      "context": "1960年代美国黑人争取平等权利的社会运动，约翰逊伟大社会的时代背景",
+      "importance": "high"
+    },
+    {
+      "name": "1938年中期选举（1938 Midterm Elections）",
+      "type": "event",
+      "context": "共和党赢得席位，保守主义复苏，反对罗斯福国家工业复兴法",
+      "importance": "medium"
+    },
+    {
+      "name": "1966年中期选举（1966 Midterm Elections）",
+      "type": "event",
+      "context": "民主党失去47个席位，反映对约翰逊伟大社会的反对",
+      "importance": "medium"
+    },
+    {
+      "name": "肯尼迪遇刺（JFK Assassination）",
+      "type": "event",
+      "context": "提及作为约翰逊上台的背景",
+      "importance": "low"
+    },
+    {
+      "name": "田纳西河流域（Tennessee Valley）",
+      "type": "place",
+      "context": "田纳西河流域管理局所在地，罗斯福新政基建项目，符合宪法精神的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "大古力水坝（Grand Coulee Dam）",
+      "type": "place",
+      "context": "罗斯福新政水利项目，为西北地区提供电力",
+      "importance": "medium"
+    },
+    {
+      "name": "密歇根大学（University of Michigan）",
+      "type": "place",
+      "context": "约翰逊1964年发表伟大社会演讲的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "霍华德大学（Howard University）",
+      "type": "place",
+      "context": "约翰逊1965年发表平权行动演讲的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "最高法院（Supreme Court）",
+      "type": "organization",
+      "context": "宣布国家工业复兴法和农业调整法违宪，后在小罗斯福影响下停止宣布国会法案违宪半个世纪",
+      "importance": "high"
+    },
+    {
+      "name": "国会（Congress）",
+      "type": "organization",
+      "context": "通过各项改革法案，1938年和1966年中期选举反映对行政权扩张的反对",
+      "importance": "high"
+    },
+    {
+      "name": "田纳西河流域管理局（Tennessee Valley Authority）",
+      "type": "organization",
+      "context": "罗斯福新政成立的机构，建造水坝发电站，被认为符合宪法精神",
+      "importance": "medium"
+    },
+    {
+      "name": "国家劳工关系委员会（National Labor Relations Board）",
+      "type": "organization",
+      "context": "根据瓦格纳法案建立，裁决劳资纠纷，代表行政机构扩张",
+      "importance": "medium"
+    },
+    {
+      "name": "传统基金会（Heritage Foundation）",
+      "type": "organization",
+      "context": "保守派智库，2015年研究认为向贫困宣战失败",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿邮报（Washington Post）",
+      "type": "organization",
+      "context": "自由派报纸，2015年得出与保守派类似的贫困率结论",
+      "importance": "low"
+    },
+    {
+      "name": "美国左派（American Left）",
+      "type": "other",
+      "context": "从杰斐逊到威尔逊再到罗斯福约翰逊的政治传统，播客系列讨论主题",
+      "importance": "medium"
+    },
+    {
+      "name": "奥派（Austrian School）",
+      "type": "other",
+      "context": "被提及的潜伏听众群体，想象他们听到计划经济时的反应",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "667ce8f5c13b46d76c326465",
+  "title": "79-权利越多美国老百姓是不是越幸福？"
+}

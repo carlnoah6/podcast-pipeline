@@ -1,0 +1,260 @@
+{
+  "style": {
+    "opening_pattern": "以普遍社会现象引入，先描述当代人共同的无力感受（搞笑越来越难、如履薄冰），再提出反直觉的核心论点（这是三四百年的历史趋势而非近年现象）",
+    "structure": "现象描述→历史对比（莎士比亚时期/17-18世纪）→理论分析（托克维尔、亚里士多德）→三点观察（被嘲笑者变弱、舆论力量变强、共识消失）→总结升华",
+    "tone": "理性客观中带有机智反讽，学术性与口语化并存，偶尔自我调侃（如\"被我骗进来了吧\"\"这算是给他向上他房吗\"）",
+    "catchphrases": [
+      "哇哦",
+      "贴脸开大",
+      "屎尿屁",
+      "破防",
+      "如履薄冰",
+      "挠痒痒",
+      "铁拳之下",
+      "拿着一根羽毛去挠别人脚底板",
+      "咯咯发笑",
+      "一击就碎"
+    ],
+    "closing_pattern": "引用式总结+温情致敬，将坚持搞笑定义为\"内心强大的弱者\"和\"勇气\"，以文明社会的理想作结",
+    "narrative_techniques": [
+      "类比（羽毛挠脚底板vs铁拳）",
+      "对比（古今搞笑环境、南北观众差异）",
+      "举例（哈哈曹、斯威夫特作品细节）",
+      "反问（\"这是可以说的吗\"）",
+      "自我暴露（大学读斯威夫特的经历）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "托克维尔",
+      "type": "person",
+      "context": "《论美国的民主》作者，播客核心理论来源，用于对比传统贵族社会与现代民主社会的搞笑差异",
+      "importance": "high"
+    },
+    {
+      "name": "莎士比亚",
+      "type": "person",
+      "context": "作为16世纪搞笑人的代表，其戏剧中的傻瓜（fools）和小丑被视为脱口秀演员的原型",
+      "importance": "high"
+    },
+    {
+      "name": "乔纳森·斯威夫特（Jonathan Swift）",
+      "type": "person",
+      "context": "18世纪英国讽刺作家，《格列佛游记》和《桶的故事》作者，被用作\"尺度极大\"的历史对比案例",
+      "importance": "high"
+    },
+    {
+      "name": "莫里哀",
+      "type": "person",
+      "context": "17世纪法国剧作家，在路易十四宫廷前嘲讽贵族的例子，说明传统社会的\"贴脸开大\"",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "18世纪思想家，被引用为批评戏剧道德败坏、主张中产阶级需要高尚文化的代表",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "其《尼各马可伦理学》将幽默列为古典美德，播客用此论证幽默需要共识和实践智慧",
+      "importance": "high"
+    },
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "被提及\"永久和平\"观点及\"康德式晚餐\"的理想社交场景",
+      "importance": "low"
+    },
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "《论法的精神》作者，被类比用来描述南北观众对笑话反应的地域差异",
+      "importance": "low"
+    },
+    {
+      "name": "拉布耶尔",
+      "type": "person",
+      "context": "在路易十四宫殿创作《论大地》讥讽路易十四的作家，托克维尔引用的例子",
+      "importance": "low"
+    },
+    {
+      "name": "马丁·路德",
+      "type": "person",
+      "context": "宗教改革人物，在斯威夫特《桶的故事》中作为三兄弟之一（马丁）的象征",
+      "importance": "low"
+    },
+    {
+      "name": "约翰·加尔文",
+      "type": "person",
+      "context": "宗教改革人物，在斯威夫特《桶的故事》中作为三兄弟之一（杰克）的象征",
+      "importance": "low"
+    },
+    {
+      "name": "圣彼得",
+      "type": "person",
+      "context": "在斯威夫特《桶的故事》中作为三兄弟之一（彼得）的象征，代表天主教传统",
+      "importance": "low"
+    },
+    {
+      "name": "杨笠",
+      "type": "person",
+      "context": "中国当代脱口秀演员，作为\"嘲讽普通男性\"引发争议的案例",
+      "importance": "medium"
+    },
+    {
+      "name": "哈哈曹",
+      "type": "person",
+      "context": "长沙脱口秀演员，被主播发现私下付费收听本播客，形成\"奇妙循环\"的 anecdote",
+      "importance": "medium"
+    },
+    {
+      "name": "李梦洁",
+      "type": "person",
+      "context": "杭州脱口秀演员，因沙县小吃纠纷上1818黄金眼，向其他演员推荐本播客",
+      "importance": "low"
+    },
+    {
+      "name": "大老王",
+      "type": "person",
+      "context": "被李梦洁推荐听播客的脱口秀演员",
+      "importance": "low"
+    },
+    {
+      "name": "童漠男",
+      "type": "person",
+      "context": "被李梦洁推荐听播客的脱口秀演员",
+      "importance": "low"
+    },
+    {
+      "name": "《论美国的民主》",
+      "type": "work",
+      "context": "托克维尔代表作，播客核心理论框架来源，关于隐形审查制度和舆论力量的论述",
+      "importance": "high"
+    },
+    {
+      "name": "《格列佛游记》（Gulliver's Travels）",
+      "type": "work",
+      "context": "斯威夫特小说，被详细分析其\"极其低俗\"的内容（撒尿灭火、女巨人毛孔等）和深刻讽刺",
+      "importance": "high"
+    },
+    {
+      "name": "《桶的故事》（Tale of a Tub）",
+      "type": "work",
+      "context": "斯威夫特1704年作品，以三兄弟继承长袍寓言讽刺基督教教派分裂",
+      "importance": "high"
+    },
+    {
+      "name": "《尼各马可伦理学》",
+      "type": "work",
+      "context": "亚里士多德著作，第4卷第8章将幽默列为古典美德，强调其需要实践智慧和场合判断",
+      "importance": "high"
+    },
+    {
+      "name": "《论法的精神》",
+      "type": "work",
+      "context": "孟德斯鸠著作，被类比用来描述地域文化差异对幽默接受度的影响",
+      "importance": "low"
+    },
+    {
+      "name": "《论大地》",
+      "type": "work",
+      "context": "拉布耶尔作品，在路易十四宫殿创作的讽刺作品",
+      "importance": "low"
+    },
+    {
+      "name": "隐形审查制度",
+      "type": "concept",
+      "context": "托克维尔概念，指自由社会中舆论成为比政治审查更可怕的自我审查机制",
+      "importance": "high"
+    },
+    {
+      "name": "实践智慧（phronesis）",
+      "type": "concept",
+      "context": "亚里士多德术语，指幽默作为美德需要的场合判断力和人群洞察力",
+      "importance": "high"
+    },
+    {
+      "name": "永久和平",
+      "type": "concept",
+      "context": "康德的政治哲学概念，被哈哈曹收听记录提及",
+      "importance": "low"
+    },
+    {
+      "name": "宫廷小丑/傻瓜（jesters and fools）",
+      "type": "concept",
+      "context": "莎士比亚戏剧中的原型，被视为现代脱口秀演员的前身，具有\"试金石\"功能",
+      "importance": "high"
+    },
+    {
+      "name": "贴脸开大",
+      "type": "concept",
+      "context": "网络流行语，被主播用来形容传统社会中搞笑人对权贵的直接嘲讽",
+      "importance": "medium"
+    },
+    {
+      "name": "地狱笑话",
+      "type": "concept",
+      "context": "网络用语，用来形容斯威夫特作品中突破现代道德底线的内容",
+      "importance": "low"
+    },
+    {
+      "name": "1818黄金眼",
+      "type": "event",
+      "context": "浙江民生新闻节目，李梦洁因沙县小吃纠纷上过该节目",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "与英国并置，作为17-18世纪贵族社会和严格审查制度的代表",
+      "importance": "medium"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "斯威夫特、莎士比亚的祖国，传统审查严格的旧世界代表",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "托克维尔观察的现代民主社会样本，搞笑人\"不敢搞笑\"的新世界代表",
+      "importance": "medium"
+    },
+    {
+      "name": "长沙",
+      "type": "place",
+      "context": "哈哈曹塑造的饶舌歌手形象来源地",
+      "importance": "low"
+    },
+    {
+      "name": "杭州",
+      "type": "place",
+      "context": "李梦洁所在城市",
+      "importance": "low"
+    },
+    {
+      "name": "西安",
+      "type": "place",
+      "context": "被用来与江浙沪对比，北方观众\"豪放但谨慎\" vs 南方\"细腻但开放\"",
+      "importance": "low"
+    },
+    {
+      "name": "江浙沪",
+      "type": "place",
+      "context": "与西安对比的南方地区，观众对不道德笑话接受度更高",
+      "importance": "low"
+    },
+    {
+      "name": "巴黎郊区",
+      "type": "place",
+      "context": "卢梭批评的阅读言情小说的法国妇女居住地，象征中产阶级的道德焦虑",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66f6f82b81cdab3a9392d7a9",
+  "title": "114-搞笑为什么越来越难？"
+}

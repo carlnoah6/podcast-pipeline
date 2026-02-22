@@ -1,0 +1,188 @@
+{
+  "style": {
+    "opening_pattern": "以回忆录形式开场，提及这是播客早期擅长的内容形式，引入具体地点塞内加尔",
+    "structure": "前半部分为个人经历回忆（选择塞内加尔的原因、资金来源、安全考量、个人背景）；后半部分转为历史与学术讨论（参观奴隶岛的经历、奴隶贸易历史叙事的学术争议、历史真相与政治诉求的张力）；结尾总结观点并引发思考",
+    "tone": "理性客观中带个人情感，严肃深沉但偶尔自嘲轻松，具有强烈的反思性和批判性",
+    "catchphrases": [
+      "贼心不死",
+      "鬼鬼祟祟的想要薅羊毛的老鼠",
+      "拾法国人的牙慧",
+      "叫天天不灵叫地地不应",
+      "开眼界",
+      "老本行",
+      "薅羊毛",
+      "吊儿郎当",
+      "扫兴"
+    ],
+    "closing_pattern": "总结观点并引发思考，以学术自由与政治诉求的张力作为结尾，预告下期",
+    "narrative_techniques": [
+      "对比（非洲人与美国人看待奴隶贸易的态度差异）",
+      "举例（具体历史事件、个人经历、学术案例）",
+      "设问（引发听众对历史与政治关系的思考）",
+      "类比（将八九十年代的学术争议与2023年James Sweet事件类比）",
+      "场景描绘（详细描述奴隶岛建筑、不归门等）",
+      "反讽（对自己申请研究经费的投机取巧心态的自嘲）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Philip Curtin",
+      "type": "person",
+      "context": "约翰霍普金斯大学非洲史教授，《大西洋奴隶贸易人口普查》作者，质疑戈雷岛历史叙事的严谨性，引发八九十年代学术争议",
+      "importance": "high"
+    },
+    {
+      "name": "James Sweet",
+      "type": "person",
+      "context": "威斯康星大学麦迪逊分校非洲历史教授，美国历史协会前主席，2023年因发表关于加纳奴隶贸易历史严谨性的观点引发争议",
+      "importance": "high"
+    },
+    {
+      "name": "Anna Pépin",
+      "type": "person",
+      "context": "奴隶之家（Maison des Esclaves）的房主，非洲妇女，与欧洲殖民者结婚，拥有多艘奴隶贸易船",
+      "importance": "medium"
+    },
+    {
+      "name": "Alex Haley",
+      "type": "person",
+      "context": "作家，1976年小说《根》（Roots）作者，该作品浪漫化奴隶贸易历史叙事",
+      "importance": "medium"
+    },
+    {
+      "name": "戈雷岛 (Gorée Island)",
+      "type": "place",
+      "context": "塞内加尔达喀尔对面的岛屿，世界文化遗产，拥有奴隶之家和不归门，是奴隶贸易纪念地",
+      "importance": "high"
+    },
+    {
+      "name": "不归门/无归之门 (The Door of No Return)",
+      "type": "concept",
+      "context": "戈雷岛奴隶之家的象征性建筑，象征奴隶离开故土永不再回，其历史真实性存在学术争议",
+      "importance": "high"
+    },
+    {
+      "name": "奴隶之家 (Maison des Esclaves)",
+      "type": "place",
+      "context": "戈雷岛上的博物馆，建于1776年，曾被认为是关押奴隶的监狱，现为纪念奴隶贸易的场所",
+      "importance": "high"
+    },
+    {
+      "name": "塞内加尔 (Senegal)",
+      "type": "place",
+      "context": "西非沿海国家，前法国殖民地，以穆斯林为主，是播客主持人做科研的地点",
+      "importance": "high"
+    },
+    {
+      "name": "达喀尔 (Dakar)",
+      "type": "place",
+      "context": "塞内加尔首都，位于大西洋沿岸，是主持人居住两个月的城市",
+      "importance": "medium"
+    },
+    {
+      "name": "大西洋奴隶贸易",
+      "type": "event",
+      "context": "15-19世纪期间，非洲奴隶被运往美洲的历史事件，是播客后半段讨论的核心历史议题",
+      "importance": "high"
+    },
+    {
+      "name": "Signares",
+      "type": "concept",
+      "context": "与欧洲殖民者结婚的非洲妇女阶层，在当地奴隶贸易中充当代理人，形成法非混血贸易家族",
+      "importance": "medium"
+    },
+    {
+      "name": "埃尔米纳城堡 (Elmina Castle)",
+      "type": "place",
+      "context": "加纳的奴隶贸易据点，James Sweet参观并质疑其历史叙事严谨性的地点",
+      "importance": "medium"
+    },
+    {
+      "name": "现在主义 (Presentism)",
+      "type": "concept",
+      "context": "历史学概念，指用当代价值观和政治诉求去理解历史，James Sweet批评非裔美国历史学家受此诱惑",
+      "importance": "medium"
+    },
+    {
+      "name": "一带一路",
+      "type": "concept",
+      "context": "中国外交政策，主持人去塞内加尔时正值该政策扩张期，中国在该国有基建投资",
+      "importance": "medium"
+    },
+    {
+      "name": "《大西洋奴隶贸易人口普查》(The Atlantic Slave Trade: A Census)",
+      "type": "work",
+      "context": "Philip Curtin 1969年出版的学术著作，质疑奴隶贸易数据的准确性",
+      "importance": "high"
+    },
+    {
+      "name": "《根》(Roots)",
+      "type": "work",
+      "context": "Alex Haley 1976年出版的小说，讲述非洲奴隶被卖到美国的家族历史，被拍成电影",
+      "importance": "medium"
+    },
+    {
+      "name": "《女王》(The Woman King)",
+      "type": "work",
+      "context": "2022年黑人电影，James Sweet批评其将历史暴力事件扭曲为黑人女权主义胜利",
+      "importance": "low"
+    },
+    {
+      "name": "《情人》(L'Amant)",
+      "type": "work",
+      "context": "梁家辉主演的电影，用于类比法国殖民建筑风格",
+      "importance": "low"
+    },
+    {
+      "name": "卢旺达",
+      "type": "place",
+      "context": "提及发生过大屠杀但相对安全的非洲国家，与尼日利亚、南非形成对比",
+      "importance": "low"
+    },
+    {
+      "name": "尼日利亚",
+      "type": "place",
+      "context": "非洲人口第一大国，提及对单身女性不安全",
+      "importance": "low"
+    },
+    {
+      "name": "南非",
+      "type": "place",
+      "context": "提及对单身女性不太安全的非洲国家",
+      "importance": "low"
+    },
+    {
+      "name": "美国历史学会 (American Historical Association)",
+      "type": "organization",
+      "context": "James Sweet曾任主席的学术组织，因Sweet的文章可能失去数百会员",
+      "importance": "medium"
+    },
+    {
+      "name": "联合国教科文组织 (UNESCO)",
+      "type": "organization",
+      "context": "认证戈雷岛为世界文化遗产的组织",
+      "importance": "low"
+    },
+    {
+      "name": "西非研究中心",
+      "type": "organization",
+      "context": "塞内加尔本土智库，主持人联系成为访问学者的机构",
+      "importance": "medium"
+    },
+    {
+      "name": "非洲文化研究中心",
+      "type": "organization",
+      "context": "主持人所在大学提供研究经费的系/中心",
+      "importance": "medium"
+    },
+    {
+      "name": "Orange",
+      "type": "organization",
+      "context": "法国电信公司，在塞内加尔是最大的电信公司",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66ad16fe33ddcbb53cef8f51",
+  "title": "92-非洲人看待奴隶贸易和美国人有何不同？（回忆塞内加尔奴隶岛）"
+}

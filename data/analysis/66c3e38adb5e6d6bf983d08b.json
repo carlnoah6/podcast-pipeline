@@ -1,0 +1,218 @@
+{
+  "style": {
+    "opening_pattern": "以互联网现象引入，描述公众人物因言论或行为被'审判'的社会现象，引出戾气和恶意泛滥的问题",
+    "structure": "现象描述→提出三种恶习（残忍、虚伪、傲慢）→深入分析虚伪（概念辨析、特朗普案例、真诚与虚伪的关系）→分析傲慢（两种形式、弱者对弱者的霸凌）→总结呼吁（宽容与反思）",
+    "tone": "理性思辨与口语化表达结合，带有哲学深度但用词通俗（如'不是个好鸟'），批判中带有温和的人文关怀",
+    "catchphrases": [
+      "残忍、虚伪和傲慢",
+      "平常的恶",
+      "真诚的艺术",
+      "不是个好鸟",
+      "实践智慧",
+      "伪君子",
+      "真小人",
+      "太监",
+      "公共讨论环境",
+      "复杂化使人清晰"
+    ],
+    "closing_pattern": "总结核心观点（对虚伪和傲慢的宽容）→方法论反思（复杂化vs简单化）→简短告别",
+    "narrative_techniques": [
+      "类比（太监比喻、家长教育小孩）",
+      "具体案例（特朗普辩论、状元姐的故事、播客听众评论）",
+      "对比（伪君子vs真小人、虚伪vs真诚）",
+      "引用（Judith Shklar、亚里士多德、孟德斯鸠、拉罗什富科）",
+      "反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "Judith Shklar（朱迪思·施克莱）",
+      "type": "person",
+      "context": "二十世纪女性政治理论家，其著作《平常的恶》是本期播客的核心理论来源",
+      "importance": "high"
+    },
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "作为2016年美国总统候选人，主播以其在辩论中承认偷税漏税为例，分析'厚颜无耻的真诚'与'真诚的艺术'",
+      "importance": "high"
+    },
+    {
+      "name": "希拉里（Hillary Clinton）",
+      "type": "person",
+      "context": "2016年美国总统候选人，在播客中作为特朗普的辩论对手出现，被描述为'诡辩的成熟的遮遮掩掩的职业政客'",
+      "importance": "medium"
+    },
+    {
+      "name": "Boris Johnson（鲍里斯·约翰逊）",
+      "type": "person",
+      "context": "英国前首相，因其'派对门'事件（违反自己制定的防疫规则）被作为公众对虚伪厌恶的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德（Aristotle）",
+      "type": "person",
+      "context": "古希腊哲学家，其提出的'实践智慧'（Phronesis/Prudence）被主播用来论证'适当的虚伪'是一种成熟的美德",
+      "importance": "medium"
+    },
+    {
+      "name": "孟德斯鸠（Montesquieu）",
+      "type": "person",
+      "context": "法国思想家，其著作《波斯信札》中关于太监的比喻被主播用来讽刺那些通过嘲笑更弱者来获得优越感的'弱者'",
+      "importance": "medium"
+    },
+    {
+      "name": "拉罗什富科（La Rochefoucauld）",
+      "type": "person",
+      "context": "18世纪法国哲学家，其名言'伪善是恶习再向美德致敬'被引用来说明伪善与美德的关系",
+      "importance": "medium"
+    },
+    {
+      "name": "笛卡尔（Descartes）",
+      "type": "person",
+      "context": "哲学家，其'第一沉思录'中关于'清晰与简单'（Clarity and Simplicity）的观点被主播对比，提出社会议题应通过'复杂化'来达到清晰",
+      "importance": "medium"
+    },
+    {
+      "name": "状元姐",
+      "type": "person",
+      "context": "主播的朋友，江苏省理科状元，香港大学毕业，其观察到的校友会上的傲慢校友和男同事的双重标准被作为'傲慢'的具体例子",
+      "importance": "medium"
+    },
+    {
+      "name": "刘瑜",
+      "type": "person",
+      "context": "学者，被提及有播客听众读其书后分享心得却被他人傲慢地嘲讽为'哲学界短视频'",
+      "importance": "low"
+    },
+    {
+      "name": "刘擎",
+      "type": "person",
+      "context": "学者，与刘瑜、韩炳哲一同被提及作为被傲慢网友嘲讽的读书对象",
+      "importance": "low"
+    },
+    {
+      "name": "韩炳哲",
+      "type": "person",
+      "context": "哲学家，与刘瑜、刘擎一同被提及",
+      "importance": "low"
+    },
+    {
+      "name": "许知远",
+      "type": "person",
+      "context": "媒体人，与鲁豫、道长一起举办线下节目，有听众晒合照后被嘲讽'文化程度爆表'",
+      "importance": "low"
+    },
+    {
+      "name": "鲁豫",
+      "type": "person",
+      "context": "主持人，与许知远、道长一起举办线下节目",
+      "importance": "low"
+    },
+    {
+      "name": "张震",
+      "type": "person",
+      "context": "演员，被主播幽默地用作例子'张震该不该因为自己是全中国最性感的男人就感到高其他男人一等'",
+      "importance": "low"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "主播的朋友，马拉松跑者，观察跑友圈和瑜伽圈的鄙视链",
+      "importance": "low"
+    },
+    {
+      "name": "《平常的恶》（Ordinary Vices）",
+      "type": "work",
+      "context": "Judith Shklar的著作，本期播客的核心参考文献，讨论了残忍、虚伪、傲慢等'平常的恶'",
+      "importance": "high"
+    },
+    {
+      "name": "《波斯信札》（Persian Letters）",
+      "type": "work",
+      "context": "孟德斯鸠的小说，其中关于太监的比喻被主播用来讽刺弱者的傲慢",
+      "importance": "medium"
+    },
+    {
+      "name": "《如何哗众取宠》",
+      "type": "work",
+      "context": "主播自己的播客单集，被提及作为讨论'真诚的艺术'的背景",
+      "importance": "medium"
+    },
+    {
+      "name": "第一沉思录（Meditations on First Philosophy）",
+      "type": "work",
+      "context": "笛卡尔的哲学著作，其中关于清晰与简单的观点被主播引用并对比",
+      "importance": "medium"
+    },
+    {
+      "name": "虚伪（Hypocrisy）",
+      "type": "concept",
+      "context": "三种恶习之一，被分析为'恶习再向美德致敬'，与真诚相对，被认为是人性中平常的一部分",
+      "importance": "high"
+    },
+    {
+      "name": "傲慢（Arrogance/Pride）",
+      "type": "concept",
+      "context": "三种恶习之一，被分为'广泛的傲慢'（社会地位）和'具体的傲慢'（就事论事），被认为是基于身份的优越感",
+      "importance": "high"
+    },
+    {
+      "name": "残忍（Cruelty）",
+      "type": "concept",
+      "context": "三种恶习中最危险的一种，被认为是公众对虚伪和傲慢过度不容忍的产物，表现为对弱者的霸凌和审判",
+      "importance": "high"
+    },
+    {
+      "name": "真诚（Authenticity）",
+      "type": "concept",
+      "context": "被视为现代社会的美德，但主播质疑其绝对性，提出'真诚的艺术'（The art of appearing authentic）实际上是精致的虚伪",
+      "importance": "high"
+    },
+    {
+      "name": "实践智慧（Phronesis/Prudence）",
+      "type": "concept",
+      "context": "亚里士多德提出的概念，被用来论证适当的虚伪（在不同场合说不同的话）是一种成熟的美德，而非缺点",
+      "importance": "medium"
+    },
+    {
+      "name": "2016年美国总统大选",
+      "type": "event",
+      "context": "特朗普与希拉里的竞选，被用作分析'真诚的政治表演'和厚颜无耻的真诚如何击败虚伪的政客的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "派对门（Partygate）",
+      "type": "event",
+      "context": "英国首相Boris Johnson在疫情期间违反自己制定的封锁规则举办派对，导致下台的丑闻，被作为公众对虚伪厌恶的例子",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "特朗普和希拉里所在的政治环境，以及互联网民主社会的讨论背景",
+      "importance": "medium"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "Boris Johnson所在的国家，西方民主社会虚伪政治的例子",
+      "importance": "low"
+    },
+    {
+      "name": "香港大学",
+      "type": "organization",
+      "context": "状元姐的母校，校友会上发生傲慢事件的地点",
+      "importance": "low"
+    },
+    {
+      "name": "共和党",
+      "type": "organization",
+      "context": "特朗普在2016年代表参选的政党，被描述为被特朗普撕碎的体制内政党",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66c3e38adb5e6d6bf983d08b",
+  "title": "98-如何抵抗互联网上越来越重的戾气和恶意？"
+}

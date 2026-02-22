@@ -1,0 +1,688 @@
+{
+  "style": {
+    "opening_pattern": "直接提出对比对象，以两本书在东西方文明中相似地位为切入点引入",
+    "structure": "提出对比→分别介绍两本书的地位与特点→个人阅读经历（童年/大学）→核心论点（人文主义忧伤）→三点共性分析→结尾",
+    "tone": "亲切知性、带有学术底蕴的轻松叙述，穿插大量个人故事和情感回忆",
+    "catchphrases": [
+      "浅浅的",
+      "波克",
+      "淡淡的忧伤",
+      "锦囊妙计",
+      "鞠躬尽瘁",
+      "主公",
+      "二妹",
+      "小人书",
+      "108将",
+      "裙底"
+    ],
+    "closing_pattern": "总结三点共性后自然收尾，预告下期",
+    "narrative_techniques": [
+      "类比",
+      "举例",
+      "对比",
+      "个人叙事",
+      "引用名言",
+      "场景还原",
+      "反问"
+    ]
+  },
+  "entities": [
+    {
+      "name": "罗贯中",
+      "type": "person",
+      "context": "《三国演义》的作者，被描述为整理已有传统而非原创塑造人物",
+      "importance": "high"
+    },
+    {
+      "name": "修昔底德",
+      "type": "person",
+      "context": "《伯罗奔尼撒战争史》作者，被认为独自塑造了这段历史在西方想象中的地位",
+      "importance": "high"
+    },
+    {
+      "name": "诸葛亮",
+      "type": "person",
+      "context": "播客主播童年崇拜的对象，'古往今来第一贤相'，影响其用锦囊妙计'向上管理'母亲",
+      "importance": "high"
+    },
+    {
+      "name": "曹操",
+      "type": "person",
+      "context": "被描述为'古往今来第一奸雄'，主播童年时将害怕的同学想象成曹操",
+      "importance": "high"
+    },
+    {
+      "name": "伯里克利",
+      "type": "person",
+      "context": "雅典领袖，其葬礼演说被誉为西方民主史上最伟大的政治演讲之一",
+      "importance": "high"
+    },
+    {
+      "name": "霍布斯",
+      "type": "person",
+      "context": "现代政治哲学家，曾出版权威的《伯罗奔尼撒战争史》译本",
+      "importance": "medium"
+    },
+    {
+      "name": "马基雅维利",
+      "type": "person",
+      "context": "被提及也曾试图翻译《伯罗奔尼撒战争史》",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "其对话录中记载了伯里克利的演讲，成为验证修昔底德记载的唯一同期文献",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "《善恶的彼岸》中被引用的'真理是一个女人'比喻，用于批评当代史学家的研究方式",
+      "importance": "medium"
+    },
+    {
+      "name": "周瑜",
+      "type": "person",
+      "context": "主播童年时将不喜欢的同学想象成周瑜，其嫉妒被作为人性例证",
+      "importance": "medium"
+    },
+    {
+      "name": "关羽",
+      "type": "person",
+      "context": "'古今往来第一名将'，败走麦城是三国令人失望结局的一部分",
+      "importance": "medium"
+    },
+    {
+      "name": "赵云",
+      "type": "person",
+      "context": "陪刘备赴东吴时携带诸葛亮三个锦囊妙计",
+      "importance": "low"
+    },
+    {
+      "name": "孙尚香",
+      "type": "person",
+      "context": "孙权之妹，十九岁被嫁给五十多岁的刘备",
+      "importance": "low"
+    },
+    {
+      "name": "穆桂英",
+      "type": "person",
+      "context": "杨家将中的女英雄，主播童年打架时想象自己成为的人物",
+      "importance": "low"
+    },
+    {
+      "name": "佘太君",
+      "type": "person",
+      "context": "杨家将中管事的老妇人，体现杨家'男丁凋零后女人当家'",
+      "importance": "low"
+    },
+    {
+      "name": "杨排风",
+      "type": "person",
+      "context": "杨家将中的烧火丫头，被提及作为女性人才例子",
+      "importance": "low"
+    },
+    {
+      "name": "庞统",
+      "type": "person",
+      "context": "与诸葛亮齐名的谋士，体现三国人才之多元",
+      "importance": "low"
+    },
+    {
+      "name": "徐庶",
+      "type": "person",
+      "context": "不逊于诸葛亮的绝顶聪明人才",
+      "importance": "low"
+    },
+    {
+      "name": "鲁肃",
+      "type": "person",
+      "context": "聪明的谋士代表",
+      "importance": "low"
+    },
+    {
+      "name": "荀彧",
+      "type": "person",
+      "context": "聪明的谋士代表",
+      "importance": "low"
+    },
+    {
+      "name": "张飞",
+      "type": "person",
+      "context": "武力代表人物，被手下所杀",
+      "importance": "low"
+    },
+    {
+      "name": "黄忠",
+      "type": "person",
+      "context": "武力代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "徐晃",
+      "type": "person",
+      "context": "武力代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "马超",
+      "type": "person",
+      "context": "武力代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "夏侯惇",
+      "type": "person",
+      "context": "武力代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "黄盖",
+      "type": "person",
+      "context": "武力代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "太史慈",
+      "type": "person",
+      "context": "武力代表人物",
+      "importance": "low"
+    },
+    {
+      "name": "阿尔西比亚德斯",
+      "type": "person",
+      "context": "Alcibiades，古希腊黄金时期多元人才之一",
+      "importance": "low"
+    },
+    {
+      "name": "尼西亚斯",
+      "type": "person",
+      "context": "Nicias，古希腊黄金时期多元人才之一",
+      "importance": "low"
+    },
+    {
+      "name": "狄奥多图斯",
+      "type": "person",
+      "context": "Diodotus，古希腊黄金时期多元人才之一",
+      "importance": "low"
+    },
+    {
+      "name": "克里昂",
+      "type": "person",
+      "context": "Cleon，被史学家试图翻案的'坏人'",
+      "importance": "low"
+    },
+    {
+      "name": "德摩斯梯尼",
+      "type": "person",
+      "context": "Demosthenes，古希腊黄金时期多元人才之一",
+      "importance": "low"
+    },
+    {
+      "name": "保萨尼亚斯",
+      "type": "person",
+      "context": "Pausanias，斯巴达方令人印象深刻的人才",
+      "importance": "low"
+    },
+    {
+      "name": "布拉西达斯",
+      "type": "person",
+      "context": "Brasidas，斯巴达方令人印象深刻的人才",
+      "importance": "low"
+    },
+    {
+      "name": "阿希达穆斯",
+      "type": "person",
+      "context": "Archidamus，斯巴达方令人印象深刻的人才",
+      "importance": "low"
+    },
+    {
+      "name": "苏格拉底",
+      "type": "person",
+      "context": "伯罗奔尼撒战争时期的雅典代表，战争后希腊黄金时代结束",
+      "importance": "medium"
+    },
+    {
+      "name": "阿里斯托芬",
+      "type": "person",
+      "context": "伯罗奔尼撒战争时期的雅典代表",
+      "importance": "low"
+    },
+    {
+      "name": "刘备",
+      "type": "person",
+      "context": "蜀汉君主，被诸葛亮辅佐的'主公'原型",
+      "importance": "medium"
+    },
+    {
+      "name": "孙权",
+      "type": "person",
+      "context": "吴国君主，说服其嫁妹给刘备",
+      "importance": "low"
+    },
+    {
+      "name": "司马懿/司马家",
+      "type": "person",
+      "context": "最终统一三国的第三方势力，令人失望的结局",
+      "importance": "medium"
+    },
+    {
+      "name": "赵匡胤",
+      "type": "person",
+      "context": "被史学家用来比较三国模式的类似统一者",
+      "importance": "low"
+    },
+    {
+      "name": "朱元璋",
+      "type": "person",
+      "context": "元末群雄并起后的统一者，类似发展模式",
+      "importance": "low"
+    },
+    {
+      "name": "司马光",
+      "type": "person",
+      "context": "《资治通鉴》作者，以曹魏为正统",
+      "importance": "low"
+    },
+    {
+      "name": "洛克",
+      "type": "person",
+      "context": "被 contrast 的政治哲学家，主张普世价值观",
+      "importance": "low"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "其《资本论》被作为难以获得人性教育的理论书例子",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "其《法哲学导论》被作为难以获得人性教育的理论书例子",
+      "importance": "low"
+    },
+    {
+      "name": "笛卡尔",
+      "type": "person",
+      "context": "被提及读过的政治哲学著作作者",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "被提及读过的政治哲学著作作者",
+      "importance": "low"
+    },
+    {
+      "name": "貂蝉",
+      "type": "person",
+      "context": "美人计的代表人物，老百姓耳熟能详的三国故事",
+      "importance": "low"
+    },
+    {
+      "name": "华雄",
+      "type": "person",
+      "context": "被温酒斩的对象，老百姓耳熟能详的三国故事",
+      "importance": "low"
+    },
+    {
+      "name": "吕布",
+      "type": "person",
+      "context": "三英战吕布的对象",
+      "importance": "low"
+    },
+    {
+      "name": "《三国演义》",
+      "type": "work",
+      "context": "与《伯罗奔尼撒战争史》对比的核心文本，中国政治历史的代表",
+      "importance": "high"
+    },
+    {
+      "name": "《伯罗奔尼撒战争史》",
+      "type": "work",
+      "context": "与《三国演义》对比的核心文本，西方政治历史的代表",
+      "importance": "high"
+    },
+    {
+      "name": "《三国志》",
+      "type": "work",
+      "context": "三国故事的史料来源，与《三国演义》的虚构性形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "《水浒传》",
+      "type": "work",
+      "context": "主播童年与父亲一起读的小人书之一，能背108将",
+      "importance": "low"
+    },
+    {
+      "name": "《杨家将》",
+      "type": "work",
+      "context": "主播童年与父亲一起读的小人书之一，影响其性别意识",
+      "importance": "low"
+    },
+    {
+      "name": "《政府论》下篇",
+      "type": "work",
+      "context": "洛克的著作，被作为普世价值观理论的例子",
+      "importance": "low"
+    },
+    {
+      "name": "《资本论》",
+      "type": "work",
+      "context": "马克思的著作，被作为难以获得人性教育的理论书",
+      "importance": "low"
+    },
+    {
+      "name": "《法哲学导论》",
+      "type": "work",
+      "context": "黑格尔的著作，被作为难以获得人性教育的理论书",
+      "importance": "low"
+    },
+    {
+      "name": "《善恶的彼岸》",
+      "type": "work",
+      "context": "尼采的著作，其'真理是一个女人'比喻被引用批评史学家",
+      "importance": "medium"
+    },
+    {
+      "name": "《资治通鉴》",
+      "type": "work",
+      "context": "司马光的著作，以曹魏为正统",
+      "importance": "low"
+    },
+    {
+      "name": "米洛斯对话",
+      "type": "work",
+      "context": "Melian Dialogue，《伯罗奔尼撒战争史》中的经典章节，强权即正义的代表",
+      "importance": "medium"
+    },
+    {
+      "name": "伯里克利的葬礼演说",
+      "type": "work",
+      "context": "西方民主史上最著名的政治演讲，体现雅典辉煌与被削弱的张力",
+      "importance": "high"
+    },
+    {
+      "name": "前后出师表",
+      "type": "work",
+      "context": "诸葛亮的作品，'一览泪沾襟'的感人文字",
+      "importance": "medium"
+    },
+    {
+      "name": "隆中对",
+      "type": "work",
+      "context": "诸葛亮的战略谋划，体现三国鼎立的危机丛生",
+      "importance": "medium"
+    },
+    {
+      "name": "小人书/连环画",
+      "type": "work",
+      "context": "主播童年阅读古典名著的方式，线装钢笔画配繁体字",
+      "importance": "medium"
+    },
+    {
+      "name": "修昔底德陷阱",
+      "type": "concept",
+      "context": "虽未直接命名但详细描述的概念：崛起国家威胁平衡导致战争的必然性质疑",
+      "importance": "high"
+    },
+    {
+      "name": "斯巴达式生活方式",
+      "type": "concept",
+      "context": "至今仍被美国人使用的概念，源自修昔底德的持久影响力",
+      "importance": "medium"
+    },
+    {
+      "name": "强权即正义",
+      "type": "concept",
+      "context": "米洛斯对话中雅典宣称的原则，政治现实与道德张力的核心",
+      "importance": "high"
+    },
+    {
+      "name": "正义与现实的张力",
+      "type": "concept",
+      "context": "两本书最核心的共同问题，也是政治永恒的议题",
+      "importance": "high"
+    },
+    {
+      "name": "道德与强权的张力",
+      "type": "concept",
+      "context": "正义与现实张力的另一种表述",
+      "importance": "high"
+    },
+    {
+      "name": "人文主义/人文精神的忧伤",
+      "type": "concept",
+      "context": "主播提出的核心感受，政治历史区别于政治哲学的独特教育价值",
+      "importance": "high"
+    },
+    {
+      "name": "冷静的温情的现实主义",
+      "type": "concept",
+      "context": "阅读政治历史可获得的人性教育，既意识到伟大又意识到渺小",
+      "importance": "high"
+    },
+    {
+      "name": "宏大叙事",
+      "type": "concept",
+      "context": "政治历史避免而政治哲学常有的普遍层面主张",
+      "importance": "medium"
+    },
+    {
+      "name": "现实主义",
+      "type": "concept",
+      "context": "国际关系学家对《伯罗奔尼撒战争史》的解读角度，角色趋于现实做政治决定",
+      "importance": "medium"
+    },
+    {
+      "name": "犬儒主义",
+      "type": "concept",
+      "context": "对角色寻找正义理由的一种可能解读，但被主播认为不足以解释全部",
+      "importance": "low"
+    },
+    {
+      "name": "正统性",
+      "type": "concept",
+      "context": "史学家热衷解构的问题，如为何以蜀汉为正统",
+      "importance": "medium"
+    },
+    {
+      "name": "叙事建构",
+      "type": "concept",
+      "context": "现代史学家关注的学术问题，如实录与虚构的区别",
+      "importance": "medium"
+    },
+    {
+      "name": "伯罗奔尼撒战争",
+      "type": "event",
+      "context": "公元前五世纪雅典与斯巴达的大战，希腊黄金时代的结束",
+      "importance": "high"
+    },
+    {
+      "name": "赤壁之战",
+      "type": "event",
+      "context": "三国关键战役，之后刘备通过坑蒙拐骗获得政治基地",
+      "importance": "medium"
+    },
+    {
+      "name": "六出祁山",
+      "type": "event",
+      "context": "诸葛亮未能扭转颓势的军事行动",
+      "importance": "medium"
+    },
+    {
+      "name": "关羽败走麦城",
+      "type": "event",
+      "context": "三国漫长下坡路的开始",
+      "importance": "medium"
+    },
+    {
+      "name": "雅典瘟疫",
+      "type": "event",
+      "context": "伯里克利演讲后立刻发生的灾难，修昔底德用以削弱演讲效果",
+      "importance": "medium"
+    },
+    {
+      "name": "西西里远征",
+      "type": "event",
+      "context": "雅典扩张野心的体现，错误决策之一",
+      "importance": "low"
+    },
+    {
+      "name": "桃园三结义",
+      "type": "event",
+      "context": "主播与好友模仿的仪式，'二妹'外号的来源",
+      "importance": "low"
+    },
+    {
+      "name": "乐不思蜀",
+      "type": "event",
+      "context": "周瑜设计困住刘备的计谋目标",
+      "importance": "low"
+    },
+    {
+      "name": "温酒斩华雄",
+      "type": "event",
+      "context": "老百姓耳熟能详的三国故事",
+      "importance": "low"
+    },
+    {
+      "name": "三英战吕布",
+      "type": "event",
+      "context": "老百姓耳熟能详的三国故事",
+      "importance": "low"
+    },
+    {
+      "name": "草船借箭",
+      "type": "event",
+      "context": "老百姓耳熟能详的三国故事",
+      "importance": "low"
+    },
+    {
+      "name": "铜雀台赋诗",
+      "type": "event",
+      "context": "主播幽默描述的'新概念写作文大比拼'",
+      "importance": "low"
+    },
+    {
+      "name": "雅典",
+      "type": "place",
+      "context": "古希腊最强盛、最具哲学性的城邦，伯罗奔尼撒战争的主角之一",
+      "importance": "high"
+    },
+    {
+      "name": "斯巴达",
+      "type": "place",
+      "context": "代表寡头政治的城邦，伯罗奔尼撒战争的另一主角",
+      "importance": "high"
+    },
+    {
+      "name": "伯罗奔尼撒半岛",
+      "type": "place",
+      "context": "战争发生地，战后贫困蔓延",
+      "importance": "medium"
+    },
+    {
+      "name": "西西里",
+      "type": "place",
+      "context": "雅典扩张野心指向的地方",
+      "importance": "low"
+    },
+    {
+      "name": "非洲",
+      "type": "place",
+      "context": "雅典甚至计划进攻的远方",
+      "importance": "low"
+    },
+    {
+      "name": "波斯",
+      "type": "place",
+      "context": "作为第三方势力介入战争的'外国'力量",
+      "importance": "medium"
+    },
+    {
+      "name": "米洛斯",
+      "type": "place",
+      "context": "被雅典欺负的小国，米洛斯对话的发生地",
+      "importance": "medium"
+    },
+    {
+      "name": "荆州",
+      "type": "place",
+      "context": "刘备坑蒙拐骗获得的政治基地之一",
+      "importance": "low"
+    },
+    {
+      "name": "襄阳",
+      "type": "place",
+      "context": "刘备坑蒙拐骗获得的政治基地之一",
+      "importance": "low"
+    },
+    {
+      "name": "东吴",
+      "type": "place",
+      "context": "刘备危险旅程的目的地，孙权的势力范围",
+      "importance": "low"
+    },
+    {
+      "name": "蜀汉/蜀国",
+      "type": "place",
+      "context": "三国中以正统自居但最终失败的一方",
+      "importance": "medium"
+    },
+    {
+      "name": "曹魏/魏国",
+      "type": "place",
+      "context": "曹操建立的政权，奸雄成功但未统一",
+      "importance": "medium"
+    },
+    {
+      "name": "吴国",
+      "type": "place",
+      "context": "孙权建立的政权",
+      "importance": "low"
+    },
+    {
+      "name": "辽",
+      "type": "place",
+      "context": "杨家将抗敌的对象",
+      "importance": "low"
+    },
+    {
+      "name": "宋代",
+      "type": "place",
+      "context": "说书文化兴起、三国故事开始流行的时代",
+      "importance": "medium"
+    },
+    {
+      "name": "元末明初/14世纪",
+      "type": "place",
+      "context": "罗贯中写成《三国演义》的时代",
+      "importance": "medium"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "20世纪崛起威胁世界平衡的国家例子",
+      "importance": "low"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "21世纪被学者拿来与修昔底德比较的国家",
+      "importance": "low"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "仍熟知斯巴达式生活方式的'没有文化的美国人'",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66be42a033591c27be68b04f",
+  "title": "97-三国演义和伯罗奔尼撒战争史有何相似之处"
+}

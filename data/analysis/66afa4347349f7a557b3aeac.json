@@ -1,0 +1,189 @@
+{
+  "style": {
+    "opening_pattern": "以系列延续引入，直接点明主题并预告内容结构（三种焦虑+回应常见问题）",
+    "structure": "问题分类→个人经验/故事→理论分析→哲学升华→回到运动→总结。整体呈现'闲聊式递进'结构：嫉妒焦虑（运动社群观察+黑格尔哲学）→怯懦焦虑（倒立vs骑车的对比故事）→容貌焦虑（长篇摄影技术铺垫→核心观点）→运动作为解决方案→结尾哲学升华",
+    "tone": "轻松幽默、真诚自省、知识密度高但不端着，带有强烈的个人色彩和口语化表达",
+    "catchphrases": [
+      "想到哪儿说哪儿",
+      "哇哦/哇",
+      "气死我了",
+      "五迷三道",
+      "臭美",
+      "显眼包",
+      "保姆哥、脑雾哥",
+      "香槟哥",
+      "湾仔码头",
+      "杨医生"
+    ],
+    "closing_pattern": "总结核心观点（判断力+选择性认可）+简洁告别",
+    "narrative_techniques": [
+      "类比（运动社群vs现实社会、倒立vs骑车）",
+      "对比（嫉妒vs见贤思齐、两种骄傲、能力vs怯懦）",
+      "举例（郑钦文、费城智库会议、朋友二妹）",
+      "设问自答",
+      "长铺垫后揭晓核心观点（摄影技术→容貌焦虑）",
+      "个人故事嵌入理论分析"
+    ]
+  },
+  "entities": [
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "主播明确提到受其影响，用其哲学概念分析嫉妒与认可的关系——优越感建立在'不平等'上，而认可和尊重建立在'平等'基础上",
+      "importance": "high"
+    },
+    {
+      "name": "郑钦文",
+      "type": "person",
+      "context": "作为2024巴黎奥运会网球女单金牌得主被引用，用以说明'平等的骄傲'——不是踩在别人脚下的优越感，而是建立在认可与尊重之上的骄傲",
+      "importance": "medium"
+    },
+    {
+      "name": "雷蒙·阿隆（Raymond Aron）",
+      "type": "person",
+      "context": "20世纪法国学者，'香槟哥'的博士论文研究对象，主播表示非常喜欢这位学者",
+      "importance": "low"
+    },
+    {
+      "name": "香槟哥",
+      "type": "person",
+      "context": "主播的法国基佬朋友，政治学家，来自香槟地区有150匹马的农场，爱好胶片人像摄影，是本期容貌焦虑讨论的关键信息来源",
+      "importance": "high"
+    },
+    {
+      "name": "二妹",
+      "type": "person",
+      "context": "主播的朋友，其态度被分享：从大学起正式场合的妆造全靠美图秀秀后期添加，代表一种对镜头扭曲的务实应对方式",
+      "importance": "medium"
+    },
+    {
+      "name": "杨医生",
+      "type": "person",
+      "context": "主播的母亲，在医院工作，与主播讨论过中年妇女整容现象，帮助主播理解'现实中看起来不自然但拍照好看'的悖论",
+      "importance": "medium"
+    },
+    {
+      "name": "保姆哥、脑雾哥",
+      "type": "person",
+      "context": "主播的朋友，被用来举例说明'照片无法反映真人魅力'——主播觉得迷得五迷三道的男人，他们看照片觉得不解",
+      "importance": "low"
+    },
+    {
+      "name": "笛卡尔",
+      "type": "person",
+      "context": "在结尾被提及，代表'现代哲学、现代人对于自我意识的理解'——即完全从自身找到价值、不在乎他人看法的理念",
+      "importance": "medium"
+    },
+    {
+      "name": "小红书",
+      "type": "organization",
+      "context": "社交平台，主播提到在上面收到关于'嫉妒和见贤思齐的区别'的留言，引发本期第一部分讨论",
+      "importance": "low"
+    },
+    {
+      "name": "Instagram",
+      "type": "organization",
+      "context": "社交媒体平台，香槟哥观察到上面的女孩化妆不再以肉眼为准则，而是以相机/手机小镜头为准则",
+      "importance": "medium"
+    },
+    {
+      "name": "巴黎奥运会",
+      "type": "event",
+      "context": "2024年夏季奥运会，被用来举例说明观众对顶级运动员的态度通常是欣赏而非嫉妒",
+      "importance": "low"
+    },
+    {
+      "name": "费城",
+      "type": "place",
+      "context": "主播与香槟哥参加学术会议的城市，发生'凌晨三点酒吧外倒立比拼'和'大街小巷暴走拍肖像照'的故事",
+      "importance": "medium"
+    },
+    {
+      "name": "德州",
+      "type": "place",
+      "context": "香槟哥目前教书的美国州份",
+      "importance": "low"
+    },
+    {
+      "name": "香槟地区",
+      "type": "place",
+      "context": "法国产区，香槟哥的家乡，家里有150匹马，从事香槟生意",
+      "importance": "low"
+    },
+    {
+      "name": "日本",
+      "type": "place",
+      "context": "香槟哥提到的玩胶片相机最好的国家之一，因为摄影师珍惜维护相机",
+      "importance": "low"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "香槟哥提到的玩胶片相机最好的国家之一，因为摄影师珍惜维护相机；也是二战时期美国记者使用相机的战场所在地",
+      "importance": "low"
+    },
+    {
+      "name": "58毫米镜头",
+      "type": "concept",
+      "context": "最接近人眼感知的镜头大小，是香槟哥传授的'没用的小知识'，构成主播镜头批判的理论基础",
+      "importance": "high"
+    },
+    {
+      "name": "50毫米镜头",
+      "type": "concept",
+      "context": "香槟哥的中画幅胶片相机镜头大小，相对接近人眼感知，用于对比手机小镜头的扭曲效果",
+      "importance": "medium"
+    },
+    {
+      "name": "大画幅/中画幅/小画幅",
+      "type": "concept",
+      "context": "胶片相机的画幅分类，主播用非常业余的角度解释，大画幅巨大且需三脚架，人像摄影一般携带中画幅和小画幅",
+      "importance": "medium"
+    },
+    {
+      "name": "analog photography（胶片摄影/人像摄影）",
+      "type": "concept",
+      "context": "香槟哥的文艺爱好，使用纯机械无电子元件的胶片相机，主播借此展开对数字时代图像真实性的批判",
+      "importance": "high"
+    },
+    {
+      "name": "baking（烘焙定妆法）",
+      "type": "concept",
+      "context": "化妆技术术语，香槟哥从胶片摄影角度观察到Instagram女孩使用的化妆手法，以相机而非肉眼为准则",
+      "importance": "low"
+    },
+    {
+      "name": "见贤思齐",
+      "type": "concept",
+      "context": "核心讨论概念，与'嫉妒'形成对比，主播认为运动社群罕见地实现了这种古典美德——建立在平等认可基础上的欣赏",
+      "importance": "high"
+    },
+    {
+      "name": "优越感（superiority）",
+      "type": "concept",
+      "context": "主播借用黑格尔框架分析的概念，嫉妒的核心是追求/感受到的不平等的高下之分，带来焦虑",
+      "importance": "high"
+    },
+    {
+      "name": "认可与尊重（recognition and esteem）",
+      "type": "concept",
+      "context": "与优越感相对的概念，建立在平等基础上，是见贤思齐和运动社群积极情绪的来源",
+      "importance": "high"
+    },
+    {
+      "name": "价值序列转移",
+      "type": "concept",
+      "context": "主播提出的核心机制：运动习惯培养过程中，目标从社会给予的外貌标准（天鹅颈、A4腰）转移到运动本身的功能性价值（速度、控制、体力）",
+      "importance": "high"
+    },
+    {
+      "name": "美图秀秀",
+      "type": "work",
+      "context": "手机修图软件，朋友二妹用来后期添加妆造的工具，主播用以说明'既然镜头已是假象，再扭曲一点也无妨'的态度",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66afa4347349f7a557b3aeac",
+  "title": "93-运动习惯如何帮我克服焦虑？"
+}

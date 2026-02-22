@@ -1,0 +1,325 @@
+{
+  "style": {
+    "opening_pattern": "以主播个人创作动机和世界观引入，先阐述自己做播客的初衷——不是传递信息而是提供见解，强调独立思考的重要性",
+    "structure": "个人立场声明→新闻事件概述→左右派反应对比→法律分析三层面（程序公正/案件质量/政治明智）→历史类比→大选影响预测→结尾反思",
+    "tone": "理性克制、审慎平衡、带有哲学思辨色彩，反复强调自己不预设立场",
+    "catchphrases": [
+      "稍安勿躁",
+      "这是一个没有明确答案的问题",
+      "我认为",
+      "从他们的视角来看",
+      "话说到这里",
+      "OK",
+      "对吧",
+      "也就是说",
+      "大家看得出来"
+    ],
+    "closing_pattern": "谦逊表态无法预测未来+对精英媒体的怀疑+转向历史视角寻求冷静+预告未来内容方向",
+    "narrative_techniques": [
+      "对比（左右派反应、亨特·拜登案与特朗普案、两个交警假想案例）",
+      "设问反问",
+      "具体案例代入（老年大学学生邮件、阿尔·卡彭案）",
+      "层层递进（从程序到实体到政治后果）",
+      "自我指涉（频繁说明自己的播客方法论）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "本集核心人物，因向Stormy Daniels支付封口费被判34项伪造商业记录重罪，讨论其定罪对美国大选的影响",
+      "importance": "high"
+    },
+    {
+      "name": "Stormy Daniels",
+      "type": "person",
+      "context": "色情明星，特朗普向其支付封口费的对象，是本案的关键人物",
+      "importance": "medium"
+    },
+    {
+      "name": "Alvin Bragg",
+      "type": "person",
+      "context": "纽约州检察官，主导起诉特朗普，被批评为政治动机驱动、扭曲法律",
+      "importance": "high"
+    },
+    {
+      "name": "Cy Vance",
+      "type": "person",
+      "context": "Alvin Bragg的前任纽约检察官，曾调查同一案件但最终放弃起诉",
+      "importance": "medium"
+    },
+    {
+      "name": "Eli Honig",
+      "type": "person",
+      "context": "CNN撰稿人、律师，撰写《纽约检察官通过扭曲法律的方式给特朗普定罪》一文",
+      "importance": "medium"
+    },
+    {
+      "name": "罗伯特·杰克逊（Robert Jackson）",
+      "type": "person",
+      "context": "纽伦堡审判美国总检察官，其关于'检察官最危险的权力是挑选要起诉的人而非案件'的引言被引用",
+      "importance": "medium"
+    },
+    {
+      "name": "阿尔·卡彭（Al Capone）",
+      "type": "person",
+      "context": "芝加哥黑帮头目，以逃税罪名被起诉的案例被用来类比特朗普案的争议性",
+      "importance": "medium"
+    },
+    {
+      "name": "亨特·拜登（Hunter Biden）",
+      "type": "person",
+      "context": "拜登之子，近期也被定罪，与特朗普案形成对比，被用来说明'先认定人有罪再找证据'的现象",
+      "importance": "medium"
+    },
+    {
+      "name": "乔·拜登（Joe Biden）",
+      "type": "person",
+      "context": "现任美国总统，民主党候选人，在特朗普定罪后发表演讲强调'无人凌驾于法律之上'",
+      "importance": "medium"
+    },
+    {
+      "name": "Meghan Kelly",
+      "type": "person",
+      "context": "前福克斯主持人，主播骑自行车时听其播客了解右派反应",
+      "importance": "low"
+    },
+    {
+      "name": "Mike Lee",
+      "type": "person",
+      "context": "犹他州共和党参议员，带领九名参议员发表公开信抵制联邦政府",
+      "importance": "medium"
+    },
+    {
+      "name": "J.D. Vance",
+      "type": "person",
+      "context": "俄亥俄州共和党参议员，参与抵制联邦政府的十名参议员之一",
+      "importance": "low"
+    },
+    {
+      "name": "Tommy Tuberville",
+      "type": "person",
+      "context": "阿拉巴马州共和党参议员，参与抵制联邦政府的十名参议员之一",
+      "importance": "low"
+    },
+    {
+      "name": "Eric Schmidt",
+      "type": "person",
+      "context": "密苏里州共和党参议员，参与抵制联邦政府的十名参议员之一",
+      "importance": "low"
+    },
+    {
+      "name": "Marsha Blackburn",
+      "type": "person",
+      "context": "田纳西州共和党参议员，参与抵制联邦政府的十名参议员之一",
+      "importance": "low"
+    },
+    {
+      "name": "Rick Scott",
+      "type": "person",
+      "context": "佛罗里达州共和党参议员，参与抵制联邦政府的十名参议员之一",
+      "importance": "low"
+    },
+    {
+      "name": "Roger Marshall",
+      "type": "person",
+      "context": "堪萨斯州共和党参议员，参与抵制联邦政府的十名参议员之一",
+      "importance": "low"
+    },
+    {
+      "name": "Marco Rubio",
+      "type": "person",
+      "context": "佛罗里达州共和党参议员，参与抵制联邦政府的十名参议员之一",
+      "importance": "low"
+    },
+    {
+      "name": "Josh Hawley",
+      "type": "person",
+      "context": "密苏里州共和党参议员，参与抵制联邦政府的十名参议员之一",
+      "importance": "low"
+    },
+    {
+      "name": "Ron Johnson",
+      "type": "person",
+      "context": "威斯康星州共和党参议员，参与抵制联邦政府的十名参议员之一",
+      "importance": "low"
+    },
+    {
+      "name": "泽连斯基（Volodymyr Zelenskyy）",
+      "type": "person",
+      "context": "乌克兰总统，2019年特朗普弹劾案中涉及的人物，特朗普被指控试图迫使其捏造拜登丑闻",
+      "importance": "low"
+    },
+    {
+      "name": "Michael Cohen",
+      "type": "person",
+      "context": "特朗普的前律师，被提及作为可能实际伪造商业记录的人",
+      "importance": "low"
+    },
+    {
+      "name": "普京（Vladimir Putin）",
+      "type": "person",
+      "context": "俄罗斯总统，表示特朗普因政治原因受到迫害，以此批评美国政治制度",
+      "importance": "low"
+    },
+    {
+      "name": "伪造商业记录（Falsifying Business Records）",
+      "type": "concept",
+      "context": "特朗普被定罪的34项重罪的核心指控，原为轻罪，被提升为重罪",
+      "importance": "high"
+    },
+    {
+      "name": "负面两极化（Negative Polarization）",
+      "type": "concept",
+      "context": "描述美国选民因厌恶对方候选人而非支持己方候选人的投票现象",
+      "importance": "medium"
+    },
+    {
+      "name": "正当程序（Due Process）",
+      "type": "concept",
+      "context": "法律原则，主播认为纽约检察官在'触碰司法公正的界限'",
+      "importance": "medium"
+    },
+    {
+      "name": "诉讼时效（Statute of Limitations）",
+      "type": "concept",
+      "context": "轻罪两年诉讼时效已过是本案的法律争议点之一",
+      "importance": "medium"
+    },
+    {
+      "name": "high crimes and misdemeanors",
+      "type": "concept",
+      "context": "美国宪法中的弹劾条款用语，2019年特朗普第一次弹劾涉及",
+      "importance": "low"
+    },
+    {
+      "name": "Sophrony/审慎（Prudence）",
+      "type": "concept",
+      "context": "古希腊实践智慧概念，主播用以讨论此案是否为'明智的案件'",
+      "importance": "medium"
+    },
+    {
+      "name": "1月6日国会大厦袭击案",
+      "type": "event",
+      "context": "特朗普面临的另外三起待审案件之一，被认为法律基础更强",
+      "importance": "medium"
+    },
+    {
+      "name": "2019年特朗普弹劾案",
+      "type": "event",
+      "context": "涉及特朗普试图扣留国会拨款操控2020年大选，参议院判无罪",
+      "importance": "medium"
+    },
+    {
+      "name": "2021年特朗普弹劾案",
+      "type": "event",
+      "context": "涉及特朗普煽动支持者袭击国会大厦，参议院再次判无罪",
+      "importance": "medium"
+    },
+    {
+      "name": "纽伦堡审判",
+      "type": "event",
+      "context": "二战后对纳粹领导人的审判，罗伯特·杰克逊担任美国总检察官",
+      "importance": "low"
+    },
+    {
+      "name": "2024年5月31日定罪日",
+      "type": "event",
+      "context": "纽约陪审团裁定特朗普34项重罪成立的具体日期",
+      "importance": "high"
+    },
+    {
+      "name": "7月11日量刑日",
+      "type": "event",
+      "context": "特朗普将被判刑的日期，距共和党全国代表大会仅四天",
+      "importance": "medium"
+    },
+    {
+      "name": "2024年美国大选",
+      "type": "event",
+      "context": "本集最终讨论的核心问题：特朗普定罪如何影响选举结果",
+      "importance": "high"
+    },
+    {
+      "name": "纽约州",
+      "type": "place",
+      "context": "起诉特朗普的司法管辖区，拥有被认为最公平的司法制度之一",
+      "importance": "high"
+    },
+    {
+      "name": "马萨诸塞州",
+      "type": "place",
+      "context": "主播曾在此教授老年大学课程，民主党铁票仓",
+      "importance": "low"
+    },
+    {
+      "name": "佐治亚州",
+      "type": "place",
+      "context": "特朗普面临的第三起待审案件所在地，涉及选举干预指控",
+      "importance": "medium"
+    },
+    {
+      "name": "芝加哥",
+      "type": "place",
+      "context": "阿尔·卡彭犯罪集团所在地，主播假想的交警执法场景设定地",
+      "importance": "low"
+    },
+    {
+      "name": "哥伦比亚大学法学院",
+      "type": "organization",
+      "context": "主播朋友就读并实习于Cy Vance办公室的法学院",
+      "importance": "low"
+    },
+    {
+      "name": "共和党全国代表大会",
+      "type": "organization",
+      "context": "将正式提名特朗普为2024年总统候选人的会议，距量刑日仅四天",
+      "importance": "medium"
+    },
+    {
+      "name": "CNN",
+      "type": "organization",
+      "context": "被主播称为'完全偏左的媒体'，Eli Honig为其撰稿人",
+      "importance": "low"
+    },
+    {
+      "name": "MSNBC",
+      "type": "organization",
+      "context": "被提及的主流媒体之一",
+      "importance": "low"
+    },
+    {
+      "name": "福克斯新闻（Fox News）",
+      "type": "organization",
+      "context": "被提及的主流媒体之一，右派立场",
+      "importance": "low"
+    },
+    {
+      "name": "TikTok",
+      "type": "organization",
+      "context": "被提及的社交媒体平台",
+      "importance": "low"
+    },
+    {
+      "name": "Instagram",
+      "type": "organization",
+      "context": "被提及的社交媒体平台",
+      "importance": "low"
+    },
+    {
+      "name": "推特/X（Twitter）",
+      "type": "organization",
+      "context": "被提及的社交媒体平台",
+      "importance": "low"
+    },
+    {
+      "name": "Maga Core",
+      "type": "other",
+      "context": "特朗普狂热支持者的称呼，在有罪判决后捐款激增",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66691a95c26e396a3629e540",
+  "title": "73-特朗普定罪会如何影响美国大选？"
+}

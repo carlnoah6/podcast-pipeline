@@ -1,0 +1,146 @@
+{
+  "style": {
+    "opening_pattern": "以音乐引入+直接点题，用激昂的音乐献给正在锻炼的听众，营造共鸣氛围",
+    "structure": "核心概念提出→分层论述（三个层面）→分类讨论（两种运动类型）→个人故事收尾",
+    "tone": "真诚袒露、口语化倾诉、带有自嘲幽默的严肃思考",
+    "catchphrases": [
+      "大耳瓜子",
+      "咬牙切齿",
+      "I am still holding together",
+      "网上的傻逼",
+      "这点痛算什么",
+      "干就完了",
+      "乱世中的小确幸",
+      "汗如雨下",
+      "掩耳盗铃的尊严",
+      "往肚子里咽的碎牙和泪水"
+    ],
+    "closing_pattern": "引用自己过去的文字作结，以具体场景画面收束，开放式告别",
+    "narrative_techniques": [
+      "类比（运动阻力=生活压力）",
+      "举例（胡适/福柯事件、骑车经历）",
+      "对比（亢奋vs控制）",
+      "自我对话式反问",
+      "细节白描（倒立后弯的技术动作）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "小木敦人",
+      "type": "person",
+      "context": "播客主播自称，分享个人运动经历和人生低谷体验",
+      "importance": "high"
+    },
+    {
+      "name": "顾颉刚",
+      "type": "person",
+      "context": "被粉丝要求主播论证其新史辨学派错误的历史学家",
+      "importance": "medium"
+    },
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "主播曾做播客批评他，引发争议",
+      "importance": "low"
+    },
+    {
+      "name": "福柯",
+      "type": "person",
+      "context": "被留学生粉丝要求给予更多尊重的法国哲学家",
+      "importance": "medium"
+    },
+    {
+      "name": "贝多芬第九交响曲",
+      "type": "work",
+      "context": "主播跑步时进入心流必听的音乐",
+      "importance": "medium"
+    },
+    {
+      "name": "水手",
+      "type": "work",
+      "context": "郑智化歌曲，主播骑车时听到嚎啕大哭并亢奋",
+      "importance": "medium"
+    },
+    {
+      "name": "凤凰传奇",
+      "type": "work",
+      "context": "主播骑自行车进入心流时必须听的组合",
+      "importance": "medium"
+    },
+    {
+      "name": "抵抗力/resistance",
+      "type": "concept",
+      "context": "主播提出的核心概念，所有运动的本质是增加肌肉抵抗力，隐喻面对生活压力的 resilience",
+      "importance": "high"
+    },
+    {
+      "name": "integrity（完整性）",
+      "type": "concept",
+      "context": "主播用英文词描述运动带来的自我完整感，对抗崩溃时的四分五裂",
+      "importance": "high"
+    },
+    {
+      "name": "心流",
+      "type": "concept",
+      "context": "有氧运动时达到的忘我状态，分泌内啡肽带来亢奋愉悦",
+      "importance": "high"
+    },
+    {
+      "name": "内啡肽",
+      "type": "concept",
+      "context": "运动时大脑分泌的快乐激素，解释运动成瘾和戒毒原理",
+      "importance": "medium"
+    },
+    {
+      "name": "自重训练/街健/Calisthenics",
+      "type": "concept",
+      "context": "主播主要进行的运动类型，包括俯卧撑、引体向上、手倒立等",
+      "importance": "high"
+    },
+    {
+      "name": "瑜伽",
+      "type": "concept",
+      "context": "主播练习的运动类型，提供控制的慰藉",
+      "importance": "high"
+    },
+    {
+      "name": "CrossFit",
+      "type": "concept",
+      "context": "被提及的高强度综合训练方式",
+      "importance": "low"
+    },
+    {
+      "name": "婚内出轨",
+      "type": "event",
+      "context": "主播经历的婚姻破裂原因，前夫与朋友的背叛",
+      "importance": "high"
+    },
+    {
+      "name": "2024年元旦",
+      "type": "event",
+      "context": "主播与新运动伙伴一起锻炼的特殊日子，教练透露离婚经历",
+      "importance": "medium"
+    },
+    {
+      "name": "电动自行车被偷",
+      "type": "event",
+      "context": "导致主播开始骑自行车的契机，两辆被盗",
+      "importance": "low"
+    },
+    {
+      "name": "波士顿",
+      "type": "place",
+      "context": "主播骑车唱歌时被路人看到的地点",
+      "importance": "low"
+    },
+    {
+      "name": "风淡云青",
+      "type": "other",
+      "context": "在评论区纠缠主播的顾颉刚粉丝网名",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66e73a293a5ff0a0cab55d48",
+  "title": "109-运动如何帮我在低谷笑对生活往脸上呼的一个个大耳瓜子？"
+}

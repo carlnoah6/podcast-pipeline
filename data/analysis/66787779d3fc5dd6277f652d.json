@@ -1,0 +1,228 @@
+{
+  "style": {
+    "opening_pattern": "以挑战性提问引入，直接抛出反常识观点邀请反驳",
+    "structure": "核心悖论提出→历史语境分析（中西对比）→现象观察（两个相悖现象）→哲学深度剖析（事实与价值的区分）→历史案例回溯（1923年科玄论战）→结论升华",
+    "tone": "理性思辨中带个人化观察，既有学术严谨性又有生活化的亲切感",
+    "catchphrases": [
+      "虚头巴脑",
+      "东张西望",
+      "大不敬",
+      "然后呢",
+      "这是我观察到的",
+      "我想要说的是",
+      "我在这里邀请大家想一下",
+      "OK今天就说到这里"
+    ],
+    "closing_pattern": "开放式收束，点明现代社会最深刻困境后戛然而止",
+    "narrative_techniques": [
+      "类比（多巴胺的两种来源）",
+      "对比（中西语境中'科学'一词的地位差异）",
+      "举例（老乡哥父亲、脑雾哥、00后表妹等身边案例）",
+      "反问（连续追问'为什么'）",
+      "引用（亚里士多德、莎士比亚、奥古斯丁）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "弗朗西斯·培根",
+      "type": "person",
+      "context": "作为现代科学方法论的开创者被提及，现代科学从其著作至今已500多年",
+      "importance": "medium"
+    },
+    {
+      "name": "老乡哥",
+      "type": "person",
+      "context": "主播的朋友，其父亲在农村因车祸去世后被村民归因于生肖相冲的风水说法，用来说明农村迷信现象",
+      "importance": "medium"
+    },
+    {
+      "name": "亚里士多德",
+      "type": "person",
+      "context": "被引用来代表'不科学的'快乐观——快乐是过最好的生活（道德生活和追求知识的生活）",
+      "importance": "medium"
+    },
+    {
+      "name": "莎士比亚",
+      "type": "person",
+      "context": "被引用来代表'不科学的'快乐观——快乐是亨利五世还是浩的时候在酒馆里和Falstaff喝酒的快乐时光",
+      "importance": "low"
+    },
+    {
+      "name": "奥古斯丁",
+      "type": "person",
+      "context": "被引用来代表'不科学的'快乐观——快乐就是虔诚的相信耶稣为了人类牺牲了自己",
+      "importance": "low"
+    },
+    {
+      "name": "亨利五世",
+      "type": "person",
+      "context": "莎士比亚戏剧中的角色，被用来描述一种非科学的快乐想象",
+      "importance": "low"
+    },
+    {
+      "name": "Falstaff",
+      "type": "person",
+      "context": "莎士比亚戏剧中的人物，与亨利五世在酒馆喝酒的场景被用作快乐的例子",
+      "importance": "low"
+    },
+    {
+      "name": "牛顿",
+      "type": "person",
+      "context": "作为研究微积分和天体力学的科学家，同时是基督教异端思想的终身拥趸，用来说明西方科学与宗教抗衡的传统",
+      "importance": "medium"
+    },
+    {
+      "name": "脑雾哥",
+      "type": "person",
+      "context": "主播的朋友，二十几岁受过现代教育的年轻人，既相信科学又相信房子有鬼、八字相合等玄学",
+      "importance": "medium"
+    },
+    {
+      "name": "妖国老师",
+      "type": "person",
+      "context": "与主播讨论科学与玄学问题的对话者，向主播介绍了1923年中国科学与玄学的论战",
+      "importance": "medium"
+    },
+    {
+      "name": "胡适",
+      "type": "person",
+      "context": "1923年科学与玄学论战中站在现代科学这边的领军人物，主张现代科学是解决一切问题的关键",
+      "importance": "high"
+    },
+    {
+      "name": "张君劢",
+      "type": "person",
+      "context": "1923年科学与玄学论战中站在玄学这边的人物，主张承认科学的局限性，尊重非科学性质的传统领域，认为科学解决不了人生观的问题",
+      "importance": "high"
+    },
+    {
+      "name": "陈独秀",
+      "type": "person",
+      "context": "与张君劢论战的科学派人物，贬低张君劢的立场为唯心主义玄学鬼",
+      "importance": "medium"
+    },
+    {
+      "name": "瞿秋白",
+      "type": "person",
+      "context": "与张君劢论战的科学派人物，贬低张君劢的立场为唯心主义玄学鬼",
+      "importance": "medium"
+    },
+    {
+      "name": "亨利·柏格森",
+      "type": "person",
+      "context": "法国思想家，张君劢依赖的思想资源，但主播指出他也是现代科学的产物，未能真正跳出现代科学框架",
+      "importance": "medium"
+    },
+    {
+      "name": "歌德",
+      "type": "person",
+      "context": "《少年维特之烦恼》的作者，主播用其生命意义与模仿自杀的德国少年对比，引发关于价值判断的讨论",
+      "importance": "medium"
+    },
+    {
+      "name": "白居易",
+      "type": "person",
+      "context": "唐代诗人，主播用其生命与唐朝普通老百姓的对比来讨论审美意义上的客观价值",
+      "importance": "medium"
+    },
+    {
+      "name": "莫扎特",
+      "type": "person",
+      "context": "被提及为活出了人能够活出的至高范本，其生命意义在现代科学无法触及的衡量标准上超过同时代几乎所有人",
+      "importance": "low"
+    },
+    {
+      "name": "休谟",
+      "type": "person",
+      "context": "其问题被提及——现代科学无法回答从'是'推出'应该'的价值问题",
+      "importance": "medium"
+    },
+    {
+      "name": "巴赫",
+      "type": "person",
+      "context": "小提琴协奏曲的作曲者，被用来代表人性的崇高和魅力这一科学无法衡量但客观存在的真理",
+      "importance": "low"
+    },
+    {
+      "name": "《少年维特之烦恼》",
+      "type": "work",
+      "context": "歌德的作品，19世纪德国很多年轻人读后模仿主人公自杀，主播借此讨论文学影响与生命价值判断",
+      "importance": "medium"
+    },
+    {
+      "name": "《浮士德》",
+      "type": "work",
+      "context": "歌德的作品，主播假设读过此作的人能理解审美意义上的客观价值",
+      "importance": "low"
+    },
+    {
+      "name": "多巴胺",
+      "type": "concept",
+      "context": "现代科学对快乐的定义——快乐就是多巴胺这种激素/脑电波，主播以此对比科学解释与人生指导之间的鸿沟",
+      "importance": "high"
+    },
+    {
+      "name": "科学主义/科学方法论",
+      "type": "concept",
+      "context": "主播指出现代中国人比西方社会更加彻头彻尾地信奉，科学在中文日常语境中拥有接近真理的地位",
+      "importance": "high"
+    },
+    {
+      "name": "事实判断与价值判断",
+      "type": "concept",
+      "context": "核心区分概念，主播强调现代科学只能回答事实问题（花是红的），无法回答价值问题（花是美的）",
+      "importance": "high"
+    },
+    {
+      "name": "玄学",
+      "type": "concept",
+      "context": "与科学相对的概念，指星座、塔罗、风水、求神拜佛、八字等科学范式之外的信仰，越来越多受过科学教育的年轻人开始热衷",
+      "importance": "high"
+    },
+    {
+      "name": "去魅",
+      "type": "concept",
+      "context": "现代年轻人喜欢的说法，指去除宗教信仰建构的神秘魅力空间，但主播质疑去魅之后是否真的好",
+      "importance": "medium"
+    },
+    {
+      "name": "daemon（柏拉图世界的精灵/守护神）",
+      "type": "concept",
+      "context": "被列在去魅要去掉的神秘空间中，与现代科学理解的真理相对",
+      "importance": "low"
+    },
+    {
+      "name": "天命",
+      "type": "concept",
+      "context": "儒家思想中的概念，被列在去魅要去掉的神秘空间中",
+      "importance": "low"
+    },
+    {
+      "name": "1923年科学与玄学的论战",
+      "type": "event",
+      "context": "中国近代史上著名事件，涉及几乎所有受过西方教育的学者，科学派最终因政治势力加入而获胜",
+      "importance": "high"
+    },
+    {
+      "name": "辛亥革命",
+      "type": "event",
+      "context": "作为中国现代化进程的起点，主播指出此后100年中国从未有过抗争科学的力量",
+      "importance": "medium"
+    },
+    {
+      "name": "灵隐寺",
+      "type": "place",
+      "context": "杭州著名寺庙，主播观察到越来越多00后年轻人去那里烧香拜佛",
+      "importance": "low"
+    },
+    {
+      "name": "中国共产党",
+      "type": "organization",
+      "context": "作为新的政治势力加入1923年科玄论战的科学派一边，认可科学派关于真理的主张",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66787779d3fc5dd6277f652d",
+  "title": "77-为何越来越多相信科学的年轻人开始热衷玄学？"
+}

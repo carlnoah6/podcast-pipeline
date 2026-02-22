@@ -1,0 +1,254 @@
+{
+  "style": {
+    "opening_pattern": "以提出一系列尖锐问题的方式开场，直接切入主题，列举关于英国大选的多个疑问（工党为何能取胜、脱欧为何不重要、英国为何左转等），引发听众兴趣",
+    "structure": "采用'问题提出→事实陈述→历史对比→深度分析→文化批判'的层层递进结构：先介绍2024年大选结果，再分析保守党失败的三个原因，然后对比英美政治制度差异，最后上升到英国文明衰落和美国文化附庸的宏观批判",
+    "tone": "理性批判中带有犀利讽刺，兼具学术分析的严谨（引用剑桥大学政治教授、Pew研究中心数据）与强烈的主观价值判断（使用'私货''吃苍蝇的感觉''美国第51个州'等情绪化表达），整体呈现出'愤世嫉俗的知识分子'口吻",
+    "catchphrases": [
+      "咱们",
+      "对吧",
+      "幺蛾子",
+      "耸耸肩",
+      "私货",
+      "阴沟",
+      "鸟不拉屎",
+      "捏不拉几",
+      "过眼云烟",
+      "为所欲为"
+    ],
+    "closing_pattern": "以强烈的文化批判和历史反讽结尾，将英国现状与中国历史对比（'拿着大炮趾高气昂的把我们轰开的这个大英帝国现在已经沦为美国的文化小弟'），并以简短的告别语结束",
+    "narrative_techniques": [
+      "类比（将英国政治比作'老鼠在阴沟里吵架'）",
+      "历史对比（1983年撒切尔选举与2024年对比、丘吉尔与小罗斯福对比）",
+      "引用权威（多次引用'剑桥大学的政治教授'的观点）",
+      "设问（大量使用反问句如'身份政治在哪里？'）",
+      "反讽（'英国觉悟特别高'）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "基尔·斯塔默 (Keir Starmer)",
+      "type": "person",
+      "context": "工党领袖，在2024年大选中获胜成为英国新首相，但播客指出其个人支持率并不高且刻意淡化了脱欧议题",
+      "importance": "high"
+    },
+    {
+      "name": "里希·苏纳克 (Rishi Sunak)",
+      "type": "person",
+      "context": "保守党前首相，在大选中惨败，因提前离开诺曼底登陆纪念活动而饱受批评，被描述为'娶了一个巨富老婆'的首相",
+      "importance": "high"
+    },
+    {
+      "name": "鲍里斯·约翰逊 (Boris Johnson)",
+      "type": "person",
+      "context": "前保守党首相，因'派对门'丑闻和脱欧政策被多次提及，被描述为'蹦哒蹦哒的脱欧'代表人物",
+      "importance": "high"
+    },
+    {
+      "name": "莉兹·特拉斯 (Liz Truss)",
+      "type": "person",
+      "context": "前保守党首相，因'迷你预算'案导致英镑暴跌，被描述为'疯狂的女人'，是英国历史上任期最短的首相之一",
+      "importance": "high"
+    },
+    {
+      "name": "奈杰尔·法拉奇 (Nigel Farage)",
+      "type": "person",
+      "context": "改革党领袖，极右民粹主义者，主张反移民，被描述为'政治老狗'和'臭名昭著的家伙'，虽然只获得5个席位但分走了保守党大量选票",
+      "importance": "high"
+    },
+    {
+      "name": "埃德·戴维 (Ed Davey)",
+      "type": "person",
+      "context": "自由民主党领袖，被描述为在网上'装疯卖傻''耍宝'的中间派政客，其党派获得了72个席位",
+      "importance": "medium"
+    },
+    {
+      "name": "撒切尔/撒切尔夫人 (Margaret Thatcher)",
+      "type": "person",
+      "context": "被多次引用的历史人物，特别是1983年选举中因左翼选票分裂而获胜的案例，被用来与2024年选举进行对比",
+      "importance": "medium"
+    },
+    {
+      "name": "丘吉尔 (Winston Churchill)",
+      "type": "person",
+      "context": "被提及的历史人物，对比其在1945年落选与罗斯福的不同命运，以及现在在牛津大学学生中被视为'种族主义者'的争议形象",
+      "importance": "medium"
+    },
+    {
+      "name": "威廉·格莱斯顿 (William Gladstone)",
+      "type": "person",
+      "context": "19世纪自由派领袖，被用来对比当时英国政治讨论'巴尔干半岛'等全球话题与当今英国政治视野狭窄",
+      "importance": "low"
+    },
+    {
+      "name": "本杰明·迪斯雷利 (Benjamin Disraeli)",
+      "type": "person",
+      "context": "作为格莱斯顿的对手被简要提及的保守派历史人物",
+      "importance": "low"
+    },
+    {
+      "name": "萨尔曼·鲁西迪 (Salman Rushdie)",
+      "type": "person",
+      "context": "被提及曾批评撒切尔政府的文学家",
+      "importance": "low"
+    },
+    {
+      "name": "安吉拉·卡特 (Angela Carter)",
+      "type": "person",
+      "context": "被提及曾批评撒切尔政府的女权主义小说家",
+      "importance": "low"
+    },
+    {
+      "name": "工党 (Labour Party)",
+      "type": "organization",
+      "context": "在2024年大选中获得412个席位的获胜党，被描述为'中间偏左'，但其领袖刻意淡化了脱欧议题",
+      "importance": "high"
+    },
+    {
+      "name": "保守党 (Conservative Party)",
+      "type": "organization",
+      "context": "仅获得121个席位的失败执政党，被描述为统治14年后变成'过街老鼠'，因丑闻和经济政策失败而崩溃",
+      "importance": "high"
+    },
+    {
+      "name": "自由民主党 (Liberal Democrats)",
+      "type": "organization",
+      "context": "获得72个席位的中间温和党派，被描述为在社交媒体上'耍宝'的政党",
+      "importance": "medium"
+    },
+    {
+      "name": "改革党 (Reform Party/Reform UK)",
+      "type": "organization",
+      "context": "极右民粹主义政党，仅获得5个席位但得票率第三，由法拉奇领导，分走了保守党大量选票",
+      "importance": "high"
+    },
+    {
+      "name": "脱欧 (Brexit)",
+      "type": "concept",
+      "context": "被描述为在2024年大选中'奇怪地'淡化的议题，尽管曾是分裂性议题，现在各党派都保持'奇特的沉默'",
+      "importance": "high"
+    },
+    {
+      "name": "身份政治 (Identity Politics)",
+      "type": "concept",
+      "context": "被描述为在美国政治中占据核心但在2024年英国大选中几乎未出现的关键词",
+      "importance": "medium"
+    },
+    {
+      "name": "紧缩政策 (Austerity)",
+      "type": "concept",
+      "context": "被指责导致英国公共服务（NHS、教育、道路）恶化的保守党经济政策",
+      "importance": "medium"
+    },
+    {
+      "name": "NHS (国民医疗服务体系)",
+      "type": "organization",
+      "context": "被描述为'非常缓慢'、资金不足、导致英国人专程去欧洲大陆看病的公费医疗体系",
+      "importance": "medium"
+    },
+    {
+      "name": "派对门 (Partygate)",
+      "type": "event",
+      "context": "导致鲍里斯·约翰逊下台的丑闻，指其在疫情期间违反自己设定的防疫规定举办派对",
+      "importance": "medium"
+    },
+    {
+      "name": "迷你预算 (Mini-budget)",
+      "type": "event",
+      "context": "莉兹·特拉斯在2022年推出的预算案，导致英镑暴跌和利率飙升",
+      "importance": "medium"
+    },
+    {
+      "name": "2024年英国大选",
+      "type": "event",
+      "context": "播客的核心讨论事件，工党获得压倒性胜利，保守党遭遇历史性失败",
+      "importance": "high"
+    },
+    {
+      "name": "1983年英国大选",
+      "type": "event",
+      "context": "被用来与2024年对比的历史选举，撒切尔因左翼选票分裂而获胜",
+      "importance": "medium"
+    },
+    {
+      "name": "脱欧公投 (2016)",
+      "type": "event",
+      "context": "2016年英国投票决定脱欧（52比48），被描述为给英国经济带来长期代价",
+      "importance": "medium"
+    },
+    {
+      "name": "诺曼底登陆纪念活动",
+      "type": "event",
+      "context": "苏纳克因提前离开该活动而饱受批评，被描述为对保守党的丑闻",
+      "importance": "low"
+    },
+    {
+      "name": "英国/大英帝国",
+      "type": "place",
+      "context": "播客讨论的核心国家，被描述为失去全球影响力、成为美国'文化殖民地'的衰落帝国",
+      "importance": "high"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "被频繁对比的国家，被描述为英国政治文化的模板，英国人更关心美国大选而非本国大选",
+      "importance": "high"
+    },
+    {
+      "name": "欧洲大陆/欧盟",
+      "type": "place",
+      "context": "被描述为英国脱欧后试图减少移民但失败的对象，也是英国人因NHS排队过长而专程去看病的地方",
+      "importance": "medium"
+    },
+    {
+      "name": "苏格兰",
+      "type": "place",
+      "context": "被提及在托尼·布莱尔时期依靠苏格兰工党议员通过英格兰相关法案",
+      "importance": "low"
+    },
+    {
+      "name": "剑桥/剑桥大学",
+      "type": "place",
+      "context": "被多次引用的信息来源地（'剑桥大学的政治教授'），也是英国知识分子失去文化自信的例证",
+      "importance": "low"
+    },
+    {
+      "name": "牛津/牛津大学",
+      "type": "place",
+      "context": "被提及现在学生会对丘吉尔报以嘘声，例证英国历史叙事的改变",
+      "importance": "low"
+    },
+    {
+      "name": "巴尔干半岛",
+      "type": "place",
+      "context": "被用来对比19世纪英国政治讨论全球话题与当今视野狭窄的例子",
+      "importance": "low"
+    },
+    {
+      "name": "保加利亚",
+      "type": "place",
+      "context": "与巴尔干半岛一同被提及，作为19世纪英国选举中讨论的外交话题",
+      "importance": "low"
+    },
+    {
+      "name": "Pew研究中心",
+      "type": "organization",
+      "context": "被引用来提供关于英国人对经济状况看法的数据（78%认为不佳）",
+      "importance": "low"
+    },
+    {
+      "name": "BBC",
+      "type": "organization",
+      "context": "被提及作为在选前就能预测选举结果的媒体，与美国选举的不可预测性对比",
+      "importance": "low"
+    },
+    {
+      "name": "奥斯曼帝国",
+      "type": "organization",
+      "context": "与19世纪英国政治讨论巴尔干问题相关联的历史帝国",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "668b5998ae8e21859a3eb84e",
+  "title": "84-英国大选选了个啥？"
+}

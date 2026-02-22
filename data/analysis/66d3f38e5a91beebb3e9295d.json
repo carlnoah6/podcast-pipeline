@@ -1,0 +1,329 @@
+{
+  "style": {
+    "opening_pattern": "以历史现象引入，直接提出核心问题（黑格尔成为背锅侠）",
+    "structure": "问题引入→三波脏水分析（海德格尔→法兰克福学派→罗素/波普）→总结反思",
+    "tone": "理性批判中带强烈个人情感，犀利直接，学术性与口语化结合",
+    "catchphrases": [
+      "背锅侠",
+      "泼脏水",
+      "三盆脏水",
+      "主体/客体",
+      "放下筷子骂娘",
+      "现实的铁拳",
+      "Cheers"
+    ],
+    "closing_pattern": "总结观点并给出反思建议（了解偏见渊源）",
+    "narrative_techniques": [
+      "历史脉络梳理",
+      "类比（脏水、背锅侠）",
+      "对比（建设与否定）",
+      "举例（个人经历）",
+      "引用（哲学概念）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "黑格尔 (Hegel)",
+      "type": "person",
+      "context": "被20世纪思想家攻击为极权专制背锅侠的德国哲学家，其政治哲学在二战后被错误地与纳粹主义联系",
+      "importance": "high"
+    },
+    {
+      "name": "海德格尔 (Heidegger)",
+      "type": "person",
+      "context": "第一盆脏水的来源，试图通过攻击黑格尔来瓦解整个西方哲学传统，将人理解为主体的哲学视为控制欲的根源",
+      "importance": "high"
+    },
+    {
+      "name": "阿多诺 (Adorno)",
+      "type": "person",
+      "context": "法兰克福学派代表人物，与霍克海默合写《启蒙辩证法》，用黑格尔的否定性批判但抛弃了建设性",
+      "importance": "high"
+    },
+    {
+      "name": "霍克海默 (Horkheimer)",
+      "type": "person",
+      "context": "法兰克福学派创始人之一，与阿多诺共同提出启蒙即极权主义的批判",
+      "importance": "high"
+    },
+    {
+      "name": "罗素 (Bertrand Russell)",
+      "type": "person",
+      "context": "第三盆脏水的代表，在《西方哲学史》中粗暴地将黑格尔政治哲学等同于极权主义",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔·波普 (Karl Popper)",
+      "type": "person",
+      "context": "在《开放社会及其敌人》中将黑格尔与纳粹专制直接挂钩的英国自由派哲学家",
+      "importance": "high"
+    },
+    {
+      "name": "法兰克福学派 (Frankfurt School)",
+      "type": "organization",
+      "context": "20世纪新左翼思想流派，自称新黑格尔主义者但全盘否定黑格尔的建设性哲学",
+      "importance": "high"
+    },
+    {
+      "name": "《精神现象学》 (Phenomenology of Spirit)",
+      "type": "work",
+      "context": "黑格尔的代表作，其中关于启蒙的论述被法兰克福学派借用但曲解",
+      "importance": "high"
+    },
+    {
+      "name": "《启蒙辩证法》 (Dialectic of Enlightenment)",
+      "type": "work",
+      "context": "阿多诺与霍克海默的著作，主张启蒙必然导致压迫和极权",
+      "importance": "high"
+    },
+    {
+      "name": "《开放社会及其敌人》 (The Open Society and Its Enemies)",
+      "type": "work",
+      "context": "波普的畅销书，将黑格尔描绘为封闭社会和极权主义的哲学家",
+      "importance": "high"
+    },
+    {
+      "name": "《西方哲学史》 (History of Western Philosophy)",
+      "type": "work",
+      "context": "罗素的畅销书，在中文世界影响巨大但学术上不严谨",
+      "importance": "high"
+    },
+    {
+      "name": "福柯 (Foucault)",
+      "type": "person",
+      "context": "法国新左翼思想家，吸收海德格尔对黑格尔的批评并通俗化",
+      "importance": "medium"
+    },
+    {
+      "name": "德里达 (Derrida)",
+      "type": "person",
+      "context": "法国后现代思想家，继承海德格尔对主体的批判",
+      "importance": "medium"
+    },
+    {
+      "name": "科耶夫 (Kojève)",
+      "type": "person",
+      "context": "30年代在法国复兴黑格尔现象学的俄裔哲学家，影响了法国思想界",
+      "importance": "medium"
+    },
+    {
+      "name": "卢卡奇 (Lukács)",
+      "type": "person",
+      "context": "匈牙利马克思主义者，试图用黑格尔深化马克思的异化概念",
+      "importance": "medium"
+    },
+    {
+      "name": "阿尔都塞 (Louis Althusser)",
+      "type": "person",
+      "context": "法国马克思主义者，试图将黑格尔从马克思主义中剔除",
+      "importance": "medium"
+    },
+    {
+      "name": "哈耶克 (Hayek)",
+      "type": "person",
+      "context": "奥地利学派经济学家，与波普一样认为黑格尔导致德国民族主义",
+      "importance": "medium"
+    },
+    {
+      "name": "伊瑞格瑞 (Irigaray)",
+      "type": "person",
+      "context": "法国女权主义哲学家，批评黑格尔代表父权制和欧洲中心论",
+      "importance": "medium"
+    },
+    {
+      "name": "康德 (Kant)",
+      "type": "person",
+      "context": "被黑格尔批评将哲学作为道德武器，也被用来对比法兰克福学派",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采 (Nietzsche)",
+      "type": "person",
+      "context": "被心理分析学家推崇，作为黑格尔的对立面",
+      "importance": "medium"
+    },
+    {
+      "name": "弗洛伊德 (Freud)",
+      "type": "person",
+      "context": "心理分析学派创始人，与尼采、海德格尔一起被用来反对黑格尔",
+      "importance": "medium"
+    },
+    {
+      "name": "纳粹党 (Nazi Party)",
+      "type": "organization",
+      "context": "二战期间统治德国的极权主义政党，被错误地与黑格尔哲学联系",
+      "importance": "medium"
+    },
+    {
+      "name": "奥地利经济学派 (Austrian School)",
+      "type": "organization",
+      "context": "哈耶克和门格尔所属的经济学派，方法论上反对黑格尔",
+      "importance": "medium"
+    },
+    {
+      "name": "《存在与时间》 (Being and Time)",
+      "type": "work",
+      "context": "海德格尔1927年出版的代表作，试图瓦解西方哲学传统",
+      "importance": "medium"
+    },
+    {
+      "name": "《法哲学》 (Philosophy of Right)",
+      "type": "work",
+      "context": "黑格尔关于政治哲学的著作，被罗素和波普攻击",
+      "importance": "medium"
+    },
+    {
+      "name": "《形而上学基础》 (Groundwork of the Metaphysics of Morals)",
+      "type": "work",
+      "context": "康德的伦理学著作，提到misologist概念",
+      "importance": "low"
+    },
+    {
+      "name": "二战 (World War II)",
+      "type": "event",
+      "context": "二战后欧洲思想家寻找极权主义的背锅侠，导致黑格尔被攻击",
+      "importance": "medium"
+    },
+    {
+      "name": "俄国革命 (Russian Revolution)",
+      "type": "event",
+      "context": "1917年革命后卢卡奇等马克思主义者重新发现黑格尔",
+      "importance": "medium"
+    },
+    {
+      "name": "德国 (Germany)",
+      "type": "place",
+      "context": "黑格尔的祖国，也是纳粹的发源地，被波普和罗素攻击的焦点",
+      "importance": "medium"
+    },
+    {
+      "name": "法国 (France)",
+      "type": "place",
+      "context": "新左翼思想（福柯、德里达）和科耶夫复兴黑格尔的地方",
+      "importance": "medium"
+    },
+    {
+      "name": "英国 (UK)",
+      "type": "place",
+      "context": "罗素和波普的祖国，自由派攻击黑格尔的中心",
+      "importance": "medium"
+    },
+    {
+      "name": "中国 (China)",
+      "type": "place",
+      "context": "播客讨论中文语境中黑格尔的接受情况，以及后现代理论在中国的传播",
+      "importance": "medium"
+    },
+    {
+      "name": "柏林自由大学 (Free University of Berlin)",
+      "type": "place",
+      "context": "播主曾在此旁听黑格尔法哲学课程，遇到女权主义老师只讲批评不讲黑格尔原文",
+      "importance": "low"
+    },
+    {
+      "name": "普鲁士 (Prussia)",
+      "type": "place",
+      "context": "被波普和哈耶克视为德国民族主义和极权主义的源头",
+      "importance": "low"
+    },
+    {
+      "name": "Jeffrey",
+      "type": "person",
+      "context": "给播客留言询问如何看待黑格尔为专制铺路的评论者",
+      "importance": "low"
+    },
+    {
+      "name": "笛卡尔 (Descartes)",
+      "type": "person",
+      "context": "被海德格尔视为西方哲学传统的一部分",
+      "importance": "low"
+    },
+    {
+      "name": "巴门尼德 (Parmenides)",
+      "type": "person",
+      "context": "被海德格尔阐释的前苏格拉底哲学家",
+      "importance": "low"
+    },
+    {
+      "name": "亚里士多德 (Aristotle)",
+      "type": "person",
+      "context": "被海德格尔阐释的古希腊哲学家",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭 (Rousseau)",
+      "type": "person",
+      "context": "被康德批评为misologist（仇恨理性的人）",
+      "importance": "low"
+    },
+    {
+      "name": "门格尔 (Menger)",
+      "type": "person",
+      "context": "奥地利学派经济学家，影响波普的方法论个人主义",
+      "importance": "low"
+    },
+    {
+      "name": "安·兰德 (Ayn Rand)",
+      "type": "person",
+      "context": "在另一期播客《硅谷科技佬喜欢看什么哲学书》中被与波普类比",
+      "importance": "low"
+    },
+    {
+      "name": "卡尔 (Karl)",
+      "type": "person",
+      "context": "播主的前夫，曾是她的学弟，一起学习黑格尔",
+      "importance": "low"
+    },
+    {
+      "name": "G.E. Moore",
+      "type": "person",
+      "context": "英国哲学家，被提及为攻击黑格尔的英美学者之一",
+      "importance": "low"
+    },
+    {
+      "name": "William James",
+      "type": "person",
+      "context": "美国实用主义哲学家，被提及为攻击黑格尔的学者之一",
+      "importance": "low"
+    },
+    {
+      "name": "Paul Tillich",
+      "type": "person",
+      "context": "德国裔美国神学家，被提及为攻击黑格尔的学者之一",
+      "importance": "low"
+    },
+    {
+      "name": "播客《独树不成林》",
+      "type": "other",
+      "context": "本播客的名称，讨论黑格尔在20世纪被污名化的历史",
+      "importance": "medium"
+    },
+    {
+      "name": "第101期播客《法国为什么没有成为一个马克思主义国家》",
+      "type": "work",
+      "context": "播主之前的一期节目，被听众评论要求讨论法国新左翼",
+      "importance": "low"
+    },
+    {
+      "name": "第7期播客《优秀的哲学播客应该是什么样的》",
+      "type": "work",
+      "context": "播主提到的早期节目，讲述在柏林自由大学上黑格尔课程的经历",
+      "importance": "low"
+    },
+    {
+      "name": "豆瓣",
+      "type": "organization",
+      "context": "中文社交媒体平台，播主提到在上面收到关于离婚和黑格尔的恶意评论",
+      "importance": "low"
+    },
+    {
+      "name": "小红书",
+      "type": "organization",
+      "context": "中文社交媒体平台，播主提到在上面收到关于离婚和黑格尔的恶意评论",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66d3f38e5a91beebb3e9295d",
+  "title": "103-黑格尔如何成为了集权专制的背锅侠？"
+}

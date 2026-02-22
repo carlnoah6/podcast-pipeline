@@ -1,0 +1,121 @@
+{
+  "style": {
+    "opening_pattern": "以学术史溯源开场，从1871年卡尔·门格尔创立奥地利学派的历史渊源引入，通过讲述'奥地利学派'这一名称的讽刺性由来（德国历史学派起的贬义外号）建立语境",
+    "structure": "历史渊源（学派起源与命名）→ 学术传播路径（从德语区到英美）→ 核心观点系统阐述（五大支柱：方法论个人主义、主观主义、交换学、私有制与价格机制、自发秩序）→ 批判性分析（局限性：文明预设起点、忽视政治人性、国际政治悖论）→ 结论（与马克思对比）",
+    "tone": "理性批判的学术探讨语气，保持客观分析的同时融入个人见解，既有哲学深度又具现实关照，时而带有知识分子式的幽默（如'拱出来帮我顶一点火力'）",
+    "catchphrases": [
+      "对吧",
+      "OK",
+      "比如说",
+      "对于我来说",
+      "在我看来",
+      "他心中的",
+      "我们刚才说的",
+      "绝对的孤独个体",
+      "方法论个人主义"
+    ],
+    "closing_pattern": "总结核心批评观点（哈耶克与马克思殊途同归地忽视政治永恒性），预告下期内容，以个性化告别语结束",
+    "narrative_techniques": [
+      "类比（将奥地利学派命名与海派画家对比，将市场竞争比作发现真理的神圣场所）",
+      "举例（外婆买死螃蟹、阿富汗民主移植、校园雪地走捷径）",
+      "对比（哈耶克vs马克思、方法论个人主义vs德国历史学派、霍布斯的终点作为哈耶克的起点）",
+      "设问（反复追问'人在什么情况下才会变成哈耶克预设的起点'）",
+      "引用与概念重构（对catallaxy/oikonomia的词源学分析）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "弗里德里希·哈耶克（Friedrich Hayek）",
+      "type": "person",
+      "context": "奥地利学派代表人物，节目核心批判对象，提出个人自由主义、自发秩序、交换学（catallaxy）等理论，著有《通往奴役之路》",
+      "importance": "high"
+    },
+    {
+      "name": "路德维希·冯·米塞斯（Ludwig von Mises）",
+      "type": "person",
+      "context": "奥地利学派另一位主要人物，与哈耶克齐名，提出社会主义经济计算问题，强调私有制和价格机制的必要性",
+      "importance": "high"
+    },
+    {
+      "name": "卡尔·门格尔（Carl Menger）",
+      "type": "person",
+      "context": "奥地利学派创始人，1871年出版《经济学原理》，开启边际革命，与德国历史学派论战",
+      "importance": "high"
+    },
+    {
+      "name": "奥地利学派（Austrian School）",
+      "type": "concept",
+      "context": "节目讨论的核心经济学/政治哲学流派，主张方法论个人主义、主观主义、自由市场，由门格尔创立，在英美发展壮大",
+      "importance": "high"
+    },
+    {
+      "name": "方法论个人主义（Methodological Individualism）",
+      "type": "concept",
+      "context": "奥地利学派的出发点，认为只有个体才会做选择，集体不会选择，一切经济分析的出发点都是绝对孤独的个体",
+      "importance": "high"
+    },
+    {
+      "name": "交换学（Catallaxy）",
+      "type": "concept",
+      "context": "哈耶克提出的概念，用以替代经济学（economics），强调经济学研究的是交换过程（包括信任、友谊等非金钱交换），而非家庭管理",
+      "importance": "high"
+    },
+    {
+      "name": "亚当·斯密（Adam Smith）",
+      "type": "person",
+      "context": "18世纪英国思想家，著有《国富论》，将人定义为会进行交换贸易的生物，但承认当时存在极端贫困的'野蛮'状态",
+      "importance": "medium"
+    },
+    {
+      "name": "托马斯·霍布斯（Thomas Hobbes）",
+      "type": "person",
+      "context": "政治哲学家，著有《利维坦》，其理论终点（通过国家建立文明秩序）被节目视为哈耶克的起点",
+      "importance": "medium"
+    },
+    {
+      "name": "德国历史学派（German Historical School）",
+      "type": "concept",
+      "context": "19世纪末德语区主流经济学派，反对古典经济学的普遍规律，主张历史考察，代表人物施穆勒，曾嘲讽门格尔为'奥地利学派'",
+      "importance": "medium"
+    },
+    {
+      "name": "私有制（Private Property）",
+      "type": "concept",
+      "context": "奥地利学派认为理性经济计算的必要条件，私有制提供稀缺资源有效分配的唯一激励，价格机制反映稀缺信息",
+      "importance": "medium"
+    },
+    {
+      "name": "《通往奴役之路》（The Road to Serfdom）",
+      "type": "work",
+      "context": "哈耶克的代表作，批判社会主义集中式经济计划，认为其必然导致极权主义",
+      "importance": "medium"
+    },
+    {
+      "name": "边际革命（Marginalist Revolution）",
+      "type": "event",
+      "context": "1871年由门格尔《经济学原理》开启的经济学革命，引入边际分析，与杰文斯、瓦尔拉斯齐名",
+      "importance": "low"
+    },
+    {
+      "name": "薛兆丰",
+      "type": "person",
+      "context": "中国经济学家，乔治梅森大学博士，节目引用其关于春运火车票应通过涨价解决的观点作为奥派刻板印象的例子",
+      "importance": "low"
+    },
+    {
+      "name": "乔治梅森大学（George Mason University）",
+      "type": "organization",
+      "context": "美国大学，八十年代至今由奥派经济学家统治，与奥本大学、纽约大学经济系并列为奥派重镇",
+      "importance": "low"
+    },
+    {
+      "name": "阿富汗（Afghanistan）",
+      "type": "place",
+      "context": "节目用作案例，讨论美国试图移植民主制度失败，用以批判哈耶克理论在国际政治/外交政策上的局限性",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66e3cc7d5ca6d0ace3a39c74",
+  "title": "107-哈耶克那套个人自由主义的局限性在哪？"
+}

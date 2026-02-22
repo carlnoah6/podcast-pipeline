@@ -1,0 +1,360 @@
+{
+  "style": {
+    "opening_pattern": "以亲身经历引入，讲述与里根演讲撰稿人的对话",
+    "structure": "个人经历→历史案例→核心方法论（三规则+三结构）→回应质疑→历史视角升华",
+    "tone": "理性客观、娓娓道来，带有知识分子的温和反思",
+    "catchphrases": [
+      "我觉得真的非常有意思",
+      "对吧",
+      "比如说",
+      "他跟我说",
+      "这个老先生跟我说",
+      "OK",
+      "哇",
+      "醍醐灌顶"
+    ],
+    "closing_pattern": "个人感悟升华，承认自身认知局限，以平和态度结束",
+    "narrative_techniques": [
+      "类比（音乐风格比喻总统演讲）",
+      "举例（大量历史演讲案例）",
+      "对比（不同时代媒体环境）",
+      "引用（直接引用受访者原话）",
+      "设问（代表听众提问）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "里根（Ronald Reagan）",
+      "type": "person",
+      "context": "美国第40任总统，被受访的里根演讲撰稿人描述为'像交响乐一样'的演讲家，擅长运用幽默",
+      "importance": "high"
+    },
+    {
+      "name": "老布什（George H.W. Bush）",
+      "type": "person",
+      "context": "里根的副总统及继任者，被形容为'摇滚乐'风格，缺乏里根的表演性和讲笑话能力",
+      "importance": "medium"
+    },
+    {
+      "name": "克林顿（Bill Clinton）",
+      "type": "person",
+      "context": "被形容为'即兴爵士'风格，演讲时会即兴创作，团队将其演讲各部分称为'riff'",
+      "importance": "medium"
+    },
+    {
+      "name": "小布什（George W. Bush）",
+      "type": "person",
+      "context": "被形容为'乡村音乐'风格，有严格结构和福音派抒情风格",
+      "importance": "medium"
+    },
+    {
+      "name": "奥巴马（Barack Obama）",
+      "type": "person",
+      "context": "有两种风格：'城市爵士乐'（长时间停顿、短段落）和'宗教福音派音乐'（大声布道式）",
+      "importance": "medium"
+    },
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "被描述为无法进行音乐类比，特点是长时间催眠式即兴表演与念稿交替",
+      "importance": "medium"
+    },
+    {
+      "name": "小罗斯福（Franklin D. Roosevelt）",
+      "type": "person",
+      "context": "美国历史上最受欢迎的总统之一，其新政导致白宫媒体记者多为民主党进步人士",
+      "importance": "medium"
+    },
+    {
+      "name": "史蒂芬·米勒（Steven Miller）",
+      "type": "person",
+      "context": "特朗普第一任期的首席演讲撰稿人，关注演讲如何进入媒体报道而非台下观众",
+      "importance": "medium"
+    },
+    {
+      "name": "迪克·沃斯林（Dick Wirthlin）",
+      "type": "person",
+      "context": "里根的首席战略师和民意调查专家，著有《最伟大的沟通师》回忆录",
+      "importance": "medium"
+    },
+    {
+      "name": "戈尔巴乔夫（Mikhail Gorbachev）",
+      "type": "person",
+      "context": "苏联领导人，里根曾亲自给他讲关于美苏的政治笑话",
+      "importance": "low"
+    },
+    {
+      "name": "帕特里克·亨利（Patrick Henry）",
+      "type": "person",
+      "context": "1775年发表'不自由毋宁死'演讲，点燃美国革命之火",
+      "importance": "low"
+    },
+    {
+      "name": "伊丽莎白一世（Elizabeth I）",
+      "type": "person",
+      "context": "1588年发表对抗西班牙无敌舰队的著名演讲",
+      "importance": "low"
+    },
+    {
+      "name": "斯大林（Joseph Stalin）",
+      "type": "person",
+      "context": "1941年命令苏联人民烧毁被占领土地的演讲",
+      "importance": "low"
+    },
+    {
+      "name": "林肯（Abraham Lincoln）",
+      "type": "person",
+      "context": "美国政治史上最伟大的政客之一，依赖'草原小木屋里的穷人'经典形象，发表了葛底斯堡演讲和'自相纷争之家'演讲",
+      "importance": "medium"
+    },
+    {
+      "name": "杜鲁门（Harry S. Truman）",
+      "type": "person",
+      "context": "被描述为'士兵'经典原型的美国总统",
+      "importance": "low"
+    },
+    {
+      "name": "艾森豪威尔（Dwight D. Eisenhower）",
+      "type": "person",
+      "context": "被描述为'战争中的领导者'经典原型的美国总统",
+      "importname": "low"
+    },
+    {
+      "name": "肯尼迪（John F. Kennedy）",
+      "type": "person",
+      "context": "二战期间代表美国海军打日本，体现'勇敢面对危险'的经典形象",
+      "importance": "low"
+    },
+    {
+      "name": "斯蒂芬·道格拉斯（Stephen Douglas）",
+      "type": "person",
+      "context": "1858年与林肯争夺伊利诺伊州参议员职位的对手",
+      "importance": "low"
+    },
+    {
+      "name": "丹·拉瑟（Dan Rather）",
+      "type": "person",
+      "context": "CBS最有影响力的主播，里根执政期间曾说'好日子就是可以把里根骂得狗血淋头的日子'",
+      "importance": "low"
+    },
+    {
+      "name": "卓别林（Charlie Chaplin）",
+      "type": "person",
+      "context": "其喜剧理论被用来分析里根讲笑话的结构：铺垫铺垫然后转折",
+      "importance": "low"
+    },
+    {
+      "name": "莎士比亚（William Shakespeare）",
+      "type": "person",
+      "context": "其戏剧《亨利五世》中的圣克里斯平日演讲被主播称为'英文语言中写的最好的政治演讲'",
+      "importance": "medium"
+    },
+    {
+      "name": "马克·安东尼（Mark Antony）",
+      "type": "person",
+      "context": "莎士比亚戏剧《凯撒大帝》中呼吁哀悼者为凯撒报仇的角色",
+      "importance": "low"
+    },
+    {
+      "name": "凯撒大帝（Julius Caesar）",
+      "type": "person",
+      "context": "莎士比亚戏剧中的角色，其尸体前的演讲被作为伟大政治演讲的例子",
+      "importance": "low"
+    },
+    {
+      "name": "菲利普二世（Philip II）",
+      "type": "person",
+      "context": "西班牙国王，1588年集结无敌舰队入侵英国",
+      "importance": "low"
+    },
+    {
+      "name": "《白宫风云》（The West Wing）",
+      "type": "work",
+      "context": "美剧，主播提到其中描绘的白宫撰稿人场景与实际受访者描述的情况相似",
+      "importance": "medium"
+    },
+    {
+      "name": "《最伟大的沟通师》（The Greatest Communicator）",
+      "type": "work",
+      "context": "迪克·沃斯林的回忆录，分析里根如何通过演讲获得压倒性胜利",
+      "importance": "medium"
+    },
+    {
+      "name": "《亨利五世》（Henry V）",
+      "type": "work",
+      "context": "莎士比亚戏剧，第四幕第三场的圣克里斯平日演讲被详细分析",
+      "importance": "medium"
+    },
+    {
+      "name": "《葛底斯堡演讲》（Gettysburg Address）",
+      "type": "work",
+      "context": "林肯的著名演讲，仅272个单词，被公认为美国历史上最伟大的政治演讲",
+      "importance": "high"
+    },
+    {
+      "name": "《自相纷争之家》（House Divided Speech）",
+      "type": "work",
+      "context": "林肯1858年的著名演讲，采用'电影结构'，使其成为闻名全国的政治人物",
+      "importance": "medium"
+    },
+    {
+      "name": "修辞学/说服的艺术（Rhetoric）",
+      "type": "concept",
+      "context": "政治演讲需要的艺术，在英文中带贬义但实为必要技能，是本期播客的核心主题",
+      "importance": "high"
+    },
+    {
+      "name": "里根民主党人（Reagan Democrats）",
+      "type": "concept",
+      "context": "政治光谱上不同意共和党但支持里根的人群，里根能在这些人中多获得5-7个百分点支持率",
+      "importance": "medium"
+    },
+    {
+      "name": "声音片段（Soundbytes）",
+      "type": "concept",
+      "context": "广播时代抽取的简短演讲片段，1968年为90秒，1988年缩短为4秒",
+      "importance": "medium"
+    },
+    {
+      "name": "摘录引言（Pull quotes）",
+      "type": "concept",
+      "context": "报纸时代可被直接引用的爆炸性语句，早于声音片段的概念",
+      "importance": "medium"
+    },
+    {
+      "name": "经典原型/叙事原型（Archetype）",
+      "type": "concept",
+      "context": "政治演讲三规则之一，如士兵、将军、草原小木屋里的穷人、工会领袖等已存在于人们想象中的形象",
+      "importance": "high"
+    },
+    {
+      "name": "定义选择（Define the choice）",
+      "type": "concept",
+      "context": "政治演讲第一通用规则，用不超过十个单词定义简洁明了的卖点",
+      "importance": "high"
+    },
+    {
+      "name": "定义叙事（Define the narrative）",
+      "type": "concept",
+      "context": "政治演讲第二通用规则，选择经典原型来讲故事",
+      "importance": "high"
+    },
+    {
+      "name": "戏剧结构",
+      "type": "concept",
+      "context": "三种政治演讲结构之一，三幕平行结构，如葛底斯堡演讲的过去-现在-未来",
+      "importance": "high"
+    },
+    {
+      "name": "电影结构",
+      "type": "concept",
+      "context": "三种政治演讲结构之一，在三幕基础上加开头和结尾，如林肯的'自相纷争之家'演讲",
+      "importance": "medium"
+    },
+    {
+      "name": "流行歌曲结构",
+      "type": "concept",
+      "context": "三种政治演讲结构之一，有开头、两幕、桥梁过渡、第三幕和结尾",
+      "importance": "medium"
+    },
+    {
+      "name": "即兴重复段（Riff）",
+      "type": "concept",
+      "context": "克林顿演讲团队对其演讲各部分的称呼，因克林顿会即兴创作",
+      "importance": "low"
+    },
+    {
+      "name": "新政（New Deal）",
+      "type": "concept",
+      "context": "小罗斯福的改革，被起了朗朗上口的名字，导致白宫记者多为民主党人",
+      "importance": "medium"
+    },
+    {
+      "name": "伟大社会（Great Society）",
+      "type": "concept",
+      "context": "约翰逊的改革，同样被起了朗朗上口的名字以便媒体传播",
+      "importance": "low"
+    },
+    {
+      "name": "独立宣言（Declaration of Independence）",
+      "type": "event",
+      "context": "其中'生命、自由和追求幸福'被作为'定义选择'规则的典范（10个单词）",
+      "importance": "low"
+    },
+    {
+      "name": "美国革命",
+      "type": "event",
+      "context": "1775年帕特里克·亨利的演讲点燃的革命之火",
+      "importance": "low"
+    },
+    {
+      "name": "1588年西班牙无敌舰队入侵",
+      "type": "event",
+      "context": "伊丽莎白一世发表著名演讲的历史背景",
+      "importance": "low"
+    },
+    {
+      "name": "二战",
+      "type": "event",
+      "context": "肯尼迪代表美国海军打日本的背景，也是斯大林1941年演讲的背景",
+      "importance": "low"
+    },
+    {
+      "name": "共和党代表大会",
+      "type": "event",
+      "context": "特朗普进行长时间催眠式即兴演讲的场合",
+      "importance": "low"
+    },
+    {
+      "name": "白宫撰稿人晚餐",
+      "type": "event",
+      "context": "民主党和共和党前后任总统演讲撰稿人每隔一年聚餐的传统，2009年后结束",
+      "importance": "medium"
+    },
+    {
+      "name": "美国",
+      "type": "place",
+      "context": "宪政共和国政体，本期讨论如何在此行使说服艺术的语境",
+      "importance": "high"
+    },
+    {
+      "name": "苏联/克里姆林宫",
+      "type": "place",
+      "context": "里根政治笑话中的对比对象，美国人可在白宫前骂里根，苏联人也可在克里姆林宫前骂里根",
+      "importance": "low"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "伊丽莎白一世演讲的地点，亨利五世率领士兵对抗法国的地方",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "亨利五世演讲中英国人战胜的对手",
+      "importance": "low"
+    },
+    {
+      "name": "伊利诺伊州",
+      "type": "place",
+      "context": "林肯与道格拉斯争夺参议员职位的州",
+      "importance": "low"
+    },
+    {
+      "name": "福克斯新闻（Fox News）",
+      "type": "organization",
+      "context": "美国主流媒体中唯一的保守媒体，90年代中后期才出现",
+      "importance": "low"
+    },
+    {
+      "name": "CBS",
+      "type": "organization",
+      "context": "丹·拉瑟所在的电视台，对里根充满敌意",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66a1637e7349f7a557521b9f",
+  "title": "88-如何给美国总统撰写演讲稿?"
+}

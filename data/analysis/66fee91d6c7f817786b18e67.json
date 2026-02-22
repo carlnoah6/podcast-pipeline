@@ -1,0 +1,264 @@
+{
+  "style": {
+    "opening_pattern": "以概念溯源引入，从俄语词Intelligentsia的词源和历史演变开始，逐步展开论述",
+    "structure": "概念历史溯源→群体特征描绘→派别分裂分析→核心批评展开（三点逐层递进）→总结升华",
+    "tone": "理性客观、学术严谨，带有明确的批判立场但保持分析性距离",
+    "catchphrases": [
+      "太阳底下无新事",
+      "贻笑大方",
+      "火力喷射方向",
+      "进口到俄罗斯语境中",
+      "冠冕堂皇",
+      "凌乱不堪",
+      "乱七八糟的跳脱式"
+    ],
+    "closing_pattern": "总结三点核心观点并升华至当代意义，以开放式展望结束",
+    "narrative_techniques": [
+      "类比",
+      "对比",
+      "举例",
+      "引用",
+      "反讽",
+      "历史纵向比较"
+    ]
+  },
+  "entities": [
+    {
+      "name": "陀思妥耶夫斯基(Dostoevsky)",
+      "type": "person",
+      "context": "本集核心分析对象，作为批判19世纪俄罗斯知识分子的思想家和小说家被全面讨论",
+      "importance": "high"
+    },
+    {
+      "name": "彼得大帝",
+      "type": "person",
+      "context": "17-18世纪俄罗斯西化改革的开启者，其改革被视为知识分子群体形成的历史前提",
+      "importance": "medium"
+    },
+    {
+      "name": "叶卡捷琳娜女皇(Catherine the Great)",
+      "type": "person",
+      "context": "被称为'开明的暴君'，在其统治时期欧洲现代哲学在俄罗斯茁壮成长",
+      "importance": "medium"
+    },
+    {
+      "name": "伏尔泰",
+      "type": "person",
+      "context": "毕恭毕敬地称叶卡捷琳娜为开明暴君，代表欧洲启蒙思想对俄罗斯的影响",
+      "importance": "low"
+    },
+    {
+      "name": "车尔尼雪夫斯基(Chernyshevsky)",
+      "type": "person",
+      "context": "乌托邦社会主义者、美学评论家，被陀思妥耶夫斯基批评为功利主义艺术观的代表",
+      "importance": "high"
+    },
+    {
+      "name": "多布罗柳波夫(Dobroljubov)",
+      "type": "person",
+      "context": "著名激进知识分子，陀思妥耶夫斯基在《Bove先生和艺术问题》中批判的对象",
+      "importance": "medium"
+    },
+    {
+      "name": "孟德斯鸠",
+      "type": "person",
+      "context": "被引用为意识到国家文明历史环境对人性造成不可磨灭影响的哲学家之一",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "同上，与孟德斯鸠、黑格尔、尼采并列被引用",
+      "importance": "low"
+    },
+    {
+      "name": "黑格尔",
+      "type": "person",
+      "context": "同上，被引用说明不同政治思想的哲学家都承认民族性对人性的塑造",
+      "importance": "low"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "同上，与前述哲学家共同构成陀思妥耶夫斯基理论资源的参照系",
+      "importance": "low"
+    },
+    {
+      "name": "费尔巴哈",
+      "type": "person",
+      "context": "其观点被车尔尼雪夫斯基追随，认为上帝只是人类意识的产物",
+      "importance": "medium"
+    },
+    {
+      "name": "伊凡·卡拉马佐夫(Ivan Karamazov)",
+      "type": "person",
+      "context": "陀思妥耶夫斯基小说角色，被用作例证说明俄罗斯人内心深处对永恒的渴望",
+      "importance": "medium"
+    },
+    {
+      "name": "秦晖",
+      "type": "person",
+      "context": "当代中国学者，其关于'文明'问题的观察被认为陀思妥耶夫斯基在1862年已提出",
+      "importance": "low"
+    },
+    {
+      "name": "Intelligentsia(知识分子/知识阶层)",
+      "type": "concept",
+      "context": "本集核心概念，指19世纪俄罗斯形成的接受西方教育的文化政治力量",
+      "importance": "high"
+    },
+    {
+      "name": "斯拉夫派",
+      "type": "concept",
+      "context": "19世纪俄罗斯保守主义知识分子派别，推崇本土传统，反对西方派",
+      "importance": "high"
+    },
+    {
+      "name": "西方派",
+      "type": "concept",
+      "context": "包括自由派和激进派，理论基础来自西方哲学科学，被陀思妥耶夫斯基主要批判",
+      "importance": "high"
+    },
+    {
+      "name": "自由派",
+      "type": "concept",
+      "context": "西方派分支，主张俄罗斯逐步有限和平地向西方文明靠拢改革",
+      "importance": "medium"
+    },
+    {
+      "name": "激进派",
+      "type": "concept",
+      "context": "西方派分支，受乌托邦社会主义影响，主张更广泛激进的社会变革甚至暴力革命",
+      "importance": "medium"
+    },
+    {
+      "name": "儒家保守主义",
+      "type": "concept",
+      "context": "被作者类比为当代中国对应19世纪斯拉夫保守主义的思想流派",
+      "importance": "medium"
+    },
+    {
+      "name": "哲学唯物主义",
+      "type": "concept",
+      "context": "陀思妥耶夫斯基批判的第三点，认为其导致个体道德责任的消解",
+      "importance": "high"
+    },
+    {
+      "name": "决定论",
+      "type": "concept",
+      "context": "哲学唯物主义的延伸，认为人的行为由外界刺激决定，消解道德责任",
+      "importance": "medium"
+    },
+    {
+      "name": "功利主义",
+      "type": "concept",
+      "context": "被陀思妥耶夫斯基反对的世界观，将艺术和政治目标挂钩",
+      "importance": "medium"
+    },
+    {
+      "name": "理性利己主义",
+      "type": "concept",
+      "context": "车尔尼雪夫斯基的伦理观点，被陀思妥耶夫斯基批评为忽视人性",
+      "importance": "medium"
+    },
+    {
+      "name": "second nature(第二自然)",
+      "type": "concept",
+      "context": "指在nature之上形成的属于民族的人性，由历史语言气候环境塑造",
+      "importance": "medium"
+    },
+    {
+      "name": "本体论危机",
+      "type": "concept",
+      "context": "陀思妥耶夫斯基探索的核心问题之一，当宗教信仰削减时个体的道德指南消失",
+      "importance": "medium"
+    },
+    {
+      "name": "十月革命(1917年)",
+      "type": "event",
+      "context": "标志着严格意义上的俄罗斯intelligentsia知识阶层的终结",
+      "importance": "medium"
+    },
+    {
+      "name": "彼得大帝改革",
+      "type": "event",
+      "context": "17世纪末18世纪初俄罗斯的西化改革，模仿西方欧洲",
+      "importance": "medium"
+    },
+    {
+      "name": "俄罗斯启蒙运动",
+      "type": "event",
+      "context": "18世纪推动俄罗斯生活各方面现代化但未提倡政教分离的启蒙运动",
+      "importance": "medium"
+    },
+    {
+      "name": "西伯利亚流放",
+      "type": "event",
+      "context": "陀思妥耶夫斯基1855年左右才被释放的经历，影响其思想形成",
+      "importance": "medium"
+    },
+    {
+      "name": "《欧洲邮寄：冬日笔记与夏天印象》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基1860年代去英国旅游的记录，包含对自由主义社会主义的嘲笑",
+      "importance": "high"
+    },
+    {
+      "name": "《地下室手记》",
+      "type": "work",
+      "context": "被引用说明陀思妥耶夫斯基反科学的、杂乱无章的叙述方式",
+      "importance": "medium"
+    },
+    {
+      "name": "《Bove先生和艺术问题》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基批判多布罗柳波夫的论战文章",
+      "importance": "medium"
+    },
+    {
+      "name": "《艺术与现实的美学关系》",
+      "type": "work",
+      "context": "车尔尼雪夫斯基的著名美学论文，主张艺术是物质世界的再现",
+      "importance": "medium"
+    },
+    {
+      "name": "《伊利亚特》",
+      "type": "work",
+      "context": "荷马史诗，被陀思妥耶夫斯基用作真正伟大作品无法被科学衡量的例证",
+      "importance": "low"
+    },
+    {
+      "name": "俄罗斯",
+      "type": "place",
+      "context": "知识分子概念诞生的社会土壤，本集分析的核心地理文化空间",
+      "importance": "high"
+    },
+    {
+      "name": "英国",
+      "type": "place",
+      "context": "陀思妥耶夫斯基60年代旅游地，也是后来借用俄语intelligentsia的国家之一",
+      "importance": "low"
+    },
+    {
+      "name": "法国",
+      "type": "place",
+      "context": "同样借用俄语intelligentsia进入法语的国家",
+      "importance": "low"
+    },
+    {
+      "name": "德国",
+      "type": "place",
+      "context": "被陀思妥耶夫斯基用作对比，说明俄罗斯人不可能变成德国人",
+      "importance": "low"
+    },
+    {
+      "name": "中国",
+      "type": "place",
+      "context": "被作者多次类比，其当代知识分子派别划分与俄罗斯19世纪相似",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66fee91d6c7f817786b18e67",
+  "title": "117-接受过西方教育的知识分子容易出现什么贻笑大方的态度？"
+}

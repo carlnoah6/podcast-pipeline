@@ -1,0 +1,225 @@
+{
+  "style": {
+    "opening_pattern": "以标志性开场白（改编歌词）引入，回顾系列前作并宣布回归",
+    "structure": "回顾前两期内容→提出核心论点（三种自我折磨的人）→三个宏观观察铺垫→分角色详细分析（于连→市长夫人→市长）→总结收束",
+    "tone": "理性客观中带个人情感投入，学术分析与感性共鸣交织，偶尔自嘲和吐槽",
+    "catchphrases": [
+      "你从哪里来，我的朋友",
+      "没有想到吧",
+      "OK",
+      "我觉得",
+      "对吧",
+      "说实话",
+      "在我眼中",
+      "水乳交融",
+      "拧巴",
+      "拜拜"
+    ],
+    "closing_pattern": "总结三种人物的共同困境与差异，预告下期内容后简洁告别",
+    "narrative_techniques": [
+      "类比（洞穴隐喻的倒置）",
+      "对比（三人横向比较）",
+      "引用（哲学原典）",
+      "举例（现代年轻人去云南/巴厘岛）",
+      "剧透预警",
+      "个人经历代入（离婚被绿帽经历）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "司汤达（Stendhal）",
+      "type": "person",
+      "context": "《红与黑》作者，通过三个角色反思小市民社会对人的灵魂摧残",
+      "importance": "high"
+    },
+    {
+      "name": "于连·索雷尔（Julien Sorel）",
+      "type": "person",
+      "context": "男主角，农民出身却渴望贵族式荣誉，在山洞中找到短暂自由却拒绝朋友的发财提议，最终选择教会黑袍",
+      "importance": "high"
+    },
+    {
+      "name": "德雷纳夫人（市长夫人）",
+      "type": "person",
+      "context": "市长妻子，因虔诚渴望绝对美德而出轨，儿子生病后陷入罪恶感与自我惩罚，最终在于连死后三天去世",
+      "importance": "high"
+    },
+    {
+      "name": "德雷纳先生（市长）",
+      "type": "person",
+      "context": "完全臣服于小市民社会价值观的角色，发现被绿帽后只关心名声地位而非真实情感，将匿名信解读为商业阴谋",
+      "importance": "high"
+    },
+    {
+      "name": "富凯",
+      "type": "person",
+      "context": "于连的朋友，木材商人，代表在小市民社会中能够自洽满足的人，邀请于连一起做木材生意被拒绝",
+      "importance": "medium"
+    },
+    {
+      "name": "拿破仑",
+      "type": "person",
+      "context": "于连的偶像，象征政治野心与战场荣耀，28岁已做出伟大事业成为于连的自我期许标杆",
+      "importance": "medium"
+    },
+    {
+      "name": "马克思",
+      "type": "person",
+      "context": "与司汤达同时代关注小市民资本主义社会问题的思想家，播客中用来纠正'只有马克思敏锐观察到资本社会问题'的误解",
+      "importance": "medium"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "其《理想国》中的洞穴隐喻被司汤达倒置：柏拉图的山洞是社会本身，而于连的山洞是逃避社会的空间",
+      "importance": "medium"
+    },
+    {
+      "name": "尼采",
+      "type": "person",
+      "context": "与司汤达同时代，《查拉图斯特拉如是说》中倡导离开市场进入山洞获得宁静，与于连的山洞体验形成呼应",
+      "importance": "medium"
+    },
+    {
+      "name": "伯纳德·威廉姆斯（Bernard Williams）",
+      "type": "person",
+      "context": "20世纪英国哲学家，吐槽分析哲学家用张三李四举例是文学素养不够，主张用文学原型进行哲学思考",
+      "importance": "medium"
+    },
+    {
+      "name": "简·奥斯丁",
+      "type": "person",
+      "context": "被用来论证情爱小说与政治小说的深刻性没有高低之分，其笔下的男女战争同样是永恒的政治",
+      "importance": "low"
+    },
+    {
+      "name": "张爱玲",
+      "type": "person",
+      "context": "与简·奥斯丁并列，说明写情情爱爱的女性作家同样具有深刻的人性洞察力",
+      "importance": "low"
+    },
+    {
+      "name": "陀思妥耶夫斯基",
+      "type": "person",
+      "context": "其《卡拉马佐夫兄弟》被用来形容市长夫人的精神状态——虔诚、狂热、不属于小市民社会",
+      "importance": "low"
+    },
+    {
+      "name": "卢梭",
+      "type": "person",
+      "context": "其《论不平等的起源》中的名言被引用来描述市长'从别人的判断中获得自己存在的意义'",
+      "importance": "medium"
+    },
+    {
+      "name": "狄更斯",
+      "type": "person",
+      "context": "作为对比，其《双城记》被认为关心宏大政治问题，用以反衬对简·奥斯丁'格局不够大'的批评",
+      "importance": "low"
+    },
+    {
+      "name": "托尔斯泰",
+      "type": "person",
+      "context": "作为对比，其《战争与和平》被认为关心大规模社会革命，用以说明对情爱小说的偏见",
+      "importance": "low"
+    },
+    {
+      "name": "《红与黑》",
+      "type": "work",
+      "context": "解析对象，书名象征拿破仑的红军装与教会的黑袍，代表两种获取荣誉的路径",
+      "importance": "high"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图的著作，其中的洞穴隐喻被司汤达倒置使用",
+      "importance": "medium"
+    },
+    {
+      "name": "《查拉图斯特拉如是说》",
+      "type": "work",
+      "context": "尼采的著作，书中人物从山洞下来，倡导离开市场获得宁静",
+      "importance": "medium"
+    },
+    {
+      "name": "《卡拉马佐夫兄弟》",
+      "type": "work",
+      "context": "陀思妥耶夫斯基的小说，其角色的精神状态被用来类比市长夫人",
+      "importance": "low"
+    },
+    {
+      "name": "《论不平等的起源》",
+      "type": "work",
+      "context": "卢梭的著作，其中关于'社会人总是活在自己之外'的论述被直接引用",
+      "importance": "medium"
+    },
+    {
+      "name": "《双城记》",
+      "type": "work",
+      "context": "狄更斯的小说，作为'宏大政治叙事'的代表被提及",
+      "importance": "low"
+    },
+    {
+      "name": "《战争与和平》",
+      "type": "work",
+      "context": "托尔斯泰的小说，作为'宏大历史叙事'的代表被提及",
+      "importance": "low"
+    },
+    {
+      "name": "小市民社会/资产阶级社会",
+      "type": "concept",
+      "context": "核心分析框架，指19世纪法国兴起的资本主义社会结构，其价值观逐渐取代传统阶级制",
+      "importance": "high"
+    },
+    {
+      "name": "洞穴隐喻（倒置）",
+      "type": "concept",
+      "context": "司汤达对柏拉图的创新：于连的山洞不是认识真理的场所，而是逃避社会虚伪的避风港",
+      "importance": "high"
+    },
+    {
+      "name": "异化",
+      "type": "concept",
+      "context": "马克思提出的概念，播客中用来说明当时多位思想家都在关注资本社会对工人的影响",
+      "importance": "medium"
+    },
+    {
+      "name": "自然贵族",
+      "type": "concept",
+      "context": "于连的自我认同，认为自己的灵魂高贵不依赖于出生，与市长的阶级歧视相对",
+      "importance": "medium"
+    },
+    {
+      "name": "虔诚",
+      "type": "concept",
+      "context": "市长夫人的核心特质，对绝对良善与绝对邪恶的信仰，导致其既勇敢出轨又极度自责",
+      "importance": "high"
+    },
+    {
+      "name": "荣誉",
+      "type": "concept",
+      "context": "于连真正渴望的东西，区别于金钱，需要通过征服上流社会来获得认可",
+      "importance": "high"
+    },
+    {
+      "name": "法国（十九世纪初）",
+      "type": "place",
+      "context": "小说发生的历史背景，拿破仑倒台后教会势力强大的时期",
+      "importance": "medium"
+    },
+    {
+      "name": "神学院",
+      "type": "place",
+      "context": "于连最终决定前往的地方，视为在无法获得军事荣耀时获取权力的新路径",
+      "importance": "medium"
+    },
+    {
+      "name": "云南/巴厘岛/海南",
+      "type": "place",
+      "context": "被用来类比现代人追求的'山洞自由'——逃离城市寻找无社交虚伪的生活",
+      "importance": "low"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66f5ec7b69b6a485e833bdcd",
+  "title": "113-《红与黑》解析3： 小市民社会会创造出哪三种自我折磨的人？"
+}

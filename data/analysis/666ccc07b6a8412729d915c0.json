@@ -1,0 +1,144 @@
+{
+  "style": {
+    "opening_pattern": "直接提出问题",
+    "structure": "问题→现象观察（崇拜与服从）→概念辨析（启蒙vs觉醒）→哲学分析（康德尊重理论）→现实反思→总结",
+    "tone": "理性客观、温和沉思",
+    "catchphrases": [
+      "我觉得",
+      "对吧",
+      "比如说",
+      "换一句话说",
+      "平心而论",
+      "盲目的",
+      "自发地",
+      "如梦如幻"
+    ],
+    "closing_pattern": "总结观点并开放式收尾",
+    "narrative_techniques": [
+      "举例",
+      "类比",
+      "对比",
+      "反问",
+      "个人经历穿插"
+    ]
+  },
+  "entities": [
+    {
+      "name": "康德",
+      "type": "person",
+      "context": "18世纪德国哲学家，第一位将尊重置于现代道德理论核心的西方哲学家，其《道德形而上学》对尊重有深刻讨论",
+      "importance": "high"
+    },
+    {
+      "name": "柏拉图",
+      "type": "person",
+      "context": "其《理想国》中洞穴寓言被启蒙时代哲学家借用，作为启蒙的经典比喻",
+      "importance": "medium"
+    },
+    {
+      "name": "孔丘（孔子）",
+      "type": "person",
+      "context": "中国传统偶像，在现代化世俗化过程中被打破的旧崇拜对象之一",
+      "importance": "low"
+    },
+    {
+      "name": "关羽",
+      "type": "person",
+      "context": "中国传统偶像，在现代化世俗化过程中被打破的旧崇拜对象之一",
+      "importance": "low"
+    },
+    {
+      "name": "AESPA",
+      "type": "organization",
+      "context": "韩国女团，主播表妹推荐的《Armageddon》视频被其称为'艺术品'",
+      "importance": "low"
+    },
+    {
+      "name": "《道德形而上学》",
+      "type": "work",
+      "context": "康德的著作，其中对尊重有深刻讨论，认为尊重是人生而为人的道德责任",
+      "importance": "high"
+    },
+    {
+      "name": "《理想国》",
+      "type": "work",
+      "context": "柏拉图的著作，其中洞穴寓言成为启蒙时代哲学家最喜欢的比喻",
+      "importance": "medium"
+    },
+    {
+      "name": "Armageddon",
+      "type": "work",
+      "context": "AESPA的新视频，主播表妹推荐给主播观看，称其为有宗教哲学隐喻的艺术品",
+      "importance": "low"
+    },
+    {
+      "name": "尊重",
+      "type": "concept",
+      "context": "播客核心概念，被定义为需要理性的态度，与崇拜和服从形成对比，是康德道德理论的核心",
+      "importance": "high"
+    },
+    {
+      "name": "崇拜",
+      "type": "concept",
+      "context": "现代年轻人最常见的态度之一，自发的、需要放弃理性的、如梦如幻的痴迷状态",
+      "importance": "high"
+    },
+    {
+      "name": "服从",
+      "type": "concept",
+      "context": "现代年轻人最常见的态度之一，被迫的、同样需要放弃理性的态度",
+      "importance": "high"
+    },
+    {
+      "name": "启蒙（Enlightenment）",
+      "type": "concept",
+      "context": "被定义为把光照进黑暗房间的过程，是缓慢的、渐进的，不建立新的崇拜对象",
+      "importance": "high"
+    },
+    {
+      "name": "觉醒（Awakening）",
+      "type": "concept",
+      "context": "被定义为从沉睡到清醒的激烈转变，历史上用于形容宗教觉醒，可能建立新的偶像",
+      "importance": "high"
+    },
+    {
+      "name": "自我崇拜",
+      "type": "concept",
+      "context": "当缺乏尊重教育时，人们转向自己的一种盲目态度，导致自恋或自我厌恶",
+      "importance": "high"
+    },
+    {
+      "name": "绝对命令",
+      "type": "concept",
+      "context": "康德的著名道德定律，主播提到其一切道德准则都建立在尊重之上",
+      "importance": "medium"
+    },
+    {
+      "name": "五四时期",
+      "type": "event",
+      "context": "中国历史上进步分子使用'觉醒'一词形容从封建迷信传统礼教中觉醒的时期",
+      "importance": "medium"
+    },
+    {
+      "name": "19世纪美国和欧洲的宗教觉醒运动",
+      "type": "event",
+      "context": "福音派宗教运动，'觉醒'一词在历史上原本用来形容宗教上的转变",
+      "importance": "medium"
+    },
+    {
+      "name": "十七八世纪欧洲世俗化",
+      "type": "event",
+      "context": "启蒙过程的一部分，去神话、打碎传统偶像的历史进程",
+      "importance": "medium"
+    },
+    {
+      "name": "二十世纪中国世俗化",
+      "type": "event",
+      "context": "启蒙救国的过程，同样是去神话、打破传统偶像的历史进程",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "666ccc07b6a8412729d915c0",
+  "title": "74-现代年轻人尊重什么？"
+}

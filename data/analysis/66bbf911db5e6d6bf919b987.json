@@ -1,0 +1,458 @@
+{
+  "style": {
+    "opening_pattern": "以时事新闻（法国大选、巴黎奥运会）引入，随即提出核心悖论问题：为何法国文化如此进步、法国政治却如此保守？",
+    "structure": "采用'总-分-总'结构：先提出文化与政治的割裂现象；接着按时间线逐一梳理法兰西第五共和国历任总统（戴高乐→蓬皮杜→德斯坦→密特朗→希拉克→萨科齐→奥朗德→马克龙），分析其政治立场与制度特征；最后通过三个观察（文化的巴黎中心化 vs 政治的去中心化、保守的农村选民、极右翼青年化）解释开篇提出的割裂问题。",
+    "tone": "轻松幽默、口语化（使用'咱们'、'Au revoir'、'我的天'等），带有强烈的个人化叙事色彩（频繁提及'香槟哥'等私人轶事），但在分析部分保持理性客观，善用类比和反问来阐述政治制度。",
+    "catchphrases": [
+      "香槟哥",
+      "我的天",
+      "咱们今天",
+      "说白了",
+      "我觉得",
+      "大家发现",
+      "痛失...",
+      "稳如老狗",
+      "Au revoir",
+      "啃啃唧唧（内卷/唠叨的变音，文中实际为'啃啃唧唧'式的口语表达，实际文本中类似'掰碎了讲'）"
+    ],
+    "closing_pattern": "总结观点（重申法国总统职位的特殊性：超越党派、象征国家、保守稳健）并给出开放式结尾（'我们下期再见'）。",
+    "narrative_techniques": [
+      "类比（将戴高乐比作华盛顿、凯撒大帝；将蓬皮杜比作'酸菜'；法国总统 vs 英国首相/美国总统）",
+      "对比（法国文化进步 vs 法国政治保守；巴黎文化中心 vs 外省政治保守；法国总统的'帝王'属性 vs 英国首相的'仆人'属性）",
+      "举例（香槟哥被父亲赶出家门的轶事、马克龙纠正男孩称呼'Manu'的事件、戴高乐访问魁北克引发外交危机）",
+      "反问（'这不是一件有意思的割裂的现象吗？'）",
+      "时间线叙事（按总统任期顺序展开）"
+    ]
+  },
+  "entities": [
+    {
+      "name": "戴高乐（Charles de Gaulle）",
+      "type": "person",
+      "context": "法兰西第五共和国的创立者和首任总统，建立了强大的总统制，被视为法国自由的象征和接近'君主'的角色",
+      "importance": "high"
+    },
+    {
+      "name": "蓬皮杜（Georges Pompidou）",
+      "type": "person",
+      "context": "第二任总统，戴高乐的继任者，温和保守派，建立了蓬皮杜艺术中心，被视为'油腻炸猪排后的清淡酸菜'",
+      "importance": "medium"
+    },
+    {
+      "name": "德斯坦（Valéry Giscard d'Estaing）",
+      "type": "person",
+      "context": "第三任总统，温和保守派，推行现代化改革，在与撒切尔夫人会面时强调自己作为国家元首的地位高于政府首脑",
+      "importance": "medium"
+    },
+    {
+      "name": "密特朗（François Mitterrand）",
+      "type": "person",
+      "context": "第四任总统，第五共和国首位左翼总统，提出'110提案'但执政后回归中间派，建设了卢浮宫金字塔和奥赛博物馆",
+      "importance": "high"
+    },
+    {
+      "name": "希拉克（Jacques Chirac）",
+      "type": "person",
+      "context": "第五任总统，右翼，政坛'老鸟'，被视为法国政治'靠谱的无聊'和腐败稳定的代表人物",
+      "importance": "medium"
+    },
+    {
+      "name": "萨科齐（Nicolas Sarkozy）",
+      "type": "person",
+      "context": "第六任总统，保守派，以强硬手腕和丑闻著称，娶了模特卡拉·布吕尼，身材矮小但塑造硬汉形象",
+      "importance": "medium"
+    },
+    {
+      "name": "奥朗德（François Hollande）",
+      "type": "person",
+      "context": "第七任总统，左翼，外号'Monsieur Flanby'（蛋奶布丁），以'正常人'形象与萨科齐的丑闻缠身形成对比",
+      "importance": "medium"
+    },
+    {
+      "name": "马克龙（Emmanuel Macron）",
+      "type": "person",
+      "context": "现任总统，创立'前进党'（En Marche!），超越左右翼，成功扮演类似戴高乐的'君王'角色，但瓦解了传统中间派政党",
+      "importance": "high"
+    },
+    {
+      "name": "勒庞（Marine Le Pen）",
+      "type": "person",
+      "context": "极右翼政治人物，其支持者在25岁以下年轻人中占绝大多数，代表法国政治中的反移民倾向",
+      "importance": "medium"
+    },
+    {
+      "name": "香槟哥",
+      "type": "person",
+      "context": "播主来自法国香槟地区的朋友，政治学家，作为法国农村保守价值观（如其父驱逐同性恋儿子）的例证被多次提及",
+      "importance": "medium"
+    },
+    {
+      "name": "撒切尔夫人（Margaret Thatcher）",
+      "type": "person",
+      "context": "英国前首相，被用来与法国总统对比，强调英国首相仅是'女王的仆人'和管事者，而法国总统是国家元首",
+      "importance": "medium"
+    },
+    {
+      "name": "萨特（Jean-Paul Sartre）",
+      "type": "person",
+      "context": "法国存在主义哲学家，马克思主义者，曾公开反对戴高乐，宁愿投票给上帝也不投票给戴高乐",
+      "importance": "medium"
+    },
+    {
+      "name": "卢梭（Jean-Jacques Rousseau）",
+      "type": "person",
+      "context": "18世纪哲学家，其关于巴黎文化主导法国文化的观点被引用",
+      "importance": "low"
+    },
+    {
+      "name": "托克维尔（Alexis de Tocqueville）",
+      "type": "person",
+      "context": "播客之前多次提及的法国政治思想家",
+      "importance": "low"
+    },
+    {
+      "name": "路易十六（Louis XVI）",
+      "type": "person",
+      "context": "被送上断头台的法国国王，代表被暴力终结的君主制",
+      "importance": "low"
+    },
+    {
+      "name": "拿破仑（Napoleon Bonaparte）",
+      "type": "person",
+      "context": "建立法兰西第一帝国，解散第一共和国",
+      "importance": "low"
+    },
+    {
+      "name": "拿破仑三世（Napoleon III）",
+      "type": "person",
+      "context": "建立法兰西第二帝国",
+      "importance": "low"
+    },
+    {
+      "name": "凯撒大帝（Julius Caesar）",
+      "type": "person",
+      "context": "被类比为戴高乐喜欢用第三人称自称的古代统治者",
+      "importance": "low"
+    },
+    {
+      "name": "丘吉尔（Winston Churchill）",
+      "type": "person",
+      "context": "作为二战自由象征与戴高乐类比",
+      "importance": "low"
+    },
+    {
+      "name": "罗斯福（Franklin D. Roosevelt）",
+      "type": "person",
+      "context": "作为二战自由象征与戴高乐类比",
+      "importance": "low"
+    },
+    {
+      "name": "华盛顿（George Washington）",
+      "type": "person",
+      "context": "被类比为戴高乐对于第五共和国的重要性",
+      "importance": "low"
+    },
+    {
+      "name": "约翰·梅杰（John Major）",
+      "type": "person",
+      "context": "被类比为蓬皮杜的低调继任者形象",
+      "importance": "low"
+    },
+    {
+      "name": "约翰逊（Lyndon B. Johnson）",
+      "type": "person",
+      "context": "提及'伟大社会'改革",
+      "importance": "low"
+    },
+    {
+      "name": "特朗普（Donald Trump）",
+      "type": "person",
+      "context": "提及2024美国大选",
+      "importance": "low"
+    },
+    {
+      "name": "卡玛拉·哈里斯（Kamala Harris）",
+      "type": "person",
+      "context": "被提及在抖音上玩梗宣传",
+      "importance": "low"
+    },
+    {
+      "name": "万斯（J.D. Vance）",
+      "type": "person",
+      "context": "被提及紧跟时尚潮流",
+      "importance": "low"
+    },
+    {
+      "name": "卡拉·布吕尼（Carla Bruni）",
+      "type": "person",
+      "context": "萨科齐的妻子，超模",
+      "importance": "low"
+    },
+    {
+      "name": "法兰西第五共和国（French Fifth Republic）",
+      "type": "organization",
+      "context": "1958年至今的法国政治体制，以强大的总统制为特征",
+      "importance": "high"
+    },
+    {
+      "name": "法兰西第一/二/三/四共和国",
+      "type": "organization",
+      "context": "历史上的法国共和政体，作为第五共和国的历史背景被简述",
+      "importance": "medium"
+    },
+    {
+      "name": "法兰西第一/二帝国",
+      "type": "organization",
+      "context": "拿破仑及其侄子建立的帝国，作为共和国之间的历史阶段",
+      "importance": "low"
+    },
+    {
+      "name": "维希法国（Vichy France）",
+      "type": "organization",
+      "context": "二战期间纳粹扶植的傀儡政权",
+      "importance": "low"
+    },
+    {
+      "name": "北约（NATO）",
+      "type": "organization",
+      "context": "戴高乐时期法国拒绝接受其军事指挥的国际组织",
+      "importance": "medium"
+    },
+    {
+      "name": "欧盟/共同市场（EEC）",
+      "type": "organization",
+      "context": "戴高乐两次否决英国加入申请的经济共同体",
+      "importance": "medium"
+    },
+    {
+      "name": "法国共产党（French Communist Party）",
+      "type": "organization",
+      "context": "1980年代前在知识界占主导，密特朗时期进入政府后支持率暴跌",
+      "importance": "medium"
+    },
+    {
+      "name": "社会党（Socialist Party）",
+      "type": "organization",
+      "context": "密特朗和奥朗德所属的左翼政党，被马克龙崛起所瓦解",
+      "importance": "medium"
+    },
+    {
+      "name": "共和党（The Republicans）",
+      "type": "organization",
+      "context": "中右翼政党，在萨科齐后陷入丑闻并被马克龙崛起所瓦解",
+      "importance": "medium"
+    },
+    {
+      "name": "前进党/共和国前进党（En Marche!）",
+      "type": "organization",
+      "context": "马克龙创立的中间派政党，摧毁了传统左右翼",
+      "importance": "medium"
+    },
+    {
+      "name": "国民阵线/极右翼（National Front）",
+      "type": "organization",
+      "context": "勒庞代表的极右翼政党，在年轻人中获得高支持率",
+      "importance": "medium"
+    },
+    {
+      "name": "《纽约时报》（The New York Times）",
+      "type": "organization",
+      "context": "曾约稿香槟哥分析法国大选",
+      "importance": "low"
+    },
+    {
+      "name": "法国大革命（French Revolution）",
+      "type": "event",
+      "context": "1789年推翻君主制，建立第一共和国，以血腥暴力终结君主制著称",
+      "importance": "medium"
+    },
+    {
+      "name": "阿尔及利亚战争（Algerian War）",
+      "type": "event",
+      "context": "1958年导致第四共和国垮台、第五共和国诞生的殖民地独立战争危机",
+      "importance": "high"
+    },
+    {
+      "name": "五月风暴/68年巴黎学生大暴动（May 1968）",
+      "type": "event",
+      "context": "导致戴高乐辞职的学生运动",
+      "importance": "medium"
+    },
+    {
+      "name": "二战/德国占领（World War II）",
+      "type": "event",
+      "context": "导致第三共和国灭亡和维希法国建立的历史背景",
+      "importance": "low"
+    },
+    {
+      "name": "滑铁卢战役（Battle of Waterloo）",
+      "type": "event",
+      "context": "拿破仑战败，导致第一帝国终结",
+      "importance": "low"
+    },
+    {
+      "name": "1848年革命（Revolutions of 1848）",
+      "type": "event",
+      "context": "建立第二共和国的革命浪潮",
+      "importance": "low"
+    },
+    {
+      "name": "彩虹勇士号事件（Sinking of the Rainbow Warrior）",
+      "type": "event",
+      "context": "密特朗时期法国情报机构炸毁绿色和平组织船只的秘密行动",
+      "importance": "low"
+    },
+    {
+      "name": "2024年法国大选/巴黎奥运会",
+      "type": "event",
+      "context": "播客录制近期的时事背景",
+      "importance": "medium"
+    },
+    {
+      "name": "法国（France）",
+      "type": "place",
+      "context": "讨论的核心国家，法兰西第五共和国的所在地",
+      "importance": "high"
+    },
+    {
+      "name": "巴黎（Paris）",
+      "type": "place",
+      "context": "法国文化中心，决定法国文化时尚的城市，与外省政治保守形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "魁北克（Quebec）",
+      "type": "place",
+      "context": "加拿大法语区，戴高乐在此发表'魁北克自由万岁'言论引发外交危机",
+      "importance": "medium"
+    },
+    {
+      "name": "阿尔及利亚（Algeria）",
+      "type": "place",
+      "context": "法国前殖民地，其独立战争导致第四共和国垮台",
+      "importance": "medium"
+    },
+    {
+      "name": "香槟地区（Champagne）",
+      "type": "place",
+      "context": "播主朋友香槟哥的家乡，代表法国保守农村价值观",
+      "importance": "medium"
+    },
+    {
+      "name": "英国（United Kingdom）",
+      "type": "place",
+      "context": "与法国政治体制对比的对象（议会制 vs 总统制），法国鄙视英美特殊关系",
+      "importance": "medium"
+    },
+    {
+      "name": "美国（United States）",
+      "type": "place",
+      "context": "与法国总统权力对比的对象，戴高乐试图在美苏间保持第三股力量",
+      "importance": "medium"
+    },
+    {
+      "name": "加拿大（Canada）",
+      "type": "place",
+      "context": "戴高乐访问时引发外交危机的国家，被描述为'最没脾气的老好人'",
+      "importance": "low"
+    },
+    {
+      "name": "德国（Germany）",
+      "type": "place",
+      "context": "与法国政治体制对比（总理制），文中提及法国总统权力是否大于美国总统时也隐含与德国总理对比",
+      "importance": "low"
+    },
+    {
+      "name": "德州（Texas）",
+      "type": "place",
+      "context": "香槟哥搬家去的地方，播主朋友离去的地点",
+      "importance": "low"
+    },
+    {
+      "name": "费城（Philadelphia）",
+      "type": "place",
+      "context": "播主和香槟哥一起开会玩耍导致错失写稿机会的城市",
+      "importance": "low"
+    },
+    {
+      "name": "为何法国文化如此进步、法国政治却如此保守？",
+      "type": "concept",
+      "context": "播客标题和核心讨论问题，探讨法国文化界极左与政治界中间偏右的割裂现象",
+      "importance": "high"
+    },
+    {
+      "name": "法兰西第五共和国（French Fifth Republic）",
+      "type": "concept",
+      "context": "1958年戴高乐建立的现行法国政治体制，以强大的总统权力为特征",
+      "importance": "high"
+    },
+    {
+      "name": "总统制/强势总统（Executive Presidency）",
+      "type": "concept",
+      "context": "法国政治制度的核心特征，总统被视为国家象征和'君主'式人物，超越党派",
+      "importance": "high"
+    },
+    {
+      "name": "中间派/温和保守派（Centrist/Centre-right）",
+      "type": "concept",
+      "context": "绝大多数法国总统的政治立场，从戴高乐到马克龙均体现此特征，与左翼文化界形成对比",
+      "importance": "high"
+    },
+    {
+      "name": "马克思主义（Marxism）",
+      "type": "concept",
+      "context": "20世纪法国知识界和文化界的主流意识形态，支持苏联和共产主义，与保守的政治现实脱节",
+      "importance": "high"
+    },
+    {
+      "name": "法兰西例外论（French Exceptionalism）",
+      "type": "concept",
+      "context": "戴高乐代表的外交和自我认知理念，认为法国是独立于美苏的第三股力量，独特且优越",
+      "importance": "medium"
+    },
+    {
+      "name": "文化项目/大工程（Le Grand Projet）",
+      "type": "concept",
+      "context": "法国总统政绩的重要组成部分，如卢浮宫金字塔、蓬皮杜中心等，体现总统对文化的重视",
+      "importance": "medium"
+    },
+    {
+      "name": "议会制 vs 总统制（Parliamentary vs Presidential System）",
+      "type": "concept",
+      "context": "播客中对比英国/德国议会制与法国总统制的核心概念，强调法国总统的'帝王'属性",
+      "importance": "medium"
+    },
+    {
+      "name": "雅各宾专政（Jacobin Dictatorship）",
+      "type": "concept",
+      "context": "法国大革命第一共和国时期的恐怖统治阶段，作为历史背景提及",
+      "importance": "low"
+    },
+    {
+      "name": "维希法国（Vichy France）",
+      "type": "concept",
+      "context": "二战期间纳粹扶植的傀儡政权，导致第三共和国灭亡",
+      "importance": "low"
+    },
+    {
+      "name": "存在主义（Existentialism）",
+      "type": "concept",
+      "context": "萨特代表的哲学流派，作为法国文化进步性的体现",
+      "importance": "low"
+    },
+    {
+      "name": "第三股力量（Third Force）",
+      "type": "concept",
+      "context": "戴高乐外交政策中法国应介于美苏之间的定位",
+      "importance": "medium"
+    },
+    {
+      "name": "110提案（Programme Commun）",
+      "type": "concept",
+      "context": "密特朗竞选时提出的社会主义改革纲领，但执政后放弃",
+      "importance": "medium"
+    }
+  ],
+  "model": "kimi-k2.5",
+  "episode_id": "66bbf911db5e6d6bf919b987",
+  "title": "96-为何法国文化如此进步、法国政治却如此保守？"
+}
