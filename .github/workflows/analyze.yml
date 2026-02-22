@@ -6,6 +6,10 @@ on:
       batch_size:
         description: "Episodes per batch"
         required: false
+        default: "30"
+      workers:
+        description: "Parallel workers"
+        required: false
         default: "10"
       auto_continue:
         description: "Auto-trigger next batch"
@@ -39,7 +43,8 @@ jobs:
         id: analyze
         run: |
           python scripts/analyze_batch.py \
-            --batch-size ${{ inputs.batch_size || '10' }} \
+            --batch-size ${{ inputs.batch_size || '30' }} \
+            --workers ${{ inputs.workers || '10' }} \
             --output-dir data/analysis 2>&1 | tee /tmp/analyze.log
 
           REMAINING=$(grep "Remaining:" /tmp/analyze.log | tail -1 | grep -oP '\d+(?=$)' || echo "0")
@@ -74,5 +79,6 @@ jobs:
         run: |
           echo "🔄 ${{ steps.analyze.outputs.remaining }} remaining, triggering next batch..."
           gh workflow run analyze.yml \
-            --field batch_size=${{ inputs.batch_size || '10' }} \
+            --field batch_size=${{ inputs.batch_size || '30' }} \
+            --field workers=${{ inputs.workers || '10' }} \
             --field auto_continue=true
